@@ -1,0 +1,3 @@
+mkdir 'folder name'
+touch 'file name'
+touch 'filename{1..10}' ->multiple files at once
