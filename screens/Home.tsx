@@ -55,7 +55,12 @@ const Home = () => {
         }}
         style={[styles.circle,{backgroundColor: circle}]}
       >
-        {name ? <Text>Enter</Text> : <Text style={[styles.title,{color: text}]}>Quizzify</Text>}
+        {name ? <Text>Enter</Text> : (
+          <View style={{justifyContent: 'center', alignItems: 'center'}}>
+            <Text style={[styles.title,{color: text}]}>World Wise</Text>
+            <Text style={[styles.title,{color: text}]}>Trivia</Text>
+          </View>
+        )}
       </Pressable>
     </View>
   );
