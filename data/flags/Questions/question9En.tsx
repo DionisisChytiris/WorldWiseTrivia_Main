@@ -456,7 +456,7 @@ const question9En = [
       {
         id: "3",
         img: require("../../../assets/Flags/lithuania.png"),
-        country: ''
+        country: 'Lithuania'
       },
     ],
     correctAnswerIndex: 0,

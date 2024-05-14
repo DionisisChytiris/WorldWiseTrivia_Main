@@ -2,28 +2,28 @@ const question9El = [
     {
       id: "1a",
       status: "Capitals",
-      country: "Tallinn",
+      country: "Tάλιν",
       image: require("../../../assets/Flags/estonia.png"),
       options: [
         {
           id: "0",
-          capital: "Belarus",
-          country: "Minsk",
+          capital: "Λευκορωσία",
+          country: "Mινσκ",
         },
         {
           id: "1",
-          capital: "Latvia",
-          country: "Riga",
+          capital: "Λετονία",
+          country: "Ρίγα",
         },
         {
           id: "2",
-          capital: "Estonia",
-          country: "Tallinn",
+          capital: "Eσθονία",
+          country: "Tάλιν",
         },
         {
           id: "3",
-          capital: "Lithuania",
-          country: "Vilnius",
+          capital: "Λιθουανία",
+          country: "Βίλνιους",
         },
       ],
       correctAnswerIndex: 2,
@@ -31,28 +31,28 @@ const question9El = [
     {
       id: "1b",
       status: "Flags",
-      capital: "Tallinn",
-      country: "Estonia",
+      capital: "Tάλιν",
+      country: "Eσθονία",
       options: [
         {
           id: "0",
           img: require("../../../assets/Flags/finland.png"),
-          country: "Finland",
+          country: "Φινλανδία",
         },
         {
           id: "1",
           img: require("../../../assets/Flags/kazakhstan.png"),
-          country: "Kazakhstan",
+          country: "Kαζακστάν",
         },
         {
           id: "2",
           img: require("../../../assets/Flags/estonia.png"),
-          country: "Estonia",
+          country: "Eσθονία",
         },
         {
           id: "3",
           img: require("../../../assets/Flags/azerbaijan.png"),
-          country: "Mozambique",
+          country: "Mοζαμβίκη",
         },
       ],
       correctAnswerIndex: 2,
@@ -60,37 +60,37 @@ const question9El = [
     {
       id: "1c",
       status: "Guess",
-      word: "ESTONIA",
-      country: "Tallinn",
+      word: "ΕΣΘΟΝΙΑ",
+      country: "Tάλιν",
       num: 7,
-      letters: "ILUEANORSTMC",
+      letters: "ΕΠΟΑΚΛΝΙΣΘΝΜ",
       img: require("../../../assets/Flags/estonia.png"),
     },
     {
       id: "2a",
       status: "Capitals",
-      country: "Astana",
+      country: "Aστάνα",
       image: require("../../../assets/Flags/kazakhstan.png"),
       options: [
         {
           id: "0",
-          capital: 'Armenia',
-          country: 'Yerevan'
+          capital: 'Aρμενία',
+          country: 'Γερεβάν'
         },
         {
           id: "1",
-          capital: 'Kazakhstan',
-          country: 'Astana'
+          capital: 'Kαζακστάν',
+          country: 'Aστανά'
         },
         {
           id: "2",
-          capital: 'Uzbekistan',
-          country: 'Tashkent'
+          capital: 'Ουζμπεκιστάν',
+          country: 'Tασκένδη'
         },
         {
           id: "3",
-          capital: 'Kyrgyzstan',
-          country: 'Bishkek'
+          capital: 'Kιργιστάν',
+          country: 'Μπισκέκ'
         },
       ],
       correctAnswerIndex: 1,
@@ -98,28 +98,28 @@ const question9El = [
     {
       id: "2b",
       status: "Flags",
-      capital: "Astana",
-      country: "Kazakhstan",
+      capital: "Aστάνα",
+      country: "Kαζακστάν",
       options: [
         {
           id: "0",
           img: require("../../../assets/Flags/Rwanda.png"),
-          country: "Rwanda",
+          country: "Ρουάντα",
         },
         {
           id: "1",
           img: require("../../../assets/Flags/kazakhstan.png"),
-          country: "Kazakhstan",
+          country: "Καζακστάν",
         },
         {
           id: "2",
           img: require("../../../assets/Flags/azerbaijan.png"),
-          country: "Azerbaijan",
+          country: "Aζερμπαϊτζάν",
         },
         {
           id: "3",
           img: require("../../../assets/Flags/Palau.png"),
-          country: "Palau",
+          country: "Παλάου",
         },
         
       ],
@@ -128,37 +128,37 @@ const question9El = [
     {
       id: "2c",
       status: "Guess",
-      word: "KAZAKHSTAN",
-      country: "Astana",
-      num: 7,
-      letters: "ILREANOKZHTS",
+      word: "ΚΑΖΑΚΣΤΑΝ",
+      country: "Aστάνα",
+      num: 6,
+      letters: "ΠΟΑΣΡΤΖΚΛΝΕΙ",
       img: require("../../../assets/Flags/kazakhstan.png"),
     },
     {
       id: "3a",
       status: "Capitals",
-      country: "Bangkok",
+      country: "Μπανγκόκ",
       image: require("../../../assets/Flags/thailand.png"),
       options: [
         {
           id: "0",
-          capital: 'Cambodia',
-          country: 'Phnom Penh'
+          capital: 'Καμπότζη',
+          country: 'Πνομ Πεν'
         },
         {
           id: "1",
-          capital: 'Mongolia',
-          country: 'Ulaanbaatar'
+          capital: 'Mογγολία',
+          country: 'Ουλάν Μπατόρ'
         },
         {
           id: "2",
-          capital: 'Laos',
-          country: 'Vientiane'
+          capital: 'Λάος',
+          country: 'Βιεντιάν'
         },
         {
           id: "3",
-          capital: 'Thailand',
-          country: 'Bangkok'
+          capital: 'Ταϊλάνδη',
+          country: 'Μπανγκόκ'
         },
       ],
       correctAnswerIndex: 3,
@@ -167,28 +167,28 @@ const question9El = [
     {
       id: "3b",
       status: "Flags",
-      capital: "Bangkok",
-      country: "Thailand",
+      capital: "Μπανγκόκ",
+      country: "Tαϊλάνδη",
       options: [
         {
           id: "0",
           img: require("../../../assets/Flags/costaRica.png"),
-          country: "Costa Rica",
+          country: "Κόστα Ρίκα",
         },
         {
           id: "1",
           img: require("../../../assets/Flags/Cambodia.png"),
-          country: "Cambodia",
+          country: "Καμπότζη",
         },
         {
           id: "2",
           img: require("../../../assets/Flags/dominican.png"),
-          country: "Dominican Republic",
+          country: "Δομινικανή Δημοκρατία",
         },
         {
           id: "3",
           img: require("../../../assets/Flags/thailand.png"),
-          country: "Thailand",
+          country: "Tαϊλάνδη",
         },
       ],
       correctAnswerIndex: 3,
@@ -196,37 +196,37 @@ const question9El = [
     {
       id: "3c",
       status: "Guess",
-      word: "THAILAND",
-      country: "Bangkok",
+      word: "ΤΑΪΛΑΝΔΗ",
+      country: "Μπανγκόκ",
       num: 7,
-      letters: "ISLEAHYTDOMZ",
+      letters: "ΑΣΛΔΝΗΤΪΠΟΤΕ",
       img: require("../../../assets/Flags/thailand.png"),
     },
     {
       id: "4a",
       status: "Capitals",
-      country: "Suva",
+      country: "Σούβα",
       image: require("../../../assets/Flags/Fiji.png"),
       options: [
         {
           id: "0",
-          capital: 'Samoa',
-          country: 'Apia'
+          capital: 'Σαμόα',
+          country: 'Απία'
         },
         {
           id: "1",
-          capital: 'Fiji',
-          country: 'Suva'
+          capital: 'Φίτζι',
+          country: 'Σούβα'
         },
         {
           id: "2",
-          capital: 'Papua New\nGuinea',
-          country: 'Port Moresby'
+          capital: 'Παπούα Νέα\nΓουινέα',
+          country: 'Πορτ Μόρεσμπι'
         },
         {
           id: "3",
-          capital: 'Solomon Islands',
-          country: 'Honiara'
+          capital: 'Νησιά Σολομώντα',
+          country: 'Χονιάρα'
         },
       ],
       correctAnswerIndex: 1,
@@ -234,28 +234,28 @@ const question9El = [
     {
       id: "4b",
       status: "Flags",
-      capital: "Suva",
-      country: "Fiji",
+      capital: "Σούβα",
+      country: "Φίτζι",
       options: [
         {
           id: "0",
           img: require("../../../assets/Flags/Solomon-Islands.png"),
-          country: "Solomon Islands",
+          country: "Νησιά Σολομώντα",
         },
         {
           id: "1",
           img: require("../../../assets/Flags/Fiji.png"),
-          country: "Fiji",
+          country: "Φίτζι",
         },
         {
           id: "2",
           img: require("../../../assets/Flags/Papua-New-Guinea.png"),
-          country: "Papua New\nGuinea",
+          country: "Παπούα Νέα\nΓουινέα",
         },
         {
           id: "3",
           img: require("../../../assets/Flags/Marshall-Islands.png"),
-          country: "Marshall Islands",
+          country: "Νησιά Μάρσαλ",
         },
       ],
       correctAnswerIndex: 1,
@@ -263,37 +263,37 @@ const question9El = [
     {
       id: "4c",
       status: "Guess",
-      word: "FIJI",
-      country: "Suva",
-      num: 3,
-      letters: "ILUEAFORJPMC",
+      word: "ΦΙΤΖΙ",
+      country: "Σούβα",
+      num: 4,
+      letters: "ΠΟΑΣΛΚΡΤΦΝΙΖ",
       img: require("../../../assets/Flags/Fiji.png"),
     },
     {
       id: "5a",
       status: "Capitals",
-      country: "Baku",
+      country: "Μπακού",
       image: require("../../../assets/Flags/azerbaijan.png"),
       options: [
         {
           id: "0",
-          capital: 'Afghanistan',
-          country: 'Kabul'
+          capital: 'Αφγανιστάν',
+          country: 'Καμπούλ'
         },
         {
           id: "1",
-          capital: 'Tajikistan',
-          country: 'Dushanbe'
+          capital: 'Τατζικιστάν',
+          country: 'Ντουσαμπέ'
         },
         {
           id: "2",
-          capital: 'Azerbaijan',
-          country: 'Baku'
+          capital: 'Αζερμπαϊτζάν',
+          country: 'Μπακού'
         },
         {
           id: "3",
-          capital: 'Kazakhstan',
-          country: 'Astana'
+          capital: 'Kαζακστάν',
+          country: 'Aστάνα'
         },
       ],
       correctAnswerIndex: 2,
@@ -301,28 +301,28 @@ const question9El = [
     {
       id: "5b",
       status: "Flags",
-      capital: "Baku",
-      country: "Azerbaijan",
+      capital: "Μπακού",
+      country: "Aζερμπαϊτζάν",
       options: [
         {
           id: "0",
           img: require("../../../assets/Flags/azerbaijan.png"),
-          country: "Azerbaijan",
+          country: "Aζερμπαϊτζάν",
         },
         {
           id: "1",
           img: require("../../../assets/Flags/Algeria.png"),
-          country: "Algeria",
+          country: "Αλγερία",
         },
         {
           id: "2",
           img: require("../../../assets/Flags/kazakhstan.png"),
-          country: "Kazakhstan",
+          country: "Καζακστάν",
         },
         {
           id: "3",
           img: require("../../../assets/Flags/Rwanda.png"),
-          country: "Rwanda",
+          country: "Ρουάντα",
         },
       ],
       correctAnswerIndex: 0,
@@ -330,37 +330,37 @@ const question9El = [
     {
       id: "5c",
       status: "Guess",
-      word: "AZERBAIJAN",
-      country: "Baku",
-      num: 8,
-      letters: "ILUEANORZBJC",
+      word: "ΑΖΕΡΜΠΑΪΤΖΑΝ",
+      country: "Μπακού",
+      num: 9,
+      letters: "ΖΤΠΟΕΚΛΑΜΝΡΪ",
       img: require("../../../assets/Flags/azerbaijan.png"),
     },
     {
       id: "6a",
       status: "Capitals",
-      country: "Algiers",
+      country: "Αλγέρι",
       image: require("../../../assets/Flags/Algeria.png"),
       options: [
         {
           id: "0",
-          capital: 'Libya',
-          country: 'Tripoli'
+          capital: 'Λιβύη',
+          country: 'Tρίπολη'
         },
         {
           id: "1",
-          capital: 'Tunisia',
-          country: 'Tunis'
+          capital: 'Tυνησία',
+          country: 'Tύνιδα'
         },
         {
           id: "2",
-          capital: 'Egypt',
-          country: 'Cairo'
+          capital: 'Αίγυπτος',
+          country: 'Κάιρο'
         },
         {
           id: "3",
-          capital: 'Algeria',
-          country: 'Algiers'
+          capital: 'Aλγερία',
+          country: 'Aλγέρι'
         },
       ],
       correctAnswerIndex: 3,
@@ -368,28 +368,28 @@ const question9El = [
     {
       id: "6b",
       status: "Flags",
-      capital: "Algiers",
-      country: "Algeria",
+      capital: "Aλγέρι",
+      country: "Aλγερία",
       options: [
         {
           id: "0",
           img: require("../../../assets/Flags/azerbaijan.png"),
-          country: "Azerbaijan",
+          country: "Αζερμπαϊτζάν",
         },
         {
           id: "1",
           img: require("../../../assets/Flags/libya.png"),
-          country: "Libya",
+          country: "Λιβύη",
         },
         {
           id: "2",
           img: require("../../../assets/Flags/pakistan.png"),
-          country: "Pakistan",
+          country: "Πακιστάν",
         },
         {
           id: "3",
           img: require("../../../assets/Flags/Algeria.png"),
-          country: "Algeria",
+          country: "Aλγερία",
         },
       ],
       correctAnswerIndex: 3,
@@ -397,37 +397,37 @@ const question9El = [
     {
       id: "6c",
       status: "Guess",
-      word: "ALGERIA",
-      country: "Algiers",
+      word: "ΑΛΓΕΡΙΑ",
+      country: "Aλγέρι",
       num: 6,
-      letters: "ILUEAGORJPMC",
+      letters: "ΑΣΠΟΕΡΓΜΝΛΙΥ",
       img: require("../../../assets/Flags/Algeria.png"),
     },
     {
       id: "7a",
       status: "Capitals",
-      country: "Yaounde",
+      country: "Γιαουντέ",
       image: require("../../../assets/Flags/Cameroon.png"),
       options: [
         {
           id: "0",
-          capital: 'Cameroon',
-          country: 'Yaounde'
+          capital: 'Καμερούν',
+          country: 'Γιαουντέ'
         },
         {
           id: "1",
-          capital: 'Nigeria',
-          country: 'Abuja'
+          capital: 'Nιγηρία',
+          country: 'Aμπούτζα'
         },
         {
           id: "2",
-          capital: 'Angola',
-          country: 'Luanda'
+          capital: 'Aνγκόλα',
+          country: 'Λουάντα'
         },
         {
           id: "3",
-          capital: 'Zambia',
-          country: 'Lusaka'
+          capital: 'Zάμπια',
+          country: 'Λουσάκα'
         },
       ],
       correctAnswerIndex: 0,
@@ -435,28 +435,28 @@ const question9El = [
     {
       id: "7b",
       status: "Flags" ,
-      capital: "Yaounde",
-      country: "Cameroon",
+      capital: "Γιαουντέ",
+      country: "Καμερούν",
       options: [
         {
           id: "0",
           img: require("../../../assets/Flags/Cameroon.png"),
-          country: 'Cameroon'
+          country: 'Καμερούν'
         },
         {
           id: "1",
           img: require("../../../assets/Flags/senegal.png"),
-          country: 'Senegal'
+          country: 'Σενεγάλη'
         },
         {
           id: "2",
           img: require("../../../assets/Flags/bolivia.png"),
-          country: 'Bolivia'
+          country: 'Βολιβία'
         },
         {
           id: "3",
           img: require("../../../assets/Flags/lithuania.png"),
-          country: ''
+          country: 'Λιθουανία'
         },
       ],
       correctAnswerIndex: 0,
@@ -464,37 +464,37 @@ const question9El = [
     {
       id: "7c",
       status: "Guess",
-      word: "CAMEROON",
-      country: "Yaounde",
-      num: 7,
-      letters: "ISLEANYTROMC",
+      word: "ΚΑΜΕΡΟΥΝ",
+      country: "Γιαουντέ",
+      num: 8,
+      letters: "ΠΟΑΣΡΝΥΚΜΕΙΔ",
       img: require("../../../assets/Flags/Cameroon.png"),
     },
     {
       id: "8a",
       status: "Capitals",
-      country: "Kingston",
+      country: "Κίνγκστον",
       image: require("../../../assets/Flags/jamaica.png"),
       options: [
         {
           id: "0",
-          capital: 'Haiti',
-          country: 'Port-au-Prince'
+          capital: 'Αϊτή',
+          country: 'Πορτ-ο-Πρενς'
         },
         {
           id: "1",
-          capital: 'Jamaica',
-          country: 'Kingston'
+          capital: 'Τζαμάικα',
+          country: 'Kίνγκστον'
         },
         {
           id: "2",
-          capital: 'The Bahamas',
-          country: 'Nassau'
+          capital: 'Μπαχάμες',
+          country: 'Nασσάου'
         },
         {
           id: "3",
-          capital: 'Puerto Rico',
-          country: 'San Juan'
+          capital: 'Πουέρτο Ρίκο',
+          country: 'Σαν Χουάν'
         },
       ],
       correctAnswerIndex: 1,
@@ -502,28 +502,28 @@ const question9El = [
     {
       id: "8b",
       status: "Flags",
-      capital: "Kingston",
-      country: "Jamaica",
+      capital: "Κίνγκστον",
+      country: "Τζαμάικα",
       options: [
         {
           id: "0",
           img: require("../../../assets/Flags/Mozambique.png"),
-          country: "Mozambique",
+          country: "Μοζαμβίκη",
         },
         {
           id: "1",
           img: require("../../../assets/Flags/jamaica.png"),
-          country: "Jamaica",
+          country: "Τζαμάικα",
         },
         {
           id: "2",
           img: require("../../../assets/Flags/Solomon-Islands.png"),
-          country: "Solomon Islands",
+          country: "Νησιά Σολομώντα",
         },
         {
           id: "3",
           img: require("../../../assets/Flags/Zimbabwe.png"),
-          country: "Zimbabwe",
+          country: "Zιμπάμπουε",
         },
       ],
       correctAnswerIndex: 1,
@@ -531,37 +531,37 @@ const question9El = [
     {
       id: "8c",
       status: "Guess",
-      word: "JAMAICA",
-      country: "Kingston",
-      num: 5,
-      letters: "ILUEANORJPMC",
+      word: "ΤΖΑΜΑΙΚΑ",
+      country: "Κίνγκστον",
+      num: 6,
+      letters: "ΠΟΑΣΝΙΜΤΕΥΖΚ",
       img: require("../../../assets/Flags/jamaica.png"),
     },
     {
       id: "9a",
       status: "Capitals",
-      country: "Muscat",
+      country: "Mουσκάτ",
       image: require("../../../assets/Flags/Oman.png"),
       options: [
         {
           id: "0",
-          capital: 'Kuwait',
-          country: 'Kuwait'
+          capital: 'Κουβέιτ',
+          country: 'Κουβέιτ'
         },
         {
           id: "1",
-          capital: 'Saudi Arabia',
-          country: 'Riyadh'
+          capital: 'Σαουδική Αραβία',
+          country: 'Ριάντ'
         },
         {
           id: "2",
-          capital: 'Yemen',
-          country: "Sana'a"
+          capital: 'Υεμένη',
+          country: "Σανάα"
         },
         {
           id: "3",
-          capital: 'Oman',
-          country: 'Muscat'
+          capital: 'Ομάν',
+          country: 'Mουσκάτ'
         },
       ],
       correctAnswerIndex: 3,
@@ -569,28 +569,28 @@ const question9El = [
     {
       id: "9b",
       status: "Flags",
-      capital: "Muscat",
-      country: "Oman",
+      capital: "Μουσκάτ",
+      country: "Oμάν",
       options: [
         {
           id: "0",
           img: require("../../../assets/Flags/Kuwait.png"),
-          country: "Kuwait",
+          country: "Κουβέιτ",
         },
         {
           id: "1",
           img: require("../../../assets/Flags/United-Arab-Emirates.png"),
-          country: "United\nArab Emirates",
+          country: "Ηνωμένα\nΑραβικά Εμιράτα",
         },
         {
           id: "2",
           img: require("../../../assets/Flags/Madagascar.png"),
-          country: "Madagascar",
+          country: "Μαδαγασκάρη",
         },
         {
           id: "3",
           img: require("../../../assets/Flags/Oman.png"),
-          country: "Muscat",
+          country: "Mουσκάτ",
         },
       ],
       correctAnswerIndex: 3,
@@ -598,37 +598,37 @@ const question9El = [
     {
       id: "9c",
       status: "Guess",
-      word: "OMAN",
-      country: "Muscat",
+      word: "ΟΜΑΝ",
+      country: "Mουσκάτ",
       num: 4,
-      letters: "ILUEANORJPMC",
+      letters: "ΠΟΑΣΤΜΝΕΒΚΙΥ",
       img: require("../../../assets/Flags/Oman.png"),
     },
     {
       id: "10a",
       status: "Capitals",
-      country: "Beirut",
+      country: "Βηρυτός",
       image: require("../../../assets/Flags/lebanon.png"),
       options: [
         {
           id: "0",
-          capital: 'Syria',
-          country: 'Damascus'
+          capital: 'Συρία',
+          country: 'Δαμασκός'
         },
         {
           id: "1",
-          capital: 'Lebanon',
-          country: 'Beirut'
+          capital: 'Λίβανος',
+          country: 'Βηρυτός'
         },
         {
           id: "2",
-          capital: 'Libya',
-          country: 'Tripoli'
+          capital: 'Λιβύη',
+          country: 'Tρίπολη'
         },
         {
           id: "3",
-          capital: 'Jordan',
-          country: 'Amman'
+          capital: 'Ιορδανία',
+          country: 'Aμμάν'
         },
       ],
       correctAnswerIndex: 1,
@@ -636,28 +636,28 @@ const question9El = [
     {
       id: "10b",
       status: "Flags",
-      capital: "Beirut",
-      country: "Lebanon",
+      capital: "Βηρυτός",
+      country: "Λίβανος",
       options: [
         {
           id: "0",
           img: require("../../../assets/Flags/peru.png"),
-          country: "Peru",
+          country: "Περού",
         },
         {
           id: "1",
           img: require("../../../assets/Flags/lebanon.png"),
-          country: "Lebanon",
+          country: "Λίβανος",
         },
         {
           id: "2",
           img: require("../../../assets/Flags/Moldova.png"),
-          country: "Moldova",
+          country: "Μολδαβία",
         },
         {
           id: "3",
           img: require("../../../assets/Flags/estonia.png"),
-          country: "Estonia",
+          country: "Eσθονία",
         },
       ],
       correctAnswerIndex: 1,
@@ -665,10 +665,10 @@ const question9El = [
     {
       id: "10c",
       status: "Guess",
-      word: "LEBANON",
-      country: "Beirut",
-      num: 6,
-      letters: "ILUEANORBPMC",
+      word: "ΛΙΒΑΝΟΣ",
+      country: "Βηρυτός",
+      num: 7,
+      letters: "ΠΟΑΣΛΙΥΒΝΕΤΜ",
       img: require("../../../assets/Flags/lebanon.png"),
     },
     {
