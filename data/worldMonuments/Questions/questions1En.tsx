@@ -1,8 +1,8 @@
 const questions1En = [
   {
     id: "1a",
-    status: "Capitals",
     img: 'L',
+    status: "Capitals",
     country: "France",
     image: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
     options: [
@@ -250,7 +250,7 @@ const questions1En = [
       {
         id: "1",
         capital: 'Atomium',
-        country: 'Brussels'
+        country: 'Belgium'
       },
       {
         id: "2",
@@ -594,6 +594,7 @@ const questions1En = [
     monument: "",
     country: "",
   },
+  //Dont delete. It s missing status: 'Guess'
   {
     id: "11a",
     monument: "",

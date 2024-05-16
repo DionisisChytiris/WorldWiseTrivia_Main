@@ -92,6 +92,7 @@ import {
   CptNameEs,
   CptNameEl,
 } from "../../ReduxSetUp/CapitalsQuizSlices";
+import { Monuments1Slice, quizMnt1El, quizMnt1En, quizMnt1Es } from "../../ReduxSetUp/MonumentsQuizSlices";
 import { MonEuEl, MonEuEs, MonEuEn, MonOcnEl, MonOcnEn, MonOcnEs,  MonAfEl,MonAfEn, MonAfEs, MonAmEl, MonAmEn, MonAmEs, MonAsEl, MonAsEn, MonAsEs } from "../../ReduxSetUp/MonumentsLearnSlices";
 
 const DrawerContent = (props) => {
@@ -167,6 +168,7 @@ const DrawerContent = (props) => {
     dispatch(MonAmEn());
     dispatch(MonAsEn());
     dispatch(CptNameEn())
+    dispatch(quizMnt1En())
     // setColor1(colors.buttonDrawerBackground);
     // setColor2("");
     // setColor3("");
@@ -203,6 +205,7 @@ const DrawerContent = (props) => {
     dispatch(MonAfEs());
     dispatch(MonAsEs());
     dispatch(CptNameEs())
+    dispatch(quizMnt1Es())
     // setColor2(colors.buttonDrawerBackground);
     // setColor1("");
     // setColor3("");
@@ -240,6 +243,7 @@ const DrawerContent = (props) => {
     dispatch(MonAmEl());
     dispatch(MonAsEl());
     dispatch(CptNameEl())
+    dispatch(quizMnt1El())
     // setColor3(colors.buttonDrawerBackground);
     // setColor1("");
     // setColor2("");

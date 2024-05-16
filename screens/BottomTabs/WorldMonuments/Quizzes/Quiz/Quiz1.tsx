@@ -7,8 +7,9 @@ import questions1En from '../../../../../data/worldMonuments/Questions/questions
 
 const Quiz1 = () => {
   const {initStatus} = useAppSelector((state)=>state.quizStatus)
+  const {quiz1ItemsMonuments} = useAppSelector((state)=>state.quiz1Monuments)
   return (
-    <QuizMainTemplate dataQuiz={questions1En} quizName='1' results='ResultsMnt1'  status={initStatus}/>
+    <QuizMainTemplate dataQuiz={quiz1ItemsMonuments} quizName='1' results='ResultsMnt1'  status={initStatus}/>
   )
 };
 

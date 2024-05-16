@@ -8,6 +8,7 @@ import flagsAsiaSlice from './FlagsLearnSlices/flagsAsiaSlice'
 import flagsOceaniaSlice from './FlagsLearnSlices/flagsOceaniaSlice'
 import { Quiz1Slice, Quiz2Slice, Quiz3Slice, Quiz4Slice, Quiz10Slice, Quiz5Slice, Quiz6Slice, Quiz7Slice, Quiz8Slice, Quiz9Slice} from './FlagsQuizSlices'
 import { Capitals1Slice, Capitals2Slice, Capitals3Slice, Capitals4Slice, Capitals5Slice, Capitals6Slice, Capitals7Slice, Capitals8Slice, Capitals9Slice, Capitals10Slice, CapitalsMapsSlice} from './CapitalsQuizSlices'
+import { Monuments1Slice } from './MonumentsQuizSlices'
 import { MonEuropeSlice, MonOceaniaSlice, MonAfricaSlice, MonAmericaSlice, MonAsiaSlice } from './MonumentsLearnSlices'
 import QuizStatusSlice from '../ReduxSetUp/QuizStatus/QuizStatus'
 
@@ -46,6 +47,7 @@ export const store = configureStore({
         MonumentsAf: MonAfricaSlice,
         MonumentsAm: MonAmericaSlice,
         MonumentsAsia: MonAsiaSlice,
+        quiz1Monuments: Monuments1Slice,
         quizStatus: QuizStatusSlice,
         CapitalsMapNames: CapitalsMapsSlice,
     },

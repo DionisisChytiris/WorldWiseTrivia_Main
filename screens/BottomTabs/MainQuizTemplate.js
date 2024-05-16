@@ -185,7 +185,7 @@ const QuizMainTemplate = (props) => {
               </View>
               {/* <Text>{guesses}</Text> */}
               <View style={{ position: "absolute", top: 25 }}>
-                <Text>{currentQuestion.country}</Text>
+                <Text style={{ color: colors.text}}>{currentQuestion.country}</Text>
               </View>
               <View style={{ marginTop: 50 }}>
                 <Image source={currentQuestion.img} style={styles.guessImg} />
