@@ -67,7 +67,7 @@ const questions2El = [
     options: [
       {
         id: "0",
-        capital: "Αΐτ-Μπεν-Χαντού",
+        capital: "Αΐτ-Μπεν-\nΧαντού",
         country: "Mαρόκο",
       },
       {
@@ -278,7 +278,7 @@ const questions2El = [
       },
       {
         id: "1",
-        country: "Αψίδα του Θριάμβου\nFrance",
+        country: "Αψίδα του Θριάμβου\nΓαλλία",
         img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png"),
       },
       {
@@ -554,7 +554,7 @@ const questions2El = [
       },
       {
         id: "3",
-        capital: "St Basil's \nCathedral",
+        capital: "Καθεδρικός Ναός \nΑγίου Βασιλείου",
         country: "Ρωσία",
       },
     ],
@@ -578,7 +578,7 @@ const questions2El = [
       },
       {
         id: "2",
-        country: "Ξύλινη εκκλησία Βόργουντ\nNορβηγία",
+        country: "Ξύλινη εκκλησία Μπόργουντ\nNορβηγία",
         img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
       },
       {

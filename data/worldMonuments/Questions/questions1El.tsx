@@ -13,7 +13,7 @@ const questions1El = [
       },
       {
         id: "1",
-        capital: 'Πύργος της Πίζας',
+        capital: 'Κεκλιμένος Πύργος\nτης Πίζας',
         country: 'Ιταλία'
       },
       {
@@ -52,7 +52,7 @@ const questions1El = [
       },
       {
         id: "3",
-        country: "Πύργος της Πίζας\nΙταλία",
+        country: "Κεκλιμένος Πύργος της Πίζας\nΙταλία",
         img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
       },
     ],
@@ -303,7 +303,7 @@ const questions1El = [
     options: [
       {
         id: "0",
-        capital: 'Πύλη του Βρανδεμβούργου',
+        capital: 'Πύλη του \nΒρανδεμβού-\nργου',
         country: 'Γερμανία'
       },
       {
@@ -377,7 +377,7 @@ const questions1El = [
       },
       {
         id: "3",
-        capital: 'Αμφιθέατρο της Αρλ',
+        capital: 'Αμφιθέατρο\nτης Αρλ',
         country: 'Γαλλία'
       },
     ],
@@ -421,7 +421,7 @@ const questions1El = [
     options: [
       {
         id: "0",
-        capital: 'Μάτσου Πίτσου',
+        capital: 'Μάτσου\nΠίτσου',
         country: 'Περού'
       },
       {

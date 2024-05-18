@@ -640,7 +640,7 @@ const question1El = [
         {
           id: "0",
           img: require("../../../assets/Flags/australia.png"),
-          country: 'Australia'
+          country: 'Αυστραλία'
         },
         {
           id: "1",

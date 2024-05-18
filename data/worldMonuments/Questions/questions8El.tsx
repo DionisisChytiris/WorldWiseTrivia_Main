@@ -8,13 +8,13 @@ const questions8El = [
     options: [
       {
         id: "0",
-        capital: 'Knossos',
-        country: 'Greece'
+        capital: 'Κνωσός',
+        country: 'Ελλάδα'
       },
       {
         id: "1",
         capital: 'Medina of\nMarrakech',
-        country: 'Morocco'
+        country: 'Μαρόκο'
       },
       {
         id: "2",
@@ -37,12 +37,12 @@ const questions8El = [
       options: [
         {
           id: "0",
-          name: "Knossos\nGreece",
+          name: "Κνωσός\nΕλλάδα",
           img: require("../../../assets/WorldMonuments/Europe/knossos.png"),
         },
         {
           id: "1",
-          name: "Great Pyramid of Giza\nEgypt",
+          name: "Great Pyramid of Giza\nΑίγυπτος",
           img: require("../../../assets/WorldMonuments/Africa/Pyramids.png"),
         },
         {
@@ -52,7 +52,7 @@ const questions8El = [
         },
         {
           id: "3",
-          name: "Temple of Isis\nEgypt",
+          name: "Temple of Isis\nΑίγυπτος",
           img: require("../../../assets/WorldMonuments/Africa/temple_isis-Aswan.png"),
         },
       ],
@@ -68,7 +68,7 @@ const questions8El = [
         {
           id: "0",
           capital: 'Alcatraz\nIsland',
-          country: 'USA'
+          country: 'ΗΠΑ'
         },
         {
           id: "1",
@@ -78,12 +78,12 @@ const questions8El = [
         {
           id: "2",
           capital: 'Great Ocean\nRoad',
-          country: 'Australia'
+          country: 'Αυστραλία'
         },
         {
           id: "3",
-          capital: 'Tulum',
-          country: 'Mexico'
+          capital: 'Τουλούμ',
+          country: 'Mεξικό'
         },
       ],
       correctAnswerIndex: 1,
@@ -96,7 +96,7 @@ const questions8El = [
       options: [
         {
           id: "0",
-          name: "Alcatraz Island\nUSA",
+          name: "Alcatraz Island\nΗΠΑ",
           img: require("../../../assets/WorldMonuments/USA/alcatraz.png"),
         },
         {
@@ -106,12 +106,12 @@ const questions8El = [
         },
         {
           id: "2",
-          name: "Great Ocean Road\nAustralia",
+          name: "Great Ocean Road\nΑυστραλία",
           img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.png"),
         },
         {
           id: "3",
-          name: "Tulum\nMexico",
+          name: "Τουλούμ\nMεξικό",
           img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
         },
       ],
@@ -121,28 +121,28 @@ const questions8El = [
       id: "3a",
       status: "Capitals",
       img: 'L',
-      country: "France",
+      country: "Γαλλία",
       image: require("../../../assets/WorldMonuments/Europe/AmpitheatreofArles.png"),
       options: [
         {
           id: "0",
           capital: 'Leaning\nTower of Pisa',
-          country: 'Italy'
+          country: 'Ιταλία'
         },
         {
           id: "1",
           capital: 'Mont \nSaint Michel',
-          country: 'France'
+          country: 'Γαλλία'
         },
         {
           id: "2",
           capital: 'Amphitheatre\nof Arles',
-          country: 'France'
+          country: 'Γαλλία'
         },
         {
           id: "3",
-          capital: 'Colosseum',
-          country: 'Italy'
+          capital: 'Κολοσσαίο',
+          country: 'Ιταλία'
         },
       ],
       correctAnswerIndex: 2,
@@ -151,26 +151,26 @@ const questions8El = [
       id: "3b",
       status: "Flags",
       country: "Amphitheatre of Arles",
-      capital: "France",
+      capital: "Γαλλία",
       options: [
         {
           id: "0",
-          name: "Colosseum\nItaly",
+          name: "Κολοσσαίο\nΙταλία",
           img: require("../../../assets/WorldMonuments/Europe/colosseum.png"),
         },
         {
           id: "1",
-          name: "Mont Saint Michel\nFrance",
+          name: "Mont Saint Michel\nΓαλλία",
           img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
         },
         {
           id: "2",
-          name: "Arles Amphitheatre\nFrance",
+          name: "Arles Amphitheatre\nΓαλλία",
           img: require("../../../assets/WorldMonuments/Europe/AmpitheatreofArles.png"),
         },
         {
           id: "3",
-          name: "Leaning Tower of Pisa\nItaly",
+          name: "Κεκλιμένος Πύργος της Πίζας\nΙταλία",
           img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
         },
       ],
@@ -180,13 +180,13 @@ const questions8El = [
       id: "4a",
       status: "Capitals",
       img: 'L',
-      country: "Belgium",
+      country: "Βέλγιο",
       image: require("../../../assets/WorldMonuments/Europe/Atomium.png"),
       options: [
         {
           id: "0",
-          capital: 'Atomium',
-          country: 'Belgium'
+          capital: 'Ατόμιουμ',
+          country: 'Βέλγιο'
         },
         {
           id: "1",
@@ -196,12 +196,12 @@ const questions8El = [
         {
           id: "2",
           capital: 'Cloud Gate',
-          country: 'USA'
+          country: 'ΗΠΑ'
         },
         {
           id: "3",
-          capital: 'Big Ben',
-          country: 'UK'
+          capital: 'Μπιγκ Μπεν',
+          country: 'Ηνωμένο Βασίλειο'
         },
       ],
       correctAnswerIndex: 0,
@@ -209,12 +209,12 @@ const questions8El = [
     {
       id: "4b",
       status: "Flags",
-      country: "Atomium",
-      capital: "Belgium",
+      country: "Ατόμιουμ",
+      capital: "Βέλγιο",
       options: [
         {
           id: "0",
-          name: "Atomium\nBelgium",
+          name: "Ατόμιουμ\nBelgium",
           img: require("../../../assets/WorldMonuments/Europe/Atomium.png"),
         },
         {
@@ -224,7 +224,7 @@ const questions8El = [
         },
         {
           id: "2",
-          name: "Cloud Gate\nUSA",
+          name: "Cloud Gate\nΗΠΑ",
           img: require("../../../assets/WorldMonuments/USA/cloud-gate-chicago.png"),
         },
         {
@@ -239,28 +239,28 @@ const questions8El = [
       id: "5a",
       status: "Capitals",
       img: 'L',
-      country: "France",
+      country: "Γαλλία",
       image: require("../../../assets/WorldMonuments/Europe/sainte-Chapelle.png"),
       options: [
         {
           id: "0",
-          capital: 'Sistine Chapel',
-          country: 'Vatican City'
+          capital: 'Καπέλα Σιστίνα',
+          country: 'Βατικανό'
         },
         {
           id: "1",
           capital: 'Louvre\nMuseum',
-          country: 'France'
+          country: 'Γαλλία'
         },
         {
           id: "2",
           capital: 'Sainte Chapelle',
-          country: 'France'
+          country: 'Γαλλία'
         },
         {
           id: "3",
-          capital: 'Notre Dame',
-          country: 'France'
+          capital: 'Παναγία των Παρισίων',
+          country: 'Γαλλία'
         },
       ],
       correctAnswerIndex: 2,
@@ -269,26 +269,26 @@ const questions8El = [
       id: "5b",
       status: "Flags",
       country: "Sainte Chapelle",
-      capital: "France",
+      capital: "Γαλλία",
       options: [
         {
           id: "0",
-          name: "Sistine Chapel\nVatican City",
+          name: "Καπέλα Σιστίνα\nVatican City",
           img: require("../../../assets/WorldMonuments/Europe/sistineChapel.png"),
         },
         {
           id: "1",
-          name: "Louvre Museum\nFrance",
+          name: "Louvre Museum\nΓαλλία",
           img: require("../../../assets/WorldMonuments/Europe/LouvreMuseum.png"),
         },
         {
           id: "2",
-          name: "Sainte Chapelle\nFrance",
+          name: "Sainte Chapelle\nΓαλλία",
           img: require("../../../assets/WorldMonuments/Europe/sainte-Chapelle.png"),
         },
         {
           id: "3",
-          name: "Notre Dame\nFrance",
+          name: "Παναγία των Παρισίων\nΓαλλία",
           img: require("../../../assets/WorldMonuments/Europe/notreDame.png"),
         },
       ],
@@ -303,8 +303,8 @@ const questions8El = [
       options: [
         {
           id: "0",
-          capital: 'Stonehenge',
-          country: 'UK'
+          capital: 'Στόουνχεντζ',
+          country: 'Ηνωμένο Βασίλειο'
         },
         {
           id: "1",
@@ -314,12 +314,12 @@ const questions8El = [
         {
           id: "2",
           capital: 'Ruins \nof Pompeii',
-          country: 'Italy'
+          country: 'Ιταλία'
         },
         {
           id: "3",
-          capital: 'Meteora',
-          country: 'Greece'
+          capital: 'Μετέωρα',
+          country: 'Ελλάδα'
         },
       ],
       correctAnswerIndex: 1,
@@ -332,7 +332,7 @@ const questions8El = [
       options: [
         {
           id: "0",
-          name: "Stonehedge\nUK",
+          name: "Στόουνχεντζ\nΗνωμένο Βασίλειο",
           img: require("../../../assets/WorldMonuments/Europe/stonehenge.png"),
         },
         {
@@ -342,12 +342,12 @@ const questions8El = [
         },
         {
           id: "2",
-          name: "Ruins of Pompeii\nItaly",
+          name: "Ruins of Pompeii\nΙταλία",
           img: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.png"),
         },
         {
           id: "3",
-          name: "Meteora\nGreece",
+          name: "Μετέωρα\nΕλλάδα",
           img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
         },
       ],
@@ -363,17 +363,17 @@ const questions8El = [
         {
           id: "0",
           capital: 'Duomo\ndi Milan',
-          country: 'Italy'
+          country: 'Ιταλία'
         },
         {
           id: "1",
-          capital: 'Mexico city\nCathedral',
-          country: 'Mexico'
+          capital: 'Mεξικό city\nCathedral',
+          country: 'Mεξικό'
         },
         {
           id: "2",
           capital: 'Brandenburg\nGate',
-          country: 'Germany'
+          country: 'Γερμανία'
         },
         {
           id: "3",
@@ -391,17 +391,17 @@ const questions8El = [
       options: [
         {
           id: "0",
-          name: "Duomo di Milan\nItaly",
+          name: "Duomo di Milan\nΙταλία",
           img: require("../../../assets/WorldMonuments/Europe/cathedralMilan.png"),
         },
         {
           id: "1",
-          name: "Brandenburg Gate\nGermany",
+          name: "Brandenburg Gate\nΓερμανία",
           img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
         },
         {
           id: "2",
-          name: "Mexico City Cathedral\nMexico",
+          name: "Mεξικό City Cathedral\nMεξικό",
           img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png"),
         },
         {
@@ -416,28 +416,28 @@ const questions8El = [
       id: "8a",
       status: "Capitals",
       img: 'L',
-      country: "Spain",
+      country: "Ισπανία",
       image: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png"),
       options: [
         {
           id: "0",
           capital: 'Louvre\nMuseum',
-          country: 'France'
+          country: 'Γαλλία'
         },
         {
           id: "1",
           capital: 'Guggenheim\nMuseum',
-          country: 'Spain'
+          country: 'Ισπανία'
         },
         {
           id: "2",
-          capital: 'Registan',
+          capital: 'Ρέγκισταν',
           country: 'Uzbekistan'
         },
         {
           id: "3",
           capital: 'Space Needle',
-          country: 'USA'
+          country: 'ΗΠΑ'
         },
       ],
       correctAnswerIndex: 1,
@@ -446,11 +446,11 @@ const questions8El = [
       id: "8b",
       status: "Flags",
       country: "Guggenheim Museum Bilbao",
-      capital: "Spain",
+      capital: "Ισπανία",
       options: [
         {
           id: "0",
-          name: "Louvre Museum\nFrance",
+          name: "Louvre Museum\nΓαλλία",
           img: require("../../../assets/WorldMonuments/Europe/LouvreMuseum.png"),
         },
         {
@@ -460,7 +460,7 @@ const questions8El = [
         },
         {
           id: "2",
-          name: "Space Needle\nUSA",
+          name: "Space Needle\nΗΠΑ",
           img: require("../../../assets/WorldMonuments/USA/spaceNeedle_Seattle.png"),
         },
         {
@@ -475,18 +475,18 @@ const questions8El = [
       id: "9a",
       status: "Capitals",
       img: 'L',
-      country: "Australia",
+      country: "Αυστραλία",
       image: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.jpg"),
       options: [
         {
           id: "0",
           capital: 'Golden\nGate Bridge',
-          country: 'USA'
+          country: 'ΗΠΑ'
         },
         {
           id: "1",
-          capital: 'Tulum',
-          country: 'Mexico'
+          capital: 'Τουλούμ',
+          country: 'Mεξικό'
         },
         {
           id: "2",
@@ -505,21 +505,21 @@ const questions8El = [
       id: "9b",
       status: "Flags",
       country: "Gold Coast",
-      capital: "Australia",
+      capital: "Αυστραλία",
       options: [
         {
           id: "0",
-          name: "Golden Gate Bridge\nUSA",
+          name: "Γέφυρα Γκόλντεν Γκέιτ\nΗΠΑ",
           img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.png"),
         },
         {
           id: "1",
-          name: "Tulum\nMexico",
+          name: "Τουλούμ\nMεξικό",
           img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
         },
         {
           id: "2",
-          name: "Gold Coast\nAustralia",
+          name: "Gold Coast\nΑυστραλία",
           img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.png"),
         },
         {
@@ -545,17 +545,17 @@ const questions8El = [
         {
           id: "1",
           capital: 'Aït\nBenhaddou',
-          country: 'Morocco'
+          country: 'Μαρόκο'
         },
         {
           id: "2",
           capital: 'Alhambra',
-          country: 'Spain'
+          country: 'Ισπανία'
         },
         {
           id: "3",
           capital: 'Cité de \nCarcassonne',
-          country: 'France'
+          country: 'Γαλλία'
         },
       ],
       correctAnswerIndex: 0,
@@ -578,7 +578,7 @@ const questions8El = [
         },
         {
           id: "2",
-          name: "Cité de Carcassonne\nFrance",
+          name: "Cité de Carcassonne\nΓαλλία",
           img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
         },
         {

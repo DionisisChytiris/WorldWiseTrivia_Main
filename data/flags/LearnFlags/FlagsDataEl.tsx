@@ -688,7 +688,7 @@ const FlagsDataEl = [
      {
          id: '70',
          continent: 'Europe',
-         country: 'Spain',
+         country: 'Ισπανία',
          capital: 'Madrid',
          img: require('../../../assets/Flags/spain.png')
      },

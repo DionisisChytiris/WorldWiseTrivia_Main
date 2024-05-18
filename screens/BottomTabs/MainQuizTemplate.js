@@ -365,7 +365,8 @@ const QuizMainTemplate = (props) => {
                     >
                       <Text
                         style={{
-                          fontSize: 18,
+                          fontSize: item.capital.length > 22 ? 16: 18,
+                          // fontSize: 18,
                           fontWeight: "500",
                           color: colors.text,
                           textAlign: "center",

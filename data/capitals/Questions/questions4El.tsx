@@ -219,7 +219,7 @@ const question4El = [
       {
         id: "2",
         capital: "Ραμπάτ",
-        country: "Morocco",
+        country: "Μαρόκο",
       },
       {
         id: "3",

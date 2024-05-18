@@ -3,12 +3,13 @@ import React from "react";
 import { useAppSelector } from "../../../../../ReduxSetUp/store";
 import QuizMainTemplate from "../../../MainQuizTemplate";
 import QuizTemplate from "../QuizTemplate";
-import questions7En from '../../../../../data/worldMonuments/Questions/questions7En'
+import questions1En from '../../../../../data/worldMonuments/Questions/questions1En'
 
 const Quiz7 = () => {
   const {initStatus} = useAppSelector((state)=>state.quizStatus)
+  const {quiz7ItemsMonuments} = useAppSelector((state)=>state.quiz7Monuments)
   return (
-    <QuizMainTemplate dataQuiz={questions7En} quizName='7' results='ResultsMnt7'  status={initStatus}/>
+    <QuizMainTemplate dataQuiz={quiz7ItemsMonuments} quizName='7' results='ResultsMnt7'  status={initStatus}/>
   )
 };
 

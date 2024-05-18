@@ -190,7 +190,7 @@ const questions1En = [
       },
       {
         id: "1",
-        capital: 'Bran Castle',
+        capital: 'Bran castle',
         country: 'Romania'
       },
       {

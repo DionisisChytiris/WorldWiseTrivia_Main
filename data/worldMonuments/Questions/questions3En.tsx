@@ -32,12 +32,12 @@ const questions3En = [
   {
     id: "1b",
     status: "Flags",
-    country: "Spanish Steps",
+    country: "Ισπανικά Σκαλιά",
     capital: "Italy",
     options: [
       {
         id: "0",
-        country: "Spanish Steps\nItaly",
+        country: "Ισπανικά Σκαλιά\nItaly",
         img: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.png"),
       },
       {

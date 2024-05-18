@@ -92,7 +92,7 @@ import {
   CptNameEs,
   CptNameEl,
 } from "../../ReduxSetUp/CapitalsQuizSlices";
-import { Monuments1Slice, quizMnt1El, quizMnt1En, quizMnt1Es } from "../../ReduxSetUp/MonumentsQuizSlices";
+import { quizMnt1El, quizMnt1En, quizMnt1Es, quizMnt2El,quizMnt2En, quizMnt2Es, quizMnt3El, quizMnt3En, quizMnt3Es, quizMnt4El, quizMnt4En, quizMnt4Es, quizMnt5El, quizMnt5En, quizMnt5Es, quizMnt6El, quizMnt6En, quizMnt6Es, quizMnt7El, quizMnt7En, quizMnt7Es, quizMnt8El, quizMnt8En, quizMnt8Es, quizMnt9El, quizMnt9En, quizMnt9Es,quizMnt10El, quizMnt10En, quizMnt10Es } from "../../ReduxSetUp/MonumentsQuizSlices";
 import { MonEuEl, MonEuEs, MonEuEn, MonOcnEl, MonOcnEn, MonOcnEs,  MonAfEl,MonAfEn, MonAfEs, MonAmEl, MonAmEn, MonAmEs, MonAsEl, MonAsEn, MonAsEs } from "../../ReduxSetUp/MonumentsLearnSlices";
 
 const DrawerContent = (props) => {
@@ -169,6 +169,15 @@ const DrawerContent = (props) => {
     dispatch(MonAsEn());
     dispatch(CptNameEn())
     dispatch(quizMnt1En())
+    dispatch(quizMnt2En())
+    dispatch(quizMnt3En())
+    dispatch(quizMnt4En())
+    dispatch(quizMnt5En())
+    dispatch(quizMnt6En())
+    dispatch(quizMnt7En())
+    dispatch(quizMnt8En())
+    dispatch(quizMnt9En())
+    dispatch(quizMnt10En())
     // setColor1(colors.buttonDrawerBackground);
     // setColor2("");
     // setColor3("");
@@ -206,6 +215,15 @@ const DrawerContent = (props) => {
     dispatch(MonAsEs());
     dispatch(CptNameEs())
     dispatch(quizMnt1Es())
+    dispatch(quizMnt2Es())
+    dispatch(quizMnt3Es())
+    dispatch(quizMnt4Es())
+    dispatch(quizMnt5Es())
+    dispatch(quizMnt6Es())
+    dispatch(quizMnt7Es())
+    dispatch(quizMnt8Es())
+    dispatch(quizMnt9Es())
+    dispatch(quizMnt10Es())
     // setColor2(colors.buttonDrawerBackground);
     // setColor1("");
     // setColor3("");
@@ -244,6 +262,15 @@ const DrawerContent = (props) => {
     dispatch(MonAsEl());
     dispatch(CptNameEl())
     dispatch(quizMnt1El())
+    dispatch(quizMnt2El())
+    dispatch(quizMnt3El())
+    dispatch(quizMnt4El())
+    dispatch(quizMnt5El())
+    dispatch(quizMnt6El())
+    dispatch(quizMnt7El())
+    dispatch(quizMnt8El())
+    dispatch(quizMnt9El())
+    dispatch(quizMnt10El())
     // setColor3(colors.buttonDrawerBackground);
     // setColor1("");
     // setColor2("");
