@@ -92,7 +92,7 @@ import {
   CptNameEs,
   CptNameEl,
 } from "../../ReduxSetUp/CapitalsQuizSlices";
-import { quizMnt1El, quizMnt1En, quizMnt1Es, quizMnt2El,quizMnt2En, quizMnt2Es, quizMnt3El, quizMnt3En, quizMnt3Es, quizMnt4El, quizMnt4En, quizMnt4Es, quizMnt5El, quizMnt5En, quizMnt5Es, quizMnt6El, quizMnt6En, quizMnt6Es, quizMnt7El, quizMnt7En, quizMnt7Es, quizMnt8El, quizMnt8En, quizMnt8Es, quizMnt9El, quizMnt9En, quizMnt9Es,quizMnt10El, quizMnt10En, quizMnt10Es } from "../../ReduxSetUp/MonumentsQuizSlices";
+import { quizMnt1El, quizMnt1En, quizMnt1Es, quizMnt2El,quizMnt2En, quizMnt2Es, quizMnt3El, quizMnt3En, quizMnt3Es, quizMnt4El, quizMnt4En, quizMnt4Es, quizMnt5El, quizMnt5En, quizMnt5Es, quizMnt6El, quizMnt6En, quizMnt6Es, quizMnt7El, quizMnt7En, quizMnt7Es, quizMnt8El, quizMnt8En, quizMnt8Es, quizMnt9El, quizMnt9En, quizMnt9Es,quizMnt10El, quizMnt10En, quizMnt10Es, MonumentsMapSlice, MnmEl, MnmEn,MnmEs } from "../../ReduxSetUp/MonumentsQuizSlices";
 import { MonEuEl, MonEuEs, MonEuEn, MonOcnEl, MonOcnEn, MonOcnEs,  MonAfEl,MonAfEn, MonAfEs, MonAmEl, MonAmEn, MonAmEs, MonAsEl, MonAsEn, MonAsEs } from "../../ReduxSetUp/MonumentsLearnSlices";
 
 const DrawerContent = (props) => {
@@ -168,6 +168,7 @@ const DrawerContent = (props) => {
     dispatch(MonAmEn());
     dispatch(MonAsEn());
     dispatch(CptNameEn())
+    dispatch(MnmEn())
     dispatch(quizMnt1En())
     dispatch(quizMnt2En())
     dispatch(quizMnt3En())
@@ -214,6 +215,7 @@ const DrawerContent = (props) => {
     dispatch(MonAfEs());
     dispatch(MonAsEs());
     dispatch(CptNameEs())
+    dispatch(MnmEs())
     dispatch(quizMnt1Es())
     dispatch(quizMnt2Es())
     dispatch(quizMnt3Es())
@@ -261,6 +263,7 @@ const DrawerContent = (props) => {
     dispatch(MonAmEl());
     dispatch(MonAsEl());
     dispatch(CptNameEl())
+    dispatch(MnmEl())
     dispatch(quizMnt1El())
     dispatch(quizMnt2El())
     dispatch(quizMnt3El())

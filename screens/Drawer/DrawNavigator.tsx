@@ -10,6 +10,7 @@ import React from "react";
 import TabNavAnimals from "../BottomTabs/AnimalsTab/TabNavAnimals";
 import TabNavScience from "../BottomTabs/ScienceTab/TabNavScience";
 import TabNavMonuments from "../BottomTabs/WorldMonuments/TabNavMonuments";
+import TabNavNaturalMnts from "../BottomTabs/NaturalMntTab/TabNavNaturalMnts";
 
 const Drawer = createDrawerNavigator();
 const Stack = createNativeStackNavigator();
@@ -95,16 +96,18 @@ const DrawNavigator = () => {
               }}
             />
             <Stack.Screen
-              name="Animals"
-              component={TabNavAnimals}
+              name="NaturalMonument"
+              component={TabNavNaturalMnts}
+              // component={TabNavAnimals}
               options={{
-                title: t("animals"),
+                title: t("naturalMonuments"),
                 headerShown: true,
                 gestureEnabled: false,
+                headerTitleStyle:{fontSize: 16}
               }}
             />
             <Stack.Screen
-              name="Science"
+              name="MixedQuestions"
               component={TabNavScience}
               options={{ headerShown: true, gestureEnabled: false }}
             />

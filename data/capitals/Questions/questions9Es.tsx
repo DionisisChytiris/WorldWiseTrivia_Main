@@ -104,7 +104,7 @@ const question9Es = [
       {
         id: "0",
         img: require("../../../assets/Flags/Moldova.png"),
-        country: "Moldova",
+        country: "Moldavia",
       },
       {
         id: "1",
@@ -293,7 +293,7 @@ const question9Es = [
       },
       {
         id: "3",
-        capital: "Abuja",
+        capital: "Abuya",
         country: "Nigeria",
       },
     ],

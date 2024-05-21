@@ -127,19 +127,19 @@ const QuizScreen = () => {
               scores={score1}
             />
 
-            {/* Animals */}
+            {/* Natural Monument */}
             <CategoryItem
-              page="Animals"
+              page="NaturalMonument"
               img={require("../assets/QuizScreen/animals.jpg")}
-              text={t("animals")}
+              text={t("naturalMonuments")}
               scores={score1}
             />
 
             {/* Science */}
             <CategoryItem
-              page="Science"
+              page="MixedQuestions"
               img={require("../assets/QuizScreen/science.jpg")}
-              text={t("science")}
+              text={t("mixedQuestions")}
               scores={score1}
             />
           </View>

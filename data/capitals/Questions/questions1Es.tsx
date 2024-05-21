@@ -141,7 +141,7 @@ const question1Es = [
       options: [
         {
           id: "0",
-          capital: 'Paris',
+          capital: 'París',
           country: 'Francia'
         },
         {
@@ -568,7 +568,7 @@ const question1Es = [
       id: "9b",
       status: "Flags" ,
       capital: "Francia",
-      country: "Paris",
+      country: "París",
       options: [
         {
           id: "0",

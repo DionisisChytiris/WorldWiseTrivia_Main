@@ -22,7 +22,7 @@ const question4Es = [
       },
       {
         id: "3",
-        capital: 'Santiago',
+        capital: 'Santiago de Chile',
         country: 'Chile'
       },
     ],

@@ -229,7 +229,7 @@ const questions10En = [
       },
       {
         id: "3",
-        country: "Golden Date Bridge\nUSA",
+        country: "Golden Gate Bridge\nUSA",
         img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.png"),
       },
     ],

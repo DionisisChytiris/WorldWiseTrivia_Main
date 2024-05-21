@@ -491,7 +491,7 @@
           {
             id: "2",
             capital: 'Gold Coast',
-            country: 'Austalia'
+            country: 'Australia'
           },
           {
             id: "3",

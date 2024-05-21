@@ -465,7 +465,7 @@ const questions2El = [
       },
       {
         id: "3",
-        country: "The Grand Palace\nThailand",
+        country: "Το Μεγάλο Παλάτι\nTαϊλάνδη",
         img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
       },
     ],

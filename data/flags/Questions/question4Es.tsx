@@ -7,22 +7,22 @@ const question4Es = [
       options: [
         {
           id: "0",
-          capital: "Slovenia",
-          country: "Ljubljana",
+          capital: "Eslovenia",
+          country: "Liubliana",
         },
         {
           id: "1",
           capital: "Serbia",
-          country: "Belgrade",
+          country: "Belgrado",
         },
         {
           id: "2",
-          capital: "Slovakia",
+          capital: "Eslovaquia",
           country: "Bratislava",
         },
         {
           id: "3",
-          capital: "Croatia",
+          capital: "Croacia",
           country: "Zagreb",
         },
       ],
@@ -32,17 +32,17 @@ const question4Es = [
       id: "1b",
       status: "Flags",
       capital: "Zagreb",
-      country: "Croatia",
+      country: "Croacia",
       options: [
         {
           id: "0",
           img: require("../../../assets/Flags/slovakia.png"),
-          country: "Slovakia",
+          country: "Eslovaquia",
         },
         {
           id: "1",
           img: require("../../../assets/Flags/russia.png"),
-          country: "Russia",
+          country: "Rusia",
         },
         {
           id: "2",
@@ -52,7 +52,7 @@ const question4Es = [
         {
           id: "3",
           img: require("../../../assets/Flags/croatia.png"),
-          country: "Croatia",
+          country: "Croacia",
         },
       ],
       correctAnswerIndex: 3,
@@ -74,7 +74,7 @@ const question4Es = [
       options: [
         {
           id: "0",
-          capital: 'Morocco',
+          capital: 'Marruecos',
           country: 'Rabat'
         },
         {
@@ -85,11 +85,11 @@ const question4Es = [
         {
           id: "2",
           capital: 'Vietnam',
-          country: 'Hanoi'
+          country: 'Hanói'
         },
         {
           id: "3",
-          capital: 'Turkey',
+          capital: 'Turquía',
           country: 'Ankara'
         },
       ],
@@ -104,7 +104,7 @@ const question4Es = [
         {
           id: "0",
           img: require("../../../assets/Flags/turkey.png"),
-          country: "Turkey",
+          country: "Turquía",
         },
         {
           id: "1",
@@ -114,12 +114,12 @@ const question4Es = [
         {
           id: "2",
           img: require("../../../assets/Flags/morocco.png"),
-          country: "Morocco",
+          country: "Marruecos",
         },
         {
           id: "3",
           img: require("../../../assets/Flags/tunisia.png"),
-          country: "Tunisia",
+          country: "Túnez",
         },
       ],
       correctAnswerIndex: 1
@@ -136,28 +136,28 @@ const question4Es = [
     {
       id: "3a",
       status: "Capitals",
-      country: "Bucharest",
+      country: "Bucarest",
       image: require("../../../assets/Flags/romania.png"),
       options: [
         {
           id: "0",
-          capital: 'Romania',
-          country: 'Bucharest'
+          capital: 'Rumanía',
+          country: 'Bucarest'
         },
         {
           id: "1",
-          capital: 'Hungary',
+          capital: 'Hungría',
           country: 'Budapest'
         },
         {
           id: "2",
-          capital: 'Poland',
-          country: 'Warsaw'
+          capital: 'Polonia',
+          country: 'Varsovia'
         },
         {
           id: "3",
           capital: 'Austria',
-          country: 'Vienna'
+          country: 'Viena'
         },
       ],
       correctAnswerIndex: 0,
@@ -166,13 +166,13 @@ const question4Es = [
     {
       id: "3b",
       status: "Flags",
-      capital: "Bucharest",
-      country: "Romania",
+      capital: "Bucarest",
+      country: "Rumanía",
       options: [
         {
           id: "0",
           img: require("../../../assets/Flags/romania.png"),
-          country: "Romania",
+          country: "Rumanía",
         },
         {
           id: "1",
@@ -187,7 +187,7 @@ const question4Es = [
         {
           id: "3",
           img: require("../../../assets/Flags/poland.png"),
-          country: "Poland",
+          country: "Polonia",
         },
       ],
       correctAnswerIndex: 0,
@@ -196,7 +196,7 @@ const question4Es = [
       id: "3c",
       status: "Guess",
       word: "ROMANIA",
-      country: "Bucharest",
+      country: "Bucarest",
       num: 6,
       letters: "ILUEANORJPMC",
       img: require("../../../assets/Flags/romania.png"),
@@ -204,27 +204,27 @@ const question4Es = [
     {
       id: "4a",
       status: "Capitals",
-      country: "Tehran",
+      country: "Teherán",
       image: require("../../../assets/Flags/iran.png"),
       options: [
         {
           id: "0",
-          capital: 'Iraq',
-          country: 'Baghdad'
+          capital: 'Irak',
+          country: 'Bagdad'
         },
         {
           id: "1",
-          capital: 'Iran',
-          country: 'Tehran'
+          capital: 'Irán',
+          country: 'Teherán'
         },
         {
           id: "2",
-          capital: 'Jordan',
-          country: 'Amman'
+          capital: 'Jordania',
+          country: 'Amán'
         },
         {
           id: "3",
-          capital: 'Syria',
+          capital: 'Siria',
           country: 'Damascus'
         },
       ],
@@ -234,8 +234,8 @@ const question4Es = [
     {
       id: "4b",
       status: "Flags",
-      capital: "Tehran",
-      country: "Iran",
+      capital: "Teherán",
+      country: "Irán",
       options: [
         {
           id: "0",
@@ -245,17 +245,17 @@ const question4Es = [
         {
           id: "1",
           img: require("../../../assets/Flags/iran.png"),
-          country: "Iran",
+          country: "Irán",
         },
         {
           id: "2",
           img: require("../../../assets/Flags/italy.png"),
-          country: "Italy",
+          country: "Italia",
         },
         {
           id: "3",
           img: require("../../../assets/Flags/mexico.png"),
-          country: "Mexico",
+          country: "México",
         },
       ],
       correctAnswerIndex: 1,
@@ -264,7 +264,7 @@ const question4Es = [
       id: "4c",
       status: "Guess",
       word: "IRAN",
-      country: "Tehran",
+      country: "Teherán",
       num: 4,
       letters: "IDLEANHTROPC",
       img: require("../../../assets/Flags/iran.png"),
@@ -272,27 +272,27 @@ const question4Es = [
     {
       id: "5a",
       status: "Capitals",
-      country: "Warsaw",
+      country: "Varsovia",
       image: require("../../../assets/Flags/poland.png"),
       options: [
         {
           id: "0",
-          capital: 'Lithuania',
-          country: 'Vilnius'
+          capital: 'Lituania',
+          country: 'Vilna'
         },
         {
           id: "1",
-          capital: 'Belarus',
+          capital: 'Bielorrusia',
           country: 'Minsk'
         },
         {
           id: "2",
-          capital: 'Poland',
-          country: 'Warsaw'
+          capital: 'Polonia',
+          country: 'Varsovia'
         },
         {
           id: "3",
-          capital: 'Slovakia',
+          capital: 'Eslovaquia',
           country: 'Bratislava'
         },
       ],
@@ -302,23 +302,23 @@ const question4Es = [
     {
       id: "5b",
       status: "Flags",
-      capital: "Warsaw",
-      country: "Poland",
+      capital: "Varsovia",
+      country: "Polonia",
       options: [
         {
           id: "0",
           img: require("../../../assets/Flags/peru.png"),
-          country: "Peru",
+          country: "Perú",
         },
         {
           id: "1",
           img: require("../../../assets/Flags/lebanon.png"),
-          country: "Lebanon",
+          country: "Líbano",
         },
         {
           id: "2",
           img: require("../../../assets/Flags/poland.png"),
-          country: "Poland",
+          country: "Polonia",
         },
         {
           id: "3",
@@ -332,7 +332,7 @@ const question4Es = [
       id: "5c",
       status: "Guess",
       word: "POLAND",
-      country: "Warsaw",
+      country: "Varsovia",
       num: 6,
       letters: "ILUEANORDPMC",
       img: require("../../../assets/Flags/poland.png"),
@@ -360,7 +360,7 @@ const question4Es = [
         },
         {
           id: "3",
-          capital: 'Brazil',
+          capital: 'Brasil',
           country: 'Brasilia'
         },
       ],
@@ -370,7 +370,7 @@ const question4Es = [
       id: "6b",
       status: "Flags",
       capital: "Brasilia",
-      country: "Brazil",
+      country: "Brasil",
       options: [
         {
           id: "0",
@@ -390,7 +390,7 @@ const question4Es = [
         {
           id: "3",
           img: require("../../../assets/Flags/brazil.png"),
-          country: "Brazil",
+          country: "Brasil",
         },
       ],
       correctAnswerIndex: 3,
@@ -407,28 +407,28 @@ const question4Es = [
     {
       id: "7a",
       status: "Capitals",
-      country: "Brussels",
+      country: "Bruselas",
       image: require("../../../assets/Flags/belgium.png"),
       options: [
         {
           id: "0",
-          capital: 'Netherlands',
-          country: 'Amsterdam'
+          capital: 'Países Bajos',
+          country: 'Ámsterdam'
         },
         {
           id: "1",
-          capital: 'Belgium',
-          country: 'Brussels'
+          capital: 'Bélgica',
+          country: 'Bruselas'
         },
         {
           id: "2",
-          capital: 'Germany',
-          country: 'Berlin'
+          capital: 'Alemania',
+          country: 'Berlín'
         },
         {
           id: "3",
-          capital: 'France',
-          country: 'Paris'
+          capital: 'Francia',
+          country: 'París'
         },
       ],
       correctAnswerIndex: 1,
@@ -436,28 +436,28 @@ const question4Es = [
     {
       id: "7b",
       status: "Flags",
-      capital: "Brussels",
-      country: "Belgium",
+      capital: "Bruselas",
+      country: "Bélgica",
       options: [
         {
           id: "0",
           img: require("../../../assets/Flags/germany.png"),
-          country: "Germany",
+          country: "Alemania",
         },
         {
           id: "1",
           img: require("../../../assets/Flags/belgium.png"),
-          country: "Belgium",
+          country: "Bélgica",
         },
         {
           id: "2",
           img: require("../../../assets/Flags/italy.png"),
-          country: "Italy",
+          country: "Italia",
         },
         {
           id: "3",
           img: require("../../../assets/Flags/switzerland.png"),
-          country: "Switzerland",
+          country: "Suiza",
         },
       ],
       correctAnswerIndex: 1,
@@ -473,23 +473,23 @@ const question4Es = [
     {
       id: "8a",
       status: "Capitals",
-      country: "Santiago",
+      country: "Santiago de Chile",
       image: require("../../../assets/Flags/chile.png"),
       options: [
         {
           id: "0",
           capital: 'Chile',
-          country: 'Santiago'
+          country: 'Santiago de Chile'
         },
         {
           id: "1",
-          capital: 'Peru',
+          capital: 'Perú',
           country: 'Lima'
         },
         {
           id: "2",
           capital: 'Colombia',
-          country: 'Bogota'
+          country: 'Bogotá'
         },
         {
           id: "3",
@@ -502,7 +502,7 @@ const question4Es = [
     {
       id: "8b",
       status: "Flags",
-      capital: "Santiago",
+      capital: "Santiago de Chile",
       country: "Chile",
       options: [
         {
@@ -513,17 +513,17 @@ const question4Es = [
         {
           id: "1",
           img: require("../../../assets/Flags/philipines.png"),
-          country: "Philippines",
+          country: "Filipinas",
         },
         {
           id: "2",
           img: require("../../../assets/Flags/thailand.png"),
-          country: "Thailand",
+          country: "Tailandia",
         },
         {
           id: "3",
           img: require("../../../assets/Flags/malaysia.png"),
-          country: "Malaysia",
+          country: "Malasia",
         },
       ],
       correctAnswerIndex: 0,
@@ -532,7 +532,7 @@ const question4Es = [
       id: "8c",
       status: "Guess",
       word: "CHILE",
-      country: "Santiago",
+      country: "Santiago de Chile",
       num: 5,
       letters: "IYLEANHTMOPC",
       img: require("../../../assets/Flags/chile.png"),
@@ -540,7 +540,7 @@ const question4Es = [
     {
       id: "9a",
       status: "Capitals",
-      country: "Panama city",
+      country: "Panamá city",
       image: require("../../../assets/Flags/Panama.png"),
       options: [
         {
@@ -551,7 +551,7 @@ const question4Es = [
         {
           id: "1",
           capital: 'Guatemala',
-          country: 'Guatemala City'
+          country: 'Ciudad de Guatamala'
         },
         {
           id: "2",
@@ -560,8 +560,8 @@ const question4Es = [
         },
         {
           id: "3",
-          capital: 'Panama',
-          country: 'Panama City'
+          capital: 'Panamá',
+          country: 'Panamá City'
         },
       ],
       correctAnswerIndex: 3,
@@ -569,13 +569,13 @@ const question4Es = [
     {
       id: "9b",
       status: "Flags",
-      capital: "Panama City",
-      country: "Panama",
+      capital: "Panamá City",
+      country: "Panamá",
       options: [
         {
           id: "0",
           img: require("../../../assets/Flags/dominican.png"),
-          country: "Dominican Republic",
+          country: "República Dominicana",
         },
         {
           id: "1",
@@ -590,7 +590,7 @@ const question4Es = [
         {
           id: "3",
           img: require("../../../assets/Flags/Panama.png"),
-          country: "Panama",
+          country: "Panamá",
         },
       ],
       correctAnswerIndex: 3,
@@ -599,7 +599,7 @@ const question4Es = [
       id: "9c",
       status: "Guess",
       word: "PANAMA",
-      country: "Panama City",
+      country: "Panamá City",
       num: 4,
       letters: "ILUEANORJPMC",
       img: require("../../../assets/Flags/Panama.png"),
@@ -607,27 +607,27 @@ const question4Es = [
     {
       id: "10a",
       status: "Capitals",
-      country: "Tripoli",
+      country: "Trípoli",
       image: require("../../../assets/Flags/libya.png"),
       options: [
         {
           id: "0",
-          capital: 'Libya',
-          country: 'Tripoli'
+          capital: 'Libia',
+          country: 'Trípoli'
         },
         {
           id: "1",
-          capital: 'Algeria',
-          country: 'Algiers'
+          capital: 'Argelia',
+          country: 'Argel'
         },
         {
           id: "2",
-          capital: 'Egypt',
-          country: 'Cairo'
+          capital: 'Egipto',
+          country: 'El Cairo'
         },
         {
           id: "3",
-          capital: 'Lebanon',
+          capital: 'Líbano',
           country: 'Beirut'
         },
       ],
@@ -636,28 +636,28 @@ const question4Es = [
     {
       id: "10b",
       status: "Flags",
-      capital: "Tripoli",
-      country: "Libya",
+      capital: "Trípoli",
+      country: "Libia",
       options: [
         {
           id: "0",
           img: require("../../../assets/Flags/libya.png"),
-          country: "Libya",
+          country: "Libia",
         },
         {
           id: "1",
           img: require("../../../assets/Flags/azerbaijan.png"),
-          country: "Azerbaijan",
+          country: "Azerbaiyán",
         },
         {
           id: "2",
           img: require("../../../assets/Flags/tunisia.png"),
-          country: "Tunisia",
+          country: "Túnez",
         },
         {
           id: "3",
           img: require("../../../assets/Flags/Algeria.png"),
-          country: "Algeria",
+          country: "Argelia",
         },
       ],
       correctAnswerIndex: 0,
@@ -666,7 +666,7 @@ const question4Es = [
       id: "10c",
       status: "Guess",
       word: "LIBYA",
-      country: "Tripoli",
+      country: "Trípoli",
       num: 5,
       letters: "ILUEANOYBPMC",
       img: require("../../../assets/Flags/libya.png"),

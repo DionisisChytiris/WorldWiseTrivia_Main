@@ -3,6 +3,7 @@ const mapDataEn = [
         id: '1',
         ltr: 'A',
         title: 'Abu Simbel',
+        description: 'Abu Simbel',
         img: require('../../../assets/WorldMonuments/Africa/abulShimbel.png'),
         latitude: 22.339813935826047,
         longitude: 31.62559883879468,

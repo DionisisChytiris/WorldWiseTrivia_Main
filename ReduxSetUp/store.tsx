@@ -8,9 +8,9 @@ import flagsAsiaSlice from './FlagsLearnSlices/flagsAsiaSlice'
 import flagsOceaniaSlice from './FlagsLearnSlices/flagsOceaniaSlice'
 import { Quiz1Slice, Quiz2Slice, Quiz3Slice, Quiz4Slice, Quiz10Slice, Quiz5Slice, Quiz6Slice, Quiz7Slice, Quiz8Slice, Quiz9Slice} from './FlagsQuizSlices'
 import { Capitals1Slice, Capitals2Slice, Capitals3Slice, Capitals4Slice, Capitals5Slice, Capitals6Slice, Capitals7Slice, Capitals8Slice, Capitals9Slice, Capitals10Slice, CapitalsMapsSlice} from './CapitalsQuizSlices'
-import { Monuments1Slice, Monuments2Slice, Monuments3Slice, Monuments4Slice, Monuments5Slice, Monuments6Slice, Monuments7Slice, Monuments8Slice, Monuments9Slice ,Monuments10Slice } from './MonumentsQuizSlices'
+import { Monuments1Slice, Monuments2Slice, Monuments3Slice, Monuments4Slice, Monuments5Slice, Monuments6Slice, Monuments7Slice, Monuments8Slice, Monuments9Slice ,Monuments10Slice, MonumentsMapSlice } from './MonumentsQuizSlices'
 import { MonEuropeSlice, MonOceaniaSlice, MonAfricaSlice, MonAmericaSlice, MonAsiaSlice } from './MonumentsLearnSlices'
-import QuizStatusSlice from '../ReduxSetUp/QuizStatus/QuizStatus'
+import QuizStatusSlice from './QuizStatus/QuizStatus'
 
 
 
@@ -59,6 +59,7 @@ export const store = configureStore({
         quiz10Monuments: Monuments10Slice,
         quizStatus: QuizStatusSlice,
         CapitalsMapNames: CapitalsMapsSlice,
+        MonumentMapNames: MonumentsMapSlice
     },
     middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({

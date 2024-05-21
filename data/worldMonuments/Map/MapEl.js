@@ -2,7 +2,8 @@ const mapDataEl = [
     {
        id: '1',
        ltr: 'A',
-       title: 'Abu Simbel',
+       title: 'Άμπου Σίμπελ',
+       alert: 'Abu simbel...',
        img: require('../../../assets/WorldMonuments/Africa/abulShimbel.png'),
        latitude: 22.339813935826047,
        longitude: 31.62559883879468,
@@ -11,7 +12,7 @@ const mapDataEl = [
    {
        id: '2',
        ltr: 'A',
-       title: 'Acropolis',
+       title: 'Aκρόπολη',
        img: require('../../../assets/WorldMonuments/Europe/Acropolis.png'),
        latitude: 37.97355,
        longitude: 23.72558,

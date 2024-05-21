@@ -3,28 +3,28 @@ const questions3Es = [
     id: "1a",
     status: "Capitals",
     img: 'L',
-    country: "Italy",
+    country: "Italia",
     image: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.png"),
     options: [
       {
         id: "0",
         capital: "Spanish \nSteps",
-        country: "Italy",
+        country: "Italia",
       },
       {
         id: "1",
         capital: "Trevi \nFountain",
-        country: "Italy",
+        country: "Italia",
       },
       {
         id: "2",
         capital: "Rialto \nBridge",
-        country: "Italy",
+        country: "Italia",
       },
       {
         id: "3",
         capital: "Leaning Tower \nof Pisa",
-        country: "Italy",
+        country: "Italia",
       },
     ],
     correctAnswerIndex: 0,
@@ -33,26 +33,26 @@ const questions3Es = [
     id: "1b",
     status: "Flags",
     country: "Spanish Steps",
-    capital: "Italy",
+    capital: "Italia",
     options: [
       {
         id: "0",
-        country: "Spanish Steps\nItaly",
+        country: "Spanish Steps\nItalia",
         img: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.png"),
       },
       {
         id: "1",
-        country: "Trevi Fountain\nItaly",
+        country: "Trevi Fountain\nItalia",
         img: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.png"),
       },
       {
         id: "2",
-        country: "Rialto Bridge\nItaly",
+        country: "Rialto Bridge\nItalia",
         img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.png"),
       },
       {
         id: "3",
-        country: "Leaning Tower of Pisa\nItaly",
+        country: "Torre de Pisa\nItalia",
         img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
       },
     ],
@@ -62,28 +62,28 @@ const questions3Es = [
     id: "2a",
     status: "Capitals",
     img: 'L',
-    country: "Italy",
+    country: "Italia",
     image: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.png"),
     options: [
       {
         id: "0",
         capital: "Medina of \nMarrakech",
-        country: "Morocco",
+        country: "Marruecos",
       },
       {
         id: "1",
         capital: "Registan",
-        country: "Uzbekistan",
+        country: "Uzbekistán",
       },
       {
         id: "2",
         capital: "Piazza\nSan Marco",
-        country: "Italy",
+        country: "Italia",
       },
       {
         id: "3",
         capital: "St.Joseph's \nOratory",
-        country: "Canada",
+        country: "Canadá",
       },
     ],
     correctAnswerIndex: 2,
@@ -92,7 +92,7 @@ const questions3Es = [
     id: "2b",
     status: "Flags",
     country: "Piazza San Marco",
-    capital: "Italy",
+    capital: "Italia",
     options: [
       {
         id: "0",
@@ -106,7 +106,7 @@ const questions3Es = [
       },
       {
         id: "2",
-        country: "Piazza San Marco\nItaly",
+        country: "Piazza San Marco\nItalia",
         img: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.png"),
       },
       {
@@ -121,23 +121,23 @@ const questions3Es = [
     id: "3a",
     status: "Capitals",
     img: 'L',
-    country: "Egypt",
+    country: "Egipto",
     image: require("../../../assets/WorldMonuments/Africa/abulShimbel.png"),
     options: [
       {
         id: "0",
         capital: "Abu Simbel",
-        country: "Egypt",
+        country: "Egipto",
       },
       {
         id: "1",
-        capital: "Mount Rushmore",
-        country: "USA",
+        capital: "Monte Rushmore",
+        country: "Estados Unidos",
       },
       {
         id: "2",
         capital: "Knossos",
-        country: "Greece",
+        country: "Grecia",
       },
       {
         id: "3",
@@ -151,7 +151,7 @@ const questions3Es = [
     id: "3b",
     status: "Flags",
     country: "Abu Simbel",
-    capital: "Egypt",
+    capital: "Egipto",
     options: [
       {
         id: "0",
@@ -160,7 +160,7 @@ const questions3Es = [
       },
       {
         id: "1",
-        country: "Mount Rushmore\nUSA",
+        country: "Monte Rushmore\nUSA",
         img: require("../../../assets/WorldMonuments/USA/Mount_Rushmore.png"),
       },
       {
@@ -190,7 +190,7 @@ const questions3Es = [
       },
       {
         id: "1",
-        capital: "Potala Palace",
+        capital: "Palacio de Potala ",
         country: "Tibet",
       },
       {
@@ -219,7 +219,7 @@ const questions3Es = [
       },
       {
         id: "1",
-        country: "Potala Palace\nTibet",
+        country: "Palacio de Potala \nTibet",
         img: require("../../../assets/WorldMonuments/Asia/potalaPalaceTibet.png"),
       },
       {
@@ -298,18 +298,18 @@ const questions3Es = [
     id: "6a",
     status: "Capitals",
     img: 'L',
-    country: "USA",
+    country: "Estados Unidos",
     image: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.png"),
     options: [
       {
         id: "0",
         capital: "Brooklyn\nBridge",
-        country: "USA",
+        country: "Estados Unidos",
       },
       {
         id: "1",
         capital: "Golden\nGate Bridge",
-        country: "USA",
+        country: "Estados Unidos",
       },
       {
         id: "2",
@@ -319,7 +319,7 @@ const questions3Es = [
       {
         id: "3",
         capital: "Alcatraz \nIsland",
-        country: "USA",
+        country: "Estados Unidos",
       },
     ],
     correctAnswerIndex: 0,
@@ -328,7 +328,7 @@ const questions3Es = [
     id: "6b",
     status: "Flags",
     country: "Brooklyn Bridge",
-    capital: "USA",
+    capital: "Estados Unidos",
     options: [
       {
         id: "0",
@@ -337,7 +337,7 @@ const questions3Es = [
       },
       {
         id: "1",
-        country: "Golden Gate Bridge\nUSA",
+        country: "Puente Golden Gate\nUSA",
         img: require("../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.png"),
       },
       {
@@ -357,7 +357,7 @@ const questions3Es = [
     id: "7a",
     status: "Capitals",
     img: 'L',
-    country: "Brazil",
+    country: "Brasil",
     image: require("../../../assets/WorldMonuments/America/Jesus-Christ-The-Redeemer.png"),
     options: [
       {
@@ -368,17 +368,17 @@ const questions3Es = [
       {
         id: "1",
         capital: "Angkor Wat",
-        country: "Cambodia",
+        country: "Camboya",
       },
       {
         id: "2",
         capital: "Petra",
-        country: "Jordan",
+        country: "Jordania",
       },
       {
         id: "3",
         capital: "Christ\nthe Redeemer",
-        country: "Brazil",
+        country: "Brasil",
       },
     ],
     correctAnswerIndex: 3,
@@ -386,8 +386,8 @@ const questions3Es = [
   {
     id: "7b",
     status: "Flags",
-    country: "Christ the Redeemer",
-    capital: "Brazil",
+    country: "Cristo Redentor ",
+    capital: "Brasil",
     options: [
       {
         id: "0",
@@ -401,12 +401,12 @@ const questions3Es = [
       },
       {
         id: "2",
-        country: "Merlion Singapore\nSingapore",
+        country: "Merlion Singapore\nSingapur",
         img: require("../../../assets/WorldMonuments/Asia/merlion_singapore.png"),
       },
       {
         id: "3",
-        country: "Christ the Redeemer\nBrazil",
+        country: "Cristo Redentor \nBrazil",
         img: require("../../../assets/WorldMonuments/America/Jesus-Christ-The-Redeemer.png"),
       },
     ],
@@ -416,28 +416,28 @@ const questions3Es = [
     id: "8a",
     status: "Capitals",
     img: 'L',
-    country: "USA",
+    country: "Estados Unidos",
     image: require("../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.png"),
     options: [
       {
         id: "0",
         capital: "Brooklyn\nBridge",
-        country: "USA",
+        country: "Estados Unidos",
       },
       {
         id: "1",
         capital: "Golden\nGate Bridge",
-        country: "USA",
+        country: "Estados Unidos",
       },
       {
         id: "2",
-        capital: "Tower Bridge",
+        capital: "Puente de la Torre",
         country: "UK",
       },
       {
         id: "3",
         capital: "Rialto Bridge",
-        country: "Italy",
+        country: "Italia",
       },
     ],
     correctAnswerIndex: 1,
@@ -445,8 +445,8 @@ const questions3Es = [
   {
     id: "8b",
     status: "Flags",
-    country: "Golden Gate Bridge",
-    capital: "USA",
+    country: "Puente Golden Gate",
+    capital: "Estados Unidos",
     options: [
       {
         id: "0",
@@ -455,7 +455,7 @@ const questions3Es = [
       },
       {
         id: "1",
-        country: "Golden Gate Bridge\nUSA",
+        country: "Puente Golden Gate\nUSA",
         img: require("../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.png"),
       },
       {
@@ -486,7 +486,7 @@ const questions3Es = [
       {
         id: "1",
         capital: "Meteora",
-        country: "Greece",
+        country: "Grecia",
       },
       {
         id: "2",
@@ -496,7 +496,7 @@ const questions3Es = [
       {
         id: "3",
         capital: "Knossos",
-        country: "Greece",
+        country: "Grecia",
       },
     ],
     correctAnswerIndex: 2,
@@ -509,7 +509,7 @@ const questions3Es = [
     options: [
       {
         id: "0",
-        country: "Mont Saint Michel\nFrance",
+        country: "Monte Saint-Michel\nFrance",
         img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
       },
       {
@@ -545,17 +545,17 @@ const questions3Es = [
       {
         id: "1",
         capital: "Duomo\ndi Milan",
-        country: "Italy",
+        country: "Italia",
       },
       {
         id: "2",
         capital: "Sainte \nChapelle",
-        country: "France",
+        country: "Francia",
       },
       {
         id: "3",
         capital: "Church of the Savior\non Blood",
-        country: "Russia",
+        country: "Rusia",
       },
     ],
     correctAnswerIndex: 0,
@@ -583,7 +583,7 @@ const questions3Es = [
       },
       {
         id: "3",
-        country: "Saint Basil's Cathedral\nRussia",
+        country: "Catedral de San Basilio\nRussia",
         img: require("../../../assets/WorldMonuments/Europe/saint_basils_cathedral.png"),
       },
     ],

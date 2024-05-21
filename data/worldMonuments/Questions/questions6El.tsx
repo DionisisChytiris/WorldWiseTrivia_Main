@@ -13,7 +13,7 @@ const questions6El = [
       },
       {
         id: "1",
-        capital: 'Neuschwanstein\nCastle',
+        capital: 'Κάστρο Nόισβανσταϊν',
         country: 'Γερμανία'
       },
       {
@@ -23,7 +23,7 @@ const questions6El = [
       },
       {
         id: "3",
-        capital: 'Himeji Castle',
+        capital: 'Κάστρο του Χιμέτζι',
         country: 'Ιαπωνία'
       },
     ],
@@ -37,22 +37,22 @@ const questions6El = [
         options: [
           {
             id: "0",
-            country: "Eltz Castle\nΓερμανία",
+            country: "Κάστρο Ελτζ\nΓερμανία",
             img: require("../../../assets/WorldMonuments/Europe/eltz-castle-muenstermaifeld-germany.png"),
           },
           {
             id: "1",
-            country: "Neuschwanstein Castle\nΓερμανία",
+            country: "Κάστρο Nόισβανσταϊν\nΓερμανία",
             img: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.png"),
           },
           {
             id: "2",
-            country: "Κάστρο Μπραν\nRomania",
+            country: "Κάστρο Μπραν\nΡουμανία",
             img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
           },
           {
             id: "3",
-            country: "Himeji Castle\nΙαπωνία",
+            country: "Κάστρο του Χιμέτζι\nΙαπωνία",
             img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
           },
         ],
@@ -67,22 +67,22 @@ const questions6El = [
         options: [
           {
             id: "0",
-            capital: 'Borgund\nStave Church',
+            capital: 'Ξύλινη εκκλησία Μπόργουντ',
             country: 'Norway'
           },
           {
             id: "1",
-            capital: 'Florence\nCathedral',
+            capital: 'Καθεδρικός ναός της Φλωρεντίας',
             country: 'Ιταλία'
           },
           {
             id: "2",
-            capital: 'Sagrada\nFamilia',
+            capital: 'Σαγράδα Φαμίλια',
             country: 'Ισπανία'
           },
           {
             id: "3",
-            capital: 'Duomo\ndi Milan',
+            capital: 'Καθεδρικός ναός του Μιλάνου',
             country: 'Ιταλία'
           },
         ],
@@ -91,27 +91,27 @@ const questions6El = [
       {
         id: "2b",
         status: "Flags",
-        country: "Duomo di Milano",
+        country: "Καθεδρικός ναός του Μιλάνου",
         capital: "Ιταλία",
         options: [
           {
             id: "0",
-            country: "Ξύλινη εκκλησία Μπόργουντ\nNorway",
+            country: "Ξύλινη εκκλησία Μπόργουντ\nΝορβηγία",
             img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
           },
           {
             id: "1",
-            country: "Florence Cathedral\nΙταλία",
+            country: "Καθεδρικός ναός της Φλωρεντίας\nΙταλία",
             img: require("../../../assets/WorldMonuments/Europe/duomo-florence.png"),
           },
           {
             id: "2",
-            country: "Sagrada Familia\nSpain",
+            country: "Σαγράδα Φαμίλια\nΙσπανία",
             img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.png"),
           },
           {
             id: "3",
-            country: "Duomo di Milan\nΙταλία",
+            country: "Καθεδρικός ναός του Μιλάνου\nΙταλία",
             img: require("../../../assets/WorldMonuments/Europe/cathedralMilan.png"),
           },
         ],
@@ -126,12 +126,12 @@ const questions6El = [
         options: [
           {
             id: "0",
-            capital: 'Brandenburg\nGate',
+            capital: 'Πύλη του Βραδεμβούργου',
             country: 'Γερμανία'
           },
           {
             id: "1",
-            capital: 'Lincoln\nMemorial',
+            capital: 'Μνημείο του Λίνκολν',
             country: 'ΗΠΑ'
           },
           {
@@ -141,7 +141,7 @@ const questions6El = [
           },
           {
             id: "3",
-            capital: 'Guggenheim\nMuseum',
+            capital: 'Μουσείο Γκούγκενχάιμ',
             country: 'Ισπανία'
           },
         ],
@@ -150,17 +150,17 @@ const questions6El = [
       {
         id: "3b",
         status: "Flags",
-        country: "Lincoln Memorial",
+        country: "Μνημείο του Λίνκολν",
         capital: "ΗΠΑ",
         options: [
           {
             id: "0",
-            country: "Brandenburg Gate\nΓερμανία",
+            country: "Πύλη του Βρανδεμβούργου\nΓερμανία",
             img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
           },
           {
             id: "1",
-            country: "Lincoln Memorial\nΗΠΑ",
+            country: "Μνημείο του Λίνκολν\nΗΠΑ",
             img: require("../../../assets/WorldMonuments/USA/lincolnMonument.jpg"),
           },
           {
@@ -170,7 +170,7 @@ const questions6El = [
           },
           {
             id: "3",
-            country: "Guggenheim Museum\nSpain",
+            country: "Μουσείο Γκούγκενχάιμ\nΙσπανία",
             img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.png"),
           },
         ],
@@ -185,17 +185,17 @@ const questions6El = [
         options: [
           {
             id: "0",
-            capital: 'Alhambra',
+            capital: 'Αλάμπρα',
             country: 'Ισπανία'
           },
           {
             id: "1",
-            capital: 'Temples\nof Bagan',
+            capital: 'Μπαγκάν',
             country: 'Μιανμάρ'
           },
           {
             id: "2",
-            capital: 'Aït\nBenhaddou',
+            capital: 'Αΐτ-Μπεν-Χαντού',
             country: 'Μαρόκο'
           },
           {
@@ -209,22 +209,22 @@ const questions6El = [
       {
         id: "4b",
         status: "Flags",
-        country: "Aït Benhaddou",
+        country: "Αΐτ-Μπεν-Χαντού",
         capital: "Μαρόκο",
         options: [
           {
             id: "0",
-            country: "Alhambra\nSpain",
+            country: "Αλάμπρα\nΙσπανία",
             img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
           },
           {
             id: "1",
-            country: "Temples of Bagan\nΜιανμάρ",
+            country: "Μπαγκάν\nΜιανμάρ",
             img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.png"),
           },
           {
             id: "2",
-            country: "Aït Benhaddou\nMorocco",
+            country: "Αΐτ-Μπεν-Χαντού\nMαρόκο",
             img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.png"),
           },
           {
@@ -244,17 +244,17 @@ const questions6El = [
         options: [
           {
             id: "0",
-            capital: 'Sigiriya',
+            capital: 'Σιγκιρίγια',
             country: 'Σρι Λάνκα'
           },
           {
             id: "1",
-            capital: 'Borgund\nStave Church',
+            capital: 'Ξύλινη εκκλησία Μπόργουντ',
             country: 'Norway'
           },
           {
             id: "2",
-            capital: 'Church of\nSaint Church',
+            capital: 'Ναός Αγίου Γεωργίου',
             country: 'Ethiopia'
           },
           {
@@ -273,17 +273,17 @@ const questions6El = [
         options: [
           {
             id: "0",
-            country: "Sigiriya\nΣρι Λάνκα",
+            country: "Σιγκιρίγια\nΣρι Λάνκα",
             img: require("../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.png"),
           },
           {
             id: "1",
-            country: "Ξύλινη εκκλησία Μπόργουντ\nNorway",
+            country: "Ξύλινη εκκλησία Μπόργουντ\nΝορβηγία",
             img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
           },
           {
             id: "2",
-            country: "Church of Saint George\nEthiopia",
+            country: "Ναός Αγίου Γεωργίου\nΑιθιοπία",
             img: require("../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.png"),
           },
           {
@@ -303,8 +303,8 @@ const questions6El = [
         options: [
           {
             id: "0",
-            capital: 'Tiger\'s Nest',
-            country: 'Bhutan'
+            capital: 'Η Φωλιά της Τίγρης',
+            country: 'Μπουτάν'
           },
           {
             id: "1",
@@ -313,7 +313,7 @@ const questions6El = [
           },
           {
             id: "2",
-            capital: 'Ruins\nof Pompeii',
+            capital: 'Πομπηία',
             country: 'Ιταλία'
           },
           {
@@ -332,7 +332,7 @@ const questions6El = [
         options: [
           {
             id: "0",
-            country: "Tiger's Nest\nBhutan",
+            country: "Η Φωλιά της Τίγρης\nΜπουτάν",
             img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
           },
           {
@@ -342,7 +342,7 @@ const questions6El = [
           },
           {
             id: "2",
-            country: "Ruins of Pompeii\nΙταλία",
+            country: "Πομπηία\nΙταλία",
             img: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.png"),
           },
           {
@@ -362,22 +362,22 @@ const questions6El = [
         options: [
           {
             id: "0",
-            capital: 'Guggenheim\nMuseum',
+            capital: 'Μουσείο Γκούγκενχάιμ',
             country: 'Ισπανία'
           },
           {
             id: "1",
-            capital: 'St.Joseph\'s Oratory',
-            country: 'Canada'
+            capital: 'Ρητορική Αγίου Ιωσήφ',
+            country: 'Καναδάς'
           },
           {
             id: "2",
-            capital: 'Louvre\nMuseum',
+            capital: 'Μουσείο του Λούβρου',
             country: 'Γαλλία'
           },
           {
             id: "3",
-            capital: 'Palace of\nVersailles',
+            capital: 'Παλάτι των Βερσαλλιών',
             country: 'Γαλλία'
           },
         ],
@@ -386,27 +386,27 @@ const questions6El = [
       {
         id: "7b",
         status: "Flags",
-        country: "Louvre Museum",
+        country: "Μουσείο του Λούβρου",
         capital: "Γαλλία",
         options: [
           {
             id: "0",
-            country: "Palace of Versailles\nΓαλλία",
+            country: "Παλάτι των Βερσαλλιών\nΓαλλία",
             img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
           },
           {
             id: "1",
-            country: "Guggenheim Museum\nSpain",
+            country: "Μουσείο Γκούγκενχάιμ\nΙσπανία",
             img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.png"),
           },
           {
             id: "2",
-            country: "Louvre Museum\nΓαλλία",
+            country: "Μουσείο του Λούβρου\nΓαλλία",
             img: require("../../../assets/WorldMonuments/Europe/LouvreMuseum.png"),
           },
           {
             id: "3",
-            country: "St.Joseph's Oratory\nCanada",
+            country: "Ναός του Αγίου Ιωσήφ\nΚαναδάς",
             img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.png"),
           },
         ],
@@ -422,16 +422,16 @@ const questions6El = [
           {
             id: "0",
             capital: 'Μπορομπουντούρ',
-            country: 'Indonesia'
+            country: 'Ινδονησία'
           },
           {
             id: "1",
-            capital: 'Potala\nPalace',
+            capital: 'Παλάτι Ποτάλα',
             country: 'Θιβέτ'
           },
           {
             id: "2",
-            capital: 'Taj Mahal',
+            capital: 'Ταζ Μαχάλ',
             country: 'Ινδία'
           },
           {
@@ -460,12 +460,12 @@ const questions6El = [
           },
           {
             id: "2",
-            country: "Taj Mahal\nΙνδία",
+            country: "Ταζ Μαχάλ\nΙνδία",
             img: require("../../../assets/WorldMonuments/Asia/TajMajal.png"),
           },
           {
             id: "3",
-            country: "Jetavanaramaya\nΣρι Λάνκα",
+            country: "Τζεταβαναραμάγια\nΣρι Λάνκα",
             img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.png"),
           },
         ],
@@ -480,22 +480,22 @@ const questions6El = [
         options: [
           {
             id: "0",
-            capital: 'Buckingham\nPalace',
+            capital: 'Ανάκτορα του Μπάκιγχαμ',
             country: 'Ηνωμένο Βασίλειο'
           },
           {
             id: "1",
-            capital: 'Royal Palace\nof Madrid',
+            capital: 'Αυτοκρατορικό Παλάτι της Μαδρίτης',
             country: 'Ισπανία'
           },
           {
             id: "2",
-            capital: 'Palace of\nVersailles',
+            capital: 'Παλάτι των Βερσαλλιών',
             country: 'Γαλλία'
           },
           {
             id: "3",
-            capital: 'Westminster\nAbbey',
+            capital: 'Αββαείο του Γουεσμίνστερ',
             country: 'Ηνωμένο Βασίλειο'
           },
         ],
@@ -504,27 +504,27 @@ const questions6El = [
       {
         id: "9b",
         status: "Flags",
-        country: "Westminster Abbey",
+        country: "Αββαείο του Γουεσμίνστερ",
         capital: "Ηνωμένο Βασίλειο",
         options: [
           {
             id: "0",
-            country: "Sagrada Familia\nSpain",
+            country: "Σαγράδα Φαμίλια\nΙσπανία",
             img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.png"),
           },
           {
             id: "1",
-            country: "Buckingham Palace\nΗνωμένο Βασίλειο",
+            country: "Ανάκτορα του Μπάκιγχαμ\nΗνωμένο Βασίλειο",
             img: require("../../../assets/WorldMonuments/Europe/buckinghampalace.png"),
           },
           {
             id: "2",
-            country: "Palace of Westminster\nΗνωμένο Βασίλειο",
+            country: "Παλάτι του Γουεσμίνστερ\nΗνωμένο Βασίλειο",
             img: require("../../../assets/WorldMonuments/Europe/palace-of-westminster_main.png"),
           },
           {
             id: "3",
-            country: "Westminster Abbey\nΗνωμένο Βασίλειο",
+            country: "Αββαείο του Γουεσμίνστερ\nΗνωμένο Βασίλειο",
             img: require("../../../assets/WorldMonuments/Europe/westminster-abbey.png"),
           },
         ],
@@ -534,7 +534,7 @@ const questions6El = [
         id: "10a",
         status: "Capitals",
         img: 'L',
-        country: "Norway",
+        country: "Νορβηγία",
         image: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
         options: [
           {
@@ -544,18 +544,18 @@ const questions6El = [
           },
           {
             id: "1",
-            capital: 'Borgund\nStave Church',
-            country: 'Norway'
+            capital: 'Ξύλινη εκκλησία Μπόργουντ',
+            country: 'Νορβηγία'
           },
           {
             id: "2",
-            capital: 'Church of\nSaint George',
-            country: 'Ethiopia'
+            capital: 'Ναός Αγίου Γεωργίου',
+            country: 'Αιθιοπία'
           },
           {
             id: "3",
-            capital: 'Tikal',
-            country: 'Guatemala'
+            capital: 'Τικάλ',
+            country: 'Γουατεμάλα'
           },
         ],
         correctAnswerIndex: 1,
@@ -564,7 +564,7 @@ const questions6El = [
         id: "10b",
         status: "Flags",
         country: "Ξύλινη εκκλησία Μπόργουντ",
-        capital: "Norway",
+        capital: "Νορβηγία",
         options: [
           {
             id: "0",
@@ -573,17 +573,17 @@ const questions6El = [
           },
           {
             id: "1",
-            country: "Ξύλινη εκκλησία Μπόργουντ\nNorway",
+            country: "Ξύλινη εκκλησία Μπόργουντ\nΝορβηγία",
             img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
           },
           {
             id: "2",
-            country: "Church of Saint George\nEthiopia",
+            country: "Ναός Αγίου Γεωργίου\nΑιθιοπία",
             img: require("../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.png"),
           },
           {
             id: "3",
-            country: "Tikal\nGuatemala",
+            country: "Τικάλ\nΓουατεμάλα",
             img: require("../../../assets/WorldMonuments/America/TikalGuatemala.png"),
           },
         ],

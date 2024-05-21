@@ -7,17 +7,20 @@ import {
   Pressable,
   ScrollView,
   Image,
+  Alert,
   ActivityIndicator,
 } from "react-native";
 import { AntDesign } from "@expo/vector-icons";
 import { FlashList } from "@shopify/flash-list";
 import MapView, { MAP_TYPES, Marker, PROVIDER_GOOGLE } from "react-native-maps";
+import { useSelector } from "react-redux";
 import mapDataEn from "../../../data/worldMonuments/Map/MapEn";
 
 const { width, height } = Dimensions.get("window");
 const ASPECT_RATIO = (width * 100) / height;
 
 const Map = () => {
+  const {mapMonumentsItem} =useSelector((state) => state.MonumentMapNames)
   const [region, setRegion] = useState({
     latitude: 37.78825,
     longitude: -122.4324,
@@ -121,7 +124,7 @@ const Map = () => {
 
       <View style={styles.buttonContainer}>
         <ScrollView horizontal={true}>
-          {mapDataEn.map((item, index) => {
+          {mapMonumentsItem.map((item, index) => {
             // const [test, setTest] =React.useState(1)
             return (
               <View
@@ -141,7 +144,7 @@ const Map = () => {
                       setLtd(item.latitude);
                       setLng(item.longitude);
                       // setTest(1)
-                      alert('hey')
+                      Alert.alert(item.title,item.description)
                     }}
                   >
                     {loading && (

@@ -75,7 +75,7 @@ const question3Es = [
       {
         id: "0",
         capital: "Ottawa",
-        country: "Canada",
+        country: "Canadá",
       },
       {
         id: "1",
@@ -253,7 +253,7 @@ const question3Es = [
       {
         id: "3",
         img: require("../../../assets/Flags/romania.png"),
-        country: "Romania",
+        country: "Rumanía",
       },
     ],
     correctAnswerIndex: 1,
@@ -330,7 +330,7 @@ const question3Es = [
     id: "5c",
     status: "Guess",
     word: "AMÁN",
-    country: "Jordan",
+    country: "Jordania",
     num: 4,
     letters: "ILREAPNÁJOMC",
     img: require("../../../assets/Flags/jordan.png"),
@@ -600,7 +600,7 @@ const question3Es = [
   {
     id: "9c",
     status: "Guess",
-    country: "South Korea",
+    country: "Corea del Sur",
     word: "SEÚL",
     num: 4,
     letters: "ILREAPOSÚOBC",

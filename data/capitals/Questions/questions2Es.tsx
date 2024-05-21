@@ -61,7 +61,7 @@ const question2Es = [
     id: "1c",
     status: "Guess",
     word: "BERLÍN",
-    country: "Germany",
+    country: "Alemania",
     num: 6,
     letters: "ÍLUEANORJBMC",
     img: require("../../../assets/Flags/germany.png"),
@@ -109,7 +109,7 @@ const question2Es = [
       {
         id: "1",
         img: require("../../../assets/Flags/poland.png"),
-        country: "Poland",
+        country: "Polonia",
       },
       {
         id: "2",
@@ -119,7 +119,7 @@ const question2Es = [
       {
         id: "3",
         img: require("../../../assets/Flags/singapore.png"),
-        country: "Singapore",
+        country: "Singapur",
       },
     ],
     correctAnswerIndex: 0,
@@ -279,7 +279,7 @@ const question2Es = [
       },
       {
         id: "1",
-        capital: "Nassau",
+        capital: "Nasáu",
         country: "Bahamas",
       },
       {
@@ -304,7 +304,7 @@ const question2Es = [
       {
         id: "0",
         img: require("../../../assets/Flags/philipines.png"),
-        country: "Philippines",
+        country: "Filipinas",
       },
       {
         id: "1",
@@ -386,7 +386,7 @@ const question2Es = [
       {
         id: "3",
         img: require("../../../assets/Flags/romania.png"),
-        country: "Romania",
+        country: "Rumanía",
       },
     ],
     correctAnswerIndex: 2,
@@ -419,7 +419,7 @@ const question2Es = [
       {
         id: "2",
         capital: "Ciudad de \nMéxico",
-        country: "Mexico",
+        country: "México",
       },
       {
         id: "3",
@@ -499,23 +499,23 @@ const question2Es = [
   {
     id: "8b",
     status: "Flags",
-    capital: "Syria",
+    capital: "Siria",
     country: "Damascus",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/iraq.png"),
-        country: "Iraq",
+        country: "Irak",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/egypt.png"),
-        country: "Egypt",
+        country: "Egipto",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/syria.png"),
-        country: "Syria",
+        country: "Siria",
       },
       {
         id: "3",

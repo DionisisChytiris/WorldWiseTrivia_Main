@@ -18,12 +18,12 @@ const questions10El = [
       },
       {
         id: "2",
-        capital: "Jetavanaramaya",
+        capital: "Τζεταβαναραμάγια",
         country: "Σρι Λάνκα",
       },
       {
         id: "3",
-        capital: "Citadel\nof Aleppo",
+        capital: "Χαλέπι",
         country: "Συρία",
       },
     ],
@@ -32,7 +32,7 @@ const questions10El = [
   {
     id: "1b",
     status: "Flags",
-    country: "Jetavanaramaya",
+    country: "Τζεταβαναραμάγια",
     capital: "Σρι Λάνκα",
     options: [
       {
@@ -47,7 +47,7 @@ const questions10El = [
       },
       {
         id: "2",
-        country: "Jetavanaramaya\nΣρι Λάνκα",
+        country: "Τζεταβαναραμάγια\nΣρι Λάνκα",
         img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.png"),
       },
       {
@@ -67,7 +67,7 @@ const questions10El = [
     options: [
       {
         id: "0",
-        capital: "Kailasa\nTemple",
+        capital: "Ναός Καϊλάσα",
         country: "Ινδία",
       },
       {
@@ -77,7 +77,7 @@ const questions10El = [
       },
       {
         id: "2",
-        capital: "Hagia Sophia",
+        capital: "Αγία Σοφία",
         country: "Tουρκία",
       },
       {
@@ -101,7 +101,7 @@ const questions10El = [
       },
       {
         id: "1",
-        country: "Hagia Sophia\nTουρκία",
+        country: "Αγία Σοφία\nTουρκία",
         img: require("../../../assets/WorldMonuments/Asia/AgiaSofia.png"),
       },
       {
@@ -121,7 +121,7 @@ const questions10El = [
     id: "3a",
     status: "Capitals",
     img: 'L',
-    country: "Bhutan",
+    country: "Μπουτάν",
     image: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.jpg"),
     options: [
       {
@@ -131,13 +131,13 @@ const questions10El = [
       },
       {
         id: "1",
-        capital: "Temples\nof Bagan",
+        capital: "Μπαγκάν",
         country: "Μιανμάρ",
       },
       {
         id: "2",
-        capital: "Tiger's\nNest",
-        country: "Bhutan",
+        capital: "Η Φωλιά της Τίγρης",
+        country: "Μπουτάν",
       },
       {
         id: "3",
@@ -150,8 +150,8 @@ const questions10El = [
   {
     id: "3b",
     status: "Flags",
-    country: "Paro Taktsang\n(Tiger's Nest)",
-    capital: "Bhutan",
+    country: "Η Φωλιά της Τίγρης",
+    capital: "Μπουτάν",
     options: [
       {
         id: "0",
@@ -160,12 +160,12 @@ const questions10El = [
       },
       {
         id: "1",
-        country: "Temples of Bangan\nΜιανμάρ",
+        country: "Μπάγκαν\nΜιανμάρ",
         img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.png"),
       },
       {
         id: "2",
-        country: "Tiger's Nest\nBhutan",
+        country: "Η Φωλιά της Τίγρης\nΜπουτάν",
         img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
       },
       {
@@ -185,22 +185,22 @@ const questions10El = [
     options: [
       {
         id: "0",
-        capital: "Great\nOcean Road",
+        capital: "Ο Μεγάλος δρόμος του Ωκεανού",
         country: "Αυστραλία",
       },
       {
         id: "1",
-        capital: "Mont\nSaint Michel",
+        capital: "Μον-Σαιν-Μισέλ",
         country: "Γαλλία",
       },
       {
         id: "2",
-        capital: "Gold Coast",
+        capital: "Χρυσή Ακτή",
         country: "Αυστραλία",
       },
       {
         id: "3",
-        capital: "Golden\nGate Bridge",
+        capital: "Γέφυρα Γκόλντεν Γκέιτ",
         country: "ΗΠΑ",
       },
     ],
@@ -209,27 +209,27 @@ const questions10El = [
   {
     id: "4b",
     status: "Flags",
-    country: "Great Ocean Road",
+    country: "Ο Μεγάλος δρόμος του Ωκεανού",
     capital: "Αυστραλία",
     options: [
       {
         id: "0",
-        country: "Great Ocean road\nΑυστραλία",
+        country: "Ο  Μεγάλος δρόμος του Ωκεανού\nΑυστραλία",
         img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.png"),
       },
       {
         id: "1",
-        country: "Mont Saint Michel\nΓαλλία",
+        country: "Μον-Σαιν-Μισέλ\nΓαλλία",
         img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
       },
       {
         id: "2",
-        country: "Gold Coast\nΑυστραλία",
+        country: "Χρυσή Ακτή\nΑυστραλία",
         img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.png"),
       },
       {
         id: "3",
-        country: "Golden Date Bridge\nΗΠΑ",
+        country: "Γκόλντεν Γκέιτ Μπριντζ\nΗΠΑ",
         img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.png"),
       },
     ],
@@ -254,12 +254,12 @@ const questions10El = [
       },
       {
         id: "2",
-        capital: "Empire\nState Building",
+        capital: "Εμπάιτ Στέιτ Μπίλντινγκ",
         country: "ΗΠΑ",
       },
       {
         id: "3",
-        capital: "Tokyo Tower",
+        capital: "Πύργος του Τόκιο",
         country: "Ιαπωνία",
       },
     ],
@@ -268,12 +268,12 @@ const questions10El = [
   {
     id: "5b",
     status: "Flags",
-    country: "Tokyo Tower",
+    country: "Πύργος του Τόκιο",
     capital: "Ιαπωνία",
     options: [
       {
         id: "0",
-        country: "Washington Monument\nΗΠΑ",
+        country: "Μνημείο του Ουάσινγκτον\nΗΠΑ",
         img: require("../../../assets/WorldMonuments/USA/washingtonMonument.png"),
       },
       {
@@ -288,7 +288,7 @@ const questions10El = [
       },
       {
         id: "3",
-        country: "Tokyo Tower\nΙαπωνία",
+        country: "Πύργος του Τόκιο\nΙαπωνία",
         img: require("../../../assets/WorldMonuments/Asia/Tokyo-Tower.png"),
       },
     ],
@@ -308,7 +308,7 @@ const questions10El = [
       },
       {
         id: "1",
-        capital: "Ruins\nof Pompeii",
+        capital: "Πομπηία",
         country: "Ιταλία",
       },
       {
@@ -318,7 +318,7 @@ const questions10El = [
       },
       {
         id: "3",
-        capital: "Leaning\nTower of Pisa",
+        capital: "Κεκλιμένος Πύργος της Πίζας",
         country: "Ιταλία",
       },
     ],
@@ -332,7 +332,7 @@ const questions10El = [
     options: [
       {
         id: "0",
-        country: "Ruins of Pompeii\nΙταλία",
+        country: "Πομπηία\nΙταλία",
         img: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.png"),
       },
       {
@@ -362,22 +362,22 @@ const questions10El = [
     options: [
       {
         id: "0",
-        capital: "Palace of\nVersailles",
+        capital: "Παλάτι των Βερσαλλιών",
         country: "Γαλλία",
       },
       {
         id: "1",
-        capital: "Louvre\nMuseum",
+        capital: "Μουσείο του Λούβρου",
         country: "Γαλλία",
       },
       {
         id: "2",
-        capital: "Eltz Castle",
+        capital: "Κάστρο Ελτζ",
         country: "Γερμανία",
       },
       {
         id: "3",
-        capital: "Sigiriya",
+        capital: "Σιγκιρίγια",
         country: "Σρι Λάνκα",
       },
     ],
@@ -386,27 +386,27 @@ const questions10El = [
   {
     id: "7b",
     status: "Flags",
-    country: "Palace \nof Versailles",
+    country: "Παλάτι των Βερσαλλιών",
     capital: "Γαλλία",
     options: [
       {
         id: "0",
-        country: "Palace of Versailles \nΓαλλία",
+        country: "Παλάτι των Βερσαλλιών\nΓαλλία",
         img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
       },
       {
         id: "1",
-        country: "Louvre Museum\nΓαλλία",
+        country: "Μουσείο του Λούβρου\nΓαλλία",
         img: require("../../../assets/WorldMonuments/Europe/LouvreMuseum.png"),
       },
       {
         id: "2",
-        country: "Sigiriya\nΣρι Λάνκα",
+        country: "Σιγκιρίγια\nΣρι Λάνκα",
         img: require("../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.png"),
       },
       {
         id: "3",
-        country: "Eltz Castle\nΓερμανία",
+        country: "Κάστρο Ελτζ\nΓερμανία",
         img: require("../../../assets/WorldMonuments/Europe/eltz-castle-muenstermaifeld-germany.png"),
       },
     ],
@@ -431,12 +431,12 @@ const questions10El = [
       },
       {
         id: "2",
-        capital: "Pompeii",
+        capital: "Πομπηία",
         country: "Ιταλία",
       },
       {
         id: "3",
-        capital: "Citadel\nof Aleppo",
+        capital: "Χαλέπι",
         country: "Συρία",
       },
     ],
@@ -445,7 +445,7 @@ const questions10El = [
   {
     id: "8b",
     status: "Flags",
-    country: "Pompeii",
+    country: "Πομπηία",
     capital: "Ιταλία",
     options: [
       {
@@ -455,12 +455,12 @@ const questions10El = [
       },
       {
         id: "1",
-        country: "Arles Amphitheater\nΓαλλία",
+        country: "Αμφιθέατρο της Αρλ\nΓαλλία",
         img: require("../../../assets/WorldMonuments/Europe/AmpitheatreofArles.png"),
       },
       {
         id: "2",
-        country: "Ruins of Pompeii\nΙταλία",
+        country: "Πομπηία\nΙταλία",
         img: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.png"),
       },
       {
@@ -519,7 +519,7 @@ const questions10El = [
       },
       {
         id: "2",
-        country: "Karnak Temple Luxor\nΑίγυπτος",
+        country: "Ναός του Καρνάκ\nΑίγυπτος",
         img: require("../../../assets/WorldMonuments/Africa/KarnakTempleLuxor.png"),
       },
       {
@@ -544,18 +544,18 @@ const questions10El = [
       },
       {
         id: "1",
-        capital: "The Great\nWall",
+        capital: "Σινικό Τείχος",
         country: "Κίνα",
       },
       {
         id: "2",
-        capital: "Hoover Dam",
+        capital: "Φράγμα Χούβερ",
         country: "ΗΠΑ",
       },
       {
         id: "3",
-        capital: "Panama Canal",
-        country: "Panama",
+        capital: "Διώρυγα Παναμά",
+        country: "Παναμάς",
       },
     ],
     correctAnswerIndex: 2,
@@ -563,7 +563,7 @@ const questions10El = [
   {
     id: "10b",
     status: "Flags",
-    country: "Hoover Dam",
+    country: "Φράγμα Χούβερ",
     capital: "ΗΠΑ",
     options: [
       {
@@ -573,17 +573,17 @@ const questions10El = [
       },
       {
         id: "1",
-        country: "The Great Wall\nΚίνα",
+        country: "Σινικό Τείχος\nΚίνα",
         img: require("../../../assets/WorldMonuments/Asia/theGreatWallChina.png"),
       },
       {
         id: "2",
-        country: "Hoover Dam\nΗΠΑ",
+        country: "Φράγμα Χούβερ\nΗΠΑ",
         img: require("../../../assets/WorldMonuments/USA/hoover_dam_nevada.png"),
       },
       {
         id: "3",
-        country: "Cité de Carcassonne\nΓαλλία",
+        country: "Καρκασόν\nΓαλλία",
         img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
       },
     ],

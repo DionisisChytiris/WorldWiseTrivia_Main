@@ -552,7 +552,7 @@ const question5Es = [
       },
       {
         id: "1",
-        capital: "Valeta",
+        capital: "La Valeta",
         country: "Malta",
       },
       {
@@ -572,7 +572,7 @@ const question5Es = [
     id: "9b",
     status: "Flags",
     capital: "Malta",
-    country: "Valeta",
+    country: "La Valeta",
     options: [
       {
         id: "0",

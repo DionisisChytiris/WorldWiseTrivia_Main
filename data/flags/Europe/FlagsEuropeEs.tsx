@@ -188,7 +188,7 @@ const FlagsEuropeEs = [
   {
     id: "31a",
     continent: "Europe",
-    country: "Ireland",
+    country: "Irlanda",
     capital: "Dublin",
     population: "5.2M",
     symbol: "€",

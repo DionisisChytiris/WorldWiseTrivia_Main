@@ -6,6 +6,7 @@ import {
   Dimensions,
   Pressable,
   ScrollView,
+  Alert,
   Image,
   ActivityIndicator,
 } from "react-native";
@@ -65,15 +66,17 @@ const Map = () => {
     const [scale, setScale] = useState(5);
     const [left, setLeft] = useState(0);
     const [color, setColor] = useState("transparent");
-    const [pad, setPad] = useState(0)
+    const [pad, setPad] = useState(0);
     return (
       <Pressable
-        onPressIn={() => (setScale(20), setLeft(70), setPad(20),setColor("lightgray"))}
+        onPressIn={() => (
+          setScale(20), setLeft(70), setPad(20), setColor("lightgray")
+        )}
         onPressOut={() => {
           setLetter(props.ltr);
           setLoading(true);
           setScale(5);
-          setPad(0)
+          setPad(0);
           setColor("transparent");
           // console.log("response");
         }}
@@ -170,50 +173,16 @@ const Map = () => {
         </View>
       </View>
 
-      <View
-        style={{
-          position: "absolute",
-          top: 70,
-          left: 40,
-          backgroundColor: "lightgray",
-          paddingHorizontal: 20,
-          padding: 10,
-          borderRadius: 20,
-        }}
-      >
+      <View style={styles.weatherContainer}>
         {/* <Text>{weather.name}</Text> */}
         <Text>{capital}</Text>
-        <Text
-          style={{
-            fontSize: 30,
-            color: "white",
-            textShadowColor: "rgba(0, 0, 0, 1)",
-            textShadowOffset: { width: 1, height: 0 },
-            textShadowRadius: 10,
-          }}
-        >
+        <Text style={[styles.weatherText, {fontSize: 30}]}>
           {Math.round(weather.main.temp)}°C
         </Text>
-        <Text
-          style={{
-            fontSize: 14,
-            color: "white",
-            textShadowColor: "rgba(0, 0, 0, 1)",
-            textShadowOffset: { width: 1, height: 0 },
-            textShadowRadius: 10,
-          }}
-        >
+        <Text style={[styles.weatherText, {fontSize: 14}]}>
           {t("localtime")}
         </Text>
-        <Text
-          style={{
-            fontSize: 20,
-            color: "white",
-            textShadowColor: "rgba(0, 0, 0, 1)",
-            textShadowOffset: { width: 1, height: 0 },
-            textShadowRadius: 10,
-          }}
-        >
+        <Text style={[styles.weatherText, {fontSize: 20}]}>
           {localTime()}
           {/* {weather.dt*1000-(weather.timezone*1000)} */}
         </Text>
@@ -240,6 +209,7 @@ const Map = () => {
                       setLtd(item.latitude);
                       setLng(item.longitude);
                       setCapital(item.capital);
+                      Alert.alert(item.capital, item.description);
                     }}
                   >
                     {/* {loading && (
@@ -299,8 +269,6 @@ const styles = StyleSheet.create({
     width: "95%",
   },
   button: {
-    // width: 149,
-    // height: 50,
     paddingHorizontal: 20,
     paddingVertical: 10,
   },
@@ -321,6 +289,21 @@ const styles = StyleSheet.create({
     textAlign: "center",
     alignItems: "center",
     justifyContent: "center",
+  },
+  weatherContainer: {
+    position: "absolute",
+    top: 70,
+    left: 40,
+    backgroundColor: "lightgray",
+    paddingHorizontal: 20,
+    padding: 10,
+    borderRadius: 20,
+  },
+  weatherText: {
+    color: "white",
+    textShadowColor: "rgba(0, 0, 0, 1)",
+    textShadowOffset: { width: 1, height: 0 },
+    textShadowRadius: 10,
   },
 });
 

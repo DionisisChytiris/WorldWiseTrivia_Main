@@ -126,12 +126,12 @@ const questions4El = [
     options: [
       {
         id: "0",
-        capital: 'Sydney\nHarbour Bridge',
+        capital: 'Γέφυρα του\nΣίδνεϊ',
         country: 'Αυστραλία'
       },
       {
         id: "1",
-        capital: 'Brooklyn\nBridge',
+        capital: 'Γέφυρα τουn\nΜπρούκλιν',
         country: 'ΗΠΑ'
       },
       {
@@ -141,7 +141,7 @@ const questions4El = [
       },
       {
         id: "3",
-        capital: 'Golden\nGate Bridge',
+        capital: 'Γέφυρα Γκόλντεν Γκέιτ',
         country: 'ΗΠΑ'
       },
     ],
@@ -185,8 +185,8 @@ const questions4El = [
     options: [
       {
         id: "0",
-        capital: 'Tiger\'s nest',
-        country: 'Bhutan'
+        capital: 'Η Φωλιά της Τίγρης',
+        country: 'Μπουτάν'
       },
       {
         id: "1",
@@ -200,7 +200,7 @@ const questions4El = [
       },
       {
         id: "3",
-        capital: 'Sigiriya',
+        capital: 'Σιγκιρίγια',
         country: 'Σρι Λάνκα'
       },
     ],
@@ -214,12 +214,12 @@ const questions4El = [
     options: [
       {
         id: "0",
-        country: "Sigiriya\nΣρι Λάνκα",
+        country: "Σιγκιρίγια\nΣρι Λάνκα",
         img: require("../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.png"),
       },
       {
         id: "1",
-        country: "Άνγκορ Βατ\nCambodia",
+        country: "Άνγκορ Βατ\nΚαμπότζη",
         img: require("../../../assets/WorldMonuments/Asia/AngkorWat.png"),
       },
       {
@@ -229,7 +229,7 @@ const questions4El = [
       },
       {
         id: "3",
-        country: "Tiger's Nest\nBhutan",
+        country: "Η Φωλιά της Τίγρης\nΜπουτάν",
         img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
       },
     ],
@@ -283,12 +283,12 @@ const questions4El = [
       },
       {
         id: "2",
-        country: "Κάστρο Μπραν\nRomania",
+        country: "Κάστρο Μπραν\nΡουμανία",
         img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
       },
       {
         id: "3",
-        country: "Ξύλινη εκκλησία Μπόργουντ\nNorway",
+        country: "Ξύλινη εκκλησία Μπόργουντ\nΝορβηγία",
         img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
       },
     ],
@@ -303,22 +303,22 @@ const questions4El = [
     options: [
       {
         id: "0",
-        capital: 'Royal Palace\nof Madrid',
+        capital: 'Αυτοκρατορικό παλάτι της Μαδρίτης',
         country: 'Ισπανία'
       },
       {
         id: "1",
-        capital: 'The Grand\nPalace',
-        country: 'Thailand'
+        capital: 'Το Μεγάλο Παλάτι',
+        country: 'Ταϊλάνδη'
       },
       {
         id: "2",
-        capital: 'Buckingham\nPalace',
+        capital: 'Ανάκτορα του Μπάκιγχαμ',
         country: 'Ηνωμένο Βασίλειο'
       },
       {
         id: "3",
-        capital: 'Palace of\nWestminster',
+        capital: 'Παλάτι του Γουεσμίνστερ',
         country: 'Ηνωμένο Βασίλειο'
       },
     ],
@@ -327,27 +327,27 @@ const questions4El = [
   {
     id: "6b",
     status: "Flags",
-    country: "Buckingham Palace",
+    country: "Ανάκτορα του Μπάκιγχαμ",
     capital: "Ηνωμένο Βασίλειο",
     options: [
       {
         id: "0",
-        country: "The Grand Palace\nThailand",
+        country: "Το Μεγάλο Παλάτι\nTαϊλάνδη",
         img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
       },
       {
         id: "1",
-        country: "Royal Palace of Madrid\nSpain",
+        country: "Αυτοκρατορικό παλάτι της Μαδρίτης\nΙσπανία",
         img: require("../../../assets/WorldMonuments/Europe/RoyalPalaceMadrid.png"),
       },
       {
         id: "2",
-        country: "Buckingham Palace\nΗνωμένο Βασίλειο",
+        country: "Ανάκτορα του Μπάκιγχαμ\nΗνωμένο Βασίλειο",
         img: require("../../../assets/WorldMonuments/Europe/buckinghampalace.png"),
       },
       {
         id: "3",
-        country: "Palace of Westminster\nΗνωμένο Βασίλειο",
+        country: "Παλάτι του Γουεσμίνστερ\nΗνωμένο Βασίλειο",
         img: require("../../../assets/WorldMonuments/Europe/palace-of-westminster_main.png"),
       },
     ],
@@ -362,22 +362,22 @@ const questions4El = [
     options: [
       {
         id: "0",
-        capital: 'Alcatraz\nIsland',
+        capital: 'Αλκατράζ',
         country: 'ΗΠΑ'
       },
       {
         id: "1",
-        capital: 'Ellis\nIsland',
+        capital: 'Νήσος Έλις',
         country: 'ΗΠΑ'
       },
       {
         id: "2",
-        capital: 'Mont\nSaint Michel',
+        capital: 'Μον-Σαιν-Μισέλ',
         country: 'Γαλλία'
       },
       {
         id: "3",
-        capital: 'Alhambra',
+        capital: 'Αλάμπρα',
         country: 'Ισπανία'
       },
     ],
@@ -386,27 +386,27 @@ const questions4El = [
   {
     id: "7b",
     status: "Flags",
-    country: "Alcatraz Island",
+    country: "Αλκατράζ",
     capital: "ΗΠΑ",
     options: [
       {
         id: "0",
-        country: "Alcatraz Island\nΗΠΑ",
+        country: "Αλκατράζ\nΗΠΑ",
         img: require("../../../assets/WorldMonuments/USA/alcatraz.png"),
       },
       {
         id: "1",
-        country: "Ellis Island\nΗΠΑ",
+        country: "Νήσος Έλις\nΗΠΑ",
         img: require("../../../assets/WorldMonuments/USA/ellis-island.png"),
       },
       {
         id: "2",
-        country: "Mont Saint Michel\nΓαλλία",
+        country: "Μον-Σαιν-Μισέλ\nΓαλλία",
         img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
       },
       {
         id: "3",
-        country: "Alhambra\nSpain",
+        country: "Αλάμπρα\nΙσπανία",
         img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
       },
     ],
@@ -421,22 +421,22 @@ const questions4El = [
     options: [
       {
         id: "0",
-        capital: 'Imperial\nPalace',
+        capital: 'Αυτοκρατορικό Παλάτι',
         country: 'Ιαπωνία'
       },
       {
         id: "1",
-        capital: 'Himeji\nCastle',
+        capital: 'Κάστρο του Χιμέτζι',
         country: 'Ιαπωνία'
       },
       {
         id: "2",
-        capital: 'Hiroshima\nPeace\nMemorial',
+        capital: 'Μνημείο Ειρήνης της Χιροσίμα',
         country: 'Ιαπωνία'
       },
       {
         id: "3",
-        capital: 'Fushimi\nInari Shrine',
+        capital: 'Φουσίμι Ινάρι',
         country: 'Ιαπωνία'
       },
     ],
@@ -445,27 +445,27 @@ const questions4El = [
   {
     id: "8b",
     status: "Flags",
-    country: "Hiroshima Peace Memorial",
+    country: "Μνημείο Ειρήνης της Χιροσίμα",
     capital: "Ιαπωνία",
     options: [
       {
         id: "0",
-        country: "Himeji Castle\nΙαπωνία",
+        country: "Κάστρο του Χιμέτζι\nΙαπωνία",
         img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
       },
       {
         id: "1",
-        country: "Fushimi Inari Shrine\nΙαπωνία",
+        country: "Φουσίμι Ινάρι\nΙαπωνία",
         img: require("../../../assets/WorldMonuments/Asia/FushimiInari-taishaShrineKyoto.png"),
       },
       {
         id: "2",
-        country: "Hiroshima Peace Memorial Park\nJapan",
+        country: "Μνημείο Ειρήνης της Χιροσίμα Park\nJapan",
         img: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.png"),
       },
       {
         id: "3",
-        country: "Imperial Palace\nΙαπωνία",
+        country: "Αυτοκρατορικό Παλάτι\nΙαπωνία",
         img: require("../../../assets/WorldMonuments/Asia/ImperialPalaceTokyo.png"),
       },
     ],
@@ -490,12 +490,12 @@ const questions4El = [
       },
       {
         id: "2",
-        capital: 'Cité de\nCarcassonne',
+        capital: 'Καρκασόν',
         country: 'Γαλλία'
       },
       {
         id: "3",
-        capital: 'Leaning\nTower of Pisa',
+        capital: 'Κεκλιμένος Πύργος της Πίζας',
         country: 'Ιταλία'
       },
     ],
@@ -509,7 +509,7 @@ const questions4El = [
     options: [
       {
         id: "0",
-        country: "Cité de Carcassonne\nΓαλλία",
+        country: "Καρκασόν\nΓαλλία",
         img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
       },
       {
@@ -544,17 +544,17 @@ const questions4El = [
       },
       {
         id: "1",
-        capital: 'Empire\nState Building',
+        capital: 'Εμπάιρ Στέιτ Μπίλντινγκ',
         country: 'ΗΠΑ'
       },
       {
         id: "2",
-        capital: 'Petronas\nTowers',
-        country: 'Malaysia'
+        capital: 'Πύργοι Πετρόνας',
+        country: 'Μαλαισία'
       },
       {
         id: "3",
-        capital: 'Tokyo Tower',
+        capital: 'Πύργος του Τόκιο',
         country: 'Ιαπωνία'
       },
     ],
@@ -563,7 +563,7 @@ const questions4El = [
   {
     id: "10b",
     status: "Flags",
-    country: "Empire State Building",
+    country: "Εμπάιρ Στέιτ Μπίλντινγκ",
     capital: "ΗΠΑ",
     options: [
       {
@@ -573,17 +573,17 @@ const questions4El = [
       },
       {
         id: "1",
-        country: "Empire State Building\nΗΠΑ",
+        country: "Εμπάιρ Στέιτ Μπίλντινγκ\nΗΠΑ",
         img: require("../../../assets/WorldMonuments/USA/Empire-State-Building.png"),
       },
       {
         id: "2",
-        country: "Petronas Towers\nMalaysia",
+        country: "Πύργοι Πετρόνας\nMαλαισία",
         img: require("../../../assets/WorldMonuments/Asia/PetronasTwinTowers.png"),
       },
       {
         id: "3",
-        country: "Tokyo Tower\nΙαπωνία",
+        country: "Πύργος του Τόκιο\nΙαπωνία",
         img: require("../../../assets/WorldMonuments/Asia/TokyoTower.png"),
       },
     ],

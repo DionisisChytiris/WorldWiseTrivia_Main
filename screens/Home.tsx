@@ -4,6 +4,9 @@ import { AppNavigatorTypeList } from "../Types/AppNavigatorTypeList";
 import React, { useState, useEffect } from "react";
 import { View, Text, StyleSheet, Pressable } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+// test sound
+import { Audio } from "expo-av";
+//
 
 type HomeProp = StackNavigationProp<AppNavigatorTypeList, "Home">;
 
@@ -11,8 +14,8 @@ const Home = () => {
   const navigation = useNavigation<HomeProp>();
   const [name, setName] = useState("");
   const [color, setColor] = useState("#002c54");
-  const [circle, setCircle] =  useState('#ccc')
-  const [text, setText]= useState('#002c54')
+  const [circle, setCircle] = useState("#ccc");
+  const [text, setText] = useState("#002c54");
 
   useEffect(() => {
     getData();
@@ -31,6 +34,30 @@ const Home = () => {
     }
   };
 
+  //test sound
+  const [sound, setSound] = useState();
+
+  async function playSound() {
+    // console.log("Loading Sound");
+    const { sound } = await Audio.Sound.createAsync(
+      require("../assets/more/AC_DC.mp3")
+    );
+    setSound(sound);
+
+    console.log("Playing Sound");
+    await sound.playAsync();
+  }
+
+  useEffect(() => {
+    return sound
+      ? () => {
+          // console.log("Unloading Sound");
+          sound.unloadAsync();
+        }
+      : undefined;
+  }, [sound]);
+  //
+
   return (
     <View style={[styles.container, { backgroundColor: color }]}>
       {name ? (
@@ -41,27 +68,35 @@ const Home = () => {
       <Pressable
         // onPress={()=> navigation.navigate('MultiLanguage')}
         onPressIn={() => (
-          setColor("#ccc"),
-          setCircle('#002c54'),
-          setText('#ccc')
+          setColor("#ccc"), setCircle("#002c54"), setText("#ccc")
         )}
         onPressOut={() => {
-          setColor('#002c54')
-          setCircle('#ccc')
-          setText('#002c54')
+          setColor("#002c54");
+          setCircle("#ccc");
+          setText("#002c54");
           name
             ? navigation.navigate("Draw")
             : navigation.navigate("MultiLanguage");
         }}
-        style={[styles.circle,{backgroundColor: circle}]}
+        style={[styles.circle, { backgroundColor: circle }]}
       >
-        {name ? <Text>Enter</Text> : (
-          <View style={{justifyContent: 'center', alignItems: 'center'}}>
-            <Text style={[styles.title,{color: text}]}>World Wise</Text>
-            <Text style={[styles.title,{color: text}]}>Trivia</Text>
+        {name ? (
+          <Text>Enter</Text>
+        ) : (
+          <View style={{ justifyContent: "center", alignItems: "center" }}>
+            <Text style={[styles.title, { color: text }]}>World Wise</Text>
+            <Text style={[styles.title, { color: text }]}>Trivia</Text>
           </View>
         )}
       </Pressable>
+      <View style={{position: 'absolute', bottom: 80}}>
+        <Pressable onPress={playSound}>
+          <Text style={{ color: "white", marginTop: 50 }}>Sound On</Text>
+        </Pressable>
+        <Pressable onPress={() => setSound(null)}>
+          <Text style={{ color: "white", marginTop: 50 }}>Sound Off</Text>
+        </Pressable>
+      </View>
     </View>
   );
 };

@@ -29,7 +29,7 @@ import {
   Results10,
 } from "./Quizzes";
 import LoseScreen from "./Quizzes/LoseScreen/LoseScreen";
-import Return from "./Return";
+import Return from "./WTEST/Return";
 import ChooseQuizType from "./ChooseQuizType";
 
 const Tab = createBottomTabNavigator();

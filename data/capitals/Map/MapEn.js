@@ -4,6 +4,7 @@ const mapDataEn = [
         ltr: 'A',
         capital: 'Abu Dhabi',
         country: 'United Arab Emirates',
+        description: 'Abu Dhabi, the capital of the United Arab Emirates, is known for its stunning modern architecture, cultural landmarks like the Sheikh Zayed Grand Mosque, and economic prosperity driven by oil and tourism. The city blends tradition with modernity, offering luxury shopping, fine dining, and beautiful beaches.',
         latitude: 24.28,
         longitude: 54.22,
         zoomLocation: 6
@@ -13,6 +14,7 @@ const mapDataEn = [
         ltr: 'A',
         capital: 'Abuja',
         country: 'Nigeria',
+        description: "Abuja, the capital of Nigeria, is known for its modern architecture, including the Nigerian National Mosque and the Nigerian National Christian Centre, as well as its role as the political and administrative center of the country. The city is a planned urban area, offering a blend of greenery, cultural institutions, and government buildings.",
         latitude: 9.06,
         longitude: 7.50,
         zoomLocation: 6,
@@ -22,6 +24,7 @@ const mapDataEn = [
         ltr: 'A',
         capital: 'Accra',
         country: 'Ghana',
+        description: "Accra, the capital of Ghana, is known for its vibrant culture, bustling markets, and historical landmarks such as Independence Square and the Kwame Nkrumah Memorial Park. The city is a major economic and administrative center, blending modern urban life with rich traditions.",
         latitude: 5.58,
         longitude: -0.19,
         zoomLocation: 6
@@ -31,6 +34,7 @@ const mapDataEn = [
         ltr: 'A',
         capital: 'Addis Ababa',
         country: 'Ethiopia',
+        description: "Addis Ababa, the capital of Ethiopia, is known for its diverse culture, historical sites like the National Museum of Ethiopia, and its role as the political hub of Africa, hosting the African Union headquarters. The city blends traditional Ethiopian heritage with modern urban development.",
         latitude: 8.99,
         longitude: 38.74,
         zoomLocation: 6
@@ -40,6 +44,7 @@ const mapDataEn = [
         ltr: 'A',
         capital: 'Algiers',
         country: 'Algeria',
+        description: "Algiers, the capital of Algeria, is known for its white-washed buildings, historical Casbah district, and its role as a political and economic center. The city offers a blend of Mediterranean charm and North African heritage, featuring vibrant markets and cultural landmarks.",
         latitude: 36.72,
         longitude: 3.07,
         zoomLocation: 6
@@ -49,6 +54,7 @@ const mapDataEn = [
         ltr: 'A',
         capital: 'Amman',
         country: 'Jordan',
+        description: "Amman, the capital of Jordan, is known for its ancient ruins, such as the Roman Theatre and the Citadel, and its vibrant modern culture. The city serves as a political, economic, and cultural center, blending historical heritage with contemporary urban life.",
         latitude: 31.92,
         longitude: 35.90,
         zoomLocation: 6
@@ -58,6 +64,7 @@ const mapDataEn = [
         ltr: 'A',
         capital: 'Amsterdam',
         country: 'Netherlands',
+        description: "",
         latitude: 52.37,
         longitude: 4.88,
         zoomLocation: 6
@@ -67,6 +74,7 @@ const mapDataEn = [
         ltr: 'A',
         capital: 'Ankara',
         country: 'Turkey',
+        description: "",
         latitude: 39.92,
         longitude: 32.84,
         zoomLocation: 6
@@ -76,6 +84,7 @@ const mapDataEn = [
         ltr: 'A',
         capital: 'Antananarivo',
         country: 'Madagascar',
+        description: "",
         latitude: -18.91,
         longitude: 47.51,
         zoomLocation: 6
