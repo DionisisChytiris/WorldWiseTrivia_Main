@@ -90,7 +90,7 @@ const TabNavNaturalMnts = ({ navigation }) => {
       </Tab.Screen> 
 
       <Tab.Screen
-        name="Map"
+        name="MapScreen"
         options={{
           headerShown: false,
           tabBarLabel: t("Map"),

@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 import { useTheme } from "../../utils/ThemeMode/ThemeProvider";
 import TabNavFlags from "../BottomTabs/FlagsTab/TabNavFlags";
 import React from "react";
-import TabNavAnimals from "../BottomTabs/AnimalsTab/TabNavAnimals";
+// import TabNavAnimals from "../BottomTabs/AnimalsTab/TabNavAnimals";
 import TabNavScience from "../BottomTabs/ScienceTab/TabNavScience";
 import TabNavMonuments from "../BottomTabs/WorldMonuments/TabNavMonuments";
 import TabNavNaturalMnts from "../BottomTabs/NaturalMntTab/TabNavNaturalMnts";
