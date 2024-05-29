@@ -126,7 +126,7 @@ const questions9Es = [
         options: [
           {
             id: "0",
-            capital: 'Duomo\ndi Milan',
+            capital: 'Catedral de Milán',
             country: 'Italia'
           },
           {

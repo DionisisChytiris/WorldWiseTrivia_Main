@@ -8,7 +8,7 @@ const questions5Es = [
     options: [
       {
         id: "0",
-        capital: 'Brooklyn\nBridge',
+        capital: 'Puente de Brooklyn',
         country: 'Estados Unidos'
       },
       {
@@ -18,12 +18,12 @@ const questions5Es = [
       },
       {
         id: "2",
-        capital: 'Golden\nGate Bridge',
+        capital: 'Puente Golden Gate',
         country: 'Estados Unidos'
       },
       {
         id: "3",
-        capital: 'Sydney\nHarbour Bridge',
+        capital: 'Puente de la bahía de Sídney',
         country: 'Australia'
       },
     ],
@@ -544,7 +544,7 @@ const questions5Es = [
           },
           {
             id: "1",
-            capital: 'Palace of\nVersailles',
+            capital: 'Palacio de Versalles',
             country: 'Francia'
           },
           {

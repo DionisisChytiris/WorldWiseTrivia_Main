@@ -2,7 +2,7 @@ const OceaniaMonEs = [
     {
         id: '1',
         img: require('../../../assets/WorldMonuments/Oceania/Gold_Coast.png'),
-        name: 'Gold Coast',
+        name: 'Costa de Oro',
         country: 'Australia',
         city: 'Queensland',
         date: ''

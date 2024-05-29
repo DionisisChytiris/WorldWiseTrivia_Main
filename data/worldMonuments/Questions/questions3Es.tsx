@@ -13,7 +13,7 @@ const questions3Es = [
       },
       {
         id: "1",
-        capital: "Trevi \nFountain",
+        capital: "Fontana di Trevi",
         country: "Italia",
       },
       {
@@ -32,17 +32,17 @@ const questions3Es = [
   {
     id: "1b",
     status: "Flags",
-    country: "Spanish Steps",
+    country: "Escalinata de la plaza de España",
     capital: "Italia",
     options: [
       {
         id: "0",
-        country: "Spanish Steps\nItalia",
+        country: "Escalinata de la plaza de España\nItalia",
         img: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.png"),
       },
       {
         id: "1",
-        country: "Trevi Fountain\nItalia",
+        country: "Fontana di Trevi\nItalia",
         img: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.png"),
       },
       {
@@ -303,17 +303,17 @@ const questions3Es = [
     options: [
       {
         id: "0",
-        capital: "Brooklyn\nBridge",
+        capital: "Puente de Brooklyn",
         country: "Estados Unidos",
       },
       {
         id: "1",
-        capital: "Golden\nGate Bridge",
+        capital: "Puente Golden Gate",
         country: "Estados Unidos",
       },
       {
         id: "2",
-        capital: "Sydney\nHarbour Bridge",
+        capital: "Puente de la bahía de Sídney",
         country: "Australia",
       },
       {
@@ -327,12 +327,12 @@ const questions3Es = [
   {
     id: "6b",
     status: "Flags",
-    country: "Brooklyn Bridge",
+    country: "Puente de Brooklyn",
     capital: "Estados Unidos",
     options: [
       {
         id: "0",
-        country: "Brooklyn Bridge\nEstados Unidos",
+        country: "Puente de Brooklyn\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.png"),
       },
       {
@@ -342,7 +342,7 @@ const questions3Es = [
       },
       {
         id: "2",
-        country: "Sydney Harbour Bridge\nAustralia",
+        country: "Puente de la bahía de Sídney\nAustralia",
         img: require("../../../assets/WorldMonuments/Oceania/harbour-bridge.png"),
       },
       {
@@ -421,12 +421,12 @@ const questions3Es = [
     options: [
       {
         id: "0",
-        capital: "Brooklyn\nBridge",
+        capital: "Puente de Brooklyn",
         country: "Estados Unidos",
       },
       {
         id: "1",
-        capital: "Golden\nGate Bridge",
+        capital: "Puente Golden Gate",
         country: "Estados Unidos",
       },
       {
@@ -450,7 +450,7 @@ const questions3Es = [
     options: [
       {
         id: "0",
-        country: "Sydney Harbour Bridge\nAustralia",
+        country: "Puente de la bahía de Sídney\nAustralia",
         img: require("../../../assets/WorldMonuments/Oceania/harbour-bridge.png"),
       },
       {
@@ -465,7 +465,7 @@ const questions3Es = [
       },
       {
         id: "3",
-        country: "Brooklyn Bridge\nEstados Unidos",
+        country: "Puente de Brooklyn\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.png"),
       },
     ],
@@ -514,7 +514,7 @@ const questions3Es = [
       },
       {
         id: "1",
-        country: "Borgund Stave Church\nNorway",
+        country: "Iglesia de madera de Borgund\nNorway",
         img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
       },
       {
@@ -544,7 +544,7 @@ const questions3Es = [
       },
       {
         id: "1",
-        capital: "Duomo\ndi Milan",
+        capital: "Catedral de Milán",
         country: "Italia",
       },
       {

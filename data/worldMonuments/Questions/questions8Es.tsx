@@ -244,7 +244,7 @@ const questions8Es = [
       options: [
         {
           id: "0",
-          capital: 'Sistine Chapel',
+          capital: 'Capilla Sixtina',
           country: 'Vatican City'
         },
         {
@@ -273,7 +273,7 @@ const questions8Es = [
       options: [
         {
           id: "0",
-          name: "Sistine Chapel\nVatican City",
+          name: "Capilla Sixtina\nVatican City",
           img: require("../../../assets/WorldMonuments/Europe/sistineChapel.png"),
         },
         {
@@ -362,7 +362,7 @@ const questions8Es = [
       options: [
         {
           id: "0",
-          capital: 'Duomo\ndi Milan',
+          capital: 'Catedral de Milán',
           country: 'Italia'
         },
         {
@@ -426,7 +426,7 @@ const questions8Es = [
         },
         {
           id: "1",
-          capital: 'Guggenheim\nMuseum',
+          capital: 'Museo Guggenheim',
           country: 'España'
         },
         {
@@ -445,7 +445,7 @@ const questions8Es = [
     {
       id: "8b",
       status: "Flags",
-      country: "Guggenheim Museum Bilbao",
+      country: "Museo Guggenheim Bilbao",
       capital: "España",
       options: [
         {
@@ -455,7 +455,7 @@ const questions8Es = [
         },
         {
           id: "1",
-          name: "Guggenheim Museum\nSpain",
+          name: "Museo Guggenheim\nSpain",
           img: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png"),
         },
         {
@@ -480,7 +480,7 @@ const questions8Es = [
       options: [
         {
           id: "0",
-          capital: 'Golden\nGate Bridge',
+          capital: 'Puente Golden Gate',
           country: 'Estados Unidos'
         },
         {
@@ -490,7 +490,7 @@ const questions8Es = [
         },
         {
           id: "2",
-          capital: 'Gold Coast',
+          capital: 'Costa de Oro',
           country: 'Austalia'
         },
         {
@@ -504,7 +504,7 @@ const questions8Es = [
     {
       id: "9b",
       status: "Flags",
-      country: "Gold Coast",
+      country: "Costa de Oro",
       capital: "Australia",
       options: [
         {
@@ -519,7 +519,7 @@ const questions8Es = [
         },
         {
           id: "2",
-          name: "Gold Coast\nAustralia",
+          name: "Costa de Oro\nAustralia",
           img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.png"),
         },
         {

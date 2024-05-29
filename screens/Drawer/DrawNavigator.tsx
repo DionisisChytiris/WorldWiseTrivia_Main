@@ -8,7 +8,7 @@ import { useTheme } from "../../utils/ThemeMode/ThemeProvider";
 import TabNavFlags from "../BottomTabs/FlagsTab/TabNavFlags";
 import React from "react";
 // import TabNavAnimals from "../BottomTabs/AnimalsTab/TabNavAnimals";
-import TabNavScience from "../BottomTabs/ScienceTab/TabNavScience";
+import TabNavMixedQsts from "../BottomTabs/MixedQuestionsTab/TabNavMixedQsts";
 import TabNavMonuments from "../BottomTabs/WorldMonuments/TabNavMonuments";
 import TabNavNaturalMnts from "../BottomTabs/NaturalMntTab/TabNavNaturalMnts";
 
@@ -108,7 +108,7 @@ const DrawNavigator = () => {
             />
             <Stack.Screen
               name="MixedQuestions"
-              component={TabNavScience}
+              component={TabNavMixedQsts}
               options={{ headerShown: true, gestureEnabled: false }}
             />
           </Stack.Navigator>

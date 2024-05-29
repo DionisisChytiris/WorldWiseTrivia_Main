@@ -8,7 +8,7 @@ const questions4Es = [
     options: [
       {
         id: "0",
-        capital: "Spanish Steps",
+        capital: "Escalinata de la plaza de España",
         country: "Italia",
       },
       {
@@ -18,12 +18,12 @@ const questions4Es = [
       },
       {
         id: "2",
-        capital: "Guggenheim\nMuseum",
+        capital: "Museo Guggenheim",
         country: "España",
       },
       {
         id: "3",
-        capital: "Trevi \nFountain",
+        capital: "Fontana di Trevi",
         country: "Italia",
       },
     ],
@@ -32,12 +32,12 @@ const questions4Es = [
   {
     id: "1b",
     status: "Flags",
-    country: "Trevi Fountain",
+    country: "Fontana di Trevi",
     capital: "Italia",
     options: [
       {
         id: "0",
-        country: "Spanish Steps\nItalia",
+        country: "Escalinata de la plaza de España\nItalia",
         img: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.png"),
       },
       {
@@ -52,7 +52,7 @@ const questions4Es = [
       },
       {
         id: "3",
-        country: "Trevi Fountain\nItalia",
+        country: "Fontana di Trevi\nItalia",
         img: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.png"),
       },
     ],
@@ -67,7 +67,7 @@ const questions4Es = [
     options: [
       {
         id: "0",
-        capital: "Westminster\nAbbey",
+        capital: "Abadía de Westminster",
         country: "Reino Unido",
       },
       {
@@ -126,12 +126,12 @@ const questions4Es = [
     options: [
       {
         id: "0",
-        capital: 'Sydney\nHarbour Bridge',
+        capital: 'Puente de la bahía de Sídney',
         country: 'Australia'
       },
       {
         id: "1",
-        capital: 'Brooklyn\nBridge',
+        capital: 'Puente de Brooklyn',
         country: 'Estados Unidos'
       },
       {
@@ -141,7 +141,7 @@ const questions4Es = [
       },
       {
         id: "3",
-        capital: 'Golden\nGate Bridge',
+        capital: 'Puente Golden Gate',
         country: 'Estados Unidos'
       },
     ],
@@ -150,17 +150,17 @@ const questions4Es = [
   {
     id: "3b",
     status: "Flags",
-    country: "Sydney Harbour Bridge",
+    country: "Puente de la bahía de Sídney",
     capital: "Australia",
     options: [
       {
         id: "0",
-        country: "Sydney Harbour Bridge\nAustralia",
+        country: "Puente de la bahía de Sídney\nAustralia",
         img: require("../../../assets/WorldMonuments/Oceania/harbour-bridge.png"),
       },
       {
         id: "1",
-        country: "Brooklyn Bridge\nEstados Unidos",
+        country: "Puente de Brooklyn\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.png"),
       },
       {
@@ -185,7 +185,7 @@ const questions4Es = [
     options: [
       {
         id: "0",
-        capital: 'Tiger\'s nest',
+        capital: 'El nido del Tigre',
         country: 'Bután'
       },
       {
@@ -229,7 +229,7 @@ const questions4Es = [
       },
       {
         id: "3",
-        country: "Tiger's Nest\nBhutan",
+        country: "El nido de Tigre\nBhutan",
         img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
       },
     ],
@@ -254,13 +254,13 @@ const questions4Es = [
       },
       {
         id: "2",
-        capital: 'Duomo\ndi Milan',
+        capital: 'Catedral de Milán',
         country: 'Italia'
       },
       {
         id: "3",
-        capital: 'Sistine Chapel',
-        country: 'Vatican City'
+        capital: 'Capilla Sixtina',
+        country: 'Vaticano'
       },
     ],
     correctAnswerIndex: 1,
@@ -288,7 +288,7 @@ const questions4Es = [
       },
       {
         id: "3",
-        country: "Borgund Stave Church\nNorway",
+        country: "Iglesia de madera de Borgund\nNoruega",
         img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
       },
     ],
@@ -318,7 +318,7 @@ const questions4Es = [
       },
       {
         id: "3",
-        capital: 'Palace of\nWestminster',
+        capital: 'Palacio de\nWestminster',
         country: 'Reino Unido'
       },
     ],

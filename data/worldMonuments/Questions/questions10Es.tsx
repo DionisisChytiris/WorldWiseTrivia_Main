@@ -195,12 +195,12 @@ const questions10Es = [
       },
       {
         id: "2",
-        capital: "Gold Coast",
+        capital: "Costa de Oro",
         country: "Australia",
       },
       {
         id: "3",
-        capital: "Golden\nGate Bridge",
+        capital: "Puente Golden Gate",
         country: "Estados Unidos",
       },
     ],
@@ -224,7 +224,7 @@ const questions10Es = [
       },
       {
         id: "2",
-        country: "Gold Coast\nAustralia",
+        country: "Costa de Oro\nAustralia",
         img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.png"),
       },
       {
@@ -362,7 +362,7 @@ const questions10Es = [
     options: [
       {
         id: "0",
-        capital: "Palace of\nVersailles",
+        capital: "Palacio de Versalles",
         country: "Francia",
       },
       {

@@ -337,7 +337,7 @@ const questions7Es = [
           },
           {
             id: "1",
-            country: "Borgund Stave Church\nNorway",
+            country: "Iglesia de madera de Borgund\nNorway",
             img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
           },
           {
@@ -406,7 +406,7 @@ const questions7Es = [
           },
           {
             id: "3",
-            country: "Guggenheim Museum \nSpain",
+            country: "Museo Guggenheim \nSpain",
             img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.png"),
           },
         ],
@@ -431,12 +431,12 @@ const questions7Es = [
           },
           {
             id: "2",
-            capital: 'Brooklyn\nBridge',
+            capital: 'Puente de Brooklyn',
             country: 'Estados Unidos'
           },
           {
             id: "3",
-            capital: 'Sydney\nHarbour Bridge',
+            capital: 'Puente de la bahía de Sídney',
             country: 'Australia'
           },
         ],
@@ -460,12 +460,12 @@ const questions7Es = [
           },
           {
             id: "2",
-            country: "Brooklyn Bridge\nEstados Unidos",
+            country: "Puente de Brooklyn\nEstados Unidos",
             img: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.png"),
           },
           {
             id: "3",
-            country: "Sydney Harbour Bridge\nAustralia",
+            country: "Puente de la bahía de Sídney\nAustralia",
             img: require("../../../assets/WorldMonuments/Oceania/harbour-bridge.png"),
           },
         ],
@@ -490,7 +490,7 @@ const questions7Es = [
           },
           {
             id: "2",
-            capital: 'Sistine Chapel',
+            capital: 'Capilla Sixtina',
             country: 'Vatican City'
           },
           {
@@ -504,7 +504,7 @@ const questions7Es = [
       {
         id: "9b",
         status: "Flags",
-        country: "Sistine Chapel",
+        country: "Capilla Sixtina",
         capital: "Vatican City",
         options: [
           {
@@ -519,7 +519,7 @@ const questions7Es = [
           },
           {
             id: "2",
-            country: "Sistine Chapel\nVatican City",
+            country: "Capilla Sixtina\nVatican City",
             img: require("../../../assets/WorldMonuments/Europe/sistineChapel.png"),
           },
           {
@@ -549,7 +549,7 @@ const questions7Es = [
           },
           {
             id: "2",
-            capital: 'Palace of\nVersailles',
+            capital: 'Palacio de Versalles',
             country: 'Francia'
           },
           {

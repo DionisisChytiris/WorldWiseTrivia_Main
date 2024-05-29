@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text,Animated, StyleSheet } from 'react-native';
 
-const ScienceQuizHome = () => {
+const MixedQstsQuizHome = () => {
   const animatedValue = React.useRef(new Animated.Value(0)).current;
 
   React.useEffect(() => {
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ScienceQuizHome;
+export default MixedQstsQuizHome;
 
 
 // export default ScienceQuizHome

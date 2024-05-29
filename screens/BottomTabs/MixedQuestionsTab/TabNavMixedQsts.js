@@ -4,7 +4,7 @@ import { Pressable, Image, Text, Platform } from "react-native";
 import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
 // import { TopTabFlagNavigator } from "./TopTabFlags/topTabFlagNavigator";
-import ScienceQuizHome from "./ScienceQuizHome";
+import MixedQstsQuizHome from "./MixedQstsQuizHome";
 import Settings from "../Settings";
 // import {
 //   Quiz1
@@ -14,7 +14,7 @@ import Return from "./Return";
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
 
-const TabNavScience= ({ navigation }) => {
+const TabNavMixedQsts= ({ navigation }) => {
   const { colors } = useTheme();
   const { t } = useTranslation();
   return (
@@ -36,7 +36,7 @@ const TabNavScience= ({ navigation }) => {
       }}
     >
       <Tab.Screen
-        name="ScienceQuizHome"
+        name="MixedQuizHome"
         options={{
           headerShown: false,
           tabBarLabel: t("Quizzes"),
@@ -49,9 +49,9 @@ const TabNavScience= ({ navigation }) => {
         }}
       >
         {() => (
-          <Stack.Navigator initialRouteName="ScienceHome">
+          <Stack.Navigator initialRouteName="MixedQstsHome">
             <Stack.Group screenOptions={{ headerShown: false }}>
-              <Stack.Screen name="ScienceHome" component={ScienceQuizHome} />
+              <Stack.Screen name="MixedQstsHome" component={MixedQstsQuizHome} />
               {/* <Stack.Screen name="Quiz1" component={Quiz1} /> */}
             </Stack.Group>
           </Stack.Navigator>
@@ -81,7 +81,7 @@ const TabNavScience= ({ navigation }) => {
           </Stack.Navigator>
         )}
       </Tab.Screen> */}
-
+{/* 
       <Tab.Screen
         name="ReturnQuiz"
         options={{
@@ -106,7 +106,7 @@ const TabNavScience= ({ navigation }) => {
             </Stack.Group>
           </Stack.Navigator>
         )}
-      </Tab.Screen>
+      </Tab.Screen> */}
 
       <Tab.Screen
         name="Open"
@@ -140,4 +140,4 @@ const TabNavScience= ({ navigation }) => {
   );
 };
 
-export default TabNavScience;
+export default TabNavMixedQsts;

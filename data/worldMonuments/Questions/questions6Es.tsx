@@ -82,7 +82,7 @@ const questions6Es = [
           },
           {
             id: "3",
-            capital: 'Duomo\ndi Milan',
+            capital: 'Catedral de Milán',
             country: 'Italia'
           },
         ],
@@ -96,7 +96,7 @@ const questions6Es = [
         options: [
           {
             id: "0",
-            country: "Borgund Stave Church\nNorway",
+            country: "Iglesia de madera de Borgund\nNorway",
             img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
           },
           {
@@ -141,7 +141,7 @@ const questions6Es = [
           },
           {
             id: "3",
-            capital: 'Guggenheim\nMuseum',
+            capital: 'Museo Guggenheim',
             country: 'España'
           },
         ],
@@ -170,7 +170,7 @@ const questions6Es = [
           },
           {
             id: "3",
-            country: "Guggenheim Museum\nSpain",
+            country: "Museo Guggenheim\nSpain",
             img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.png"),
           },
         ],
@@ -278,7 +278,7 @@ const questions6Es = [
           },
           {
             id: "1",
-            country: "Borgund Stave Church\nNorway",
+            country: "Iglesia de madera de Borgund\nNorway",
             img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
           },
           {
@@ -362,7 +362,7 @@ const questions6Es = [
         options: [
           {
             id: "0",
-            capital: 'Guggenheim\nMuseum',
+            capital: 'Museo Guggenheim',
             country: 'España'
           },
           {
@@ -377,7 +377,7 @@ const questions6Es = [
           },
           {
             id: "3",
-            capital: 'Palace of\nVersailles',
+            capital: 'Palacio de Versalles',
             country: 'Francia'
           },
         ],
@@ -396,7 +396,7 @@ const questions6Es = [
           },
           {
             id: "1",
-            country: "Guggenheim Museum\nSpain",
+            country: "Museo Guggenheim\nSpain",
             img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.png"),
           },
           {
@@ -490,12 +490,12 @@ const questions6Es = [
           },
           {
             id: "2",
-            capital: 'Palace of\nVersailles',
+            capital: 'Palacio de Versalles',
             country: 'Francia'
           },
           {
             id: "3",
-            capital: 'Westminster\nAbbey',
+            capital: 'Abadía de Westminster',
             country: 'Reino Unido'
           },
         ],
@@ -563,7 +563,7 @@ const questions6Es = [
       {
         id: "10b",
         status: "Flags",
-        country: "Borgund Stave Church",
+        country: "Iglesia de madera de Borgund",
         capital: "Noruega",
         options: [
           {
@@ -573,7 +573,7 @@ const questions6Es = [
           },
           {
             id: "1",
-            country: "Borgund Stave Church\nNorway",
+            country: "Iglesia de madera de Borgund\nNorway",
             img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
           },
           {
