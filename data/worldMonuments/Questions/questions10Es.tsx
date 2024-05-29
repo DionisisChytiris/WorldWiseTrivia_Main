@@ -37,12 +37,12 @@ const questions10Es = [
     options: [
       {
         id: "0",
-        country: "Great Mosque of Djenné\nMali",
+        country: "Gran Mezquita de Djenné\nMali",
         img: require("../../../assets/WorldMonuments/Africa/mosque-of-djenne.png"),
       },
       {
         id: "1",
-        country: "Petra\nJordan",
+        country: "Petra\nJordania",
         img: require("../../../assets/WorldMonuments/Asia/jordanPetra.png"),
       },
       {
@@ -52,7 +52,7 @@ const questions10Es = [
       },
       {
         id: "3",
-        country: "Citadel of Aleppo\nSyria",
+        country: "Ciudadela de Alepo\nSyria",
         img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png"),
       },
     ],
@@ -91,12 +91,12 @@ const questions10Es = [
   {
     id: "2b",
     status: "Flags",
-    country: "Kailasa Temple",
+    country: "Templo de Kailasa",
     capital: "India",
     options: [
       {
         id: "0",
-        country: "Kailasa Temple\nIndia",
+        country: "Templo de Kailasa\nIndia",
         img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
       },
       {
@@ -106,12 +106,12 @@ const questions10Es = [
       },
       {
         id: "2",
-        country: "Persepolis\nIran",
+        country: "Persépolis\nIran",
         img: require("../../../assets/WorldMonuments/Asia/persepolis.png"),
       },
       {
         id: "3",
-        country: "Ephesus\nTurkey",
+        country: "Éfeso\nTurquía",
         img: require("../../../assets/WorldMonuments/Asia/ephesos.png"),
       },
     ],
@@ -155,7 +155,7 @@ const questions10Es = [
     options: [
       {
         id: "0",
-        country: "Acrópolis\nGreece",
+        country: "Acrópolis\nGrecia",
         img: require("../../../assets/WorldMonuments/Europe/Acropolis.png"),
       },
       {
@@ -170,7 +170,7 @@ const questions10Es = [
       },
       {
         id: "3",
-        country: "Meteora\nGreece",
+        country: "Meteora\nGrecia",
         img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
       },
     ],
@@ -219,7 +219,7 @@ const questions10Es = [
       },
       {
         id: "1",
-        country: "Monte Saint-Michel\nFrance",
+        country: "Monte Saint-Michel\nFrancia",
         img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
       },
       {
@@ -229,7 +229,7 @@ const questions10Es = [
       },
       {
         id: "3",
-        country: "Golden Date Bridge\nUSA",
+        country: "Golden Date Bridge\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.png"),
       },
     ],
@@ -245,7 +245,7 @@ const questions10Es = [
       {
         id: "0",
         capital: "The Shard",
-        country: "UK",
+        country: "Reino Unido",
       },
       {
         id: "1",
@@ -273,17 +273,17 @@ const questions10Es = [
     options: [
       {
         id: "0",
-        country: "Washington Monument\nUSA",
+        country: "Washington Monument\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/washingtonMonument.png"),
       },
       {
         id: "1",
-        country: "The Shard\nUK",
+        country: "The Shard\nReino Unido",
         img: require("../../../assets/WorldMonuments/Europe/TheShard.png"),
       },
       {
         id: "2",
-        country: "Torre Eiffel \nUK",
+        country: "Torre Eiffel \nReino Unido",
         img: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
       },
       {
@@ -303,7 +303,7 @@ const questions10Es = [
     options: [
       {
         id: "0",
-        capital: "Persepolis",
+        capital: "Persépolis",
         country: "Irán",
       },
       {
@@ -313,7 +313,7 @@ const questions10Es = [
       },
       {
         id: "2",
-        capital: "Ephesus",
+        capital: "Éfeso",
         country: "Turquía",
       },
       {
@@ -327,7 +327,7 @@ const questions10Es = [
   {
     id: "6b",
     status: "Flags",
-    country: "Ephesus",
+    country: "Éfeso",
     capital: "Turquía",
     options: [
       {
@@ -342,7 +342,7 @@ const questions10Es = [
       },
       {
         id: "2",
-        country: "Ephesus\nTurkey",
+        country: "Éfeso\nTurquía",
         img: require("../../../assets/WorldMonuments/Asia/ephesos.png"),
       },
       {
@@ -391,12 +391,12 @@ const questions10Es = [
     options: [
       {
         id: "0",
-        country: "Palacio de Versalles  \nFrance",
+        country: "Palacio de Versalles  \nFrancia",
         img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
       },
       {
         id: "1",
-        country: "Museo del Louvre\nFrance",
+        country: "Museo del Louvre\nFrancia",
         img: require("../../../assets/WorldMonuments/Europe/LouvreMuseum.png"),
       },
       {
@@ -406,7 +406,7 @@ const questions10Es = [
       },
       {
         id: "3",
-        country: "Eltz Castle\nGermany",
+        country: "Eltz Castle\nAlemania",
         img: require("../../../assets/WorldMonuments/Europe/eltz-castle-muenstermaifeld-germany.png"),
       },
     ],
@@ -426,7 +426,7 @@ const questions10Es = [
       },
       {
         id: "1",
-        capital: "Knossos",
+        capital: "Cnosos",
         country: "Grecia",
       },
       {
@@ -450,12 +450,12 @@ const questions10Es = [
     options: [
       {
         id: "0",
-        country: "Acrópolis\nGreece",
+        country: "Acrópolis\nGrecia",
         img: require("../../../assets/WorldMonuments/Europe/Acropolis.png"),
       },
       {
         id: "1",
-        country: "Arles Amphitheater\nFrance",
+        country: "Arles Amphitheater\nFrancia",
         img: require("../../../assets/WorldMonuments/Europe/AmpitheatreofArles.png"),
       },
       {
@@ -465,7 +465,7 @@ const questions10Es = [
       },
       {
         id: "3",
-        country: "Persepolis\nIran",
+        country: "Persépolis\nIran",
         img: require("../../../assets/WorldMonuments/Asia/persepolis.png"),
       },
     ],
@@ -485,12 +485,12 @@ const questions10Es = [
       },
       {
         id: "1",
-        capital: "Persepolis",
+        capital: "Persépolis",
         country: "Irán",
       },
       {
         id: "2",
-        capital: "Ephesus",
+        capital: "Éfeso",
         country: "Turquía",
       },
       {
@@ -504,7 +504,7 @@ const questions10Es = [
   {
     id: "9b",
     status: "Flags",
-    country: "Persepolis",
+    country: "Persépolis",
     capital: "Irán",
     options: [
       {
@@ -514,17 +514,17 @@ const questions10Es = [
       },
       {
         id: "1",
-        country: "Persepolis\nIran",
+        country: "Persépolis\nIran",
         img: require("../../../assets/WorldMonuments/Asia/persepolis.png"),
       },
       {
         id: "2",
-        country: "Karnak Temple Luxor\nEgypt",
+        country: "Karnak Temple Luxor\nEgipto",
         img: require("../../../assets/WorldMonuments/Africa/KarnakTempleLuxor.png"),
       },
       {
         id: "3",
-        country: "Citadel of Aleppo\nSyria",
+        country: "Ciudadela de Alepo\nSyria",
         img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png"),
       },
     ],
@@ -544,7 +544,7 @@ const questions10Es = [
       },
       {
         id: "1",
-        capital: "The Great\nWall",
+        capital: "Gran Muralla China",
         country: "China",
       },
       {
@@ -568,22 +568,22 @@ const questions10Es = [
     options: [
       {
         id: "0",
-        country: "Monte Rushmore\nUSA",
+        country: "Monte Rushmore\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/Mount_Rushmore.png"),
       },
       {
         id: "1",
-        country: "The Great Wall\nChina",
+        country: "Gran Muralla China\nChina",
         img: require("../../../assets/WorldMonuments/Asia/theGreatWallChina.png"),
       },
       {
         id: "2",
-        country: "Hoover Dam\nUSA",
+        country: "Hoover Dam\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/hoover_dam_nevada.png"),
       },
       {
         id: "3",
-        country: "Cité de Carcassonne\nFrance",
+        country: "Ciudadela de Carcasona\nFrancia",
         img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
       },
     ],

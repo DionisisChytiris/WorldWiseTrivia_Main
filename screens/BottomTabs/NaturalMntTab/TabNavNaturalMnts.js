@@ -4,6 +4,7 @@ import { Pressable, Image, Platform, Text } from "react-native";
 import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import Settings from "../Settings";
 import NaturalMntsQuizHome from "./NaturalMntsQuizHome";
+import { Quiz1, Quiz10, Quiz2, Quiz3, Quiz4, Quiz5, Quiz6, Quiz7, Quiz8,Quiz9 } from "./Quizzes";
 // import LearnAnimals from './LearnAnimals'
 // import Return from './Return'
 import Map from './Map'
@@ -55,11 +56,16 @@ const TabNavNaturalMnts = ({ navigation }) => {
           <Stack.Navigator>
             <Stack.Group screenOptions={{ headerShown: false }}>
               <Stack.Screen name="NaturalMntHome" component={NaturalMntsQuizHome} />
-              {/* <Stack.Screen name="Quiz1" component={Quiz1} />
+              <Stack.Screen name="Quiz1" component={Quiz1} />
               <Stack.Screen name="Quiz2" component={Quiz2} />
               <Stack.Screen name="Quiz3" component={Quiz3} />
               <Stack.Screen name="Quiz4" component={Quiz4} />
-              <Stack.Screen name="Quiz5" component={Quiz5} /> */}
+              <Stack.Screen name="Quiz5" component={Quiz5} />
+              <Stack.Screen name="Quiz6" component={Quiz6} />
+              <Stack.Screen name="Quiz7" component={Quiz7} />
+              <Stack.Screen name="Quiz8" component={Quiz8} />
+              <Stack.Screen name="Quiz9" component={Quiz9} />
+              <Stack.Screen name="Quiz10" component={Quiz10} />
             </Stack.Group>
           </Stack.Navigator>
         )}

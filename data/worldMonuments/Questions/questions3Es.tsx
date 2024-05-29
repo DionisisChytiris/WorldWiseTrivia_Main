@@ -47,7 +47,7 @@ const questions3Es = [
       },
       {
         id: "2",
-        country: "Rialto Bridge\nItalia",
+        country: "Puente de Rialto\nItalia",
         img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.png"),
       },
       {
@@ -96,7 +96,7 @@ const questions3Es = [
     options: [
       {
         id: "0",
-        country: "Medina of Marrakech\nMorocco",
+        country: "Medina of Marrakech\nMarruecos",
         img: require("../../../assets/WorldMonuments/Africa/medina-marrakech.png"),
       },
       {
@@ -136,13 +136,13 @@ const questions3Es = [
       },
       {
         id: "2",
-        capital: "Knossos",
+        capital: "Cnosos",
         country: "Grecia",
       },
       {
         id: "3",
         capital: "Stonehenge",
-        country: "UK",
+        country: "Reino Unido",
       },
     ],
     correctAnswerIndex: 0,
@@ -155,17 +155,17 @@ const questions3Es = [
     options: [
       {
         id: "0",
-        country: "Abu Simbel\nEgypt",
+        country: "Abu Simbel\nEgipto",
         img: require("../../../assets/WorldMonuments/Africa/abulShimbel.png"),
       },
       {
         id: "1",
-        country: "Monte Rushmore\nUSA",
+        country: "Monte Rushmore\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/Mount_Rushmore.png"),
       },
       {
         id: "2",
-        country: "Great Sphinx of Giza\nEgypt",
+        country: "Gran Esfinge de Guiza\nEgipto",
         img: require("../../../assets/WorldMonuments/Africa/sphinx.png"),
       },
       {
@@ -278,7 +278,7 @@ const questions3Es = [
       },
       {
         id: "1",
-        country: "Kailasa Temple\nIndia",
+        country: "Templo de Kailasa\nIndia",
         img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
       },
       {
@@ -332,12 +332,12 @@ const questions3Es = [
     options: [
       {
         id: "0",
-        country: "Brooklyn Bridge\nUSA",
+        country: "Brooklyn Bridge\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.png"),
       },
       {
         id: "1",
-        country: "Puente Golden Gate\nUSA",
+        country: "Puente Golden Gate\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.png"),
       },
       {
@@ -347,7 +347,7 @@ const questions3Es = [
       },
       {
         id: "3",
-        country: "Alcatraz Island\nUSA",
+        country: "Alcatraz Island\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/alcatraz.png"),
       },
     ],
@@ -396,7 +396,7 @@ const questions3Es = [
       },
       {
         id: "1",
-        country: "Copacabana\nBrazil",
+        country: "Copacabana\nBrasil",
         img: require("../../../assets/WorldMonuments/America/copacabana-beach.png"),
       },
       {
@@ -406,7 +406,7 @@ const questions3Es = [
       },
       {
         id: "3",
-        country: "Cristo Redentor \nBrazil",
+        country: "Cristo Redentor \nBrasil",
         img: require("../../../assets/WorldMonuments/America/Jesus-Christ-The-Redeemer.png"),
       },
     ],
@@ -432,11 +432,11 @@ const questions3Es = [
       {
         id: "2",
         capital: "Puente de la Torre",
-        country: "UK",
+        country: "Reino Unido",
       },
       {
         id: "3",
-        capital: "Rialto Bridge",
+        capital: "Puente de Rialto",
         country: "Italia",
       },
     ],
@@ -455,7 +455,7 @@ const questions3Es = [
       },
       {
         id: "1",
-        country: "Puente Golden Gate\nUSA",
+        country: "Puente Golden Gate\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.png"),
       },
       {
@@ -465,7 +465,7 @@ const questions3Es = [
       },
       {
         id: "3",
-        country: "Brooklyn Bridge\nUSA",
+        country: "Brooklyn Bridge\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.png"),
       },
     ],
@@ -475,13 +475,13 @@ const questions3Es = [
     id: "9a",
     status: "Capitals",
     img: 'L',
-    country: "UK",
+    country: "Reino Unido",
     image: require("../../../assets/WorldMonuments/Europe/stonehenge.png"),
     options: [
       {
         id: "0",
         capital: "Notre Dame",
-        country: "UK",
+        country: "Reino Unido",
       },
       {
         id: "1",
@@ -491,11 +491,11 @@ const questions3Es = [
       {
         id: "2",
         capital: "Stonehenge",
-        country: "UK",
+        country: "Reino Unido",
       },
       {
         id: "3",
-        capital: "Knossos",
+        capital: "Cnosos",
         country: "Grecia",
       },
     ],
@@ -505,11 +505,11 @@ const questions3Es = [
     id: "9b",
     status: "Flags",
     country: "Stonehedge",
-    capital: "UK",
+    capital: "Reino Unido",
     options: [
       {
         id: "0",
-        country: "Monte Saint-Michel\nFrance",
+        country: "Monte Saint-Michel\nFrancia",
         img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
       },
       {
@@ -519,7 +519,7 @@ const questions3Es = [
       },
       {
         id: "2",
-        country: "Stonehenge\nUK",
+        country: "Stonehenge\nReino Unido",
         img: require("../../../assets/WorldMonuments/Europe/stonehenge.png"),
       },
       {
@@ -578,7 +578,7 @@ const questions3Es = [
       },
       {
         id: "2",
-        country: "Sainte Chapelle\nFrance",
+        country: "Sainte Chapelle\nFrancia",
         img: require("../../../assets/WorldMonuments/Europe/sainte-Chapelle.png"),
       },
       {

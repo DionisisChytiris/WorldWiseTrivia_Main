@@ -8,12 +8,12 @@ const questions2Es = [
     options: [
       {
         id: "0",
-        capital: "Citadel \nof Aleppo",
+        capital: "Ciudadela de Alepo",
         country: "Siria",
       },
       {
         id: "1",
-        capital: "Ephesus",
+        capital: "Éfeso",
         country: "Turquía",
       },
       {
@@ -37,17 +37,17 @@ const questions2Es = [
     options: [
       {
         id: "0",
-        country: "Citadel of Aleppo\nSyria",
+        country: "Ciudadela de Alepo\nSiria",
         img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.jpg"),
       },
       {
         id: "1",
-        country: "Meteora\nGreece",
+        country: "Meteora\nGrecia",
         img: require("../../../assets/WorldMonuments/Europe/meteora.jpg"),
       },
       {
         id: "2",
-        country: "Saint Catherine's Monastery\nEgypt",
+        country: "Monasterio de Santa Catalina\nEgipto",
         img: require("../../../assets/WorldMonuments/Africa/mountsinai.jpg"),
       },
       {
@@ -82,7 +82,7 @@ const questions2Es = [
       },
       {
         id: "3",
-        capital: "Kailasa \nTemple",
+        capital: "Templo de Kailasa",
         country: "India",
       },
     ],
@@ -96,22 +96,22 @@ const questions2Es = [
     options: [
       {
         id: "0",
-        country: "Entrance of Luxor Temple\nEgypt",
+        country: "Entrada del Templo de Luxor\nEgipto",
         img: require("../../../assets/WorldMonuments/Africa/Entrance-of-Luxor-Temple-Egypt.jpg"),
       },
       {
         id: "1",
-        country: "Aït Benhaddou\nMorocco",
+        country: "Aït Benhaddou\nMarruecos",
         img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.png"),
       },
       {
         id: "2",
-        country: "Petra\nJordan",
+        country: "Petra\nJordania",
         img: require("../../../assets/WorldMonuments/Asia/jordanPetra.png"),
       },
       {
         id: "3",
-        country: "Kailasa Temple\nIndia",
+        country: "Templo de Kailasa\nIndia",
         img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
       },
     ],
@@ -126,7 +126,7 @@ const questions2Es = [
     options: [
       {
         id: "0",
-        capital: "Brandenburg \nGate",
+        capital: "Puerta de Brandeburgo",
         country: "Alemania",
       },
       {
@@ -137,7 +137,7 @@ const questions2Es = [
       {
         id: "2",
         capital: "Big Ben",
-        country: "UK",
+        country: "Reino Unido",
       },
       {
         id: "3",
@@ -155,22 +155,22 @@ const questions2Es = [
     options: [
       {
         id: "0",
-        country: "Puerta de Brandeburgo\nGermany",
+        country: "Puerta de Brandeburgo\nAlemania",
         img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
       },
       {
         id: "1",
-        country: "Dom Luís I Bridge\nPortugal",
+        country: "Puente de Dom Luís I\nPortugal",
         img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.png"),
       },
       {
         id: "2",
-        country: "Torre Eiffel \nFrance",
+        country: "Torre Eiffel \nFrancia",
         img: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
       },
       {
         id: "3",
-        country: "Big Ben\nUK",
+        country: "Big Ben\nReino Unido",
         img: require("../../../assets/WorldMonuments/Europe/bigBen.png"),
       },
     ],
@@ -185,7 +185,7 @@ const questions2Es = [
     options: [
       {
         id: "0",
-        capital: "Catedral de Milán ",
+        capital: "Catedral de Milán",
         country: "Italia",
       },
       {
@@ -195,13 +195,13 @@ const questions2Es = [
       },
       {
         id: "2",
-        capital: "Duomo Florence",
+        capital: "Catedral de Santa María del Fiore",
         country: "Italia",
       },
       {
         id: "3",
-        capital: "Westminster\n Abbey",
-        country: "UK",
+        capital: "Abadía de Westminster",
+        country: "Reino Unido",
       },
     ],
     correctAnswerIndex: 2,
@@ -209,7 +209,7 @@ const questions2Es = [
   {
     id: "4b",
     status: "Flags",
-    country: "Duomo Florence",
+    country: "Catedral de Santa María del Fiore",
     capital: "Italia",
     options: [
       {
@@ -219,17 +219,17 @@ const questions2Es = [
       },
       {
         id: "1",
-        country: "Mexico City Cathedral\nMexico",
+        country: "Catedral Metropolitana de México\nMéxico",
         img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png"),
       },
       {
         id: "2",
-        country: "Florence Cathedral\nItalia",
+        country: "Catedral de Santa María del Fiore\nItalia",
         img: require("../../../assets/WorldMonuments/Europe/duomo-florence.png"),
       },
       {
         id: "3",
-        country: "Catedral de Santa Sofía\nTurkey",
+        country: "Catedral de Santa Sofía\nTurquía",
         img: require("../../../assets/WorldMonuments/Asia/AgiaSofia.png"),
       },
     ],
@@ -244,22 +244,22 @@ const questions2Es = [
     options: [
       {
         id: "0",
-        capital: "Lincoln\nMemorial",
+        capital: "Monumento a Lincoln",
         country: "Estados Unidos",
       },
       {
         id: "1",
-        capital: "White House",
+        capital: "La Casa Blanca",
         country: "Estados Unidos",
       },
       {
         id: "2",
-        capital: "Washington\nMemorial",
+        capital: "Monumento a Washington",
         country: "Estados Unidos",
       },
       {
         id: "3",
-        capital: "United States\nCapitol",
+        capital: "Capitolio de Estados Unidos",
         country: "Estados Unidos",
       },
     ],
@@ -268,27 +268,27 @@ const questions2Es = [
   {
     id: "5b",
     status: "Flags",
-    country: "United States Capitol",
+    country: "Capitolio de Estados Unidos",
     capital: "Estados Unidos",
     options: [
       {
         id: "0",
-        country: "Lincoln Memorial\nUSA",
+        country: "Monumento a Lincoln\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/lincolnMonument.jpg"),
       },
       {
         id: "1",
-        country: "Arc de Triumph\nFrance",
+        country: "Arco del Triunfo\nFrancia",
         img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png"),
       },
       {
         id: "2",
-        country: "Washington Monument\nUSA",
+        country: "Monumento a Washington\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/washingtonMonument.png"),
       },
       {
         id: "3",
-        country: "United States Capitol\nUSA",
+        country: "Capitolio de Estados Unidos\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/capitol-building.png"),
       },
     ],
@@ -303,22 +303,22 @@ const questions2Es = [
     options: [
       {
         id: "0",
-        capital: "Great Sphinx \nof Giza",
+        capital: "Gran Esfinge de Guiza",
         country: "Egipto",
       },
       {
         id: "1",
-        capital: "Great Pyramid \nof Giza",
+        capital: "Pirámides de Giza",
         country: "Egipto",
       },
       {
         id: "2",
-        capital: "Entrance of \nLuxor Temple",
+        capital: "Entrada del Templo de Luxor",
         country: "Egipto",
       },
       {
         id: "3",
-        capital: "Temple \nof Isis",
+        capital: "Templo \nde Isis",
         country: "Egipto",
       },
     ],
@@ -327,27 +327,27 @@ const questions2Es = [
   {
     id: "6b",
     status: "Flags",
-    country: "Great Sphinx of Giza",
+    country: "Gran Esfinge de Guiza",
     capital: "Egipto",
     options: [
       {
         id: "0",
-        country: "Great Sphinx of Giza\nEgypt",
+        country: "Gran Esfinge de Guiza\nEgipto",
         img: require("../../../assets/WorldMonuments/Africa/sphinx.png"),
       },
       {
         id: "1",
-        country: "Entrance of Luxor Temple\nEgypt",
+        country: "Entrada del Templo de Luxor\nEgipto",
         img: require("../../../assets/WorldMonuments/Africa/Entrance-of-Luxor-Temple-Egypt.jpg"),
       },
       {
         id: "2",
-        country: "Temple of Isis\nEgypt",
+        country: "Templo de Isis\nEgipto",
         img: require("../../../assets/WorldMonuments/Africa/temple_isis-Aswan.png"),
       },
       {
         id: "3",
-        country: "Pirámides de Giza\nEgypt",
+        country: "Pirámides de Giza\nEgipto",
         img: require("../../../assets/WorldMonuments/Africa/Pyramids.png"),
       },
     ],
@@ -362,7 +362,7 @@ const questions2Es = [
     options: [
       {
         id: "0",
-        capital: "Tokyo Tower",
+        capital: "Torre de Tokio",
         country: "Japón",
       },
       {
@@ -373,12 +373,12 @@ const questions2Es = [
       {
         id: "2",
         capital: "Burj Khalifa",
-        country: "United Arab\n Emirates",
+        country: "Emiratos Árabes Unidos",
       },
       {
         id: "3",
         capital: "The Shard",
-        country: "UK",
+        country: "Reino Unido",
       },
     ],
     correctAnswerIndex: 2,
@@ -391,22 +391,22 @@ const questions2Es = [
     options: [
       {
         id: "0",
-        country: "Washington Monument\nUSA",
+        country: "Monumento a Washington\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/washingtonMonument.png"),
       },
       {
         id: "1",
-        country: "The Shard\nUK",
+        country: "The Shard\nReino Unido",
         img: require("../../../assets/WorldMonuments/Europe/TheShard.png"),
       },
       {
         id: "2",
-        country: "Burj Khalifa\nUnited Arab Emirates",
+        country: "Burj Khalifa\nEmiratos Árabes Unidos",
         img: require("../../../assets/WorldMonuments/Asia/burj-khalifa.png"),
       },
       {
         id: "3",
-        country: "Empire State Building\nUSA",
+        country: "Empire State Building\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/Empire-State-Building.png"),
       },
     ],
@@ -426,7 +426,7 @@ const questions2Es = [
       },
       {
         id: "1",
-        capital: "Forbidden \nCity",
+        capital: "Ciudad Prohibida",
         country: "China",
       },
       {
@@ -436,7 +436,7 @@ const questions2Es = [
       },
       {
         id: "3",
-        capital: "Temple \nof Heaven",
+        capital: "Templo del Cielo",
         country: "China",
       },
     ],
@@ -445,17 +445,17 @@ const questions2Es = [
   {
     id: "8b",
     status: "Flags",
-    country: "Forbidden City",
+    country: "Ciudad Prohibida",
     capital: "China",
     options: [
       {
         id: "0",
-        country: "Hiroshima Peace Memorial Park\nJapan",
+        country: "Hiroshima Peace Memorial Park\nJapón",
         img: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.png"),
       },
       {
         id: "1",
-        country: "Forbidden City\nChina",
+        country: "Ciudad Prohibida\nChina",
         img: require("../../../assets/WorldMonuments/Asia/forbidden-city.jpg"),
       },
       {
@@ -465,7 +465,7 @@ const questions2Es = [
       },
       {
         id: "3",
-        country: "Gran Palacio\nThailand",
+        country: "Gran Palacio\nTailandia",
         img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
       },
     ],
@@ -509,22 +509,22 @@ const questions2Es = [
     options: [
       {
         id: "0",
-        country: "Mexico City Cathedral\nMexico",
+        country: "Catedral Metropolitana de México\nMéxico",
         img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png"),
       },
       {
         id: "1",
-        country: "Notre Dame\nFrance",
+        country: "Notre Dame\nFrancia",
         img: require("../../../assets/WorldMonuments/Europe/notreDame.png"),
       },
       {
         id: "2",
-        country: "Sagrada Familia\nSpain",
+        country: "Sagrada Familia\nEspaña",
         img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.png"),
       },
       {
         id: "3",
-        country: "Church on the Savior \non Blood\nRussia",
+        country: "Iglesia del Salvador sobre la Sangre Derramada\nRusia",
         img: require("../../../assets/WorldMonuments/Europe/stPetersburg.png"),
       },
     ],
@@ -539,12 +539,12 @@ const questions2Es = [
     options: [
       {
         id: "0",
-        capital: "St Peter's \nBasilica",
-        country: "Vatican City",
+        capital: "Basílica de San Pedro",
+        country: "Vaticano",
       },
       {
         id: "1",
-        capital: "Borgund \nStave Church",
+        capital: "Inglesia de madera de Borgund",
         country: "Noruega",
       },
       {
@@ -554,7 +554,7 @@ const questions2Es = [
       },
       {
         id: "3",
-        capital: "St Basil's \nCathedral",
+        capital: "Catedral de San Basilio",
         country: "Rusia",
       },
     ],
@@ -568,17 +568,17 @@ const questions2Es = [
     options: [
       {
         id: "0",
-        country: "St. Peter's Basilica\nVatican City",
+        country: "Basílica de San Pedro\nVaticano",
         img: require("../../../assets/WorldMonuments/Europe/St.-Peters-Basilica-Vatican.png"),
       },
       {
         id: "1",
-        country: "Museo del Louvre\nFrance",
+        country: "Museo del Louvre\nFrancia",
         img: require("../../../assets/WorldMonuments/Europe/LouvreMuseum.png"),
       },
       {
         id: "2",
-        country: "Borgund Stave Church\nNorway",
+        country: "Inglesia de madera de Borgund\nNoruega",
         img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
       },
       {

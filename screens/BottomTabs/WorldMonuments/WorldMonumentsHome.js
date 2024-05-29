@@ -73,16 +73,7 @@ const WorldMonumentsHome = () => {
   return (
     // <ScrollView horizontal={true}>
       // {/* <View> */}
-      <View
-        style={{
-          width: windowWidth,
-          backgroundColor: colors.bgFlagsCnt,
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 15,
-          flex: 1
-        }}
-      >
+      <View style={[styles.container, {backgroundColor: colors.bgFlagsCnt}]}>
         {/* <ImageBackground
           source={require("../../../assets/QuizScreen/capitals.png")}
           style={{ width: 1200, height: "100%" }}
@@ -104,7 +95,7 @@ const WorldMonumentsHome = () => {
           ]}
           source={require("../../../assets/more/worldlandmarks.png")}
         />
-        <View style={{width: '80%', height: windowHeight/1.4,flexDirection: 'row', alignItems: 'center', justifyItems: 'center',  marginTop: '10%'}}>
+       <View style={styles.quizBtnBox}>
           <View style={{width: '50%', gap: 20}}>
             <QuizTemplate quiz="Quiz1" title="1" image={require('../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.jpg')}/>
             <QuizTemplate quiz="Quiz3" title="3" image={require('../../../assets/WorldMonuments/Asia/easterIsland.png')}/>
@@ -131,23 +122,25 @@ const WorldMonumentsHome = () => {
 export default WorldMonumentsHome;
 
 const styles = StyleSheet.create({
+  container: {
+    width: windowWidth,
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 15,
+    flex: 1,
+  },
+  quizBtnBox: {
+    width: "80%",
+    height: windowHeight / 1.4,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyItems: "center",
+  },
   background: {
     position: "absolute",
-    // backgroundColor: 'grey',
-    //monuments
-    // width: windowWidth *1.4,
-    // height: windowHeight/2,
-    //  top: windowHeight/2.2,
-    //capitals
     width: windowWidth * 2,
     height: windowHeight / 4.7,
     top: windowHeight / 1.7,
-    //flags
-    // width: windowWidth *2,
-    // height: windowHeight/6.7,
-    // top: windowHeight/1.4,
-    // width: 1400,
-    // height: 1200,
     opacity: 0.4,
     transform: [
       {
@@ -159,7 +152,6 @@ const styles = StyleSheet.create({
     ],
   },
   button: {
-    // backgroundColor: "red",
     width: "85%",
     height: 80,
     margin: '2%',
@@ -167,12 +159,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     opacity: 1
-    // position: "absolute",
-    // top: 80,
-    // left: 80,
   },
   button1: {
-    // backgroundColor: "red",
     width: "85%",
     height: 80,
     margin: '2%',
@@ -180,8 +168,5 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     opacity: 0.4
-    // position: "absolute",
-    // top: 80,
-    // left: 80,
   }
 });

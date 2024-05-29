@@ -3,7 +3,7 @@ const questions5Es = [
     id: "1a",
     status: "Capitals",
     img: 'L',
-    country: "UK",
+    country: "Reino Unido",
     image: require("../../../assets/WorldMonuments/Europe/TowerBridge.png"),
     options: [
       {
@@ -14,7 +14,7 @@ const questions5Es = [
       {
         id: "1",
         capital: 'Puente de la Torre',
-        country: 'UK'
+        country: 'Reino Unido'
       },
       {
         id: "2",
@@ -33,21 +33,21 @@ const questions5Es = [
         id: "1b",
         status: "Flags",
         country: "Puente de la Torre",
-        capital: "UK",
+        capital: "Reino Unido",
         options: [
           {
             id: "0",
-            country: "Acrópolis\nGreece",
+            country: "Acrópolis\nGrecia",
             img: require("../../../assets/WorldMonuments/Europe/Acropolis.png"),
           },
           {
             id: "1",
-            country: "Puente de la Torre\nUK",
+            country: "Puente de la Torre\nReino Unido",
             img: require("../../../assets/WorldMonuments/Europe/TowerBridge.png"),
           },
           {
             id: "2",
-            country: "Cité de Carcassonne\nFrance",
+            country: "Ciudadela de Carcasona\nFrancia",
             img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
           },
           {
@@ -68,7 +68,7 @@ const questions5Es = [
           {
             id: "0",
             capital: 'Stonehenge',
-            country: 'UK'
+            country: 'Reino Unido'
           },
           {
             id: "1",
@@ -96,7 +96,7 @@ const questions5Es = [
         options: [
           {
             id: "0",
-            country: "Hollywood Sign\nUSA",
+            country: "Hollywood Sign\nEstados Unidos",
             img: require("../../../assets/WorldMonuments/USA/Hollywood.png"),
           },
           {
@@ -106,12 +106,12 @@ const questions5Es = [
           },
           {
             id: "2",
-            country: "Washington Monument\nUSA",
+            country: "Washington Monument\nEstados Unidos",
             img: require("../../../assets/WorldMonuments/USA/washingtonMonument.png"),
           },
           {
             id: "3",
-            country: "Lincoln Memorial\nUSA",
+            country: "Monumento a Lincoln\nEstados Unidos",
             img: require("../../../assets/WorldMonuments/USA/lincolnMonument.jpg"),
           },
         ],
@@ -219,7 +219,7 @@ const questions5Es = [
           },
           {
             id: "1",
-            country: "Kailasa Temple\nIndia",
+            country: "Templo de Kailasa\nIndia",
             img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
           },
           {
@@ -273,12 +273,12 @@ const questions5Es = [
         options: [
           {
             id: "0",
-            country: "Meteora\nGreece",
+            country: "Meteora\nGrecia",
             img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
           },
           {
             id: "1",
-            country: "Monte Saint-Michel\nFrance",
+            country: "Monte Saint-Michel\nFrancia",
             img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
           },
           {
@@ -288,7 +288,7 @@ const questions5Es = [
           },
           {
             id: "3",
-            country: "Cité de Carcassonne\nFrance",
+            country: "Ciudadela de Carcasona\nFrancia",
             img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
           },
         ],
@@ -319,7 +319,7 @@ const questions5Es = [
           {
             id: "3",
             capital: 'The Shard',
-            country: 'UK'
+            country: 'Reino Unido'
           },
         ],
         correctAnswerIndex: 0,
@@ -337,7 +337,7 @@ const questions5Es = [
           },
           {
             id: "1",
-            country: "Torre Eiffel \nFrance",
+            country: "Torre Eiffel \nFrancia",
             img: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
           },
           {
@@ -347,7 +347,7 @@ const questions5Es = [
           },
           {
             id: "3",
-            country: "The Shard\nUK",
+            country: "The Shard\nReino Unido",
             img: require("../../../assets/WorldMonuments/Europe/TheShard.png"),
           },
         ],
@@ -391,22 +391,22 @@ const questions5Es = [
         options: [
           {
             id: "0",
-            country: "Alcatraz Island\nUSA",
+            country: "Alcatraz Island\nEstados Unidos",
             img: require("../../../assets/WorldMonuments/USA/alcatraz.png"),
           },
           {
             id: "1",
-            country: "Monte Saint-Michel\nUSA",
+            country: "Monte Saint-Michel\nEstados Unidos",
             img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
           },
           {
             id: "2",
-            country: "Ellis Island\nUSA",
+            country: "Ellis Island\nEstados Unidos",
             img: require("../../../assets/WorldMonuments/USA/ellis-island.png"),
           },
           {
             id: "3",
-            country: "Notre Dame\nFrance",
+            country: "Notre Dame\nFrancia",
             img: require("../../../assets/WorldMonuments/Europe/notreDame.png"),
           },
         ],
@@ -422,7 +422,7 @@ const questions5Es = [
           {
             id: "0",
             capital: 'Stonehenge',
-            country: 'UK'
+            country: 'Reino Unido'
           },
           {
             id: "1",
@@ -455,17 +455,17 @@ const questions5Es = [
           },
           {
             id: "1",
-            country: "Stonehedge\nUK",
+            country: "Stonehedge\nReino Unido",
             img: require("../../../assets/WorldMonuments/Europe/stonehenge.png"),
           },
           {
             id: "2",
-            country: "Atomium\nBelgium",
+            country: "Atomium\nBélgica",
             img: require("../../../assets/WorldMonuments/Europe/Atomium.png"),
           },
           {
             id: "3",
-            country: "Monte Rushmore\nUSA",
+            country: "Monte Rushmore\nEstados Unidos",
             img: require("../../../assets/WorldMonuments/USA/Mount_Rushmore.png"),
           },
         ],
@@ -573,7 +573,7 @@ const questions5Es = [
           },
           {
             id: "1",
-            country: "Palacio de Versalles \nFrance",
+            country: "Palacio de Versalles \nFrancia",
             img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
           },
           {

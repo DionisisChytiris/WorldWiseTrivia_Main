@@ -28,7 +28,6 @@ const TabNavCapitals = ({ navigation }) => {
         headerShown: false,
         headerStyle: {
           backgroundColor: colors.backgroundBottomTab,
-          // height: 100
         },
         headerTintColor: "#fff",
         headerTitleStyle: {

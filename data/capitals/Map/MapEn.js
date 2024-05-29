@@ -1204,7 +1204,7 @@ const mapDataEn = [
         ltr: 'U-Z',
         capital: 'Vientiane',
         country: 'Laos',
-        description: "",
+        description: "Vientiane, the capital of Laos, sits on the Mekong River. It features French colonial architecture and Buddhist temples, like the golden Pha That Luang and the Patuxai Monument. The city is known for its relaxed vibe and vibrant night markets.",
         latitude: 17.98,
         longitude: 102.62,
         zoomLocation: 6
@@ -1214,7 +1214,7 @@ const mapDataEn = [
         ltr: 'U-Z',
         capital: 'Vilnius',
         country: 'Lithuania',
-        description: "",
+        description: "Vilnius, Lithuania's capital, is famed for its baroque architecture and UNESCO-listed medieval Old Town. Key landmarks include Vilnius Cathedral and Gediminas' Tower. Its vibrant culture and picturesque streets make it a captivating destination.",
         latitude: 54.67,
         longitude: 25.29,
         zoomLocation: 6
@@ -1224,7 +1224,7 @@ const mapDataEn = [
         ltr: 'U-Z',
         capital: 'Warsaw',
         country: 'Poland',
-        description: "",
+        description: "Warsaw, the capital of Poland, is known for its resilient history and vibrant culture. The city's Old Town, a UNESCO World Heritage site, was meticulously rebuilt after WWII. Key landmarks include the Royal Castle and the Palace of Culture and Science.",
         latitude: 52.22,
         longitude: 21.03,
         zoomLocation: 6
@@ -1234,7 +1234,7 @@ const mapDataEn = [
         ltr: 'U-Z',
         capital: 'Washington, D.C.',
         country: 'United States',
-        description: "",
+        description: "Washington, D.C., the capital of the United States, is known for its iconic monuments and political significance. Key landmarks include the White House, the Capitol, and the Lincoln Memorial. The city also boasts numerous museums and cultural institutions, particularly along the National Mall.",
         latitude: 38.89,
         longitude: -77.04,
         zoomLocation: 6
@@ -1244,7 +1244,7 @@ const mapDataEn = [
         ltr: 'U-Z',
         capital: 'Wellington',
         country: 'New Zealand',
-        description: "",
+        description: "Wellington, the capital of New Zealand, is known for its vibrant arts scene and stunning harbor. Key attractions include the Te Papa Museum and the Wellington Cable Car. The city's compact size and rich cultural offerings make it a charming destination.",
         latitude: -41.29,
         longitude: 174.77,
         zoomLocation: 6
@@ -1254,7 +1254,7 @@ const mapDataEn = [
         ltr: 'U-Z',
         capital: 'Yaoundé',
         country: 'Cameroon',
-        description: "",
+        description: "Yaoundé, the capital of Cameroon, is known for its hilly terrain and vibrant markets. Key landmarks include the National Museum and the Notre Dame des Victoires Cathedral. The city’s blend of modern and traditional culture makes it a fascinating destination.",
         latitude: 3.86,
         longitude: 11.51,
         zoomLocation: 6
@@ -1264,7 +1264,7 @@ const mapDataEn = [
         ltr: 'U-Z',
         capital: 'Yerevan',
         country: 'Armenia',
-        description: "",
+        description: "Yerevan, the capital of Armenia, is renowned for its ancient history and pink-hued buildings. Key attractions include the Armenian Genocide Memorial and the Cascade Complex. The city's lively atmosphere and rich cultural heritage make it a captivating destination.",
         latitude: 40.17,
         longitude: 44.49,
         zoomLocation: 6
@@ -1274,7 +1274,7 @@ const mapDataEn = [
         ltr: 'U-Z',
         capital: 'Zagreb',
         country: 'Croatia',
-        description: "",
+        description: "Zagreb, the capital of Croatia, is known for its Austro-Hungarian architecture and vibrant street life. Key landmarks include the historic Upper Town and the iconic Zagreb Cathedral. The city's blend of history, culture, and modernity makes it a charming destination.",
         latitude: 45.80,
         longitude: 15.98,
         zoomLocation: 6

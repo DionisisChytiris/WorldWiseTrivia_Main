@@ -37,7 +37,7 @@ const questions6Es = [
         options: [
           {
             id: "0",
-            country: "Eltz Castle\nGermany",
+            country: "Eltz Castle\nAlemania",
             img: require("../../../assets/WorldMonuments/Europe/eltz-castle-muenstermaifeld-germany.png"),
           },
           {
@@ -47,7 +47,7 @@ const questions6Es = [
           },
           {
             id: "2",
-            country: "Castillo de Bran\nRomania",
+            country: "Castillo de Bran\nRumanía",
             img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
           },
           {
@@ -101,7 +101,7 @@ const questions6Es = [
           },
           {
             id: "1",
-            country: "Florence Cathedral\nItalia",
+            country: "Catedral de Santa María del Fiore\nItalia",
             img: require("../../../assets/WorldMonuments/Europe/duomo-florence.png"),
           },
           {
@@ -131,12 +131,12 @@ const questions6Es = [
           },
           {
             id: "1",
-            capital: 'Lincoln\nMemorial',
+            capital: 'Monumento a Lincoln',
             country: 'Estados Unidos'
           },
           {
             id: "2",
-            capital: 'Knossos',
+            capital: 'Cnosos',
             country: 'Grecia'
           },
           {
@@ -150,22 +150,22 @@ const questions6Es = [
       {
         id: "3b",
         status: "Flags",
-        country: "Lincoln Memorial",
+        country: "Monumento a Lincoln",
         capital: "Estados Unidos",
         options: [
           {
             id: "0",
-            country: "Puerta de Brandeburgo\nGermany",
+            country: "Puerta de Brandeburgo\nAlemania",
             img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
           },
           {
             id: "1",
-            country: "Lincoln Memorial\nUSA",
+            country: "Monumento a Lincoln\nEstados Unidos",
             img: require("../../../assets/WorldMonuments/USA/lincolnMonument.jpg"),
           },
           {
             id: "2",
-            country: "Knossos\nGreece",
+            country: "Cnosos\nGrecia",
             img: require("../../../assets/WorldMonuments/Europe/knossos.png"),
           },
           {
@@ -200,7 +200,7 @@ const questions6Es = [
           },
           {
             id: "3",
-            capital: 'Kailasa Temple',
+            capital: 'Templo de Kailasa',
             country: 'India'
           },
         ],
@@ -224,12 +224,12 @@ const questions6Es = [
           },
           {
             id: "2",
-            country: "Aït Benhaddou\nMorocco",
+            country: "Aït Benhaddou\nMarruecos",
             img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.png"),
           },
           {
             id: "3",
-            country: "Kailasa Temple\nIndia",
+            country: "Templo de Kailasa\nIndia",
             img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
           },
         ],
@@ -288,7 +288,7 @@ const questions6Es = [
           },
           {
             id: "3",
-            country: "Meteora\nGreece",
+            country: "Meteora\nGrecia",
             img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
           },
         ],
@@ -318,7 +318,7 @@ const questions6Es = [
           },
           {
             id: "3",
-            capital: 'Knossos',
+            capital: 'Cnosos',
             country: 'Grecia'
           },
         ],
@@ -327,7 +327,7 @@ const questions6Es = [
       {
         id: "6b",
         status: "Flags",
-        country: "Knossos",
+        country: "Cnosos",
         capital: "Grecia",
         options: [
           {
@@ -337,7 +337,7 @@ const questions6Es = [
           },
           {
             id: "1",
-            country: "Acrópolis\nGreece",
+            country: "Acrópolis\nGrecia",
             img: require("../../../assets/WorldMonuments/Europe/Acropolis.png"),
           },
           {
@@ -347,7 +347,7 @@ const questions6Es = [
           },
           {
             id: "3",
-            country: "Knossos\nGreece",
+            country: "Cnosos\nGrecia",
             img: require("../../../assets/WorldMonuments/Europe/knossos.png"),
           },
         ],
@@ -391,7 +391,7 @@ const questions6Es = [
         options: [
           {
             id: "0",
-            country: "Palacio de Versalles \nFrance",
+            country: "Palacio de Versalles \nFrancia",
             img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
           },
           {
@@ -401,7 +401,7 @@ const questions6Es = [
           },
           {
             id: "2",
-            country: "Museo del Louvre\nFrance",
+            country: "Museo del Louvre\nFrancia",
             img: require("../../../assets/WorldMonuments/Europe/LouvreMuseum.png"),
           },
           {
@@ -475,13 +475,13 @@ const questions6Es = [
         id: "9a",
         status: "Capitals",
         img: 'L',
-        country: "UK",
+        country: "Reino Unido",
         image: require("../../../assets/WorldMonuments/Europe/westminster-abbey.png"),
         options: [
           {
             id: "0",
             capital: 'Palacio de Buckingham',
-            country: 'UK'
+            country: 'Reino Unido'
           },
           {
             id: "1",
@@ -496,7 +496,7 @@ const questions6Es = [
           {
             id: "3",
             capital: 'Westminster\nAbbey',
-            country: 'UK'
+            country: 'Reino Unido'
           },
         ],
         correctAnswerIndex: 3,
@@ -505,7 +505,7 @@ const questions6Es = [
         id: "9b",
         status: "Flags",
         country: "Abadía de Westminster ",
-        capital: "UK",
+        capital: "Reino Unido",
         options: [
           {
             id: "0",
@@ -514,17 +514,17 @@ const questions6Es = [
           },
           {
             id: "1",
-            country: "Palacio de Buckingham\nUK",
+            country: "Palacio de Buckingham\nReino Unido",
             img: require("../../../assets/WorldMonuments/Europe/buckinghampalace.png"),
           },
           {
             id: "2",
-            country: "Palace of Westminster\nUK",
+            country: "Palace of Westminster\nReino Unido",
             img: require("../../../assets/WorldMonuments/Europe/palace-of-westminster_main.png"),
           },
           {
             id: "3",
-            country: "Abadía de Westminster \nUK",
+            country: "Abadía de Westminster \nReino Unido",
             img: require("../../../assets/WorldMonuments/Europe/westminster-abbey.png"),
           },
         ],
@@ -540,7 +540,7 @@ const questions6Es = [
           {
             id: "0",
             capital: 'Stonehenge',
-            country: 'UK'
+            country: 'Reino Unido'
           },
           {
             id: "1",
@@ -568,7 +568,7 @@ const questions6Es = [
         options: [
           {
             id: "0",
-            country: "Stonehedge\nUK",
+            country: "Stonehedge\nReino Unido",
             img: require("../../../assets/WorldMonuments/Europe/stonehenge.png"),
           },
           {

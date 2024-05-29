@@ -5,8 +5,6 @@ import { useTheme } from "../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
 import { MaterialIcons } from "@expo/vector-icons";
 import { styles } from "./styles";
-// import GuessTemplate from "./GuessTemplate";
-// import FlagTemplate from "./FlagTemplate";
 
 const QuizMainTemplate = (props) => {
   const navigation = useNavigation();

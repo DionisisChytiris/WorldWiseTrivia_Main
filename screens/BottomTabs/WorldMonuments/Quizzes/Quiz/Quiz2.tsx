@@ -1,9 +1,6 @@
-import { View, Text } from "react-native";
 import React from "react";
 import { useAppSelector } from "../../../../../ReduxSetUp/store";
 import QuizMainTemplate from "../../../MainQuizTemplate";
-import QuizTemplate from "../QuizTemplate";
-import questions1En from '../../../../../data/worldMonuments/Questions/questions1En'
 
 const Quiz2 = () => {
   const {initStatus} = useAppSelector((state)=>state.quizStatus)

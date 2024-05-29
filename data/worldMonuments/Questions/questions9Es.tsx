@@ -42,12 +42,12 @@ const questions9Es = [
           },
           {
             id: "1",
-            country: "Monte Saint-Michel\nFrance",
+            country: "Monte Saint-Michel\nFrancia",
             img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
           },
           {
             id: "2",
-            country: "Forbidden City\nChina",
+            country: "Ciudad Prohibida\nChina",
             img: require("../../../assets/WorldMonuments/Asia/forbidden-city.jpg"),
           },
           {
@@ -96,12 +96,12 @@ const questions9Es = [
         options: [
           {
             id: "0",
-            country: "Entrance of Luxor Temple\nEgypt",
+            country: "Entrada del Templo de Luxor\nEgypt",
             img: require("../../../assets/WorldMonuments/Africa/Entrance-of-Luxor-Temple-Egypt.jpg"),
           },
           {
             id: "1",
-            country: "Great Sphinx of Giza\nEgypt",
+            country: "Gran Esfinge de Guiza\nEgipto",
             img: require("../../../assets/WorldMonuments/Africa/sphinx.png"),
           },
           {
@@ -150,7 +150,7 @@ const questions9Es = [
       {
         id: "3b",
         status: "Flags",
-        country: "Mexico City Cathedral",
+        country: "Catedral Metropolitana de México",
         capital: "México",
         options: [
           {
@@ -160,17 +160,17 @@ const questions9Es = [
           },
           {
             id: "1",
-            country: "Mexico City Cathedral\nMexico",
+            country: "Catedral Metropolitana de México\nMexico",
             img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png"),
           },
           {
             id: "2",
-            country: "Florence Cathedral\nItalia",
+            country: "Catedral de Santa María del Fiore\nItalia",
             img: require("../../../assets/WorldMonuments/Europe/duomo-florence.png"),
           },
           {
             id: "3",
-            country: "Notre Dame\nFrance",
+            country: "Notre Dame\nFrancia",
             img: require("../../../assets/WorldMonuments/Europe/notreDame.png"),
           },
         ],
@@ -278,12 +278,12 @@ const questions9Es = [
           },
           {
             id: "1",
-            country: "Tulum\nMexico",
+            country: "Tulum\nMéxico",
             img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
           },
           {
             id: "2",
-            country: "Cité de Carcassonne\nFrance",
+            country: "Ciudadela de Carcasona\nFrancia",
             img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
           },
           {
@@ -332,22 +332,22 @@ const questions9Es = [
         options: [
           {
             id: "0",
-            country: "Alcatraz Island\nUSA",
+            country: "Alcatraz Island\nEstados Unidos",
             img: require("../../../assets/WorldMonuments/USA/alcatraz.png"),
           },
           {
             id: "1",
-            country: "Estatua de la Libertad\nUSA",
+            country: "Estatua de la Libertad\nEstados Unidos",
             img: require("../../../assets/WorldMonuments/USA/statue-of-liberty.png"),
           },
           {
             id: "2",
-            country: "Monte Saint-Michel\nFrance",
+            country: "Monte Saint-Michel\nFrancia",
             img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
           },
           {
             id: "3",
-            country: "Ellis Island\nUSA",
+            country: "Ellis Island\nEstados Unidos",
             img: require("../../../assets/WorldMonuments/USA/ellis-island.png"),
           },
         ],
@@ -377,7 +377,7 @@ const questions9Es = [
           },
           {
             id: "3",
-            capital: 'The Great\nWall',
+            capital: 'Gran Muralla China',
             country: 'China'
           },
         ],
@@ -406,7 +406,7 @@ const questions9Es = [
           },
           {
             id: "3",
-            country: "The Great Wall\nChina",
+            country: "Gran Muralla China\nChina",
             img: require("../../../assets/WorldMonuments/Asia/theGreatWallChina.png"),
           },
         ],
@@ -445,22 +445,22 @@ const questions9Es = [
       {
         id: "8b",
         status: "Flags",
-        country: "Citadel of Aleppo",
+        country: "Ciudadela de Alepo",
         capital: "Siria",
         options: [
           {
             id: "0",
-            country: "Arles Amphitheatre\nFrance",
+            country: "Arenas de Arlés\nFrancia",
             img: require("../../../assets/WorldMonuments/Europe/AmpitheatreofArles.png"),
           },
           {
             id: "1",
-            country: "Arc de Triumph\nFrance",
+            country: "Arco del Triunfo\nFrancia",
             img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png"),
           },
           {
             id: "2",
-            country: "Citadel of Aleppo\nSyria",
+            country: "Ciudadela de Alepo\nSyria",
             img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png"),
           },
           {
@@ -509,17 +509,17 @@ const questions9Es = [
         options: [
           {
             id: "0",
-            country: "Cité de Carcassonne\nFrance",
+            country: "Ciudadela de Carcasona\nFrancia",
             img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
           },
           {
             id: "1",
-            country: "Tulum\nMexico",
+            country: "Tulum\nMéxico",
             img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
           },
           {
             id: "2",
-            country: "Washington Monument\nUSA",
+            country: "Washington Monument\nEstados Unidos",
             img: require("../../../assets/WorldMonuments/USA/washingtonMonument.png"),
           },
           {
@@ -568,7 +568,7 @@ const questions9Es = [
         options: [
           {
             id: "0",
-            country: "Castillo de Bran\nRomania",
+            country: "Castillo de Bran\nRumanía",
             img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
           },
           {
@@ -578,7 +578,7 @@ const questions9Es = [
           },
           {
             id: "2",
-            country: "Entrance of Luxor Temple\nEgypt",
+            country: "Entrada del Templo de Luxor\nEgypt",
             img: require("../../../assets/WorldMonuments/Africa/Entrance-of-Luxor-Temple-Egypt.jpg"),
           },
           {

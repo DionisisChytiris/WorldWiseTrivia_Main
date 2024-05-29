@@ -29,17 +29,18 @@ const QuizTemplate = (props) => {
       onPressIn={()=>setTest(styles.button1)}
       onPressOut={() => (navigation.navigate(props.quiz), setTest(styles.button))}
       // style={[test,{ backgroundColor: colors.backgroundMaterialTopTab}]}
-      style={test}
+      style={[test,{backgroundColor: 'transparent'}]}
     >
       <Image
         source={props.image}
-        // style={{width: '50%', height: '50%',borderRadius: 10, opacity: 0.7, position: 'absolute', top: 0, left: 0}}
         style={{width: '100%', height: '100%', borderRadius: 10, opacity: 0.9}}
         resizeMode="cover"
       />
-      <View style={{position: 'absolute', bottom: 5,backgroundColor:'grey', width: 80, height: 40,borderRadius: 4, opacity: 0.6}}/>
+      {/* <View style={{position: 'absolute', bottom: 5,backgroundColor:'grey', width: 80, height: 40,borderRadius: 4, opacity: 0.6}}/> */}
       {/* </View> */}
-      <Text style={{position: 'absolute', bottom: 10,color:'white', fontWeight: 'bold', opacity: 1, fontSize: 20}}>{t("quiz")}{" "}{props.title}</Text>
+      <View style={{position: 'absolute', bottom:20}}>
+        <Text style={{color:'white', fontWeight: '900', opacity: 1, fontSize: 22}}>{t("quiz")}{" "}{props.title}</Text>
+      </View>
     </Pressable>
   );
 };
@@ -74,16 +75,7 @@ const FlagsQuizHome = () => {
   return (
     // <ScrollView horizontal={true}>
       // {/* <View> */}
-      <View
-        style={{
-          width: windowWidth,
-          backgroundColor: colors.bgFlagsCnt,
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 15,
-          flex: 1
-        }}
-      >
+      <View style={[styles.container, {backgroundColor: colors.bgFlagsCnt}]}>
         {/* <ImageBackground
           source={require("../../../assets/QuizScreen/capitals.png")}
           style={{ width: 1200, height: "100%" }}
@@ -105,20 +97,20 @@ const FlagsQuizHome = () => {
           ]}
           source={require("../../../assets/more/flags.png")}
         />
-        <View style={{width: '80%', height: windowHeight/1.4,flexDirection: 'row', alignItems: 'center', justifyItems: 'center',  marginTop: '10%'}}>
+       <View style={styles.quizBtnBox}>
           <View style={{width: '50%', gap: 20}}>
-            <QuizTemplate quiz="Quiz1" title="1" image={require('../../../assets/Flags/australia.png')}/>
-            <QuizTemplate quiz="Quiz3" title="3" image={require('../../../assets/Flags/brazil.png')}/>
-            <QuizTemplate quiz="Quiz5" title="5" image={require('../../../assets/Flags/Cambodia.png')}/>
-            <QuizTemplate quiz="Quiz7" title="7" image={require('../../../assets/Flags/elSalvador.png')}/>
-            <QuizTemplate quiz="Quiz9" title="9" image={require('../../../assets/Flags/india.png')}/>
+            <QuizTemplate quiz="Quiz1" title="1" image={require('../../../assets/Flags/World_Flag.png')}/>
+            <QuizTemplate quiz="Quiz3" title="3" image={require('../../../assets/Flags/World_Flag.png')}/>
+            <QuizTemplate quiz="Quiz5" title="5" image={require('../../../assets/Flags/World_Flag.png')}/>
+            <QuizTemplate quiz="Quiz7" title="7" image={require('../../../assets/Flags/World_Flag.png')}/>
+            <QuizTemplate quiz="Quiz9" title="9" image={require('../../../assets/Flags/World_Flag.png')}/>
           </View>
           <View style={{width: '50%', marginTop: 70,marginLeft: 20, gap: 20}}>
-            <QuizTemplate quiz="Quiz2" title="2" image={require('../../../assets/Flags/mexico.png')}/>
-            <QuizTemplate quiz="Quiz4" title="4" image={require('../../../assets/Flags/peru.png')}/>
-            <QuizTemplate quiz="Quiz6" title="6" image={require('../../../assets/Flags/nigeria.png')}/>
-            <QuizTemplate quiz="Quiz8" title="8" image={require('../../../assets/Flags/france.png')}/>
-            <QuizTemplate quiz="Quiz10" title="10" image={require('../../../assets/Flags/norway.png')}/>           
+            <QuizTemplate quiz="Quiz2" title="2" image={require('../../../assets/Flags/World_Flag.png')}/>
+            <QuizTemplate quiz="Quiz4" title="4" image={require('../../../assets/Flags/World_Flag.png')}/>
+            <QuizTemplate quiz="Quiz6" title="6" image={require('../../../assets/Flags/World_Flag.png')}/>
+            <QuizTemplate quiz="Quiz8" title="8" image={require('../../../assets/Flags/World_Flag.png')}/>
+            <QuizTemplate quiz="Quiz10" title="10" image={require('../../../assets/Flags/World_Flag.png')}/>           
           </View>
           
         </View>
@@ -132,23 +124,25 @@ const FlagsQuizHome = () => {
 export default FlagsQuizHome;
 
 const styles = StyleSheet.create({
+  container: {
+    width: windowWidth,
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 15,
+    flex: 1,
+  },
+  quizBtnBox: {
+    width: "80%",
+    height: windowHeight / 1.4,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyItems: "center",
+  },
   background: {
     position: "absolute",
-    // backgroundColor: 'grey',
-    //monuments
-    // width: windowWidth *1.4,
-    // height: windowHeight/2,
-    //  top: windowHeight/2.2,
-    //capitals
-    // width: windowWidth * 2,
-    // height: windowHeight / 4.7,
-    // top: windowHeight / 1.7,
-    //flags
     width: windowWidth *2,
     height: windowHeight/10,
     top: windowHeight/1.5,
-    // width: 1400,
-    // height: 1200,
     opacity: 0.4,
     transform: [
       {
@@ -160,7 +154,6 @@ const styles = StyleSheet.create({
     ],
   },
   button: {
-    // backgroundColor: "lightgrey",
     width: "85%",
     height: 80,
     margin: '2%',
@@ -168,12 +161,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     opacity: 1
-    // position: "absolute",
-    // top: 80,
-    // left: 80,
   },
   button1: {
-    // backgroundColor: "red",
     width: "85%",
     height: 80,
     margin: '2%',
@@ -181,8 +170,5 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     opacity: 0.4
-    // position: "absolute",
-    // top: 80,
-    // left: 80,
   }
 });
