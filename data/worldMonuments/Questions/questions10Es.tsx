@@ -8,7 +8,7 @@ const questions10Es = [
     options: [
       {
         id: "0",
-        capital: "Great Mosque\nof Djenné",
+        capital: "Gran Mezquita de Djenné",
         country: "Malí",
       },
       {
@@ -23,7 +23,7 @@ const questions10Es = [
       },
       {
         id: "3",
-        capital: "Citadel\nof Aleppo",
+        capital: "Ciudadela de Aleppo",
         country: "Siria",
       },
     ],
@@ -52,7 +52,7 @@ const questions10Es = [
       },
       {
         id: "3",
-        country: "Ciudadela de Alepo\nSyria",
+        country: "Ciudadela de Alepo\nSiria",
         img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png"),
       },
     ],
@@ -67,7 +67,7 @@ const questions10Es = [
     options: [
       {
         id: "0",
-        capital: "Kailasa\nTemple",
+        capital: "Templo de Kailasa",
         country: "India",
       },
       {
@@ -101,12 +101,12 @@ const questions10Es = [
       },
       {
         id: "1",
-        country: "Catedral de Santa Sofía\nTurkey",
+        country: "Catedral de Santa Sofía\nTurquía",
         img: require("../../../assets/WorldMonuments/Asia/AgiaSofia.png"),
       },
       {
         id: "2",
-        country: "Persépolis\nIran",
+        country: "Persépolis\nIrán",
         img: require("../../../assets/WorldMonuments/Asia/persepolis.png"),
       },
       {
@@ -131,12 +131,12 @@ const questions10Es = [
       },
       {
         id: "1",
-        capital: "Temples\nof Bagan",
+        capital: "Templos\nde Bagan",
         country: "Myanmar",
       },
       {
         id: "2",
-        capital: "Tiger's\nNest",
+        capital: "El nido del Tigre",
         country: "Bután",
       },
       {
@@ -150,7 +150,7 @@ const questions10Es = [
   {
     id: "3b",
     status: "Flags",
-    country: "Paro Taktsang\n(Tiger's Nest)",
+    country: "El nido del Tigre",
     capital: "Bután",
     options: [
       {
@@ -160,12 +160,12 @@ const questions10Es = [
       },
       {
         id: "1",
-        country: "Temples of Bangan\nMyanmar",
+        country: "Templos de Bangan\nBirmania",
         img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.png"),
       },
       {
         id: "2",
-        country: "Tiger's Nest\nBhutan",
+        country: "El nido del Tigre\nBután",
         img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
       },
       {
@@ -259,7 +259,7 @@ const questions10Es = [
       },
       {
         id: "3",
-        capital: "Tokyo Tower",
+        capital: "Torre de Tokio",
         country: "Japón",
       },
     ],
@@ -268,12 +268,12 @@ const questions10Es = [
   {
     id: "5b",
     status: "Flags",
-    country: "Tokyo Tower",
+    country: "Torre de Tokio",
     capital: "Japón",
     options: [
       {
         id: "0",
-        country: "Washington Monument\nEstados Unidos",
+        country: "Monumento a Washington\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/washingtonMonument.png"),
       },
       {
@@ -288,7 +288,7 @@ const questions10Es = [
       },
       {
         id: "3",
-        country: "Tokyo Tower\nJapan",
+        country: "Torre de Tokio\nJapón",
         img: require("../../../assets/WorldMonuments/Asia/Tokyo-Tower.png"),
       },
     ],
@@ -308,7 +308,7 @@ const questions10Es = [
       },
       {
         id: "1",
-        capital: "Ruins\nof Pompeii",
+        capital: "Pompeya",
         country: "Italia",
       },
       {
@@ -318,7 +318,7 @@ const questions10Es = [
       },
       {
         id: "3",
-        capital: "Leaning\nTower of Pisa",
+        capital: "Torre de Pisa",
         country: "Italia",
       },
     ],
@@ -332,12 +332,12 @@ const questions10Es = [
     options: [
       {
         id: "0",
-        country: "Pompeya\nItaly",
+        country: "Pompeya\nItalia",
         img: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.png"),
       },
       {
         id: "1",
-        country: "Largo di Torre Argentina\nItaly",
+        country: "Largo di Torre Argentina\nItalia",
         img: require("../../../assets/WorldMonuments/Europe/scavi_di_torre_argentina-rome.png"),
       },
       {
@@ -347,7 +347,7 @@ const questions10Es = [
       },
       {
         id: "3",
-        country: "Torre de Pisa\nItaly",
+        country: "Torre de Pisa\nItalia",
         img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
       },
     ],
@@ -372,7 +372,7 @@ const questions10Es = [
       },
       {
         id: "2",
-        capital: "Eltz Castle",
+        capital: "Castillo de Eltz",
         country: "Alemania",
       },
       {
@@ -386,12 +386,12 @@ const questions10Es = [
   {
     id: "7b",
     status: "Flags",
-    country: "Palace \nof Versailles",
+    country: "Palacio \nde Versailles",
     capital: "Francia",
     options: [
       {
         id: "0",
-        country: "Palacio de Versalles  \nFrancia",
+        country: "Palacio de Versalles\nFrancia",
         img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
       },
       {
@@ -406,7 +406,7 @@ const questions10Es = [
       },
       {
         id: "3",
-        country: "Eltz Castle\nAlemania",
+        country: "Castillo de Eltz\nAlemania",
         img: require("../../../assets/WorldMonuments/Europe/eltz-castle-muenstermaifeld-germany.png"),
       },
     ],
@@ -431,12 +431,12 @@ const questions10Es = [
       },
       {
         id: "2",
-        capital: "Pompeii",
+        capital: "Pompeya",
         country: "Italia",
       },
       {
         id: "3",
-        capital: "Citadel\nof Aleppo",
+        capital: "Ciudadela de Aleppo",
         country: "Siria",
       },
     ],
@@ -445,7 +445,7 @@ const questions10Es = [
   {
     id: "8b",
     status: "Flags",
-    country: "Pompeii",
+    country: "Pompeya",
     capital: "Italia",
     options: [
       {
@@ -455,17 +455,17 @@ const questions10Es = [
       },
       {
         id: "1",
-        country: "Arles Amphitheater\nFrancia",
+        country: "Anfiteatro de Arlés\nFrancia",
         img: require("../../../assets/WorldMonuments/Europe/AmpitheatreofArles.png"),
       },
       {
         id: "2",
-        country: "Pompeya\nItaly",
+        country: "Pompeya\nItalia",
         img: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.png"),
       },
       {
         id: "3",
-        country: "Persépolis\nIran",
+        country: "Persépolis\nIrán",
         img: require("../../../assets/WorldMonuments/Asia/persepolis.png"),
       },
     ],
@@ -509,12 +509,12 @@ const questions10Es = [
     options: [
       {
         id: "0",
-        country: "Coliseo\nItaly",
+        country: "Coliseo\nItalia",
         img: require("../../../assets/WorldMonuments/Europe/colosseum.png"),
       },
       {
         id: "1",
-        country: "Persépolis\nIran",
+        country: "Persépolis\nIrán",
         img: require("../../../assets/WorldMonuments/Asia/persepolis.png"),
       },
       {
@@ -524,7 +524,7 @@ const questions10Es = [
       },
       {
         id: "3",
-        country: "Ciudadela de Alepo\nSyria",
+        country: "Ciudadela de Alepo\nsiria",
         img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png"),
       },
     ],
@@ -549,12 +549,12 @@ const questions10Es = [
       },
       {
         id: "2",
-        capital: "Hoover Dam",
+        capital: "Presa Hoover",
         country: "Estados Unidos",
       },
       {
         id: "3",
-        capital: "Panama Canal",
+        capital: "Canal de Panamá",
         country: "Panamá",
       },
     ],
@@ -563,7 +563,7 @@ const questions10Es = [
   {
     id: "10b",
     status: "Flags",
-    country: "Hoover Dam",
+    country: "Presa Hoover",
     capital: "Estados Unidos",
     options: [
       {
@@ -578,7 +578,7 @@ const questions10Es = [
       },
       {
         id: "2",
-        country: "Hoover Dam\nEstados Unidos",
+        country: "Presa Hoover\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/hoover_dam_nevada.png"),
       },
       {

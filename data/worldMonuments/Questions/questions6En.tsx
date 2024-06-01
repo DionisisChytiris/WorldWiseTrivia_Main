@@ -254,7 +254,7 @@ const questions6En = [
           },
           {
             id: "2",
-            capital: 'Church of\nSaint Church',
+            capital: 'Church of\nSaint George',
             country: 'Ethiopia'
           },
           {

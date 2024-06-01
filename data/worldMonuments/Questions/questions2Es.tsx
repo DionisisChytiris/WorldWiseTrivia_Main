@@ -101,7 +101,7 @@ const questions2Es = [
       },
       {
         id: "1",
-        country: "Aït Benhaddou\nMarruecos",
+        country: "Ait Ben Hadu\nMarruecos",
         img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.png"),
       },
       {
@@ -450,7 +450,7 @@ const questions2Es = [
     options: [
       {
         id: "0",
-        country: "Hiroshima Peace Memorial Park\nJapón",
+        country: "Monumento de la Paz de Hiroshima Park\nJapón",
         img: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.png"),
       },
       {

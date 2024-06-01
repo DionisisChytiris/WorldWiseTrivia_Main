@@ -77,12 +77,12 @@ const questions5Es = [
           },
           {
             id: "2",
-            capital: 'Washington\nMonument',
+            capital: 'Monumento a Washington',
             country: 'Estados Unidos'
           },
           {
             id: "3",
-            capital: 'Arc de\nTriumph',
+            capital: 'Arco de Triunfo',
             country: 'Francia'
           },
         ],
@@ -91,7 +91,7 @@ const questions5Es = [
       {
         id: "2b",
         status: "Flags",
-        country: "Washington Monument",
+        country: "Monumento a Washington",
         capital: "Estados Unidos",
         options: [
           {
@@ -101,12 +101,12 @@ const questions5Es = [
           },
           {
             id: "1",
-            country: "Burj Khalifa\nUnited Arab Emirates",
+            country: "Burj Khalifa\nEmiratos Árabes Unidos",
             img: require("../../../assets/WorldMonuments/Asia/burj-khalifa.png"),
           },
           {
             id: "2",
-            country: "Washington Monument\nEstados Unidos",
+            country: "Monumento a Washington\nEstados Unidos",
             img: require("../../../assets/WorldMonuments/USA/washingtonMonument.png"),
           },
           {
@@ -259,7 +259,7 @@ const questions5Es = [
           },
           {
             id: "3",
-            capital: 'Cité de\nCarcassonne',
+            capital: 'Ciudadela de Carcasona',
             country: 'Francia'
           },
         ],
@@ -283,7 +283,7 @@ const questions5Es = [
           },
           {
             id: "2",
-            country: "Alhambra\nSpain",
+            country: "Alhambra\nEspaña",
             img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
           },
           {
@@ -303,7 +303,7 @@ const questions5Es = [
         options: [
           {
             id: "0",
-            capital: 'Petronas\nTowers',
+            capital: 'Torres Petronas',
             country: 'Malasia'
           },
           {
@@ -327,12 +327,12 @@ const questions5Es = [
       {
         id: "6b",
         status: "Flags",
-        country: "Petronas Towers",
+        country: "Torres Petronas",
         capital: "Malasia",
         options: [
           {
             id: "0",
-            country: "Petronas Towers\nMalaysia",
+            country: "Torres Petronas\nMalaysia",
             img: require("../../../assets/WorldMonuments/Asia/PetronasTwinTowers.png"),
           },
           {
@@ -342,7 +342,7 @@ const questions5Es = [
           },
           {
             id: "2",
-            country: "Burj Khalifa\nUnited Arab Emirates",
+            country: "Burj Khalifa\nEmiratos Árabes Unidos",
             img: require("../../../assets/WorldMonuments/Asia/burj-khalifa.png"),
           },
           {
@@ -362,7 +362,7 @@ const questions5Es = [
         options: [
           {
             id: "0",
-            capital: 'Alcatraz\nIsland',
+            capital: 'Isla de Alcatraz',
             country: 'Estados Unidos'
           },
           {
@@ -372,7 +372,7 @@ const questions5Es = [
           },
           {
             id: "2",
-            capital: 'Ellis Island',
+            capital: 'Isla Ellis',
             country: 'Estados Unidos'
           },
           {
@@ -391,7 +391,7 @@ const questions5Es = [
         options: [
           {
             id: "0",
-            country: "Alcatraz Island\nEstados Unidos",
+            country: "Isla de Alcatraz\nEstados Unidos",
             img: require("../../../assets/WorldMonuments/USA/alcatraz.png"),
           },
           {
@@ -401,7 +401,7 @@ const questions5Es = [
           },
           {
             id: "2",
-            country: "Ellis Island\nEstados Unidos",
+            country: "Isla Ellis\nEstados Unidos",
             img: require("../../../assets/WorldMonuments/USA/ellis-island.png"),
           },
           {
@@ -431,7 +431,7 @@ const questions5Es = [
           },
           {
             id: "2",
-            capital: 'St Joseph\'s \nOratory',
+            capital: 'Oratorio de San José',
             country: 'Canadá'
           },
           {
@@ -450,7 +450,7 @@ const questions5Es = [
         options: [
           {
             id: "0",
-            country: "St.Joseph's Oratory\nCanada",
+            country: "Oratorio de San José\nCanadá",
             img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.png"),
           },
           {
@@ -485,12 +485,12 @@ const questions5Es = [
           },
           {
             id: "1",
-            capital: 'Osaka Castle',
+            capital: 'Castillo de Osaka',
             country: 'Japón'
           },
           {
             id: "2",
-            capital: 'Imperial\nCastle',
+            capital: 'Palacio Imperial de Tokio',
             country: 'Japón'
           },
           {
@@ -509,22 +509,22 @@ const questions5Es = [
         options: [
           {
             id: "0",
-            country: "Fushimi Inari Shrine\nJapan",
+            country: "Fushimi Inari Shrine\nJapón",
             img: require("../../../assets/WorldMonuments/Asia/FushimiInari-taishaShrineKyoto.png"),
           },
           {
             id: "1",
-            country: "Osaka Castle\nJapan",
+            country: "Castillo de Osaka\nJapón",
             img: require("../../../assets/WorldMonuments/Asia/Osaka-Castle.png"),
           },
           {
             id: "2",
-            country: "Castillo de Himeji\nJapan",
+            country: "Castillo de Himeji\nJapón",
             img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
           },
           {
             id: "3",
-            country: "Imperial Palace\nJapan",
+            country: "Palacio Imperial de Tokio\nJapón",
             img: require("../../../assets/WorldMonuments/Asia/ImperialPalaceTokyo.png"),
           },
         ],
@@ -549,12 +549,12 @@ const questions5Es = [
           },
           {
             id: "2",
-            capital: 'Gardens\nby the Bay',
+            capital: 'Jardines de la Bahía',
             country: 'Singapur'
           },
           {
             id: "3",
-            capital: 'Sydney\nOpera House',
+            capital: 'Ópera de Sídney',
             country: 'Australia'
           },
         ],
@@ -563,7 +563,7 @@ const questions5Es = [
       {
         id: "10b",
         status: "Flags",
-        country: "Gardens by the Bay",
+        country: "Jardines de la Bahía",
         capital: "Singapur",
         options: [
           {
@@ -578,7 +578,7 @@ const questions5Es = [
           },
           {
             id: "2",
-            country: "Gardens by the Bay\nSingapur",
+            country: "Jardines de la Bahía\nSingapur",
             img: require("../../../assets/WorldMonuments/Asia/Gardens-by-the-Bay.png"),
           },
           {

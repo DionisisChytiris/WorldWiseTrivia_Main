@@ -58,6 +58,7 @@ const TabNavCapitals = ({ navigation }) => {
         {() => (
           <Stack.Navigator>
             <Stack.Group screenOptions={{ headerShown: false }}>
+               <Stack.Screen name="ResultsCpt1" component={ResultsCpt1} /> 
               <Stack.Screen name="ChooseQuizType" component={ChooseQuizType} />
               <Stack.Screen name="CapitalsHome" component={CapitalsQuizHome} />
               <Stack.Screen name="Quiz1" component={Quiz1} />
@@ -70,7 +71,7 @@ const TabNavCapitals = ({ navigation }) => {
               <Stack.Screen name="Quiz8" component={Quiz8} /> 
               <Stack.Screen name="Quiz9" component={Quiz9} /> 
               <Stack.Screen name="Quiz10" component={Quiz10} /> 
-              <Stack.Screen name="ResultsCpt1" component={ResultsCpt1} /> 
+              {/* <Stack.Screen name="ResultsCpt1" component={ResultsCpt1} />  */}
               <Stack.Screen name="ResultsCpt2" component={ResultsCpt2} /> 
               <Stack.Screen name="ResultsCpt3" component={ResultsCpt3} /> 
               <Stack.Screen name="ResultsCpt4" component={ResultsCpt4} /> 

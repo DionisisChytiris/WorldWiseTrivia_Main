@@ -47,7 +47,7 @@ const questions4Es = [
       },
       {
         id: "2",
-        country: "Guggenheim Museum\nSpain",
+        country: "Guggenheim Museum\nEspaña",
         img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.png"),
       },
       {
@@ -180,7 +180,7 @@ const questions4Es = [
     id: "4a",
     status: "Capitals",
     img: 'L',
-    country: "Tibet",
+    country: "Tíbet",
     image: require("../../../assets/WorldMonuments/Asia/potalaPalaceTibet.png"),
     options: [
       {
@@ -196,7 +196,7 @@ const questions4Es = [
       {
         id: "2",
         capital: 'Palacio de Potala ',
-        country: 'Tibet'
+        country: 'Tíbet'
       },
       {
         id: "3",
@@ -210,7 +210,7 @@ const questions4Es = [
     id: "4b",
     status: "Flags",
     country: "Palacio de Potala ",
-    capital: "Tibet",
+    capital: "Tíbet",
     options: [
       {
         id: "0",
@@ -224,7 +224,7 @@ const questions4Es = [
       },
       {
         id: "2",
-        country: "Palacio de Potala \nTibet",
+        country: "Palacio de Potala \nTíbet",
         img: require("../../../assets/WorldMonuments/Asia/potalaPalaceTibet.png"),
       },
       {
@@ -337,7 +337,7 @@ const questions4Es = [
       },
       {
         id: "1",
-        country: "Palacio Real de Madrid\nSpain",
+        country: "Palacio Real de Madrid\nEspaña",
         img: require("../../../assets/WorldMonuments/Europe/RoyalPalaceMadrid.png"),
       },
       {
@@ -362,12 +362,12 @@ const questions4Es = [
     options: [
       {
         id: "0",
-        capital: 'Alcatraz\nIsland',
+        capital: 'Isla de Alcatraz',
         country: 'Estados Unidos'
       },
       {
         id: "1",
-        capital: 'Ellis\nIsland',
+        capital: 'Isla Ellis',
         country: 'Estados Unidos'
       },
       {
@@ -386,17 +386,17 @@ const questions4Es = [
   {
     id: "7b",
     status: "Flags",
-    country: "Alcatraz Island",
+    country: "Isla de Alcatraz",
     capital: "Estados Unidos",
     options: [
       {
         id: "0",
-        country: "Alcatraz Island\nEstados Unidos",
+        country: "Isla de Alcatraz\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/alcatraz.png"),
       },
       {
         id: "1",
-        country: "Ellis Island\nEstados Unidos",
+        country: "Isla Ellis\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/ellis-island.png"),
       },
       {
@@ -406,7 +406,7 @@ const questions4Es = [
       },
       {
         id: "3",
-        country: "Alhambra\nSpain",
+        country: "Alhambra\nEspaña",
         img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
       },
     ],
@@ -421,7 +421,7 @@ const questions4Es = [
     options: [
       {
         id: "0",
-        capital: 'Imperial\nPalace',
+        capital: 'Palacio Imperial de Tokio',
         country: 'Japón'
       },
       {
@@ -431,7 +431,7 @@ const questions4Es = [
       },
       {
         id: "2",
-        capital: 'Hiroshima\nPeace\nMemorial',
+        capital: 'Monumento de la Paz de Hiroshima',
         country: 'Japón'
       },
       {
@@ -445,27 +445,27 @@ const questions4Es = [
   {
     id: "8b",
     status: "Flags",
-    country: "Hiroshima Peace Memorial",
+    country: "Monumento de la Paz de Hiroshima",
     capital: "Japón",
     options: [
       {
         id: "0",
-        country: "Castillo de Himeji\nJapan",
+        country: "Castillo de Himeji\nJapón",
         img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
       },
       {
         id: "1",
-        country: "Fushimi Inari Shrine\nJapan",
+        country: "Fushimi Inari Shrine\nJapón",
         img: require("../../../assets/WorldMonuments/Asia/FushimiInari-taishaShrineKyoto.png"),
       },
       {
         id: "2",
-        country: "Hiroshima Peace Memorial Park\nJapan",
+        country: "Monumento de la Paz de Hiroshima Park\nJapón",
         img: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.png"),
       },
       {
         id: "3",
-        country: "Imperial Palace\nJapan",
+        country: "Palacio Imperial de Tokio\nJapón",
         img: require("../../../assets/WorldMonuments/Asia/ImperialPalaceTokyo.png"),
       },
     ],
@@ -490,12 +490,12 @@ const questions4Es = [
       },
       {
         id: "2",
-        capital: 'Cité de\nCarcassonne',
+        capital: 'Ciudadela de Carcasona',
         country: 'Francia'
       },
       {
         id: "3",
-        capital: 'Leaning\nTower of Pisa',
+        capital: 'Torre de Pisa',
         country: 'Italia'
       },
     ],
@@ -549,12 +549,12 @@ const questions4Es = [
       },
       {
         id: "2",
-        capital: 'Petronas\nTowers',
+        capital: 'Torres Petronas',
         country: 'Malasia'
       },
       {
         id: "3",
-        capital: 'Tokyo Tower',
+        capital: 'Torre de Tokio',
         country: 'Japón'
       },
     ],
@@ -578,12 +578,12 @@ const questions4Es = [
       },
       {
         id: "2",
-        country: "Petronas Towers\nMalaysia",
+        country: "Torres Petronas\nMalaysia",
         img: require("../../../assets/WorldMonuments/Asia/PetronasTwinTowers.png"),
       },
       {
         id: "3",
-        country: "Tokyo Tower\nJapan",
+        country: "Torre de Tokio\nJapón",
         img: require("../../../assets/WorldMonuments/Asia/TokyoTower.png"),
       },
     ],

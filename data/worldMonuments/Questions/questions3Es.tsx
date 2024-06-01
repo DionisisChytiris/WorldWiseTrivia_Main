@@ -245,7 +245,7 @@ const questions3Es = [
       {
         id: "0",
         capital: "Moai\nStatues",
-        country: "Easter Island",
+        country: "Isla de Pascua",
       },
       {
         id: "1",

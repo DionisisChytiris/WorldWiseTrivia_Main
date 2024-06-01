@@ -13,17 +13,17 @@ const questions8Es = [
       },
       {
         id: "1",
-        capital: 'Medina of\nMarrakech',
+        capital: 'Medina de\nMarrakech',
         country: 'Marruecos'
       },
       {
         id: "2",
-        capital: 'Great Pyramid\nof Giza',
+        capital: 'Gran Pirámide de Guiza',
         country: 'Egipto'
       },
       {
         id: "3",
-        capital: 'Temple\nof Isis',
+        capital: 'Templo\nde Isis',
         country: 'Egipto'
       },
     ],
@@ -32,7 +32,7 @@ const questions8Es = [
   {
       id: "1b",
       status: "Flags",
-      country: "Temple of Isis",
+      country: "Templo de Isis",
       capital: "Egipto",
       options: [
         {
@@ -47,12 +47,12 @@ const questions8Es = [
         },
         {
           id: "2",
-          name: "Medina of Marrakech\nMarruecos",
+          name: "Medina de Marrakech\nMarruecos",
           img: require("../../../assets/WorldMonuments/Africa/medina-marrakech.png"),
         },
         {
           id: "3",
-          name: "Temple of Isis\nEgipto",
+          name: "Templo de Isis\nEgipto",
           img: require("../../../assets/WorldMonuments/Africa/temple_isis-Aswan.png"),
         },
       ],
@@ -67,12 +67,12 @@ const questions8Es = [
       options: [
         {
           id: "0",
-          capital: 'Alcatraz\nIsland',
+          capital: 'Isla de Alcatraz',
           country: 'Estados Unidos'
         },
         {
           id: "1",
-          capital: 'Panama\nCanal',
+          capital: 'Canal de Panamá',
           country: 'Panamá'
         },
         {
@@ -91,17 +91,17 @@ const questions8Es = [
     {
       id: "2b",
       status: "Flags",
-      country: "Panama Canal",
+      country: "Canal de Panamá",
       capital: "Panamá",
       options: [
         {
           id: "0",
-          name: "Alcatraz Island\nEstados Unidos",
+          name: "Isla de Alcatraz\nEstados Unidos",
           img: require("../../../assets/WorldMonuments/USA/alcatraz.png"),
         },
         {
           id: "1",
-          name: "Panama Canal\nPanama",
+          name: "Canal de Panamá\nPanamá",
           img: require("../../../assets/WorldMonuments/America/PanamaCanal.png"),
         },
         {
@@ -126,7 +126,7 @@ const questions8Es = [
       options: [
         {
           id: "0",
-          capital: 'Leaning\nTower of Pisa',
+          capital: 'Torre de Pisa',
           country: 'Italia'
         },
         {
@@ -136,7 +136,7 @@ const questions8Es = [
         },
         {
           id: "2",
-          capital: 'Amphitheatre\nof Arles',
+          capital: 'Anfiteatro de Arlés ',
           country: 'Francia'
         },
         {
@@ -150,7 +150,7 @@ const questions8Es = [
     {
       id: "3b",
       status: "Flags",
-      country: "Amphitheatre of Arles",
+      country: "Anfiteatro de Arlés",
       capital: "Francia",
       options: [
         {
@@ -165,7 +165,7 @@ const questions8Es = [
         },
         {
           id: "2",
-          name: "Arenas de Arlés\nFrancia",
+          name: "Anfiteatro de Arlés\nFrancia",
           img: require("../../../assets/WorldMonuments/Europe/AmpitheatreofArles.png"),
         },
         {
@@ -190,7 +190,7 @@ const questions8Es = [
         },
         {
           id: "1",
-          capital: 'Little\nMermaid Statue',
+          capital: 'La Sirenita',
           country: 'Dinamarca'
         },
         {
@@ -219,7 +219,7 @@ const questions8Es = [
         },
         {
           id: "1",
-          name: "Little Mermaid Statue\nDenmark",
+          name: "La Sirenita\nDinamarca",
           img: require("../../../assets/WorldMonuments/Europe/Little-mermaid-statue.png"),
         },
         {
@@ -245,7 +245,7 @@ const questions8Es = [
         {
           id: "0",
           capital: 'Capilla Sixtina',
-          country: 'Vatican City'
+          country: 'Vaticano'
         },
         {
           id: "1",
@@ -273,7 +273,7 @@ const questions8Es = [
       options: [
         {
           id: "0",
-          name: "Capilla Sixtina\nVatican City",
+          name: "Capilla Sixtina\nVaticano",
           img: require("../../../assets/WorldMonuments/Europe/sistineChapel.png"),
         },
         {
@@ -298,7 +298,7 @@ const questions8Es = [
       id: "6a",
       status: "Capitals",
       img: 'L',
-      country: "Easter Island",
+      country: "Isla de Pascua",
       image: require("../../../assets/WorldMonuments/Asia/easterIsland.png"),
       options: [
         {
@@ -308,12 +308,12 @@ const questions8Es = [
         },
         {
           id: "1",
-          capital: 'Moai Statues',
-          country: 'Easter Island'
+          capital: 'Moáis estatuas',
+          country: 'Isla de Pascua'
         },
         {
           id: "2",
-          capital: 'Ruins \nof Pompeii',
+          capital: 'Pompeya',
           country: 'Italia'
         },
         {
@@ -327,7 +327,7 @@ const questions8Es = [
     {
       id: "6b",
       status: "Flags",
-      country: "Moai Statues",
+      country: "Moáis estatuas",
       capital: "Easter Island",
       options: [
         {
@@ -337,7 +337,7 @@ const questions8Es = [
         },
         {
           id: "1",
-          name: "Moai Statues\nEaster Island",
+          name: "Moáis estatuas\nIsla de Pascua",
           img: require("../../../assets/WorldMonuments/Asia/easterIsland.png"),
         },
         {
@@ -367,7 +367,7 @@ const questions8Es = [
         },
         {
           id: "1",
-          capital: 'Mexico city\nCathedral',
+          capital: 'Catedral Metropolitana de México',
           country: 'México'
         },
         {
@@ -377,7 +377,7 @@ const questions8Es = [
         },
         {
           id: "3",
-          capital: 'Saviour on the\n Spilled Blood',
+          capital: 'Iglesia del Salvador sobre la Sangre Derramada',
           country: 'Rusia'
         },
       ],
@@ -386,12 +386,12 @@ const questions8Es = [
     {
       id: "7b",
       status: "Flags",
-      country: "Saviour on the Spilled Blood",
+      country: "Iglesia del Salvador sobre la Sangre Derramada",
       capital: "Rusia",
       options: [
         {
           id: "0",
-          name: "Catedral de Milán \nItalia",
+          name: "Catedral de Milán\nItalia",
           img: require("../../../assets/WorldMonuments/Europe/cathedralMilan.png"),
         },
         {
@@ -406,7 +406,7 @@ const questions8Es = [
         },
         {
           id: "3",
-          name: "Saviour on the \nSpilled Blood\nRussia",
+          name: "Iglesia del Salvador sobre la Sangre Derramada\nRusia",
           img: require("../../../assets/WorldMonuments/Europe/stPetersburg.png"),
         },
       ],
@@ -455,7 +455,7 @@ const questions8Es = [
         },
         {
           id: "1",
-          name: "Museo Guggenheim\nSpain",
+          name: "Museo Guggenheim\nEspaña",
           img: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png"),
         },
         {
@@ -524,7 +524,7 @@ const questions8Es = [
         },
         {
           id: "3",
-          name: "Panama Canal\nPanama",
+          name: "Canal de Panamá\nPanama",
           img: require("../../../assets/WorldMonuments/America/PanamaCanal.png"),
         },
       ],
@@ -539,12 +539,12 @@ const questions8Es = [
       options: [
         {
           id: "0",
-          capital: 'St Catherine\'s \nMonastery',
+          capital: 'Monasterio de Santa Catalina',
           country: 'Egipto'
         },
         {
           id: "1",
-          capital: 'Aït\nBenhaddou',
+          capital: 'Ait Ben Hadu',
           country: 'Marruecos'
         },
         {
@@ -568,12 +568,12 @@ const questions8Es = [
       options: [
         {
           id: "0",
-          name: "Monasterio de Santa Catalina\nEgypt",
+          name: "Monasterio de Santa Catalina\nEgipto",
           img: require("../../../assets/WorldMonuments/Africa/mountsinai.jpg"),
         },
         {
           id: "1",
-          name: "Aït Benhaddou\nMarruecos",
+          name: "Ait Ben Hadu\nMarruecos",
           img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.png"),
         },
         {
@@ -583,7 +583,7 @@ const questions8Es = [
         },
         {
           id: "3",
-          name: "Tiger's Nest\nBhutan",
+          name: "El nido de Tigre\nBután",
           img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
         },
       ],

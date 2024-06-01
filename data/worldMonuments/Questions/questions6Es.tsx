@@ -8,12 +8,12 @@ const questions6Es = [
     options: [
       {
         id: "0",
-        capital: 'Eltz Castle',
+        capital: 'Castillo de Eltz',
         country: 'Alemania'
       },
       {
         id: "1",
-        capital: 'Neuschwanstein\nCastle',
+        capital: 'Palacio de Neuschwanstein',
         country: 'Alemania'
       },
       {
@@ -37,12 +37,12 @@ const questions6Es = [
         options: [
           {
             id: "0",
-            country: "Eltz Castle\nAlemania",
+            country: "Castillo de Eltz\nAlemania",
             img: require("../../../assets/WorldMonuments/Europe/eltz-castle-muenstermaifeld-germany.png"),
           },
           {
             id: "1",
-            country: "Castillo de Neuschwanstein\nGermany",
+            country: "Castillo de Neuschwanstein\nAlemania",
             img: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.png"),
           },
           {
@@ -52,7 +52,7 @@ const questions6Es = [
           },
           {
             id: "3",
-            country: "Castillo de Himeji\nJapan",
+            country: "Castillo de Himeji\nJapón",
             img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
           },
         ],
@@ -67,12 +67,12 @@ const questions6Es = [
         options: [
           {
             id: "0",
-            capital: 'Borgund\nStave Church',
+            capital: 'Iglesia de madera de Borgund',
             country: 'Noruega'
           },
           {
             id: "1",
-            capital: 'Florence\nCathedral',
+            capital: 'Catedral de Santa María del Fiore',
             country: 'Italia'
           },
           {
@@ -91,12 +91,12 @@ const questions6Es = [
       {
         id: "2b",
         status: "Flags",
-        country: "Duomo di Milano",
+        country: "Catedral de Milán",
         capital: "Italia",
         options: [
           {
             id: "0",
-            country: "Iglesia de madera de Borgund\nNorway",
+            country: "Iglesia de madera de Borgund\nNoruega",
             img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
           },
           {
@@ -106,7 +106,7 @@ const questions6Es = [
           },
           {
             id: "2",
-            country: "Sagrada Familia\nSpain",
+            country: "Sagrada Familia\nEspaña",
             img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.png"),
           },
           {
@@ -170,7 +170,7 @@ const questions6Es = [
           },
           {
             id: "3",
-            country: "Museo Guggenheim\nSpain",
+            country: "Museo Guggenheim\nEspaña",
             img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.png"),
           },
         ],
@@ -190,12 +190,12 @@ const questions6Es = [
           },
           {
             id: "1",
-            capital: 'Temples\nof Bagan',
+            capital: 'Templos de Bagan',
             country: 'Myanmar'
           },
           {
             id: "2",
-            capital: 'Aït\nBenhaddou',
+            capital: 'Ait Ben Hadu',
             country: 'Marruecos'
           },
           {
@@ -209,22 +209,22 @@ const questions6Es = [
       {
         id: "4b",
         status: "Flags",
-        country: "Aït Benhaddou",
+        country: "Ait Ben Hadu",
         capital: "Marruecos",
         options: [
           {
             id: "0",
-            country: "Alhambra\nSpain",
+            country: "Alhambra\nEspaña",
             img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
           },
           {
             id: "1",
-            country: "Temples of Bagan\nMyanmar",
+            country: "Templos de Bagan\nBirmania",
             img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.png"),
           },
           {
             id: "2",
-            country: "Aït Benhaddou\nMarruecos",
+            country: "Ait Ben Hadu\nMarruecos",
             img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.png"),
           },
           {
@@ -249,12 +249,12 @@ const questions6Es = [
           },
           {
             id: "1",
-            capital: 'Borgund\nStave Church',
+            capital: 'Iglesia de madera de Borgund',
             country: 'Noruega'
           },
           {
             id: "2",
-            capital: 'Church of\nSaint Church',
+            capital: 'Iglesia de San Jorge',
             country: 'Etiopía'
           },
           {
@@ -278,12 +278,12 @@ const questions6Es = [
           },
           {
             id: "1",
-            country: "Iglesia de madera de Borgund\nNorway",
+            country: "Iglesia de madera de Borgund\nNoruega",
             img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
           },
           {
             id: "2",
-            country: "Church of Saint George\nEthiopia",
+            country: "Iglesia de San Jorge\nEtiopía",
             img: require("../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.png"),
           },
           {
@@ -303,7 +303,7 @@ const questions6Es = [
         options: [
           {
             id: "0",
-            capital: 'Tiger\'s Nest',
+            capital: 'El nido del Tigre',
             country: 'Bután'
           },
           {
@@ -313,7 +313,7 @@ const questions6Es = [
           },
           {
             id: "2",
-            capital: 'Ruins\nof Pompeii',
+            capital: 'Pompeya',
             country: 'Italia'
           },
           {
@@ -332,7 +332,7 @@ const questions6Es = [
         options: [
           {
             id: "0",
-            country: "Tiger's Nest\nBhutan",
+            country: "El nido del Tigre\nBután",
             img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
           },
           {
@@ -367,7 +367,7 @@ const questions6Es = [
           },
           {
             id: "1",
-            capital: 'St.Joseph\'s Oratory',
+            capital: 'Oratorio de San José',
             country: 'Canadá'
           },
           {
@@ -396,7 +396,7 @@ const questions6Es = [
           },
           {
             id: "1",
-            country: "Museo Guggenheim\nSpain",
+            country: "Museo Guggenheim\nEspaña",
             img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.png"),
           },
           {
@@ -406,7 +406,7 @@ const questions6Es = [
           },
           {
             id: "3",
-            country: "St.Joseph's Oratory\nCanada",
+            country: "Oratorio de San José\nCanadá",
             img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.png"),
           },
         ],
@@ -426,8 +426,8 @@ const questions6Es = [
           },
           {
             id: "1",
-            capital: 'Potala\nPalace',
-            country: 'Tibet'
+            capital: 'Palacio de Potala',
+            country: 'Tíbet'
           },
           {
             id: "2",
@@ -455,7 +455,7 @@ const questions6Es = [
           },
           {
             id: "1",
-            country: "Palacio de Potala \nTibet",
+            country: "Palacio de Potala\nTíbet",
             img: require("../../../assets/WorldMonuments/Asia/potalaPalaceTibet.png"),
           },
           {
@@ -504,12 +504,12 @@ const questions6Es = [
       {
         id: "9b",
         status: "Flags",
-        country: "Abadía de Westminster ",
+        country: "Abadía de Westminster",
         capital: "Reino Unido",
         options: [
           {
             id: "0",
-            country: "Sagrada Familia\nSpain",
+            country: "Sagrada Familia\nEspaña",
             img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.png"),
           },
           {
@@ -524,7 +524,7 @@ const questions6Es = [
           },
           {
             id: "3",
-            country: "Abadía de Westminster \nReino Unido",
+            country: "Abadía de Westminster\nReino Unido",
             img: require("../../../assets/WorldMonuments/Europe/westminster-abbey.png"),
           },
         ],
@@ -544,12 +544,12 @@ const questions6Es = [
           },
           {
             id: "1",
-            capital: 'Borgund\nStave Church',
+            capital: 'Iglesia de madera de Borgund,',
             country: 'Noruega'
           },
           {
             id: "2",
-            capital: 'Church of\nSaint George',
+            capital: 'Iglesia de San Jorge',
             country: 'Etiopía'
           },
           {
@@ -573,12 +573,12 @@ const questions6Es = [
           },
           {
             id: "1",
-            country: "Iglesia de madera de Borgund\nNorway",
+            country: "Iglesia de madera de Borgund\nNoruega",
             img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
           },
           {
             id: "2",
-            country: "Church of Saint George\nEthiopia",
+            country: "Iglesia de San Jorge\nEtiopía",
             img: require("../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.png"),
           },
           {
