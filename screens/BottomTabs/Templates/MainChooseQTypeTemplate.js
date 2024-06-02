@@ -1,7 +1,7 @@
 import { View, Text, Pressable, StyleSheet, Image } from "react-native";
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
-import { useTheme } from "../../utils/ThemeMode/ThemeProvider";
+import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import { useSelector, useDispatch } from "react-redux";
 import { useTranslation } from "react-i18next";
 // import { useAppDispatch, useAppSelector } from "../../../ReduxSetUp/store";
@@ -9,7 +9,7 @@ import {
   statusCapitals,
   statusFlags,
   statusGuess,
-} from "../../ReduxSetUp/QuizStatus/QuizStatus";
+} from "../../../ReduxSetUp/QuizStatus/QuizStatus";
 
 const MainChooseQuizTypeTemplate = (props) => {
   const navigation = useNavigation();
@@ -45,7 +45,7 @@ const MainChooseQuizTypeTemplate = (props) => {
       >
         <View style={styles.imgView}>
           <Image
-            source={require("../../assets/more/images.jpg")}
+            source={require("../../../assets/more/images.jpg")}
             style={styles.img}
             cover="contain"
           />
@@ -69,7 +69,7 @@ const MainChooseQuizTypeTemplate = (props) => {
       >
         <View style={styles.imgView}>
           <Image
-            source={require("../../assets/more/words.jpg")}
+            source={require("../../../assets/more/words.jpg")}
             style={styles.img}
             cover="contain"
           />
@@ -93,7 +93,7 @@ const MainChooseQuizTypeTemplate = (props) => {
       >
         <View style={styles.imgView}>
           <Image
-            source={require("../../assets/more/guessWord.jpg")}
+            source={require("../../../assets/more/guessWord.jpg")}
             style={styles.img}
             cover="contain"
           />

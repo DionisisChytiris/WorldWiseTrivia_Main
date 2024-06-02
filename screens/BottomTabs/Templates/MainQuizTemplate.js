@@ -1,10 +1,10 @@
 import { View, Text, Pressable, Image, StyleSheet } from "react-native";
 import React, { useState, useEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
-import { useTheme } from "../../utils/ThemeMode/ThemeProvider";
+import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
 import { MaterialIcons } from "@expo/vector-icons";
-import { styles } from "./styles";
+import { styles } from "../styles";
 
 const QuizMainTemplate = (props) => {
   const navigation = useNavigation();
@@ -364,7 +364,6 @@ const QuizMainTemplate = (props) => {
                       <Text
                         style={{
                           fontSize: item.capital.length > 22 ? 16: 18,
-                          // fontSize: 18,
                           fontWeight: "500",
                           color: colors.text,
                           textAlign: "center",

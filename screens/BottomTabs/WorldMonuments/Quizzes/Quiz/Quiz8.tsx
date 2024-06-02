@@ -1,6 +1,6 @@
 import React from "react";
 import { useAppSelector } from "../../../../../ReduxSetUp/store";
-import QuizMainTemplate from "../../../MainQuizTemplate";
+import QuizMainTemplate from "../../../Templates/MainQuizTemplate";
 
 const Quiz8 = () => {
   const {initStatus} = useAppSelector((state)=>state.quizStatus)

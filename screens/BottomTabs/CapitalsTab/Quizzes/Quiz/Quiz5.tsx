@@ -1,5 +1,5 @@
 import React from "react";
-import QuizMainTemplate from '../../../MainQuizTemplate'
+import QuizMainTemplate from '../../../Templates/MainQuizTemplate'
 import { useAppSelector } from "../../../../../ReduxSetUp/store";
 
 const Quiz5 = () => {

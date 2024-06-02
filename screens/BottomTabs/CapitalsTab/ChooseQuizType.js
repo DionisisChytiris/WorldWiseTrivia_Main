@@ -1,9 +1,11 @@
 import React from 'react'
-import MainChooseQuizTypeTemplate from '../MainChooseQTypeTemplate'
+import MainChooseQuizTypeTemplate from '../Templates/MainChooseQTypeTemplate'
+
 
 const ChooseQuizType = () => {
   return (
-      <MainChooseQuizTypeTemplate screen='CapitalsHome'/>  
+      // <MainChooseQuizTypeTemplate screen='CapitalsHome'/>  
+      <MainChooseQuizTypeTemplate screen='CapitalsHome'/>
   )
 }
 
