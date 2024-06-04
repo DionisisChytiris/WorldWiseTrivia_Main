@@ -34,9 +34,6 @@ const Europe = () => {
           width: width / 1.1,
           height: height/1.5,
           paddingBottom: 10,
-          // height: height,
-          // height: 500,
-          // backgroundColor: "gray",
         }}
       >
         <FlashList

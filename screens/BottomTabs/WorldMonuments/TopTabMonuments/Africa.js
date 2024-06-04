@@ -12,11 +12,10 @@ const width = Dimensions.get("window").width;
 const height = Dimensions.get("window").height;
 
 const Africa = () => {
-  const {MonAfItems} = useSelector((state)=>state.MonumentsAf)
+  const { MonAfItems } = useSelector((state) => state.MonumentsAf);
   const { colors } = useTheme();
-  const {t} = useTranslation()
+  const { t } = useTranslation();
 
-  
   const renderItem = useCallback(({ item }) => {
     return (
       <View style={{ paddingHorizontal: 5 }}>
@@ -24,13 +23,13 @@ const Africa = () => {
       </View>
     );
   });
-  
+
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
-       <Text style={[styles.continentTitle, { color: colors.text }]}>
-          {t("africa")}
-        </Text>
-        <View
+      <Text style={[styles.continentTitle, { color: colors.text }]}>
+        {t("africa")}
+      </Text>
+      <View
         style={{
           width: width / 1.1,
           height: 500,

@@ -29,7 +29,7 @@ const QuizTemplate = (props) => {
       onPressIn={()=>setTest(styles.button1)}
       onPressOut={() => (navigation.navigate(props.quiz), setTest(styles.button))}
       // style={[test,{ backgroundColor: colors.backgroundMaterialTopTab}]}
-      style={[test,{backgroundColor: 'transparent'}]}
+      style={[test,{backgroundColor: colors.text1}]}
     >
       <Image
         source={props.image}
@@ -39,7 +39,7 @@ const QuizTemplate = (props) => {
       {/* <View style={{position: 'absolute', bottom: 5,backgroundColor:'grey', width: 80, height: 40,borderRadius: 4, opacity: 0.6}}/> */}
       {/* </View> */}
       <View style={{position: 'absolute', bottom:20}}>
-        <Text style={{color:'white', fontWeight: '900', opacity: 1, fontSize: 22}}>{t("quiz")}{" "}{props.title}</Text>
+        <Text style={{color: 'white', fontWeight: '900', opacity: 1, fontSize: 22}}>{t("quiz")}{" "}{props.title}</Text>
       </View>
     </Pressable>
   );

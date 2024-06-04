@@ -1,16 +1,21 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import React from "react";
+import { useAppSelector } from "../../../../../ReduxSetUp/store";
+import QuizMainTemplate from "../../../Templates/MainQuizTemplate";
 
 const Quiz1 = () => {
+  const { initStatus } = useAppSelector((state) => state.quizStatus);
+  const { quiz1ItemsMonuments } = useAppSelector(
+    (state) => state.quiz1Monuments
+  );
   return (
-    <View>
-      <Text>Quiz1</Text>
-      <Text>Quiz1</Text>
-      <Text>Quiz1</Text>
-      <Text>Quiz1</Text>
-      <Text>Quiz1</Text>
-    </View>
-  )
-}
+    <QuizMainTemplate
+      dataQuiz={quiz1ItemsMonuments}
+      quizName="1"
+      results="ResultsMnt1"
+      loseScreen='LoseScreen1'
+      status={initStatus}
+    />
+  );
+};
 
-export default Quiz1
+export default Quiz1;

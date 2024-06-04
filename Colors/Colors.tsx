@@ -29,6 +29,7 @@ const colors = {
   export const lightColors = {
     // primary: colors.primary,
     text: colors.black,
+    text1: colors.lightGray1,
     greenText: colors.brightGreen,
     textDrawer: colors.black,
     borderColor: colors.primaryLightGray,
@@ -48,6 +49,7 @@ const colors = {
   export const darkColors = {
     // primary: colors.primary,
     text: colors.white,
+    text1: 'transparent',
     greenText: colors.lightGreen,
     textDrawer: colors.lightGray1,
     borderColor: colors.lightGray2,

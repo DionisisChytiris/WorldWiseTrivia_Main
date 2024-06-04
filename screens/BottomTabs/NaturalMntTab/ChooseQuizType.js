@@ -1,11 +1,9 @@
-import { View, Text } from 'react-native'
 import React from 'react'
+import MainChooseQuizTypeTemplate from '../Templates/MainChooseQTypeTemplate'
 
 const ChooseQuizType = () => {
   return (
-    <View>
-      <Text>ChooseQuizType</Text>
-    </View>
+      <MainChooseQuizTypeTemplate screen='NaturalMntHome'/>  
   )
 }
 

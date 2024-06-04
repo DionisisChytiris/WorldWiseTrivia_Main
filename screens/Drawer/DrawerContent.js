@@ -101,7 +101,7 @@ const DrawerContent = (props) => {
   const { t } = useTranslation();
   const dispatch = useDispatch();
   const [name, setName] = useState("");
-  const [option, setOption] = useState("");
+  const [option, setOption] = useState("En");
   const lightMode = require("../../assets/settings/day-mode.png");
   const darkMode = require("../../assets/settings/moon.png");
 

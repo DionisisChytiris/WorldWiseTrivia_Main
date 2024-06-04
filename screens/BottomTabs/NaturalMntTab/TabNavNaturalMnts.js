@@ -10,6 +10,7 @@ import { Quiz1, Quiz10, Quiz2, Quiz3, Quiz4, Quiz5, Quiz6, Quiz7, Quiz8,Quiz9 } 
 import Map from './Map'
 import { useTranslation } from "react-i18next";
 import TopTabNaturalMntsNavigator from "./TopTabNaturalMnts/topTabNaturalMntsNavigator";
+import ChooseQuizType from "./ChooseQuizType";
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
@@ -55,6 +56,7 @@ const TabNavNaturalMnts = ({ navigation }) => {
          {() => (
           <Stack.Navigator>
             <Stack.Group screenOptions={{ headerShown: false }}>
+              <Stack.Screen name="ChooseQuizType" component={ChooseQuizType} />
               <Stack.Screen name="NaturalMntHome" component={NaturalMntsQuizHome} />
               <Stack.Screen name="Quiz1" component={Quiz1} />
               <Stack.Screen name="Quiz2" component={Quiz2} />
