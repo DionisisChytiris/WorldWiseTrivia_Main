@@ -11,6 +11,7 @@ const Quiz1 = () => {
       dataQuiz={quiz1ItemsCapitals}
       quizName="1"
       results="ResultsCpt1"
+      loseScreen='LoseScreen1'
       status={initStatus}
     />
   );

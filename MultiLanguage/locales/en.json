@@ -59,5 +59,15 @@
   "ltr11": "R",
   "ltr12": "S",
   "ltr13": "T",
-  "ltr14": "U-Z"
+  "ltr14": "U-Z",
+  "ResultsScreen":"------------------------------",
+  "correctAnswers":"Correct Answers",
+  "wrongAnswers":"Wrong Answers",
+  "unansweredAnswers": "Unanswered Answers",
+  "percentage":"Percentage",
+  "totalQuestions":"Total Questions",
+  "results": "Results", 
+  "correct": "Correct", 
+  "wrong": "Wrong", 
+  "unanswered": "Unanswered"
 }

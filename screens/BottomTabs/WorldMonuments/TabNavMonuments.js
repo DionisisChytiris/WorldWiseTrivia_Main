@@ -8,7 +8,7 @@ import WorldMonumentsHome from "./WorldMonumentsHome";
 import { useNavigation } from "@react-navigation/native";
 import Map from "./Map";
 import Settings from '../Settings'
-import { Quiz1, Quiz10, Quiz2, Quiz3, Quiz4, Quiz5, Quiz6, Quiz7, Quiz8, Quiz9, ResultsMnt1, ResultsMnt2, ResultsMnt3, ResultsMnt4, ResultsMnt5, ResultsMnt6, ResultsMnt7, ResultsMnt8, ResultsMnt9, ResultsMnt10 } from "./Quizzes";
+import { Quiz1, Quiz10, Quiz2, Quiz3, Quiz4, Quiz5, Quiz6, Quiz7, Quiz8, Quiz9, ResultsMnt1, ResultsMnt2, ResultsMnt3, ResultsMnt4, ResultsMnt5, ResultsMnt6, ResultsMnt7, ResultsMnt8, ResultsMnt9, ResultsMnt10, LoseScreen1, LoseScreen3, LoseScreen2, LoseScreen4, LoseScreen5, LoseScreen6, LoseScreen7, LoseScreen8, LoseScreen9, LoseScreen10 } from "./Quizzes";
 import TopTabMonuments from "./TopTabMonuments/topTabMonuments";
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import ChooseQuizType from "./ChooseQuizType";
@@ -82,6 +82,16 @@ const TabNavMonuments = () => {
               <Stack.Screen name='ResultsMnt8' component={ResultsMnt8}/>
               <Stack.Screen name='ResultsMnt9' component={ResultsMnt9}/>
               <Stack.Screen name='ResultsMnt10' component={ResultsMnt10}/>
+              <Stack.Screen name='LoseScreen1' component={LoseScreen1}/>
+              <Stack.Screen name='LoseScreen2' component={LoseScreen2}/>
+              <Stack.Screen name='LoseScreen3' component={LoseScreen3}/>
+              <Stack.Screen name='LoseScreen4' component={LoseScreen4}/>
+              <Stack.Screen name='LoseScreen5' component={LoseScreen5}/>
+              <Stack.Screen name='LoseScreen6' component={LoseScreen6}/>
+              <Stack.Screen name='LoseScreen7' component={LoseScreen7}/>
+              <Stack.Screen name='LoseScreen8' component={LoseScreen8}/>
+              <Stack.Screen name='LoseScreen9' component={LoseScreen9}/>
+              <Stack.Screen name='LoseScreen10' component={LoseScreen10}/>
             </Stack.Group>
           </Stack.Navigator>
         )}

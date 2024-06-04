@@ -1,13 +1,20 @@
 import React from "react";
-import QuizMainTemplate from '../../../Templates/MainQuizTemplate'
+import QuizMainTemplate from "../../../Templates/MainQuizTemplate";
 import { useAppSelector } from "../../../../../ReduxSetUp/store";
 
 const Quiz5 = () => {
-  const {initStatus} = useAppSelector((state)=>state.quizStatus)
-  const {quiz5ItemsCapitals} = useAppSelector((state)=>state.quiz5Capitals)
+  const { initStatus } = useAppSelector((state) => state.quizStatus);
+  const { quiz5ItemsCapitals } = useAppSelector((state) => state.quiz5Capitals);
 
-  return <QuizMainTemplate dataQuiz={quiz5ItemsCapitals} quizName='5' results='ResultsCpt5' status={initStatus}/>;
+  return (
+    <QuizMainTemplate
+      dataQuiz={quiz5ItemsCapitals}
+      quizName="5"
+      results="ResultsCpt5"
+      loseScreen='LoseScreen5'
+      status={initStatus}
+    />
+  );
 };
 
 export default Quiz5;
- 

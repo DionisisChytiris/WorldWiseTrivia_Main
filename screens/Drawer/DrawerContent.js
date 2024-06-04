@@ -101,9 +101,7 @@ const DrawerContent = (props) => {
   const { t } = useTranslation();
   const dispatch = useDispatch();
   const [name, setName] = useState("");
-  // const [color1, setColor1] = useState("#003a6e");
-  // const [color2, setColor2] = useState("");
-  // const [color3, setColor3] = useState("");
+  const [option, setOption] = useState("");
   const lightMode = require("../../assets/settings/day-mode.png");
   const darkMode = require("../../assets/settings/moon.png");
 
@@ -179,9 +177,6 @@ const DrawerContent = (props) => {
     dispatch(quizMnt8En())
     dispatch(quizMnt9En())
     dispatch(quizMnt10En())
-    // setColor1(colors.buttonDrawerBackground);
-    // setColor2("");
-    // setColor3("");
   };
   const Spanish = () => {
     dispatch(flagsEs());
@@ -226,9 +221,6 @@ const DrawerContent = (props) => {
     dispatch(quizMnt8Es())
     dispatch(quizMnt9Es())
     dispatch(quizMnt10Es())
-    // setColor2(colors.buttonDrawerBackground);
-    // setColor1("");
-    // setColor3("");
   };
   const Greek = () => {
     dispatch(flagsEl());
@@ -274,9 +266,6 @@ const DrawerContent = (props) => {
     dispatch(quizMnt8El())
     dispatch(quizMnt9El())
     dispatch(quizMnt10El())
-    // setColor3(colors.buttonDrawerBackground);
-    // setColor1("");
-    // setColor2("");
   };
 
   return (
@@ -369,11 +358,12 @@ const DrawerContent = (props) => {
             <View>
               {/* English */}
               <Pressable
-                style={[styles.lngBtn, { backgroundColor: colors.bgLngBtn }]}
                 onPress={() => {
                   i18next.changeLanguage(Object.keys(languageResources)[0]);
                   English();
+                  setOption('En')
                 }}
+                style={[styles.lngBtn, { backgroundColor: option=='En'? colors.bgLngBtn1: colors.bgLngBtn }]}
               >
                 <Image
                   source={require("../../assets/Flags/uk.png")}
@@ -384,11 +374,12 @@ const DrawerContent = (props) => {
 
               {/* Spanish */}
               <Pressable
-                style={[styles.lngBtn, { backgroundColor: colors.bgLngBtn }]}
                 onPress={() => {
                   i18next.changeLanguage(Object.keys(languageResources)[1]);
                   Spanish();
+                  setOption('Es')
                 }}
+                style={[styles.lngBtn, { backgroundColor: option=='Es'? colors.bgLngBtn1: colors.bgLngBtn }]}
               >
                 <Image
                   source={require("../../assets/Flags/spain.png")}
@@ -399,11 +390,12 @@ const DrawerContent = (props) => {
 
               {/* Greek */}
               <Pressable
-                style={[styles.lngBtn, { backgroundColor: colors.bgLngBtn }]}
                 onPress={() => {
                   i18next.changeLanguage(Object.keys(languageResources)[2]);
                   Greek();
+                  setOption('El')
                 }}
+                style={[styles.lngBtn, { backgroundColor: option=='El'? colors.bgLngBtn1: colors.bgLngBtn }]}
               >
                 <Image
                   source={require("../../assets/Flags/greece.png")}

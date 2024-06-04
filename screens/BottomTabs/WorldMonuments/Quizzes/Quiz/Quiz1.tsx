@@ -12,6 +12,7 @@ const Quiz1 = () => {
       dataQuiz={quiz1ItemsMonuments}
       quizName="1"
       results="ResultsMnt1"
+      loseScreen='LoseScreen1'
       status={initStatus}
     />
   );

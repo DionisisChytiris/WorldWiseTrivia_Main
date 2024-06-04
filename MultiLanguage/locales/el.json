@@ -59,5 +59,15 @@
   "ltr11": "Σ",
   "ltr12": "Τ",
   "ltr13": "Φ-Χ",
-  "ltr14": ""
+  "ltr14": "",
+  "ResultsScreen":"------------------------------",
+  "correctAnswers":"Σωστές Απαντήσεις",
+  "wrongAnswers":"Λάθος Απαντήσεις",
+  "unansweredAnswers": "Αναπάντητες Ερωτήσεις",
+  "percentage":"Ποσοστό",
+  "totalQuestions":"Σύνολο Ερωτήσεων",
+  "results": "Αποτελέσματα", 
+  "correct": "Σωστό", 
+  "wrong": "Λάθος", 
+  "unanswered": "Αναπάντητη" 
 }

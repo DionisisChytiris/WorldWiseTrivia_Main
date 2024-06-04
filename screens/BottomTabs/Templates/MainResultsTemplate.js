@@ -3,14 +3,31 @@ import React from "react";
 import { PieChart } from "react-native-gifted-charts";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
+import { useTranslation } from "react-i18next";
 
 const MainResultsTemplate = (props) => {
   const navigation = useNavigation();
   const { colors } = useTheme();
+  const { t } = useTranslation();
+
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
-      <Text style={{ color: colors.text }}>{props.title}</Text>
-      <View style={{ marginTop: 50 }} />
+      <View style={{flexDirection: 'row', gap: 10, marginBottom:20}}>
+        <Text style={{ color: colors.text, fontWeight: 'bold' }}>{t("quiz")}</Text>
+        <Text style={{ color: colors.text, fontWeight: 'bold' }}>{props.number}</Text>
+        <Text style={{ color: colors.text, marginLeft: 20, fontWeight: 'bold' }}>{t("results")}</Text>
+      </View>
+      <View style={{marginVertical: 20, flexDirection: 'row', gap: 50}}>
+        <View style={{alignItems: 'center', gap: 5}}>
+            <View style={{width: 30, height: 6, backgroundColor: 'lightgreen'}}/>
+            <Text style={{color: colors.text,fontSize: 10}}>{t("correct")}</Text>
+        </View>
+        <View style={{alignItems: 'center', gap: 5}}>
+            <View style={{width: 30, height: 6, backgroundColor: 'magenta'}}/>
+            <Text style={{color: colors.text,fontSize: 10}}>{t("wrong")}</Text>
+        </View>
+       
+      </View>
       <PieChart
         data={props.data}
         donut
@@ -31,34 +48,21 @@ const MainResultsTemplate = (props) => {
           );
         }}
       />
-      {/* <View style={{ marginTop: 50, flexDirection: "row", gap: 20 }}>
-        <Text style={{ color: colors.text }}>{props.correctAnswers}:</Text>
-        <Text style={{ color: "lightgreen" }}>3/10</Text>
-      </View>
-      <View style={{ marginTop: 10, flexDirection: "row", gap: 20 }}>
-        <Text style={{ color: colors.text }}>{props.textPercentage}:</Text>
-        <Text style={{ color: "lightgreen" }}>{props.percentage}%</Text>
-      </View>
-      <View style={{ marginTop: 40, flexDirection: "row", gap: 20 }}>
-        <Text style={{ color: colors.text }}>{props.wrongAnswers}:</Text>
-        <Text style={{ color: "lightgreen" }}>{props.percentage}%</Text>
-      </View>
-      <View style={{ marginTop: 10, flexDirection: "row", gap: 20 }}>
-        <Text style={{ color: colors.text }}>{props.textPercentage}:</Text>
-        <Text style={{ color: "lightgreen" }}>{props.percentage}%</Text>
-      </View> */}
+    
       <View style={{ flexDirection: "row", gap: 15 }}>
         <View style={{ width: "50%", alignItems: "flex-end" }}>
-            <Text style={{ color: colors.text, marginTop: 50 }}>{props.correctAnswers}:</Text>
-            <Text style={{ color: colors.text, marginTop: 10 }}>{props.textPercentage}:</Text>
-            <Text style={{ color: colors.text, marginTop: 30 }}>{props.wrongAnswers}:</Text>
-            <Text style={{ color: colors.text, marginTop: 10 }}>{props.textPercentage}:</Text>
+            <Text style={{ color: colors.text, marginTop: 50 }}>{t("correctAnswers")}:</Text>
+            <Text style={{ color: colors.text, marginTop: 10 }}>{t("percentage")}:</Text>
+            <Text style={{ color: colors.text, marginTop: 30 }}>{t("wrongAnswers")}:</Text>
+            <Text style={{ color: colors.text, marginTop: 10 }}>{t("percentage")}:</Text>
+            <Text style={{ color: colors.text, marginTop: 30 }}>{t("totalQuestions")}:</Text>
         </View>
         <View style={{ width: "40%"}}>
-          <Text style={{ color: "lightgreen", marginTop: 50  }}>3/10</Text>
-          <Text style={{ color: "lightgreen", marginTop: 10  }}>{props.percentage}%</Text>
-          <Text style={{ color: "magenta", marginTop: 30  }}>7/10</Text>
+          <Text style={{ color: colors.greenText, marginTop: 50  }}>{props.numCorAns}</Text>
+          <Text style={{ color: colors.greenText, marginTop: 10  }}>{props.percentage}%</Text>
+          <Text style={{ color: "magenta", marginTop: 30  }}>{props.numWrnAns}</Text>
           <Text style={{ color: "magenta", marginTop: 10  }}>{100 - props.percentage}%</Text>
+          <Text style={{ color: colors.text, marginTop: 30  }}>10</Text>
         </View>
       </View>
       
@@ -81,6 +85,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    paddingTop: 50,
+    paddingTop: 40,
   },
 });

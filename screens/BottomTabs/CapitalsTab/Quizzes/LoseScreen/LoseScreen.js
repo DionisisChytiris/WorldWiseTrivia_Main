@@ -1,21 +1,29 @@
-import { View, Text, Pressable } from 'react-native'
-import { useNavigation } from "@react-navigation/native";
-import React from 'react'
+import { useRoute } from "@react-navigation/native";
+import React from "react";
+import MainLoseScreenTemplate from "../../../Templates/MainLoseScreenTemplate";
 
 const LoseScreen = () => {
-  const navigation = useNavigation();
-  return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Text>LoseScreen</Text>
-      <Text>----</Text>
-      <Pressable
-        onPress={()=>navigation.navigate('FlagsHome')}
-      >
-        <Text>Home</Text>
-        <Text>Hello World</Text>
-      </Pressable>
-    </View>
-  )
-}
+  const route = useRoute();
+  const correct = route.params.score
+  const wrong = 30
+  const unanswered = 70 - correct
+  const crAns = correct *0.1 + '/10'
+  const wrnAns = unanswered *0.1 + '/10'
+  const data = [
+    { value: correct, color: "lightgreen" },
+    { value: wrong, color: "magenta" },
+    { value: unanswered, color: "gray" },
+  ];
 
-export default LoseScreen
+  return (
+    <MainLoseScreenTemplate
+      number="1"
+      data={data}
+      percentage={correct}
+      numCorAns={crAns}
+      unanswered={wrnAns}
+    />
+  );
+};
+
+export default LoseScreen;

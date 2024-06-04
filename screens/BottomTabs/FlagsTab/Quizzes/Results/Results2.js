@@ -1,36 +1,28 @@
-import { View, Text, Pressable } from 'react-native'
-import { useNavigation, useRoute } from "@react-navigation/native";
-import React from 'react'
-import AsyncStorage from "@react-native-async-storage/async-storage";
+import { useRoute } from "@react-navigation/native";
+import React from "react";
+import MainResultsTemplate from "../../../Templates/MainResultsTemplate";
+// import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const Results2 = () => {
   const route = useRoute();
-  const navigation = useNavigation();
-  const score2 = route.params.score
-
-  const setItem = async()=>{
-    try{
-      await AsyncStorage.setItem('score2', JSON.stringify(score2))
-      navigation.navigate('FlagsHome', {score2: score2})
-      console.log(score2)
-    }catch(e){
-      console.log(e)
-    }
-  }
+  const correct = route.params.score
+  const wrong = 100 - correct
+  const crAns = correct *0.1 + '/10'
+  const wrnAns = wrong *0.1 + '/10'
+  const data = [
+    { value: wrong, color: "magenta" },
+    { value: correct, color: "lightgreen" },
+  ];
 
   return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Text>Results2</Text>
-      <Text>----</Text>
-      <Text>{score2}</Text>
-      <Pressable
-        // onPress={()=>navigation.navigate('FlagsHome', {score2: route.params.score})}
-        onPress={setItem}
-      >
-        <Text>Home</Text>
-      </Pressable>
-    </View>
-  )
-}
+    <MainResultsTemplate
+      number='2'
+      data={data}
+      percentage={correct}
+      numCorAns={crAns}
+      numWrnAns={wrnAns}
+    />
+  );
+};
 
-export default Results2
+export default Results2;

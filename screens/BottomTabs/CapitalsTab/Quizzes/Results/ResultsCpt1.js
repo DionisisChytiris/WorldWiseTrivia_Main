@@ -1,14 +1,14 @@
-import { View, Text, Pressable } from "react-native";
-import { useNavigation, useRoute } from "@react-navigation/native";
+import { useRoute } from "@react-navigation/native";
 import React from "react";
 import MainResultsTemplate from "../../../Templates/MainResultsTemplate";
 // import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const ResultsCpt1 = () => {
   const route = useRoute();
-  // const correct = route.params.score
-  const correct = 40
+  const correct = route.params.score
   const wrong = 100 - correct
+  const crAns = correct *0.1 + '/10'
+  const wrnAns = wrong *0.1 + '/10'
   const data = [
     { value: wrong, color: "magenta" },
     { value: correct, color: "lightgreen" },
@@ -16,14 +16,11 @@ const ResultsCpt1 = () => {
 
   return (
     <MainResultsTemplate
-      title="Quiz 1 Results"
+      number='1'
       data={data}
       percentage={correct}
-      correctAnswers='Correct Answers'
-      textPercentage='Percentage'
-      wrongAnswers='Wrong Answers'
-      // text4={wrong}
-      // scrn="CapitalsHome"
+      numCorAns={crAns}
+      numWrnAns={wrnAns}
     />
   );
 };

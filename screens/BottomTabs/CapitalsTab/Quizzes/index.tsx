@@ -18,6 +18,16 @@ import ResultsCpt7 from "./Results/ResultsCpt7";
 import ResultsCpt8 from "./Results/ResultsCpt8";
 import ResultsCpt9 from "./Results/ResultsCpt9";
 import ResultsCpt10 from "./Results/ResultsCpt10";
+import LoseScreen1 from "./LoseScreen/LoseScr1";
+import LoseScreen2 from "./LoseScreen/LoseScr2";
+import LoseScreen3 from "./LoseScreen/LoseScr3";
+import LoseScreen4 from "./LoseScreen/LoseScr4";
+import LoseScreen5 from "./LoseScreen/LoseScr5";
+import LoseScreen6 from "./LoseScreen/LoseScr6";
+import LoseScreen7 from "./LoseScreen/LoseScr7";
+import LoseScreen8 from "./LoseScreen/LoseScr8";
+import LoseScreen9 from "./LoseScreen/LoseScr9";
+import LoseScreen10 from "./LoseScreen/LoseScr10";
 
 export {
   Quiz1,
@@ -40,4 +50,14 @@ export {
   ResultsCpt8,
   ResultsCpt9,
   ResultsCpt10,
+  LoseScreen1,
+  LoseScreen10,
+  LoseScreen2,
+  LoseScreen3,
+  LoseScreen4,
+  LoseScreen5,
+  LoseScreen6,
+  LoseScreen7,
+  LoseScreen8,
+  LoseScreen9
 };

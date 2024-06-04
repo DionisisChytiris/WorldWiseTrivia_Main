@@ -27,8 +27,17 @@ import {
   Results8,
   Results9,
   Results10,
+  LoseScreen1,
+  LoseScreen10,
+  LoseScreen2,
+  LoseScreen3, 
+  LoseScreen4, 
+  LoseScreen5, 
+  LoseScreen6, 
+  LoseScreen7, 
+  LoseScreen8, 
+  LoseScreen9
 } from "./Quizzes";
-import LoseScreen from "./Quizzes/LoseScreen/LoseScreen";
 import Return from "./WTEST/Return";
 import ChooseQuizType from "./ChooseQuizType";
 
@@ -95,7 +104,16 @@ const TabNavFlags = ({ navigation }) => {
               <Stack.Screen name="Results8" component={Results8} />
               <Stack.Screen name="Results9" component={Results9} />
               <Stack.Screen name="Results10" component={Results10} />
-              <Stack.Screen name="LoseScreen" component={LoseScreen} />
+              <Stack.Screen name="LoseScreen1" component={LoseScreen1} />
+              <Stack.Screen name="LoseScreen2" component={LoseScreen2} />
+              <Stack.Screen name="LoseScreen3" component={LoseScreen3} />
+              <Stack.Screen name="LoseScreen4" component={LoseScreen4} />
+              <Stack.Screen name="LoseScreen5" component={LoseScreen5} />
+              <Stack.Screen name="LoseScreen6" component={LoseScreen6} />
+              <Stack.Screen name="LoseScreen7" component={LoseScreen7} />
+              <Stack.Screen name="LoseScreen8" component={LoseScreen8} />
+              <Stack.Screen name="LoseScreen9" component={LoseScreen9} />
+              <Stack.Screen name="LoseScreen10" component={LoseScreen10} />
             </Stack.Group>
           </Stack.Navigator>
         )}

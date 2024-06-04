@@ -18,5 +18,15 @@ import Results7 from './Results/Results7'
 import Results8 from './Results/Results8'
 import Results9 from './Results/Results9'
 import Results10 from './Results/Results10'
+import LoseScreen1 from "./LoseScreen/LoseScreen1";
+import LoseScreen2 from "./LoseScreen/LoseScreen2";
+import LoseScreen3 from "./LoseScreen/LoseScreen3";
+import LoseScreen4 from "./LoseScreen/LoseScreen4";
+import LoseScreen5 from "./LoseScreen/LoseScreen5";
+import LoseScreen6 from "./LoseScreen/LoseScreen6";
+import LoseScreen7 from "./LoseScreen/LoseScreen7";
+import LoseScreen8 from "./LoseScreen/LoseScreen8";
+import LoseScreen9 from "./LoseScreen/LoseScreen9";
+import LoseScreen10 from "./LoseScreen/LoseScreen10";
 
-export {Quiz1, Quiz2, Quiz3, Quiz4, Quiz5, Quiz6, Quiz7, Quiz8, Quiz9, Quiz10,Results1, Results2, Results3, Results4, Results5, Results6, Results7, Results8, Results9, Results10}
+export {Quiz1, Quiz2, Quiz3, Quiz4, Quiz5, Quiz6, Quiz7, Quiz8, Quiz9, Quiz10,Results1, Results2, Results3, Results4, Results5, Results6, Results7, Results8, Results9, Results10, LoseScreen1, LoseScreen10,LoseScreen2, LoseScreen3, LoseScreen4, LoseScreen5, LoseScreen6, LoseScreen7, LoseScreen8, LoseScreen9}
