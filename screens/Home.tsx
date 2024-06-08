@@ -35,7 +35,7 @@ const Home = () => {
   };
 
   //test sound
-  const [sound, setSound] = useState();
+  const [sound, setSound] = useState<Audio.Sound| null>(null);
 
   async function playSound() {
     // console.log("Loading Sound");
@@ -44,7 +44,7 @@ const Home = () => {
     );
     setSound(sound);
 
-    console.log("Playing Sound");
+    // console.log("Playing Sound");
     await sound.playAsync();
   }
 
@@ -89,12 +89,12 @@ const Home = () => {
           </View>
         )}
       </Pressable>
-      <View style={{position: 'absolute', bottom: 80}}>
+      <View style={{ position: "absolute", bottom: 80 }}>
         <Pressable onPress={playSound}>
           <Text style={{ color: "white", marginTop: 50 }}>Sound On</Text>
         </Pressable>
         <Pressable onPress={() => setSound(null)}>
-          <Text style={{ color: "white", marginTop: 50 }}>Sound Off</Text>
+          <Text style={{ color: "white", marginTop: 50 ,backgroundColor: 'magenta', padding: 30}}>Sound Off</Text>
         </Pressable>
       </View>
     </View>

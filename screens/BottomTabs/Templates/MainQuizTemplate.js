@@ -1,4 +1,4 @@
-import { View, Text, Pressable, Image, StyleSheet } from "react-native";
+import { View, Text, Pressable, Image, StyleSheet, Vibration } from "react-native";
 import React, { useState, useEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
 import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
@@ -37,12 +37,14 @@ const QuizMainTemplate = (props) => {
         setScore((score) => score + 10);
         setAnswerStatus(true);
         setDisabled(true);
+        Vibration.vibrate([100, 50, 200, 100, 200, 100, 300])
       } else {
         setDisabled(true);
         setAnswerStatus(true);
         setShow(true);
         setImg(styles.img1);
         removeHeart();
+        Vibration.vibrate()
       }
     } else {
       setDisabled(false);

@@ -94,6 +94,7 @@ import {
 } from "../../ReduxSetUp/CapitalsQuizSlices";
 import { quizMnt1El, quizMnt1En, quizMnt1Es, quizMnt2El,quizMnt2En, quizMnt2Es, quizMnt3El, quizMnt3En, quizMnt3Es, quizMnt4El, quizMnt4En, quizMnt4Es, quizMnt5El, quizMnt5En, quizMnt5Es, quizMnt6El, quizMnt6En, quizMnt6Es, quizMnt7El, quizMnt7En, quizMnt7Es, quizMnt8El, quizMnt8En, quizMnt8Es, quizMnt9El, quizMnt9En, quizMnt9Es,quizMnt10El, quizMnt10En, quizMnt10Es, MonumentsMapSlice, MnmEl, MnmEn,MnmEs } from "../../ReduxSetUp/MonumentsQuizSlices";
 import { MonEuEl, MonEuEs, MonEuEn, MonOcnEl, MonOcnEn, MonOcnEs,  MonAfEl,MonAfEn, MonAfEs, MonAmEl, MonAmEn, MonAmEs, MonAsEl, MonAsEn, MonAsEs } from "../../ReduxSetUp/MonumentsLearnSlices";
+import { Feather } from '@expo/vector-icons';
 
 const DrawerContent = (props) => {
   const navigation = useNavigation();
@@ -403,6 +404,10 @@ const DrawerContent = (props) => {
                 />
                 <Text style={{ color: colors.text }}>Greek</Text>
               </Pressable>
+              <View style={{marginTop: 50}}>
+              <Feather name="volume-2" size={24} color="white" />
+                {/* <Text style={{color: 'white'}}>Sound</Text> */}
+              </View>
             </View>
           </TouchableRipple>
         </Drawer.Section>
