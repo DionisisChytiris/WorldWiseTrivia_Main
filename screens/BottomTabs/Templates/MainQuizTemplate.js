@@ -5,8 +5,10 @@ import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
 import { MaterialIcons } from "@expo/vector-icons";
 import { styles } from "../styles";
+// import { useAppSelector } from "../../../ReduxSetUp/store";
 
 const QuizMainTemplate = (props) => {
+  // const value = useAppSelector((state) => state.vibrationActive);
   const navigation = useNavigation();
   const [score, setScore] = React.useState(0);
   const { colors } = useTheme();
@@ -30,21 +32,23 @@ const QuizMainTemplate = (props) => {
   const [apple, setApple] = useState(["🍎", "🍎", "🍎"]);
   const [hint, setHint] = useState(3);
   const status = props.status;
-
+  const [isVib, setIsVib] = useState(true)
+ 
   useEffect(() => {
     if (selectedAnswer !== null) {
       if (selectedAnswer === currentQuestion?.correctAnswerIndex) {
         setScore((score) => score + 10);
         setAnswerStatus(true);
         setDisabled(true);
-        Vibration.vibrate([100, 50, 200, 100, 200, 100, 300])
+        // Vibration.vibrate([100, 50, 200, 100, 200, 100, 300])
+        {isVib?Vibration.vibrate([100, 50, 200, 100, 200, 100, 300]) : null}
       } else {
         setDisabled(true);
         setAnswerStatus(true);
         setShow(true);
         setImg(styles.img1);
         removeHeart();
-        Vibration.vibrate()
+        {isVib? Vibration.vibrate() : null}
       }
     } else {
       setDisabled(false);

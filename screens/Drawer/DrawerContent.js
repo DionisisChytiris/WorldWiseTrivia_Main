@@ -92,17 +92,75 @@ import {
   CptNameEs,
   CptNameEl,
 } from "../../ReduxSetUp/CapitalsQuizSlices";
-import { quizMnt1El, quizMnt1En, quizMnt1Es, quizMnt2El,quizMnt2En, quizMnt2Es, quizMnt3El, quizMnt3En, quizMnt3Es, quizMnt4El, quizMnt4En, quizMnt4Es, quizMnt5El, quizMnt5En, quizMnt5Es, quizMnt6El, quizMnt6En, quizMnt6Es, quizMnt7El, quizMnt7En, quizMnt7Es, quizMnt8El, quizMnt8En, quizMnt8Es, quizMnt9El, quizMnt9En, quizMnt9Es,quizMnt10El, quizMnt10En, quizMnt10Es, MonumentsMapSlice, MnmEl, MnmEn,MnmEs } from "../../ReduxSetUp/MonumentsQuizSlices";
-import { MonEuEl, MonEuEs, MonEuEn, MonOcnEl, MonOcnEn, MonOcnEs,  MonAfEl,MonAfEn, MonAfEs, MonAmEl, MonAmEn, MonAmEs, MonAsEl, MonAsEn, MonAsEs } from "../../ReduxSetUp/MonumentsLearnSlices";
-import { Feather } from '@expo/vector-icons';
+import {
+  quizMnt1El,
+  quizMnt1En,
+  quizMnt1Es,
+  quizMnt2El,
+  quizMnt2En,
+  quizMnt2Es,
+  quizMnt3El,
+  quizMnt3En,
+  quizMnt3Es,
+  quizMnt4El,
+  quizMnt4En,
+  quizMnt4Es,
+  quizMnt5El,
+  quizMnt5En,
+  quizMnt5Es,
+  quizMnt6El,
+  quizMnt6En,
+  quizMnt6Es,
+  quizMnt7El,
+  quizMnt7En,
+  quizMnt7Es,
+  quizMnt8El,
+  quizMnt8En,
+  quizMnt8Es,
+  quizMnt9El,
+  quizMnt9En,
+  quizMnt9Es,
+  quizMnt10El,
+  quizMnt10En,
+  quizMnt10Es,
+  MonumentsMapSlice,
+  MnmEl,
+  MnmEn,
+  MnmEs,
+} from "../../ReduxSetUp/MonumentsQuizSlices";
+import {
+  MonEuEl,
+  MonEuEs,
+  MonEuEn,
+  MonOcnEl,
+  MonOcnEn,
+  MonOcnEs,
+  MonAfEl,
+  MonAfEn,
+  MonAfEs,
+  MonAmEl,
+  MonAmEn,
+  MonAmEs,
+  MonAsEl,
+  MonAsEn,
+  MonAsEs,
+} from "../../ReduxSetUp/MonumentsLearnSlices";
+import { Feather } from "@expo/vector-icons";
+// import { useAppSelector } from "../../ReduxSetUp/store";
+// import { statusActive, statusCancel, toggleValue } from "../../ReduxSetUp/SoundVibration/VibrationSlice.tsx";
 
 const DrawerContent = (props) => {
+  // const { initStatus } = useAppSelector((state) => state.vibrationActive);
+  const dispatch = useDispatch();
   const navigation = useNavigation();
   const { dark, colors, setScheme } = useTheme();
   const { t } = useTranslation();
-  const dispatch = useDispatch();
   const [name, setName] = useState("");
   const [option, setOption] = useState("En");
+  const [isVibrating, setIsVibrating] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(true);
+  const [isbg1, setIsbg1] = useState('transparent');
+  const [isbg2, setIsbg2] = useState('transparent');
   const lightMode = require("../../assets/settings/day-mode.png");
   const darkMode = require("../../assets/settings/moon.png");
 
@@ -166,18 +224,18 @@ const DrawerContent = (props) => {
     dispatch(MonAfEn());
     dispatch(MonAmEn());
     dispatch(MonAsEn());
-    dispatch(CptNameEn())
-    dispatch(MnmEn())
-    dispatch(quizMnt1En())
-    dispatch(quizMnt2En())
-    dispatch(quizMnt3En())
-    dispatch(quizMnt4En())
-    dispatch(quizMnt5En())
-    dispatch(quizMnt6En())
-    dispatch(quizMnt7En())
-    dispatch(quizMnt8En())
-    dispatch(quizMnt9En())
-    dispatch(quizMnt10En())
+    dispatch(CptNameEn());
+    dispatch(MnmEn());
+    dispatch(quizMnt1En());
+    dispatch(quizMnt2En());
+    dispatch(quizMnt3En());
+    dispatch(quizMnt4En());
+    dispatch(quizMnt5En());
+    dispatch(quizMnt6En());
+    dispatch(quizMnt7En());
+    dispatch(quizMnt8En());
+    dispatch(quizMnt9En());
+    dispatch(quizMnt10En());
   };
   const Spanish = () => {
     dispatch(flagsEs());
@@ -210,18 +268,18 @@ const DrawerContent = (props) => {
     dispatch(MonOcnEs());
     dispatch(MonAfEs());
     dispatch(MonAsEs());
-    dispatch(CptNameEs())
-    dispatch(MnmEs())
-    dispatch(quizMnt1Es())
-    dispatch(quizMnt2Es())
-    dispatch(quizMnt3Es())
-    dispatch(quizMnt4Es())
-    dispatch(quizMnt5Es())
-    dispatch(quizMnt6Es())
-    dispatch(quizMnt7Es())
-    dispatch(quizMnt8Es())
-    dispatch(quizMnt9Es())
-    dispatch(quizMnt10Es())
+    dispatch(CptNameEs());
+    dispatch(MnmEs());
+    dispatch(quizMnt1Es());
+    dispatch(quizMnt2Es());
+    dispatch(quizMnt3Es());
+    dispatch(quizMnt4Es());
+    dispatch(quizMnt5Es());
+    dispatch(quizMnt6Es());
+    dispatch(quizMnt7Es());
+    dispatch(quizMnt8Es());
+    dispatch(quizMnt9Es());
+    dispatch(quizMnt10Es());
   };
   const Greek = () => {
     dispatch(flagsEl());
@@ -255,18 +313,18 @@ const DrawerContent = (props) => {
     dispatch(MonAfEl());
     dispatch(MonAmEl());
     dispatch(MonAsEl());
-    dispatch(CptNameEl())
-    dispatch(MnmEl())
-    dispatch(quizMnt1El())
-    dispatch(quizMnt2El())
-    dispatch(quizMnt3El())
-    dispatch(quizMnt4El())
-    dispatch(quizMnt5El())
-    dispatch(quizMnt6El())
-    dispatch(quizMnt7El())
-    dispatch(quizMnt8El())
-    dispatch(quizMnt9El())
-    dispatch(quizMnt10El())
+    dispatch(CptNameEl());
+    dispatch(MnmEl());
+    dispatch(quizMnt1El());
+    dispatch(quizMnt2El());
+    dispatch(quizMnt3El());
+    dispatch(quizMnt4El());
+    dispatch(quizMnt5El());
+    dispatch(quizMnt6El());
+    dispatch(quizMnt7El());
+    dispatch(quizMnt8El());
+    dispatch(quizMnt9El());
+    dispatch(quizMnt10El());
   };
 
   return (
@@ -362,9 +420,15 @@ const DrawerContent = (props) => {
                 onPress={() => {
                   i18next.changeLanguage(Object.keys(languageResources)[0]);
                   English();
-                  setOption('En')
+                  setOption("En");
                 }}
-                style={[styles.lngBtn, { backgroundColor: option=='En'? colors.bgLngBtn1: colors.bgLngBtn }]}
+                style={[
+                  styles.lngBtn,
+                  {
+                    backgroundColor:
+                      option == "En" ? colors.bgLngBtn1 : colors.bgLngBtn,
+                  },
+                ]}
               >
                 <Image
                   source={require("../../assets/Flags/uk.png")}
@@ -378,9 +442,15 @@ const DrawerContent = (props) => {
                 onPress={() => {
                   i18next.changeLanguage(Object.keys(languageResources)[1]);
                   Spanish();
-                  setOption('Es')
+                  setOption("Es");
                 }}
-                style={[styles.lngBtn, { backgroundColor: option=='Es'? colors.bgLngBtn1: colors.bgLngBtn }]}
+                style={[
+                  styles.lngBtn,
+                  {
+                    backgroundColor:
+                      option == "Es" ? colors.bgLngBtn1 : colors.bgLngBtn,
+                  },
+                ]}
               >
                 <Image
                   source={require("../../assets/Flags/spain.png")}
@@ -394,9 +464,15 @@ const DrawerContent = (props) => {
                 onPress={() => {
                   i18next.changeLanguage(Object.keys(languageResources)[2]);
                   Greek();
-                  setOption('El')
+                  setOption("El");
                 }}
-                style={[styles.lngBtn, { backgroundColor: option=='El'? colors.bgLngBtn1: colors.bgLngBtn }]}
+                style={[
+                  styles.lngBtn,
+                  {
+                    backgroundColor:
+                      option == "El" ? colors.bgLngBtn1 : colors.bgLngBtn,
+                  },
+                ]}
               >
                 <Image
                   source={require("../../assets/Flags/greece.png")}
@@ -404,9 +480,71 @@ const DrawerContent = (props) => {
                 />
                 <Text style={{ color: colors.text }}>Greek</Text>
               </Pressable>
-              <View style={{marginTop: 50}}>
-              <Feather name="volume-2" size={24} color="white" />
-                {/* <Text style={{color: 'white'}}>Sound</Text> */}
+
+              <View style={styles.soundVibration}>
+                <Pressable
+                  onPressIn={() => setIsbg1('lightgray')}
+                  onPressOut={() => {
+                    setIsPlaying(!isPlaying), setIsbg1('transparent');
+                  }}
+                  style={{
+                    backgroundColor: isbg1,
+                    width: "50%",
+                    paddingVertical: 20,
+                    paddingLeft: 10,
+                    borderRadius: 20,
+                  }}
+                >
+                  {isPlaying ? (
+                    <View>
+                      <Feather name="volume-2" size={24} color={colors.text} />
+                    </View>
+                  ) : (
+                    <View>
+                      <MaterialIcons
+                        name="volume-off"
+                        size={24}
+                        color={colors.text}
+                      />
+                    </View>
+                  )}
+                </Pressable>
+                <Pressable
+                  onPressIn={() =>
+                    setIsbg2(() => setIsbg2("lightgray"))
+                  }
+                  onPressOut={() => {
+                    setIsVibrating(!isVibrating);
+                    console.log(isVibrating)
+                    setIsbg2(() => setIsbg2("transparent"));
+                  }}
+                  style={{
+                    backgroundColor: isbg2,
+                    width: "50%",
+                    paddingVertical: 20,
+                    alignItems: "flex-end",
+                    paddingRight: 20,
+                    borderRadius: 20,
+                  }}
+                >
+                  {isVibrating ? (
+                    <View>
+                      <MaterialCommunityIcons
+                        name="vibrate-off"
+                        size={24}
+                        color={colors.text}
+                      />
+                    </View>
+                  ) : (
+                    <View>
+                      <MaterialCommunityIcons
+                        name="vibrate"
+                        size={24}
+                        color={colors.text}
+                      />
+                    </View>
+                  )}
+                </Pressable>
               </View>
             </View>
           </TouchableRipple>
@@ -471,74 +609,13 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     alignItems: "center",
   },
+  // Change sound-vibrarion Button
+  soundVibration: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    marginTop: 50,
+    marginLeft: 0,
+    marginRight: 20,
+  }
 });
-
-/*<View style={{ marginTop: 10 }}>
-      <Text>DrawerContent</Text>
-    </View> */
-
-/*<Drawer.Section>
-      <DrawerItem
-        label="Categories"
-        onPress={() => props.navigation.navigate("QuizScreen")}
-      />
-      <DrawerItem
-        label="ChangeMode"
-        onPress={() => props.navigation.navigate("ToggleBtn")}
-      />
-    </Drawer.Section> */
-
-/* {Object.keys(languageResources).map((item, index) => (
-              <View key={index}>
-                <Pressable
-                  onPress={() => {
-                    changeLng(item);
-                    setScreenIndex(index);
-                  }}
-                  style={[
-                    styles.lngBtn,
-                    {
-                      backgroundColor:
-                        index === screenIndex
-                          ? colors.buttonDrawerBackground
-                          : "transparent",
-                    },
-                  ]}
-                >
-                  <View style={styles.flowDirectionRow}>
-                    {Flags.map((item, i) => {
-                      return (
-                        <View key={i} style={{ marginLeft: -10 }}>
-                          <Image
-                            style={[
-                              { width: 22, height: 15, borderRadius: 2 },
-                              { marginLeft: index === i ? 0 : -10 },
-                            ]}
-                            source={index === i ? item.img : null}
-                          />
-                        </View>
-                      );
-                    })}
-                    <Text
-                      style={{
-                        color: colors.text,
-                        fontSize: 13,
-                        marginLeft: -5,
-                      }}
-                    >
-                      {languagesList[item].nativeName}
-                    </Text>
-                  </View>
-                </Pressable>
-              </View>
-            ))} */
-
-// const changeLng = (lng) => {
-//   i18next.changeLanguage(lng);
-// };
-
-// const Flags = [
-//   { img: require("../../assets/Flags/uk.png") },
-//   { img: require("../../assets/Flags/spain.png") },
-//   { img: require("../../assets/Flags/greece.png") },
-// ];

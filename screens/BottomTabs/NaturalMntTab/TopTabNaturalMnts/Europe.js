@@ -7,6 +7,7 @@ import { Dimensions } from "react-native";
 import { styles } from "./styles";
 import { useSelector } from "react-redux";
 import LearnNaturalMntsItem from "./LearnNaturalMntsItem";
+import EurMntEn from "../../../../data/naturalMnts/TopTabMnts/EurMntEn";
 
 const width = Dimensions.get("window").width;
 const height = Dimensions.get("window").height;
@@ -37,7 +38,8 @@ const Europe = () => {
         }}
       >
         <FlashList
-          data={MonEuItems}
+          // data={MonEuItems}
+          data={EurMntEn}
           renderItem={renderItem}
           keyExtractor={(item) => item.id}
           showsVerticalScrollIndicator={false}

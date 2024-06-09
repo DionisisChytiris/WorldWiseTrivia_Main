@@ -1,321 +1,115 @@
 const EurMntEs = [
     {
         id: '1',
-        img: require('../../../assets/WorldMonuments/Europe/Acropolis.png'),
-        name: 'Acrópolis',
-        country: 'Grecia',
-        city: 'Atenas',
-        date: '447-438 a.C.'
+        img: require('../../../assets/NaturalMnt/Europe/blackForest.png'),
+        name: 'Black Forest',
+        country: 'Germany',
+        city: 'South-west'
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/Europe/AmpitheatreofArles.png'),
-        name: 'Anfiteatro romano de Arlés',
-        country: 'Francia',
-        city: 'Arlés',
-        date: '100 d.C.'
+        img: require('../../../assets/NaturalMnt/Europe/BlueLagoon.png'),
+        name: 'Blue Lagoon',
+        country: 'Iceland',
+        city: 'South-west'
     },
     {
         id: '3',
-        img: require('../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png'),
-        name: 'Arco del Triunfo',
-        country: 'Francia',
-        city: 'París',
-        date: '1806-1836 d.C.'
+        img: require('../../../assets/NaturalMnt/Europe/CliffsofMoher.png'),
+        name: 'Cliffs of Moher',
+        country: 'Ireland',
+        city: 'County Clare'
     },
     {
         id: '4',
-        img: require('../../../assets/WorldMonuments/Europe/Atomium.png'),
-        name: 'Atomium',
-        country: 'Bélgica',
-        city: 'Bruselas',
-        date: '1958 d.C.'
+        img: require('../../../assets/NaturalMnt/Europe/dettifossWaterfall.png'),
+        name: 'Dettifoss Waterfall',
+        country: 'Iceland',
+        city: 'North-east'
     },
     {
         id: '5',
-        img: require('../../../assets/WorldMonuments/Europe/bigBen.png'),
-        name: 'Big Ben',
-        country: 'Reino Unido',
-        city: 'Londres',
-        date: '1859 d.C.'
+        img: require('../../../assets/NaturalMnt/Europe/Giant\'sCauseway.png'),
+        name: 'Giant\'s Causeway',
+        country: 'Ireland',
+        city: 'County Antrim'
     },
     {
         id: '6',
-        img: require('../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png'),
-        name: 'Inglesia de madera de Borgund',
-        country: 'Noruega',
-        city: 'Borgund',
-        date: '1180 d.C.'
+        img: require('../../../assets/NaturalMnt/Europe/lake-bled.png'),
+        name: 'Lake Bled',
+        country: 'Slovenia',
+        city: 'Julian Alps'
     },
     {
         id: '7',
-        img: require('../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png'),
-        name: 'Castillo de Bran',
-        country: 'Rumania',
-        city: 'Bran, Transilvania',
-        date: '1388 d.C.'
+        img: require('../../../assets/NaturalMnt/Europe/mount-elbrus.png'),
+        name: 'Mount Elbrus',
+        country: 'Russia',
+        city: 'North Caucasus'
     },
     {
         id: '8',
-        img: require('../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png'),
-        name: 'Puerta de Brandeburgo',
-        country: 'Alemania',
-        city: 'Berlín',
-        date: '1791 d.C.'
+        img: require('../../../assets/NaturalMnt/Europe/mountEtna.png'),
+        name: 'Mount Etnas',
+        country: 'Italy',
+        city: 'Sicily'
     },
     {
         id: '9',
-        img: require('../../../assets/WorldMonuments/Europe/buckinghampalace.png'),
-        name: 'Palacio de Buckingham',
-        country: 'Reino Unido',
-        city: 'Londres',
-        date: '1700 d.C.'
+        img: require('../../../assets/NaturalMnt/Europe/mountTeide.png'),
+        name: 'Mount Teide',
+        country: 'Spain',
+        city: 'Tenerife'
     },
     {
         id: '10',
-        img: require('../../../assets/WorldMonuments/Europe/stPetersburg.png'),
-        name: 'Iglesia del Salvador \nsobre la Sangre Derramada',
-        country: 'Rusia',
-        city: 'San Petersburgo',
-        date: '1883-1907 d.C.'
+        img: require('../../../assets/NaturalMnt/Europe/mount-vesuvius.png'),
+        name: 'Mount Vesuvius',
+        country: 'Italy',
+        city: 'Naples'
     },
     {
         id: '11',
-        img: require('../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png'),
-        name: 'Cité de Carcasona',
-        country: 'Francia',
-        city: 'Carcasona'
+        img: require('../../../assets/NaturalMnt/Europe/PicosdeEuropa.png'),
+        name: 'Picos de Europa',
+        country: 'Spain',
+        city: 'Northern Spain'
     },
     {
         id: '12',
-        img: require('../../../assets/WorldMonuments/Europe/colosseum.png'),
-        name: 'Coliseo',
-        country: 'Italia',
-        city: 'Roma',
-        date: '80 d.C.'
+        img: require('../../../assets/NaturalMnt/Europe/Plitvice-lakes.png'),
+        name: 'Plitvice Lakes',
+        country: 'Croatia',
+        city: 'Karlovac County'
     },
     {
         id: '13',
-        img: require('../../../assets/WorldMonuments/Europe/duomo-florence.png'),
-        name: 'Catedral de Santa María \ndel Fiore en Florencia',
-        country: 'Italia',
-        city: 'Florencia',
-        date: '1436 d.C.'
+        img: require('../../../assets/NaturalMnt/Europe/pulpitRock.png'),
+        name: 'Pulpit Rock',
+        country: 'Norway',
+        city: '	Rogaland'
     },
     {
         id: '14',
-        img: require('../../../assets/WorldMonuments/Europe/cathedralMilan.png'),
-        name: 'Duomo de Milán',
-        country: 'Italia',
-        city: 'Milán',
-        date: '1386+ d.C.'
+        img: require('../../../assets/NaturalMnt/Europe/sevensisters.png'),
+        name: 'Seven Sisters',
+        country: 'UK',
+        city: 'South East England'
     },
     {
         id: '15',
-        img: require('../../../assets/WorldMonuments/Europe/eiffelTower.png'),
-        name: 'Torre Eiffel',
-        country: 'Francia',
-        city: 'París',
-        date: '1889 d.C.'
+        img: require('../../../assets/NaturalMnt/Europe/skaftafell.png'),
+        name: 'Skaftafell Ice Cave',
+        country: 'Iceland',
+        city: 'South East'
     },
     {
         id: '16',
-        img: require('../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png'),
-        name: 'Museo Guggenheim Bilbao',
-        country: 'España',
-        city: 'Bilbao',
-        date: '1997 d.C.'
-    },
-    {
-        id: '17',
-        img: require('../../../assets/WorldMonuments/Europe/knossos.png'),
-        name: 'Cnosos',
-        country: 'Grecia',
-        city: 'Creta',
-        date: 'circa 7000 a.C.'
-    },
-    {
-        id: '18',
-        img: require('../../../assets/WorldMonuments/Europe/LouvreMuseum.png'),
-        name: 'Museo del Louvre',
-        country: 'Francia',
-        city: 'París',
-        date: '1793 d.C.'
-    },
-    {
-        id: '19',
-        img: require('../../../assets/WorldMonuments/Europe/meteora.png'),
-        name: 'Monasterios de Meteora',
-        country: 'Grecia',
-        city: 'Tríkala',
-        date: ''
-    },
-    {
-        id: '20',
-        img: require('../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png'),
-        name: 'Mont-Saint-Michel',
-        country: 'Francia',
-        city: 'Normandía',
-        date: ''
-    },
-    {
-        id: '21',
-        img: require('../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.png'),
-        name: 'Palacio de Neuschwanstein',
-        country: 'Alemania',
-        city: '	Hohenschwangau\n  Baviera',
-        date: '1869 d.C.'
-    },
-    {
-        id: '22',
-        img: require('../../../assets/WorldMonuments/Europe/notreDame.png'),
-        name: 'Catedral de Notre-Dame',
-        country: 'Francia',
-        city: 'París',
-        date: '1163 d.C.'
-    },
-    {
-        id: '23',
-        img: require('../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png'),
-        name: 'Palacio de Versalles',
-        country: 'Francia',
-        city: 'Versalles',
-        date: '1661 d.C.'
-    },
-    {
-        id: '24',
-        img: require('../../../assets/WorldMonuments/Europe/palace-of-westminster_main.png'),
-        name: 'Palacio de Westminster',
-        country: 'Reino Unido',
-        city: 'Londres',
-        date: '1865 d.C.'
-    },
-    {
-        id: '25',
-        img: require('../../../assets/WorldMonuments/Europe/Rialto-Bridge.png'),
-        name: 'Puente de Rialto',
-        country: 'Italia',
-        city: 'Venecia',
-        date: '1588-91 d.C.'
-    },
-    {
-        id: '26',
-        img: require('../../../assets/WorldMonuments/Europe/RoyalPalaceMadrid.png'),
-        name: 'Palacio Real de Madrid',
-        country: 'España',
-        city: 'Madrid',
-        date: '1735 d.C.'
-    },
-    {
-        id: '27',
-        img: require('../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.png'),
-        name: 'Pompeya ',
-        country: 'Italia',
-        city: 'Nápoles',
-        date: '7th-6th century a.C.'
-    },
-    {
-        id: '28',
-        img: require('../../../assets/WorldMonuments/Europe/sagradaFamilia.png'),
-        name: 'Sagrada Família',
-        country: 'España',
-        city: 'Barcelona',
-        date: '1882- d.C.'
-    },
-    {
-        id: '29',
-        img: require('../../../assets/WorldMonuments/Europe/saint_basils_cathedral.png'),
-        name: "Catedral de San Basilio",
-        country: 'Rusia',
-        city: 'Moscú',
-        date: '1565-1761 d.C.'
-    },
-    {
-        id: '30',
-        img: require('../../../assets/WorldMonuments/Europe/sainte-Chapelle.png'),
-        name: 'Santa Capilla',
-        country: 'Francia',
-        city: 'París',
-        date: '1242-48 d.C.'
-    },
-    {
-        id: '31',
-        img: require('../../../assets/WorldMonuments/Europe/sistineChapel.png'),
-        name: 'Capilla Sixtina',
-        country: 'Ciudad del Vaticano',
-        city: '',
-        date: '1473-81 d.C.'
-    },
-    {
-        id: '32',
-        img: require('../../../assets/WorldMonuments/Europe/spanish-steps-rome.png'),
-        name: 'Escalinata de la plaza de España',
-        country: 'Italia',
-        city: 'Roma',
-        date: '1723-25 d.C.'
-    },
-    {
-        id: '33',
-        img: require('../../../assets/WorldMonuments/Europe/St.-Peters-Basilica-Vatican.png'),
-        name: "Basílica de San Pedro",
-        country: 'Ciudad del Vaticano',
-        city: '',
-        date: '1626 d.C.'
-    },
-    {
-        id: '34',
-        img: require('../../../assets/WorldMonuments/Europe/stMark_square_Venice.png'),
-        name: 'Plsza de San Marcos',
-        country: 'Italia',
-        city: 'Venecia'
-    },
-    {
-        id: '35',
-        img: require('../../../assets/WorldMonuments/Europe/stonehenge.png'),
-        name: 'Stonehenge',
-        country: 'Reino Unido',
-        city: 'Wiltshire\nSalisbury',
-        date: 'Edad del Bronce'
-    },
-    {
-        id: '36',
-        img: require('../../../assets/WorldMonuments/Europe/TheAlambraGranada.png'),
-        name: 'Alhambra',
-        country: 'España',
-        city: 'Granada',
-        date: '1238 d.C.'
-    },
-    {
-        id: '37',
-        img: require('../../../assets/WorldMonuments/Europe/TowerBridge.png'),
-        name: 'Puente de la Torre',
-        country: 'Reino Unido',
-        city: 'Londres',
-        date: '1886-94 d.C.'
-    },
-    {
-        id: '38',
-        img: require('../../../assets/WorldMonuments/Europe/TowerPisa.png'),
-        name: 'Torre inclinada de Pisa',
-        country: 'Italia',
-        city: 'Pisa',
-        date: '12th century AD'
-    },
-    {
-        id: '39',
-        img: require('../../../assets/WorldMonuments/Europe/trevi-fontein-rome.png'),
-        name: 'Fontana de Trevi ',
-        country: 'Italia',
-        city: 'Roma',
-        date: '1732-62 d.C.'
-    },
-    {
-        id: '40',
-        img: require('../../../assets/WorldMonuments/Europe/westminster-abbey.png'),
-        name: 'Abadía de Westminster',
-        country: 'Reino Unido',
-        city: 'Londres',
-        date: '1065 d.C.'
+        img: require('../../../assets/NaturalMnt/Europe/Trolltunga.png'),
+        name: 'Trolltunga',
+        country: 'Norway',
+        city: 'Vestland county'
     }
 ]
 export default EurMntEs

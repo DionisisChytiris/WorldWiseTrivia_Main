@@ -4,9 +4,7 @@ import { AppNavigatorTypeList } from "../Types/AppNavigatorTypeList";
 import React, { useState, useEffect } from "react";
 import { View, Text, StyleSheet, Pressable } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-// test sound
 import { Audio } from "expo-av";
-//
 
 type HomeProp = StackNavigationProp<AppNavigatorTypeList, "Home">;
 
@@ -34,24 +32,20 @@ const Home = () => {
     }
   };
 
-  //test sound
-  const [sound, setSound] = useState<Audio.Sound| null>(null);
+  const [sound, setSound] = useState<Audio.Sound | null>(null);
 
   async function playSound() {
-    // console.log("Loading Sound");
     const { sound } = await Audio.Sound.createAsync(
       require("../assets/more/AC_DC.mp3")
     );
     setSound(sound);
 
-    // console.log("Playing Sound");
     await sound.playAsync();
   }
 
   useEffect(() => {
     return sound
       ? () => {
-          // console.log("Unloading Sound");
           sound.unloadAsync();
         }
       : undefined;
@@ -94,7 +88,16 @@ const Home = () => {
           <Text style={{ color: "white", marginTop: 50 }}>Sound On</Text>
         </Pressable>
         <Pressable onPress={() => setSound(null)}>
-          <Text style={{ color: "white", marginTop: 50 ,backgroundColor: 'magenta', padding: 30}}>Sound Off</Text>
+          <Text
+            style={{
+              color: "white",
+              marginTop: 50,
+              backgroundColor: "magenta",
+              padding: 30,
+            }}
+          >
+            Sound Off
+          </Text>
         </Pressable>
       </View>
     </View>
