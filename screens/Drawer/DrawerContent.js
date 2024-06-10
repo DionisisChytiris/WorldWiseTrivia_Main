@@ -146,10 +146,12 @@ import {
   MonAsEs,
 } from "../../ReduxSetUp/MonumentsLearnSlices";
 import { Feather } from "@expo/vector-icons";
-// import { useAppSelector } from "../../ReduxSetUp/store";
+import  {toggleBoolean} from '../../ReduxSetUp/SoundVibration/VibrationSlice.tsx'
+import { useAppSelector } from "../../ReduxSetUp/store";
 // import { statusActive, statusCancel, toggleValue } from "../../ReduxSetUp/SoundVibration/VibrationSlice.tsx";
 
 const DrawerContent = (props) => {
+  const boolean = useAppSelector((state) => state.boolean.value);
   // const { initStatus } = useAppSelector((state) => state.vibrationActive);
   const dispatch = useDispatch();
   const navigation = useNavigation();
@@ -485,7 +487,9 @@ const DrawerContent = (props) => {
                 <Pressable
                   onPressIn={() => setIsbg1('lightgray')}
                   onPressOut={() => {
-                    setIsPlaying(!isPlaying), setIsbg1('transparent');
+                    setIsPlaying(!isPlaying), 
+                    dispatch(toggleBoolean()),
+                    setIsbg1('transparent');
                   }}
                   style={{
                     backgroundColor: isbg1,
@@ -515,7 +519,8 @@ const DrawerContent = (props) => {
                   }
                   onPressOut={() => {
                     setIsVibrating(!isVibrating);
-                    console.log(isVibrating)
+                    dispatch(toggleBoolean());
+                    // console.log(boolean.toString())
                     setIsbg2(() => setIsbg2("transparent"));
                   }}
                   style={{

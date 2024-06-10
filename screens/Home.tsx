@@ -1,14 +1,18 @@
 import { useNavigation } from "@react-navigation/native";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { AppNavigatorTypeList } from "../Types/AppNavigatorTypeList";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect} from "react";
 import { View, Text, StyleSheet, Pressable } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { Audio } from "expo-av";
+import { toggleBoolean } from "../ReduxSetUp/SoundVibration/VibrationSlice";
+import { useAppSelector } from "../ReduxSetUp/store";
+import { use } from "i18next";
 
 type HomeProp = StackNavigationProp<AppNavigatorTypeList, "Home">;
 
 const Home = () => {
+  const boolean = useAppSelector((state) => state.boolean.value);
   const navigation = useNavigation<HomeProp>();
   const [name, setName] = useState("");
   const [color, setColor] = useState("#002c54");
@@ -43,6 +47,10 @@ const Home = () => {
     await sound.playAsync();
   }
 
+  // useEffect(()=>{
+  //   {!sound && playSound()}
+  // },[sound])
+
   useEffect(() => {
     return sound
       ? () => {
@@ -50,7 +58,8 @@ const Home = () => {
         }
       : undefined;
   }, [sound]);
-  //
+
+  
 
   return (
     <View style={[styles.container, { backgroundColor: color }]}>
@@ -87,7 +96,7 @@ const Home = () => {
         <Pressable onPress={playSound}>
           <Text style={{ color: "white", marginTop: 50 }}>Sound On</Text>
         </Pressable>
-        <Pressable onPress={() => setSound(null)}>
+        <Pressable onPress={() =>setSound(null)}>
           <Text
             style={{
               color: "white",

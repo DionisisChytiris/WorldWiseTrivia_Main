@@ -5,10 +5,12 @@ import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
 import { MaterialIcons } from "@expo/vector-icons";
 import { styles } from "../styles";
-// import { useAppSelector } from "../../../ReduxSetUp/store";
+import { toggleBoolean } from "../../../ReduxSetUp/SoundVibration/VibrationSlice";
+import { useAppSelector } from "../../../ReduxSetUp/store";
 
 const QuizMainTemplate = (props) => {
-  // const value = useAppSelector((state) => state.vibrationActive);
+  const boolean = useAppSelector((state) => state.boolean.value);
+  const isBoolean = boolean.toString()
   const navigation = useNavigation();
   const [score, setScore] = React.useState(0);
   const { colors } = useTheme();
@@ -32,7 +34,7 @@ const QuizMainTemplate = (props) => {
   const [apple, setApple] = useState(["🍎", "🍎", "🍎"]);
   const [hint, setHint] = useState(3);
   const status = props.status;
-  const [isVib, setIsVib] = useState(true)
+  // const [isVib, setIsVib] = useState(true)
  
   useEffect(() => {
     if (selectedAnswer !== null) {
@@ -40,15 +42,16 @@ const QuizMainTemplate = (props) => {
         setScore((score) => score + 10);
         setAnswerStatus(true);
         setDisabled(true);
+        console.log(isBoolean)
         // Vibration.vibrate([100, 50, 200, 100, 200, 100, 300])
-        {isVib?Vibration.vibrate([100, 50, 200, 100, 200, 100, 300]) : null}
+        {boolean?Vibration.vibrate([100, 50, 200, 100, 200, 100, 300]) : null}
       } else {
         setDisabled(true);
         setAnswerStatus(true);
         setShow(true);
         setImg(styles.img1);
         removeHeart();
-        {isVib? Vibration.vibrate() : null}
+        {boolean? Vibration.vibrate() : null}
       }
     } else {
       setDisabled(false);

@@ -62,7 +62,7 @@ export const store = configureStore({
         CapitalsMapNames: CapitalsMapsSlice,
         MonumentMapNames: MonumentsMapSlice,
         soundActive: SoundSlice,
-        vibrationActive: VibrationSlice
+        boolean: VibrationSlice
     },
     middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
