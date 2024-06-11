@@ -1,22 +1,23 @@
 import {createSlice} from '@reduxjs/toolkit'
 
 type Status ={
-    initStatus: string
+    value: boolean;
 }
 
 const initialState: Status = {
-    initStatus: 'false'
+    value: false,
 }
 
 const SoundSlice = createSlice({
     name: 'soundActive',
     initialState,
     reducers: {
-        statusActive: ()=>{return {initStatus: 'true'}},
-        statusCancel: ()=>{return {initStatus: 'false'}},
+        toggleSound: (state) => {
+            state.value = !state.value;
+          },
     }
 })
 
-export const {statusActive, statusCancel} = SoundSlice.actions
+export const {toggleSound} = SoundSlice.actions
 
 export default SoundSlice.reducer

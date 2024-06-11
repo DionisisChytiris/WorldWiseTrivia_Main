@@ -148,6 +148,7 @@ import {
 import { Feather } from "@expo/vector-icons";
 import  {toggleBoolean} from '../../ReduxSetUp/SoundVibration/VibrationSlice.tsx'
 import { useAppSelector } from "../../ReduxSetUp/store";
+import { toggleSound } from "../../ReduxSetUp/SoundVibration/SoundSlice";
 // import { statusActive, statusCancel, toggleValue } from "../../ReduxSetUp/SoundVibration/VibrationSlice.tsx";
 
 const DrawerContent = (props) => {
@@ -488,7 +489,7 @@ const DrawerContent = (props) => {
                   onPressIn={() => setIsbg1('lightgray')}
                   onPressOut={() => {
                     setIsPlaying(!isPlaying), 
-                    dispatch(toggleBoolean()),
+                    dispatch(toggleSound()),
                     setIsbg1('transparent');
                   }}
                   style={{

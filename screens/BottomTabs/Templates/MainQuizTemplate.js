@@ -5,11 +5,12 @@ import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
 import { MaterialIcons } from "@expo/vector-icons";
 import { styles } from "../styles";
-import { toggleBoolean } from "../../../ReduxSetUp/SoundVibration/VibrationSlice";
 import { useAppSelector } from "../../../ReduxSetUp/store";
+import { Audio } from "expo-av";
 
 const QuizMainTemplate = (props) => {
   const boolean = useAppSelector((state) => state.boolean.value);
+  const soundActive = useAppSelector((state) => state.soundActive.value);
   const isBoolean = boolean.toString()
   const navigation = useNavigation();
   const [score, setScore] = React.useState(0);
@@ -35,6 +36,18 @@ const QuizMainTemplate = (props) => {
   const [hint, setHint] = useState(3);
   const status = props.status;
   // const [isVib, setIsVib] = useState(true)
+
+  const [correctSound, setCorrectSound] = useState();
+  async function CorrectPlaySound() {
+    const { sound } = await Audio.Sound.createAsync(
+      require("../../../assets/correct1.wav")
+    );
+    setCorrectSound(correctSound);
+    await sound.playAsync();
+  }
+  useEffect(() => {
+    return correctSound ? () => correctSound.uploadAsync() : undefined;
+  }, [correctSound]);
  
   useEffect(() => {
     if (selectedAnswer !== null) {
@@ -44,14 +57,16 @@ const QuizMainTemplate = (props) => {
         setDisabled(true);
         console.log(isBoolean)
         // Vibration.vibrate([100, 50, 200, 100, 200, 100, 300])
-        {boolean?Vibration.vibrate([100, 50, 200, 100, 200, 100, 300]) : null}
+        {boolean? Vibration.vibrate([100, 50, 200, 100, 200, 100, 300]) :null}
+        {soundActive? null:CorrectPlaySound() }
+        // CorrectPlaySound()
       } else {
         setDisabled(true);
         setAnswerStatus(true);
         setShow(true);
         setImg(styles.img1);
         removeHeart();
-        {boolean? Vibration.vibrate() : null}
+        {boolean? Vibration.vibrate():null }
       }
     } else {
       setDisabled(false);
@@ -154,6 +169,9 @@ const QuizMainTemplate = (props) => {
   // Arrange dataLength according the filteredData list
   const dt = data.length - 1;
   const filteredLength = dt / 3;
+
+
+ 
 
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
