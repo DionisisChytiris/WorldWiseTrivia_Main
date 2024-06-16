@@ -2,30 +2,30 @@ const EurMntEs = [
     {
         id: '1',
         img: require('../../../assets/NaturalMnt/Europe/blackForest.png'),
-        name: 'Black Forest',
-        country: 'Germany',
-        city: 'South-west'
+        name: 'Bosque Negro',
+        country: 'Alemania',
+        // city: 'South-west'
     },
     {
         id: '2',
         img: require('../../../assets/NaturalMnt/Europe/BlueLagoon.png'),
-        name: 'Blue Lagoon',
-        country: 'Iceland',
+        name: 'Laguna Azul',
+        country: 'Islandia',
         city: 'South-west'
     },
     {
         id: '3',
         img: require('../../../assets/NaturalMnt/Europe/CliffsofMoher.png'),
-        name: 'Cliffs of Moher',
-        country: 'Ireland',
-        city: 'County Clare'
+        name: 'Acantilados de Moher',
+        country: 'Irlanda',
+        // city: 'County Clare'
     },
     {
         id: '4',
         img: require('../../../assets/NaturalMnt/Europe/dettifossWaterfall.png'),
-        name: 'Dettifoss Waterfall',
-        country: 'Iceland',
-        city: 'North-east'
+        name: 'Cascada Dettifoss',
+        country: 'Islandia',
+        // city: 'North-east'
     },
     {
         id: '5',

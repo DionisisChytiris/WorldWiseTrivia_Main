@@ -7,6 +7,7 @@ import { Dimensions } from "react-native";
 import { styles } from "./styles";
 import { useSelector } from "react-redux";
 import LearnNaturalMntsItem from "./LearnNaturalMntsItem";
+import OceaMntEn from "../../../../data/naturalMnts/TopTabMnts/OceaMntEn";
 
 const width = Dimensions.get("window").width;
 const height = Dimensions.get("window").height;
@@ -38,7 +39,7 @@ const Oceania = () => {
         }}
       >
         <FlashList
-          data={MonOcnItems}
+          data={OceaMntEn}
           renderItem={renderItem}
           keyExtractor={(item) => item.id}
           showsVerticalScrollIndicator={false}

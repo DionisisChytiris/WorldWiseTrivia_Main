@@ -7,6 +7,7 @@ import { styles } from "./styles";
 import { FlashList } from "@shopify/flash-list";
 import { useSelector } from "react-redux";
 import LearnNaturalMntsItem from "./LearnNaturalMntsItem";
+import AmerMntEn from "../../../../data/naturalMnts/TopTabMnts/AmerMntEn";
 
 const width = Dimensions.get("window").width;
 const height = Dimensions.get("window").height;
@@ -39,7 +40,7 @@ const America = () => {
         }}
       >
         <FlashList
-          data={MonAmItems}
+          data={AmerMntEn}
           renderItem={renderItem}
           keyExtractor={(item) => item.id}
           showsVerticalScrollIndicator={false}

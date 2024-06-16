@@ -1,69 +1,104 @@
 const AfrMntEl = [
     {
         id: '1',
-        img: require('../../../assets/WorldMonuments/Africa/abulShimbel.png'),
-        name: 'Αμπού Σίμπελ',
-        country: 'Αίγυπτος',
-        city: 'Aσσουάν',
-        date: '1264 π.Χ.'
+        img: require('../../../assets/NaturalMnt/Africa/Botswana_Okavango_Delta.png'),
+        name: '',
+        country: '',
+        city: '',
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/Africa/AïtBenhaddou.png'),
-        name: 'Αΐτ-Μπεν-Χαντού',
-        country: 'Μαρόκο',
-        city: 'Αΐτ-Μπεν-Χαντού',
-        date: ''
+        img: require('../../../assets/NaturalMnt/Africa/CapeofGoodHope.png'),
+        name: '',
+        country: '',
+        city: '',
     },
     {
         id: '3',
-        img: require('../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.png'),
-        name: 'Nαός του Αγίου Γεωργίου',
-        country: 'Αιθιοπία',
-        city: 'Λαλιμπέλα',
-        date: '1300'
+        img: require('../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.png'),
+        name: '',
+        country: '',
+        city: '',
     },
     {
         id: '4',
-        img: require('../../../assets/WorldMonuments/Africa/Pyramids.png'),
-        name: 'Μεγάλη πυραμίδα της Γκίζας',
-        country: 'Αίγυπτος',
-        city: 'Κάιρο',
-        date: '2500 π.Χ.'
+        img: require('../../../assets/NaturalMnt/Africa/kalandula-falls-angola.png'),
+        name: '',
+        country: '',
+        city: '',
     },
     {
         id: '5',
-        img: require('../../../assets/WorldMonuments/Africa/sphinx.png'),
-        name: 'Μεγάλη Σφίγγα της Γκίζας',
-        country: 'Αίγυπτος',
-        city: 'Γκίζα',
-        date: '2500 π.Χ.'
+        img: require('../../../assets/NaturalMnt/Africa/Kilimanjaro.png'),
+        name: '',
+        country: '',
+        city: '',
     },
     {
         id: '6',
-        img: require('../../../assets/WorldMonuments/Africa/KarnakTempleLuxor.png'),
-        name: 'Καρνάκ',
-        country: 'Αίγυπτος',
-        city: 'Λούξορ',
-        date: '1552-1306 π.Χ.'
+        img: require('../../../assets/NaturalMnt/Africa/mountKenya.png'),
+        name: '',
+        country: '',
+        city: '',
     },
     {
         id: '7',
-        img: require('../../../assets/WorldMonuments/Africa/mountsinai.jpg'),
-        name: "Ιερά Μονή Αγίας Αικατερίνης \nΌρους Σινά",
-        country: 'Αίγυπτος',
-        city: 'Χερσόνησος Σινά\nΌρος Σινά',
-        date: '565'
+        img: require('../../../assets/NaturalMnt/Africa/mountSinai.png'),
+        name: '',
+        country: '',
+        city: '',
     },
     {
         id: '8',
-        img: require('../../../assets/WorldMonuments/Africa/temple_isis-Aswan.png'),
-        name: 'Ναός της θεάς Ίσιδος',
-        country: 'Αίγυπτος',
-        city: 'Ασσουάν',
-        date: '690 π.Χ.'
+        img: require('../../../assets/NaturalMnt/Africa/RiverNile.png'),
+        name: '',
+        country: '',
+        city: '',
+    },
+    {
+        id: '9',
+        img: require('../../../assets/NaturalMnt/Africa/senegal-lac-rose-.png'),
+        name: '',
+        country: '',
+        city: '',
+    },
+    {
+        id: '10',
+        img: require('../../../assets/NaturalMnt/Africa/serengeti-national-park.png'),
+        name: '',
+        country: '',
+        city: '',
+    },
+    {
+        id: '11',
+        img: require('../../../assets/NaturalMnt/Africa/Sossusvlei-Dunes.png'),
+        name: '',
+        country: '',
+        city: '',
+    },
+    {
+        id: '12',
+        img: require('../../../assets/NaturalMnt/Africa/table-mountain.png'),
+        name: '',
+        country: '',
+        city: '',
+    },
+    {
+        id: '13',
+        img: require('../../../assets/NaturalMnt/Africa/The Danakil DepressionEthiopia.png'),
+        name: '',
+        country: '',
+        city: '',
+    },
+    {
+        id: '14',
+        img: require('../../../assets/NaturalMnt/Africa/Victoria-Falls.png'),
+        name: '',
+        country: '',
+        city: '',
     },
    
+  
 ]
 
 export default AfrMntEl

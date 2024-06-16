@@ -1,68 +1,104 @@
 const AfrMntEs = [
     {
         id: '1',
-        img: require('../../../assets/WorldMonuments/Africa/abulShimbel.png'),
-        name: 'Abu Simbel',
-        country: 'Egipto',
-        city: 'Aswan',
-        date: '1264 a.C.'
+        img: require('../../../assets/NaturalMnt/Africa/Botswana_Okavango_Delta.png'),
+        name: '',
+        country: '',
+        city: '',
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/Africa/AïtBenhaddou.png'),
-        name: 'Ait Ben Hadu',
-        country: 'Marruecos',
-        city: 'Aït Ben Hadu',
-        date: ''
+        img: require('../../../assets/NaturalMnt/Africa/CapeofGoodHope.png'),
+        name: '',
+        country: '',
+        city: '',
     },
     {
         id: '3',
-        img: require('../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.png'),
-        name: 'Iglesia de San Jorge',
-        country: 'Etiopía',
-        city: 'Lalibela',
-        date: '1300 d.C.'
+        img: require('../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.png'),
+        name: '',
+        country: '',
+        city: '',
     },
     {
         id: '4',
-        img: require('../../../assets/WorldMonuments/Africa/Pyramids.png'),
-        name: 'Gran Pirámide de Guiza',
-        country: 'Egipto',
-        city: 'El Cairo',
-        date: '2500 a.C.'
+        img: require('../../../assets/NaturalMnt/Africa/kalandula-falls-angola.png'),
+        name: '',
+        country: '',
+        city: '',
     },
     {
         id: '5',
-        img: require('../../../assets/WorldMonuments/Africa/sphinx.png'),
-        name: 'Gran Esfinge de Guiza',
-        country: 'Egipto',
-        city: 'Guiza',
-        date: ''
+        img: require('../../../assets/NaturalMnt/Africa/Kilimanjaro.png'),
+        name: '',
+        country: '',
+        city: '',
     },
     {
         id: '6',
-        img: require('../../../assets/WorldMonuments/Africa/KarnakTempleLuxor.png'),
-        name: 'Templo de Karnak',
-        country: 'Egipto',
-        city: 'Luxor',
-        date: '1552-1306 a.C.'
+        img: require('../../../assets/NaturalMnt/Africa/mountKenya.png'),
+        name: '',
+        country: '',
+        city: '',
     },
     {
         id: '7',
-        img: require('../../../assets/WorldMonuments/Africa/mountsinai.jpg'),
-        name: "Monasterio de Santa Catalina ",
-        country: 'Egipto',
-        city: 'Península Sinaí \nMonte Sinaí,',
-        date: 'AD 565'
+        img: require('../../../assets/NaturalMnt/Africa/mountSinai.png'),
+        name: '',
+        country: '',
+        city: '',
     },
     {
         id: '8',
-        img: require('../../../assets/WorldMonuments/Africa/temple_isis-Aswan.png'),
-        name: 'Templo de Isis',
-        country: 'Egipto',
-        city: 'Aswan',
-        date: '690 a.C.'
+        img: require('../../../assets/NaturalMnt/Africa/RiverNile.png'),
+        name: '',
+        country: '',
+        city: '',
     },
+    {
+        id: '9',
+        img: require('../../../assets/NaturalMnt/Africa/senegal-lac-rose-.png'),
+        name: '',
+        country: '',
+        city: '',
+    },
+    {
+        id: '10',
+        img: require('../../../assets/NaturalMnt/Africa/serengeti-national-park.png'),
+        name: '',
+        country: '',
+        city: '',
+    },
+    {
+        id: '11',
+        img: require('../../../assets/NaturalMnt/Africa/Sossusvlei-Dunes.png'),
+        name: '',
+        country: '',
+        city: '',
+    },
+    {
+        id: '12',
+        img: require('../../../assets/NaturalMnt/Africa/table-mountain.png'),
+        name: '',
+        country: '',
+        city: '',
+    },
+    {
+        id: '13',
+        img: require('../../../assets/NaturalMnt/Africa/The Danakil DepressionEthiopia.png'),
+        name: '',
+        country: '',
+        city: '',
+    },
+    {
+        id: '14',
+        img: require('../../../assets/NaturalMnt/Africa/Victoria-Falls.png'),
+        name: '',
+        country: '',
+        city: '',
+    },
+   
+  
 ]
 
 export default AfrMntEs
