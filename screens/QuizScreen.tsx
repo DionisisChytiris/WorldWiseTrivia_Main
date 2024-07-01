@@ -153,6 +153,7 @@ export default QuizScreen;
 
 const styles = StyleSheet.create({
   container: {
+    position: 'relative',
     flex: 1,
     backgroundColor: "grey",
     alignItems: "center",
@@ -164,7 +165,7 @@ const styles = StyleSheet.create({
   },
   image: {
     width: width * 0.32,
-    height: height * 0.13,
+    height: height> 900? height * 0.17 : height * 0.13,
     // width: width * 0.38,
     // height: height * 0.14,
     borderRadius: 20,

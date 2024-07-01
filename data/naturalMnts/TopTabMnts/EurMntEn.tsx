@@ -35,6 +35,13 @@ const EurMntEn = [
         // city: 'County Antrim'
     },
     {
+        id: '6a',
+        img: require('../../../assets/NaturalMnt/Europe/isleofSkye.jpg'),
+        name: 'Isle of Skye',
+        country: 'Scotland',
+        // city: 'Julian Alps'
+    },
+    {
         id: '6',
         img: require('../../../assets/NaturalMnt/Europe/lake-bled.png'),
         name: 'Lake Bled',
@@ -70,6 +77,13 @@ const EurMntEn = [
         // city: 'Naples'
     },
     {
+        id: '10a',
+        img: require('../../../assets/NaturalMnt/Europe/Northern-Lights-Desktop-Wallpaper.jpg'),
+        name: 'Northern Lights',
+        country: '',
+        // city: 'Naples'
+    },
+    {
         id: '11',
         img: require('../../../assets/NaturalMnt/Europe/PicosdeEuropa.png'),
         name: 'Picos de Europa',
@@ -91,6 +105,13 @@ const EurMntEn = [
         // city: '	Rogaland'
     },
     {
+        id: '14a',
+        img: require('../../../assets/NaturalMnt/Europe/Santorini-Caldera.jpg'),
+        name: 'Santorini Caldera',
+        country: 'Greece',
+        // city: 'South East England'
+    },
+    {
         id: '14',
         img: require('../../../assets/NaturalMnt/Europe/sevensisters.png'),
         name: 'Seven Sisters',
@@ -106,6 +127,13 @@ const EurMntEn = [
     },
     {
         id: '16',
+        img: require('../../../assets/NaturalMnt/Europe/swissapls.jpg'),
+        name: 'Swiss Alps',
+        country: 'Switzerland',
+        // city: 'South East'
+    },
+    {
+        id: '17',
         img: require('../../../assets/NaturalMnt/Europe/Trolltunga.png'),
         name: 'Trolltunga',
         country: 'Norway',

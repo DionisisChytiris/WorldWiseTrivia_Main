@@ -1,4 +1,4 @@
-import { View, Text, FlatList } from "react-native";
+import { View, Text} from "react-native";
 import React, { useCallback, useState, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { useTheme } from "../../../../utils/ThemeMode/ThemeProvider";
@@ -41,7 +41,7 @@ const EuropeCapital = () => {
               keyExtractor={(item) => item.id}
               showsVerticalScrollIndicator={true}
               horizontal={false}
-              numColumns={2}
+              numColumns={height>900? 3:2}
               estimatedItemSize={200}
             />
           </View>

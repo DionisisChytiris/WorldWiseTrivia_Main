@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, Image, Pressable } from "react-native";
+import { View, Text, StyleSheet, Image, Pressable, Platform} from "react-native";
 import React, { useState } from "react";
 import { useTheme } from "../../../../utils/ThemeMode/ThemeProvider";
 import FlipCard from "react-native-flip-card";
@@ -30,7 +30,6 @@ const LearnCapitalItem = ({
   return (
     <Pressable onPress={toggleFlip}>
       <FlipCard
-        // style={[styles.shadow]}
         friction={8}
         perspective={1000}
         flipHorizontal={false}
@@ -47,8 +46,8 @@ const LearnCapitalItem = ({
           <View
             style={{
               elevation: 15,
-              shadowOffset: { width: 3, height: 3 },
-              shadowOpacity: 1.0,
+              shadowOffset: Platform.OS =="ios"? { width: 3, height: 3 }:{ width: 3, height: 3 },
+              shadowOpacity: Platform.OS =="ios"? 0.3:1.0,
               borderRadius: 10,
             }}
           >
@@ -56,7 +55,6 @@ const LearnCapitalItem = ({
           </View>
           <View style={{ paddingTop: 2, flexDirection: "column" }}>
             <View style={styles.textBox}>
-              {/* <Text style={{ fontSize: 10 }}>Country:</Text> */}
               <Text
                 style={{ fontSize: 12, fontWeight: "bold", color: colors.text }}
               >
@@ -64,7 +62,6 @@ const LearnCapitalItem = ({
               </Text>
             </View>
             <View style={styles.textBox}>
-              {/* <Text style={{ fontSize: 10 }}>Capital:</Text> */}
               <Text
                 style={{ fontSize: 10, fontWeight: "bold", color: colors.text }}
               >
@@ -84,20 +81,19 @@ const LearnCapitalItem = ({
           <View
             style={{
               alignItems: "center",
-              // flexDirection: height > 900 ? "row" : "column",
-              gap: height > 900 ? 5 : 0,
+              gap: height > 900 ? 1 : 0,
             }}
           >
             <View
               style={{
                 flexDirection: "row",
                 alignItems: "center",
-                gap: height > 900 ? 20 : 5,
+                gap: height > 900 ? 10: 5,
               }}
             >
               <MaterialIcons
                 name="people"
-                size={height > 900 ? 20 : 14}
+                size={height > 900 ? 16 : 14}
                 color="black"
               />
               <Text style={[styles.title, { color: colors.textDrawer }]}>
@@ -111,8 +107,7 @@ const LearnCapitalItem = ({
           <View
             style={{
               alignItems: "center",
-              // flexDirection: height > 900 ? "row" : "column",
-              gap: height > 900 ? 5 : 0,
+              gap: height > 900 ? 1 : 0,
             }}
           >
             <View
@@ -120,7 +115,7 @@ const LearnCapitalItem = ({
             >
               <Fontisto
                 name="money-symbol"
-                size={height > 900 ? 20 : 12}
+                size={height > 900 ? 14 : 12}
                 color="black"
               />
               <Text style={[styles.title, { color: colors.textDrawer }]}>
@@ -139,17 +134,16 @@ const LearnCapitalItem = ({
           <View
             style={{
               alignItems: "center",
-              // flexDirection: height > 900 ? "row" : "column",
               flexDirection: "column" ,
-              gap: height > 900 ? 5 : 0,
+              gap: height > 900 ? 1 : 0,
             }}
           >
             <View
-              style={{ flexDirection: "row", alignItems: "center", gap: height > 900 ? 20 : 5,}}
+              style={{ flexDirection: "row", alignItems: "center", gap: height > 900 ? 10 : 5,}}
             >
               <MaterialIcons
                 name="language"
-                size={height > 900 ? 20 : 12}
+                size={height > 900 ? 14: 12}
                 color="black"
               />
               <Text style={[styles.title, { color: colors.textDrawer }]}>
@@ -171,36 +165,30 @@ export default LearnCapitalItem;
 const styles = StyleSheet.create({
   flagBox: {
     flexDirection: "column",
-    // width: '95%',
-    width: height < 900 ? 165 : 350,
-    height: height < 900 ? 150 : 250,
+    width: height < 900 ? 165 : 220,
+    height: height < 900 ? 150 : 150,
     backgroundColor: "#F5FAFA",
     borderRadius: 14,
     marginBottom: 30,
     paddingTop: 10,
     justifyContent: "center",
-    // paddingHorizontal: 20,
-    // paddingVertical: 10,
     alignItems: "center",
     gap: 10,
-    elevation: 5,
-    shadowOffset: { width: 1, height: 1 },
-    shadowOpacity: 0.5,
+    elevation: Platform.OS =="ios"? 1:5,
+    shadowOffset: Platform.OS =="ios"? { width: 0.5, height: 0.5 } : { width: 1, height: 1 },
+    shadowOpacity: Platform.OS =="ios"? 0.2: 0.5,
   },
   flagBoxBack: {
     flexDirection: "column",
-    // width: '95%',
-    width: height < 900 ? 165 : 350,
-    height: height < 900 ? 150 : 250,
+    width: height < 900 ? 165 : 220,
+    height: height < 900 ? 150 : 150,
     backgroundColor: "#F5FAFA",
     borderRadius: 14,
     marginBottom: 30,
-    // paddingTop: 10,
-    // paddingLeft: 30,
-    gap: height > 900 ? 25 : 8,
-    elevation: 5,
-    shadowOffset: { width: 1, height: 1 },
-    shadowOpacity: 0.5,
+    gap: height > 900 ? 12 : 8,
+    elevation: Platform.OS =="ios"? 1:5,
+    shadowOffset: Platform.OS =="ios"? { width: 0.5, height: 0.5 } : { width: 1, height: 1 },
+    shadowOpacity: Platform.OS =="ios"? 0.2: 0.5,
     justifyContent: "center",
     alignItems: "center",
   },
@@ -211,28 +199,16 @@ const styles = StyleSheet.create({
     gap: 5,
   },
   img: {
-    width: height < 900 ? 105 : 220,
-    height: height < 900 ? 75 : 140,
+    width: height < 900 ? 105 : 120,
+    height: height < 900 ? 75 : 80,
     borderRadius: 10,
   },
   title: {
-    fontSize: height < 900 ? 10 : 20,
+    fontSize: height < 900 ? 10 : 12,
   },
   text: {
-    fontSize: height < 900 ? 11 : 18,
+    fontSize: height < 900 ? 11 : 14,
     fontWeight: "500",
     fontStyle:'italic'
   },
 });
-
-/* <FastImageView>
-        <FastImage
-          style={{ width: 200, height: 200 }}
-          source={{
-              uri: 'https://unsplash.it/400/400?image=1',
-              headers: { Authorization: 'someAuthToken' },
-              priority: FastImage.priority.normal,
-          }}
-          resizeMode={FastImage.resizeMode.contain}
-      />
-      </FastImageView> */

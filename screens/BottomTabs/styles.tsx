@@ -57,8 +57,8 @@ export const styles = StyleSheet.create({
       box: {
         position: "absolute",
         bottom: 10,
-        width: "100%",
-        height: height < 900 ? "48%" : '58%',
+        width: height> 900? '80%':"100%",
+        height: height < 900 ? "48%" : '54%',
         flexWrap: "wrap",
         alignContent: "center",
         gap: 10,
@@ -67,8 +67,8 @@ export const styles = StyleSheet.create({
       boxCapitals: {
         position: "absolute",
         bottom: 10,
-        width: "100%",
-        height: "50%",
+        width: height> 900? '80%':"100%",
+        height: height < 900 ? "48%" : '54%',
         flexWrap: "wrap",
         alignContent: "center",
         gap: 10,
