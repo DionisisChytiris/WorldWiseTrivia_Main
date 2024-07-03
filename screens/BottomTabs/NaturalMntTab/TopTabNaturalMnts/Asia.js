@@ -7,13 +7,13 @@ import { Dimensions } from "react-native";
 import { styles } from "./styles";
 import { useSelector } from "react-redux";
 import LearnNaturalMntsItem from "./LearnNaturalMntsItem";
-import AsiaMntEn from "../../../../data/naturalMnts/TopTabMnts/AsiaMntEn";
+// import AsiaMntEn from "../../../../data/naturalMnts/TopTabMnts/AsiaMntEn";
 
 const width = Dimensions.get("window").width;
 const height = Dimensions.get("window").height;
 
 const Asia = () => {
-  const { MonAsItems } = useSelector((state) => state.MonumentsAsia);
+  const { NtrAsiaItems } = useSelector((state) => state.NaturalAsia);
   const { colors } = useTheme();
   const { t } = useTranslation();
 
@@ -39,7 +39,7 @@ const Asia = () => {
         }}
       >
         <FlashList
-          data={AsiaMntEn}
+          data={NtrAsiaItems}
           renderItem={renderItem}
           keyExtractor={(item) => item.id}
           showsVerticalScrollIndicator={false}

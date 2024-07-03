@@ -30,86 +30,114 @@ const EurMntEs = [
     {
         id: '5',
         img: require('../../../assets/NaturalMnt/Europe/Giant\'sCauseway.png'),
-        name: 'Giant\'s Causeway',
-        country: 'Ireland',
-        city: 'County Antrim'
+        name: 'Calzada del Gigante',
+        country: 'Irlanda',
+        // city: 'County Antrim'
+    },
+    {
+        id: '6a',
+        img: require('../../../assets/NaturalMnt/Europe/isleofSkye.jpg'),
+        name: 'Isla de Skye',
+        country: 'Escocia',
+        // city: 'Julian Alps'
     },
     {
         id: '6',
         img: require('../../../assets/NaturalMnt/Europe/lake-bled.png'),
-        name: 'Lake Bled',
-        country: 'Slovenia',
-        city: 'Julian Alps'
+        name: 'Lago de Bled',
+        country: 'Eslovenia',
+        // city: 'Julian Alps'
     },
     {
         id: '7',
         img: require('../../../assets/NaturalMnt/Europe/mount-elbrus.png'),
-        name: 'Mount Elbrus',
-        country: 'Russia',
-        city: 'North Caucasus'
+        name: 'Monte Elbrús',
+        country: 'Rusia',
+        // city: 'North Caucasus'
     },
     {
         id: '8',
         img: require('../../../assets/NaturalMnt/Europe/mountEtna.png'),
-        name: 'Mount Etnas',
-        country: 'Italy',
-        city: 'Sicily'
+        name: 'Monte Etna',
+        country: 'Italia',
+        // city: 'Sicily'
     },
     {
         id: '9',
         img: require('../../../assets/NaturalMnt/Europe/mountTeide.png'),
-        name: 'Mount Teide',
-        country: 'Spain',
+        name: 'Monte Teide',
+        country: 'España',
         city: 'Tenerife'
     },
     {
         id: '10',
         img: require('../../../assets/NaturalMnt/Europe/mount-vesuvius.png'),
-        name: 'Mount Vesuvius',
-        country: 'Italy',
-        city: 'Naples'
+        name: 'Monte Vesubio',
+        country: 'Italia',
+        city: 'Nápoles'
+    },
+    {
+        id: '10a',
+        img: require('../../../assets/NaturalMnt/Europe/Northern-Lights-Desktop-Wallpaper.jpg'),
+        name: 'Aurora polar',
+        country: 'Ζonas polares',
+        // city: 'Naples'
     },
     {
         id: '11',
         img: require('../../../assets/NaturalMnt/Europe/PicosdeEuropa.png'),
         name: 'Picos de Europa',
-        country: 'Spain',
-        city: 'Northern Spain'
+        country: 'España',
+        // city: 'Northern Spain'
     },
     {
         id: '12',
         img: require('../../../assets/NaturalMnt/Europe/Plitvice-lakes.png'),
-        name: 'Plitvice Lakes',
-        country: 'Croatia',
-        city: 'Karlovac County'
+        name: 'Lagos de Plitvice',
+        country: 'Croacia',
+        // city: 'Karlovac County'
     },
     {
         id: '13',
         img: require('../../../assets/NaturalMnt/Europe/pulpitRock.png'),
-        name: 'Pulpit Rock',
-        country: 'Norway',
-        city: '	Rogaland'
+        name: 'Púlpito',
+        country: 'Noruega',
+        // city: '	Rogaland'
+    },
+    {
+        id: '14a',
+        img: require('../../../assets/NaturalMnt/Europe/Santorini-Caldera.jpg'),
+        name: 'Caldera Santorini',
+        country: 'Grecia',
+        // city: 'South East England'
     },
     {
         id: '14',
         img: require('../../../assets/NaturalMnt/Europe/sevensisters.png'),
         name: 'Seven Sisters',
-        country: 'UK',
-        city: 'South East England'
+        country: 'Inglaterra',
+        // city: 'South East England'
     },
     {
         id: '15',
         img: require('../../../assets/NaturalMnt/Europe/skaftafell.png'),
-        name: 'Skaftafell Ice Cave',
-        country: 'Iceland',
-        city: 'South East'
+        name: 'Skaftafell',
+        country: 'Islandia',
+        // city: 'South East'
+    },
+    {
+        id: '16a',
+        img: require('../../../assets/NaturalMnt/Europe/swissapls.jpg'),
+        name: 'Alpes suizos',
+        country: 'Suiza',
+        // city: 'South East'
     },
     {
         id: '16',
         img: require('../../../assets/NaturalMnt/Europe/Trolltunga.png'),
         name: 'Trolltunga',
-        country: 'Norway',
-        city: 'Vestland county'
+        country: 'Noruega',
+        // city: 'Vestland county'
     }
 ]
 export default EurMntEs

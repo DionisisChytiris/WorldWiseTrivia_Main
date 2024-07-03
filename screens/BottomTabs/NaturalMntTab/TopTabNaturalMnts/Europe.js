@@ -7,13 +7,13 @@ import { Dimensions } from "react-native";
 import { styles } from "./styles";
 import { useSelector } from "react-redux";
 import LearnNaturalMntsItem from "./LearnNaturalMntsItem";
-import EurMntEn from "../../../../data/naturalMnts/TopTabMnts/EurMntEn";
+// import EurMntEn from "../../../../data/naturalMnts/TopTabMnts/EurMntEn";
 
 const width = Dimensions.get("window").width;
 const height = Dimensions.get("window").height;
 
 const Europe = () => {
-  const {MonEuItems} = useSelector((state)=> state.MonumentsEu)
+  const {NtrEurItems} = useSelector((state)=> state.NaturalEur)
   const { colors } = useTheme();
   const { t } = useTranslation();
 
@@ -39,7 +39,7 @@ const Europe = () => {
       >
         <FlashList
           // data={MonEuItems}
-          data={EurMntEn}
+          data={NtrEurItems}
           renderItem={renderItem}
           keyExtractor={(item) => item.id}
           showsVerticalScrollIndicator={false}

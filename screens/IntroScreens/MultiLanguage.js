@@ -85,6 +85,7 @@ import {
   quizCpt10En,
   quizCpt10Es,
 } from "../../ReduxSetUp/CapitalsQuizSlices";
+import { NtrAsiaEl, NtrAsiaEn, NtrAsiaEs, NtrEurEl, NtrEurEn, NtrEurEs, NtrAmerEl, NtrAmerEn, NtrAmerEs, NtrAfrEl, NtrAfrEn, NtrAfrEs, NtrOceaEl, NtrOceaEn, NtrOceaEs } from "../../ReduxSetUp/NaturalMntLearnSlices";
 
 const MultiLanguage = () => {
   const navigation = useNavigation();
@@ -124,6 +125,11 @@ const MultiLanguage = () => {
     dispatch(quizCpt8En());
     dispatch(quizCpt9En());
     dispatch(quizCpt10En());
+    dispatch(NtrEurEn())
+    dispatch(NtrAsiaEn())
+    dispatch(NtrAmerEn())
+    dispatch(NtrAfrEn())
+    dispatch(NtrOceaEn())
   };
   const Spanish = () => {
     setColor2("#4ddbdf");
@@ -155,6 +161,11 @@ const MultiLanguage = () => {
     dispatch(quizCpt8Es());
     dispatch(quizCpt9Es());
     dispatch(quizCpt10Es());
+    dispatch(NtrEurEs())
+    dispatch(NtrAsiaEs())
+    dispatch(NtrAmerEs())
+    dispatch(NtrAfrEs())
+    dispatch(NtrOceaEs())
   };
   const Greek = () => {
     setColor3("#4ddbdf");
@@ -186,6 +197,11 @@ const MultiLanguage = () => {
     dispatch(quizCpt8El());
     dispatch(quizCpt9El());
     dispatch(quizCpt10El());
+    dispatch(NtrEurEl())
+    dispatch(NtrAsiaEl())
+    dispatch(NtrAmerEl())
+    dispatch(NtrAfrEl())
+    dispatch(NtrOceaEl())
   };
 
   return (

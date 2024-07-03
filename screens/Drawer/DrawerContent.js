@@ -145,6 +145,7 @@ import {
   MonAsEn,
   MonAsEs,
 } from "../../ReduxSetUp/MonumentsLearnSlices";
+import { NtrAsiaEl, NtrAsiaEn, NtrAsiaEs, NtrEurEl, NtrEurEn, NtrEurEs, NtrAmerEl, NtrAmerEn, NtrAmerEs, NtrAfrEl, NtrAfrEn, NtrAfrEs, NtrOceaEl, NtrOceaEn, NtrOceaEs } from "../../ReduxSetUp/NaturalMntLearnSlices";
 import { Feather } from "@expo/vector-icons";
 import  {toggleBoolean} from '../../ReduxSetUp/SoundVibration/VibrationSlice.tsx'
 import { useAppSelector } from "../../ReduxSetUp/store";
@@ -239,6 +240,11 @@ const DrawerContent = (props) => {
     dispatch(quizMnt8En());
     dispatch(quizMnt9En());
     dispatch(quizMnt10En());
+    dispatch(NtrEurEn())
+    dispatch(NtrAsiaEn())
+    dispatch(NtrAmerEn())
+    dispatch(NtrAfrEn())
+    dispatch(NtrOceaEn())
   };
   const Spanish = () => {
     dispatch(flagsEs());
@@ -283,6 +289,11 @@ const DrawerContent = (props) => {
     dispatch(quizMnt8Es());
     dispatch(quizMnt9Es());
     dispatch(quizMnt10Es());
+    dispatch(NtrEurEs())
+    dispatch(NtrAsiaEs())
+    dispatch(NtrAmerEs())
+    dispatch(NtrAfrEs())
+    dispatch(NtrOceaEs())
   };
   const Greek = () => {
     dispatch(flagsEl());
@@ -328,6 +339,11 @@ const DrawerContent = (props) => {
     dispatch(quizMnt8El());
     dispatch(quizMnt9El());
     dispatch(quizMnt10El());
+    dispatch(NtrEurEl())
+    dispatch(NtrAsiaEl())
+    dispatch(NtrAmerEl())
+    dispatch(NtrAfrEl())
+    dispatch(NtrOceaEl())
   };
 
   return (

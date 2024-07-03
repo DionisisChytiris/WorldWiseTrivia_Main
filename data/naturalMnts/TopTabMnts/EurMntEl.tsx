@@ -30,86 +30,114 @@ const EurMntEl = [
     {
         id: '5',
         img: require('../../../assets/NaturalMnt/Europe/Giant\'sCauseway.png'),
-        name: 'Giant\'s Causeway',
-        country: 'Ireland',
-        city: 'County Antrim'
+        name: 'Ακτή του Γίγαντα',
+        country: 'Ιρλανδία',
+        // city: 'County Antrim'
+    },
+    {
+        id: '6a',
+        img: require('../../../assets/NaturalMnt/Europe/isleofSkye.jpg'),
+        name: 'Νήσος Σκάι',
+        country: 'Σκωτία',
+        // city: 'Julian Alps'
     },
     {
         id: '6',
         img: require('../../../assets/NaturalMnt/Europe/lake-bled.png'),
-        name: 'Lake Bled',
-        country: 'Slovenia',
-        city: 'Julian Alps'
+        name: 'Λίμνη Μπλεντ',
+        country: 'Σλοβενία',
+        // city: 'Julian Alps'
     },
     {
         id: '7',
         img: require('../../../assets/NaturalMnt/Europe/mount-elbrus.png'),
-        name: 'Mount Elbrus',
-        country: 'Russia',
-        city: 'North Caucasus'
+        name: 'Όρος Ελμπρούς',
+        country: 'Ρωσία',
+        // city: 'North Caucasus'
     },
     {
         id: '8',
         img: require('../../../assets/NaturalMnt/Europe/mountEtna.png'),
-        name: 'Mount Etnas',
-        country: 'Italy',
-        city: 'Sicily'
+        name: 'Όρος Αίτνα',
+        country: 'Iταλία',
+        city: 'Σικελία'
     },
     {
         id: '9',
         img: require('../../../assets/NaturalMnt/Europe/mountTeide.png'),
-        name: 'Mount Teide',
-        country: 'Spain',
-        city: 'Tenerife'
+        name: 'Όρος Τέιδε',
+        country: 'Ισπανία',
+        city: 'Τενερίφη'
     },
     {
         id: '10',
         img: require('../../../assets/NaturalMnt/Europe/mount-vesuvius.png'),
-        name: 'Mount Vesuvius',
-        country: 'Italy',
-        city: 'Naples'
+        name: 'Όρος Βεζούβιος',
+        country: 'Iταλία',
+        city: 'Nάπολη'
+    },
+    {
+        id: '10a',
+        img: require('../../../assets/NaturalMnt/Europe/Northern-Lights-Desktop-Wallpaper.jpg'),
+        name: 'Σέλας',
+        country: 'Βόρειος & Νότιος Πόλος',
+        // city: 'Naples'
     },
     {
         id: '11',
         img: require('../../../assets/NaturalMnt/Europe/PicosdeEuropa.png'),
-        name: 'Picos de Europa',
-        country: 'Spain',
-        city: 'Northern Spain'
+        name: 'Πίκος ντε Εουρόπα',
+        country: 'Βόρεια Ισπανία',
+        // city: 'Βόρεια '
     },
     {
         id: '12',
         img: require('../../../assets/NaturalMnt/Europe/Plitvice-lakes.png'),
-        name: 'Plitvice Lakes',
-        country: 'Croatia',
-        city: 'Karlovac County'
+        name: 'Λίμνες Πλίτβιτσε',
+        country: 'Κροατία',
+        // city: 'Karlovac County'
     },
     {
         id: '13',
         img: require('../../../assets/NaturalMnt/Europe/pulpitRock.png'),
-        name: 'Pulpit Rock',
-        country: 'Norway',
-        city: '	Rogaland'
+        name: 'Πέτρινος Αμβώνας',
+        country: 'Nορβηγία',
+        // city: '	Rogaland'
+    },
+    {
+        id: '14a',
+        img: require('../../../assets/NaturalMnt/Europe/Santorini-Caldera.jpg'),
+        name: 'Καλδέρα Σαντορίνης',
+        country: 'Eλλάδα',
+        // city: 'South East England'
     },
     {
         id: '14',
         img: require('../../../assets/NaturalMnt/Europe/sevensisters.png'),
-        name: 'Seven Sisters',
-        country: 'UK',
-        city: 'South East England'
+        name: 'Αποτόμες Ακτές του Seven Sisters',
+        country: 'Αγγλία',
+        // city: 'South East England'
     },
     {
         id: '15',
         img: require('../../../assets/NaturalMnt/Europe/skaftafell.png'),
-        name: 'Skaftafell Ice Cave',
-        country: 'Iceland',
-        city: 'South East'
+        name: 'Σκάφταφελ',
+        country: 'Iσλανδία',
+        // city: 'South East'
+    },
+    {
+        id: '16a',
+        img: require('../../../assets/NaturalMnt/Europe/swissapls.jpg'),
+        name: 'Ελβετικές Άλπεις',
+        country: 'Ελβετία',
+        // city: 'South East'
     },
     {
         id: '16',
         img: require('../../../assets/NaturalMnt/Europe/Trolltunga.png'),
-        name: 'Trolltunga',
-        country: 'Norway',
-        city: 'Vestland county'
+        name: 'Tρολτούγκα',
+        country: 'Nορβηγία',
+        // city: 'Vestla?nd county'
     }
 ]
 export default EurMntEl

@@ -13,7 +13,7 @@ const width = Dimensions.get("window").width;
 const height = Dimensions.get("window").height;
 
 const Oceania = () => {
-  const { MonOcnItems } = useSelector((state) => state.MonumentsOcn);
+  const { NtrOceaItems } = useSelector((state) => state.NaturalOcea);
   const { colors } = useTheme();
   const { t } = useTranslation();
 
@@ -39,7 +39,7 @@ const Oceania = () => {
         }}
       >
         <FlashList
-          data={OceaMntEn}
+          data={NtrOceaItems}
           renderItem={renderItem}
           keyExtractor={(item) => item.id}
           showsVerticalScrollIndicator={false}

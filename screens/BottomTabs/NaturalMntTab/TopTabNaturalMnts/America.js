@@ -13,7 +13,7 @@ const width = Dimensions.get("window").width;
 const height = Dimensions.get("window").height;
 
 const America = () => {
-  const { MonAmItems } = useSelector((state) => state.MonumentsAm);
+  const { NtrAmerItems } = useSelector((state) => state.NaturalAmer);
   const { colors } = useTheme();
   const { t } = useTranslation();
 
@@ -40,7 +40,7 @@ const America = () => {
         }}
       >
         <FlashList
-          data={AmerMntEn}
+          data={NtrAmerItems}
           renderItem={renderItem}
           keyExtractor={(item) => item.id}
           showsVerticalScrollIndicator={false}

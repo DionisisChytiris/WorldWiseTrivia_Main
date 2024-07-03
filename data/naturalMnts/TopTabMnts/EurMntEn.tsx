@@ -58,7 +58,7 @@ const EurMntEn = [
     {
         id: '8',
         img: require('../../../assets/NaturalMnt/Europe/mountEtna.png'),
-        name: 'Mount Etnas',
+        name: 'Mount Etna',
         country: 'Italy',
         // city: 'Sicily'
     },
@@ -79,8 +79,8 @@ const EurMntEn = [
     {
         id: '10a',
         img: require('../../../assets/NaturalMnt/Europe/Northern-Lights-Desktop-Wallpaper.jpg'),
-        name: 'Northern Lights',
-        country: '',
+        name: 'Northern Lights(Aurora)',
+        country: 'Near the Arctic and Antarctic',
         // city: 'Naples'
     },
     {
