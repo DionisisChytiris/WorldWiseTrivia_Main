@@ -15,7 +15,7 @@ const EurMntEs = [
     },
     {
         id: '3',
-        img: require('../../../assets/NaturalMnt/Europe/CliffsofMoher.png'),
+        img: require('../../../assets/NaturalMnt/Europe/CliffsofMoher.webp'),
         name: 'Acantilados de Moher',
         country: 'Irlanda',
         // city: 'County Clare'
@@ -71,7 +71,7 @@ const EurMntEs = [
     },
     {
         id: '10',
-        img: require('../../../assets/NaturalMnt/Europe/mount-vesuvius.png'),
+        img: require('../../../assets/NaturalMnt/Europe/mount-vesuvius.webp'),
         name: 'Monte Vesubio',
         country: 'Italia',
         city: 'Nápoles'

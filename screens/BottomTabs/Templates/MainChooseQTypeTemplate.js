@@ -1,5 +1,5 @@
 import { View, Text, Pressable, StyleSheet, Image } from "react-native";
-import React from "react";
+import React, { useState } from "react";
 import { useNavigation } from "@react-navigation/native";
 import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import { useSelector, useDispatch } from "react-redux";
@@ -19,6 +19,8 @@ const MainChooseQuizTypeTemplate = (props) => {
   const [scale1, setScale1] = React.useState(1);
   const [scale2, setScale2] = React.useState(1);
   const [scale3, setScale3] = React.useState(1);
+  const show = props.show
+
 
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
@@ -79,31 +81,34 @@ const MainChooseQuizTypeTemplate = (props) => {
           <Text style={{ color: colors.text }}>{t("4 WORDS")}</Text>
         </View>
       </Pressable>
-      <Pressable
-        onPressIn={() => setScale3(1.07)}
-        onPressOut={() => {
-          navigation.navigate(props.screen);
-          dispatch(statusGuess());
-          setScale3(1);
-        }}
-        style={[
-          styles.button,
-          { backgroundColor: colors.backgroundMaterialTopTab,transform: [{ scale: scale3 }], },
-        ]}
-      >
-        <View style={styles.imgView}>
-          <Image
-            source={require("../../../assets/more/guessWord.jpg")}
-            style={styles.img}
-            cover="contain"
-          />
-        </View>
-        <View style={{ flexDirection: "column", marginLeft: 20 }}>
-          <Text style={{ color: colors.text }}>{t("GUESS")}</Text>
-          <Text style={{ color: colors.text }}>{t("THE WORD")}</Text>
-        </View>
-      </Pressable>
-    </View>
+      {
+        show ?
+        <Pressable
+          onPressIn={() => setScale3(1.07)}
+          onPressOut={() => {
+            navigation.navigate(props.screen);
+            dispatch(statusGuess());
+            setScale3(1);
+          }}
+          style={[
+            styles.button,
+            { backgroundColor: colors.backgroundMaterialTopTab,transform: [{ scale: scale3 }], },
+          ]}
+        >
+          <View style={styles.imgView}>
+            <Image
+              source={require("../../../assets/more/guessWord.jpg")}
+              style={styles.img}
+              cover="contain"
+            />
+          </View>
+          <View style={{ flexDirection: "column", marginLeft: 20 }}>
+            <Text style={{ color: colors.text }}>{t("GUESS")}</Text>
+            <Text style={{ color: colors.text }}>{t("THE WORD")}</Text>
+          </View>
+        </Pressable>: null
+      }
+      </View>
   );
 };
 

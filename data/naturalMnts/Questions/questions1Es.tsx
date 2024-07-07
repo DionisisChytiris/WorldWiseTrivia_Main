@@ -32,8 +32,8 @@ const questions1Es = [
     {
       id: "1b",
       status: "Flags",
-      country: "Torre Eiffel ",
-      capital: "Francia",
+      country: "Parque nacional de Yellowstone",
+      capital: "EE.UU.",
       options: [
         {
           id: "0",

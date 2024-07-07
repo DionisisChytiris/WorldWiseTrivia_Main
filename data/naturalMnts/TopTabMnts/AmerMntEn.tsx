@@ -16,7 +16,7 @@ const AmerMntEn = [
     },
     {
         id: '3',
-        img: require('../../../assets/NaturalMnt/America/Antelope-Canyon.png'),
+        img: require('../../../assets/NaturalMnt/America/Antelope-Canyon.webp'),
         name: 'Antelope Canyon',
         country: 'USA',
         city: 'Arizona',
@@ -44,7 +44,7 @@ const AmerMntEn = [
     },
     {
         id: '7',
-        img: require('../../../assets/NaturalMnt/America/chadadaDiamantina.png'),
+        img: require('../../../assets/NaturalMnt/America/chadadaDiamantina.webp'),
         name: 'Chapada Diamantina National Park',
         country: 'Brazil',
         city: '',

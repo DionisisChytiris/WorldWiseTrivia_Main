@@ -64,7 +64,7 @@ const AsiaMntEs = [
     },
     {
         id: '10',
-        img: require('../../../assets/NaturalMnt/Asia/mountBromo.png'),
+        img: require('../../../assets/NaturalMnt/Asia/mountBromo.webp'),
         name: 'Monte Bromo',
         country: 'Indonesia',
         city: ''
@@ -119,6 +119,13 @@ const AsiaMntEs = [
         city: ''
     },
     {
+        id: '16a',
+        img: require('../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp'),
+        name: 'Underwater Waterfalls',
+        country: 'Mauritius',
+        city: ''
+    },
+    {
         id: '17',
         img: require('../../../assets/NaturalMnt/Asia/zhangjiajie-national-forest-park-china.png'),
         name: 'Zhangjiajie',
@@ -127,7 +134,7 @@ const AsiaMntEs = [
     },
     // {
     //     id: '17',
-    //     img: require('../../../assets/NaturalMnt/Asia/ZhangjiajieNationalForestPark.png'),
+    //     img: require('../../../assets/NaturalMnt/Asia/ZhangjiajieNationalForestPark.webp'),
     //     name: '',
     //     country: '',
     //     city: ''

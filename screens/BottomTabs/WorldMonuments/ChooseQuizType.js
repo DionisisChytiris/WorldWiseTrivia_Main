@@ -3,7 +3,7 @@ import MainChooseQuizTypeTemplate from '../Templates/MainChooseQTypeTemplate'
 
 const ChooseQuizType = () => {
   return (
-      <MainChooseQuizTypeTemplate screen='WorldMonumentsHome'/>  
+      <MainChooseQuizTypeTemplate screen='WorldMonumentsHome' />  
   )
 }
 

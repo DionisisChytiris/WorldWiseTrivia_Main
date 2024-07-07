@@ -35,6 +35,13 @@ const OceaMntEl = [
         city: ''
     },
     {
+        id: '5a',
+        img: require('../../../assets/NaturalMnt/Oceania/lake hilier.png'),
+        name: 'Lake Hillier',
+        country: 'Australia',
+        city: ''
+    },
+    {
         id: '6',
         img: require('../../../assets/NaturalMnt/Oceania/mountCook.png'),
         name: 'Όρος Κουκ',
@@ -50,7 +57,7 @@ const OceaMntEl = [
     },
     {
         id: '8',
-        img: require('../../../assets/NaturalMnt/Oceania/12-apostels.png'),
+        img: require('../../../assets/NaturalMnt/Oceania/12-apostels.webp'),
         name: 'Οι Δώδεκα Απόστολοι',
         country: 'Αυστραλία',
         city: ''

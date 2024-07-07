@@ -1,6 +1,7 @@
 import React from "react";
 import { useAppSelector } from "../../../../../ReduxSetUp/store";
 import QuizMainTemplate from "../../../Templates/MainQuizTemplate";
+import questions2En from '../../../../../data/naturalMnts/Questions/questions2En'
 
 const Quiz2 = () => {
   const { initStatus } = useAppSelector((state) => state.quizStatus);
@@ -9,7 +10,7 @@ const Quiz2 = () => {
   );
   return (
     <QuizMainTemplate
-      dataQuiz={quiz2ItemsMonuments}
+      dataQuiz={questions2En}
       quizName="2"
       results="ResultsMnt2"
       loseScreen='LoseScreen2'

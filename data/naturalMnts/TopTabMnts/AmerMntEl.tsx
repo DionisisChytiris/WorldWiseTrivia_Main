@@ -16,7 +16,7 @@ const AmerMntEl = [
     },
     {
         id: '3',
-        img: require('../../../assets/NaturalMnt/America/Antelope-Canyon.png'),
+        img: require('../../../assets/NaturalMnt/America/Antelope-Canyon.webp'),
         name: 'Φαράγγι Αντίλοπα',
         country: 'HΠΑ',
         city: 'Aριzόνα',
@@ -44,7 +44,7 @@ const AmerMntEl = [
     },
     {
         id: '7',
-        img: require('../../../assets/NaturalMnt/America/chadadaDiamantina.png'),
+        img: require('../../../assets/NaturalMnt/America/chadadaDiamantina.webp'),
         name: 'Διαμαντένια Πεδιάδα',
         country: 'Βραζιλία',
         city: '',

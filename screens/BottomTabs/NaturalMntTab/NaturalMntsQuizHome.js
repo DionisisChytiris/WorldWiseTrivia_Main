@@ -102,49 +102,49 @@ const NaturalMntsQuizHome = () => {
           <QuizTemplate
             quiz="Quiz1"
             title="1"
-            image={require("../../../assets/NaturalMnt/Africa/Victoria-Falls.png")}
+            image={require("../../../assets/NaturalMnt/Africa/Victoria-Falls.webp")}
           />
           <QuizTemplate
             quiz="Quiz3"
             title="3"
-            image={require("../../../assets/NaturalMnt/Asia/mountBromo.png")}
+            image={require("../../../assets/NaturalMnt/Asia/mountBromo.webp")}
           />
           <QuizTemplate
             quiz="Quiz5"
             title="5"
-            image={require("../../../assets/NaturalMnt/Europe/CliffsofMoher.png")}
+            image={require("../../../assets/NaturalMnt/Europe/CliffsofMoher.webp")}
           />
           <QuizTemplate
             quiz="Quiz7"
             title="7"
-            image={require("../../../assets/NaturalMnt/Oceania/12-apostels.png")}
+            image={require("../../../assets/NaturalMnt/Oceania/12-apostels.webp")}
           />
           <QuizTemplate
             quiz="Quiz9"
             title="9"
-            image={require("../../../assets/NaturalMnt/America/chadadaDiamantina.png")}
+            image={require("../../../assets/NaturalMnt/America/chadadaDiamantina.webp")}
           />
         </View>
         <View style={{ width: "50%", marginTop: 70, marginLeft: 20, gap: 20 }}>
           <QuizTemplate
             quiz="Quiz2"
             title="2"
-            image={require("../../../assets/NaturalMnt/Africa/Kilimanjaro.png")}
+            image={require("../../../assets/NaturalMnt/Africa/Kilimanjaro.webp")}
           />
           <QuizTemplate
             quiz="Quiz4"
             title="4"
-            image={require("../../../assets/NaturalMnt/America/Antelope-Canyon.png")}
+            image={require("../../../assets/NaturalMnt/America/Antelope-Canyon.webp")}
           />
           <QuizTemplate
             quiz="Quiz6"
             title="6"
-            image={require("../../../assets/NaturalMnt/Asia/ZhangjiajieNationalForestPark.png")}
+            image={require("../../../assets/NaturalMnt/Asia/ZhangjiajieNationalForestPark.webp")}
           />
           <QuizTemplate
             quiz="Quiz8"
             title="8"
-            image={require("../../../assets/NaturalMnt/Europe/mount-vesuvius.png")}
+            image={require("../../../assets/NaturalMnt/Europe/mount-vesuvius.webp")}
           />
           <QuizTemplate
             quiz="Quiz10"

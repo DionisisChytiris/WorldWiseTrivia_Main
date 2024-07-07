@@ -15,7 +15,7 @@ const EurMntEl = [
     },
     {
         id: '3',
-        img: require('../../../assets/NaturalMnt/Europe/CliffsofMoher.png'),
+        img: require('../../../assets/NaturalMnt/Europe/CliffsofMoher.webp'),
         name: 'Αποτόμες Ακτές του Μόχερ',
         country: 'Ιρλανδία',
         // city: 'County Clare'
@@ -71,7 +71,7 @@ const EurMntEl = [
     },
     {
         id: '10',
-        img: require('../../../assets/NaturalMnt/Europe/mount-vesuvius.png'),
+        img: require('../../../assets/NaturalMnt/Europe/mount-vesuvius.webp'),
         name: 'Όρος Βεζούβιος',
         country: 'Iταλία',
         city: 'Nάπολη'
