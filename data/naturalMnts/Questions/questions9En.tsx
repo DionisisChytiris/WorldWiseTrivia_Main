@@ -62,27 +62,27 @@ const questions9En = [
           id: "2a",
           status: "Capitals",
           img: 'L',
-          country: "Hong Kong",
-          image: require("../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.png"),
+          country: "USA",
+          image: require("../../../assets/NaturalMnt/America/yosemite-national-park.webp"),
           options: [
             {
               id: "0",
-              capital: 'Temple\nof Isis',
-              country: 'Egypt'
+              capital: 'Yellowstone National Park',
+              country: 'USA'
             },
             {
               id: "1",
-              capital: 'Temples\nof Bagan',
-              country: 'Myanmar'
+              capital: 'Serengeti National Park',
+              country: 'Tanzania'
             },
             {
               id: "2",
-              capital: 'The Big\nBuddha',
-              country: 'Hong Kong'
+              capital: 'Yosemite National Park',
+              country: 'USA'
             },
             {
               id: "3",
-              capital: 'Great Sphinx\nof Giza',
+              capital: 'White Desert National park',
               country: 'Egypt'
             },
           ],
@@ -91,28 +91,28 @@ const questions9En = [
         {
           id: "2b",
           status: "Flags",
-          country: "The Big Buddha",
-          capital: "Hong Kong",
+          country: "Yosemite National Park",
+          capital: "USA",
           options: [
             {
               id: "0",
-              country: "Entrance of Luxor Temple\nEgypt",
-              img: require("../../../assets/WorldMonuments/Africa/Entrance-of-Luxor-Temple-Egypt.jpg"),
+              country: "Yellowstone National Park\nUSA",
+              img: require("../../../assets/NaturalMnt/America/yellowstone.webp"),
             },
             {
               id: "1",
-              country: "Great Sphinx of Giza\nEgypt",
-              img: require("../../../assets/WorldMonuments/Africa/sphinx.png"),
+              country: "White Desert National park\nEgypt",
+              img: require("../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp"),
             },
             {
               id: "2",
-              country: "The Big Buddha\nHong Kong",
-              img: require("../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.png"),
+              country: "Yosemite National Park\nUSA",
+              img: require("../../../assets/NaturalMnt/America/yosemite-national-park.webp"),
             },
             {
               id: "3",
-              country: "Temples of Bagan\nMyanmar",
-              img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.png"),
+              country: "Serengeti National Park\nTanzania",
+              img: require("../../../assets/NaturalMnt/Africa/serengeti-national-park.webp"),
             },
           ],
           correctAnswerIndex: 2,
@@ -121,28 +121,28 @@ const questions9En = [
           id: "3a",
           status: "Capitals",
           img: 'L',
-          country: "Mexico",
-          image: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png"),
+          country: "Ethiopia",
+          image: require("../../../assets/NaturalMnt/Africa/The Danakil DepressionEthiopia.webp"),
           options: [
             {
               id: "0",
-              capital: 'Duomo\ndi Milan',
-              country: 'Italy'
+              capital: 'Okavango Delta',
+              country: 'Botswana'
             },
             {
               id: "1",
-              capital: 'Mexico City\nCathedral',
-              country: 'Mexico'
+              capital: 'Danakil Depression',
+              country: 'Ethiopia'
             },
             {
               id: "2",
-              capital: 'Notre Dame',
-              country: 'France'
+              capital: 'Sahara Desert',
+              country: 'North Africa'
             },
             {
               id: "3",
-              capital: 'Florence\nCathedral',
-              country: 'Italy'
+              capital: 'Sossusvlei',
+              country: 'Namibia'
             },
           ],
           correctAnswerIndex: 1,
@@ -150,28 +150,28 @@ const questions9En = [
         {
           id: "3b",
           status: "Flags",
-          country: "Mexico City Cathedral",
-          capital: "Mexico",
+          country: "Danakil Depression",
+          capital: "Ethiopia",
           options: [
             {
               id: "0",
-              country: "Duomo di Milan\nItaly",
-              img: require("../../../assets/WorldMonuments/Europe/cathedralMilan.png"),
+              country: "Okavango Delta\nBotswana",
+              img: require("../../../assets/NaturalMnt/Africa/Botswana_Okavango_Delta.webp"),
             },
             {
               id: "1",
-              country: "Mexico City Cathedral\nMexico",
-              img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png"),
+              country: "Danakil Depression\nEthiopia",
+              img: require("../../../assets/NaturalMnt/Africa/The Danakil DepressionEthiopia.webp"),
             },
             {
               id: "2",
-              country: "Florence Cathedral\nItaly",
-              img: require("../../../assets/WorldMonuments/Europe/duomo-florence.png"),
+              country: "Sossusvlei\nNamibia",
+              img: require("../../../assets/NaturalMnt/Africa/Sossusvlei-Dunes.webp"),
             },
             {
               id: "3",
-              country: "Notre Dame\nFrance",
-              img: require("../../../assets/WorldMonuments/Europe/notreDame.png"),
+              country: "Sahara Desert\nNorth Africa",
+              img: require("../../../assets/NaturalMnt/Africa/Sahara-Desert.webp"),
             },
           ],
           correctAnswerIndex: 1,
