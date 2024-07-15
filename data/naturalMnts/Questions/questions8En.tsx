@@ -3,28 +3,28 @@ const questions8En = [
       id: "1a",
       status: "Capitals",
       img: 'L',
-      country: "Egypt",
-      image: require("../../../assets/WorldMonuments/Africa/temple_isis-Aswan.png"),
+      country: "French Polynesia",
+      image: require("../../../assets/NaturalMnt/Asia/bora_bora.webp"),
       options: [
         {
           id: "0",
-          capital: 'Knossos',
-          country: 'Greece'
+          capital: 'Halong Bay',
+          country: 'Vietnam'
         },
         {
           id: "1",
-          capital: 'Medina of\nMarrakech',
-          country: 'Morocco'
+          capital: 'Huanglong Scenic Area',
+          country: 'China'
         },
         {
           id: "2",
-          capital: 'Great Pyramid\nof Giza',
-          country: 'Egypt'
+          capital: 'Great Barrier Reef',
+          country: 'Australia'
         },
         {
           id: "3",
-          capital: 'Temple\nof Isis',
-          country: 'Egypt'
+          capital: 'Bora Bora',
+          country: 'French Polynesia'
         },
       ],
       correctAnswerIndex: 3,
@@ -32,28 +32,28 @@ const questions8En = [
     {
         id: "1b",
         status: "Flags",
-        country: "Temple of Isis",
-        capital: "Egypt",
+        country: "Bora Bora",
+        capital: "French Polynesia",
         options: [
           {
             id: "0",
-            name: "Knossos\nGreece",
-            img: require("../../../assets/WorldMonuments/Europe/knossos.png"),
+            name: "Halong Bay\nVietnam",
+            img: require("../../../assets/NaturalMnt/Asia/halongbay-0.png"),
           },
           {
             id: "1",
-            name: "Great Pyramid of Giza\nEgypt",
-            img: require("../../../assets/WorldMonuments/Africa/Pyramids.png"),
+            name: "Great Barrier Reef\nAustralia",
+            img: require("../../../assets/NaturalMnt/Oceania/greatBarrierReef.webp"),
           },
           {
             id: "2",
-            name: "Medina of Marrakech\nMorocco",
-            img: require("../../../assets/WorldMonuments/Africa/medina-marrakech.png"),
+            name: "Huanglong Scenic Area\nChina",
+            img: require("../../../assets/NaturalMnt/Asia/huanglongScenicArea.webp"),
           },
           {
             id: "3",
-            name: "Temple of Isis\nEgypt",
-            img: require("../../../assets/WorldMonuments/Africa/temple_isis-Aswan.png"),
+            name: "Bora Bora\nFrench Polynesia",
+            img: require("../../../assets/NaturalMnt/Asia/bora_bora.webp"),
           },
         ],
         correctAnswerIndex: 3,
@@ -62,28 +62,28 @@ const questions8En = [
         id: "2a",
         status: "Capitals",
         img: 'L',
-        country: "Panama",
-        image: require("../../../assets/WorldMonuments/America/PanamaCanal.png"),
+        country: "Kazakhstan",
+        image: require("../../../assets/NaturalMnt/Asia/charynCanyon.webp"),
         options: [
           {
             id: "0",
-            capital: 'Alcatraz\nIsland',
+            capital: 'Antelope Canyon',
             country: 'USA'
           },
           {
             id: "1",
-            capital: 'Panama\nCanal',
-            country: 'Panama'
+            capital: 'Charyn Canyon',
+            country: 'Kazakhstan'
           },
           {
             id: "2",
-            capital: 'Great Ocean\nRoad',
+            capital: 'Great Ocean Road',
             country: 'Australia'
           },
           {
             id: "3",
-            capital: 'Tulum',
-            country: 'Mexico'
+            capital: 'Ayers Rock',
+            country: 'Australia'
           },
         ],
         correctAnswerIndex: 1,
@@ -91,18 +91,18 @@ const questions8En = [
       {
         id: "2b",
         status: "Flags",
-        country: "Panama Canal",
-        capital: "Panama",
+        country: "Charyn Canyon",
+        capital: "Kazakhstan",
         options: [
           {
             id: "0",
-            name: "Alcatraz Island\nUSA",
-            img: require("../../../assets/WorldMonuments/USA/alcatraz.png"),
+            name: "Antelope Canyon\nUSA",
+            img: require("../../../assets/NaturalMnt/America/Antelope-Canyon.webp"),
           },
           {
             id: "1",
-            name: "Panama Canal\nPanama",
-            img: require("../../../assets/WorldMonuments/America/PanamaCanal.png"),
+            name: "Charyn Canyon\nKazakhstan",
+            img: require("../../../assets/NaturalMnt/Asia/charynCanyon.webp"),
           },
           {
             id: "2",
@@ -111,8 +111,8 @@ const questions8En = [
           },
           {
             id: "3",
-            name: "Tulum\nMexico",
-            img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
+            name: "Ayers Rock\nAustralia",
+            img: require("../../../assets/NaturalMnt/Oceania/Ayers-Rock.webp"),
           },
         ],
         correctAnswerIndex: 1,
@@ -121,28 +121,28 @@ const questions8En = [
         id: "3a",
         status: "Capitals",
         img: 'L',
-        country: "France",
-        image: require("../../../assets/WorldMonuments/Europe/AmpitheatreofArles.png"),
+        country: "China",
+        image: require("../../../assets/NaturalMnt/Asia/Jiuzhaigou-Valley.webp"),
         options: [
           {
             id: "0",
-            capital: 'Leaning\nTower of Pisa',
-            country: 'Italy'
+            capital: 'Mount Everest',
+            country: 'Nepal/China'
           },
           {
             id: "1",
-            capital: 'Mont \nSaint Michel',
-            country: 'France'
+            capital: 'Pamukkale',
+            country: 'Turkey'
           },
           {
             id: "2",
-            capital: 'Amphitheatre\nof Arles',
-            country: 'France'
+            capital: 'Jiuzhaigou Valley',
+            country: 'China'
           },
           {
             id: "3",
-            capital: 'Colosseum',
-            country: 'Italy'
+            capital: 'Mount Huang',
+            country: 'China'
           },
         ],
         correctAnswerIndex: 2,
@@ -150,28 +150,28 @@ const questions8En = [
       {
         id: "3b",
         status: "Flags",
-        country: "Amphitheatre of Arles",
-        capital: "France",
+        country: "Jiuzhaigou Valley",
+        capital: "China",
         options: [
           {
             id: "0",
-            name: "Colosseum\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/colosseum.png"),
+            name: "Mount Huang\nChina",
+            img: require("../../../assets/NaturalMnt/Asia/mountHuangshan.webp"),
           },
           {
             id: "1",
-            name: "Mont Saint Michel\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
+            name: "Pamukkale\nTurkey",
+            img: require("../../../assets/NaturalMnt/Asia/Pamukkale.webp"),
           },
           {
             id: "2",
-            name: "Arles Amphitheatre\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/AmpitheatreofArles.png"),
+            name: "Jiuzhaigou Valley\nChina",
+            img: require("../../../assets/NaturalMnt/Asia/Jiuzhaigou-Valley.webp"),
           },
           {
             id: "3",
-            name: "Leaning Tower of Pisa\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+            name: "Mount Everest\nNepal/China",
+            img: require("../../../assets/NaturalMnt/Asia/Mount-Everest.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -180,28 +180,28 @@ const questions8En = [
         id: "4a",
         status: "Capitals",
         img: 'L',
-        country: "Belgium",
-        image: require("../../../assets/WorldMonuments/Europe/Atomium.png"),
+        country: "China",
+        image: require("../../../assets/NaturalMnt/Asia/mountHuangshan.webp"),
         options: [
           {
             id: "0",
-            capital: 'Atomium',
-            country: 'Belgium'
+            capital: 'Mount Huang',
+            country: 'China'
           },
           {
             id: "1",
-            capital: 'Little\nMermaid Statue',
-            country: 'Denmark'
+            capital: 'Mount Kinabalu',
+            country: 'Malaysia'
           },
           {
             id: "2",
-            capital: 'Cloud Gate',
+            capital: 'Arches National Park',
             country: 'USA'
           },
           {
             id: "3",
-            capital: 'Big Ben',
-            country: 'UK'
+            capital: 'Cappadocia',
+            country: 'Turkey'
           },
         ],
         correctAnswerIndex: 0,
@@ -209,28 +209,28 @@ const questions8En = [
       {
         id: "4b",
         status: "Flags",
-        country: "Atomium",
-        capital: "Belgium",
+        country: "Mount Huang",
+        capital: "China",
         options: [
           {
             id: "0",
-            name: "Atomium\nBelgium",
-            img: require("../../../assets/WorldMonuments/Europe/Atomium.png"),
+            name: "Mount Huang\nChina",
+            img: require("../../../assets/NaturalMnt/Asia/mountHuangshan.webp"),
           },
           {
             id: "1",
-            name: "Little Mermaid Statue\nDenmark",
-            img: require("../../../assets/WorldMonuments/Europe/Little-mermaid-statue.png"),
+            name: "Mount Kinabalu\nMalaysia",
+            img: require("../../../assets/NaturalMnt/Asia/MountKinabalu.webp"),
           },
           {
             id: "2",
-            name: "Cloud Gate\nUSA",
-            img: require("../../../assets/WorldMonuments/USA/cloud-gate-chicago.png"),
+            name: "Arches National Park\nUSA",
+            img: require("../../../assets/NaturalMnt/America/Arches-National-Park.webp"),
           },
           {
             id: "3",
-            name: "Merlion Singapore\nSingapore",
-            img: require("../../../assets/WorldMonuments/Asia/merlion_singapore.png"),
+            name: "Cappadocia\nTurkey",
+            img: require("../../../assets/NaturalMnt/Asia/Cappadocia-valley.webp"),
           },
         ],
         correctAnswerIndex: 0
@@ -239,28 +239,28 @@ const questions8En = [
         id: "5a",
         status: "Capitals",
         img: 'L',
-        country: "France",
-        image: require("../../../assets/WorldMonuments/Europe/sainte-Chapelle.png"),
+        country: "French Polynesia",
+        image: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
         options: [
           {
             id: "0",
-            capital: 'Sistine Chapel',
-            country: 'Vatican City'
+            capital: 'Crooked Forest',
+            country: 'Poland'
           },
           {
             id: "1",
-            capital: 'Louvre\nMuseum',
-            country: 'France'
+            capital: 'Dead Sea',
+            country: 'Jordan/Israel/West Bank'
           },
           {
             id: "2",
-            capital: 'Sainte Chapelle',
-            country: 'France'
+            capital: 'Mount Otemanu',
+            country: 'French Polynesia'
           },
           {
             id: "3",
-            capital: 'Notre Dame',
-            country: 'France'
+            capital: 'Gobi Desert',
+            country: 'China/Mongolia'
           },
         ],
         correctAnswerIndex: 2,
@@ -268,28 +268,28 @@ const questions8En = [
       {
         id: "5b",
         status: "Flags",
-        country: "Sainte Chapelle",
-        capital: "France",
+        country: "Mount Otemanu",
+        capital: "French Polynesia",
         options: [
           {
             id: "0",
-            name: "Sistine Chapel\nVatican City",
-            img: require("../../../assets/WorldMonuments/Europe/sistineChapel.png"),
+            name: "Crooked Forest\nPoland",
+            img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
           },
           {
             id: "1",
-            name: "Louvre Museum\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/LouvreMuseum.png"),
+            name: "Dead Sea\nJordan/Israel/West Bank",
+            img: require("../../../assets/NaturalMnt/Asia/DeadSea.jpg"),
           },
           {
             id: "2",
-            name: "Sainte Chapelle\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/sainte-Chapelle.png"),
+            name: "Mount Otemanu\nFrench Polynesia",
+            img: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
           },
           {
             id: "3",
-            name: "Notre Dame\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/notreDame.png"),
+            name: "Gobi Desert\nChina/Mongolia",
+            img: require("../../../assets/NaturalMnt/Asia/Winter-GobiDesert.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -298,22 +298,22 @@ const questions8En = [
         id: "6a",
         status: "Capitals",
         img: 'L',
-        country: "Easter Island",
-        image: require("../../../assets/WorldMonuments/Asia/easterIsland.png"),
+        country: "Turkey",
+        image: require("../../../assets/NaturalMnt/Asia/Pamukkale.webp"),
         options: [
           {
             id: "0",
-            capital: 'Stonehenge',
-            country: 'UK'
+            capital: 'Underwater Waterfalls',
+            country: 'Mauritius'
           },
           {
             id: "1",
-            capital: 'Moai Statues',
-            country: 'Easter Island'
+            capital: 'Pamukkale',
+            country: 'Turkey'
           },
           {
             id: "2",
-            capital: 'Ruins \nof Pompeii',
+            capital: 'Mount Vesuvius',
             country: 'Italy'
           },
           {
@@ -327,23 +327,23 @@ const questions8En = [
       {
         id: "6b",
         status: "Flags",
-        country: "Moai Statues",
-        capital: "Easter Island",
+        country: "Pamukkale",
+        capital: "Turkey",
         options: [
           {
             id: "0",
-            name: "Stonehedge\nUK",
-            img: require("../../../assets/WorldMonuments/Europe/stonehenge.png"),
+            name: "Underwater Waterfalls\nMauritius",
+            img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
           },
           {
             id: "1",
-            name: "Moai Statues\nEaster Island",
-            img: require("../../../assets/WorldMonuments/Asia/easterIsland.png"),
+            name: "Pamukkale\nTurkey",
+            img: require("../../../assets/NaturalMnt/Asia/Pamukkale.webp"),
           },
           {
             id: "2",
-            name: "Ruins of Pompeii\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.png"),
+            name: "Mount Vesuvius\nItaly",
+            img: require("../../../assets/NaturalMnt/Europe/mount-vesuvius.webp"),
           },
           {
             id: "3",
@@ -357,28 +357,28 @@ const questions8En = [
         id: "7a",
         status: "Capitals",
         img: 'L',
-        country: "Russia",
-        image: require("../../../assets/WorldMonuments/Europe/stPetersburg.png"),
+        country: "China/Mongolia",
+        image: require("../../../assets/NaturalMnt/Asia/Winter-GobiDesert.webp"),
         options: [
           {
             id: "0",
-            capital: 'Duomo\ndi Milan',
+            capital: 'Mount Etna',
             country: 'Italy'
           },
           {
             id: "1",
-            capital: 'Mexico city\nCathedral',
-            country: 'Mexico'
+            capital: 'Kakadu National Park',
+            country: 'Australia'
           },
           {
             id: "2",
-            capital: 'Brandenburg\nGate',
-            country: 'Germany'
+            capital: 'The Twelve Apostles',
+            country: 'Australia'
           },
           {
             id: "3",
-            capital: 'Saviour on the\n Spilled Blood',
-            country: 'Russia'
+            capital: 'Gobi Desert',
+            country: 'China/Mongolia'
           },
         ],
         correctAnswerIndex: 3,
@@ -386,28 +386,28 @@ const questions8En = [
       {
         id: "7b",
         status: "Flags",
-        country: "Saviour on the Spilled Blood",
-        capital: "Russia",
+        country: "Gobi Desert",
+        capital: "China/Mongolia",
         options: [
           {
             id: "0",
-            name: "Duomo di Milan\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/cathedralMilan.png"),
+            name: "Mount Etna\nItaly",
+            img: require("../../../assets//NaturalMnt/Europe/mountEtna.webp"),
           },
           {
             id: "1",
-            name: "Brandenburg Gate\nGermany",
-            img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
+            name: "Kakadu National Park\nAustralia",
+            img: require("../../../assets/NaturalMnt/Oceania/Kakadu-National-Park.png"),
           },
           {
             id: "2",
-            name: "Mexico City Cathedral\nMexico",
-            img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png"),
+            name: "The Twelve Apostles\nAustralia",
+            img: require("../../../assets/NaturalMnt/Oceania/12-apostels.webp"),
           },
           {
             id: "3",
-            name: "Saviour on the \nSpilled Blood\nRussia",
-            img: require("../../../assets/WorldMonuments/Europe/stPetersburg.png"),
+            name: "Gobi Desert\nChina/Mongolia",
+            img: require("../../../assets//NaturalMnt/Asia/Winter-GobiDesert.webp"),
           },
         ],
         correctAnswerIndex: 3,
@@ -416,28 +416,28 @@ const questions8En = [
         id: "8a",
         status: "Capitals",
         img: 'L',
-        country: "Spain",
-        image: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png"),
+        country: "China",
+        image: require("../../../assets/NaturalMnt/Asia/zhangjiajie-national-forest-park-china.png"),
         options: [
           {
             id: "0",
-            capital: 'Louvre\nMuseum',
-            country: 'France'
+            capital: 'Wadi Rum',
+            country: 'Jordan'
           },
           {
             id: "1",
-            capital: 'Guggenheim\nMuseum',
-            country: 'Spain'
+            capital: 'Zhangjiajie',
+            country: 'China'
           },
           {
             id: "2",
-            capital: 'Registan',
-            country: 'Uzbekistan'
+            capital: 'Mount Kenya',
+            country: 'Kenya'
           },
           {
             id: "3",
-            capital: 'Space Needle',
-            country: 'USA'
+            capital: 'Nile',
+            country: 'Egypt'
           },
         ],
         correctAnswerIndex: 1,
@@ -445,28 +445,28 @@ const questions8En = [
       {
         id: "8b",
         status: "Flags",
-        country: "Guggenheim Museum Bilbao",
-        capital: "Spain",
+        country: "Zhangjiajie",
+        capital: "China",
         options: [
           {
             id: "0",
-            name: "Louvre Museum\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/LouvreMuseum.png"),
+            name: "Wadi Rum\nJordan",
+            img: require("../../../assets/NaturalMnt/Asia/wadi-rum.webp"),
           },
           {
             id: "1",
-            name: "Guggenheim Museum\nSpain",
-            img: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png"),
+            name: "Zhangjiajie\nChina",
+            img: require("../../../assets/NaturalMnt/Asia/zhangjiajie-national-forest-park-china.png"),
           },
           {
             id: "2",
-            name: "Space Needle\nUSA",
-            img: require("../../../assets/WorldMonuments/USA/spaceNeedle_Seattle.png"),
+            name: "Nile\nEgypt",
+            img: require("../../../assets/NaturalMnt/Africa/RiverNile.webp"),
           },
           {
             id: "3",
-            name: "Registan\nUzbekistan",
-            img: require("../../../assets/WorldMonuments/Asia/Registan.png"),
+            name: "Mount Kenya\nKenya",
+            img: require("../../../assets/NaturalMnt/Africa/mountKenya.webp"),
           },
         ],
         correctAnswerIndex: 1,
@@ -475,28 +475,28 @@ const questions8En = [
         id: "9a",
         status: "Capitals",
         img: 'L',
-        country: "Australia",
-        image: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.jpg"),
+        country: "USA",
+        image: require("../../../assets/NaturalMnt/America/mount rainier.webp"),
         options: [
           {
             id: "0",
-            capital: 'Golden\nGate Bridge',
-            country: 'USA'
+            capital: 'Niagara Falls',
+            country: 'USA/Canada'
           },
           {
             id: "1",
-            capital: 'Tulum',
-            country: 'Mexico'
+            capital: 'Rainbow Mountain',
+            country: 'Peru'
           },
           {
             id: "2",
-            capital: 'Gold Coast',
-            country: 'Australia'
+            capital: 'Mount Rainier',
+            country: 'USA'
           },
           {
             id: "3",
-            capital: 'Copacabana',
-            country: 'Brazil'
+            capital: 'Torres del Paine',
+            country: 'Chile'
           },
         ],
         correctAnswerIndex: 2,
@@ -504,28 +504,28 @@ const questions8En = [
       {
         id: "9b",
         status: "Flags",
-        country: "Gold Coast",
-        capital: "Australia",
+        country: "Mount Rainier",
+        capital: "USA",
         options: [
           {
             id: "0",
-            name: "Golden Gate Bridge\nUSA",
-            img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.png"),
+            name: "Niagara Falls\nUSA/Canada",
+            img: require("../../../assets/NaturalMnt/America/NiagaraFalls.webp"),
           },
           {
             id: "1",
-            name: "Tulum\nMexico",
-            img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
+            name: "Rainbow Mountain\nPeru",
+            img: require("../../../assets/NaturalMnt/America/rainbowMountain.webp"),
           },
           {
             id: "2",
-            name: "Gold Coast\nAustralia",
-            img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.png"),
+            name: "Mount Rainier\nUSA",
+            img: require("../../../assets/NaturalMnt/America/mount rainier.webp"),
           },
           {
             id: "3",
-            name: "Panama Canal\nPanama",
-            img: require("../../../assets/WorldMonuments/America/PanamaCanal.png"),
+            name: "Torres del Paine\nChile",
+            img: require("../../../assets/NaturalMnt/America/torres-del-paine.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -534,28 +534,28 @@ const questions8En = [
         id: "10a",
         status: "Capitals",
         img: 'L',
-        country: "Egypt",
-        image: require("../../../assets/WorldMonuments/Africa/mountsinai.jpg"),
+        country: "Bolivia",
+        image: require("../../../assets/NaturalMnt/America/SalardeUyuni.webp"),
         options: [
           {
             id: "0",
-            capital: 'St Catherine\'s \nMonastery',
-            country: 'Egypt'
+            capital: 'Salar de Uyuni',
+            country: 'Bolivia'
           },
           {
             id: "1",
-            capital: 'Aït\nBenhaddou',
-            country: 'Morocco'
+            capital: 'Blue Lagoon',
+            country: 'Iceland'
           },
           {
             id: "2",
-            capital: 'Alhambra',
-            country: 'Spain'
+            capital: 'Cliffs of Moher',
+            country: 'Ireland'
           },
           {
             id: "3",
-            capital: 'Cité de \nCarcassonne',
-            country: 'France'
+            capital: 'Isle of Skye',
+            country: 'Scotland'
           },
         ],
         correctAnswerIndex: 0,
@@ -563,28 +563,28 @@ const questions8En = [
       {
         id: "10b",
         status: "Flags",
-        country: "Saint Catherine's Monastery",
-        capital: "Egypt",
+        country: "Salar de Uyuni",
+        capital: "Bolivia",
         options: [
           {
             id: "0",
-            name: "Saint Catherine's Monastery\nEgypt",
-            img: require("../../../assets/WorldMonuments/Africa/mountsinai.jpg"),
+            name: "Salar de Uyuni\nBolivia",
+            img: require("../../../assets/NaturalMnt/America/SalardeUyuni.webp"),
           },
           {
             id: "1",
-            name: "Aït Benhaddou\nMorocco",
-            img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.png"),
+            name: "Blue Lagoon\nIceland",
+            img: require("../../../assets/NaturalMnt/Europe/BlueLagoon.webp"),
           },
           {
             id: "2",
-            name: "Cité de Carcassonne\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
+            name: "Cliffs of Moher\nIreland",
+            img: require("../../../assets/NaturalMnt/Europe/CliffsofMoher.webp"),
           },
           {
             id: "3",
-            name: "Tiger's Nest\nBhutan",
-            img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
+            name: "Isle of Skye\nScotland",
+            img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
           },
         ],
         correctAnswerIndex: 0,

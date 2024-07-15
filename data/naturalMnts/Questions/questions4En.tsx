@@ -38,17 +38,17 @@ const questions4En = [
         {
           id: "0",
           country: "Dettifoss Waterfall\nIceland",
-          img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.png"),
+          img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
         },
         {
           id: "1",
           country: "Banff National Park\nCanada",
-          img: require("../../../assets/NaturalMnt/America/BanffNationalPark.png"),
+          img: require("../../../assets/NaturalMnt/America/BanffNationalPark.webp"),
         },
         {
           id: "2",
           country: "Lake Titicaca\nBolivia/Peru",
-          img: require("../../../assets/NaturalMnt/America/lakeTiticaca.png"),
+          img: require("../../../assets/NaturalMnt/America/lakeTiticaca.webp"),
         },
         {
           id: "3",
@@ -63,7 +63,7 @@ const questions4En = [
       status: "Capitals",
       img: 'L',
       country: "USA",
-      image: require("../../../assets/NaturalMnt/America/TheNeedles.png"),
+      image: require("../../../assets/NaturalMnt/America/TheNeedles.webp"),
       options: [
         {
           id: "0",
@@ -97,22 +97,22 @@ const questions4En = [
         {
           id: "0",
           country: "Torres del Paine\nChile",
-          img: require("../../../assets/NaturalMnt/America/torres-del-paine.png"),
+          img: require("../../../assets/NaturalMnt/America/torres-del-paine.webp"),
         },
         {
           id: "1",
           country: "Yosemite National Park\nUSA",
-          img: require("../../../assets/NaturalMnt/America/yosemite-national-park.png"),
+          img: require("../../../assets/NaturalMnt/America/yosemite-national-park.webp"),
         },
         {
           id: "2",
           country: "The Needles\nUSA",
-          img: require("../../../assets/NaturalMnt/America/TheNeedles.png"),
+          img: require("../../../assets/NaturalMnt/America/TheNeedles.webp"),
         },
         {
           id: "3",
           country: "Pamukkale\nTurkey",
-          img: require("../../../assets/NaturalMnt/Asia/Pamukkale.png"),
+          img: require("../../../assets/NaturalMnt/Asia/Pamukkale.webp"),
         },
       ],
       correctAnswerIndex: 2,
@@ -122,7 +122,7 @@ const questions4En = [
       status: "Capitals",
       img: 'L',
       country: "Ecuador",
-      image: require("../../../assets/NaturalMnt/America/galapagosIslands.png"),
+      image: require("../../../assets/NaturalMnt/America/galapagosIslands.webp"),
       options: [
         {
           id: "0",
@@ -156,12 +156,12 @@ const questions4En = [
         {
           id: "0",
           country: "Galapagos Islands\nEcuador",
-          img: require("../../../assets/NaturalMnt/America/galapagosIslands.png"),
+          img: require("../../../assets/NaturalMnt/America/galapagosIslands.webp"),
         },
         {
           id: "1",
           country: "Bora Bora\nFrench Polynesia",
-          img: require("../../../assets/NaturalMnt/Asia/bora_bora.png"),
+          img: require("../../../assets/NaturalMnt/Asia/bora_bora.webp"),
         },
         {
           id: "2",
@@ -181,7 +181,7 @@ const questions4En = [
       status: "Capitals",
       img: 'L',
       country: "USA",
-      image: require("../../../assets/NaturalMnt/America/GreatSmokyMountains.png"),
+      image: require("../../../assets/NaturalMnt/America/GreatSmokyMountains.webp"),
       options: [
         {
           id: "0",
@@ -215,22 +215,22 @@ const questions4En = [
         {
           id: "0",
           country: "Black Forest",
-          img: require("../../../assets/NaturalMnt/Europe/blackForest.png"),
+          img: require("../../../assets/NaturalMnt/Europe/blackForest.webp"),
         },
         {
           id: "1",
           country: "Rainbow Mountains\nPeru",
-          img: require("../../../assets/NaturalMnt/America/rainbowMountain.png"),
+          img: require("../../../assets/NaturalMnt/America/rainbowMountain.webp"),
         },
         {
           id: "2",
           country: "Great Smoky Mountains",
-          img: require("../../../assets/NaturalMnt/America/GreatSmokyMountains.png"),
+          img: require("../../../assets/NaturalMnt/America/GreatSmokyMountains.webp"),
         },
         {
           id: "3",
           country: "Mount Yasur\nVanuatu",
-          img: require("../../../assets/NaturalMnt/Oceania/yasur_mount.png"),
+          img: require("../../../assets/NaturalMnt/Oceania/yasur_mount.webp"),
         },
       ],
       correctAnswerIndex: 2,
@@ -240,7 +240,7 @@ const questions4En = [
       status: "Capitals",
       img: 'L',
       country: "Ireland",
-      image: require("../../../assets/NaturalMnt/Europe/Giant'sCauseway.png"),
+      image: require("../../../assets/NaturalMnt/Europe/GiantsCauseway.webp"),
       options: [
         {
           id: "0",
@@ -274,12 +274,12 @@ const questions4En = [
         {
           id: "0",
           country: "Blue Lagoon\nIceland",
-          img: require("../../../assets/NaturalMnt/Europe/BlueLagoon.png"),
+          img: require("../../../assets/NaturalMnt/Europe/BlueLagoon.webp"),
         },
         {
           id: "1",
           country: "Giant\'s Causeway\nIreland",
-          img: require("../../../assets/NaturalMnt/Europe/Giant'sCauseway.png"),
+          img: require("../../../assets/NaturalMnt/Europe/GiantsCauseway.webp"),
         },
         {
           id: "2",
@@ -338,7 +338,7 @@ const questions4En = [
         {
           id: "1",
           country: "Blue Mountains\nAustralia",
-          img: require("../../../assets/NaturalMnt/Oceania/Australia-Blue-Mountains.png"),
+          img: require("../../../assets/NaturalMnt/Oceania/Australia-Blue-Mountains.webp"),
         },
         {
           id: "2",
@@ -348,7 +348,7 @@ const questions4En = [
         {
           id: "3",
           country: "Mount Ararat\nTurkey",
-          img: require("../../../assets/NaturalMnt/Asia/mountArarat.png"),
+          img: require("../../../assets/NaturalMnt/Asia/mountArarat.webp"),
         },
       ],
       correctAnswerIndex: 2,
@@ -358,7 +358,7 @@ const questions4En = [
       status: "Capitals",
       img: 'L',
       country: "Canada/USA",
-      image: require("../../../assets/NaturalMnt/America/NiagaraFalls.png"),
+      image: require("../../../assets/NaturalMnt/America/NiagaraFalls.webp"),
       options: [
         {
           id: "0",
@@ -392,22 +392,22 @@ const questions4En = [
         {
           id: "0",
           country: "Niagara Falls\nCanada/USA",
-          img: require("../../../assets/NaturalMnt/America/NiagaraFalls.png"),
+          img: require("../../../assets/NaturalMnt/America/NiagaraFalls.webp"),
         },
         {
           id: "1",
           country: "White Sands National Park\nUSA",
-          img: require("../../../assets/NaturalMnt/America/white-sandsNationalPark.png"),
+          img: require("../../../assets/NaturalMnt/America/white-sandsNationalPark.webp"),
         },
         {
           id: "2",
           country: "Mount Cook\nNew Zealand",
-          img: require("../../../assets/NaturalMnt/Oceania/mountCook.png"),
+          img: require("../../../assets/NaturalMnt/Oceania/mountcook.webp"),
         },
         {
           id: "3",
           country: "Mount Yasur\nVanuatu",
-          img: require("../../../assets/NaturalMnt/Oceania/yasur_mount.png"),
+          img: require("../../../assets/NaturalMnt/Oceania/yasur_mount.webp"),
         },
       ],
       correctAnswerIndex: 0,
@@ -417,7 +417,7 @@ const questions4En = [
       status: "Capitals",
       img: 'L',
       country: "Chile",
-      image: require("../../../assets/NaturalMnt/America/torres-del-paine.png"),
+      image: require("../../../assets/NaturalMnt/America/torres-del-paine.webp"),
       options: [
         {
           id: "0",
@@ -456,17 +456,17 @@ const questions4En = [
         {
           id: "1",
           country: "Pamukkale\nTurkey",
-          img: require("../../../assets/NaturalMnt/Asia/Pamukkale.png"),
+          img: require("../../../assets/NaturalMnt/Asia/Pamukkale.webp"),
         },
         {
           id: "2",
           country: "Torres de Paine\nChile",
-          img: require("../../../assets/NaturalMnt/America/torres-del-paine.png"),
+          img: require("../../../assets/NaturalMnt/America/torres-del-paine.webp"),
         },
         {
           id: "3",
           country: "Wadi Rum\nJordan",
-          img: require("../../../assets/NaturalMnt/Asia/wadi-rum.png"),
+          img: require("../../../assets/NaturalMnt/Asia/wadi-rum.webp"),
         },
       ],
       correctAnswerIndex: 2,
@@ -476,7 +476,7 @@ const questions4En = [
       status: "Capitals",
       img: 'L',
       country: "Spain",
-      image: require("../../../assets/NaturalMnt/Europe/mountTeide.png"),
+      image: require("../../../assets/NaturalMnt/Europe/mountTeide.webp"),
       options: [
         {
           id: "0",
@@ -510,22 +510,22 @@ const questions4En = [
         {
           id: "0",
           country: "Ayers Rock\nAustralia",
-          img: require("../../../assets/NaturalMnt/Oceania/Ayers-Rock.png"),
+          img: require("../../../assets/NaturalMnt/Oceania/Ayers-Rock.webp"),
         },
         {
           id: "1",
           country: "Fiordland National Park\nNew Zealand",
-          img: require("../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.png"),
+          img: require("../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp"),
         },
         {
           id: "2",
           country: "Kakadu National Park\nAustralia",
-          img: require("../../../assets/NaturalMnt/Oceania/Kakadu-National-Park.png"),
+          img: require("../../../assets/NaturalMnt/Oceania/kakadu.webp"),
         },
         {
           id: "3",
           country: "Mount Teide\nSpain",
-          img: require("../../../assets/NaturalMnt/Europe/mountTeide.png"),
+          img: require("../../../assets/NaturalMnt/Europe/mountTeide.webp"),
         },
       ],
       correctAnswerIndex: 3,
@@ -535,7 +535,7 @@ const questions4En = [
       status: "Capitals",
       img: 'L',
       country: "Slovenia",
-      image: require("../../../assets/NaturalMnt/Europe/lake-bled.png"),
+      image: require("../../../assets/NaturalMnt/Europe/lake-bled.webp"),
       options: [
         {
           id: "0",
@@ -569,17 +569,17 @@ const questions4En = [
         {
           id: "0",
           country: "Mount Elbrus\nRussia",
-          img: require("../../../assets/NaturalMnt/Europe/mount-elbrus.png"),
+          img: require("../../../assets/NaturalMnt/Europe/mount-elbrus.webp"),
         },
         {
           id: "1",
           country: "Lake Bled\nSlovenia",
-          img: require("../../../assets/NaturalMnt/Europe/lake-bled.png"),
+          img: require("../../../assets/NaturalMnt/Europe/lake-bled.webp"),
         },
         {
           id: "2",
           country: "Picos de Europa\nNorthern Spain",
-          img: require("../../../assets/NaturalMnt/Europe/PicosdeEuropa.png"),
+          img: require("../../../assets/NaturalMnt/Europe/PicosdeEuropa.webp"),
         },
         {
           id: "3",

@@ -3,28 +3,28 @@ const questions9En = [
       id: "1a",
       status: "Capitals",
       img: 'L',
-      country: "China",
-      image: require("../../../assets/WorldMonuments/Asia/temple-of-heaven-in-beijing.png"),
+      country: "USA",
+      image: require("../../../assets/NaturalMnt/America/white-sandsNationalPark.webp"),
       options: [
         {
           id: "0",
-          capital: 'Temple\nof Heaven',
-          country: 'China'
+          capital: 'White Sands National Park',
+          country: 'USA'
         },
         {
           id: "1",
-          capital: 'Mont\nSaint Michel',
-          country: 'France'
+          capital: 'Avenue of Baobabs',
+          country: 'Madagascar'
         },
         {
           id: "2",
-          capital: 'Forbidden\nCity',
-          country: 'China'
+          capital: 'Cape of Good HopeSouth Africa',
+          country: 'South Africa'
         },
         {
           id: "3",
-          capital: 'Tiger\'s Nest',
-          country: 'Bhutan'
+          capital: 'Mount Sinai',
+          country: 'Egypt'
         },
       ],
       correctAnswerIndex: 0,
@@ -32,28 +32,28 @@ const questions9En = [
       {
           id: "1b",
           status: "Flags",
-          country: "Temple of Heaven",
-          capital: "China",
+          country: "White Sands National Park",
+          capital: "USA",
           options: [
             {
               id: "0",
-              country: "Temple of Heaven\nChina",
-              img: require("../../../assets/WorldMonuments/Asia/temple-of-heaven-in-beijing.png"),
+              country: "White Sands National Park\nUSA",
+              img: require("../../../assets/NaturalMnt/America/white-sandsNationalPark.webp"),
             },
             {
               id: "1",
-              country: "Mont Saint Michel\nFrance",
-              img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
+              country: "Avenue of Baobabs\nMadagascar",
+              img: require("../../../assets/NaturalMnt/Africa/avenueofboababs.webp"),
             },
             {
               id: "2",
-              country: "Forbidden City\nChina",
-              img: require("../../../assets/WorldMonuments/Asia/forbidden-city.jpg"),
+              country: "Cape of Good Hope\nSouth Africa",
+              img: require("../../../assets/NaturalMnt/Africa/CapeofGoodHope.webp"),
             },
             {
               id: "3",
-              country: "Tiger's Nest\nBhutan",
-              img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
+              country: "Mount Sinai\nEgypt",
+              img: require("../../../assets/NaturalMnt/Africa/mountSinai.webp"),
             },
           ],
           correctAnswerIndex: 0,

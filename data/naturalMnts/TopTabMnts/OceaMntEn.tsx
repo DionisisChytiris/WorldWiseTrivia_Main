@@ -1,21 +1,21 @@
 const OceaMntEn = [
     {
-        id: '1',
-        img: require('../../../assets/NaturalMnt/Oceania/Australia-Blue-Mountains.png'),
-        name: 'Blue Mountains',
-        country: 'Australia',
-        city: ''
-    },
-    {
         id: '2',
-        img: require('../../../assets/NaturalMnt/Oceania/Ayers-Rock.png'),
+        img: require('../../../assets/NaturalMnt/Oceania/Ayers-Rock.webp'),
         name: 'Ayers Rock (Uluru)',
         country: 'Australia',
         city: ''
     },
     {
+        id: '1',
+        img: require('../../../assets/NaturalMnt/Oceania/Australia-Blue-Mountains.webp'),
+        name: 'Blue Mountains',
+        country: 'Australia',
+        city: ''
+    },
+    {
         id: '3',
-        img: require('../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.png'),
+        img: require('../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp'),
         name: 'Fiordland National Park',
         country: 'New Zealand',
         city: ''
@@ -29,28 +29,35 @@ const OceaMntEn = [
     },
     {
         id: '5',
-        img: require('../../../assets/NaturalMnt/Oceania/Kakadu-National-Park.png'),
+        img: require('../../../assets/NaturalMnt/Oceania/kakadu.webp'),
         name: 'Kakadu National Park',
         country: 'Australia',
         city: ''
     },
     {
         id: '5a',
-        img: require('../../../assets/NaturalMnt/Oceania/lake hilier.png'),
+        img: require('../../../assets/NaturalMnt/Oceania/lakehillier.webp'),
         name: 'Lake Hillier',
         country: 'Australia',
         city: ''
     },
     {
         id: '6',
-        img: require('../../../assets/NaturalMnt/Oceania/mountCook.png'),
+        img: require('../../../assets/NaturalMnt/Oceania/mountcook.webp'),
         name: 'Mount Cook',
         country: 'New Zealand',
         city: ''
     },
     {
+        id: '9',
+        img: require('../../../assets/NaturalMnt/Oceania/yasur_mount.webp'),
+        name: 'Mount Yasur',
+        country: 'Vanuatu',
+        city: ''
+    },
+    {
         id: '7',
-        img: require('../../../assets/NaturalMnt/Oceania/TheGreatOceanRoad.png'),
+        img: require('../../../assets/NaturalMnt/Oceania/oceanroad.webp'),
         name: 'The Great Ocean Road',
         country: 'Australia',
         city: ''
@@ -62,13 +69,7 @@ const OceaMntEn = [
         country: 'Australia',
         city: ''
     },
-    {
-        id: '9',
-        img: require('../../../assets/NaturalMnt/Oceania/yasur_mount.png'),
-        name: 'Mount Yasur',
-        country: 'Vanuatu',
-        city: ''
-    },
+  
   
 ]
 

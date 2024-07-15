@@ -2,15 +2,8 @@ const AfrMntEs = [
     {
         id: '1',
         img: require('../../../assets/NaturalMnt/Africa/avenueofboababs.webp'),
-        name: 'Avenue of Baobabs',
+        name: 'Avenida de los Baobabs',
         country: 'Madagascar',
-        city: '',
-    },
-    {
-        id: '1a',
-        img: require('../../../assets/NaturalMnt/Africa/Botswana_Okavango_Delta.webp'),
-        name: 'Delta del Okavango',
-        country: 'Botsuana',
         city: '',
     },
     {
@@ -21,19 +14,35 @@ const AfrMntEs = [
         city: '',
     },
     {
-        id: '3',
-        img: require('../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp'),
-        name: 'Parque Nacional del Desierto Blanco',
-        country: 'Egipto',
-        city: '',
-    },
-    {
         id: '4',
         img: require('../../../assets/NaturalMnt/Africa/kalandula-falls-angola.webp'),
         name: 'Cataratas de Kalandula',
         country: 'Angola',
         city: '',
     },
+    {
+        id: '14',
+        img: require('../../../assets/NaturalMnt/Africa/Victoria-Falls.webp'),
+        name: 'Cataratas Victoria',
+        country: 'Zimbabue/Zambia',
+        city: '',
+    },
+    {
+        id: '1a',
+        img: require('../../../assets/NaturalMnt/Africa/Botswana_Okavango_Delta.webp'),
+        name: 'Delta del Okavango',
+        country: 'Botsuana',
+        city: '',
+    },
+    {
+        id: '13',
+        img: require('../../../assets/NaturalMnt/Africa/The Danakil DepressionEthiopia.webp'),
+        name: 'Depresión de Danakil',
+        country: 'Etiopía',
+        city: '',
+    },
+   
+  
     {
         id: '5',
         img: require('../../../assets/NaturalMnt/Africa/Kilimanjaro.webp'),
@@ -63,12 +72,20 @@ const AfrMntEs = [
         city: '',
     },
     {
-        id: '8a',
-        img: require('../../../assets/NaturalMnt/Africa/Sahara-Desert.webp'),
-        name: 'Sahara Desert',
-        country: 'North Africa',
+        id: '3',
+        img: require('../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp'),
+        name: 'Parque Nacional del Desierto Blanco',
+        country: 'Egipto',
         city: '',
     },
+    {
+        id: '12',
+        img: require('../../../assets/NaturalMnt/Africa/table-mountain.webp'),
+        name: 'Parque Nacional de la Montaña de la Mesa',
+        country: 'Sudáfrica',
+        city: '',
+    },
+    
     // {
     //     id: '9',
     //     img: require('../../../assets/NaturalMnt/Africa/senegal-lac-rose-.png'),
@@ -84,33 +101,21 @@ const AfrMntEs = [
         city: '',
     },
     {
+        id: '8a',
+        img: require('../../../assets/NaturalMnt/Africa/Sahara-Desert.webp'),
+        name: 'Sahara Desert',
+        country: 'North Africa',
+        city: '',
+    },
+    {
         id: '11',
         img: require('../../../assets/NaturalMnt/Africa/Sossusvlei-Dunes.webp'),
         name: 'Sossusvlei',
         country: 'Namibia',
         city: '',
     },
-    {
-        id: '12',
-        img: require('../../../assets/NaturalMnt/Africa/table-mountain.webp'),
-        name: 'Parque Nacional de la Montaña de la Mesa',
-        country: 'Sudáfrica',
-        city: '',
-    },
-    {
-        id: '13',
-        img: require('../../../assets/NaturalMnt/Africa/The Danakil DepressionEthiopia.webp'),
-        name: 'Depresión de Danakil',
-        country: 'Etiopía',
-        city: '',
-    },
-    {
-        id: '14',
-        img: require('../../../assets/NaturalMnt/Africa/Victoria-Falls.webp'),
-        name: 'Cataratas Victoria',
-        country: 'Zimbabue/Zambia',
-        city: '',
-    },
+  
+ 
    
   
 ]

@@ -7,13 +7,6 @@ const AfrMntEn = [
         city: '',
     },
     {
-        id: '1a',
-        img: require('../../../assets/NaturalMnt/Africa/Botswana_Okavango_Delta.webp'),
-        name: 'Okavango Delta',
-        country: 'Botswana',
-        city: '',
-    },
-    {
         id: '2',
         img: require('../../../assets/NaturalMnt/Africa/CapeofGoodHope.webp'),
         name: 'Cape of Good Hope',
@@ -21,12 +14,13 @@ const AfrMntEn = [
         city: '',
     },
     {
-        id: '3',
-        img: require('../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp'),
-        name: 'White Desert National Park',
-        country: 'Egypt',
+        id: '13',
+        img: require('../../../assets/NaturalMnt/Africa/The Danakil DepressionEthiopia.webp'),
+        name: 'Danakil Depression',
+        country: 'Ethiopia',
         city: '',
     },
+   
     {
         id: '4',
         img: require('../../../assets/NaturalMnt/Africa/kalandula-falls-angola.webp'),
@@ -35,17 +29,17 @@ const AfrMntEn = [
         city: '',
     },
     {
-        id: '5',
-        img: require('../../../assets/NaturalMnt/Africa/Kilimanjaro.webp'),
-        name: 'Mount Kilimanjaro',
-        country: 'Tanzania',
-        city: '',
-    },
-    {
         id: '6',
         img: require('../../../assets/NaturalMnt/Africa/mountKenya.webp'),
         name: 'Mount Kenya',
         country: 'Kenya',
+        city: '',
+    },
+    {
+        id: '5',
+        img: require('../../../assets/NaturalMnt/Africa/Kilimanjaro.webp'),
+        name: 'Mount Kilimanjaro',
+        country: 'Tanzania',
         city: '',
     },
     {
@@ -60,6 +54,13 @@ const AfrMntEn = [
         img: require('../../../assets/NaturalMnt/Africa/RiverNile.webp'),
         name: 'Nile',
         country: 'Egypt',
+        city: '',
+    },
+    {
+        id: '1a',
+        img: require('../../../assets/NaturalMnt/Africa/Botswana_Okavango_Delta.webp'),
+        name: 'Okavango Delta',
+        country: 'Botswana',
         city: '',
     },
     {
@@ -97,18 +98,21 @@ const AfrMntEn = [
         country: 'South Africa',
         city: '',
     },
-    {
-        id: '13',
-        img: require('../../../assets/NaturalMnt/Africa/The Danakil DepressionEthiopia.webp'),
-        name: 'Danakil Depression',
-        country: 'Ethiopia',
-        city: '',
-    },
+   
     {
         id: '14',
         img: require('../../../assets/NaturalMnt/Africa/Victoria-Falls.webp'),
         name: 'Victoria Falls',
         country: 'Zimbabwe/Zambia',
+        city: '',
+    },
+  
+   
+    {
+        id: '3',
+        img: require('../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp'),
+        name: 'White Desert National Park',
+        country: 'Egypt',
         city: '',
     },
    

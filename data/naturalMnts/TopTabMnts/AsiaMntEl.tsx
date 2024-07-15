@@ -1,21 +1,21 @@
 const AsiaMntEl = [
     {
         id: '1',
-        img: require('../../../assets/NaturalMnt/Asia/bora_bora.png'),
+        img: require('../../../assets/NaturalMnt/Asia/bora_bora.webp'),
         name: 'Μπόρα Μπόρα',
         country: 'Γαλλική Πολυνησία',
         city: ''
     },
     {
         id: '2',
-        img: require('../../../assets/NaturalMnt/Asia/Cappadocia-valley.png'),
+        img: require('../../../assets/NaturalMnt/Asia/Cappadocia-valley.webp'),
         name: 'Καππαδοκία',
         country: 'Τουρκία',
         city: ''
     },
     {
         id: '3',
-        img: require('../../../assets/NaturalMnt/Asia/charynCanyon.png'),
+        img: require('../../../assets/NaturalMnt/Asia/charynCanyon.webp'),
         name: 'Φαράγγι Τσαρίν',
         country: 'Καζακστάν',
         city: ''
@@ -28,36 +28,43 @@ const AsiaMntEl = [
         city: ''
     },
     {
+        id: "3b",
+        img: require("../../../assets/NaturalMnt/Asia/DeadSea.jpg"),
+        name: "Dead Sea",
+        country: "Jordan/Israel/westBank",
+        // city: 'County Clare'
+      },
+    {
         id: '5',
-        img: require('../../../assets/NaturalMnt/Asia/huanglongScenicArea.png'),
+        img: require('../../../assets/NaturalMnt/Asia/huanglongScenicArea.webp'),
         name: 'Περιοχή Τοπίων Χουάνγκλονγκ',
         country: 'Κίνα',
         city: ''
     },
     {
         id: '6',
-        img: require('../../../assets/NaturalMnt/Asia/Jiuzhaigou-Valley.png'),
+        img: require('../../../assets/NaturalMnt/Asia/Jiuzhaigou-Valley.webp'),
         name: 'Κοιλάδα Jiuzhaigou',
         country: 'Κίνα',
         city: ''
     },
     {
         id: '7',
-        img: require('../../../assets/NaturalMnt/Asia/Mount-Everest.png'),
+        img: require('../../../assets/NaturalMnt/Asia/Mount-Everest.webp'),
         name: 'Όρος Έβερεστ',
         country: 'Νεπάλ/Κίνα',
         city: ''
     },
     {
         id: '8',
-        img: require('../../../assets/NaturalMnt/Asia/mount_fuji.png'),
+        img: require('../../../assets/NaturalMnt/Asia/mount_fuji.webp'),
         name: 'Όρος Φούτζι',
         country: 'Ιαπωνία',
         city: ''
     },
     {
         id: '9',
-        img: require('../../../assets/NaturalMnt/Asia/mountArarat.png'),
+        img: require('../../../assets/NaturalMnt/Asia/mountArarat.webp'),
         name: 'Όρος Άραρατ',
         country: 'Τουρκία',
         city: ''
@@ -78,14 +85,14 @@ const AsiaMntEl = [
     // },
     {
         id: '11',
-        img: require('../../../assets/NaturalMnt/Asia/mountHuangshan.png'),
+        img: require('../../../assets/NaturalMnt/Asia/mountHuangshan.webp'),
         name: 'Όρος Χουάνγκ',
         country: 'Κίνα',
         city: ''
     },
     {
         id: '12',
-        img: require('../../../assets/NaturalMnt/Asia/MountKinabalu.png'),
+        img: require('../../../assets/NaturalMnt/Asia/MountKinabalu.webp'),
         name: 'Όρος Κιναμπάλου',
         country: 'Μαλαισία',
         city: ''
@@ -99,21 +106,21 @@ const AsiaMntEl = [
     },
     {
         id: '14',
-        img: require('../../../assets/NaturalMnt/Asia/Pamukkale.png'),
+        img: require('../../../assets/NaturalMnt/Asia/Pamukkale.webp'),
         name: 'Παμούκαλε',
         country: 'Tουρκία',
         city: ''
     },
     {
         id: '15',
-        img: require('../../../assets/NaturalMnt/Asia/wadi-rum.png'),
+        img: require('../../../assets/NaturalMnt/Asia/wadi-rum.webp'),
         name: 'Ουάντι Ραμ',
         country: 'Ιορδανία',
         city: ''
     },
     {
         id: '16',
-        img: require('../../../assets/NaturalMnt/Asia/Winter-GobiDesert.png'),
+        img: require('../../../assets/NaturalMnt/Asia/Winter-GobiDesert.webp'),
         name: 'Έρημος Γκόμπι',
         country: 'Κίνα/Μογγολία',
         city: ''

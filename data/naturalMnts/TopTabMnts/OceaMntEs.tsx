@@ -1,21 +1,21 @@
 const OceaMntEs = [
     {
         id: '1',
-        img: require('../../../assets/NaturalMnt/Oceania/Australia-Blue-Mountains.png'),
+        img: require('../../../assets/NaturalMnt/Oceania/Australia-Blue-Mountains.webp'),
         name: 'Montañas Azules',
         country: 'Australia',
         city: ''
     },
     {
         id: '2',
-        img: require('../../../assets/NaturalMnt/Oceania/Ayers-Rock.png'),
+        img: require('../../../assets/NaturalMnt/Oceania/Ayers-Rock.webp'),
         name: 'Uluru',
         country: 'Australia',
         city: ''
     },
     {
         id: '3',
-        img: require('../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.png'),
+        img: require('../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp'),
         name: 'Parque Nacional de Fiordland',
         country: 'Nueva Zelanda',
         city: ''
@@ -29,28 +29,28 @@ const OceaMntEs = [
     },
     {
         id: '5',
-        img: require('../../../assets/NaturalMnt/Oceania/Kakadu-National-Park.png'),
+        img: require('../../../assets/NaturalMnt/Oceania/kakadu.webp'),
         name: 'Parque nacional Kakadu',
         country: 'Australia',
         city: ''
     },
     {
         id: '5a',
-        img: require('../../../assets/NaturalMnt/Oceania/lake hilier.png'),
+        img: require('../../../assets/NaturalMnt/Oceania/lakehillier.webp'),
         name: 'Lake Hillier',
         country: 'Australia',
         city: ''
     },
     {
         id: '6',
-        img: require('../../../assets/NaturalMnt/Oceania/mountCook.png'),
+        img: require('../../../assets/NaturalMnt/Oceania/mountcook.webp'),
         name: 'Monte Cook',
         country: 'Nueva Zelanda',
         city: ''
     },
     {
         id: '7',
-        img: require('../../../assets/NaturalMnt/Oceania/TheGreatOceanRoad.png'),
+        img: require('../../../assets/NaturalMnt/Oceania/oceanroad.webp'),
         name: 'Gran Carretera Oceánica',
         country: 'Australia',
         city: ''
@@ -64,7 +64,7 @@ const OceaMntEs = [
     },
     {
         id: '9',
-        img: require('../../../assets/NaturalMnt/Oceania/yasur_mount.png'),
+        img: require('../../../assets/NaturalMnt/Oceania/yasur_mount.webp'),
         name: 'Monte Yasur',
         country: 'Vanuatu',
         city: ''

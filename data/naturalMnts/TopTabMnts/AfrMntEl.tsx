@@ -1,11 +1,19 @@
 const AfrMntEl = [
     {
-        id: '1',
-        img: require('../../../assets/NaturalMnt/Africa/avenueofboababs.webp'),
-        name: 'Avenue of Baobabs',
-        country: 'Madagascar',
+        id: '2',
+        img: require('../../../assets/NaturalMnt/Africa/CapeofGoodHope.webp'),
+        name: 'Ακρωτήριο της Καλής Ελπίδας',
+        country: 'Νότια Αφρική',
         city: '',
     },
+    {
+        id: '13',
+        img: require('../../../assets/NaturalMnt/Africa/The Danakil DepressionEthiopia.webp'),
+        name: 'Βύθισμα Ντανακίλ',
+        country: 'Αιθιοπία',
+        city: '',
+    },
+   
     {
         id: '1a',
         img: require('../../../assets/NaturalMnt/Africa/Botswana_Okavango_Delta.webp'),
@@ -13,13 +21,7 @@ const AfrMntEl = [
         country: 'Μποτσουάνα',
         city: '',
     },
-    {
-        id: '2',
-        img: require('../../../assets/NaturalMnt/Africa/CapeofGoodHope.webp'),
-        name: 'Ακρωτήριο της Καλής Ελπίδας',
-        country: 'Νότια Αφρική',
-        city: '',
-    },
+   
     {
         id: '3',
         img: require('../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp'),
@@ -28,10 +30,52 @@ const AfrMntEl = [
         city: '',
     },
     {
+        id: '12',
+        img: require('../../../assets/NaturalMnt/Africa/table-mountain.webp'),
+        name: 'Εθνικό Πάρκο Όρος Τέιμπλ',
+        country: 'Νότια Αφρική',
+        city: '',
+    },
+    {
+        id: '10',
+        img: require('../../../assets/NaturalMnt/Africa/serengeti-national-park.webp'),
+        name: 'Εθνικό Πάρκο Σερενγκέτι',
+        country: 'Τανζανία',
+        city: '',
+    },
+    {
+        id: '8a',
+        img: require('../../../assets/NaturalMnt/Africa/Sahara-Desert.webp'),
+        name: 'Έρημος Σαχάρα',
+        country: 'Βόρεια Αφρική',
+        city: '',
+    },
+    {
+        id: '14',
+        img: require('../../../assets/NaturalMnt/Africa/Victoria-Falls.webp'),
+        name: 'Καταρράκτες του Βικτωρία',
+        country: 'Ζιμπάμπουε/Ζάμπια',
+        city: '',
+    },
+    {
         id: '4',
         img: require('../../../assets/NaturalMnt/Africa/kalandula-falls-angola.webp'),
         name: 'Καταρράκτες Καλαντούλα',
         country: 'Ανγκόλα',
+        city: '',
+    },
+    {
+        id: '1',
+        img: require('../../../assets/NaturalMnt/Africa/avenueofboababs.webp'),
+        name: 'Λεωφόρος των Μπαομπάμπ',
+        country: 'Mαδαγασκάρη',
+        city: '',
+    },
+    {
+        id: '8',
+        img: require('../../../assets/NaturalMnt/Africa/RiverNile.webp'),
+        name: 'Νείλος',
+        country: 'Αίγυπτος',
         city: '',
     },
     {
@@ -55,20 +99,8 @@ const AfrMntEl = [
         country: 'Αίγυπτος',
         city: '',
     },
-    {
-        id: '8',
-        img: require('../../../assets/NaturalMnt/Africa/RiverNile.webp'),
-        name: 'Νείλος',
-        country: 'Αίγυπτος',
-        city: '',
-    },
-    {
-        id: '8a',
-        img: require('../../../assets/NaturalMnt/Africa/Sahara-Desert.webp'),
-        name: 'Έρημος Σαχάρα',
-        country: 'Βόρεια Αφρική',
-        city: '',
-    },
+   
+   
     // {
     //     id: '9',
     //     img: require('../../../assets/NaturalMnt/Africa/senegal-lac-rose-.png'),
@@ -76,13 +108,7 @@ const AfrMntEl = [
     //     country: '',
     //     city: '',
     // },
-    {
-        id: '10',
-        img: require('../../../assets/NaturalMnt/Africa/serengeti-national-park.webp'),
-        name: 'Εθνικό Πάρκο Σερενγκέτι',
-        country: 'Τανζανία',
-        city: '',
-    },
+   
     {
         id: '11',
         img: require('../../../assets/NaturalMnt/Africa/Sossusvlei-Dunes.webp'),
@@ -90,27 +116,9 @@ const AfrMntEl = [
         country: 'Ναμίμπια',
         city: '',
     },
-    {
-        id: '12',
-        img: require('../../../assets/NaturalMnt/Africa/table-mountain.webp'),
-        name: 'Εθνικό Πάρκο Όρος Τέιμπλ',
-        country: 'Νότια Αφρική',
-        city: '',
-    },
-    {
-        id: '13',
-        img: require('../../../assets/NaturalMnt/Africa/The Danakil DepressionEthiopia.webp'),
-        name: 'Βύθισμα Ντανακίλ',
-        country: 'Αιθιοπία',
-        city: '',
-    },
-    {
-        id: '14',
-        img: require('../../../assets/NaturalMnt/Africa/Victoria-Falls.webp'),
-        name: 'Καταρράκτες του Βικτωρία',
-        country: 'Ζιμπάμπουε/Ζάμπια',
-        city: '',
-    },
+   
+    
+  
    
   
 ]

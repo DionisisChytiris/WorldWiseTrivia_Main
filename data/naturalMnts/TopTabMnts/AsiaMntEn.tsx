@@ -1,23 +1,37 @@
 const AsiaMntEn = [
     {
         id: '1',
-        img: require('../../../assets/NaturalMnt/Asia/bora_bora.png'),
+        img: require('../../../assets/NaturalMnt/Asia/bora_bora.webp'),
         name: 'Bora Bora',
         country: 'French Polynesia',
         city: ''
     },
     {
         id: '2',
-        img: require('../../../assets/NaturalMnt/Asia/Cappadocia-valley.png'),
+        img: require('../../../assets/NaturalMnt/Asia/Cappadocia-valley.webp'),
         name: 'Cappadocia',
         country: 'Turkey',
         city: ''
     },
     {
         id: '3',
-        img: require('../../../assets/NaturalMnt/Asia/charynCanyon.png'),
+        img: require('../../../assets/NaturalMnt/Asia/charynCanyon.webp'),
         name: 'Charyn Canyon',
         country: 'Kazakhstan',
+        city: ''
+    },
+    {
+        id: '3b',
+        img: require('../../../assets/NaturalMnt/Asia/DeadSea.jpg'),
+        name: 'Dead Sea',
+        country: 'Jordan/Israel/westBank',
+        // city: 'County Clare'
+    },
+    {
+        id: '16',
+        img: require('../../../assets/NaturalMnt/Asia/Winter-GobiDesert.webp'),
+        name: 'Gobi Desert',
+        country: 'China/Mongolia',
         city: ''
     },
     {
@@ -29,35 +43,21 @@ const AsiaMntEn = [
     },
     {
         id: '5',
-        img: require('../../../assets/NaturalMnt/Asia/huanglongScenicArea.png'),
+        img: require('../../../assets/NaturalMnt/Asia/huanglongScenicArea.webp'),
         name: 'Huanglong Scenic Area',
         country: 'China',
         city: ''
     },
     {
         id: '6',
-        img: require('../../../assets/NaturalMnt/Asia/Jiuzhaigou-Valley.png'),
+        img: require('../../../assets/NaturalMnt/Asia/Jiuzhaigou-Valley.webp'),
         name: 'Jiuzhaigou Valley',
         country: 'China',
         city: ''
     },
     {
-        id: '7',
-        img: require('../../../assets/NaturalMnt/Asia/Mount-Everest.png'),
-        name: 'Mount Everest',
-        country: 'Nepal/China',
-        city: ''
-    },
-    {
-        id: '8',
-        img: require('../../../assets/NaturalMnt/Asia/mount_fuji.png'),
-        name: 'Mount Fuji',
-        country: 'Japan',
-        city: ''
-    },
-    {
         id: '9',
-        img: require('../../../assets/NaturalMnt/Asia/mountArarat.png'),
+        img: require('../../../assets/NaturalMnt/Asia/mountArarat.webp'),
         name: 'Mount Ararat',
         country: 'Turkey',
         city: ''
@@ -69,6 +69,21 @@ const AsiaMntEn = [
         country: 'Indonesia',
         city: ''
     },
+    {
+        id: '7',
+        img: require('../../../assets/NaturalMnt/Asia/Mount-Everest.webp'),
+        name: 'Mount Everest',
+        country: 'Nepal/China',
+        city: ''
+    },
+    {
+        id: '8',
+        img: require('../../../assets/NaturalMnt/Asia/mount_fuji.webp'),
+        name: 'Mount Fuji',
+        country: 'Japan',
+        city: ''
+    },
+   
     // {
     //     id: '11',
     //     img: require('../../../assets/NaturalMnt/Asia/mountHua.png'),
@@ -78,14 +93,14 @@ const AsiaMntEn = [
     // },
     {
         id: '11',
-        img: require('../../../assets/NaturalMnt/Asia/mountHuangshan.png'),
+        img: require('../../../assets/NaturalMnt/Asia/mountHuangshan.webp'),
         name: 'Mount Huang',
         country: 'China',
         city: ''
     },
     {
         id: '12',
-        img: require('../../../assets/NaturalMnt/Asia/MountKinabalu.png'),
+        img: require('../../../assets/NaturalMnt/Asia/MountKinabalu.webp'),
         name: 'Mount Kinabalu',
         country: 'Malaysia',
         city: ''
@@ -99,30 +114,25 @@ const AsiaMntEn = [
     },
     {
         id: '14',
-        img: require('../../../assets/NaturalMnt/Asia/Pamukkale.png'),
+        img: require('../../../assets/NaturalMnt/Asia/Pamukkale.webp'),
         name: 'Pamukkale',
         country: 'Turkey',
         city: ''
     },
-    {
-        id: '15',
-        img: require('../../../assets/NaturalMnt/Asia/wadi-rum.png'),
-        name: 'Wadi Rum',
-        country: 'Jordan',
-        city: ''
-    },
-    {
-        id: '16',
-        img: require('../../../assets/NaturalMnt/Asia/Winter-GobiDesert.png'),
-        name: 'Gobi Desert',
-        country: 'China/Mongolia',
-        city: ''
-    },
+   
+   
     {
         id: '16a',
         img: require('../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp'),
         name: 'Underwater Waterfalls',
         country: 'Mauritius',
+        city: ''
+    },
+    {
+        id: '15',
+        img: require('../../../assets/NaturalMnt/Asia/wadi-rum.webp'),
+        name: 'Wadi Rum',
+        country: 'Jordan',
         city: ''
     },
     {

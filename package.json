@@ -20,7 +20,7 @@
     "@reduxjs/toolkit": "^2.0.1",
     "@shopify/flash-list": "1.6.4",
     "dotenv": "^16.4.5",
-    "expo": "^51.0.17",
+    "expo": "^51.0.20",
     "expo-av": "^14.0.6",
     "expo-linear-gradient": "~13.0.2",
     "expo-status-bar": "~1.12.1",

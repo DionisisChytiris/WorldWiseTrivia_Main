@@ -149,7 +149,7 @@ const NaturalMntsQuizHome = () => {
           <QuizTemplate
             quiz="Quiz10"
             title="10"
-            image={require("../../../assets/NaturalMnt/Oceania/Ayers-Rock.png")}
+            image={require("../../../assets/NaturalMnt/Oceania/Ayers-Rock.webp")}
           />
         </View>
       </View>
