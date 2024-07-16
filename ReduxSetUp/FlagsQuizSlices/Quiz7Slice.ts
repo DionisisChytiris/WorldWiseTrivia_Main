@@ -1,7 +1,7 @@
 import {createSlice} from '@reduxjs/toolkit'
 import question7En from '../../data/flags/Questions/question7En'
 import question7Es from '../../data/flags/Questions/question7Es'
-import question7El from '../../data/flags/Questions/question7El.tsx'
+import question7El from '../../data/flags/Questions/question7El'
 
 const initialState = {
     quiz7ItemsFlags: question7En

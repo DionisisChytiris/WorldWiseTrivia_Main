@@ -5,10 +5,15 @@ import { RFValue } from "react-native-responsive-fontsize";
 import { useTranslation } from "react-i18next";
 import { useTheme } from "../../utils/ThemeMode/ThemeProvider";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { StackNavigationProp } from "@react-navigation/stack";
+import { AppNavigatorTypeList } from "../../Types/AppNavigatorTypeList";
+
+
+type ChangeThemeProp = StackNavigationProp<AppNavigatorTypeList, 'Draw'>
 
 const ChangeTheme= () => {
-  const navigation = useNavigation();
-  const { dark, colors, setScheme}= useTheme();
+  const navigation = useNavigation<ChangeThemeProp>();
+  const {dark, colors, setScheme}= useTheme();
   const { t } = useTranslation();
   const [bgColor1, setBgColor1] = useState('white')
   const [bgColor2, setBgColor2] = useState('lightgreen')

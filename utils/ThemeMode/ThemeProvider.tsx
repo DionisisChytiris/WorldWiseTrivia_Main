@@ -1,21 +1,22 @@
 import { lightColors, darkColors } from "../../Colors/Colors";
-import { useColorScheme } from "react-native";
+import { ColorSchemeName, useColorScheme } from "react-native";
 import React, {createContext, useContext, useEffect, useState} from 'react'
 
 export const ThemeContext = createContext({
     dark: false,
     colors: lightColors,
-    setScheme: ()=>{}
+    setScheme: (p0?: string)=>{}
 })
 
-export const ThemeProvider = (props)=>{
-    const colorScheme = useColorScheme(colorScheme == 'dark')
+export const ThemeProvider= (props:any)=>{
+    // const colorScheme = useColorScheme(colorScheme == 'dark')
+    const colorScheme: ColorSchemeName = useColorScheme()
     const [isDark, setIsDark] = useState(colorScheme =='dark')
 
-    const defaultTheme = {
+    const defaultTheme:any = {
         dark: isDark,
         colors: isDark ? darkColors : lightColors,
-        setScheme: (scheme)=> setIsDark(scheme == 'dark')
+        setScheme: (scheme:any)=> setIsDark(scheme == 'dark')
     }
 
     useEffect(()=>{

@@ -5,7 +5,7 @@ import { useNavigation, useRoute } from "@react-navigation/native";
 import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
 
-const MainResultsTemplate = (props) => {
+const MainResultsTemplate = (props:any) => {
   const navigation = useNavigation();
   const { colors } = useTheme();
   const { t } = useTranslation();

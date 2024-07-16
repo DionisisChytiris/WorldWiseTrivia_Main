@@ -86,8 +86,13 @@ import {
   quizCpt10Es,
 } from "../../ReduxSetUp/CapitalsQuizSlices";
 import { NtrAsiaEl, NtrAsiaEn, NtrAsiaEs, NtrEurEl, NtrEurEn, NtrEurEs, NtrAmerEl, NtrAmerEn, NtrAmerEs, NtrAfrEl, NtrAfrEn, NtrAfrEs, NtrOceaEl, NtrOceaEn, NtrOceaEs } from "../../ReduxSetUp/NaturalMntLearnSlices";
+// import { AppNavigatorTypeList } from "../../Types/AppNavigatorTypeList";
+// import { StackNavigationProp } from "@react-navigation/stack";
+
+// type ChangeThemeProp = StackNavigationProp<AppNavigatorTypeList, 'Draw'>
 
 const MultiLanguage = () => {
+  // const navigation = useNavigation<ChangeThemeProp>();
   const navigation = useNavigation();
   const [color1, setColor1] = useState("#4ddbdf");
   const [color2, setColor2] = useState("#dbdddd");
