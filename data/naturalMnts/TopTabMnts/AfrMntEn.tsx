@@ -57,6 +57,13 @@ const AfrMntEn = [
         city: '',
     },
     {
+        id: '8aq',
+        img: require('../../../assets/NaturalMnt/Africa/ngorongo.jpg'),
+        name: 'Ngorongoro Crater',
+        country: 'Tanzania',
+        city: '',
+    },
+    {
         id: '1a',
         img: require('../../../assets/NaturalMnt/Africa/Botswana_Okavango_Delta.webp'),
         name: 'Okavango Delta',

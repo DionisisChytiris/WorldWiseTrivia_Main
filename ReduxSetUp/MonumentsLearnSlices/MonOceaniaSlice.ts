@@ -1,7 +1,7 @@
 import {createSlice} from '@reduxjs/toolkit'
 import OceaniaMonEn from '../../data/worldMonuments/TopTabMonuments/OceaniaMonEn'
 import OceaniaMonEs from '../../data/worldMonuments/TopTabMonuments/OceaniaEs'
-import OceaniaMonEl from '../../data/worldMonuments/TopTabMonuments/OceaniaEl.tsx'
+import OceaniaMonEl from '../../data/worldMonuments/TopTabMonuments/OceaniaEl'
 
 const initialState = {
     MonOcnItems: OceaniaMonEn

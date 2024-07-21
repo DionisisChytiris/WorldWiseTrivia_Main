@@ -79,6 +79,13 @@ const AfrMntEl = [
         city: '',
     },
     {
+        id: '8aq',
+        img: require('../../../assets/NaturalMnt/Africa/ngorongo.jpg'),
+        name: 'Ngorongoro Crater',
+        country: 'Tanzania',
+        city: '',
+    },
+    {
         id: '5',
         img: require('../../../assets/NaturalMnt/Africa/Kilimanjaro.webp'),
         name: 'Όρος Κιλιμαντζάρο',

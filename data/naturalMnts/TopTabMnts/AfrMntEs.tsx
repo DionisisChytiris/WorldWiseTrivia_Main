@@ -72,6 +72,13 @@ const AfrMntEs = [
         city: '',
     },
     {
+        id: '8aq',
+        img: require('../../../assets/NaturalMnt/Africa/ngorongo.jpg'),
+        name: 'Ngorongoro Crater',
+        country: 'Tanzania',
+        city: '',
+    },
+    {
         id: '3',
         img: require('../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp'),
         name: 'Parque Nacional del Desierto Blanco',

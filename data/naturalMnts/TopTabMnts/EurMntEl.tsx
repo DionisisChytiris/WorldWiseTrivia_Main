@@ -44,6 +44,27 @@ const EurMntEl = [
     // city: 'South East England'
   },
   {
+    id: '4a',
+    img: require('../../../assets/NaturalMnt/Europe/eyelake.jpg'),
+    name: 'Eye of the Earth',
+    country: 'Croatia',
+    // city: 'North-east'
+},
+{
+  id: '4aaa',
+  img: require('../../../assets/NaturalMnt/Europe/Fingalscave.jpg'),
+  name: 'Fingal\'s Cave',
+  country: 'Scotland',
+  // city: 'North-east'
+},
+{
+  id: '6aw',
+  img: require('../../../assets/WorldMonuments/Europe/meteora.jpg'),
+  name: 'Meteora',
+  country: 'Greece',
+  // city: 'Julian Alps'
+},
+  {
     id: "4",
     img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
     name: "Καταρράκτης Ντέτιφος",

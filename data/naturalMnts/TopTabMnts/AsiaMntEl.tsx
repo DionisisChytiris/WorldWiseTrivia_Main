@@ -34,6 +34,20 @@ const AsiaMntEl = [
         country: "Jordan/Israel/westBank",
         // city: 'County Clare'
       },
+      {
+        id: '13a',
+        img: require('../../../assets/NaturalMnt/Asia/mud-volcanoes-in-gobustan.jpg'),
+        name: 'Mud Volcanoes',
+        country: 'Azerbaijan',
+        city: ''
+    },
+    {
+        id: '4asd',
+        img: require('../../../assets/NaturalMnt/Asia/heavensgate.jpg'),
+        name: 'Heaven\'s Gate',
+        country: 'China',
+        city: ''
+    },
     {
         id: '5',
         img: require('../../../assets/NaturalMnt/Asia/huanglongScenicArea.webp'),

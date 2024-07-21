@@ -35,6 +35,13 @@ const AsiaMntEs = [
         city: ''
     },
     {
+        id: '4asd',
+        img: require('../../../assets/NaturalMnt/Asia/heavensgate.jpg'),
+        name: 'Heaven\'s Gate',
+        country: 'China',
+        city: ''
+    },
+    {
         id: '5',
         img: require('../../../assets/NaturalMnt/Asia/huanglongScenicArea.webp'),
         name: 'Área Escénica de Huanglong',
@@ -102,6 +109,13 @@ const AsiaMntEs = [
         img: require('../../../assets/NaturalMnt/Asia/mountOtemanu.png'),
         name: 'Monte Otemanu',
         country: 'Polinesia Francesa',
+        city: ''
+    },
+    {
+        id: '13a',
+        img: require('../../../assets/NaturalMnt/Asia/mud-volcanoes-in-gobustan.jpg'),
+        name: 'Mud Volcanoes',
+        country: 'Azerbaijan',
         city: ''
     },
     {
