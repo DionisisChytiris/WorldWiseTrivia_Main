@@ -22,6 +22,13 @@ const OceaMntEl = [
     city: "",
   },
   {
+    id: '3asd',
+    img: require('../../../assets/NaturalMnt/Oceania/fox-glacier.jpg'),
+    name: 'Fox Glacier',
+    country: 'New Zealand',
+    city: ''
+},
+  {
     id: "4",
     img: require("../../../assets/NaturalMnt/Oceania/greatBarrierReef.png"),
     name: "Μεγάλος Κοραλλιογενής Ύφαλος",
@@ -64,6 +71,13 @@ const OceaMntEl = [
     country: "Νέα Ζηλανδία",
     city: "",
   },
+  {
+    id: '9as',
+    img: require('../../../assets/NaturalMnt/Oceania/NinetyMileBeach.jpg'),
+    name: 'Ninety Mile Beach',
+    country: 'New Zealand',
+    city: ''
+},
   {
     id: "2",
     img: require("../../../assets/NaturalMnt/Oceania/Ayers-Rock.webp"),

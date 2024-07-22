@@ -14,7 +14,7 @@ const AfrMntEn = [
         city: '',
     },
     {
-        id: '13',
+        id: '3',
         img: require('../../../assets/NaturalMnt/Africa/The Danakil DepressionEthiopia.webp'),
         name: 'Danakil Depression',
         country: 'Ethiopia',
@@ -29,14 +29,14 @@ const AfrMntEn = [
         city: '',
     },
     {
-        id: '6',
+        id: '5',
         img: require('../../../assets/NaturalMnt/Africa/mountKenya.webp'),
         name: 'Mount Kenya',
         country: 'Kenya',
         city: '',
     },
     {
-        id: '5',
+        id: '6',
         img: require('../../../assets/NaturalMnt/Africa/Kilimanjaro.webp'),
         name: 'Mount Kilimanjaro',
         country: 'Tanzania',
@@ -57,21 +57,21 @@ const AfrMntEn = [
         city: '',
     },
     {
-        id: '8aq',
+        id: '9',
         img: require('../../../assets/NaturalMnt/Africa/ngorongo.jpg'),
         name: 'Ngorongoro Crater',
         country: 'Tanzania',
         city: '',
     },
     {
-        id: '1a',
+        id: '10',
         img: require('../../../assets/NaturalMnt/Africa/Botswana_Okavango_Delta.webp'),
         name: 'Okavango Delta',
         country: 'Botswana',
         city: '',
     },
     {
-        id: '8a',
+        id: '11',
         img: require('../../../assets/NaturalMnt/Africa/Sahara-Desert.webp'),
         name: 'Sahara Desert',
         country: 'North Africa',
@@ -85,21 +85,21 @@ const AfrMntEn = [
     //     city: '',
     // },
     {
-        id: '10',
+        id: '12',
         img: require('../../../assets/NaturalMnt/Africa/serengeti-national-park.webp'),
         name: 'Serengeti National Park',
         country: 'Tanzania',
         city: '',
     },
     {
-        id: '11',
+        id: '13',
         img: require('../../../assets/NaturalMnt/Africa/Sossusvlei-Dunes.webp'),
         name: 'Sossusvlei',
         country: 'Namibia',
         city: '',
     },
     {
-        id: '12',
+        id: '14',
         img: require('../../../assets/NaturalMnt/Africa/table-mountain.webp'),
         name: 'Table Mountain National Park',
         country: 'South Africa',
@@ -107,7 +107,7 @@ const AfrMntEn = [
     },
    
     {
-        id: '14',
+        id: '15',
         img: require('../../../assets/NaturalMnt/Africa/Victoria-Falls.webp'),
         name: 'Victoria Falls',
         country: 'Zimbabwe/Zambia',
@@ -116,7 +116,7 @@ const AfrMntEn = [
   
    
     {
-        id: '3',
+        id: '16',
         img: require('../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp'),
         name: 'White Desert National Park',
         country: 'Egypt',

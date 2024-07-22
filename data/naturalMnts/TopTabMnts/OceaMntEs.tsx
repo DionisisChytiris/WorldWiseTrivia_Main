@@ -14,6 +14,20 @@ const OceaMntEs = [
         city: ''
     },
     {
+        id: '3asd',
+        img: require('../../../assets/NaturalMnt/Oceania/fox-glacier.jpg'),
+        name: 'Fox Glacier',
+        country: 'New Zealand',
+        city: ''
+    },
+    {
+        id: '9as',
+        img: require('../../../assets/NaturalMnt/Oceania/NinetyMileBeach.jpg'),
+        name: 'Ninety Mile Beach',
+        country: 'New Zealand',
+        city: ''
+    },
+    {
         id: '3',
         img: require('../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp'),
         name: 'Parque Nacional de Fiordland',

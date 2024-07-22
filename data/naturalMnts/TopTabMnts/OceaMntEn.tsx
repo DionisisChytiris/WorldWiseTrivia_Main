@@ -21,6 +21,13 @@ const OceaMntEn = [
         city: ''
     },
     {
+        id: '3asd',
+        img: require('../../../assets/NaturalMnt/Oceania/fox-glacier.jpg'),
+        name: 'Fox Glacier',
+        country: 'New Zealand',
+        city: ''
+    },
+    {
         id: '4',
         img: require('../../../assets/NaturalMnt/Oceania/greatBarrierReef.png'),
         name: 'Great Barrier Reef',
@@ -53,6 +60,13 @@ const OceaMntEn = [
         img: require('../../../assets/NaturalMnt/Oceania/yasur_mount.webp'),
         name: 'Mount Yasur',
         country: 'Vanuatu',
+        city: ''
+    },
+    {
+        id: '9as',
+        img: require('../../../assets/NaturalMnt/Oceania/NinetyMileBeach.jpg'),
+        name: 'Ninety Mile Beach',
+        country: 'New Zealand',
         city: ''
     },
     {
