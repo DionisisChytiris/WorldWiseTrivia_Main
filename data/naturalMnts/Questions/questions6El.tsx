@@ -1,649 +1,649 @@
 const questions6El = [
-    {
-      id: "1a",
-      status: "Capitals",
-      img: 'L',
-      country: "Ρουμανία",
-      image: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
-      options: [
-        {
-          id: "0",
-          capital: 'Eltz Castle',
-          country: 'Γερμανία'
-        },
-        {
-          id: "1",
-          capital: 'Κάστρο Nόισβανσταϊν',
-          country: 'Γερμανία'
-        },
-        {
-          id: "2",
-          capital: 'Κάστρο Μπραν',
-          country: 'Ρουμανία'
-        },
-        {
-          id: "3",
-          capital: 'Κάστρο του Χιμέτζι',
-          country: 'Ιαπωνία'
-        },
-      ],
-      correctAnswerIndex: 2,
-    },
+  {
+    id: "1a",
+    status: "Capitals",
+    img: 'L',
+    country: "Iceland",
+    image: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
+    options: [
       {
-          id: "1b",
-          status: "Flags",
-          country: "Κάστρο Μπραν",
-          capital: "Ρουμανία",
-          options: [
-            {
-              id: "0",
-              country: "Κάστρο Ελτζ\nΓερμανία",
-              img: require("../../../assets/WorldMonuments/Europe/eltz-castle-muenstermaifeld-germany.png"),
-            },
-            {
-              id: "1",
-              country: "Κάστρο Nόισβανσταϊν\nΓερμανία",
-              img: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.png"),
-            },
-            {
-              id: "2",
-              country: "Κάστρο Μπραν\nΡουμανία",
-              img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
-            },
-            {
-              id: "3",
-              country: "Κάστρο του Χιμέτζι\nΙαπωνία",
-              img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
-            },
-          ],
-          correctAnswerIndex: 2,
-        },
-        {
-          id: "2a",
-          status: "Capitals",
-          img: 'L',
-          country: "Ιταλία",
-          image: require("../../../assets/WorldMonuments/Europe/cathedralMilan.png"),
-          options: [
-            {
-              id: "0",
-              capital: 'Ξύλινη εκκλησία Μπόργουντ',
-              country: 'Norway'
-            },
-            {
-              id: "1",
-              capital: 'Καθεδρικός ναός της Φλωρεντίας',
-              country: 'Ιταλία'
-            },
-            {
-              id: "2",
-              capital: 'Σαγράδα Φαμίλια',
-              country: 'Ισπανία'
-            },
-            {
-              id: "3",
-              capital: 'Καθεδρικός ναός του Μιλάνου',
-              country: 'Ιταλία'
-            },
-          ],
-          correctAnswerIndex: 3,
-        },
-        {
-          id: "2b",
-          status: "Flags",
-          country: "Καθεδρικός ναός του Μιλάνου",
-          capital: "Ιταλία",
-          options: [
-            {
-              id: "0",
-              country: "Ξύλινη εκκλησία Μπόργουντ\nΝορβηγία",
-              img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
-            },
-            {
-              id: "1",
-              country: "Καθεδρικός ναός της Φλωρεντίας\nΙταλία",
-              img: require("../../../assets/WorldMonuments/Europe/duomo-florence.png"),
-            },
-            {
-              id: "2",
-              country: "Σαγράδα Φαμίλια\nΙσπανία",
-              img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.png"),
-            },
-            {
-              id: "3",
-              country: "Καθεδρικός ναός του Μιλάνου\nΙταλία",
-              img: require("../../../assets/WorldMonuments/Europe/cathedralMilan.png"),
-            },
-          ],
-          correctAnswerIndex: 3,
-        },
-        {
-          id: "3a",
-          status: "Capitals",
-          img: 'L',
-          country: "ΗΠΑ",
-          image: require("../../../assets/WorldMonuments/USA/lincolnMonument.jpg"),
-          options: [
-            {
-              id: "0",
-              capital: 'Πύλη του Βραδεμβούργου',
-              country: 'Γερμανία'
-            },
-            {
-              id: "1",
-              capital: 'Μνημείο του Λίνκολν',
-              country: 'ΗΠΑ'
-            },
-            {
-              id: "2",
-              capital: 'Κνωσός',
-              country: 'Ελλάδα'
-            },
-            {
-              id: "3",
-              capital: 'Μουσείο Γκούγκενχάιμ',
-              country: 'Ισπανία'
-            },
-          ],
-          correctAnswerIndex: 1,
-        },
-        {
-          id: "3b",
-          status: "Flags",
-          country: "Μνημείο του Λίνκολν",
-          capital: "ΗΠΑ",
-          options: [
-            {
-              id: "0",
-              country: "Πύλη του Βρανδεμβούργου\nΓερμανία",
-              img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
-            },
-            {
-              id: "1",
-              country: "Μνημείο του Λίνκολν\nΗΠΑ",
-              img: require("../../../assets/WorldMonuments/USA/lincolnMonument.jpg"),
-            },
-            {
-              id: "2",
-              country: "Κνωσός\nΕλλάδα",
-              img: require("../../../assets/WorldMonuments/Europe/knossos.png"),
-            },
-            {
-              id: "3",
-              country: "Μουσείο Γκούγκενχάιμ\nΙσπανία",
-              img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.png"),
-            },
-          ],
-          correctAnswerIndex: 1,
-        },
-        {
-          id: "4a",
-          status: "Capitals",
-          img: 'L',
-          country: "Μαρόκο",
-          image: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.png"),
-          options: [
-            {
-              id: "0",
-              capital: 'Αλάμπρα',
-              country: 'Ισπανία'
-            },
-            {
-              id: "1",
-              capital: 'Μπαγκάν',
-              country: 'Μιανμάρ'
-            },
-            {
-              id: "2",
-              capital: 'Αΐτ-Μπεν-Χαντού',
-              country: 'Μαρόκο'
-            },
-            {
-              id: "3",
-              capital: 'Ναός Καϊλάσα',
-              country: 'Ινδία'
-            },
-          ],
-          correctAnswerIndex: 2,
-        },
-        {
-          id: "4b",
-          status: "Flags",
-          country: "Αΐτ-Μπεν-Χαντού",
-          capital: "Μαρόκο",
-          options: [
-            {
-              id: "0",
-              country: "Αλάμπρα\nΙσπανία",
-              img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
-            },
-            {
-              id: "1",
-              country: "Μπαγκάν\nΜιανμάρ",
-              img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.png"),
-            },
-            {
-              id: "2",
-              country: "Αΐτ-Μπεν-Χαντού\nMαρόκο",
-              img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.png"),
-            },
-            {
-              id: "3",
-              country: "Ναός Καϊλάσα\nΙνδία",
-              img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
-            },
-          ],
-          correctAnswerIndex: 2,
-        },
-        {
-          id: "5a",
-          status: "Capitals",
-          img: 'L',
-          country: "Σρι Λάνκα",
-          image: require("../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.png"),
-          options: [
-            {
-              id: "0",
-              capital: 'Σιγκιρίγια',
-              country: 'Σρι Λάνκα'
-            },
-            {
-              id: "1",
-              capital: 'Ξύλινη εκκλησία Μπόργουντ',
-              country: 'Norway'
-            },
-            {
-              id: "2",
-              capital: 'Ναός Αγίου Γεωργίου',
-              country: 'Ethiopia'
-            },
-            {
-              id: "3",
-              capital: 'Μετέωρα',
-              country: 'Ελλάδα'
-            },
-          ],
-          correctAnswerIndex: 0,
-        },
-        {
-          id: "5b",
-          status: "Flags",
-          country: "Sirigiya",
-          capital: "Σρι Λάνκα",
-          options: [
-            {
-              id: "0",
-              country: "Σιγκιρίγια\nΣρι Λάνκα",
-              img: require("../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.png"),
-            },
-            {
-              id: "1",
-              country: "Ξύλινη εκκλησία Μπόργουντ\nΝορβηγία",
-              img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
-            },
-            {
-              id: "2",
-              country: "Ναός Αγίου Γεωργίου\nΑιθιοπία",
-              img: require("../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.png"),
-            },
-            {
-              id: "3",
-              country: "Μετέωρα\nΕλλάδα",
-              img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
-            },
-          ],
-          correctAnswerIndex: 0,
-        },
-        {
-          id: "6a",
-          status: "Capitals",
-          img: 'L',
-          country: "Ελλάδα",
-          image: require("../../../assets/WorldMonuments/Europe/knossos.jpg"),
-          options: [
-            {
-              id: "0",
-              capital: 'Η Φωλιά της Τίγρης',
-              country: 'Μπουτάν'
-            },
-            {
-              id: "1",
-              capital: 'Ακρόπολη',
-              country: 'Ελλάδα'
-            },
-            {
-              id: "2",
-              capital: 'Πομπηία',
-              country: 'Ιταλία'
-            },
-            {
-              id: "3",
-              capital: 'Κνωσός',
-              country: 'Ελλάδα'
-            },
-          ],
-          correctAnswerIndex: 3,
-        },
-        {
-          id: "6b",
-          status: "Flags",
-          country: "Κνωσός",
-          capital: "Ελλάδα",
-          options: [
-            {
-              id: "0",
-              country: "Η Φωλιά της Τίγρης\nΜπουτάν",
-              img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
-            },
-            {
-              id: "1",
-              country: "Ακρόπολη\nΕλλάδα",
-              img: require("../../../assets/WorldMonuments/Europe/Acropolis.png"),
-            },
-            {
-              id: "2",
-              country: "Πομπηία\nΙταλία",
-              img: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.png"),
-            },
-            {
-              id: "3",
-              country: "Κνωσός\nΕλλάδα",
-              img: require("../../../assets/WorldMonuments/Europe/knossos.png"),
-            },
-          ],
-          correctAnswerIndex: 3,
-        },
-        {
-          id: "7a",
-          status: "Capitals",
-          img: 'L',
-          country: "Γαλλία",
-          image: require("../../../assets/WorldMonuments/Europe/LouvreMuseum.png"),
-          options: [
-            {
-              id: "0",
-              capital: 'Μουσείο Γκούγκενχάιμ',
-              country: 'Ισπανία'
-            },
-            {
-              id: "1",
-              capital: 'Ρητορική Αγίου Ιωσήφ',
-              country: 'Καναδάς'
-            },
-            {
-              id: "2",
-              capital: 'Μουσείο του Λούβρου',
-              country: 'Γαλλία'
-            },
-            {
-              id: "3",
-              capital: 'Παλάτι των Βερσαλλιών',
-              country: 'Γαλλία'
-            },
-          ],
-          correctAnswerIndex: 2,
-        },
-        {
-          id: "7b",
-          status: "Flags",
-          country: "Μουσείο του Λούβρου",
-          capital: "Γαλλία",
-          options: [
-            {
-              id: "0",
-              country: "Παλάτι των Βερσαλλιών\nΓαλλία",
-              img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
-            },
-            {
-              id: "1",
-              country: "Μουσείο Γκούγκενχάιμ\nΙσπανία",
-              img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.png"),
-            },
-            {
-              id: "2",
-              country: "Μουσείο του Λούβρου\nΓαλλία",
-              img: require("../../../assets/WorldMonuments/Europe/LouvreMuseum.png"),
-            },
-            {
-              id: "3",
-              country: "Ναός του Αγίου Ιωσήφ\nΚαναδάς",
-              img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.png"),
-            },
-          ],
-          correctAnswerIndex: 2,
-        },
-        {
-          id: "8a",
-          status: "Capitals",
-          img: 'L',
-          country: "Iνδονησία",
-          image: require("../../../assets/WorldMonuments/Asia/borobudur-temple-Indonesia.png"),
-          options: [
-            {
-              id: "0",
-              capital: 'Μπορομπουντούρ',
-              country: 'Ινδονησία'
-            },
-            {
-              id: "1",
-              capital: 'Παλάτι Ποτάλα',
-              country: 'Θιβέτ'
-            },
-            {
-              id: "2",
-              capital: 'Ταζ Μαχάλ',
-              country: 'Ινδία'
-            },
-            {
-              id: "3",
-              capital: 'Άνγκορ Βατ',
-              country: 'Καμπότζη'
-            },
-          ],
-          correctAnswerIndex: 0,
-        },
-        {
-          id: "8b",
-          status: "Flags",
-          country: "Μπορομπουντούρ",
-          capital: "Iνδονησία",
-          options: [
-            {
-              id: "0",
-              country: "Μπορομπουντούρ\nΙνδονησία",
-              img: require("../../../assets/WorldMonuments/Asia/borobudur-temple-Indonesia.png"),
-            },
-            {
-              id: "1",
-              country: "Ανάκτορο Ποτάλα\nΘιβέτ",
-              img: require("../../../assets/WorldMonuments/Asia/potalaPalaceTibet.png"),
-            },
-            {
-              id: "2",
-              country: "Ταζ Μαχάλ\nΙνδία",
-              img: require("../../../assets/WorldMonuments/Asia/TajMajal.png"),
-            },
-            {
-              id: "3",
-              country: "Τζεταβαναραμάγια\nΣρι Λάνκα",
-              img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.png"),
-            },
-          ],
-          correctAnswerIndex: 0,
-        },
-        {
-          id: "9a",
-          status: "Capitals",
-          img: 'L',
-          country: "Ηνωμένο Βασίλειο",
-          image: require("../../../assets/WorldMonuments/Europe/westminster-abbey.png"),
-          options: [
-            {
-              id: "0",
-              capital: 'Ανάκτορα του Μπάκιγχαμ',
-              country: 'Ηνωμένο Βασίλειο'
-            },
-            {
-              id: "1",
-              capital: 'Αυτοκρατορικό Παλάτι της Μαδρίτης',
-              country: 'Ισπανία'
-            },
-            {
-              id: "2",
-              capital: 'Παλάτι των Βερσαλλιών',
-              country: 'Γαλλία'
-            },
-            {
-              id: "3",
-              capital: 'Αββαείο του Γουεσμίνστερ',
-              country: 'Ηνωμένο Βασίλειο'
-            },
-          ],
-          correctAnswerIndex: 3,
-        },
-        {
-          id: "9b",
-          status: "Flags",
-          country: "Αββαείο του Γουεσμίνστερ",
-          capital: "Ηνωμένο Βασίλειο",
-          options: [
-            {
-              id: "0",
-              country: "Σαγράδα Φαμίλια\nΙσπανία",
-              img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.png"),
-            },
-            {
-              id: "1",
-              country: "Ανάκτορα του Μπάκιγχαμ\nΗνωμένο Βασίλειο",
-              img: require("../../../assets/WorldMonuments/Europe/buckinghampalace.png"),
-            },
-            {
-              id: "2",
-              country: "Παλάτι του Γουεσμίνστερ\nΗνωμένο Βασίλειο",
-              img: require("../../../assets/WorldMonuments/Europe/palace-of-westminster_main.png"),
-            },
-            {
-              id: "3",
-              country: "Αββαείο του Γουεσμίνστερ\nΗνωμένο Βασίλειο",
-              img: require("../../../assets/WorldMonuments/Europe/westminster-abbey.png"),
-            },
-          ],
-          correctAnswerIndex: 3,
-        },
-        {
-          id: "10a",
-          status: "Capitals",
-          img: 'L',
-          country: "Νορβηγία",
-          image: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
-          options: [
-            {
-              id: "0",
-              capital: 'Στόουνχεντζ',
-              country: 'Ηνωμένο Βασίλειο'
-            },
-            {
-              id: "1",
-              capital: 'Ξύλινη εκκλησία Μπόργουντ',
-              country: 'Νορβηγία'
-            },
-            {
-              id: "2",
-              capital: 'Ναός Αγίου Γεωργίου',
-              country: 'Αιθιοπία'
-            },
-            {
-              id: "3",
-              capital: 'Τικάλ',
-              country: 'Γουατεμάλα'
-            },
-          ],
-          correctAnswerIndex: 1,
-        },
-        {
-          id: "10b",
-          status: "Flags",
-          country: "Ξύλινη εκκλησία Μπόργουντ",
-          capital: "Νορβηγία",
-          options: [
-            {
-              id: "0",
-              country: "Στόουνχεντζ\nΗνωμένο Βασίλειο",
-              img: require("../../../assets/WorldMonuments/Europe/stonehenge.png"),
-            },
-            {
-              id: "1",
-              country: "Ξύλινη εκκλησία Μπόργουντ\nΝορβηγία",
-              img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
-            },
-            {
-              id: "2",
-              country: "Ναός Αγίου Γεωργίου\nΑιθιοπία",
-              img: require("../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.png"),
-            },
-            {
-              id: "3",
-              country: "Τικάλ\nΓουατεμάλα",
-              img: require("../../../assets/WorldMonuments/America/TikalGuatemala.png"),
-            },
-          ],
-          correctAnswerIndex: 1,
-        },
-        {
-          id: "11",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11a",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11s",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11d",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11f",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11g",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11h",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11j",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11k",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11l",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11m",
-          monument: "",
-          country: "",
-        },
-  ]
-  
-  export default questions6El
+        id: "0",
+        capital: 'Charyn Canyon',
+        country: 'Kazakhstan'
+      },
+      {
+        id: "1",
+        capital: 'Mount Huang',
+        country: 'China'
+      },
+      {
+        id: "2",
+        capital: 'Dettifoss Waterfall',
+        country: 'Iceland'
+      },
+      {
+        id: "3",
+        capital: 'Great Blue Hole',
+        country: 'Μπελίζ'
+      },
+    ],
+    correctAnswerIndex: 2,
+  },
+    {
+        id: "1b",
+        status: "Flags",
+        country: "Dettifoss Waterfall",
+        capital: "Iceland",
+        options: [
+          {
+            id: "0",
+            country: "Charyn Canyon\nKazakhstan",
+            img: require("../../../assets/NaturalMnt/Asia/charynCanyon.webp"),
+          },
+          {
+            id: "1",
+            country: "Mount Huang\nChina",
+            img: require("../../../assets/NaturalMnt/Asia/mountHuangshan.webp"),
+          },
+          {
+            id: "2",
+            country: "Dettifoss Waterfall\nIceland",
+            img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
+          },
+          {
+            id: "3",
+            country: "Great Blue Hole\nBelize",
+            img: require("../../../assets/NaturalMnt/America/Great-Blue-Hole.webp"),
+          },
+        ],
+        correctAnswerIndex: 2,
+      },
+      {
+        id: "2a",
+        status: "Capitals",
+        img: 'L',
+        country: "Canada",
+        image: require("../../../assets/NaturalMnt/America/BanffNationalPark.webp"),
+        options: [
+          {
+            id: "0",
+            capital: 'Bryce Canyon National Park',
+            country: 'ΗΠΑ'
+          },
+          {
+            id: "1",
+            capital: 'Chapada Diamantina National Park',
+            country: 'Brazil'
+          },
+          {
+            id: "2",
+            capital: 'Blue Mountains',
+            country: 'Australia'
+          },
+          {
+            id: "3",
+            capital: 'Banff National Park',
+            country: 'Canada'
+          },
+        ],
+        correctAnswerIndex: 3,
+      },
+      {
+        id: "2b",
+        status: "Flags",
+        country: "Banff National Park",
+        capital: "Canada",
+        options: [
+          {
+            id: "0",
+            country: "Bryce Canyon National Park\nUSA",
+            img: require("../../../assets/NaturalMnt/America/Bryce-Canyon.webp"),
+          },
+          {
+            id: "1",
+            country: "Chapada Diamantina National Park\nBrazil",
+            img: require("../../../assets/NaturalMnt/America/chadadaDiamantina.webp"),
+          },
+          {
+            id: "2",
+            country: "Blue Mountains\nAustralia",
+            img: require("../../../assets/NaturalMnt/Oceania/Australia-Blue-Mountains.webp"),
+          },
+          {
+            id: "3",
+            country: "Banff National Park\nCanada",
+            img: require("../../../assets/NaturalMnt/America/BanffNationalPark.webp"),
+          },
+        ],
+        correctAnswerIndex: 3,
+      },
+      {
+        id: "3a",
+        status: "Capitals",
+        img: 'L',
+        country: "ΗΠΑ",
+        image: require("../../../assets/NaturalMnt/America/devils-tower.webp"),
+        options: [
+          {
+            id: "0",
+            capital: 'Ayers Rock',
+            country: 'Australia'
+          },
+          {
+            id: "1",
+            capital: 'Devils Tower',
+            country: 'ΗΠΑ'
+          },
+          {
+            id: "2",
+            capital: 'Wadi Rum',
+            country: 'Jordan'
+          },
+          {
+            id: "3",
+            capital: 'Gobi Desert',
+            country: 'China/Mongolia'
+          },
+        ],
+        correctAnswerIndex: 1,
+      },
+      {
+        id: "3b",
+        status: "Flags",
+        country: "Devils Tower",
+        capital: "ΗΠΑ",
+        options: [
+          {
+            id: "0",
+            country: "Ayers Rock\nAustralia",
+            img: require("../../../assets/NaturalMnt/Oceania/Ayers-Rock.webp"),
+          },
+          {
+            id: "1",
+            country: "Devils Tower\nUSA",
+            img: require("../../../assets/NaturalMnt/America/devils-tower.webp"),
+          },
+          {
+            id: "2",
+            country: "Wadi Rum\nJordan",
+            img: require("../../../assets/NaturalMnt/Asia/wadi-rum.webp"),
+          },
+          {
+            id: "3",
+            country: "Gobi Desert\nChina/Mongolia",
+            img: require("../../../assets/NaturalMnt/Asia/Winter-GobiDesert.webp"),
+          },
+        ],
+        correctAnswerIndex: 1,
+      },
+      {
+        id: "4a",
+        status: "Capitals",
+        img: 'L',
+        country: "Egypt",
+        image: require("../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp"),
+        options: [
+          {
+            id: "0",
+            capital: 'Kaladula Falls',
+            country: 'Angola'
+          },
+          {
+            id: "1",
+            capital: 'Mount Kilimanjaro',
+            country: 'Tanzania'
+          },
+          {
+            id: "2",
+            capital: 'White Desert National Park',
+            country: 'Egypt'
+          },
+          {
+            id: "3",
+            capital: 'Mount Sinai',
+            country: 'Egypt'
+          },
+        ],
+        correctAnswerIndex: 2,
+      },
+      {
+        id: "4b",
+        status: "Flags",
+        country: "White Desert National Park",
+        capital: "Egypt",
+        options: [
+          {
+            id: "0",
+            country: "Kalandula Falls\nAngola",
+            img: require("../../../assets/NaturalMnt/Africa/kalandula-falls-angola.webp"),
+          },
+          {
+            id: "1",
+            country: "Mount Kilimanjaro\nTanzania",
+            img: require("../../../assets/NaturalMnt/Africa/Kilimanjaro.webp"),
+          },
+          {
+            id: "2",
+            country: "White Desert National Park\nEgypt",
+            img: require("../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp"),
+          },
+          {
+            id: "3",
+            country: "Mount Sinai\nEgypt",
+            img: require("../../../assets/NaturalMnt/Africa/mountSinai.webp"),
+          },
+        ],
+        correctAnswerIndex: 2,
+      },
+      {
+        id: "5a",
+        status: "Capitals",
+        img: 'L',
+        country: "Russia",
+        image: require("../../../assets/NaturalMnt/Europe/mount-elbrus.webp"),
+        options: [
+          {
+            id: "0",
+            capital: 'Mount Elbrus',
+            country: 'Russia'
+          },
+          {
+            id: "1",
+            capital: 'Mount Teide',
+            country: 'Spain'
+          },
+          {
+            id: "2",
+            capital: 'Mount Otemanu',
+            country: 'French Polynesia'
+          },
+          {
+            id: "3",
+            capital: 'Santorini Caldera',
+            country: 'Greece'
+          },
+        ],
+        correctAnswerIndex: 0,
+      },
+      {
+        id: "5b",
+        status: "Flags",
+        country: "Mount Elbrus",
+        capital: "Russia",
+        options: [
+          {
+            id: "0",
+            country: "Mount Elbrus\nRussia",
+            img: require("../../../assets/NaturalMnt/Europe/mount-elbrus.webp"),
+          },
+          {
+            id: "1",
+            country: "Mount Teide\nSpain",
+            img: require("../../../assets/NaturalMnt/Europe/mountTeide.webp"),
+          },
+          {
+            id: "2",
+            country: "Mount Otemanu\nFrench Polynesia",
+            img: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
+          },
+          {
+            id: "3",
+            country: "Santorini Caldera\nGreece",
+            img: require("../../../assets/NaturalMnt/Europe/Santorini-Caldera.jpg"),
+          },
+        ],
+        correctAnswerIndex: 0,
+      },
+      {
+        id: "6a",
+        status: "Capitals",
+        img: 'L',
+        country: "Spain",
+        image: require("../../../assets/NaturalMnt/Europe/PicosdeEuropa.webp"),
+        options: [
+          {
+            id: "0",
+            capital: 'Pulpit Rock',
+            country: 'Norway'
+          },
+          {
+            id: "1",
+            capital: 'Fiordland National Park',
+            country: 'New Zealand'
+          },
+          {
+            id: "2",
+            capital: 'Plitvice Lakes',
+            country: 'Croatia'
+          },
+          {
+            id: "3",
+            capital: 'Picos de Europa',
+            country: 'Northern Spain'
+          },
+        ],
+        correctAnswerIndex: 3,
+      },
+      {
+        id: "6b",
+        status: "Flags",
+        country: "Picos de Europa",
+        capital: "Northern Spain",
+        options: [
+          {
+            id: "0",
+            country: "Pulpit Rock\nNorway",
+            img: require("../../../assets/NaturalMnt/Europe/pulpitRock.webp"),
+          },
+          {
+            id: "1",
+            country: "Fiordland National Park\nNew Zealand",
+            img: require("../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp"),
+          },
+          {
+            id: "2",
+            country: "Plitvice Lakes\nCroatia",
+            img: require("../../../assets/NaturalMnt/Europe/Plitvice-lakes.webp"),
+          },
+          {
+            id: "3",
+            country: "Picos de Europa\nNorthern Spain",
+            img: require("../../../assets/NaturalMnt/Europe/PicosdeEuropa.webp"),
+          },
+        ],
+        correctAnswerIndex: 3,
+      },
+      {
+        id: "7a",
+        status: "Capitals",
+        img: 'L',
+        country: "Indonesia",
+        image: require("../../../assets/NaturalMnt/Asia/mountBromo.webp"),
+        options: [
+          {
+            id: "0",
+            capital: 'Table Mountain National Park',
+            country: 'South Africa'
+          },
+          {
+            id: "1",
+            capital: 'Swiss Alps',
+            country: 'Switzerland'
+          },
+          {
+            id: "2",
+            capital: 'Mount Bromo',
+            country: 'Indonesia'
+          },
+          {
+            id: "3",
+            capital: 'Trolltunga',
+            country: 'Norway'
+          },
+        ],
+        correctAnswerIndex: 2,
+      },
+      {
+        id: "7b",
+        status: "Flags",
+        country: "Mount Bromo",
+        capital: "Indonesia",
+        options: [
+          {
+            id: "0",
+            country: "Swiss Alps\nSwitzerland",
+            img: require("../../../assets/NaturalMnt/Europe/swissapls.jpg"),
+          },
+          {
+            id: "1",
+            country: "Table Mountain National Park\nSouth Africa",
+            img: require("../../../assets/NaturalMnt/Africa/table-mountain.webp"),
+          },
+          {
+            id: "2",
+            country: "Mount Bromo\nIndonesia",
+            img: require("../../../assets/NaturalMnt/Asia/mountBromo.webp"),
+          },
+          {
+            id: "3",
+            country: "Trolltunga\nNorway",
+            img: require("../../../assets/NaturalMnt/Europe/Trolltunga.webp"),
+          },
+        ],
+        correctAnswerIndex: 2,
+      },
+      {
+        id: "8a",
+        status: "Capitals",
+        img: 'L',
+        country: "New Zealand",
+        image: require("../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp"),
+        options: [
+          {
+            id: "0",
+            capital: 'Fiordland National Park',
+            country: 'New Zealand'
+          },
+          {
+            id: "1",
+            capital: 'Great Barrier Reef',
+            country: 'Australia'
+          },
+          {
+            id: "2",
+            capital: 'The Great Ocean Road',
+            country: 'Australia'
+          },
+          {
+            id: "3",
+            capital: 'Avenue of Baobabs',
+            country: 'Madagascar'
+          },
+        ],
+        correctAnswerIndex: 0,
+      },
+      {
+        id: "8b",
+        status: "Flags",
+        country: "Fiordland National Park",
+        capital: "Indonesia",
+        options: [
+          {
+            id: "0",
+            country: "Fiordland National Park\nIndonesia",
+            img: require("../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp"),
+          },
+          {
+            id: "1",
+            country: "Great Barrier Reef\nAustralia",
+            img: require("../../../assets/NaturalMnt/Oceania/greatBarrierReef.webp"),
+          },
+          {
+            id: "2",
+            country: "The Great Ocean Road\nAustralia",
+            img: require("../../../assets/NaturalMnt/Oceania/TheGreatOceanRoad.webp"),
+          },
+          {
+            id: "3",
+            country: "Avenue of Baobabs\nMadagascar",
+            img: require("../../../assets/NaturalMnt/Africa/avenueofboababs.webp"),
+          },
+        ],
+        correctAnswerIndex: 0,
+      },
+      {
+        id: "9a",
+        status: "Capitals",
+        img: 'L',
+        country: "New Zealand",
+        image: require("../../../assets/NaturalMnt/Oceania/mountcook.webp"),
+        options: [
+          {
+            id: "0",
+            capital: 'Crooked Forest',
+            country: 'Poland'
+          },
+          {
+            id: "1",
+            capital: 'Giant\'a Causeway',
+            country: 'Ireland'
+          },
+          {
+            id: "2",
+            capital: 'Isle of Skye',
+            country: 'Scotland'
+          },
+          {
+            id: "3",
+            capital: 'Mount Cook',
+            country: 'New Zealand'
+          },
+        ],
+        correctAnswerIndex: 3,
+      },
+      {
+        id: "9b",
+        status: "Flags",
+        country: "Mount Cook",
+        capital: "New Zealand",
+        options: [
+          {
+            id: "0",
+            country: "Crooked Forest\nPoland",
+            img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
+          },
+          {
+            id: "1",
+            country: "Giant\'a Causeway\nIreland",
+            img: require("../../../assets/NaturalMnt/Europe/GiantsCauseway.webp"),
+          },
+          {
+            id: "2",
+            country: "Isle of Skye\nScotland",
+            img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+          },
+          {
+            id: "3",
+            country: "Mount Cook\nNew Zealand",
+            img: require("../../../assets/NaturalMnt/Oceania/mountcook.webp"),
+          },
+        ],
+        correctAnswerIndex: 3,
+      },
+      {
+        id: "10a",
+        status: "Capitals",
+        img: 'L',
+        country: "Near Arctic/Antarctic",
+        image: require("../../../assets/NaturalMnt/Europe/Northern-Lights-Desktop-Wallpaper.jpg"),
+        options: [
+          {
+            id: "0",
+            capital: 'Antelope Canyon',
+            country: 'ΗΠΑ'
+          },
+          {
+            id: "1",
+            capital: 'Aurora',
+            country: 'Near Arctic/Antarctic'
+          },
+          {
+            id: "2",
+            capital: 'Bora Bora',
+            country: 'French Polynesia'
+          },
+          {
+            id: "3",
+            capital: 'Halong Bay',
+            country: 'Vietnam'
+          },
+        ],
+        correctAnswerIndex: 1,
+      },
+      {
+        id: "10b",
+        status: "Flags",
+        country: "Aurora",
+        capital: "Near Arctic/Antarctic",
+        options: [
+          {
+            id: "0",
+            country: "Antelope Canyon\nUSA",
+            img: require("../../../assets/NaturalMnt/America/Antelope-Canyon.webp"),
+          },
+          {
+            id: "1",
+            country: "Aurora\nNear Arctic/Antarctic",
+            img: require("../../../assets/NaturalMnt/Europe/Northern-Lights-Desktop-Wallpaper.jpg"),
+          },
+          {
+            id: "2",
+            country: "Bora Bora\nFrench Polynesia",
+            img: require("../../../assets/NaturalMnt/Asia/bora_bora.webp"),
+          },
+          {
+            id: "3",
+            country: "Halong Bay\nVietnam",
+            img: require("../../../assets/NaturalMnt/Asia/halongbay-0.png"),
+          },
+        ],
+        correctAnswerIndex: 1,
+      },
+      {
+        id: "11",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11a",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11s",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11d",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11f",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11g",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11h",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11j",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11k",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11l",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11m",
+        monument: "",
+        country: "",
+      },
+]
+
+export default questions6El

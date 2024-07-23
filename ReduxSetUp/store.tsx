@@ -14,7 +14,7 @@ import { NaturalAsiaSlice, NaturalEurSlice, NaturalAmerSlice, NaturalAfrSlice, N
 import QuizStatusSlice from './QuizStatus/QuizStatus'
 import SoundSlice from './SoundVibration/SoundSlice'
 import VibrationSlice from './SoundVibration/VibrationSlice'
-
+import {NaturalMnt1Slice, NaturalMnt2Slice, NaturalMnt3Slice, NaturalMnt4Slice, NaturalMnt5Slice, NaturalMnt6Slice, NaturalMnt7Slice, NaturalMnt8Slice, NaturalMnt9Slice, NaturalMnt10Slice} from './NaturalMntQuizSlices'
 
 export const store = configureStore({
     reducer: {
@@ -59,6 +59,16 @@ export const store = configureStore({
         quiz8Monuments: Monuments8Slice,
         quiz9Monuments: Monuments9Slice,
         quiz10Monuments: Monuments10Slice,
+        quiz1NaturalMnts: NaturalMnt1Slice,
+        quiz2NaturalMnts: NaturalMnt2Slice,
+        quiz3NaturalMnts: NaturalMnt3Slice,
+        quiz4NaturalMnts: NaturalMnt4Slice,
+        quiz5NaturalMnts: NaturalMnt5Slice,
+        quiz6NaturalMnts: NaturalMnt6Slice,
+        quiz7NaturalMnts: NaturalMnt7Slice,
+        quiz8NaturalMnts: NaturalMnt8Slice,
+        quiz9NaturalMnts: NaturalMnt9Slice,
+        quiz10NaturalMnts: NaturalMnt10Slice,
         quizStatus: QuizStatusSlice,
         CapitalsMapNames: CapitalsMapsSlice,
         MonumentMapNames: MonumentsMapSlice,

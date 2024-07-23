@@ -5,12 +5,12 @@ import questions10En from '../../../../../data/naturalMnts/Questions/questions10
 
 const Quiz10 = () => {
   const { initStatus } = useAppSelector((state) => state.quizStatus);
-  const { quiz10ItemsMonuments } = useAppSelector(
-    (state) => state.quiz10Monuments
+  const { quiz10ItemsNtrMnts } = useAppSelector(
+    (state) => state.quiz10NaturalMnts
   );
   return (
     <QuizMainTemplate
-      dataQuiz={questions10En}
+      dataQuiz={quiz10ItemsNtrMnts}
       quizName="10"
       results="ResultsMnt10"
       loseScreen='LoseScreen10'

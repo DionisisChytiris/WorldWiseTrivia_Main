@@ -1,0 +1,21 @@
+import NaturalMnt1Slice from "./NaturalMnt1Slice";
+import NaturalMnt2Slice from "./NaturalMnt2Slice";
+import NaturalMnt3Slice from "./NaturalMnt3Slice";
+import NaturalMnt4Slice from "./NaturalMnt4Slice";
+import NaturalMnt5Slice from "./NaturalMnt5Slice";
+import NaturalMnt6Slice from "./NaturalMnt6Slice";
+import NaturalMnt7Slice from "./NaturalMnt7Slice";
+import NaturalMnt8Slice from "./NaturalMnt8Slice";
+import NaturalMnt9Slice from "./NaturalMnt9Slice";
+import NaturalMnt10Slice from "./NaturalMnt10Slice";
+import { quizNtrMnt1El, quizNtrMnt1En, quizNtrMnt1Es } from "./NaturalMnt1Slice";
+import { quizNtrMnt2El, quizNtrMnt2En, quizNtrMnt2Es } from "./NaturalMnt2Slice";
+import { quizNtrMnt3El, quizNtrMnt3En, quizNtrMnt3Es } from "./NaturalMnt3Slice";
+import { quizNtrMnt4El, quizNtrMnt4En, quizNtrMnt4Es } from "./NaturalMnt4Slice";
+import { quizNtrMnt5El, quizNtrMnt5En, quizNtrMnt5Es } from "./NaturalMnt5Slice";
+import { quizNtrMnt6El, quizNtrMnt6En, quizNtrMnt6Es } from "./NaturalMnt6Slice";
+import { quizNtrMnt7El, quizNtrMnt7En, quizNtrMnt7Es } from "./NaturalMnt7Slice";
+import { quizNtrMnt8El, quizNtrMnt8En, quizNtrMnt8Es } from "./NaturalMnt8Slice";
+import { quizNtrMnt9El, quizNtrMnt9En, quizNtrMnt9Es } from "./NaturalMnt9Slice";
+import { quizNtrMnt10El, quizNtrMnt10En, quizNtrMnt10Es } from "./NaturalMnt10Slice";
+export {NaturalMnt1Slice, NaturalMnt2Slice, NaturalMnt3Slice, NaturalMnt4Slice, NaturalMnt5Slice, NaturalMnt6Slice, NaturalMnt7Slice, NaturalMnt8Slice, NaturalMnt9Slice, NaturalMnt10Slice, quizNtrMnt1El, quizNtrMnt1En,quizNtrMnt1Es,quizNtrMnt2El, quizNtrMnt2En, quizNtrMnt2Es,quizNtrMnt3El, quizNtrMnt3En, quizNtrMnt3Es,quizNtrMnt4El, quizNtrMnt4En, quizNtrMnt4Es,quizNtrMnt5El, quizNtrMnt5En, quizNtrMnt5Es,quizNtrMnt6El, quizNtrMnt6En, quizNtrMnt6Es,quizNtrMnt7El, quizNtrMnt7En, quizNtrMnt7Es,quizNtrMnt8El, quizNtrMnt8En, quizNtrMnt8Es,quizNtrMnt9El, quizNtrMnt9En, quizNtrMnt9Es,quizNtrMnt10El, quizNtrMnt10En, quizNtrMnt10Es}

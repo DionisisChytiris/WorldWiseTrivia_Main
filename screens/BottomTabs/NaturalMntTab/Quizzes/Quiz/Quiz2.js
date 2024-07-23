@@ -5,12 +5,12 @@ import questions2En from '../../../../../data/naturalMnts/Questions/questions2En
 
 const Quiz2 = () => {
   const { initStatus } = useAppSelector((state) => state.quizStatus);
-  const { quiz2ItemsMonuments } = useAppSelector(
-    (state) => state.quiz2Monuments
+  const { quiz2ItemsNtrMnts } = useAppSelector(
+    (state) => state.quiz2NaturalMnts
   );
   return (
     <QuizMainTemplate
-      dataQuiz={questions2En}
+      dataQuiz={quiz2ItemsNtrMnts}
       quizName="2"
       results="ResultsMnt2"
       loseScreen='LoseScreen2'

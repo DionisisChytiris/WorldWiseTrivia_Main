@@ -145,9 +145,57 @@ import {
   MonAsEn,
   MonAsEs,
 } from "../../ReduxSetUp/MonumentsLearnSlices";
-import { NtrAsiaEl, NtrAsiaEn, NtrAsiaEs, NtrEurEl, NtrEurEn, NtrEurEs, NtrAmerEl, NtrAmerEn, NtrAmerEs, NtrAfrEl, NtrAfrEn, NtrAfrEs, NtrOceaEl, NtrOceaEn, NtrOceaEs } from "../../ReduxSetUp/NaturalMntLearnSlices";
+import {
+  NtrAsiaEl,
+  NtrAsiaEn,
+  NtrAsiaEs,
+  NtrEurEl,
+  NtrEurEn,
+  NtrEurEs,
+  NtrAmerEl,
+  NtrAmerEn,
+  NtrAmerEs,
+  NtrAfrEl,
+  NtrAfrEn,
+  NtrAfrEs,
+  NtrOceaEl,
+  NtrOceaEn,
+  NtrOceaEs,
+} from "../../ReduxSetUp/NaturalMntLearnSlices";
+import {
+  quizNtrMnt1El,
+  quizNtrMnt1En,
+  quizNtrMnt1Es,
+  quizNtrMnt2El,
+  quizNtrMnt2En,
+  quizNtrMnt2Es,
+  quizNtrMnt3El,
+  quizNtrMnt3En,
+  quizNtrMnt3Es,
+  quizNtrMnt4El,
+  quizNtrMnt4En,
+  quizNtrMnt4Es,
+  quizNtrMnt5El,
+  quizNtrMnt5En,
+  quizNtrMnt5Es,
+  quizNtrMnt6El,
+  quizNtrMnt6En,
+  quizNtrMnt6Es,
+  quizNtrMnt7El,
+  quizNtrMnt7En,
+  quizNtrMnt7Es,
+  quizNtrMnt8El,
+  quizNtrMnt8En,
+  quizNtrMnt8Es,
+  quizNtrMnt9El,
+  quizNtrMnt9En,
+  quizNtrMnt9Es,
+  quizNtrMnt10El,
+  quizNtrMnt10En,
+  quizNtrMnt10Es,
+} from "../../ReduxSetUp/NaturalMntQuizSlices";
 import { Feather } from "@expo/vector-icons";
-import  {toggleBoolean} from '../../ReduxSetUp/SoundVibration/VibrationSlice.tsx'
+import { toggleBoolean } from "../../ReduxSetUp/SoundVibration/VibrationSlice.tsx";
 import { useAppSelector } from "../../ReduxSetUp/store";
 import { toggleSound } from "../../ReduxSetUp/SoundVibration/SoundSlice";
 // import { statusActive, statusCancel, toggleValue } from "../../ReduxSetUp/SoundVibration/VibrationSlice.tsx";
@@ -163,8 +211,8 @@ const DrawerContent = (props) => {
   const [option, setOption] = useState("En");
   const [isVibrating, setIsVibrating] = useState(true);
   const [isPlaying, setIsPlaying] = useState(true);
-  const [isbg1, setIsbg1] = useState('transparent');
-  const [isbg2, setIsbg2] = useState('transparent');
+  const [isbg1, setIsbg1] = useState("transparent");
+  const [isbg2, setIsbg2] = useState("transparent");
   const lightMode = require("../../assets/settings/day-mode.png");
   const darkMode = require("../../assets/settings/moon.png");
 
@@ -240,11 +288,21 @@ const DrawerContent = (props) => {
     dispatch(quizMnt8En());
     dispatch(quizMnt9En());
     dispatch(quizMnt10En());
-    dispatch(NtrEurEn())
-    dispatch(NtrAsiaEn())
-    dispatch(NtrAmerEn())
-    dispatch(NtrAfrEn())
-    dispatch(NtrOceaEn())
+    dispatch(NtrEurEn());
+    dispatch(NtrAsiaEn());
+    dispatch(NtrAmerEn());
+    dispatch(NtrAfrEn());
+    dispatch(NtrOceaEn());
+    dispatch(quizNtrMnt1En());
+    dispatch(quizNtrMnt2En());
+    dispatch(quizNtrMnt3En());
+    dispatch(quizNtrMnt4En());
+    dispatch(quizNtrMnt5En());
+    dispatch(quizNtrMnt6En());
+    dispatch(quizNtrMnt7En());
+    dispatch(quizNtrMnt8En());
+    dispatch(quizNtrMnt9En());
+    dispatch(quizNtrMnt10En());
   };
   const Spanish = () => {
     dispatch(flagsEs());
@@ -289,11 +347,21 @@ const DrawerContent = (props) => {
     dispatch(quizMnt8Es());
     dispatch(quizMnt9Es());
     dispatch(quizMnt10Es());
-    dispatch(NtrEurEs())
-    dispatch(NtrAsiaEs())
-    dispatch(NtrAmerEs())
-    dispatch(NtrAfrEs())
-    dispatch(NtrOceaEs())
+    dispatch(NtrEurEs());
+    dispatch(NtrAsiaEs());
+    dispatch(NtrAmerEs());
+    dispatch(NtrAfrEs());
+    dispatch(NtrOceaEs());
+    dispatch(quizNtrMnt1Es());
+    dispatch(quizNtrMnt2Es());
+    dispatch(quizNtrMnt3Es());
+    dispatch(quizNtrMnt4Es());
+    dispatch(quizNtrMnt5Es());
+    dispatch(quizNtrMnt6Es());
+    dispatch(quizNtrMnt7Es());
+    dispatch(quizNtrMnt8Es());
+    dispatch(quizNtrMnt9Es());
+    dispatch(quizNtrMnt10Es());
   };
   const Greek = () => {
     dispatch(flagsEl());
@@ -339,11 +407,21 @@ const DrawerContent = (props) => {
     dispatch(quizMnt8El());
     dispatch(quizMnt9El());
     dispatch(quizMnt10El());
-    dispatch(NtrEurEl())
-    dispatch(NtrAsiaEl())
-    dispatch(NtrAmerEl())
-    dispatch(NtrAfrEl())
-    dispatch(NtrOceaEl())
+    dispatch(NtrEurEl());
+    dispatch(NtrAsiaEl());
+    dispatch(NtrAmerEl());
+    dispatch(NtrAfrEl());
+    dispatch(NtrOceaEl());
+    dispatch(quizNtrMnt1El());
+    dispatch(quizNtrMnt2El());
+    dispatch(quizNtrMnt3El());
+    dispatch(quizNtrMnt4El());
+    dispatch(quizNtrMnt5El());
+    dispatch(quizNtrMnt6El());
+    dispatch(quizNtrMnt7El());
+    dispatch(quizNtrMnt8El());
+    dispatch(quizNtrMnt9El());
+    dispatch(quizNtrMnt10El());
   };
 
   return (
@@ -502,11 +580,11 @@ const DrawerContent = (props) => {
 
               <View style={styles.soundVibration}>
                 <Pressable
-                  onPressIn={() => setIsbg1('lightgray')}
+                  onPressIn={() => setIsbg1("lightgray")}
                   onPressOut={() => {
-                    setIsPlaying(!isPlaying), 
-                    dispatch(toggleSound()),
-                    setIsbg1('transparent');
+                    setIsPlaying(!isPlaying),
+                      dispatch(toggleSound()),
+                      setIsbg1("transparent");
                   }}
                   style={{
                     backgroundColor: isbg1,
@@ -531,9 +609,7 @@ const DrawerContent = (props) => {
                   )}
                 </Pressable>
                 <Pressable
-                  onPressIn={() =>
-                    setIsbg2(() => setIsbg2("lightgray"))
-                  }
+                  onPressIn={() => setIsbg2(() => setIsbg2("lightgray"))}
                   onPressOut={() => {
                     setIsVibrating(!isVibrating);
                     dispatch(toggleBoolean());
@@ -639,5 +715,5 @@ const styles = StyleSheet.create({
     marginTop: 50,
     marginLeft: 0,
     marginRight: 20,
-  }
+  },
 });

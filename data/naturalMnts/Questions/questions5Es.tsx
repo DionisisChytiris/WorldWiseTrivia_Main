@@ -1,649 +1,649 @@
 const questions5Es = [
-    {
-      id: "1a",
-      status: "Capitals",
-      img: 'L',
-      country: "Reino Unido",
-      image: require("../../../assets/WorldMonuments/Europe/TowerBridge.png"),
-      options: [
-        {
-          id: "0",
-          capital: 'Puente de Brooklyn',
-          country: 'Estados Unidos'
-        },
-        {
-          id: "1",
-          capital: 'Puente de la Torre',
-          country: 'Reino Unido'
-        },
-        {
-          id: "2",
-          capital: 'Puente Golden Gate',
-          country: 'Estados Unidos'
-        },
-        {
-          id: "3",
-          capital: 'Puente de la bahía de Sídney',
-          country: 'Australia'
-        },
-      ],
-      correctAnswerIndex: 1,
-    },
+  {
+    id: "1a",
+    status: "Capitals",
+    img: 'L',
+    country: "Scotland",
+    image: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+    options: [
       {
-          id: "1b",
-          status: "Flags",
-          country: "Puente de la Torre",
-          capital: "Reino Unido",
-          options: [
-            {
-              id: "0",
-              country: "Acrópolis\nGrecia",
-              img: require("../../../assets/WorldMonuments/Europe/Acropolis.png"),
-            },
-            {
-              id: "1",
-              country: "Puente de la Torre\nReino Unido",
-              img: require("../../../assets/WorldMonuments/Europe/TowerBridge.png"),
-            },
-            {
-              id: "2",
-              country: "Ciudadela de Carcasona\nFrancia",
-              img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
-            },
-            {
-              id: "3",
-              country: "Torre de Pisa\nItalia",
-              img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
-            },
-          ],
-          correctAnswerIndex: 1,
-        },
-        {
-          id: "2a",
-          status: "Capitals",
-          img: 'L',
-          country: "Estados Unidos",
-          image: require("../../../assets/WorldMonuments/USA/washingtonMonument.png"),
-          options: [
-            {
-              id: "0",
-              capital: 'Stonehenge',
-              country: 'Reino Unido'
-            },
-            {
-              id: "1",
-              capital: 'Burj Khalifa',
-              country: 'Emiratos Árabes Unidos'
-            },
-            {
-              id: "2",
-              capital: 'Monumento a Washington',
-              country: 'Estados Unidos'
-            },
-            {
-              id: "3",
-              capital: 'Arco de Triunfo',
-              country: 'Francia'
-            },
-          ],
-          correctAnswerIndex: 2,
-        },
-        {
-          id: "2b",
-          status: "Flags",
-          country: "Monumento a Washington",
-          capital: "Estados Unidos",
-          options: [
-            {
-              id: "0",
-              country: "Hollywood Sign\nEstados Unidos",
-              img: require("../../../assets/WorldMonuments/USA/Hollywood.png"),
-            },
-            {
-              id: "1",
-              country: "Burj Khalifa\nEmiratos Árabes Unidos",
-              img: require("../../../assets/WorldMonuments/Asia/burj-khalifa.png"),
-            },
-            {
-              id: "2",
-              country: "Monumento a Washington\nEstados Unidos",
-              img: require("../../../assets/WorldMonuments/USA/washingtonMonument.png"),
-            },
-            {
-              id: "3",
-              country: "Monumento a Lincoln\nEstados Unidos",
-              img: require("../../../assets/WorldMonuments/USA/lincolnMonument.jpg"),
-            },
-          ],
-          correctAnswerIndex: 2,
-        },
-        {
-          id: "3a",
-          status: "Capitals",
-          img: 'L',
-          country: "Tailandia",
-          image: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
-          options: [
-            {
-              id: "0",
-              capital: 'Taj Mahal',
-              country: 'India'
-            },
-            {
-              id: "1",
-              capital: 'Angkor Wat',
-              country: 'Camboya'
-            },
-            {
-              id: "2",
-              capital: 'Akshardham\nTemple',
-              country: 'India'
-            },
-            {
-              id: "3",
-              capital: 'Gran Palacio',
-              country: 'Tailandia'
-            },
-          ],
-          correctAnswerIndex: 3,
-        },
-        {
-          id: "3b",
-          status: "Flags",
-          country: " Gran Palacio",
-          capital: "Tailandia",
-          options: [
-            {
-              id: "0",
-              country: "Akshardham Temple\nIndia",
-              img: require("../../../assets/WorldMonuments/Asia/AkshardhamTempleIndia.png"),
-            },
-            {
-              id: "1",
-              country: "Angkor Wat\nCambodia",
-              img: require("../../../assets/WorldMonuments/Asia/AngkorWat.png"),
-            },
-            {
-              id: "2",
-              country: "Taj Mahal\nIndia",
-              img: require("../../../assets/WorldMonuments/Asia/TajMajal.png"),
-            },
-            {
-              id: "3",
-              country: "The grand Palace\nThailand",
-              img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
-            },
-          ],
-          correctAnswerIndex: 3,
-        },
-        {
-          id: "4a",
-          status: "Capitals",
-          img: 'L',
-          country: "Camboya",
-          image: require("../../../assets/WorldMonuments/Asia/AngkorWat.png"),
-          options: [
-            {
-              id: "0",
-              capital: 'Kailasa\nTemple',
-              country: 'India'
-            },
-            {
-              id: "1",
-              capital: 'Taj Mahal',
-              country: 'India'
-            },
-            {
-              id: "2",
-              capital: 'Angkor wat',
-              country: 'Camboya'
-            },
-            {
-              id: "3",
-              capital: 'Sigiriya',
-              country: 'Sri Lanka'
-            },
-          ],
-          correctAnswerIndex: 2,
-        },
-        {
-          id: "4b",
-          status: "Flags",
-          country: "Angkor Wat",
-          capital: "Camboya",
-          options: [
-            {
-              id: "0",
-              country: "Sigiriya\nSri Lanka",
-              img: require("../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.png"),
-            },
-            {
-              id: "1",
-              country: "Templo de Kailasa\nIndia",
-              img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
-            },
-            {
-              id: "2",
-              country: "Angkor Wat\nCambodia",
-              img: require("../../../assets/WorldMonuments/Asia/AngkorWat.png"),
-            },
-            {
-              id: "3",
-              country: "Jetavanaramaya\nSri Lanka",
-              img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.png"),
-            },
-          ],
-          correctAnswerIndex: 2,
-        },
-        {
-          id: "5a",
-          status: "Capitals",
-          img: 'L',
-          country: "España",
-          image: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
-          options: [
-            {
-              id: "0",
-              capital: 'Meteora',
-              country: 'Grecia'
-            },
-            {
-              id: "1",
-              capital: 'Alhambra',
-              country: 'España'
-            },
-            {
-              id: "2",
-              capital: 'Mont\nSaint Michel',
-              country: 'Francia'
-            },
-            {
-              id: "3",
-              capital: 'Ciudadela de Carcasona',
-              country: 'Francia'
-            },
-          ],
-          correctAnswerIndex: 1,
-        },
-        {
-          id: "5b",
-          status: "Flags",
-          country: "Alhambra",
-          capital: "España",
-          options: [
-            {
-              id: "0",
-              country: "Meteora\nGrecia",
-              img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
-            },
-            {
-              id: "1",
-              country: "Monte Saint-Michel\nFrancia",
-              img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
-            },
-            {
-              id: "2",
-              country: "Alhambra\nEspaña",
-              img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
-            },
-            {
-              id: "3",
-              country: "Ciudadela de Carcasona\nFrancia",
-              img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
-            },
-          ],
-          correctAnswerIndex: 2,
-        },
-        {
-          id: "6a",
-          status: "Capitals",
-          img: 'L',
-          country: "Malasia",
-          image: require("../../../assets/WorldMonuments/Asia/PetronasTwinTowers.png"),
-          options: [
-            {
-              id: "0",
-              capital: 'Torres Petronas',
-              country: 'Malasia'
-            },
-            {
-              id: "1",
-              capital: 'Torre Eiffel ',
-              country: 'Francia'
-            },
-            {
-              id: "2",
-              capital: 'Burl Khalifa',
-              country: 'Emiratos Árabes Unidos'
-            },
-            {
-              id: "3",
-              capital: 'The Shard',
-              country: 'Reino Unido'
-            },
-          ],
-          correctAnswerIndex: 0,
-        },
-        {
-          id: "6b",
-          status: "Flags",
-          country: "Torres Petronas",
-          capital: "Malasia",
-          options: [
-            {
-              id: "0",
-              country: "Torres Petronas\nMalaysia",
-              img: require("../../../assets/WorldMonuments/Asia/PetronasTwinTowers.png"),
-            },
-            {
-              id: "1",
-              country: "Torre Eiffel \nFrancia",
-              img: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
-            },
-            {
-              id: "2",
-              country: "Burj Khalifa\nEmiratos Árabes Unidos",
-              img: require("../../../assets/WorldMonuments/Asia/burj-khalifa.png"),
-            },
-            {
-              id: "3",
-              country: "The Shard\nReino Unido",
-              img: require("../../../assets/WorldMonuments/Europe/TheShard.png"),
-            },
-          ],
-          correctAnswerIndex: 0
-        },
-        {
-          id: "7a",
-          status: "Capitals",
-          img: 'L',
-          country: "Francia",
-          image: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
-          options: [
-            {
-              id: "0",
-              capital: 'Isla de Alcatraz',
-              country: 'Estados Unidos'
-            },
-            {
-              id: "1",
-              capital: 'Mont\nSaint Michel',
-              country: 'Francia'
-            },
-            {
-              id: "2",
-              capital: 'Isla Ellis',
-              country: 'Estados Unidos'
-            },
-            {
-              id: "3",
-              capital: 'Notre Dame',
-              country: 'Francia'
-            },
-          ],
-          correctAnswerIndex: 1,
-        },
-        {
-          id: "7b",
-          status: "Flags",
-          country: "Monte Saint-Michel",
-          capital: "Francia",
-          options: [
-            {
-              id: "0",
-              country: "Isla de Alcatraz\nEstados Unidos",
-              img: require("../../../assets/WorldMonuments/USA/alcatraz.png"),
-            },
-            {
-              id: "1",
-              country: "Monte Saint-Michel\nEstados Unidos",
-              img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
-            },
-            {
-              id: "2",
-              country: "Isla Ellis\nEstados Unidos",
-              img: require("../../../assets/WorldMonuments/USA/ellis-island.png"),
-            },
-            {
-              id: "3",
-              country: "Notre Dame\nFrancia",
-              img: require("../../../assets/WorldMonuments/Europe/notreDame.png"),
-            },
-          ],
-          correctAnswerIndex: 1,
-        },
-        {
-          id: "8a",
-          status: "Capitals",
-          img: 'L',
-          country: "Estados Unidos",
-          image: require("../../../assets/WorldMonuments/USA/Mount_Rushmore.png"),
-          options: [
-            {
-              id: "0",
-              capital: 'Stonehenge',
-              country: 'Reino Unido'
-            },
-            {
-              id: "1",
-              capital: 'Atomium',
-              country: 'Bélgica'
-            },
-            {
-              id: "2",
-              capital: 'Oratorio de San José',
-              country: 'Canadá'
-            },
-            {
-              id: "3",
-              capital: 'Monte Rushmore',
-              country: 'Estados Unidos'
-            },
-          ],
-          correctAnswerIndex: 3,
-        },
-        {
-          id: "8b",
-          status: "Flags",
-          country: "Monte Rushmore",
-          capital: "Estados Unidos",
-          options: [
-            {
-              id: "0",
-              country: "Oratorio de San José\nCanadá",
-              img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.png"),
-            },
-            {
-              id: "1",
-              country: "Stonehedge\nReino Unido",
-              img: require("../../../assets/WorldMonuments/Europe/stonehenge.png"),
-            },
-            {
-              id: "2",
-              country: "Atomium\nBélgica",
-              img: require("../../../assets/WorldMonuments/Europe/Atomium.png"),
-            },
-            {
-              id: "3",
-              country: "Monte Rushmore\nEstados Unidos",
-              img: require("../../../assets/WorldMonuments/USA/Mount_Rushmore.png"),
-            },
-          ],
-          correctAnswerIndex: 3,
-        },
-        {
-          id: "9a",
-          status: "Capitals",
-          img: 'L',
-          country: "Japón",
-          image: require("../../../assets/WorldMonuments/Asia/FushimiInari-taishaShrineKyoto.png"),
-          options: [
-            {
-              id: "0",
-              capital: 'Fushimi\nInari Shrine',
-              country: 'Japón'
-            },
-            {
-              id: "1",
-              capital: 'Castillo de Osaka',
-              country: 'Japón'
-            },
-            {
-              id: "2",
-              capital: 'Palacio Imperial de Tokio',
-              country: 'Japón'
-            },
-            {
-              id: "3",
-              capital: 'Castillo de Himeji',
-              country: 'Japón'
-            },
-          ],
-          correctAnswerIndex: 0,
-        },
-        {
-          id: "9b",
-          status: "Flags",
-          country: "Fushimi Inari Shrine",
-          capital: "Japón",
-          options: [
-            {
-              id: "0",
-              country: "Fushimi Inari Shrine\nJapón",
-              img: require("../../../assets/WorldMonuments/Asia/FushimiInari-taishaShrineKyoto.png"),
-            },
-            {
-              id: "1",
-              country: "Castillo de Osaka\nJapón",
-              img: require("../../../assets/WorldMonuments/Asia/Osaka-Castle.png"),
-            },
-            {
-              id: "2",
-              country: "Castillo de Himeji\nJapón",
-              img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
-            },
-            {
-              id: "3",
-              country: "Palacio Imperial de Tokio\nJapón",
-              img: require("../../../assets/WorldMonuments/Asia/ImperialPalaceTokyo.png"),
-            },
-          ],
-          correctAnswerIndex: 0,
-        },
-        {
-          id: "10a",
-          status: "Capitals",
-          img: 'L',
-          country: "Singapur",
-          image: require("../../../assets/WorldMonuments/Asia/Gardens-by-the-Bay.jpg"),
-          options: [
-            {
-              id: "0",
-              capital: 'Merlion\nSingapur',
-              country: 'Singapur'
-            },
-            {
-              id: "1",
-              capital: 'Palacio de Versalles',
-              country: 'Francia'
-            },
-            {
-              id: "2",
-              capital: 'Jardines de la Bahía',
-              country: 'Singapur'
-            },
-            {
-              id: "3",
-              capital: 'Ópera de Sídney',
-              country: 'Australia'
-            },
-          ],
-          correctAnswerIndex: 2,
-        },
-        {
-          id: "10b",
-          status: "Flags",
-          country: "Jardines de la Bahía",
-          capital: "Singapur",
-          options: [
-            {
-              id: "0",
-              country: "Ópera de Sídney\nAustralia",
-              img: require("../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.png"),
-            },
-            {
-              id: "1",
-              country: "Palacio de Versalles \nFrancia",
-              img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
-            },
-            {
-              id: "2",
-              country: "Jardines de la Bahía\nSingapur",
-              img: require("../../../assets/WorldMonuments/Asia/Gardens-by-the-Bay.png"),
-            },
-            {
-              id: "3",
-              country: "Merlion Singapur\nSingapur",
-              img: require("../../../assets/WorldMonuments/Asia/merlion_singapore.png"),
-            },
-          ],
-          correctAnswerIndex: 2,
-        },
-        {
-          id: "11",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11a",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11s",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11d",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11f",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11g",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11h",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11j",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11k",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11l",
-          monument: "",
-          country: "",
-        },
-        {
-          id: "11m",
-          monument: "",
-          country: "",
-        },
-  ]
-  
-  export default questions5Es
+        id: "0",
+        capital: 'Santorini Caldera',
+        country: 'Greece'
+      },
+      {
+        id: "1",
+        capital: 'Isle of Skye',
+        country: 'Scotland'
+      },
+      {
+        id: "2",
+        capital: 'Underwater Waterfalls',
+        country: 'Mauritius'
+      },
+      {
+        id: "3",
+        capital: 'The Twelve Apostles',
+        country: 'Australia'
+      },
+    ],
+    correctAnswerIndex: 1,
+  },
+    {
+        id: "1b",
+        status: "Flags",
+        country: "Isle of Skye",
+        capital: "Scotland",
+        options: [
+          {
+            id: "0",
+            country: "Santorini Caldera\nGreece",
+            img: require("../../../assets/NaturalMnt/Europe/Santorini-Caldera.jpg"),
+          },
+          {
+            id: "1",
+            country: "Isle of Skye\nScotland",
+            img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+          },
+          {
+            id: "2",
+            country: "Underwater Waterfalls\nMauritius",
+            img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
+          },
+          {
+            id: "3",
+            country: "The Twelve Apostles\nAustralia",
+            img: require("../../../assets/NaturalMnt/Oceania/12-apostels.webp"),
+          },
+        ],
+        correctAnswerIndex: 1,
+      },
+      {
+        id: "2a",
+        status: "Capitals",
+        img: 'L',
+        country: "Angola",
+        image: require("../../../assets/NaturalMnt/Africa/kalandula-falls-angola.webp"),
+        options: [
+          {
+            id: "0",
+            capital: 'Mount Kenya',
+            country: 'Kenya'
+          },
+          {
+            id: "1",
+            capital: 'Angel Falls',
+            country: 'Venezuela'
+          },
+          {
+            id: "2",
+            capital: 'Kalandula Falls',
+            country: 'Angola'
+          },
+          {
+            id: "3",
+            capital: 'Kauai',
+            country: 'Hawaii'
+          },
+        ],
+        correctAnswerIndex: 2,
+      },
+      {
+        id: "2b",
+        status: "Flags",
+        country: "Kalandula Falls",
+        capital: "Angola",
+        options: [
+          {
+            id: "0",
+            country: "Mount Kenya\nKenya",
+            img: require("../../../assets/NaturalMnt/Africa/mountKenya.webp"),
+          },
+          {
+            id: "1",
+            country: "Angels Falls\nVenezuela",
+            img: require("../../../assets/NaturalMnt/America/Angel-Falls.webp"),
+          },
+          {
+            id: "2",
+            country: "Kalandula Falls\nAngola",
+            img: require("../../../assets/NaturalMnt/Africa/kalandula-falls-angola.webp"),
+          },
+          {
+            id: "3",
+            country: "Kauai\nHawaii",
+            img: require("../../../assets/NaturalMnt/America/KauaiUSA.webp"),
+          },
+        ],
+        correctAnswerIndex: 2,
+      },
+      {
+        id: "3a",
+        status: "Capitals",
+        img: 'L',
+        country: "USA",
+        image: require("../../../assets/NaturalMnt/America/Bryce-Canyon.webp"),
+        options: [
+          {
+            id: "0",
+            capital: 'Lake Bled',
+            country: 'Slovenia'
+          },
+          {
+            id: "1",
+            capital: 'Skaftafell Ice Cave',
+            country: 'Iceland'
+          },
+          {
+            id: "2",
+            capital: 'Trolltunga',
+            country: 'Norway'
+          },
+          {
+            id: "3",
+            capital: 'Bryce Canyon National Park',
+            country: 'USA'
+          },
+        ],
+        correctAnswerIndex: 3,
+      },
+      {
+        id: "3b",
+        status: "Flags",
+        country: "Bryce Canyon National Park",
+        capital: "USA",
+        options: [
+          {
+            id: "0",
+            country: "Lake Bled\nSlovenia",
+            img: require("../../../assets/NaturalMnt/Europe/lake-bled.webp"),
+          },
+          {
+            id: "1",
+            country: "Skaftafell Ice Crave\nIceland",
+            img: require("../../../assets/NaturalMnt/Europe/skaftafell.webp"),
+          },
+          {
+            id: "2",
+            country: "Trolltunga\nNorway",
+            img: require("../../../assets/NaturalMnt/Europe/Trolltunga.webp"),
+          },
+          {
+            id: "3",
+            country: "Bryce Canyon National Park\nUSA",
+            img: require("../../../assets/NaturalMnt/America/Bryce-Canyon.webp"),
+          },
+        ],
+        correctAnswerIndex: 3,
+      },
+      {
+        id: "4a",
+        status: "Capitals",
+        img: 'L',
+        country: "Norway",
+        image: require("../../../assets/NaturalMnt/Europe/pulpitRock.webp"),
+        options: [
+          {
+            id: "0",
+            capital: 'Crooked Forest',
+            country: 'Poland'
+          },
+          {
+            id: "1",
+            capital: 'Dettifoss Waterfall',
+            country: 'Iceland'
+          },
+          {
+            id: "2",
+            capital: 'Pulpit Rock',
+            country: 'Norway'
+          },
+          {
+            id: "3",
+            capital: 'Victoria Falls',
+            country: 'Zimbabwe/Zambia'
+          },
+        ],
+        correctAnswerIndex: 2,
+      },
+      {
+        id: "4b",
+        status: "Flags",
+        country: "Pulpit Rock",
+        capital: "Norway",
+        options: [
+          {
+            id: "0",
+            country: "Crooked Forest\nPoland",
+            img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
+          },
+          {
+            id: "1",
+            country: "Dettifoss Waterfall\nIceland",
+            img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
+          },
+          {
+            id: "2",
+            country: "Pulpit Rock\nNorway",
+            img: require("../../../assets/NaturalMnt/Europe/pulpitRock.webp"),
+          },
+          {
+            id: "3",
+            country: "Victoria Falls\nZimbabwe/Zambia",
+            img: require("../../../assets/NaturalMnt/Africa/Victoria-Falls.webp"),
+          },
+        ],
+        correctAnswerIndex: 2,
+      },
+      {
+        id: "5a",
+        status: "Capitals",
+        img: 'L',
+        country: "Hawaii",
+        image: require("../../../assets/NaturalMnt/America/KauaiUSA.webp"),
+        options: [
+          {
+            id: "0",
+            capital: 'Lake Titicaca',
+            country: 'Bolivia/Peru'
+          },
+          {
+            id: "1",
+            capital: 'Kauai',
+            country: 'Hawaii'
+          },
+          {
+            id: "2",
+            capital: 'Mitten Buttes',
+            country: 'USA'
+          },
+          {
+            id: "3",
+            capital: 'Moraine Lake',
+            country: 'Canada'
+          },
+        ],
+        correctAnswerIndex: 1,
+      },
+      {
+        id: "5b",
+        status: "Flags",
+        country: "Kauai",
+        capital: "Hawaii",
+        options: [
+          {
+            id: "0",
+            country: "Lake Titicaca\nBolivia/Peru",
+            img: require("../../../assets/NaturalMnt/America/lakeTiticaca.webp"),
+          },
+          {
+            id: "1",
+            country: "Kauai\nHawaii",
+            img: require("../../../assets/NaturalMnt/America/KauaiUSA.webp"),
+          },
+          {
+            id: "2",
+            country: "Mitten Buttes\nUSA",
+            img: require("../../../assets/NaturalMnt/America/mitten-butte.webp"),
+          },
+          {
+            id: "3",
+            country: "Moraine Lake\nCanada",
+            img: require("../../../assets/NaturalMnt/America/Moraine-Lake.webp"),
+          },
+        ],
+        correctAnswerIndex: 1,
+      },
+      {
+        id: "6a",
+        status: "Capitals",
+        img: 'L',
+        country: "USA",
+        image: require("../../../assets/NaturalMnt/America/GreatSandDunesPark.webp"),
+        options: [
+          {
+            id: "0",
+            capital: 'Great Sand Dunes National Park',
+            country: 'USA'
+          },
+          {
+            id: "1",
+            capital: 'Gobi Desert',
+            country: 'China/Mongolia'
+          },
+          {
+            id: "2",
+            capital: 'Zhangjiajie',
+            country: 'China'
+          },
+          {
+            id: "3",
+            capital: 'Cappadocia',
+            country: 'Turkey'
+          },
+        ],
+        correctAnswerIndex: 0,
+      },
+      {
+        id: "6b",
+        status: "Flags",
+        country: "Great Sand Dunes National Park",
+        capital: "USA",
+        options: [
+          {
+            id: "0",
+            country: "Great Sand Dunes National Park\nUSA",
+            img: require("../../../assets/NaturalMnt/America/GreatSandDunesPark.webp"),
+          },
+          {
+            id: "1",
+            country: "Gobi Desert\nChina/Mongolia",
+            img: require("../../../assets/NaturalMnt/Asia/Winter-GobiDesert.webp"),
+          },
+          {
+            id: "2",
+            country: "Zhangjiajie\nChina",
+            img: require("../../../assets/NaturalMnt/Asia/zhangjiajie-national-forest-park-china.png"),
+          },
+          {
+            id: "3",
+            country: "Cappadocia\nTurkey",
+            img: require("../../../assets/NaturalMnt/Asia/Cappadocia.png"),
+          },
+        ],
+        correctAnswerIndex: 0
+      },
+      {
+        id: "7a",
+        status: "Capitals",
+        img: 'L',
+        country: "China",
+        image: require("../../../assets/NaturalMnt/Asia/huanglongScenicArea.webp"),
+        options: [
+          {
+            id: "0",
+            capital: 'Mount Fuji',
+            country: 'Japan'
+          },
+          {
+            id: "1",
+            capital: 'Huanglong Scenic Area',
+            country: 'China'
+          },
+          {
+            id: "2",
+            capital: 'Mount Kinabalu',
+            country: 'Malaysia'
+          },
+          {
+            id: "3",
+            capital: 'Mount Otemanu',
+            country: 'French Polynesia'
+          },
+        ],
+        correctAnswerIndex: 1,
+      },
+      {
+        id: "7b",
+        status: "Flags",
+        country: "Huanglong Scenic Area",
+        capital: "China",
+        options: [
+          {
+            id: "0",
+            country: "Mount Fuji\nJapan",
+            img: require("../../../assets/NaturalMnt/Asia/mount_fuji.webp"),
+          },
+          {
+            id: "1",
+            country: "Huanglong Scenic Area\nChina",
+            img: require("../../../assets/NaturalMnt/Asia/huanglongScenicArea.webp"),
+          },
+          {
+            id: "2",
+            country: "Mount Kinabalu\nMalaysia",
+            img: require("../../../assets/NaturalMnt/Asia/MountKinabalu.webp"),
+          },
+          {
+            id: "3",
+            country: "Mount Otemanu\nFrench Polynesia",
+            img: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
+          },
+        ],
+        correctAnswerIndex: 1,
+      },
+      {
+        id: "8a",
+        status: "Capitals",
+        img: 'L',
+        country: "Turkey",
+        image: require("../../../assets/NaturalMnt/Asia/mountArarat.webp"),
+        options: [
+          {
+            id: "0",
+            capital: 'Mount Bromo',
+            country: 'Indonesia'
+          },
+          {
+            id: "1",
+            capital: 'Underwater Waterfalls',
+            country: 'Mauritius'
+          },
+          {
+            id: "2",
+            capital: 'Mount Vesuvius',
+            country: 'Italy'
+          },
+          {
+            id: "3",
+            capital: 'Mount Ararat',
+            country: 'Turkey'
+          },
+        ],
+        correctAnswerIndex: 3,
+      },
+      {
+        id: "8b",
+        status: "Flags",
+        country: "Mount Ararat",
+        capital: "Turkey",
+        options: [
+          {
+            id: "0",
+            country: "Mount Bromo\nIndonesia",
+            img: require("../../../assets/NaturalMnt/Asia/mountBromo.png"),
+          },
+          {
+            id: "1",
+            country: "Underwater Waterfalls\nMauritius",
+            img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
+          },
+          {
+            id: "2",
+            country: "Vesuvius\nItaly",
+            img: require("../../../assets/NaturalMnt/Europe/mount-vesuvius.webp"),
+          },
+          {
+            id: "3",
+            country: "Mount Ararat\nTurkey",
+            img: require("../../../assets/NaturalMnt/Asia/mountArarat.webp"),
+          },
+        ],
+        correctAnswerIndex: 3,
+      },
+      {
+        id: "9a",
+        status: "Capitals",
+        img: 'L',
+        country: "Vanuatu",
+        image: require("../../../assets/NaturalMnt/Oceania/yasur_mount.webp"),
+        options: [
+          {
+            id: "0",
+            capital: 'Mount Yasur',
+            country: 'Vanuatu'
+          },
+          {
+            id: "1",
+            capital: 'The Great Ocean Road',
+            country: 'Australia'
+          },
+          {
+            id: "2",
+            capital: 'Lake Hillier',
+            country: 'Australia'
+          },
+          {
+            id: "3",
+            capital: 'Great Barrier Reef',
+            country: 'Australia'
+          },
+        ],
+        correctAnswerIndex: 0,
+      },
+      {
+        id: "9b",
+        status: "Flags",
+        country: "Mount Yasur",
+        capital: "Vanuatu",
+        options: [
+          {
+            id: "0",
+            country: "Mount Yasur\nVanuatu",
+            img: require("../../../assets/NaturalMnt/Oceania/yasur_mount.webp"),
+          },
+          {
+            id: "1",
+            country: "The Great Ocean Road\nAustralia",
+            img: require("../../../assets/NaturalMnt/Oceania/TheGreatOceanRoad.webp"),
+          },
+          {
+            id: "2",
+            country: "Lake Hillier\nAustralia",
+            img: require("../../../assets/NaturalMnt/Oceania/lakehillier.webp"),
+          },
+          {
+            id: "3",
+            country: "Great Barrier Reef\nAustralia",
+            img: require("../../../assets/NaturalMnt/Oceania/greatBarrierReef.webp"),
+          },
+        ],
+        correctAnswerIndex: 0,
+      },
+      {
+        id: "10a",
+        status: "Capitals",
+        img: 'L',
+        country: "Greece",
+        image: require("../../../assets/NaturalMnt/Europe/Santorini-Caldera.jpg"),
+        options: [
+          {
+            id: "0",
+            capital: 'Danakil Depression',
+            country: 'Ethiopia'
+          },
+          {
+            id: "1",
+            capital: 'Cape of Good Hope',
+            country: 'South Africa'
+          },
+          {
+            id: "2",
+            capital: 'Santorini Caldera',
+            country: 'Greece'
+          },
+          {
+            id: "3",
+            capital: 'Marble Caves',
+            country: 'Chile'
+          },
+        ],
+        correctAnswerIndex: 2,
+      },
+      {
+        id: "10b",
+        status: "Flags",
+        country: "Santorini Caldera",
+        capital: "Greece",
+        options: [
+          {
+            id: "0",
+            country: "Danakil Depression\nEthiopia",
+            img: require("../../../assets/NaturalMnt/Africa/The Danakil DepressionEthiopia.webp"),
+          },
+          {
+            id: "1",
+            country: "Cape of Good Hope\nSouth Africa",
+            img: require("../../../assets/NaturalMnt/Africa/CapeofGoodHope.webp"),
+          },
+          {
+            id: "2",
+            country: "Santorini Caldera\nGreece",
+            img: require("../../../assets/NaturalMnt/Europe/Santorini-Caldera.jpg"),
+          },
+          {
+            id: "3",
+            country: "Marble Caves\nChile",
+            img: require("../../../assets/NaturalMnt/America/marble-caves-chile.png"),
+          },
+        ],
+        correctAnswerIndex: 2,
+      },
+      {
+        id: "11",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11a",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11s",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11d",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11f",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11g",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11h",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11j",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11k",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11l",
+        monument: "",
+        country: "",
+      },
+      {
+        id: "11m",
+        monument: "",
+        country: "",
+      },
+]
+
+export default questions5Es
