@@ -13,7 +13,7 @@ const questions6El = [
       },
       {
         id: "1",
-        capital: 'Mount Huang',
+        capital: 'Όρος Χουάνγκ',
         country: 'China'
       },
       {
@@ -23,7 +23,7 @@ const questions6El = [
       },
       {
         id: "3",
-        capital: 'Great Blue Hole',
+        capital: 'Μεγάλη Μπλε Τρύπα',
         country: 'Μπελίζ'
       },
     ],
@@ -42,7 +42,7 @@ const questions6El = [
           },
           {
             id: "1",
-            country: "Mount Huang\nChina",
+            country: "Όρος Χουάνγκ\nChina",
             img: require("../../../assets/NaturalMnt/Asia/mountHuangshan.webp"),
           },
           {
@@ -52,7 +52,7 @@ const questions6El = [
           },
           {
             id: "3",
-            country: "Great Blue Hole\nBelize",
+            country: "Μεγάλη Μπλε Τρύπα\nBelize",
             img: require("../../../assets/NaturalMnt/America/Great-Blue-Hole.webp"),
           },
         ],
@@ -62,7 +62,7 @@ const questions6El = [
         id: "2a",
         status: "Capitals",
         img: 'L',
-        country: "Canada",
+        country: "Καναδάς",
         image: require("../../../assets/NaturalMnt/America/BanffNationalPark.webp"),
         options: [
           {
@@ -78,12 +78,12 @@ const questions6El = [
           {
             id: "2",
             capital: 'Blue Mountains',
-            country: 'Australia'
+            country: 'Αυστραλία'
           },
           {
             id: "3",
-            capital: 'Banff National Park',
-            country: 'Canada'
+            capital: 'Εθνικό Πάρκο Μπανφ',
+            country: 'Καναδάς'
           },
         ],
         correctAnswerIndex: 3,
@@ -91,8 +91,8 @@ const questions6El = [
       {
         id: "2b",
         status: "Flags",
-        country: "Banff National Park",
-        capital: "Canada",
+        country: "Εθνικό Πάρκο Μπανφ",
+        capital: "Καναδάς",
         options: [
           {
             id: "0",
@@ -106,12 +106,12 @@ const questions6El = [
           },
           {
             id: "2",
-            country: "Blue Mountains\nAustralia",
+            country: "Blue Mountains\nΑυστραλία",
             img: require("../../../assets/NaturalMnt/Oceania/Australia-Blue-Mountains.webp"),
           },
           {
             id: "3",
-            country: "Banff National Park\nCanada",
+            country: "Εθνικό Πάρκο Μπανφ\nΚαναδάς",
             img: require("../../../assets/NaturalMnt/America/BanffNationalPark.webp"),
           },
         ],
@@ -126,8 +126,8 @@ const questions6El = [
         options: [
           {
             id: "0",
-            capital: 'Ayers Rock',
-            country: 'Australia'
+            capital: 'Ουλουρού',
+            country: 'Αυστραλία'
           },
           {
             id: "1",
@@ -155,12 +155,12 @@ const questions6El = [
         options: [
           {
             id: "0",
-            country: "Ayers Rock\nAustralia",
+            country: "Ουλουρού\nΑυστραλία",
             img: require("../../../assets/NaturalMnt/Oceania/Ayers-Rock.webp"),
           },
           {
             id: "1",
-            country: "Devils Tower\nUSA",
+            country: "Devils Tower\nΗΠΑ",
             img: require("../../../assets/NaturalMnt/America/devils-tower.webp"),
           },
           {
@@ -190,12 +190,12 @@ const questions6El = [
           },
           {
             id: "1",
-            capital: 'Mount Kilimanjaro',
+            capital: 'Όρος Κιλιμάντζαρο',
             country: 'Tanzania'
           },
           {
             id: "2",
-            capital: 'White Desert National Park',
+            capital: 'Εθνικό Πάρκο Λευκής Ερήμου',
             country: 'Egypt'
           },
           {
@@ -209,7 +209,7 @@ const questions6El = [
       {
         id: "4b",
         status: "Flags",
-        country: "White Desert National Park",
+        country: "Εθνικό Πάρκο Λευκής Ερήμου",
         capital: "Egypt",
         options: [
           {
@@ -219,12 +219,12 @@ const questions6El = [
           },
           {
             id: "1",
-            country: "Mount Kilimanjaro\nTanzania",
+            country: "Όρος Κιλιμάντζαρο\nTanzania",
             img: require("../../../assets/NaturalMnt/Africa/Kilimanjaro.webp"),
           },
           {
             id: "2",
-            country: "White Desert National Park\nEgypt",
+            country: "Εθνικό Πάρκο Λευκής Ερήμου\nEgypt",
             img: require("../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp"),
           },
           {
@@ -249,12 +249,12 @@ const questions6El = [
           },
           {
             id: "1",
-            capital: 'Mount Teide',
+            capital: 'Όρος Τέιδε',
             country: 'Spain'
           },
           {
             id: "2",
-            capital: 'Mount Otemanu',
+            capital: 'Όρος Οτεμανού',
             country: 'French Polynesia'
           },
           {
@@ -278,12 +278,12 @@ const questions6El = [
           },
           {
             id: "1",
-            country: "Mount Teide\nSpain",
+            country: "Όρος Τέιδε\nSpain",
             img: require("../../../assets/NaturalMnt/Europe/mountTeide.webp"),
           },
           {
             id: "2",
-            country: "Mount Otemanu\nFrench Polynesia",
+            country: "Όρος Οτεμανού\nFrench Polynesia",
             img: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
           },
           {
@@ -303,12 +303,12 @@ const questions6El = [
         options: [
           {
             id: "0",
-            capital: 'Pulpit Rock',
+            capital: 'Πέτρινος Αμβώνας',
             country: 'Norway'
           },
           {
             id: "1",
-            capital: 'Fiordland National Park',
+            capital: 'Εθνικό Πάρκο Φιόρντλαντ',
             country: 'New Zealand'
           },
           {
@@ -332,12 +332,12 @@ const questions6El = [
         options: [
           {
             id: "0",
-            country: "Pulpit Rock\nNorway",
+            country: "Πέτρινος Αμβώνας\nNorway",
             img: require("../../../assets/NaturalMnt/Europe/pulpitRock.webp"),
           },
           {
             id: "1",
-            country: "Fiordland National Park\nNew Zealand",
+            country: "Εθνικό Πάρκο Φιόρντλαντ\nNew Zealand",
             img: require("../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp"),
           },
           {
@@ -367,7 +367,7 @@ const questions6El = [
           },
           {
             id: "1",
-            capital: 'Swiss Alps',
+            capital: 'Ελβετικές Άλπεις',
             country: 'Switzerland'
           },
           {
@@ -377,7 +377,7 @@ const questions6El = [
           },
           {
             id: "3",
-            capital: 'Trolltunga',
+            capital: 'Τρολτούγκα',
             country: 'Norway'
           },
         ],
@@ -391,7 +391,7 @@ const questions6El = [
         options: [
           {
             id: "0",
-            country: "Swiss Alps\nSwitzerland",
+            country: "Ελβετικές Άλπεις\nSwitzerland",
             img: require("../../../assets/NaturalMnt/Europe/swissapls.jpg"),
           },
           {
@@ -406,7 +406,7 @@ const questions6El = [
           },
           {
             id: "3",
-            country: "Trolltunga\nNorway",
+            country: "Τρολτούγκα\nNorway",
             img: require("../../../assets/NaturalMnt/Europe/Trolltunga.webp"),
           },
         ],
@@ -421,18 +421,18 @@ const questions6El = [
         options: [
           {
             id: "0",
-            capital: 'Fiordland National Park',
+            capital: 'Εθνικό Πάρκο Φιόρντλαντ',
             country: 'New Zealand'
           },
           {
             id: "1",
             capital: 'Great Barrier Reef',
-            country: 'Australia'
+            country: 'Αυστραλία'
           },
           {
             id: "2",
             capital: 'The Great Ocean Road',
-            country: 'Australia'
+            country: 'Αυστραλία'
           },
           {
             id: "3",
@@ -445,22 +445,22 @@ const questions6El = [
       {
         id: "8b",
         status: "Flags",
-        country: "Fiordland National Park",
+        country: "Εθνικό Πάρκο Φιόρντλαντ",
         capital: "Indonesia",
         options: [
           {
             id: "0",
-            country: "Fiordland National Park\nIndonesia",
+            country: "Εθνικό Πάρκο Φιόρντλαντ\nIndonesia",
             img: require("../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp"),
           },
           {
             id: "1",
-            country: "Great Barrier Reef\nAustralia",
+            country: "Great Barrier Reef\nΑυστραλία",
             img: require("../../../assets/NaturalMnt/Oceania/greatBarrierReef.webp"),
           },
           {
             id: "2",
-            country: "The Great Ocean Road\nAustralia",
+            country: "The Great Ocean Road\nΑυστραλία",
             img: require("../../../assets/NaturalMnt/Oceania/TheGreatOceanRoad.webp"),
           },
           {
@@ -490,7 +490,7 @@ const questions6El = [
           },
           {
             id: "2",
-            capital: 'Isle of Skye',
+            capital: 'Νήσος Σκάι',
             country: 'Scotland'
           },
           {
@@ -519,7 +519,7 @@ const questions6El = [
           },
           {
             id: "2",
-            country: "Isle of Skye\nScotland",
+            country: "Νήσος Σκάι\nScotland",
             img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
           },
           {
@@ -539,7 +539,7 @@ const questions6El = [
         options: [
           {
             id: "0",
-            capital: 'Antelope Canyon',
+            capital: 'Φαράγγι Αντίλοπα',
             country: 'ΗΠΑ'
           },
           {
@@ -568,7 +568,7 @@ const questions6El = [
         options: [
           {
             id: "0",
-            country: "Antelope Canyon\nUSA",
+            country: "Φαράγγι Αντίλοπα\nΗΠΑ",
             img: require("../../../assets/NaturalMnt/America/Antelope-Canyon.webp"),
           },
           {

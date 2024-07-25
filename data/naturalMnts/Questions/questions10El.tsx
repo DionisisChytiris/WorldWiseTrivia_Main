@@ -8,7 +8,7 @@ const questions10El = [
     options: [
       {
         id: "0",
-        capital: "Cape of Good Hope",
+        capital: "Ακρωτήριο της Καλής Ελπίδας",
         country: "South Africa",
       },
       {
@@ -36,7 +36,7 @@ const questions10El = [
     options: [
       {
         id: "0",
-        country: "Cape of Good Hope\nSouth Africa",
+        country: "Ακρωτήριο της Καλής Ελπίδας\nSouth Africa",
         img: require("../../../assets/NaturalMnt/Africa/CapeofGoodHope.webp"),
       },
       {
@@ -71,7 +71,7 @@ const questions10El = [
       },
       {
         id: "1",
-        capital: "Pamukkale",
+        capital: "Παμούκαλε",
         country: "Turkey",
       },
       {
@@ -110,7 +110,7 @@ const questions10El = [
       },
       {
         id: "3",
-        country: "Pamukkale\nTurkey",
+        country: "Παμούκαλε\nTurkey",
         img: require("../../../assets/NaturalMnt/Asia/Pamukkale.webp"),
       },
     ],
@@ -277,7 +277,7 @@ const questions10El = [
       },
       {
         id: "1",
-        country: "The Needles\nUSA",
+        country: "The Needles\nΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/TheNeedles.webp"),
       },
       {
@@ -307,7 +307,7 @@ const questions10El = [
       },
       {
         id: "1",
-        capital: "Mount Vesuvius",
+        capital: "Όρος Βεζούβιος",
         country: "Italy",
       },
       {
@@ -317,8 +317,8 @@ const questions10El = [
       },
       {
         id: "3",
-        capital: "Ayers Rock",
-        country: "Australia",
+        capital: "Ουλουρού",
+        country: "Αυστραλία",
       },
     ],
     correctAnswerIndex: 2,
@@ -331,7 +331,7 @@ const questions10El = [
     options: [
       {
         id: "0",
-        country: "Mount Vesuvius\nItaly",
+        country: "Όρος Βεζούβιος\nItaly",
         img: require("../../../assets/NaturalMnt/Europe/mount-vesuvius.webp"),
       },
       {
@@ -346,7 +346,7 @@ const questions10El = [
       },
       {
         id: "3",
-        country: "Ayers Rock\nAustralia",
+        country: "Ουλουρού\nΑυστραλία",
         img: require("../../../assets/NaturalMnt/Oceania/Ayers-Rock.webp"),
       },
     ],
@@ -366,18 +366,18 @@ const questions10El = [
       },
       {
         id: "1",
-        capital: "Isle of Skye",
+        capital: "Νήσος Σκάι",
         country: "Scotland",
       },
       {
         id: "2",
         capital: "Black Forest",
-        country: "Germany",
+        country: "Γερμανία",
       },
       {
         id: "3",
         capital: "Lake Hillier",
-        country: "Australia",
+        country: "Αυστραλία",
       },
     ],
     correctAnswerIndex: 0,
@@ -395,17 +395,17 @@ const questions10El = [
       },
       {
         id: "1",
-        country: "Isle of Skye\nScotland",
+        country: "Νήσος Σκάι\nScotland",
         img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
       },
       {
         id: "2",
-        country: "Lake Hillier\nAustralia",
+        country: "Lake Hillier\nΑυστραλία",
         img: require("../../../assets/NaturalMnt/Oceania/lakehillier.webp"),
       },
       {
         id: "3",
-        country: "Black Forest\nGermany",
+        country: "Black Forest\nΓερμανία",
         img: require("../../../assets/NaturalMnt/Europe/blackForest.webp"),
       },
     ],
@@ -425,7 +425,7 @@ const questions10El = [
       },
       {
         id: "1",
-        capital: "Mount Teide",
+        capital: "Όρος Τέιδε",
         country: "Spain",
       },
       {
@@ -454,7 +454,7 @@ const questions10El = [
       },
       {
         id: "1",
-        country: "Mount Teide\nSpain",
+        country: "Όρος Τέιδε\nSpain",
         img: require("../../../assets/NaturalMnt/Europe/mountTeide.webp"),
       },
       {
@@ -479,7 +479,7 @@ const questions10El = [
     options: [
       {
         id: "0",
-        capital: "Antelope Canyon",
+        capital: "Φαράγγι Αντίλοπα",
         country: "ΗΠΑ",
       },
       {
@@ -489,7 +489,7 @@ const questions10El = [
       },
       {
         id: "2",
-        capital: "Great Blue Hole",
+        capital: "Μεγάλη Μπλε Τρύπα",
         country: "Μπελίζ",
       },
       {
@@ -508,7 +508,7 @@ const questions10El = [
     options: [
       {
         id: "0",
-        country: "Antelope Canyon\nUSA",
+        country: "Φαράγγι Αντίλοπα\nΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/Antelope-Canyon.webp"),
       },
       {
@@ -518,12 +518,12 @@ const questions10El = [
       },
       {
         id: "2",
-        country: "Great Blue Hole\nBelize",
+        country: "Μεγάλη Μπλε Τρύπα\nBelize",
         img: require("../../../assets/NaturalMnt/America/Great-Blue-Hole.webp"),
       },
       {
         id: "3",
-        country: "Mitten Buttes\nUSA",
+        country: "Mitten Buttes\nΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/mitten-butte.webp"),
       },
     ],
@@ -544,7 +544,7 @@ const questions10El = [
       {
         id: "1",
         capital: "Niagara Falls",
-        country: "Canada/USA",
+        country: "Καναδάς/ΗΠΑ",
       },
       {
         id: "2",
@@ -553,8 +553,8 @@ const questions10El = [
       },
       {
         id: "3",
-        capital: "Rainbow Mountain",
-        country: "Peru",
+        capital: "Βουνό των Επτά Χρωμάτων",
+        country: "Περού",
       },
     ],
     correctAnswerIndex: 2,
@@ -572,7 +572,7 @@ const questions10El = [
       },
       {
         id: "1",
-        country: "Niagara Falls\nCanada/USA",
+        country: "Niagara Falls\nΚαναδάς/ΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/NiagaraFalls.webp"),
       },
       {
@@ -582,7 +582,7 @@ const questions10El = [
       },
       {
         id: "3",
-        country: "Rainbow Mountain\nPeru",
+        country: "Βουνό των Επτά Χρωμάτων\nPeru",
         img: require("../../../assets/NaturalMnt/America/rainbowMountain.webp"),
       },
     ],

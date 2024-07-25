@@ -8,23 +8,23 @@ const questions2El = [
     options: [
       {
         id: "0",
-        capital: "Banff National Park",
-        country: "Canada",
+        capital: "Εθνικό Πάρκο Μπανφ",
+        country: "Καναδάς",
       },
       {
         id: "1",
-        capital: "Mount Rainier",
+        capital: "Όρος Ρενιέρ",
         country: "ΗΠΑ",
       },
       {
         id: "2",
-        capital: "Rainbow Mountain",
-        country: "Peru",
+        capital: "Βουνό των Επτά Χρωμάτων",
+        country: "Περού",
       },
       {
         id: "3",
-        capital: "Amazon Rainforest",
-        country: "Various South American Countries",
+        capital: "Δάσος Αμαζονίου",
+        country: "Διάφορες Νότιοαμερικανικές Χώρες",
       },
     ],
     correctAnswerIndex: 3,
@@ -32,27 +32,27 @@ const questions2El = [
   {
     id: "1b",
     status: "Flags",
-    country: "Amazon Rainforest",
-    capital: "Various South American Countries",
+    country: "Δάσος Αμαζονίου",
+    capital: "Διάφορες Νότιοαμερικανικές Χώρες",
     options: [
       {
         id: "0",
-        country: "Banff National Park\nCanada",
+        country: "Εθνικό Πάρκο Μπανφ\nΚαναδάς",
         img: require("../../../assets/NaturalMnt/America/BanffNationalPark.webp"),
       },
       {
         id: "1",
-        country: "Mount Rainier\nUSA",
+        country: "Όρος Ρενιέρ\nΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/mount rainier.webp"),
       },
       {
         id: "2",
-        country: "Rainbow Mountain\nPeru",
+        country: "Βουνό των Επτά Χρωμάτων\nΠερού",
         img: require("../../../assets/NaturalMnt/America/rainbowMountain.webp"),
       },
       {
         id: "3",
-        country: "Amazon Rainforest\nVarious South American Countries",
+        country: "Δάσος Αμαζονίου\nΔιάφορες Νότιοαμερικανικές Χώρες",
         img: require("../../../assets/NaturalMnt/America/amazonRainforest.webp"),
       },
     ],
@@ -73,7 +73,7 @@ const questions2El = [
       {
         id: "1",
         capital: "Black Forest",
-        country: "Germany",
+        country: "Γερμανία",
       },
       {
         id: "2",
@@ -82,8 +82,8 @@ const questions2El = [
       },
       {
         id: "3",
-        capital: "Kakadu National Park",
-        country: "Australia",
+        capital: "Εθνικό Πάρκο Κακαντού",
+        country: "Αυστραλία",
       },
     ],
     correctAnswerIndex: 2,
@@ -96,12 +96,12 @@ const questions2El = [
     options: [
       {
         id: "0",
-        country: "The Needles\nUSA",
+        country: "The Needles\nΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/TheNeedles.webp"),
       },
       {
         id: "1",
-        country: "Black Forest\nGermany",
+        country: "Black Forest\nΓερμανία",
         img: require("../../../assets/NaturalMnt/Europe/blackForest.webp"),
       },
       {
@@ -111,7 +111,7 @@ const questions2El = [
       },
       {
         id: "3",
-        country: "Kakadu National Park\nAustralia",
+        country: "Εθνικό Πάρκο Κακαντού\nAustralia",
         img: require("../../../assets/NaturalMnt/Oceania/kakadu.webp"),
       },
     ],
@@ -136,7 +136,7 @@ const questions2El = [
       },
       {
         id: "2",
-        capital: "Mount Otemanu",
+        capital: "Όρος Οτεμανού",
         country: "French Polynesia",
       },
       {
@@ -165,7 +165,7 @@ const questions2El = [
       },
       {
         id: "2",
-        country: "Mount Otemanu\nFrench Polynesia",
+        country: "Όρος Οτεμανού\nFrench Polynesia",
         img: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
       },
       {
@@ -185,7 +185,7 @@ const questions2El = [
     options: [
       {
         id: "0",
-        capital: "Cape of Good Hope",
+        capital: "Ακρωτήριο της Καλής Ελπίδας",
         country: "South Africa",
       },
       {
@@ -214,7 +214,7 @@ const questions2El = [
     options: [
       {
         id: "0",
-        country: "Cape of Good Hope\nSouth Africa",
+        country: "Ακρωτήριο της Καλής Ελπίδας\nSouth Africa",
         img: require("../../../assets/NaturalMnt/Africa/CapeofGoodHope.webp"),
       },
       {
@@ -259,7 +259,7 @@ const questions2El = [
       },
       {
         id: "3",
-        capital: "Mount Kilimanjaro",
+        capital: "Όρος Κιλιμάντζαρο",
         country: "Tanzania",
       },
     ],
@@ -268,7 +268,7 @@ const questions2El = [
   {
     id: "5b",
     status: "Flags",
-    country: "Mount Kilimanjaro",
+    country: "Όρος Κιλιμάντζαρο",
     capital: "Tanzania",
     options: [
       {
@@ -288,7 +288,7 @@ const questions2El = [
       },
       {
         id: "3",
-        country: "Mount Kilimanjaro\nTanzania",
+        country: "Όρος Κιλιμάντζαρο\nTanzania",
         img: require("../../../assets/NaturalMnt/Africa/Kilimanjaro.webp"),
       },
     ],
@@ -298,13 +298,13 @@ const questions2El = [
     id: "6a",
     status: "Capitals",
     img: 'L',
-    country: "Peru",
+    country: "Περού",
     image: require("../../../assets/NaturalMnt/America/rainbowMountain.webp"),
     options: [
       {
         id: "0",
-        capital: "Rainbow Mountain",
-        country: "Peru",
+        capital: "Βουνό των Επτά Χρωμάτων",
+        country: "Περού",
       },
       {
         id: "1",
@@ -327,12 +327,12 @@ const questions2El = [
   {
     id: "6b",
     status: "Flags",
-    country: "Rainbow Mountain",
-    capital: "Peru",
+    country: "Βουνό των Επτά Χρωμάτων",
+    capital: "Περού",
     options: [
       {
         id: "0",
-        country: "Rainbow Mountain\nPeru",
+        country: "Βουνό των Επτά Χρωμάτων\nPeru",
         img: require("../../../assets/NaturalMnt/America/rainbowMountain.webp"),
       },
       {
@@ -372,7 +372,7 @@ const questions2El = [
       },
       {
         id: "2",
-        capital: "Arches National Park",
+        capital: "Εθνικό Πάρκο Αψίδων",
         country: "ΗΠΑ",
       },
       {
@@ -386,12 +386,12 @@ const questions2El = [
   {
     id: "7b",
     status: "Flags",
-    country: "Arches National Park",
+    country: "Εθνικό Πάρκο Αψίδων",
     capital: "ΗΠΑ",
     options: [
       {
         id: "0",
-        country: "Grand Canyon\nUSA",
+        country: "Grand Canyon\nΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/grandcanyon.webp"),
       },
       {
@@ -401,12 +401,12 @@ const questions2El = [
       },
       {
         id: "2",
-        country: "Arches National Park\nUSA",
+        country: "Εθνικό Πάρκο Αψίδων\nΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/Arches-National-Park.webp"),
       },
       {
         id: "3",
-        country: "Mitten Buttes\nUSA",
+        country: "Mitten Buttes\nΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/mitten-butte.webp"),
       },
     ],
@@ -426,7 +426,7 @@ const questions2El = [
       },
       {
         id: "1",
-        capital: "Blue Lagoon",
+        capital: "Μπλε Λιμνοθάλασσα",
         country: "Iceland",
       },
       {
@@ -445,7 +445,7 @@ const questions2El = [
   {
     id: "8b",
     status: "Flags",
-    country: "Blue Lagoon",
+    country: "Μπλε Λιμνοθάλασσα",
     capital: "Iceland",
     options: [
       {
@@ -455,7 +455,7 @@ const questions2El = [
       },
       {
         id: "1",
-        country: "Blue Lagoon\nIceland",
+        country: "Μπλε Λιμνοθάλασσα\nIceland",
         img: require("../../../assets/NaturalMnt/Europe/BlueLagoon.webp"),
       },
       {
@@ -475,28 +475,28 @@ const questions2El = [
     id: "9a",
     status: "Capitals",
     img: 'L',
-    country: "Germany",
+    country: "Γερμανία",
     image: require("../../../assets/NaturalMnt/Europe/blackForest.webp"),
     options: [
       {
         id: "0",
         capital: "Moraine Lake",
-        country: "Canada",
+        country: "Καναδάς",
       },
       {
         id: "1",
         capital: "Niagara Falls",
-        country: "ΗΠΑ/Canada",
+        country: "ΗΠΑ/Καναδάς",
       },
       {
         id: "2",
         capital: "Black Forest",
-        country: "Germany",
+        country: "Γερμανία",
       },
       {
         id: "3",
-        capital: "Kakadu National Park",
-        country: "Australia",
+        capital: "Εθνικό Πάρκο Κακαντού",
+        country: "Αυστραλία",
       },
     ],
     correctAnswerIndex: 2,
@@ -505,26 +505,26 @@ const questions2El = [
     id: "9b",
     status: "Flags",
     country: "Black Forest",
-    capital: "Germany",
+    capital: "Γερμανία",
     options: [
       {
         id: "0",
-        country: "Moraine Lake\nCanada",
+        country: "Moraine Lake\nΚαναδάς",
         img: require("../../../assets/NaturalMnt/America/Moraine-Lake.webp"),
       },
       {
         id: "1",
-        country: "Niagara Falls\nCanada/USA",
+        country: "Niagara Falls\nΚαναδάς/ΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/NiagaraFalls.webp"),
       },
       {
         id: "2",
-        country: "Black Forest\nGermany",
+        country: "Black Forest\nΓερμανία",
         img: require("../../../assets/NaturalMnt/Europe/blackForest.webp"),
       },
       {
         id: "3",
-        country: "Kakadu National Park\nAustralia",
+        country: "Εθνικό Πάρκο Κακαντού\nAustralia",
         img: require("../../../assets/NaturalMnt/Oceania/kakadu.webp"),
       },
     ],
@@ -534,13 +534,13 @@ const questions2El = [
     id: "10a",
     status: "Capitals",
     img: 'L',
-    country: "Australia",
+    country: "Αυστραλία",
     image: require("../../../assets/NaturalMnt/Oceania/oceanroad.webp"),
     options: [
       {
         id: "0",
-        capital: "The Twelve Apostles",
-        country: "Australia",
+        capital: "Οι Δώδεκα Απόστολοι",
+        country: "Αυστραλία",
       },
       {
         id: "1",
@@ -555,7 +555,7 @@ const questions2El = [
       {
         id: "3",
         capital: "The Great Ocean Road",
-        country: "Australia",
+        country: "Αυστραλία",
       },
     ],
     correctAnswerIndex: 3,
@@ -564,11 +564,11 @@ const questions2El = [
     id: "10b",
     status: "Flags",
     country: "The Great Ocean Road",
-    capital: "Australia",
+    capital: "Αυστραλία",
     options: [
       {
         id: "0",
-        country: "The Twelve Apostles\nAustralia",
+        country: "Οι Δώδεκα Απόστολοι\nΑυστραλία",
         img: require("../../../assets/NaturalMnt/Oceania/12-apostels.webp"),
       },
       {
@@ -583,7 +583,7 @@ const questions2El = [
       },
       {
         id: "3",
-        country: "The Great Ocean Road\nAustralia",
+        country: "The Great Ocean Road\nΑυστραλία",
         img: require("../../../assets/NaturalMnt/Oceania/oceanroad.webp"),
       },
     ],

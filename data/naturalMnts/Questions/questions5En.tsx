@@ -318,7 +318,7 @@ const questions5En = [
             },
             {
               id: "3",
-              capital: 'Cappadocia',
+              capital: 'Καππαδοκία',
               country: 'Turkey'
             },
           ],
@@ -347,7 +347,7 @@ const questions5En = [
             },
             {
               id: "3",
-              country: "Cappadocia\nTurkey",
+              country: "Καππαδοκία\nTurkey",
               img: require("../../../assets/NaturalMnt/Asia/Cappadocia.png"),
             },
           ],

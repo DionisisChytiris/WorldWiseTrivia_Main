@@ -13,7 +13,7 @@ const questions1El = [
       },
       {
         id: "1",
-        capital: 'Great Blue Hole',
+        capital: 'Μεγάλη Μπλε Τρύπα',
         country: 'Μπελίζ'
       },
       {
@@ -23,7 +23,7 @@ const questions1El = [
       },
       {
         id: "3",
-        capital: 'Yellow Stone National Park',
+        capital: 'Εθνικό Πάρκο Γιέλοουστουν',
         country: 'ΗΠΑ'
       },
     ],
@@ -32,7 +32,7 @@ const questions1El = [
   {
     id: "1b",
     status: "Flags",
-    country: "ghaksd",
+    country: "Εθνικό Πάρκο Γιέλοουστουν",
     capital: "ΗΠΑ",
     options: [
       {
@@ -42,7 +42,7 @@ const questions1El = [
       },
       {
         id: "1",
-        country: "Great Blue Hole\nΜπελίζ",
+        country: "Μεγάλη Μπλε Τρύπα\nΜπελίζ",
         img: require("../../../assets/NaturalMnt/America/Great-Blue-Hole.webp"),
       },
       {
@@ -52,7 +52,7 @@ const questions1El = [
       },
       {
         id: "3",
-        country: "Yellowstone",
+        country: "Εθνικό Πάρκο Γιέλοουστουν",
         img: require("../../../assets/NaturalMnt/America/yellowstone.webp"),
       },
     ],
@@ -62,28 +62,28 @@ const questions1El = [
     id: "2a",
     status: "Capitals",
     img: 'L',
-    country: "Zimbabwe/Zambia",
+    country: "Ζιμπάμπουε/Ζάμπια",
     image: require("../../../assets/NaturalMnt/Africa/Victoria-Falls.webp"),
     options: [
       {
         id: "0",
-        capital: 'Sossuvlei',
-        country: 'Namibia'
+        capital: 'Σοσουσβλέι',
+        country: 'Ναμίμπια'
       },
       {
         id: "1",
-        capital: 'Victoria Falls',
-        country: 'Zimbabwe/Zambia'
+        capital: 'Καταρράκτες Βικτώρια',
+        country: 'Ζιμπάμπουε/Ζάμπια'
       },
       {
         id: "2",
-        capital: 'White Desert National Park',
-        country: 'Egypt'
+        capital: 'Εθνικό Πάρκο Λευκής Ερήμου',
+        country: 'Αίγυπτος'
       },
       {
         id: "3",
-        capital: 'Mount Kilimanjaro',
-        country: 'Tanzania'
+        capital: 'Όρος Κιλιμάντζαρο',
+        country: 'Τανζανία'
       },
     ],
     correctAnswerIndex: 1,
@@ -91,27 +91,27 @@ const questions1El = [
   {
     id: "2b",
     status: "Flags",
-    country: "Victoria Falls",
-    capital: "Zimbabwe/Zambia",
+    country: "Καταρράκτες Βικτώρια",
+    capital: "Ζιμπάμπουε/Ζάμπια",
     options: [
       {
         id: "0",
-        country: "Sossuvlei\nNamibia",
+        country: "Σοσουσβλέι\nΝαμίμπια",
         img: require("../../../assets/NaturalMnt/Africa/Sossusvlei-Dunes.webp"),
       },
       {
         id: "1",
-        country: "Victoria Falls\nZimbabwe/Zambia",
+        country: "Καταρράκτες Βικτώρια\nΖιμπάμπουε/Ζάμπια",
         img: require("../../../assets/NaturalMnt/Africa/Victoria-Falls.webp"),
       },
       {
         id: "2",
-        country: "White Desert National Park\nEgypt",
+        country: "Εθνικό Πάρκο Λευκής Ερήμου\nΑίγυπτος",
         img: require("../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp"),
       },
       {
         id: "3",
-        country: "Mount Kilimanjaro\nTanzania",
+        country: "Όρος Κιλιμάντζαρο\nΤανζανία",
         img: require("../../../assets/NaturalMnt/Africa/Kilimanjaro.webp"),
       },
     ],
@@ -126,22 +126,22 @@ const questions1El = [
     options: [
       {
         id: "0",
-        capital: 'Arches National Park',
+        capital: 'Εθνικό Πάρκο Αψίδων',
         country: 'ΗΠΑ'
       },
       {
         id: "1",
-        capital: 'Cappadocia',
-        country: 'Turkey'
+        capital: 'Καππαδοκία',
+        country: 'Τουρκία'
       },
       {
         id: "2",
-        capital: 'Pamukkale',
-        country: 'Turkey'
+        capital: 'Παμούκαλε',
+        country: 'Τουρκία'
       },
       {
         id: "3",
-        capital: 'Antelope Canyon',
+        capital: 'Φαράγγι Αντίλοπα',
         country: 'ΗΠΑ'
       },
     ],
@@ -150,27 +150,27 @@ const questions1El = [
   {
     id: "3b",
     status: "Flags",
-    country: "Antelope Canyon",
+    country: "Φαράγγι Αντίλοπα",
     capital: "ΗΠΑ",
     options: [
       {
         id: "0",
-        country: "Arches National Park\nΗΠΑ",
+        country: "Εθνικό Πάρκο Αψίδων\nΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/Arches-National-Park.webp"),
       },
       {
         id: "1",
-        country: "Cappadocia\nTurkey",
+        country: "Καππαδοκία\nΤουρκία",
         img: require("../../../assets/NaturalMnt/Asia/Cappadocia-valley.webp"),
       },
       {
         id: "2",
-        country: "Pamukkale\nTurkey",
+        country: "Παμούκαλε\nΤουρκία",
         img: require("../../../assets/NaturalMnt/Asia/Pamukkale.webp"),
       },
       {
         id: "3",
-        country: "Antelope Canyon\nΗΠΑ",
+        country: "Φαράγγι Αντίλοπα\nΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/Antelope-Canyon.webp"),
       },
     ],
@@ -180,28 +180,28 @@ const questions1El = [
     id: "4a",
     status: "Capitals",
     img: 'L',
-    country: "Nepal/China",
+    country: "Νεπάλ/Κίνα",
     image: require("../../../assets/NaturalMnt/Asia/Mount-Everest.webp"),
     options: [
       {
         id: "0",
-        capital: 'Mount Everest',
-        country: 'Nepal/China'
+        capital: 'Όρος Έβερεστ',
+        country: 'Νεπάλ/Κίνα'
       },
       {
         id: "1",
-        capital: 'Mount Fiji',
-        country: 'Japan'
+        capital: 'Όρος Φούτζι',
+        country: 'Ιαπωνία'
       },
       {
         id: "2",
-        capital: 'Mount Otemanu',
-        country: 'French Polynesia'
+        capital: 'Όρος Οτεμανού',
+        country: 'Γαλλική Πολυνησία'
       },
       {
         id: "3",
-        capital: 'Cliffs of Moher',
-        country: 'Ireland'
+        capital: 'Απότομες Ακτές του Μόχερ',
+        country: 'Ιρλανδία'
       },
     ],
     correctAnswerIndex: 0,
@@ -209,27 +209,27 @@ const questions1El = [
   {
     id: "4b",
     status: "Flags",
-    country: "Mount Everest",
-    capital: "Nepal/China",
+    country: "Όρος Έβερεστ",
+    capital: "Νεπάλ/Κίνα",
     options: [
       {
         id: "0",
-        country: "Mount Everest\nNepal/China",
+        country: "Όρος Έβερεστ\nΝεπάλ/Κίνα",
         img: require("../../../assets/NaturalMnt/Asia/Mount-Everest.webp"),
       },
       {
         id: "1",
-        country: "Mount Fiji\nJapan",
+        country: "Όρος Φούτζι\nΙαπωνία",
         img: require("../../../assets/NaturalMnt/Asia/mount_fuji.webp"),
       },
       {
         id: "2",
-        country: "Mount Otemanu\nFrench Polynesia",
+        country: "Όρος Οτεμανού\nΓαλλική Πολυνησία",
         img: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
       },
       {
         id: "3",
-        country: "Cliffs of Moher\nIreland",
+        country: "Απότομες Ακτές του Μόχερ\nΙρλανδία",
         img: require("../../../assets/NaturalMnt/Europe/CliffsofMoher.webp"),
       },
     ],
@@ -244,23 +244,23 @@ const questions1El = [
     options: [
       {
         id: "0",
-        capital: 'Kauai',
-        country: 'Hawaii'
+        capital: 'Καουάι',
+        country: 'Χαβάη'
       },
       {
         id: "1",
-        capital: 'Lake Titicaca',
-        country: 'Bolivia/Peru'
+        capital: 'Λίμνη Τιτικάκα',
+        country: 'Βολιβία/Περού'
       },
       {
         id: "2",
-        capital: 'Great Blue Hole',
+        capital: 'Μεγάλη Μπλε Τρύπα',
         country: 'Μπελίζ'
       },
       {
         id: "3",
-        capital: 'Ayers Rock',
-        country: 'Australia'
+        capital: 'Ουλουρού',
+        country: 'Αυστραλία'
       },
     ],
     correctAnswerIndex: 2,
@@ -268,27 +268,27 @@ const questions1El = [
   {
     id: "5b",
     status: "Flags",
-    country: "Great Blue Hole",
+    country: "Μεγάλη Μπλε Τρύπα",
     capital: "Μπελίζ",
     options: [
       {
         id: "0",
-        country: "Kauai\nHawaii",
+        country: "Καουάι\nΧαβάη",
         img: require("../../../assets/NaturalMnt/America/KauaiUSA.webp"),
       },
       {
         id: "1",
-        country: "Lake Titicaca\nBolivia/Peru",
+        country: "Λίμνη Τιτικάκα\nΒολιβία/Περού",
         img: require("../../../assets/NaturalMnt/America/lakeTiticaca.webp"),
       },
       {
         id: "2",
-        country: "Great Blue Hole\nBelize",
+        country: "Μεγάλη Μπλε Τρύπα\nΜπελίζ",
         img: require("../../../assets/NaturalMnt/America/Great-Blue-Hole.webp"),
       },
       {
         id: "3",
-        country: "Ayers Rock\nAustralia",
+        country: "Ουλουρού\nΑυστραλία",
         img: require("../../../assets/NaturalMnt/Oceania/Ayers-Rock.webp"),
       },
     ],
@@ -298,28 +298,28 @@ const questions1El = [
     id: "6a",
     status: "Capitals",
     img: 'L',
-    country: "England",
+    country: "Αγγλία",
     image: require("../../../assets/NaturalMnt/Europe/sevensisters.webp"),
     options: [
       {
         id: "0",
-        capital: 'Trolltunga',
-        country: 'Norway'
+        capital: 'Τρολτούγκα',
+        country: 'Νορβηγία'
       },
       {
         id: "1",
-        capital: 'Seven Sisters',
-        country: 'England'
+        capital: 'Απότομες Ακτές του Seven Sisters',
+        country: 'Αγγλία'
       },
       {
         id: "2",
-        capital: 'Giant\'s Causeway',
-        country: 'Ireland'
+        capital: 'Ακτή του Γίγαντα',
+        country: 'Ιρλανδία'
       },
       {
         id: "3",
-        capital: 'Blue Lagoon',
-        country: 'Iceland'
+        capital: 'Μπλε Λιμνοθάλασσα',
+        country: 'Ισλανδία'
       },
     ],
     correctAnswerIndex: 1,
@@ -327,27 +327,27 @@ const questions1El = [
   {
     id: "6b",
     status: "Flags",
-    country: "Seven Sisters",
-    capital: "England",
+    country: "Απότομες Ακτές του Seven Sisters",
+    capital: "Αγγλία",
     options: [
       {
         id: "0",
-        country: "Trolltunga\nNorway",
+        country: "Τρολτούγκα\nΝορβηγία",
         img: require("../../../assets//NaturalMnt/Europe/Trolltunga.webp"),
       },
       {
         id: "1",
-        country: "Seven Sisters\nEngland",
+        country: "Απότομες Ακτές του Seven Sisters\nΑγγλία",
         img: require("../../../assets/NaturalMnt/Europe/sevensisters.webp"),
       },
       {
         id: "2",
-        country: "Giant\'s Causeway\nIreland",
+        country: "Ακτή του Γίγαντα\nΙρλανδία",
         img: require("../../../assets/NaturalMnt/Europe/GiantsCauseway.webp"),
       },
       {
         id: "3",
-        country: "Blue Lagoon\nIceland",
+        country: "Μπλε Λιμνοθάλασσα\nΙσλανδία",
         img: require("../../../assets/NaturalMnt/Europe/BlueLagoon.webp"),
       },
     ],
@@ -357,28 +357,28 @@ const questions1El = [
     id: "7a",
     status: "Capitals",
     img: 'L',
-    country: "Australia",
+    country: "Αυστραλία",
     image: require("../../../assets/NaturalMnt/Oceania/12-apostels.webp"),
     options: [
       {
         id: "0",
-        capital: 'The Twelve Apostles',
-        country: 'Australia'
+        capital: 'Οι Δώδεκα Απόστολοι',
+        country: 'Αυστραλία'
       },
       {
         id: "1",
-        capital: 'Fiordland National Park',
-        country: 'New Zealand'
+        capital: 'Εθνικό Πάρκο Φιόρντλαντ',
+        country: 'Νέα Ζηλανδία'
       },
       {
         id: "2",
-        capital: 'Kakadu National Park',
-        country: 'Australia'
+        capital: 'Εθνικό Πάρκο Κακαντού',
+        country: 'Αυστραλία'
       },
       {
         id: "3",
-        capital: 'Cape of Good Hope',
-        country: 'South Africa'
+        capital: 'Ακρωτήριο της Καλής Ελπίδας',
+        country: 'Νότια Αφρική'
       },
     ],
     correctAnswerIndex: 0,
@@ -386,27 +386,27 @@ const questions1El = [
   {
     id: "7b",
     status: "Flags",
-    country: "The Twelve Apostles",
-    capital: "Australia",
+    country: "Οι Δώδεκα Απόστολοι",
+    capital: "Αυστραλία",
     options: [
       {
         id: "0",
-        country: "The Twelve Apostles\nAustralia",
+        country: "Οι Δώδεκα Απόστολοι\nΑυστραλία",
         img: require("../../../assets/NaturalMnt/Oceania/12-apostels.webp"),
       },
       {
         id: "1",
-        country: "Fiordland National Park\nNew Zealand",
+        country: "Εθνικό Πάρκο Φιόρντλαντ\nΝέα Ζηλανδία",
         img: require("../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp"),
       },
       {
         id: "2",
-        country: "Kakadu National Park\nAustralia",
+        country: "Εθνικό Πάρκο Κακαντού\nΑυστραλία",
         img: require("../../../assets/NaturalMnt/Oceania/kakadu.webp"),
       },
       {
         id: "3",
-        country: "Cape of Good Hope\nSouth Africa",
+        country: "Ακρωτήριο της Καλής Ελπίδας\nΝότια Αφρική",
         img: require("../../../assets/NaturalMnt/Africa/CapeofGoodHope.webp"),
       },
     ],
@@ -416,28 +416,28 @@ const questions1El = [
     id: "8a",
     status: "Capitals",
     img: 'L',
-    country: "Japan",
+    country: "Ιαπωνία",
     image: require("../../../assets/NaturalMnt/Asia/mount_fuji.webp"),
     options: [
       {
         id: "0",
-        capital: 'Mount Ararat',
-        country: 'Turkey'
+        capital: 'Όρος Αραράτ',
+        country: 'Τουρκία'
       },
       {
         id: "1",
-        capital: 'Mount Fuji',
-        country: 'Japan'
+        capital: 'Όρος Φούτζι',
+        country: 'Ιαπωνία'
       },
       {
         id: "2",
-        capital: 'Mount Huang',
-        country: 'China'
+        capital: 'Όρος Χουάνγκ',
+        country: 'Κίνα'
       },
       {
         id: "3",
-        capital: 'Mount Kinabalu',
-        country: 'Malaysia'
+        capital: 'Όρος Κιναμπάλου',
+        country: 'Μαλαισία'
       },
     ],
     correctAnswerIndex: 1,
@@ -445,27 +445,27 @@ const questions1El = [
   {
     id: "8b",
     status: "Flags",
-    country: "Mount Fuji",
-    capital: "Japan",
+    country: "Όρος Φούτζι",
+    capital: "Ιαπωνία",
     options: [
       {
         id: "0",
-        country: "Mount Ararat\nTurkey",
+        country: "Όρος Αραράτ\nΤουρκία",
         img: require("../../../assets/NaturalMnt/Asia/mountArarat.webp"),
       },
       {
         id: "1",
-        country: "Mount Fuji\nJapan",
+        country: "Όρος Φούτζι\nΙαπωνία",
         img: require("../../../assets/NaturalMnt/Asia/mount_fuji.webp"),
       },
       {
         id: "2",
-        country: "Mount Huang\nChina",
+        country: "Όρος Χουάνγκ\nΚίνα",
         img: require("../../../assets/NaturalMnt/Asia/mountHuangshan.webp"),
       },
       {
         id: "3",
-        country: "Mount Kinabalu\nMalaysia",
+        country: "Όρος Κιναμπάλου\nΜαλαισία",
         img: require("../../../assets/NaturalMnt/Asia/MountKinabalu.webp"),
       },
     ],
@@ -475,28 +475,28 @@ const questions1El = [
     id: "9a",
     status: "Capitals",
     img: 'L',
-    country: "Turkey",
+    country: "Τουρκία",
     image: require("../../../assets/NaturalMnt/Asia/Cappadocia-valley.webp"),
     options: [
       {
         id: "0",
-        capital: 'Huanglong Scenic Area',
-        country: 'China'
+        capital: 'Περιοχή Τοπίων Χουάνγκλονγκ',
+        country: 'Κίνα'
       },
       {
         id: "1",
-        capital: 'Isle of Skye',
-        country: 'Scotland'
+        capital: 'Νήσος Σκάι',
+        country: 'Σκωτία'
       },
       {
         id: "2",
-        capital: 'Pulpit Rock',
-        country: 'Norway'
+        capital: 'Πέτρινος Αμβώνας',
+        country: 'Νορβηγία'
       },
       {
         id: "3",
-        capital: 'Cappadocia',
-        country: 'Turkey'
+        capital: 'Καππαδοκία',
+        country: 'Τουρκία'
       },
     ],
     correctAnswerIndex: 3,
@@ -504,27 +504,27 @@ const questions1El = [
   {
     id: "9b",
     status: "Flags",
-    country: "Cappadocia",
-    capital: "Turkey",
+    country: "Καππαδοκία",
+    capital: "Τουρκία",
     options: [
       {
         id: "0",
-        country: "Huanglong Scenic Area\nChina",
+        country: "Περιοχή Τοπίων Χουάνγκλονγκ\nΚίνα",
         img: require("../../../assets/NaturalMnt/Asia/huanglongScenicArea.webp"),
       },
       {
         id: "1",
-        country: "Isle of Skye\nScotland",
+        country: "Νήσος Σκάι\nΣκωτία",
         img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
       },
       {
         id: "2",
-        country: "Pulpit Rock\nNorway",
+        country: "Πέτρινος Αμβώνας\nΝορβηγία",
         img: require("../../../assets/NaturalMnt/Europe/pulpitRock.webp"),
       },
       {
         id: "3",
-        country: "Cappadocia\nTurkey",
+        country: "Καππαδοκία\nΤουρκία",
         img: require("../../../assets/NaturalMnt/Asia/Cappadocia-valley.webp"),
       },
     ],
@@ -534,27 +534,27 @@ const questions1El = [
     id: "10a",
     status: "Capitals",
     img: 'L',
-    country: "Italy",
+    country: "Ιταλία",
     image: require("../../../assets/NaturalMnt/Europe/mount-vesuvius.webp"),
     options: [
       {
         id: "0",
-        capital: 'Mount Vesuvius',
-        country: 'Italy'
+        capital: 'Όρος Βεζούβιος',
+        country: 'Ιταλία'
       },
       {
         id: "1",
-        capital: 'Swiss Alps',
-        country: 'Switzerland'
+        capital: 'Ελβετικές Άλπεις',
+        country: 'Ελβετία'
       },
       {
         id: "2",
-        capital: 'Mount Teide',
-        country: 'Spain'
+        capital: 'Όρος Τέιδε',
+        country: 'Ισπανία'
       },
       {
         id: "3",
-        capital: 'Great Sand Dunes National  Park',
+        capital: 'Εθνικό Πάρκο Μεγάλων Αμμόλοφων',
         country: 'ΗΠΑ'
       },
     ],
@@ -563,27 +563,27 @@ const questions1El = [
   {
     id: "10b",
     status: "Flags",
-    country: "Mount Vesuvius",
-    capital: "Italy",
+    country: "Όρος Βεζούβιος",
+    capital: "Ιταλία",
     options: [
       {
         id: "0",
-        country: "Mount Vesuvius\nItaly",
+        country: "Όρος Βεζούβιος\nΙταλία",
         img: require("../../../assets/NaturalMnt/Europe/mount-vesuvius.webp"),
       },
       {
         id: "1",
-        country: "Swiss Alps\nSwitzerland",
+        country: "Ελβετικές Άλπεις\nΕλβετία",
         img: require("../../../assets/NaturalMnt/Europe/swissapls.jpg"),
       },
       {
         id: "2",
-        country: "Mount Teide\nSpain",
+        country: "Όρος Τέιδε\nΙσπανία",
         img: require("../../../assets/NaturalMnt/Europe/mountTeide.webp"),
       },
       {
         id: "3",
-        country: "Great Sand Dunes National Park\nΗΠΑ",
+        country: "Εθνικό Πάρκο Μεγάλων Αμμόλοφων\nΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/GreatSandDunesPark.webp"),
       },
     ],

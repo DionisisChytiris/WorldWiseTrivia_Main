@@ -18,7 +18,7 @@ const questions9El = [
       },
       {
         id: "2",
-        capital: 'Cape of Good HopeSouth Africa',
+        capital: 'Ακρωτήριο της Καλής ΕλπίδαςSouth Africa',
         country: 'South Africa'
       },
       {
@@ -47,7 +47,7 @@ const questions9El = [
           },
           {
             id: "2",
-            country: "Cape of Good Hope\nSouth Africa",
+            country: "Ακρωτήριο της Καλής Ελπίδας\nSouth Africa",
             img: require("../../../assets/NaturalMnt/Africa/CapeofGoodHope.webp"),
           },
           {
@@ -67,7 +67,7 @@ const questions9El = [
         options: [
           {
             id: "0",
-            capital: 'Yellowstone National Park',
+            capital: 'Εθνικό Πάρκο Γιέλοουστουν',
             country: 'ΗΠΑ'
           },
           {
@@ -82,7 +82,7 @@ const questions9El = [
           },
           {
             id: "3",
-            capital: 'White Desert National park',
+            capital: 'Εθνικό Πάρκο Λευκής Ερήμου',
             country: 'Egypt'
           },
         ],
@@ -96,12 +96,12 @@ const questions9El = [
         options: [
           {
             id: "0",
-            country: "Yellowstone National Park\nUSA",
+            country: "Εθνικό Πάρκο Γιέλοουστουν\nUSA",
             img: require("../../../assets/NaturalMnt/America/yellowstone.webp"),
           },
           {
             id: "1",
-            country: "White Desert National park\nEgypt",
+            country: "Εθνικό Πάρκο Λευκής Ερήμου\nEgypt",
             img: require("../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp"),
           },
           {
@@ -180,23 +180,23 @@ const questions9El = [
         id: "4a",
         status: "Capitals",
         img: 'L',
-        country: "Australia",
+        country: "Αυστραλία",
         image: require("../../../assets/NaturalMnt/Oceania/Kakadu-National-Park.png"),
         options: [
           {
             id: "0",
-            capital: 'Fiordland National Park',
+            capital: 'Εθνικό Πάρκο Φιόρντλαντ',
             country: 'New Zealand'
           },
           {
             id: "1",
             capital: 'Black Forest',
-            country: 'Germany'
+            country: 'Γερμανία'
           },
           {
             id: "2",
-            capital: 'Kakadu National Park',
-            country: 'Australia'
+            capital: 'Εθνικό Πάρκο Κακαντού',
+            country: 'Αυστραλία'
           },
           {
             id: "3",
@@ -209,22 +209,22 @@ const questions9El = [
       {
         id: "4b",
         status: "Flags",
-        country: "Kakadu National Park",
-        capital: "Australia",
+        country: "Εθνικό Πάρκο Κακαντού",
+        capital: "Αυστραλία",
         options: [
           {
             id: "0",
-            country: "Fiordland National Park\nNew Zealand",
+            country: "Εθνικό Πάρκο Φιόρντλαντ\nNew Zealand",
             img: require("../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp"),
           },
           {
             id: "1",
-            country: "Black Forest\nGermany",
+            country: "Black Forest\nΓερμανία",
             img: require("../../../assets/NaturalMnt/Europe/blackForest.webp"),
           },
           {
             id: "2",
-            country: "Kakadu National Park\nAustralia",
+            country: "Εθνικό Πάρκο Κακαντού\nAustralia",
             img: require("../../../assets/NaturalMnt/Oceania/Kakadu-National-Park.png"),
           },
           {
@@ -259,7 +259,7 @@ const questions9El = [
           },
           {
             id: "3",
-            capital: 'Mount Huang',
+            capital: 'Όρος Χουάνγκ',
             country: 'China'
           },
         ],
@@ -288,7 +288,7 @@ const questions9El = [
           },
           {
             id: "3",
-            country: "Mount Huang\nChina",
+            country: "Όρος Χουάνγκ\nChina",
             img: require("../../../assets/NaturalMnt/Asia/mountHuangshan.webp"),
           },
         ],
@@ -362,7 +362,7 @@ const questions9El = [
         options: [
           {
             id: "0",
-            capital: 'Trolltunga',
+            capital: 'Τρολτούγκα',
             country: 'Norway'
           },
           {
@@ -391,7 +391,7 @@ const questions9El = [
         options: [
           {
             id: "0",
-            country: "Trolltunga\nNorway",
+            country: "Τρολτούγκα\nNorway",
             img: require("../../../assets/NaturalMnt/Europe/Trolltunga.webp"),
           },
           {
@@ -437,7 +437,7 @@ const questions9El = [
           {
             id: "3",
             capital: 'Lake Hillier',
-            country: 'Australia'
+            country: 'Αυστραλία'
           },
         ],
         correctAnswerIndex: 2,
@@ -465,7 +465,7 @@ const questions9El = [
           },
           {
             id: "3",
-            country: "Mount Kilimanjaro\nTanzania",
+            country: "Όρος Κιλιμάντζαρο\nTanzania",
             img: require("../../../assets/NaturalMnt/Africa//Kilimanjaro.webp"),
           },
         ],
@@ -480,7 +480,7 @@ const questions9El = [
         options: [
           {
             id: "0",
-            capital: 'Isle of Skye',
+            capital: 'Νήσος Σκάι',
             country: 'Scotland'
           },
           {
@@ -490,12 +490,12 @@ const questions9El = [
           },
           {
             id: "2",
-            capital: 'Mount Teide',
+            capital: 'Όρος Τέιδε',
             country: 'Spain'
           },
           {
             id: "3",
-            capital: 'Pulpit Rock',
+            capital: 'Πέτρινος Αμβώνας',
             country: 'Norway'
           },
         ],
@@ -509,7 +509,7 @@ const questions9El = [
         options: [
           {
             id: "0",
-            country: "Isle of Skye\nScotland",
+            country: "Νήσος Σκάι\nScotland",
             img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
           },
           {
@@ -519,12 +519,12 @@ const questions9El = [
           },
           {
             id: "2",
-            country: "Mount Teide\nSpain",
+            country: "Όρος Τέιδε\nSpain",
             img: require("../../../assets/NaturalMnt/Europe/mountTeide.webp"),
           },
           {
             id: "3",
-            country: "Pulpit Rock\nNorway",
+            country: "Πέτρινος Αμβώνας\nNorway",
             img: require("../../../assets/NaturalMnt/Europe/pulpitRock.webp"),
           },
         ],
@@ -539,18 +539,18 @@ const questions9El = [
         options: [
           {
             id: "0",
-            capital: 'Pamukkale',
+            capital: 'Παμούκαλε',
             country: 'Turkey'
           },
           {
             id: "1",
-            capital: 'Kauai',
+            capital: 'Καουάι',
             country: 'Hawaii'
           },
           {
             id: "2",
-            capital: 'Huanglong Scenic Area',
-            country: 'Germany'
+            capital: 'Περιοχή Τοπίων Χουάνγκλονγκ',
+            country: 'Γερμανία'
           },
           {
             id: "3",
@@ -568,17 +568,17 @@ const questions9El = [
         options: [
           {
             id: "0",
-            country: "Pamukkale\nTurkey",
+            country: "Παμούκαλε\nTurkey",
             img: require("../../../assets/NaturalMnt/Asia/Pamukkale.webp"),
           },
           {
             id: "1",
-            country: "Huanglong Scenic Area\nChina",
+            country: "Περιοχή Τοπίων Χουάνγκλονγκ\nChina",
             img: require("../../../assets/NaturalMnt/Asia/huanglongScenicArea.webp"),
           },
           {
             id: "2",
-            country: "Kauai\nHawaii",
+            country: "Καουάι\nHawaii",
             img: require("../../../assets/NaturalMnt/America/KauaiUSA.webp"),
           },
           {
