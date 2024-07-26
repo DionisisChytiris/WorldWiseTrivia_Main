@@ -8,7 +8,7 @@ const questions3El = [
     options: [
       {
         id: "0",
-        capital: "Grand Canyon",
+        capital: "Γκραν Κάνιον",
         country: "ΗΠΑ",
       },
       {
@@ -32,12 +32,12 @@ const questions3El = [
   {
     id: "1b",
     status: "Flags",
-    country: "Grand Canyon",
+    country: "Γκραν Κάνιον",
     capital: "ΗΠΑ",
     options: [
       {
         id: "0",
-        country: "Grand Canyon\nΗΠΑ",
+        country: "Γκραν Κάνιον\nΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/grandcanyon.webp"),
       },
       {
@@ -82,8 +82,8 @@ const questions3El = [
       },
       {
         id: "3",
-        capital: "Table Mountain National Park",
-        country: "South Africa",
+        capital: "Εθνικό Πάρκο Όρος Τέιμπλ",
+        country: "Νότια Αφρική",
       },
     ],
     correctAnswerIndex: 2,
@@ -111,7 +111,7 @@ const questions3El = [
       },
       {
         id: "3",
-        country: "Table Mountain National Park\nSouth Africa",
+        country: "Εθνικό Πάρκο Όρος Τέιμπλ\nSouth Africa",
         img: require("../../../assets/NaturalMnt/Africa/table-mountain.webp"),
       },
     ],
@@ -190,8 +190,8 @@ const questions3El = [
       },
       {
         id: "1",
-        capital: "Bora Bora",
-        country: "French Polynesia",
+        capital: "Μπόρα Μπόρα",
+        country: "Γαλλική Πολυνησία",
       },
       {
         id: "2",
@@ -219,7 +219,7 @@ const questions3El = [
       },
       {
         id: "1",
-        country: "Bora Bora\nFrench Polynesia",
+        country: "Μπόρα Μπόρα\nΓαλλική Πολυνησία",
         img: require("../../../assets/NaturalMnt/Asia/bora_bora.webp"),
       },
       {
@@ -245,12 +245,12 @@ const questions3El = [
       {
         id: "0",
         capital: "Nile",
-        country: "Egypt",
+        country: "Αίγυπτος",
       },
       {
         id: "1",
         capital: "Lake Bled",
-        country: "Slovenia",
+        country: "Σλοβενία",
       },
       {
         id: "2",
@@ -273,12 +273,12 @@ const questions3El = [
     options: [
       {
         id: "0",
-        country: "Nile\nEgypt",
+        country: "Nile\nΑίγυπτος",
         img: require("../../../assets/NaturalMnt/Africa/RiverNile.webp"),
       },
       {
         id: "1",
-        country: "Lake Bled\nSlovenia",
+        country: "Lake Bled\nΣλοβενία",
         img: require("../../../assets/NaturalMnt/Europe/lake-bled.webp"),
       },
       {
@@ -298,13 +298,13 @@ const questions3El = [
     id: "6a",
     status: "Capitals",
     img: 'L',
-    country: "Tanzania",
+    country: "Τανζανία",
     image: require("../../../assets/NaturalMnt/Africa/serengeti-national-park.webp"),
     options: [
       {
         id: "0",
         capital: "Serengeti National Park",
-        country: "Tanzania",
+        country: "Τανζανία",
       },
       {
         id: "1",
@@ -319,7 +319,7 @@ const questions3El = [
       {
         id: "3",
         capital: "Περιοχή Τοπίων Χουάνγκλονγκ",
-        country: "China",
+        country: "Κίνα",
       },
     ],
     correctAnswerIndex: 0,
@@ -328,7 +328,7 @@ const questions3El = [
     id: "6b",
     status: "Flags",
     country: "Serengeti National Park",
-    capital: "Tanzania",
+    capital: "Τανζανία",
     options: [
       {
         id: "0",
@@ -377,7 +377,7 @@ const questions3El = [
       },
       {
         id: "3",
-        capital: "Mitten Buttes",
+        capital: "Λόφοι Μίτεν",
         country: "ΗΠΑ",
       },
     ],
@@ -386,7 +386,7 @@ const questions3El = [
   {
     id: "7b",
     status: "Flags",
-    country: "Mitten Buttes",
+    country: "Λόφοι Μίτεν",
     capital: "ΗΠΑ",
     options: [
       {
@@ -406,7 +406,7 @@ const questions3El = [
       },
       {
         id: "3",
-        country: "Mitten Buttes\nΗΠΑ",
+        country: "Λόφοι Μίτεν\nΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/mitten-butte.webp"),
       },
     ],
@@ -436,8 +436,8 @@ const questions3El = [
       },
       {
         id: "3",
-        capital: "Mount Kenya",
-        country: "Kenya",
+        capital: "Mount Κένυα",
+        country: "Κένυα",
       },
     ],
     correctAnswerIndex: 1,
@@ -465,7 +465,7 @@ const questions3El = [
       },
       {
         id: "3",
-        country: "Mount Kenya\nKenya",
+        country: "Mount Κένυα\nΚένυα",
         img: require("../../../assets/NaturalMnt/Africa/mountKenya.webp"),
       },
     ],
@@ -475,23 +475,23 @@ const questions3El = [
     id: "9a",
     status: "Capitals",
     img: 'L',
-    country: "South Africa",
+    country: "Νότια Αφρική",
     image: require("../../../assets/NaturalMnt/Africa/CapeofGoodHope.webp"),
     options: [
       {
         id: "0",
         capital: "Εθνικό Πάρκο Λευκής Ερήμου",
-        country: "Egypt",
+        country: "Αίγυπτος",
       },
       {
         id: "1",
-        capital: "Salar de Uyuni",
-        country: "Bolivia",
+        capital: "Σαλάρ ντε Ουγιούνι",
+        country: "Βολιβία",
       },
       {
         id: "2",
         capital: "Ακρωτήριο της Καλής Ελπίδας",
-        country: "South Africa",
+        country: "Νότια Αφρική",
       },
       {
         id: "3",
@@ -505,7 +505,7 @@ const questions3El = [
     id: "9b",
     status: "Flags",
     country: "Ακρωτήριο της Καλής Ελπίδας",
-    capital: "South Africa",
+    capital: "Νότια Αφρική",
     options: [
       {
         id: "0",
@@ -514,7 +514,7 @@ const questions3El = [
       },
       {
         id: "1",
-        country: "Salar de Uyuni\nBolivia",
+        country: "Σαλάρ ντε Ουγιούνι\nΒολιβία",
         img: require("../../../assets/NaturalMnt/America/SalardeUyuni.webp"),
       },
       {
@@ -534,13 +534,13 @@ const questions3El = [
     id: "10a",
     status: "Capitals",
     img: 'L',
-    country: "Egypt",
+    country: "Αίγυπτος",
     image: require("../../../assets/NaturalMnt/Africa/RiverNile.webp"),
     options: [
       {
         id: "0",
         capital: "River Nile",
-        country: "Egypt",
+        country: "Αίγυπτος",
       },
       {
         id: "1",
@@ -564,11 +564,11 @@ const questions3El = [
     id: "10b",
     status: "Flags",
     country: "River Nile",
-    capital: "Egypt",
+    capital: "Αίγυπτος",
     options: [
       {
         id: "0",
-        country: "River Nile\nEgypt",
+        country: "River Nile\nΑίγυπτος",
         img: require("../../../assets/NaturalMnt/Africa/RiverNile.webp"),
       },
       {

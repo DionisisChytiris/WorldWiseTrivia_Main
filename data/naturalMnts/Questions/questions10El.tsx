@@ -9,12 +9,12 @@ const questions10El = [
       {
         id: "0",
         capital: "Ακρωτήριο της Καλής Ελπίδας",
-        country: "South Africa",
+        country: "Νότια Αφρική",
       },
       {
         id: "1",
         capital: "Nile",
-        country: "Egypt",
+        country: "Αίγυπτος",
       },
       {
         id: "2",
@@ -23,7 +23,7 @@ const questions10El = [
       },
       {
         id: "3",
-        capital: "Mount Sinai\nEgypt",
+        capital: "Όρος Σινά\nΑίγυπτος",
       },
     ],
     correctAnswerIndex: 2,
@@ -41,7 +41,7 @@ const questions10El = [
       },
       {
         id: "1",
-        country: "Nile\nEgypt",
+        country: "Nile\nΑίγυπτος",
         img: require("../../../assets/NaturalMnt/Africa/RiverNile.webp"),
       },
       {
@@ -51,7 +51,7 @@ const questions10El = [
       },
       {
         id: "3",
-        country: "Mount Sinai\nEgypt",
+        country: "Όρος Σινά\nΑίγυπτος",
         img: require("../../../assets/NaturalMnt/Africa/mountSinai.webp"),
       },
     ],
@@ -76,13 +76,13 @@ const questions10El = [
       },
       {
         id: "2",
-        capital: "Wadi Rum",
-        country: "Jordan",
+        capital: "Ουάντι Ραμ",
+        country: "Ιορδανία",
       },
       {
         id: "3",
-        capital: "Mount Kenya",
-        country: "Kenya",
+        capital: "Mount Κένυα",
+        country: "Κένυα",
       },
     ],
     correctAnswerIndex: 0,
@@ -100,12 +100,12 @@ const questions10El = [
       },
       {
         id: "1",
-        country: "Wadi Rum\nJordan",
+        country: "Ουάντι Ραμ\nΙορδανία",
         img: require("../../../assets/NaturalMnt/Asia/wadi-rum.webp"),
       },
       {
         id: "2",
-        country: "Mount Kenya\nKenya",
+        country: "Mount Κένυα\nΚένυα",
         img: require("../../../assets/NaturalMnt/Africa/mountKenya.webp"),
       },
       {
@@ -120,7 +120,7 @@ const questions10El = [
     id: "3a",
     status: "Capitals",
     img: 'L',
-    country: "Tanzania",
+    country: "Τανζανία",
     image: require("../../../assets/NaturalMnt/Africa/ngorongo.jpg"),
     options: [
       {
@@ -136,7 +136,7 @@ const questions10El = [
       {
         id: "2",
         capital: "Ngorongoro Crater",
-        country: "Tanzania",
+        country: "Τανζανία",
       },
       {
         id: "3",
@@ -150,7 +150,7 @@ const questions10El = [
     id: "3b",
     status: "Flags",
     country: "Ngorongoro Crater",
-    capital: "Tanzania",
+    capital: "Τανζανία",
     options: [
       {
         id: "0",
@@ -164,7 +164,7 @@ const questions10El = [
       },
       {
         id: "2",
-        country: "Ngorongoro Crater\nTanzania",
+        country: "Ngorongoro Crater\nΤανζανία",
         img: require("../../../assets/NaturalMnt/Africa/ngorongo.jpg"),
       },
       {
@@ -190,12 +190,12 @@ const questions10El = [
       {
         id: "1",
         capital: "Heaven's Gate",
-        country: "China",
+        country: "Κίνα",
       },
       {
         id: "2",
-        capital: "Mount Bromo",
-        country: "Indonesia",
+        capital: "Όρος Μπρόμο",
+        country: "Ινδονησία",
       },
       {
         id: "3",
@@ -218,12 +218,12 @@ const questions10El = [
       },
       {
         id: "1",
-        country: "Heaven's Gate\nChina",
+        country: "Heaven's Gate\nΚίνα",
         img: require("../../../assets/NaturalMnt/Asia/heavensgate.jpg"),
       },
       {
         id: "2",
-        country: "Mount Bromo\nIndonesia",
+        country: "Όρος Μπρόμο\nΙνδονησία",
         img: require("../../../assets/NaturalMnt/Asia/mountBromo.webp"),
       },
       {
@@ -253,7 +253,7 @@ const questions10El = [
       },
       {
         id: "2",
-        capital: "The Needles",
+        capital: "Βελόνες",
         country: "ΗΠΑ",
       },
       {
@@ -277,7 +277,7 @@ const questions10El = [
       },
       {
         id: "1",
-        country: "The Needles\nΗΠΑ",
+        country: "Βελόνες\nΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/TheNeedles.webp"),
       },
       {
@@ -297,7 +297,7 @@ const questions10El = [
     id: "6a",
     status: "Capitals",
     img: 'L',
-    country: "China",
+    country: "Κίνα",
     image: require("../../../assets/NaturalMnt/Asia/heavensgate.jpg"),
     options: [
       {
@@ -313,7 +313,7 @@ const questions10El = [
       {
         id: "2",
         capital: "Heaven's Gate",
-        country: "China",
+        country: "Κίνα",
       },
       {
         id: "3",
@@ -327,7 +327,7 @@ const questions10El = [
     id: "6b",
     status: "Flags",
     country: "Heaven's Gate",
-    capital: "China",
+    capital: "Κίνα",
     options: [
       {
         id: "0",
@@ -341,7 +341,7 @@ const questions10El = [
       },
       {
         id: "2",
-        country: "Heaven's Gate\nChina",
+        country: "Heaven's Gate\nΚίνα",
         img: require("../../../assets/NaturalMnt/Asia/heavensgate.jpg"),
       },
       {
@@ -371,7 +371,7 @@ const questions10El = [
       },
       {
         id: "2",
-        capital: "Black Forest",
+        capital: "Μαύρο Δάσος",
         country: "Γερμανία",
       },
       {
@@ -405,7 +405,7 @@ const questions10El = [
       },
       {
         id: "3",
-        country: "Black Forest\nΓερμανία",
+        country: "Μαύρο Δάσος\nΓερμανία",
         img: require("../../../assets/NaturalMnt/Europe/blackForest.webp"),
       },
     ],
@@ -494,7 +494,7 @@ const questions10El = [
       },
       {
         id: "3",
-        capital: "Mitten Buttes",
+        capital: "Λόφοι Μίτεν",
         country: "ΗΠΑ",
       },
     ],
@@ -523,7 +523,7 @@ const questions10El = [
       },
       {
         id: "3",
-        country: "Mitten Buttes\nΗΠΑ",
+        country: "Λόφοι Μίτεν\nΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/mitten-butte.webp"),
       },
     ],

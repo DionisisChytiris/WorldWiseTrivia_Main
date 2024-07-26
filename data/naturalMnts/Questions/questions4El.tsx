@@ -3,13 +3,13 @@ const questions4El = [
     id: "1a",
     status: "Capitals",
     img: 'L',
-    country: "Egypt",
+    country: "Αίγυπτος",
     image: require("../../../assets/NaturalMnt/Africa/mountSinai.webp"),
     options: [
       {
         id: "0",
         capital: "Dettifoss Waterfall",
-        country: "Iceland",
+        country: "Ισλανδία",
       },
       {
         id: "1",
@@ -19,12 +19,12 @@ const questions4El = [
       {
         id: "2",
         capital: "Λίμνη Τιτικάκα",
-        country: "Bolivia/Περού",
+        country: "Βολιβία/Περού",
       },
       {
         id: "3",
-        capital: "Mount Sinai",
-        country: "Egypt",
+        capital: "Όρος Σινά",
+        country: "Αίγυπτος",
       },
     ],
     correctAnswerIndex: 3,
@@ -32,12 +32,12 @@ const questions4El = [
   {
     id: "1b",
     status: "Flags",
-    country: "Mount Sinai",
-    capital: "Egypt",
+    country: "Όρος Σινά",
+    capital: "Αίγυπτος",
     options: [
       {
         id: "0",
-        country: "Dettifoss Waterfall\nIceland",
+        country: "Dettifoss Waterfall\nΙσλανδία",
         img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
       },
       {
@@ -47,12 +47,12 @@ const questions4El = [
       },
       {
         id: "2",
-        country: "Λίμνη Τιτικάκα\nBolivia/Peru",
+        country: "Λίμνη Τιτικάκα\nΒολιβία/Peru",
         img: require("../../../assets/NaturalMnt/America/lakeTiticaca.webp"),
       },
       {
         id: "3",
-        country: "Mount Sinai\nEgypt",
+        country: "Όρος Σινά\nΑίγυπτος",
         img: require("../../../assets/NaturalMnt/Africa/mountSinai.webp"),
       },
     ],
@@ -68,7 +68,7 @@ const questions4El = [
       {
         id: "0",
         capital: "Torres del Paine",
-        country: "Chile",
+        country: "Χιλή",
       },
       {
         id: "1",
@@ -77,7 +77,7 @@ const questions4El = [
       },
       {
         id: "2",
-        capital: "The Needles",
+        capital: "Βελόνες",
         country: "ΗΠΑ",
       },
       {
@@ -91,12 +91,12 @@ const questions4El = [
   {
     id: "2b",
     status: "Flags",
-    country: "The Needles",
+    country: "Βελόνες",
     capital: "ΗΠΑ",
     options: [
       {
         id: "0",
-        country: "Torres del Paine\nChile",
+        country: "Torres del Paine\nΧιλή",
         img: require("../../../assets/NaturalMnt/America/torres-del-paine.webp"),
       },
       {
@@ -106,7 +106,7 @@ const questions4El = [
       },
       {
         id: "2",
-        country: "The Needles\nΗΠΑ",
+        country: "Βελόνες\nΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/TheNeedles.webp"),
       },
       {
@@ -131,8 +131,8 @@ const questions4El = [
       },
       {
         id: "1",
-        capital: 'Bora Bora',
-        country: 'French Polynesia'
+        capital: 'Μπόρα Μπόρα',
+        country: 'Γαλλική Πολυνησία'
       },
       {
         id: "2",
@@ -141,8 +141,8 @@ const questions4El = [
       },
       {
         id: "3",
-        capital: 'Halong Bay',
-        country: 'Vietnam'
+        capital: 'Κόλπος του Χα Λονγκ',
+        country: 'Βιετνάμ'
       },
     ],
     correctAnswerIndex: 0,
@@ -160,7 +160,7 @@ const questions4El = [
       },
       {
         id: "1",
-        country: "Bora Bora\nFrench Polynesia",
+        country: "Μπόρα Μπόρα\nΓαλλική Πολυνησία",
         img: require("../../../assets/NaturalMnt/Asia/bora_bora.webp"),
       },
       {
@@ -170,7 +170,7 @@ const questions4El = [
       },
       {
         id: "3",
-        country: "Halong Bay\nVietnam",
+        country: "Κόλπος του Χα Λονγκ\nΒιετνάμ",
         img: require("../../../assets/NaturalMnt/Asia/halongbay-0.png"),
       },
     ],
@@ -185,7 +185,7 @@ const questions4El = [
     options: [
       {
         id: "0",
-        capital: 'Black Forest',
+        capital: 'Μαύρο Δάσος',
         country: 'Γερμανία'
       },
       {
@@ -214,7 +214,7 @@ const questions4El = [
     options: [
       {
         id: "0",
-        country: "Black Forest",
+        country: "Μαύρο Δάσος",
         img: require("../../../assets/NaturalMnt/Europe/blackForest.webp"),
       },
       {
@@ -245,7 +245,7 @@ const questions4El = [
       {
         id: "0",
         capital: 'Μπλε Λιμνοθάλασσα',
-        country: 'Iceland'
+        country: 'Ισλανδία'
       },
       {
         id: "1",
@@ -273,7 +273,7 @@ const questions4El = [
     options: [
       {
         id: "0",
-        country: "Μπλε Λιμνοθάλασσα\nIceland",
+        country: "Μπλε Λιμνοθάλασσα\nΙσλανδία",
         img: require("../../../assets/NaturalMnt/Europe/BlueLagoon.webp"),
       },
       {
@@ -298,7 +298,7 @@ const questions4El = [
     id: "6a",
     status: "Capitals",
     img: 'L',
-    country: "Kenya",
+    country: "Κένυα",
     image: require("../../../assets/NaturalMnt/Africa/mountKenya.webp"),
     options: [
       {
@@ -313,8 +313,8 @@ const questions4El = [
       },
       {
         id: "2",
-        capital: 'Mount Kenya',
-        country: 'Kenya'
+        capital: 'Mount Κένυα',
+        country: 'Κένυα'
       },
       {
         id: "3",
@@ -327,8 +327,8 @@ const questions4El = [
   {
     id: "6b",
     status: "Flags",
-    country: "Mount Kenya",
-    capital: "kenya",
+    country: "Mount Κένυα",
+    capital: "Κένυα",
     options: [
       {
         id: "0",
@@ -342,7 +342,7 @@ const questions4El = [
       },
       {
         id: "2",
-        country: "Mount Kenya\nKenya",
+        country: "Mount Κένυα\nΚένυα",
         img: require("../../../assets/NaturalMnt/Africa/mountKenya.webp"),
       },
       {
@@ -416,7 +416,7 @@ const questions4El = [
     id: "8a",
     status: "Capitals",
     img: 'L',
-    country: "Chile",
+    country: "Χιλή",
     image: require("../../../assets/NaturalMnt/America/torres-del-paine.webp"),
     options: [
       {
@@ -431,13 +431,13 @@ const questions4El = [
       },
       {
         id: "2",
-        capital: 'Torres de Paine',
-        country: 'Chile'
+        capital: 'Πύργοι του Πάινε',
+        country: 'Χιλή'
       },
       {
         id: "3",
-        capital: 'Wadi Rum',
-        country: 'Jordan'
+        capital: 'Ουάντι Ραμ',
+        country: 'Ιορδανία'
       },
     ],
     correctAnswerIndex: 2,
@@ -445,8 +445,8 @@ const questions4El = [
   {
     id: "8b",
     status: "Flags",
-    country: "Torres de Paine",
-    capital: "Chile",
+    country: "Πύργοι του Πάινε",
+    capital: "Χιλή",
     options: [
       {
         id: "0",
@@ -460,12 +460,12 @@ const questions4El = [
       },
       {
         id: "2",
-        country: "Torres de Paine\nChile",
+        country: "Πύργοι του Πάινε\nΧιλή",
         img: require("../../../assets/NaturalMnt/America/torres-del-paine.webp"),
       },
       {
         id: "3",
-        country: "Wadi Rum\nJordan",
+        country: "Ουάντι Ραμ\nΙορδανία",
         img: require("../../../assets/NaturalMnt/Asia/wadi-rum.webp"),
       },
     ],
@@ -534,18 +534,18 @@ const questions4El = [
     id: "10a",
     status: "Capitals",
     img: 'L',
-    country: "Slovenia",
+    country: "Σλοβενία",
     image: require("../../../assets/NaturalMnt/Europe/lake-bled.webp"),
     options: [
       {
         id: "0",
         capital: 'Mount Elbrus',
-        country: 'Russia'
+        country: 'Ρωσία'
       },
       {
         id: "1",
         capital: 'Lake Bled',
-        country: 'Slovenia'
+        country: 'Σλοβενία'
       },
       {
         id: "2",
@@ -564,16 +564,16 @@ const questions4El = [
     id: "10b",
     status: "Flags",
     country: "Lake Bled",
-    capital: "Slovenia",
+    capital: "Σλοβενία",
     options: [
       {
         id: "0",
-        country: "Mount Elbrus\nRussia",
+        country: "Mount Elbrus\nΡωσία",
         img: require("../../../assets/NaturalMnt/Europe/mount-elbrus.webp"),
       },
       {
         id: "1",
-        country: "Lake Bled\nSlovenia",
+        country: "Lake Bled\nΣλοβενία",
         img: require("../../../assets/NaturalMnt/Europe/lake-bled.webp"),
       },
       {

@@ -3,7 +3,7 @@ const questions8El = [
     id: "1a",
     status: "Capitals",
     img: 'L',
-    country: "French Polynesia",
+    country: "Γαλλική Πολυνησία",
     image: require("../../../assets/NaturalMnt/Asia/bora_bora.webp"),
     options: [
       {
@@ -14,7 +14,7 @@ const questions8El = [
       {
         id: "1",
         capital: 'Περιοχή Τοπίων Χουάνγκλονγκ',
-        country: 'China'
+        country: 'Κίνα'
       },
       {
         id: "2",
@@ -23,8 +23,8 @@ const questions8El = [
       },
       {
         id: "3",
-        capital: 'Bora Bora',
-        country: 'French Polynesia'
+        capital: 'Μπόρα Μπόρα',
+        country: 'Γαλλική Πολυνησία'
       },
     ],
     correctAnswerIndex: 3,
@@ -32,8 +32,8 @@ const questions8El = [
   {
       id: "1b",
       status: "Flags",
-      country: "Bora Bora",
-      capital: "French Polynesia",
+      country: "Μπόρα Μπόρα",
+      capital: "Γαλλική Πολυνησία",
       options: [
         {
           id: "0",
@@ -52,7 +52,7 @@ const questions8El = [
         },
         {
           id: "3",
-          name: "Bora Bora\nFrench Polynesia",
+          name: "Μπόρα Μπόρα\nFrench Polynesia",
           img: require("../../../assets/NaturalMnt/Asia/bora_bora.webp"),
         },
       ],
@@ -121,13 +121,13 @@ const questions8El = [
       id: "3a",
       status: "Capitals",
       img: 'L',
-      country: "China",
+      country: "Κίνα",
       image: require("../../../assets/NaturalMnt/Asia/Jiuzhaigou-Valley.webp"),
       options: [
         {
           id: "0",
           capital: 'Όρος Έβερεστ',
-          country: 'Nepal/China'
+          country: 'Nepal/Κίνα'
         },
         {
           id: "1",
@@ -136,13 +136,13 @@ const questions8El = [
         },
         {
           id: "2",
-          capital: 'Jiuzhaigou Valley',
-          country: 'China'
+          capital: 'Κοιλάδα Τζιουτζαϊγκού',
+          country: 'Κίνα'
         },
         {
           id: "3",
           capital: 'Όρος Χουάνγκ',
-          country: 'China'
+          country: 'Κίνα'
         },
       ],
       correctAnswerIndex: 2,
@@ -150,12 +150,12 @@ const questions8El = [
     {
       id: "3b",
       status: "Flags",
-      country: "Jiuzhaigou Valley",
-      capital: "China",
+      country: "Κοιλάδα Τζιουτζαϊγκού",
+      capital: "Κίνα",
       options: [
         {
           id: "0",
-          name: "Όρος Χουάνγκ\nChina",
+          name: "Όρος Χουάνγκ\nΚίνα",
           img: require("../../../assets/NaturalMnt/Asia/mountHuangshan.webp"),
         },
         {
@@ -165,12 +165,12 @@ const questions8El = [
         },
         {
           id: "2",
-          name: "Jiuzhaigou Valley\nChina",
+          name: "Κοιλάδα Τζιουτζαϊγκού\nΚίνα",
           img: require("../../../assets/NaturalMnt/Asia/Jiuzhaigou-Valley.webp"),
         },
         {
           id: "3",
-          name: "Όρος Έβερεστ\nNepal/China",
+          name: "Όρος Έβερεστ\nNepal/Κίνα",
           img: require("../../../assets/NaturalMnt/Asia/Mount-Everest.webp"),
         },
       ],
@@ -180,13 +180,13 @@ const questions8El = [
       id: "4a",
       status: "Capitals",
       img: 'L',
-      country: "China",
+      country: "Κίνα",
       image: require("../../../assets/NaturalMnt/Asia/mountHuangshan.webp"),
       options: [
         {
           id: "0",
           capital: 'Όρος Χουάνγκ',
-          country: 'China'
+          country: 'Κίνα'
         },
         {
           id: "1",
@@ -210,11 +210,11 @@ const questions8El = [
       id: "4b",
       status: "Flags",
       country: "Όρος Χουάνγκ",
-      capital: "China",
+      capital: "Κίνα",
       options: [
         {
           id: "0",
-          name: "Όρος Χουάνγκ\nChina",
+          name: "Όρος Χουάνγκ\nΚίνα",
           img: require("../../../assets/NaturalMnt/Asia/mountHuangshan.webp"),
         },
         {
@@ -239,7 +239,7 @@ const questions8El = [
       id: "5a",
       status: "Capitals",
       img: 'L',
-      country: "French Polynesia",
+      country: "Γαλλική Πολυνησία",
       image: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
       options: [
         {
@@ -250,17 +250,17 @@ const questions8El = [
         {
           id: "1",
           capital: 'Dead Sea',
-          country: 'Jordan/Israel/West Bank'
+          country: 'Ιορδανία/Israel/West Bank'
         },
         {
           id: "2",
           capital: 'Όρος Οτεμανού',
-          country: 'French Polynesia'
+          country: 'Γαλλική Πολυνησία'
         },
         {
           id: "3",
-          capital: 'Gobi Desert',
-          country: 'China/Mongolia'
+          capital: 'Έρημος Γκόμπι',
+          country: 'Κίνα/Μογγολία'
         },
       ],
       correctAnswerIndex: 2,
@@ -269,7 +269,7 @@ const questions8El = [
       id: "5b",
       status: "Flags",
       country: "Όρος Οτεμανού",
-      capital: "French Polynesia",
+      capital: "Γαλλική Πολυνησία",
       options: [
         {
           id: "0",
@@ -278,7 +278,7 @@ const questions8El = [
         },
         {
           id: "1",
-          name: "Dead Sea\nJordan/Israel/West Bank",
+          name: "Dead Sea\nΙορδανία/Israel/West Bank",
           img: require("../../../assets/NaturalMnt/Asia/DeadSea.jpg"),
         },
         {
@@ -288,7 +288,7 @@ const questions8El = [
         },
         {
           id: "3",
-          name: "Gobi Desert\nChina/Mongolia",
+          name: "Έρημος Γκόμπι\nΚίνα/Μογγολία",
           img: require("../../../assets/NaturalMnt/Asia/Winter-GobiDesert.webp"),
         },
       ],
@@ -357,7 +357,7 @@ const questions8El = [
       id: "7a",
       status: "Capitals",
       img: 'L',
-      country: "China/Mongolia",
+      country: "Κίνα/Μογγολία",
       image: require("../../../assets/NaturalMnt/Asia/Winter-GobiDesert.webp"),
       options: [
         {
@@ -377,8 +377,8 @@ const questions8El = [
         },
         {
           id: "3",
-          capital: 'Gobi Desert',
-          country: 'China/Mongolia'
+          capital: 'Έρημος Γκόμπι',
+          country: 'Κίνα/Μογγολία'
         },
       ],
       correctAnswerIndex: 3,
@@ -386,8 +386,8 @@ const questions8El = [
     {
       id: "7b",
       status: "Flags",
-      country: "Gobi Desert",
-      capital: "China/Mongolia",
+      country: "Έρημος Γκόμπι",
+      capital: "Κίνα/Μογγολία",
       options: [
         {
           id: "0",
@@ -406,7 +406,7 @@ const questions8El = [
         },
         {
           id: "3",
-          name: "Gobi Desert\nChina/Mongolia",
+          name: "Έρημος Γκόμπι\nΚίνα/Μογγολία",
           img: require("../../../assets//NaturalMnt/Asia/Winter-GobiDesert.webp"),
         },
       ],
@@ -416,28 +416,28 @@ const questions8El = [
       id: "8a",
       status: "Capitals",
       img: 'L',
-      country: "China",
+      country: "Κίνα",
       image: require("../../../assets/NaturalMnt/Asia/zhangjiajie-national-forest-park-china.png"),
       options: [
         {
           id: "0",
-          capital: 'Wadi Rum',
-          country: 'Jordan'
+          capital: 'Ουάντι Ραμ',
+          country: 'Ιορδανία'
         },
         {
           id: "1",
-          capital: 'Zhangjiajie',
-          country: 'China'
+          capital: 'Ζανγκτσιάτζιε',
+          country: 'Κίνα'
         },
         {
           id: "2",
-          capital: 'Mount Kenya',
-          country: 'Kenya'
+          capital: 'Mount Κένυα',
+          country: 'Κένυα'
         },
         {
           id: "3",
           capital: 'Nile',
-          country: 'Egypt'
+          country: 'Αίγυπτος'
         },
       ],
       correctAnswerIndex: 1,
@@ -445,27 +445,27 @@ const questions8El = [
     {
       id: "8b",
       status: "Flags",
-      country: "Zhangjiajie",
-      capital: "China",
+      country: "Ζανγκτσιάτζιε",
+      capital: "Κίνα",
       options: [
         {
           id: "0",
-          name: "Wadi Rum\nJordan",
+          name: "Ουάντι Ραμ\nΙορδανία",
           img: require("../../../assets/NaturalMnt/Asia/wadi-rum.webp"),
         },
         {
           id: "1",
-          name: "Zhangjiajie\nChina",
+          name: "Ζανγκτσιάτζιε\nΚίνα",
           img: require("../../../assets/NaturalMnt/Asia/zhangjiajie-national-forest-park-china.png"),
         },
         {
           id: "2",
-          name: "Nile\nEgypt",
+          name: "Nile\nΑίγυπτος",
           img: require("../../../assets/NaturalMnt/Africa/RiverNile.webp"),
         },
         {
           id: "3",
-          name: "Mount Kenya\nKenya",
+          name: "Mount Κένυα\nΚένυα",
           img: require("../../../assets/NaturalMnt/Africa/mountKenya.webp"),
         },
       ],
@@ -496,7 +496,7 @@ const questions8El = [
         {
           id: "3",
           capital: 'Torres del Paine',
-          country: 'Chile'
+          country: 'Χιλή'
         },
       ],
       correctAnswerIndex: 2,
@@ -524,7 +524,7 @@ const questions8El = [
         },
         {
           id: "3",
-          name: "Torres del Paine\nChile",
+          name: "Torres del Paine\nΧιλή",
           img: require("../../../assets/NaturalMnt/America/torres-del-paine.webp"),
         },
       ],
@@ -534,18 +534,18 @@ const questions8El = [
       id: "10a",
       status: "Capitals",
       img: 'L',
-      country: "Bolivia",
+      country: "Βολιβία",
       image: require("../../../assets/NaturalMnt/America/SalardeUyuni.webp"),
       options: [
         {
           id: "0",
-          capital: 'Salar de Uyuni',
-          country: 'Bolivia'
+          capital: 'Σαλάρ ντε Ουγιούνι',
+          country: 'Βολιβία'
         },
         {
           id: "1",
           capital: 'Μπλε Λιμνοθάλασσα',
-          country: 'Iceland'
+          country: 'Ισλανδία'
         },
         {
           id: "2",
@@ -563,17 +563,17 @@ const questions8El = [
     {
       id: "10b",
       status: "Flags",
-      country: "Salar de Uyuni",
-      capital: "Bolivia",
+      country: "Σαλάρ ντε Ουγιούνι",
+      capital: "Βολιβία",
       options: [
         {
           id: "0",
-          name: "Salar de Uyuni\nBolivia",
+          name: "Σαλάρ ντε Ουγιούνι\nΒολιβία",
           img: require("../../../assets/NaturalMnt/America/SalardeUyuni.webp"),
         },
         {
           id: "1",
-          name: "Μπλε Λιμνοθάλασσα\nIceland",
+          name: "Μπλε Λιμνοθάλασσα\nΙσλανδία",
           img: require("../../../assets/NaturalMnt/Europe/BlueLagoon.webp"),
         },
         {

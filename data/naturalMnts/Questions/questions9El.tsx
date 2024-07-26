@@ -23,8 +23,8 @@ const questions9El = [
       },
       {
         id: "3",
-        capital: 'Mount Sinai',
-        country: 'Egypt'
+        capital: 'Όρος Σινά',
+        country: 'Αίγυπτος'
       },
     ],
     correctAnswerIndex: 0,
@@ -52,7 +52,7 @@ const questions9El = [
           },
           {
             id: "3",
-            country: "Mount Sinai\nEgypt",
+            country: "Όρος Σινά\nΑίγυπτος",
             img: require("../../../assets/NaturalMnt/Africa/mountSinai.webp"),
           },
         ],
@@ -73,7 +73,7 @@ const questions9El = [
           {
             id: "1",
             capital: 'Serengeti National Park',
-            country: 'Tanzania'
+            country: 'Τανζανία'
           },
           {
             id: "2",
@@ -83,7 +83,7 @@ const questions9El = [
           {
             id: "3",
             capital: 'Εθνικό Πάρκο Λευκής Ερήμου',
-            country: 'Egypt'
+            country: 'Αίγυπτος'
           },
         ],
         correctAnswerIndex: 2,
@@ -201,7 +201,7 @@ const questions9El = [
           {
             id: "3",
             capital: 'Lake Bled',
-            country: 'Slovenia'
+            country: 'Σλοβενία'
           },
         ],
         correctAnswerIndex: 2,
@@ -229,7 +229,7 @@ const questions9El = [
           },
           {
             id: "3",
-            country: "Lake Bled\nSlovenia",
+            country: "Lake Bled\nΣλοβενία",
             img: require("../../../assets/NaturalMnt/Europe/lake-bled.webp"),
           },
         ],
@@ -260,7 +260,7 @@ const questions9El = [
           {
             id: "3",
             capital: 'Όρος Χουάνγκ',
-            country: 'China'
+            country: 'Κίνα'
           },
         ],
         correctAnswerIndex: 0,
@@ -288,7 +288,7 @@ const questions9El = [
           },
           {
             id: "3",
-            country: "Όρος Χουάνγκ\nChina",
+            country: "Όρος Χουάνγκ\nΚίνα",
             img: require("../../../assets/NaturalMnt/Asia/mountHuangshan.webp"),
           },
         ],
@@ -303,13 +303,13 @@ const questions9El = [
         options: [
           {
             id: "0",
-            capital: 'Gobi Desert',
-            country: 'China/Mongolia'
+            capital: 'Έρημος Γκόμπι',
+            country: 'Κίνα/Μογγολία'
           },
           {
             id: "1",
-            capital: 'Mount Kenya',
-            country: 'Kenya'
+            capital: 'Mount Κένυα',
+            country: 'Κένυα'
           },
           {
             id: "2",
@@ -332,12 +332,12 @@ const questions9El = [
         options: [
           {
             id: "0",
-            country: "Gobi Desert\nChina/Mongolia",
+            country: "Έρημος Γκόμπι\nΚίνα/Μογγολία",
             img: require("../../../assets/NaturalMnt/Asia/Winter-GobiDesert.webp"),
           },
           {
             id: "1",
-            country: "Mount Kenya\nKenya",
+            country: "Mount Κένυα\nΚένυα",
             img: require("../../../assets/NaturalMnt/Africa/mountKenya.webp"),
           },
           {
@@ -357,7 +357,7 @@ const questions9El = [
         id: "7a",
         status: "Capitals",
         img: 'L',
-        country: "Iceland",
+        country: "Ισλανδία",
         image: require("../../../assets/NaturalMnt/Europe/skaftafell.webp"),
         options: [
           {
@@ -368,7 +368,7 @@ const questions9El = [
           {
             id: "1",
             capital: 'Skaftafell Ice Cave',
-            country: 'Iceland'
+            country: 'Ισλανδία'
           },
           {
             id: "2",
@@ -387,7 +387,7 @@ const questions9El = [
         id: "7b",
         status: "Flags",
         country: "Skaftafell Ice Cave",
-        capital: "Iceland",
+        capital: "Ισλανδία",
         options: [
           {
             id: "0",
@@ -396,7 +396,7 @@ const questions9El = [
           },
           {
             id: "1",
-            country: "Skaftafell Ice Cave\nIceland",
+            country: "Skaftafell Ice Cave\nΙσλανδία",
             img: require("../../../assets/NaturalMnt/Europe/skaftafell.webp"),
           },
           {
@@ -465,7 +465,7 @@ const questions9El = [
           },
           {
             id: "3",
-            country: "Όρος Κιλιμάντζαρο\nTanzania",
+            country: "Όρος Κιλιμάντζαρο\nΤανζανία",
             img: require("../../../assets/NaturalMnt/Africa//Kilimanjaro.webp"),
           },
         ],

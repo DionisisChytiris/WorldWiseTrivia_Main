@@ -67,8 +67,8 @@ const questions5El = [
         options: [
           {
             id: "0",
-            capital: 'Mount Kenya',
-            country: 'Kenya'
+            capital: 'Mount Κένυα',
+            country: 'Κένυα'
           },
           {
             id: "1",
@@ -96,7 +96,7 @@ const questions5El = [
         options: [
           {
             id: "0",
-            country: "Mount Kenya\nKenya",
+            country: "Mount Κένυα\nΚένυα",
             img: require("../../../assets/NaturalMnt/Africa/mountKenya.webp"),
           },
           {
@@ -127,12 +127,12 @@ const questions5El = [
           {
             id: "0",
             capital: 'Lake Bled',
-            country: 'Slovenia'
+            country: 'Σλοβενία'
           },
           {
             id: "1",
             capital: 'Skaftafell Ice Cave',
-            country: 'Iceland'
+            country: 'Ισλανδία'
           },
           {
             id: "2",
@@ -155,12 +155,12 @@ const questions5El = [
         options: [
           {
             id: "0",
-            country: "Lake Bled\nSlovenia",
+            country: "Lake Bled\nΣλοβενία",
             img: require("../../../assets/NaturalMnt/Europe/lake-bled.webp"),
           },
           {
             id: "1",
-            country: "Skaftafell Ice Crave\nIceland",
+            country: "Skaftafell Ice Crave\nΙσλανδία",
             img: require("../../../assets/NaturalMnt/Europe/skaftafell.webp"),
           },
           {
@@ -191,7 +191,7 @@ const questions5El = [
           {
             id: "1",
             capital: 'Dettifoss Waterfall',
-            country: 'Iceland'
+            country: 'Ισλανδία'
           },
           {
             id: "2",
@@ -219,7 +219,7 @@ const questions5El = [
           },
           {
             id: "1",
-            country: "Dettifoss Waterfall\nIceland",
+            country: "Dettifoss Waterfall\nΙσλανδία",
             img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
           },
           {
@@ -245,7 +245,7 @@ const questions5El = [
           {
             id: "0",
             capital: 'Λίμνη Τιτικάκα',
-            country: 'Bolivia/Περού'
+            country: 'Βολιβία/Περού'
           },
           {
             id: "1",
@@ -254,7 +254,7 @@ const questions5El = [
           },
           {
             id: "2",
-            capital: 'Mitten Buttes',
+            capital: 'Λόφοι Μίτεν',
             country: 'ΗΠΑ'
           },
           {
@@ -273,7 +273,7 @@ const questions5El = [
         options: [
           {
             id: "0",
-            country: "Λίμνη Τιτικάκα\nBolivia/Peru",
+            country: "Λίμνη Τιτικάκα\nΒολιβία/Peru",
             img: require("../../../assets/NaturalMnt/America/lakeTiticaca.webp"),
           },
           {
@@ -283,7 +283,7 @@ const questions5El = [
           },
           {
             id: "2",
-            country: "Mitten Buttes\nΗΠΑ",
+            country: "Λόφοι Μίτεν\nΗΠΑ",
             img: require("../../../assets/NaturalMnt/America/mitten-butte.webp"),
           },
           {
@@ -308,13 +308,13 @@ const questions5El = [
           },
           {
             id: "1",
-            capital: 'Gobi Desert',
-            country: 'China/Mongolia'
+            capital: 'Έρημος Γκόμπι',
+            country: 'Κίνα/Μογγολία'
           },
           {
             id: "2",
-            capital: 'Zhangjiajie',
-            country: 'China'
+            capital: 'Ζανγκτσιάτζιε',
+            country: 'Κίνα'
           },
           {
             id: "3",
@@ -337,12 +337,12 @@ const questions5El = [
           },
           {
             id: "1",
-            country: "Gobi Desert\nChina/Mongolia",
+            country: "Έρημος Γκόμπι\nΚίνα/Μογγολία",
             img: require("../../../assets/NaturalMnt/Asia/Winter-GobiDesert.webp"),
           },
           {
             id: "2",
-            country: "Zhangjiajie\nChina",
+            country: "Ζανγκτσιάτζιε\nΚίνα",
             img: require("../../../assets/NaturalMnt/Asia/zhangjiajie-national-forest-park-china.png"),
           },
           {
@@ -357,7 +357,7 @@ const questions5El = [
         id: "7a",
         status: "Capitals",
         img: 'L',
-        country: "China",
+        country: "Κίνα",
         image: require("../../../assets/NaturalMnt/Asia/huanglongScenicArea.webp"),
         options: [
           {
@@ -368,7 +368,7 @@ const questions5El = [
           {
             id: "1",
             capital: 'Περιοχή Τοπίων Χουάνγκλονγκ',
-            country: 'China'
+            country: 'Κίνα'
           },
           {
             id: "2",
@@ -378,7 +378,7 @@ const questions5El = [
           {
             id: "3",
             capital: 'Όρος Οτεμανού',
-            country: 'French Polynesia'
+            country: 'Γαλλική Πολυνησία'
           },
         ],
         correctAnswerIndex: 1,
@@ -387,7 +387,7 @@ const questions5El = [
         id: "7b",
         status: "Flags",
         country: "Περιοχή Τοπίων Χουάνγκλονγκ",
-        capital: "China",
+        capital: "Κίνα",
         options: [
           {
             id: "0",
@@ -406,7 +406,7 @@ const questions5El = [
           },
           {
             id: "3",
-            country: "Όρος Οτεμανού\nFrench Polynesia",
+            country: "Όρος Οτεμανού\nΓαλλική Πολυνησία",
             img: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
           },
         ],
@@ -421,8 +421,8 @@ const questions5El = [
         options: [
           {
             id: "0",
-            capital: 'Mount Bromo',
-            country: 'Indonesia'
+            capital: 'Όρος Μπρόμο',
+            country: 'Ινδονησία'
           },
           {
             id: "1",
@@ -450,7 +450,7 @@ const questions5El = [
         options: [
           {
             id: "0",
-            country: "Mount Bromo\nIndonesia",
+            country: "Όρος Μπρόμο\nΙνδονησία",
             img: require("../../../assets/NaturalMnt/Asia/mountBromo.png"),
           },
           {
@@ -545,7 +545,7 @@ const questions5El = [
           {
             id: "1",
             capital: 'Ακρωτήριο της Καλής Ελπίδας',
-            country: 'South Africa'
+            country: 'Νότια Αφρική'
           },
           {
             id: "2",
@@ -554,8 +554,8 @@ const questions5El = [
           },
           {
             id: "3",
-            capital: 'Marble Caves',
-            country: 'Chile'
+            capital: 'Μαρμάρινες Σπηλιές',
+            country: 'Χιλή'
           },
         ],
         correctAnswerIndex: 2,
@@ -583,7 +583,7 @@ const questions5El = [
           },
           {
             id: "3",
-            country: "Marble Caves\nChile",
+            country: "Μαρμάρινες Σπηλιές\nΧιλή",
             img: require("../../../assets/NaturalMnt/America/marble-caves-chile.png"),
           },
         ],
