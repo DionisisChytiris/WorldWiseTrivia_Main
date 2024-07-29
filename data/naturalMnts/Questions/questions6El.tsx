@@ -8,8 +8,8 @@ const questions6El = [
     options: [
       {
         id: "0",
-        capital: 'Charyn Canyon',
-        country: 'Kazakhstan'
+        capital: 'Φαράγγι Τσαρίν',
+        country: 'Καζακστάν'
       },
       {
         id: "1",
@@ -18,7 +18,7 @@ const questions6El = [
       },
       {
         id: "2",
-        capital: 'Dettifoss Waterfall',
+        capital: 'Καταρράκτης Ντέτιφος',
         country: 'Ισλανδία'
       },
       {
@@ -32,12 +32,12 @@ const questions6El = [
     {
         id: "1b",
         status: "Flags",
-        country: "Dettifoss Waterfall",
+        country: "Καταρράκτης Ντέτιφος",
         capital: "Ισλανδία",
         options: [
           {
             id: "0",
-            country: "Charyn Canyon\nKazakhstan",
+            country: "Φαράγγι Τσαρίν\nΚαζακστάν",
             img: require("../../../assets/NaturalMnt/Asia/charynCanyon.webp"),
           },
           {
@@ -47,12 +47,12 @@ const questions6El = [
           },
           {
             id: "2",
-            country: "Dettifoss Waterfall\nΙσλανδία",
+            country: "Καταρράκτης Ντέτιφος\nΙσλανδία",
             img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
           },
           {
             id: "3",
-            country: "Μεγάλη Μπλε Τρύπα\nBelize",
+            country: "Μεγάλη Μπλε Τρύπα\nΜπελίζ",
             img: require("../../../assets/NaturalMnt/America/Great-Blue-Hole.webp"),
           },
         ],
@@ -67,17 +67,17 @@ const questions6El = [
         options: [
           {
             id: "0",
-            capital: 'Bryce Canyon National Park',
+            capital: 'Εθνικό Πάρκο Μπράις Κάνιον',
             country: 'ΗΠΑ'
           },
           {
             id: "1",
-            capital: 'Chapada Diamantina National Park',
-            country: 'Brazil'
+            capital: 'Διαμαντένια Πεδιάδα',
+            country: 'Βραζιλία'
           },
           {
             id: "2",
-            capital: 'Blue Mountains',
+            capital: 'Μπλε Βουνά',
             country: 'Αυστραλία'
           },
           {
@@ -96,17 +96,17 @@ const questions6El = [
         options: [
           {
             id: "0",
-            country: "Bryce Canyon National Park\nUSA",
+            country: "Εθνικό Πάρκο Μπράις Κάνιον\nΗΠΑ",
             img: require("../../../assets/NaturalMnt/America/Bryce-Canyon.webp"),
           },
           {
             id: "1",
-            country: "Chapada Diamantina National Park\nBrazil",
+            country: "Διαμαντένια Πεδιάδα\nΒραζιλία",
             img: require("../../../assets/NaturalMnt/America/chadadaDiamantina.webp"),
           },
           {
             id: "2",
-            country: "Blue Mountains\nΑυστραλία",
+            country: "Μπλε Βουνά\nΑυστραλία",
             img: require("../../../assets/NaturalMnt/Oceania/Australia-Blue-Mountains.webp"),
           },
           {
@@ -131,7 +131,7 @@ const questions6El = [
           },
           {
             id: "1",
-            capital: 'Devils Tower',
+            capital: 'Πύργος του Διαβόλου',
             country: 'ΗΠΑ'
           },
           {
@@ -150,7 +150,7 @@ const questions6El = [
       {
         id: "3b",
         status: "Flags",
-        country: "Devils Tower",
+        country: "Πύργος του Διαβόλου",
         capital: "ΗΠΑ",
         options: [
           {
@@ -160,7 +160,7 @@ const questions6El = [
           },
           {
             id: "1",
-            country: "Devils Tower\nΗΠΑ",
+            country: "Πύργος του Διαβόλου\nΗΠΑ",
             img: require("../../../assets/NaturalMnt/America/devils-tower.webp"),
           },
           {
@@ -185,8 +185,8 @@ const questions6El = [
         options: [
           {
             id: "0",
-            capital: 'Kaladula Falls',
-            country: 'Angola'
+            capital: 'Καταρράκτες Καλαντούλα',
+            country: 'Ανγκόλα'
           },
           {
             id: "1",
@@ -214,7 +214,7 @@ const questions6El = [
         options: [
           {
             id: "0",
-            country: "Kalandula Falls\nAngola",
+            country: "Καταρράκτες Καλαντούλα\nΑνγκόλα",
             img: require("../../../assets/NaturalMnt/Africa/kalandula-falls-angola.webp"),
           },
           {
@@ -224,7 +224,7 @@ const questions6El = [
           },
           {
             id: "2",
-            country: "Εθνικό Πάρκο Λευκής Ερήμου\nEgypt",
+            country: "Εθνικό Πάρκο Λευκής Ερήμου\nΑίγυπτος",
             img: require("../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp"),
           },
           {
@@ -244,13 +244,13 @@ const questions6El = [
         options: [
           {
             id: "0",
-            capital: 'Mount Elbrus',
+            capital: 'Όρος Ελμπρούς',
             country: 'Ρωσία'
           },
           {
             id: "1",
             capital: 'Όρος Τέιδε',
-            country: 'Spain'
+            country: 'Ισπανία'
           },
           {
             id: "2",
@@ -259,8 +259,8 @@ const questions6El = [
           },
           {
             id: "3",
-            capital: 'Santorini Caldera',
-            country: 'Greece'
+            capital: 'Καλδέρα Σαντορίνης',
+            country: 'Ελλάδα'
           },
         ],
         correctAnswerIndex: 0,
@@ -268,17 +268,17 @@ const questions6El = [
       {
         id: "5b",
         status: "Flags",
-        country: "Mount Elbrus",
+        country: "Όρος Ελμπρούς",
         capital: "Ρωσία",
         options: [
           {
             id: "0",
-            country: "Mount Elbrus\nΡωσία",
+            country: "Όρος Ελμπρούς\nΡωσία",
             img: require("../../../assets/NaturalMnt/Europe/mount-elbrus.webp"),
           },
           {
             id: "1",
-            country: "Όρος Τέιδε\nSpain",
+            country: "Όρος Τέιδε\nΙσπανία",
             img: require("../../../assets/NaturalMnt/Europe/mountTeide.webp"),
           },
           {
@@ -288,7 +288,7 @@ const questions6El = [
           },
           {
             id: "3",
-            country: "Santorini Caldera\nGreece",
+            country: "Καλδέρα Σαντορίνης\nΕλλάδα",
             img: require("../../../assets/NaturalMnt/Europe/Santorini-Caldera.jpg"),
           },
         ],
@@ -298,28 +298,28 @@ const questions6El = [
         id: "6a",
         status: "Capitals",
         img: 'L',
-        country: "Spain",
+        country: "Ισπανία",
         image: require("../../../assets/NaturalMnt/Europe/PicosdeEuropa.webp"),
         options: [
           {
             id: "0",
             capital: 'Πέτρινος Αμβώνας',
-            country: 'Norway'
+            country: 'Νορβηγία'
           },
           {
             id: "1",
             capital: 'Εθνικό Πάρκο Φιόρντλαντ',
-            country: 'New Zealand'
+            country: 'Νέα Ζηλανδία'
           },
           {
             id: "2",
-            capital: 'Plitvice Lakes',
-            country: 'Croatia'
+            capital: 'Λίμνες Πλίτβιτσε',
+            country: 'Κροατία'
           },
           {
             id: "3",
-            capital: 'Picos de Europa',
-            country: 'Northern Spain'
+            capital: 'Πίκος ντε Εουρόπα',
+            country: 'Ισπανία'
           },
         ],
         correctAnswerIndex: 3,
@@ -327,27 +327,27 @@ const questions6El = [
       {
         id: "6b",
         status: "Flags",
-        country: "Picos de Europa",
-        capital: "Northern Spain",
+        country: "Πίκος ντε Εουρόπα",
+        capital: "Ισπανία",
         options: [
           {
             id: "0",
-            country: "Πέτρινος Αμβώνας\nNorway",
+            country: "Πέτρινος Αμβώνας\nΝορβηγία",
             img: require("../../../assets/NaturalMnt/Europe/pulpitRock.webp"),
           },
           {
             id: "1",
-            country: "Εθνικό Πάρκο Φιόρντλαντ\nNew Zealand",
+            country: "Εθνικό Πάρκο Φιόρντλαντ\nΝέα Ζηλανδία",
             img: require("../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp"),
           },
           {
             id: "2",
-            country: "Plitvice Lakes\nCroatia",
+            country: "Λίμνες Πλίτβιτσε\nΚροατία",
             img: require("../../../assets/NaturalMnt/Europe/Plitvice-lakes.webp"),
           },
           {
             id: "3",
-            country: "Picos de Europa\nNorthern Spain",
+            country: "Πίκος ντε Εουρόπα\nΙσπανία",
             img: require("../../../assets/NaturalMnt/Europe/PicosdeEuropa.webp"),
           },
         ],
@@ -368,7 +368,7 @@ const questions6El = [
           {
             id: "1",
             capital: 'Ελβετικές Άλπεις',
-            country: 'Switzerland'
+            country: 'Ελβετία'
           },
           {
             id: "2",
@@ -378,7 +378,7 @@ const questions6El = [
           {
             id: "3",
             capital: 'Τρολτούγκα',
-            country: 'Norway'
+            country: 'Νορβηγία'
           },
         ],
         correctAnswerIndex: 2,
@@ -391,12 +391,12 @@ const questions6El = [
         options: [
           {
             id: "0",
-            country: "Ελβετικές Άλπεις\nSwitzerland",
+            country: "Ελβετικές Άλπεις\nΕλβετία",
             img: require("../../../assets/NaturalMnt/Europe/swissapls.jpg"),
           },
           {
             id: "1",
-            country: "Εθνικό Πάρκο Όρος Τέιμπλ\nSouth Africa",
+            country: "Εθνικό Πάρκο Όρος Τέιμπλ\nΝότια Αφρική",
             img: require("../../../assets/NaturalMnt/Africa/table-mountain.webp"),
           },
           {
@@ -406,7 +406,7 @@ const questions6El = [
           },
           {
             id: "3",
-            country: "Τρολτούγκα\nNorway",
+            country: "Τρολτούγκα\nΝορβηγία",
             img: require("../../../assets/NaturalMnt/Europe/Trolltunga.webp"),
           },
         ],
@@ -416,28 +416,28 @@ const questions6El = [
         id: "8a",
         status: "Capitals",
         img: 'L',
-        country: "New Zealand",
+        country: "Νέα Ζηλανδία",
         image: require("../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp"),
         options: [
           {
             id: "0",
             capital: 'Εθνικό Πάρκο Φιόρντλαντ',
-            country: 'New Zealand'
+            country: 'Νέα Ζηλανδία'
           },
           {
             id: "1",
-            capital: 'Great Barrier Reef',
+            capital: 'Μεγάλος Κοραλλιογενής Ύφαλος',
             country: 'Αυστραλία'
           },
           {
             id: "2",
-            capital: 'The Great Ocean Road',
+            capital: 'Ο Δρόμος του Μεγάλου Ωκεανού',
             country: 'Αυστραλία'
           },
           {
             id: "3",
-            capital: 'Avenue of Baobabs',
-            country: 'Madagascar'
+            capital: 'Λεωφόρος των Μπαομπάμπ',
+            country: 'Μαδαγασκάρη'
           },
         ],
         correctAnswerIndex: 0,
@@ -450,22 +450,22 @@ const questions6El = [
         options: [
           {
             id: "0",
-            country: "Εθνικό Πάρκο Φιόρντλαντ\nIndonesia",
+            country: "Εθνικό Πάρκο Φιόρντλαντ\nΙνδονησία",
             img: require("../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp"),
           },
           {
             id: "1",
-            country: "Great Barrier Reef\nΑυστραλία",
+            country: "Μεγάλος Κοραλλιογενής Ύφαλος\nΑυστραλία",
             img: require("../../../assets/NaturalMnt/Oceania/greatBarrierReef.webp"),
           },
           {
             id: "2",
-            country: "The Great Ocean Road\nΑυστραλία",
+            country: "Ο Δρόμος του Μεγάλου Ωκεανού\nΑυστραλία",
             img: require("../../../assets/NaturalMnt/Oceania/TheGreatOceanRoad.webp"),
           },
           {
             id: "3",
-            country: "Avenue of Baobabs\nMadagascar",
+            country: "Λεωφόρος των Μπαομπάμπ\nΜαδαγασκάρη",
             img: require("../../../assets/NaturalMnt/Africa/avenueofboababs.webp"),
           },
         ],
@@ -475,28 +475,28 @@ const questions6El = [
         id: "9a",
         status: "Capitals",
         img: 'L',
-        country: "New Zealand",
+        country: "Νέα Ζηλανδία",
         image: require("../../../assets/NaturalMnt/Oceania/mountcook.webp"),
         options: [
           {
             id: "0",
-            capital: 'Crooked Forest',
-            country: 'Poland'
+            capital: 'Στρεβλό Δάσος',
+            country: 'Πολωνία'
           },
           {
             id: "1",
-            capital: 'Giant\'a Causeway',
-            country: 'Ireland'
+            capital: 'Ακτή του Γίγαντα',
+            country: 'Ιρλανδία'
           },
           {
             id: "2",
             capital: 'Νήσος Σκάι',
-            country: 'Scotland'
+            country: 'Σκωτία'
           },
           {
             id: "3",
-            capital: 'Mount Cook',
-            country: 'New Zealand'
+            capital: 'Όρος Κουκ',
+            country: 'Νέα Ζηλανδία'
           },
         ],
         correctAnswerIndex: 3,
@@ -504,27 +504,27 @@ const questions6El = [
       {
         id: "9b",
         status: "Flags",
-        country: "Mount Cook",
-        capital: "New Zealand",
+        country: "Όρος Κουκ",
+        capital: "Νέα Ζηλανδία",
         options: [
           {
             id: "0",
-            country: "Crooked Forest\nPoland",
+            country: "Στρεβλό Δάσος\nΠολωνία",
             img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
           },
           {
             id: "1",
-            country: "Giant\'a Causeway\nIreland",
+            country: "Ακτή του Γίγαντα\nΙρλανδία",
             img: require("../../../assets/NaturalMnt/Europe/GiantsCauseway.webp"),
           },
           {
             id: "2",
-            country: "Νήσος Σκάι\nScotland",
+            country: "Νήσος Σκάι\nΣκωτία",
             img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
           },
           {
             id: "3",
-            country: "Mount Cook\nNew Zealand",
+            country: "Όρος Κουκ\nΝέα Ζηλανδία",
             img: require("../../../assets/NaturalMnt/Oceania/mountcook.webp"),
           },
         ],
@@ -534,7 +534,7 @@ const questions6El = [
         id: "10a",
         status: "Capitals",
         img: 'L',
-        country: "Near Arctic/Antarctic",
+        country: "Βόρειος &  Νότιος Πόλος",
         image: require("../../../assets/NaturalMnt/Europe/Northern-Lights-Desktop-Wallpaper.jpg"),
         options: [
           {
@@ -544,8 +544,8 @@ const questions6El = [
           },
           {
             id: "1",
-            capital: 'Aurora',
-            country: 'Near Arctic/Antarctic'
+            capital: 'Σέλας',
+            country: 'Βόρειος & Νότιος Πόλος'
           },
           {
             id: "2",
@@ -554,8 +554,8 @@ const questions6El = [
           },
           {
             id: "3",
-            capital: 'Halong Bay',
-            country: 'Vietnam'
+            capital: 'Κόλπος του Χα Λονγκ',
+            country: 'Βιετνάμ'
           },
         ],
         correctAnswerIndex: 1,
@@ -563,8 +563,8 @@ const questions6El = [
       {
         id: "10b",
         status: "Flags",
-        country: "Aurora",
-        capital: "Near Arctic/Antarctic",
+        country: "Σέλας",
+        capital: "Βόρειος & Νότιος Πόλος",
         options: [
           {
             id: "0",
@@ -573,7 +573,7 @@ const questions6El = [
           },
           {
             id: "1",
-            country: "Aurora\nNear Arctic/Antarctic",
+            country: "Σέλας\nΒόρειος & Νότιος Πόλος",
             img: require("../../../assets/NaturalMnt/Europe/Northern-Lights-Desktop-Wallpaper.jpg"),
           },
           {
@@ -583,7 +583,7 @@ const questions6El = [
           },
           {
             id: "3",
-            country: "Halong Bay\nVietnam",
+            country: "Κόλπος του Χα Λονγκ\nΒιετνάμ",
             img: require("../../../assets/NaturalMnt/Asia/halongbay-0.png"),
           },
         ],

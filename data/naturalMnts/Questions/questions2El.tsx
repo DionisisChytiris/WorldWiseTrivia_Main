@@ -421,7 +421,7 @@ const questions2El = [
     options: [
       {
         id: "0",
-        capital: "Dettifoss Waterfall",
+        capital: "Καταρράκτης Ντέτιφος",
         country: "Ισλανδία",
       },
       {
@@ -431,12 +431,12 @@ const questions2El = [
       },
       {
         id: "2",
-        capital: "Lake Bled",
+        capital: "Λίμνη Μπλεντ",
         country: "Σλοβενία",
       },
       {
         id: "3",
-        capital: "Mount Elbrus",
+        capital: "Όρος Ελμπρούς",
         country: "Ρωσία",
       },
     ],
@@ -450,7 +450,7 @@ const questions2El = [
     options: [
       {
         id: "0",
-        country: "Dettifoss Waterfall\nΙσλανδία",
+        country: "Καταρράκτης Ντέτιφος\nΙσλανδία",
         img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
       },
       {
@@ -460,12 +460,12 @@ const questions2El = [
       },
       {
         id: "2",
-        country: "Lake Bled\nΣλοβενία",
+        country: "Λίμνη Μπλεντ\nΣλοβενία",
         img: require("../../../assets/NaturalMnt/Europe/lake-bled.webp"),
       },
       {
         id: "3",
-        country: "Mount Elbrus\nΡωσία",
+        country: "Όρος Ελμπρούς\nΡωσία",
         img: require("../../../assets/NaturalMnt/Europe/mount-elbrus.webp"),
       },
     ],
@@ -480,12 +480,12 @@ const questions2El = [
     options: [
       {
         id: "0",
-        capital: "Moraine Lake",
+        capital: "Λίμνη Μορέιν",
         country: "Καναδάς",
       },
       {
         id: "1",
-        capital: "Niagara Falls",
+        capital: "Καταρράκτες του Νιαγάρα",
         country: "ΗΠΑ/Καναδάς",
       },
       {
@@ -509,12 +509,12 @@ const questions2El = [
     options: [
       {
         id: "0",
-        country: "Moraine Lake\nΚαναδάς",
+        country: "Λίμνη Μορέιν\nΚαναδάς",
         img: require("../../../assets/NaturalMnt/America/Moraine-Lake.webp"),
       },
       {
         id: "1",
-        country: "Niagara Falls\nΚαναδάς/ΗΠΑ",
+        country: "Καταρράκτες του Νιαγάρα\nΚαναδάς/ΗΠΑ",
         img: require("../../../assets/NaturalMnt/America/NiagaraFalls.webp"),
       },
       {
@@ -524,7 +524,7 @@ const questions2El = [
       },
       {
         id: "3",
-        country: "Εθνικό Πάρκο Κακαντού\nAustralia",
+        country: "Εθνικό Πάρκο Κακαντού\nΑυστραλία",
         img: require("../../../assets/NaturalMnt/Oceania/kakadu.webp"),
       },
     ],
@@ -544,17 +544,17 @@ const questions2El = [
       },
       {
         id: "1",
-        capital: "Okavango Delta",
-        country: "Botswana",
+        capital: "Δέλτα Οκαβάνγκο",
+        country: "Μποτσουάνα",
       },
       {
         id: "2",
-        capital: "Kalandula Falls",
-        country: "Angola",
+        capital: "Καταρράκτες Καλαντούλα",
+        country: "Ανγκόλα",
       },
       {
         id: "3",
-        capital: "The Great Ocean Road",
+        capital: "Ο Δρόμος του Μεγάλου Ωκεανού",
         country: "Αυστραλία",
       },
     ],
@@ -563,7 +563,7 @@ const questions2El = [
   {
     id: "10b",
     status: "Flags",
-    country: "The Great Ocean Road",
+    country: "Ο Δρόμος του Μεγάλου Ωκεανού",
     capital: "Αυστραλία",
     options: [
       {
@@ -573,17 +573,17 @@ const questions2El = [
       },
       {
         id: "1",
-        country: "Okavango Delta\nBotswana",
+        country: "Δέλτα Οκαβάνγκο\nΜποτσουάνα",
         img: require("../../../assets/NaturalMnt/Africa/Botswana_Okavango_Delta.webp"),
       },
       {
         id: "2",
-        country: "Kalandula Falls\nAngola",
+        country: "Καταρράκτες Καλαντούλα\nΑνγκόλα",
         img: require("../../../assets/NaturalMnt/Africa/kalandula-falls-angola.webp"),
       },
       {
         id: "3",
-        country: "The Great Ocean Road\nΑυστραλία",
+        country: "Ο Δρόμος του Μεγάλου Ωκεανού\nΑυστραλία",
         img: require("../../../assets/NaturalMnt/Oceania/oceanroad.webp"),
       },
     ],
