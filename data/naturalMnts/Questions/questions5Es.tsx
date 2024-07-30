@@ -3,27 +3,27 @@ const questions5Es = [
     id: "1a",
     status: "Capitals",
     img: 'L',
-    country: "Scotland",
+    country: "Escocia",
     image: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
     options: [
       {
         id: "0",
-        capital: 'Santorini Caldera',
-        country: 'Greece'
+        capital: 'Caldera Santorini',
+        country: 'Grecia'
       },
       {
         id: "1",
-        capital: 'Isle of Skye',
-        country: 'Scotland'
+        capital: 'Isla de Skye',
+        country: 'Escocia'
       },
       {
         id: "2",
-        capital: 'Underwater Waterfalls',
+        capital: 'Cascadas submarinas',
         country: 'Mauritius'
       },
       {
         id: "3",
-        capital: 'The Twelve Apostles',
+        capital: 'Los Doce Apóstoles',
         country: 'Australia'
       },
     ],
@@ -32,27 +32,27 @@ const questions5Es = [
     {
         id: "1b",
         status: "Flags",
-        country: "Isle of Skye",
-        capital: "Scotland",
+        country: "Isla de Skye",
+        capital: "Escocia",
         options: [
           {
             id: "0",
-            country: "Santorini Caldera\nGreece",
+            country: "Caldera Santorini\nGrecia",
             img: require("../../../assets/NaturalMnt/Europe/Santorini-Caldera.jpg"),
           },
           {
             id: "1",
-            country: "Isle of Skye\nScotland",
+            country: "Isla de Skye\nEscocia",
             img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
           },
           {
             id: "2",
-            country: "Underwater Waterfalls\nMauritius",
+            country: "Cascadas submarinas\nMauritius",
             img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
           },
           {
             id: "3",
-            country: "The Twelve Apostles\nAustralia",
+            country: "Los Doce Apóstoles\nAustralia",
             img: require("../../../assets/NaturalMnt/Oceania/12-apostels.webp"),
           },
         ],
@@ -67,23 +67,23 @@ const questions5Es = [
         options: [
           {
             id: "0",
-            capital: 'Mount Kenya',
-            country: 'Kenya'
+            capital: 'Monte Kenia',
+            country: 'Kenia'
           },
           {
             id: "1",
-            capital: 'Angel Falls',
+            capital: 'Salto ÁNGEL',
             country: 'Venezuela'
           },
           {
             id: "2",
-            capital: 'Kalandula Falls',
+            capital: 'Cataratas de Kalandula',
             country: 'Angola'
           },
           {
             id: "3",
             capital: 'Kauai',
-            country: 'Hawaii'
+            country: 'Hawai'
           },
         ],
         correctAnswerIndex: 2,
@@ -91,27 +91,27 @@ const questions5Es = [
       {
         id: "2b",
         status: "Flags",
-        country: "Kalandula Falls",
+        country: "Cataratas de Kalandula",
         capital: "Angola",
         options: [
           {
             id: "0",
-            country: "Mount Kenya\nKenya",
+            country: "Monte Kenia\nKenia",
             img: require("../../../assets/NaturalMnt/Africa/mountKenya.webp"),
           },
           {
             id: "1",
-            country: "Angels Falls\nVenezuela",
+            country: "Salto Ángel\nVenezuela",
             img: require("../../../assets/NaturalMnt/America/Angel-Falls.webp"),
           },
           {
             id: "2",
-            country: "Kalandula Falls\nAngola",
+            country: "Cataratas de Kalandula\nAngola",
             img: require("../../../assets/NaturalMnt/Africa/kalandula-falls-angola.webp"),
           },
           {
             id: "3",
-            country: "Kauai\nHawaii",
+            country: "Kauai\nHawai",
             img: require("../../../assets/NaturalMnt/America/KauaiUSA.webp"),
           },
         ],
@@ -121,28 +121,28 @@ const questions5Es = [
         id: "3a",
         status: "Capitals",
         img: 'L',
-        country: "USA",
+        country: "EE.UU.",
         image: require("../../../assets/NaturalMnt/America/Bryce-Canyon.webp"),
         options: [
           {
             id: "0",
-            capital: 'Lake Bled',
-            country: 'Slovenia'
+            capital: 'Lago Bled',
+            country: 'Eslovenia'
           },
           {
             id: "1",
-            capital: 'Skaftafell Ice Cave',
-            country: 'Iceland'
+            capital: 'Skaftafell',
+            country: 'Islandia'
           },
           {
             id: "2",
             capital: 'Trolltunga',
-            country: 'Norway'
+            country: 'Noruega'
           },
           {
             id: "3",
-            capital: 'Bryce Canyon National Park',
-            country: 'USA'
+            capital: 'Parque nacional del Cañón Bryce',
+            country: 'EE.UU.'
           },
         ],
         correctAnswerIndex: 3,
@@ -150,27 +150,27 @@ const questions5Es = [
       {
         id: "3b",
         status: "Flags",
-        country: "Bryce Canyon National Park",
-        capital: "USA",
+        country: "Parque nacional del Cañón Bryce",
+        capital: "EE.UU.",
         options: [
           {
             id: "0",
-            country: "Lake Bled\nSlovenia",
+            country: "Lago Bled\nEslovenia",
             img: require("../../../assets/NaturalMnt/Europe/lake-bled.webp"),
           },
           {
             id: "1",
-            country: "Skaftafell Ice Crave\nIceland",
+            country: "Skaftafell\nIslandia",
             img: require("../../../assets/NaturalMnt/Europe/skaftafell.webp"),
           },
           {
             id: "2",
-            country: "Trolltunga\nNorway",
+            country: "Trolltunga\nNoruega",
             img: require("../../../assets/NaturalMnt/Europe/Trolltunga.webp"),
           },
           {
             id: "3",
-            country: "Bryce Canyon National Park\nUSA",
+            country: "Parque nacional del Cañón Bryce\nEE.UU",
             img: require("../../../assets/NaturalMnt/America/Bryce-Canyon.webp"),
           },
         ],
@@ -180,28 +180,28 @@ const questions5Es = [
         id: "4a",
         status: "Capitals",
         img: 'L',
-        country: "Norway",
+        country: "Noruega",
         image: require("../../../assets/NaturalMnt/Europe/pulpitRock.webp"),
         options: [
           {
             id: "0",
-            capital: 'Crooked Forest',
-            country: 'Poland'
+            capital: 'Bosque Torcido',
+            country: 'Polonia'
           },
           {
             id: "1",
-            capital: 'Dettifoss Waterfall',
-            country: 'Iceland'
+            capital: 'Cascada de Dettifoss',
+            country: 'Islandia'
           },
           {
             id: "2",
-            capital: 'Pulpit Rock',
-            country: 'Norway'
+            capital: 'Roca del Púlpito',
+            country: 'Noruega'
           },
           {
             id: "3",
-            capital: 'Victoria Falls',
-            country: 'Zimbabwe/Zambia'
+            capital: 'Cataratas Victoria',
+            country: 'Zimbabue/Zambia'
           },
         ],
         correctAnswerIndex: 2,
@@ -209,27 +209,27 @@ const questions5Es = [
       {
         id: "4b",
         status: "Flags",
-        country: "Pulpit Rock",
-        capital: "Norway",
+        country: "Roca del Púlpito",
+        capital: "Noruega",
         options: [
           {
             id: "0",
-            country: "Crooked Forest\nPoland",
+            country: "Bosque Torcido\nPolonia",
             img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
           },
           {
             id: "1",
-            country: "Dettifoss Waterfall\nIceland",
+            country: "Cascada de Dettifoss\nIslandia",
             img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
           },
           {
             id: "2",
-            country: "Pulpit Rock\nNorway",
+            country: "Roca del Púlpito\nNoruega",
             img: require("../../../assets/NaturalMnt/Europe/pulpitRock.webp"),
           },
           {
             id: "3",
-            country: "Victoria Falls\nZimbabwe/Zambia",
+            country: "Cataratas Victoria\nZimbabue/Zambia",
             img: require("../../../assets/NaturalMnt/Africa/Victoria-Falls.webp"),
           },
         ],
@@ -239,28 +239,28 @@ const questions5Es = [
         id: "5a",
         status: "Capitals",
         img: 'L',
-        country: "Hawaii",
+        country: "Hawai",
         image: require("../../../assets/NaturalMnt/America/KauaiUSA.webp"),
         options: [
           {
             id: "0",
-            capital: 'Lake Titicaca',
-            country: 'Bolivia/Peru'
+            capital: 'Lago Titicaca',
+            country: 'Bolivia/Perú'
           },
           {
             id: "1",
             capital: 'Kauai',
-            country: 'Hawaii'
+            country: 'Hawai'
           },
           {
             id: "2",
-            capital: 'Mitten Buttes',
-            country: 'USA'
+            capital: 'Mesetas Mitten',
+            country: 'EE.UU.'
           },
           {
             id: "3",
-            capital: 'Moraine Lake',
-            country: 'Canada'
+            capital: 'Lago Moraine',
+            country: 'Canadá'
           },
         ],
         correctAnswerIndex: 1,
@@ -269,26 +269,26 @@ const questions5Es = [
         id: "5b",
         status: "Flags",
         country: "Kauai",
-        capital: "Hawaii",
+        capital: "Hawai",
         options: [
           {
             id: "0",
-            country: "Lake Titicaca\nBolivia/Peru",
+            country: "Lago Titicaca\nBolivia/Perú",
             img: require("../../../assets/NaturalMnt/America/lakeTiticaca.webp"),
           },
           {
             id: "1",
-            country: "Kauai\nHawaii",
+            country: "Kauai\nHawai",
             img: require("../../../assets/NaturalMnt/America/KauaiUSA.webp"),
           },
           {
             id: "2",
-            country: "Mitten Buttes\nUSA",
+            country: "Mesetas Mitten\nEE.UU.",
             img: require("../../../assets/NaturalMnt/America/mitten-butte.webp"),
           },
           {
             id: "3",
-            country: "Moraine Lake\nCanada",
+            country: "Lago Moraine\nCanadá",
             img: require("../../../assets/NaturalMnt/America/Moraine-Lake.webp"),
           },
         ],
@@ -298,17 +298,17 @@ const questions5Es = [
         id: "6a",
         status: "Capitals",
         img: 'L',
-        country: "USA",
+        country: "EE.UU.",
         image: require("../../../assets/NaturalMnt/America/GreatSandDunesPark.webp"),
         options: [
           {
             id: "0",
-            capital: 'Great Sand Dunes National Park',
-            country: 'USA'
+            capital: 'Parque Nacional de las Grandes Dunas de Arena',
+            country: 'EE.UU.'
           },
           {
             id: "1",
-            capital: 'Gobi Desert',
+            capital: 'Desierto de gobi',
             country: 'China/Mongolia'
           },
           {
@@ -318,8 +318,8 @@ const questions5Es = [
           },
           {
             id: "3",
-            capital: 'Cappadocia',
-            country: 'Turkey'
+            capital: 'Capadocia',
+            country: 'Turquía'
           },
         ],
         correctAnswerIndex: 0,
@@ -327,17 +327,17 @@ const questions5Es = [
       {
         id: "6b",
         status: "Flags",
-        country: "Great Sand Dunes National Park",
-        capital: "USA",
+        country: "Parque Nacional de las Grandes Dunas de Arena",
+        capital: "EE.UU.",
         options: [
           {
             id: "0",
-            country: "Great Sand Dunes National Park\nUSA",
+            country: "Parque Nacional de las Grandes Dunas de Arena\nEE.UU",
             img: require("../../../assets/NaturalMnt/America/GreatSandDunesPark.webp"),
           },
           {
             id: "1",
-            country: "Gobi Desert\nChina/Mongolia",
+            country: "Desierto de gobi\nChina/Mongolia",
             img: require("../../../assets/NaturalMnt/Asia/Winter-GobiDesert.webp"),
           },
           {
@@ -347,7 +347,7 @@ const questions5Es = [
           },
           {
             id: "3",
-            country: "Cappadocia\nTurkey",
+            country: "Capadocia\nTurquía",
             img: require("../../../assets/NaturalMnt/Asia/Cappadocia.png"),
           },
         ],
@@ -362,23 +362,23 @@ const questions5Es = [
         options: [
           {
             id: "0",
-            capital: 'Mount Fuji',
-            country: 'Japan'
+            capital: 'Monte Fuji',
+            country: 'Japón'
           },
           {
             id: "1",
-            capital: 'Huanglong Scenic Area',
+            capital: 'Área escénica de Huanglong',
             country: 'China'
           },
           {
             id: "2",
-            capital: 'Mount Kinabalu',
-            country: 'Malaysia'
+            capital: 'Monte Kinabalu',
+            country: 'Malasia'
           },
           {
             id: "3",
-            capital: 'Mount Otemanu',
-            country: 'French Polynesia'
+            capital: 'Monte Otemanu',
+            country: 'Polinesia Francesa'
           },
         ],
         correctAnswerIndex: 1,
@@ -386,27 +386,27 @@ const questions5Es = [
       {
         id: "7b",
         status: "Flags",
-        country: "Huanglong Scenic Area",
+        country: "Área escénica de Huanglong",
         capital: "China",
         options: [
           {
             id: "0",
-            country: "Mount Fuji\nJapan",
+            country: "Monte Fuji\nJapón",
             img: require("../../../assets/NaturalMnt/Asia/mount_fuji.webp"),
           },
           {
             id: "1",
-            country: "Huanglong Scenic Area\nChina",
+            country: "Área escénica de Huanglong\nChina",
             img: require("../../../assets/NaturalMnt/Asia/huanglongScenicArea.webp"),
           },
           {
             id: "2",
-            country: "Mount Kinabalu\nMalaysia",
+            country: "Monte Kinabalu\nMalasia",
             img: require("../../../assets/NaturalMnt/Asia/MountKinabalu.webp"),
           },
           {
             id: "3",
-            country: "Mount Otemanu\nFrench Polynesia",
+            country: "Monte Otemanu\nPolinesia Francesa",
             img: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
           },
         ],
@@ -416,28 +416,28 @@ const questions5Es = [
         id: "8a",
         status: "Capitals",
         img: 'L',
-        country: "Turkey",
+        country: "Turquía",
         image: require("../../../assets/NaturalMnt/Asia/mountArarat.webp"),
         options: [
           {
             id: "0",
-            capital: 'Mount Bromo',
+            capital: 'Monte Bromo',
             country: 'Indonesia'
           },
           {
             id: "1",
-            capital: 'Underwater Waterfalls',
+            capital: 'Cascadas submarinas',
             country: 'Mauritius'
           },
           {
             id: "2",
-            capital: 'Mount Vesuvius',
-            country: 'Italy'
+            capital: 'Monte Vesubio',
+            country: 'Italia'
           },
           {
             id: "3",
-            capital: 'Mount Ararat',
-            country: 'Turkey'
+            capital: 'Monte Ararat',
+            country: 'Turquía'
           },
         ],
         correctAnswerIndex: 3,
@@ -445,27 +445,27 @@ const questions5Es = [
       {
         id: "8b",
         status: "Flags",
-        country: "Mount Ararat",
-        capital: "Turkey",
+        country: "Monte Ararat",
+        capital: "Turquía",
         options: [
           {
             id: "0",
-            country: "Mount Bromo\nIndonesia",
+            country: "Monte Bromo\nIndonesia",
             img: require("../../../assets/NaturalMnt/Asia/mountBromo.png"),
           },
           {
             id: "1",
-            country: "Underwater Waterfalls\nMauritius",
+            country: "Cascadas submarinas\nMauritius",
             img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
           },
           {
             id: "2",
-            country: "Vesuvius\nItaly",
+            country: "Monte Vesubio\nItalia",
             img: require("../../../assets/NaturalMnt/Europe/mount-vesuvius.webp"),
           },
           {
             id: "3",
-            country: "Mount Ararat\nTurkey",
+            country: "Monte Ararat\nTurquía",
             img: require("../../../assets/NaturalMnt/Asia/mountArarat.webp"),
           },
         ],
@@ -480,22 +480,22 @@ const questions5Es = [
         options: [
           {
             id: "0",
-            capital: 'Mount Yasur',
+            capital: 'Monte Yasur',
             country: 'Vanuatu'
           },
           {
             id: "1",
-            capital: 'The Great Ocean Road',
+            capital: 'La Gran Carretera Oceánica',
             country: 'Australia'
           },
           {
             id: "2",
-            capital: 'Lake Hillier',
+            capital: 'Lago Hillier',
             country: 'Australia'
           },
           {
             id: "3",
-            capital: 'Great Barrier Reef',
+            capital: 'Gran Barrera de Coral',
             country: 'Australia'
           },
         ],
@@ -504,27 +504,27 @@ const questions5Es = [
       {
         id: "9b",
         status: "Flags",
-        country: "Mount Yasur",
+        country: "Monte Yasur",
         capital: "Vanuatu",
         options: [
           {
             id: "0",
-            country: "Mount Yasur\nVanuatu",
+            country: "Monte Yasur\nVanuatu",
             img: require("../../../assets/NaturalMnt/Oceania/yasur_mount.webp"),
           },
           {
             id: "1",
-            country: "The Great Ocean Road\nAustralia",
+            country: "La Gran Carretera Oceánica\nAustralia",
             img: require("../../../assets/NaturalMnt/Oceania/TheGreatOceanRoad.webp"),
           },
           {
             id: "2",
-            country: "Lake Hillier\nAustralia",
+            country: "Lago Hillier\nAustralia",
             img: require("../../../assets/NaturalMnt/Oceania/lakehillier.webp"),
           },
           {
             id: "3",
-            country: "Great Barrier Reef\nAustralia",
+            country: "Gran Barrera de Coral\nAustralia",
             img: require("../../../assets/NaturalMnt/Oceania/greatBarrierReef.webp"),
           },
         ],
@@ -534,27 +534,27 @@ const questions5Es = [
         id: "10a",
         status: "Capitals",
         img: 'L',
-        country: "Greece",
+        country: "Grecia",
         image: require("../../../assets/NaturalMnt/Europe/Santorini-Caldera.jpg"),
         options: [
           {
             id: "0",
-            capital: 'Danakil Depression',
-            country: 'Ethiopia'
+            capital: 'Depresión de Danakil',
+            country: 'Etiopía'
           },
           {
             id: "1",
-            capital: 'Cape of Good Hope',
-            country: 'South Africa'
+            capital: 'Cabo de Buena Esperanza',
+            country: 'Sudáfrica'
           },
           {
             id: "2",
-            capital: 'Santorini Caldera',
-            country: 'Greece'
+            capital: 'Caldera Santorini',
+            country: 'Grecia'
           },
           {
             id: "3",
-            capital: 'Marble Caves',
+            capital: 'Cuevas de mármol',
             country: 'Chile'
           },
         ],
@@ -563,27 +563,27 @@ const questions5Es = [
       {
         id: "10b",
         status: "Flags",
-        country: "Santorini Caldera",
-        capital: "Greece",
+        country: "Caldera Santorini",
+        capital: "Grecia",
         options: [
           {
             id: "0",
-            country: "Danakil Depression\nEthiopia",
+            country: "Depresión de Danakil\nEtiopía",
             img: require("../../../assets/NaturalMnt/Africa/The Danakil DepressionEthiopia.webp"),
           },
           {
             id: "1",
-            country: "Cape of Good Hope\nSouth Africa",
+            country: "Cabo de Buena Esperanza\nSudáfrica",
             img: require("../../../assets/NaturalMnt/Africa/CapeofGoodHope.webp"),
           },
           {
             id: "2",
-            country: "Santorini Caldera\nGreece",
+            country: "Caldera Santorini\nGrecia",
             img: require("../../../assets/NaturalMnt/Europe/Santorini-Caldera.jpg"),
           },
           {
             id: "3",
-            country: "Marble Caves\nChile",
+            country: "Cuevas de mármol\nChile",
             img: require("../../../assets/NaturalMnt/America/marble-caves-chile.png"),
           },
         ],

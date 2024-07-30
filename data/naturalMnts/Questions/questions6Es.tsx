@@ -3,28 +3,28 @@ const questions6Es = [
     id: "1a",
     status: "Capitals",
     img: 'L',
-    country: "Iceland",
+    country: "Islandia",
     image: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
     options: [
       {
         id: "0",
-        capital: 'Charyn Canyon',
-        country: 'Kazakhstan'
+        capital: 'Cañón de Charyn',
+        country: 'Kazajstán'
       },
       {
         id: "1",
-        capital: 'Mount Huang',
+        capital: 'Monte Huang',
         country: 'China'
       },
       {
         id: "2",
-        capital: 'Dettifoss Waterfall',
-        country: 'Iceland'
+        capital: 'Cascada de Dettifoss',
+        country: 'Islandia'
       },
       {
         id: "3",
-        capital: 'Great Blue Hole',
-        country: 'Belize'
+        capital: 'Gran Agujero Azul',
+        country: 'Belice'
       },
     ],
     correctAnswerIndex: 2,
@@ -32,27 +32,27 @@ const questions6Es = [
     {
         id: "1b",
         status: "Flags",
-        country: "Dettifoss Waterfall",
-        capital: "Iceland",
+        country: "Cascada de Dettifoss",
+        capital: "Islandia",
         options: [
           {
             id: "0",
-            country: "Charyn Canyon\nKazakhstan",
+            country: "Cañón de Charyn\nKazajstán",
             img: require("../../../assets/NaturalMnt/Asia/charynCanyon.webp"),
           },
           {
             id: "1",
-            country: "Mount Huang\nChina",
+            country: "Monte Huang\nChina",
             img: require("../../../assets/NaturalMnt/Asia/mountHuangshan.webp"),
           },
           {
             id: "2",
-            country: "Dettifoss Waterfall\nIceland",
+            country: "Cascada de Dettifoss\nIslandia",
             img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
           },
           {
             id: "3",
-            country: "Great Blue Hole\nBelize",
+            country: "Gran Agujero Azul\nBelice",
             img: require("../../../assets/NaturalMnt/America/Great-Blue-Hole.webp"),
           },
         ],
@@ -62,28 +62,28 @@ const questions6Es = [
         id: "2a",
         status: "Capitals",
         img: 'L',
-        country: "Canada",
+        country: "Canadá",
         image: require("../../../assets/NaturalMnt/America/BanffNationalPark.webp"),
         options: [
           {
             id: "0",
-            capital: 'Bryce Canyon National Park',
-            country: 'USA'
+            capital: 'Parque nacional del Cañón Bryce',
+            country: 'EE.UU.'
           },
           {
             id: "1",
-            capital: 'Chapada Diamantina National Park',
-            country: 'Brazil'
+            capital: 'Parque Nacional del Chapada del Diamantina',
+            country: 'Brasil'
           },
           {
             id: "2",
-            capital: 'Blue Mountains',
+            capital: 'Montañas Azules',
             country: 'Australia'
           },
           {
             id: "3",
-            capital: 'Banff National Park',
-            country: 'Canada'
+            capital: 'Parque Nacional de Banff',
+            country: 'Canadá'
           },
         ],
         correctAnswerIndex: 3,
@@ -91,27 +91,27 @@ const questions6Es = [
       {
         id: "2b",
         status: "Flags",
-        country: "Banff National Park",
-        capital: "Canada",
+        country: "Parque Nacional de Banff",
+        capital: "Canadá",
         options: [
           {
             id: "0",
-            country: "Bryce Canyon National Park\nUSA",
+            country: "Parque nacional del Cañón Bryce\nEE.UU",
             img: require("../../../assets/NaturalMnt/America/Bryce-Canyon.webp"),
           },
           {
             id: "1",
-            country: "Chapada Diamantina National Park\nBrazil",
+            country: "Parque Nacional del Chapada del Diamantina\nBrasil",
             img: require("../../../assets/NaturalMnt/America/chadadaDiamantina.webp"),
           },
           {
             id: "2",
-            country: "Blue Mountains\nAustralia",
+            country: "Montañas Azules\nAustralia",
             img: require("../../../assets/NaturalMnt/Oceania/Australia-Blue-Mountains.webp"),
           },
           {
             id: "3",
-            country: "Banff National Park\nCanada",
+            country: "Parque Nacional de Banff\nCanadá",
             img: require("../../../assets/NaturalMnt/America/BanffNationalPark.webp"),
           },
         ],
@@ -121,27 +121,27 @@ const questions6Es = [
         id: "3a",
         status: "Capitals",
         img: 'L',
-        country: "USA",
+        country: "EE.UU.",
         image: require("../../../assets/NaturalMnt/America/devils-tower.webp"),
         options: [
           {
             id: "0",
-            capital: 'Ayers Rock',
+            capital: 'Uluru',
             country: 'Australia'
           },
           {
             id: "1",
-            capital: 'Devils Tower',
-            country: 'USA'
+            capital: 'Torre del Diablo',
+            country: 'EE.UU.'
           },
           {
             id: "2",
             capital: 'Wadi Rum',
-            country: 'Jordan'
+            country: 'Jordania'
           },
           {
             id: "3",
-            capital: 'Gobi Desert',
+            capital: 'Desierto de gobi',
             country: 'China/Mongolia'
           },
         ],
@@ -150,27 +150,27 @@ const questions6Es = [
       {
         id: "3b",
         status: "Flags",
-        country: "Devils Tower",
-        capital: "USA",
+        country: "Torre del Diablo",
+        capital: "EE.UU.",
         options: [
           {
             id: "0",
-            country: "Ayers Rock\nAustralia",
+            country: "Uluru\nAustralia",
             img: require("../../../assets/NaturalMnt/Oceania/Ayers-Rock.webp"),
           },
           {
             id: "1",
-            country: "Devils Tower\nUSA",
+            country: "Torre del Diablo\nEE.UU.",
             img: require("../../../assets/NaturalMnt/America/devils-tower.webp"),
           },
           {
             id: "2",
-            country: "Wadi Rum\nJordan",
+            country: "Wadi Rum\nJordania",
             img: require("../../../assets/NaturalMnt/Asia/wadi-rum.webp"),
           },
           {
             id: "3",
-            country: "Gobi Desert\nChina/Mongolia",
+            country: "Desierto de gobi\nChina/Mongolia",
             img: require("../../../assets/NaturalMnt/Asia/Winter-GobiDesert.webp"),
           },
         ],
@@ -180,28 +180,28 @@ const questions6Es = [
         id: "4a",
         status: "Capitals",
         img: 'L',
-        country: "Egypt",
+        country: "Egipto",
         image: require("../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp"),
         options: [
           {
             id: "0",
-            capital: 'Kaladula Falls',
+            capital: 'Cataratas de Kaladula',
             country: 'Angola'
           },
           {
             id: "1",
-            capital: 'Mount Kilimanjaro',
+            capital: 'Monte Kilimanjaro',
             country: 'Tanzania'
           },
           {
             id: "2",
-            capital: 'White Desert National Park',
-            country: 'Egypt'
+            capital: 'Parque Nacional del Desierto Blanco',
+            country: 'Egipto'
           },
           {
             id: "3",
-            capital: 'Mount Sinai',
-            country: 'Egypt'
+            capital: 'Monte Sinaí',
+            country: 'Egipto'
           },
         ],
         correctAnswerIndex: 2,
@@ -209,27 +209,27 @@ const questions6Es = [
       {
         id: "4b",
         status: "Flags",
-        country: "White Desert National Park",
-        capital: "Egypt",
+        country: "Parque Nacional del Desierto Blanco",
+        capital: "Egipto",
         options: [
           {
             id: "0",
-            country: "Kalandula Falls\nAngola",
+            country: "Cataratas de Kalandula\nAngola",
             img: require("../../../assets/NaturalMnt/Africa/kalandula-falls-angola.webp"),
           },
           {
             id: "1",
-            country: "Mount Kilimanjaro\nTanzania",
+            country: "Monte Kilimanjaro\nTanzania",
             img: require("../../../assets/NaturalMnt/Africa/Kilimanjaro.webp"),
           },
           {
             id: "2",
-            country: "White Desert National Park\nEgypt",
+            country: "Parque Nacional del Desierto Blanco\nEgipto",
             img: require("../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp"),
           },
           {
             id: "3",
-            country: "Mount Sinai\nEgypt",
+            country: "Monte Sinaí\nEgipto",
             img: require("../../../assets/NaturalMnt/Africa/mountSinai.webp"),
           },
         ],
@@ -239,28 +239,28 @@ const questions6Es = [
         id: "5a",
         status: "Capitals",
         img: 'L',
-        country: "Russia",
+        country: "Rusia",
         image: require("../../../assets/NaturalMnt/Europe/mount-elbrus.webp"),
         options: [
           {
             id: "0",
-            capital: 'Mount Elbrus',
-            country: 'Russia'
+            capital: 'Monte Elbrus',
+            country: 'Rusia'
           },
           {
             id: "1",
-            capital: 'Mount Teide',
-            country: 'Spain'
+            capital: 'Monte Teide',
+            country: 'España'
           },
           {
             id: "2",
-            capital: 'Mount Otemanu',
-            country: 'French Polynesia'
+            capital: 'Monte Otemanu',
+            country: 'Polinesia Francesa'
           },
           {
             id: "3",
-            capital: 'Santorini Caldera',
-            country: 'Greece'
+            capital: 'Caldera Santorini',
+            country: 'Grecia'
           },
         ],
         correctAnswerIndex: 0,
@@ -268,27 +268,27 @@ const questions6Es = [
       {
         id: "5b",
         status: "Flags",
-        country: "Mount Elbrus",
-        capital: "Russia",
+        country: "Monte Elbrus",
+        capital: "Rusia",
         options: [
           {
             id: "0",
-            country: "Mount Elbrus\nRussia",
+            country: "Monte Elbrus\nRusia",
             img: require("../../../assets/NaturalMnt/Europe/mount-elbrus.webp"),
           },
           {
             id: "1",
-            country: "Mount Teide\nSpain",
+            country: "Monte Teide\nEspaña",
             img: require("../../../assets/NaturalMnt/Europe/mountTeide.webp"),
           },
           {
             id: "2",
-            country: "Mount Otemanu\nFrench Polynesia",
+            country: "Monte Otemanu\nPolinesia Francesa",
             img: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
           },
           {
             id: "3",
-            country: "Santorini Caldera\nGreece",
+            country: "Caldera Santorini\nGrecia",
             img: require("../../../assets/NaturalMnt/Europe/Santorini-Caldera.jpg"),
           },
         ],
@@ -298,28 +298,28 @@ const questions6Es = [
         id: "6a",
         status: "Capitals",
         img: 'L',
-        country: "Spain",
+        country: "España",
         image: require("../../../assets/NaturalMnt/Europe/PicosdeEuropa.webp"),
         options: [
           {
             id: "0",
-            capital: 'Pulpit Rock',
-            country: 'Norway'
+            capital: 'Roca del Púlpito',
+            country: 'Noruega'
           },
           {
             id: "1",
-            capital: 'Fiordland National Park',
-            country: 'New Zealand'
+            capital: 'Parque Nacional de Fiordland',
+            country: 'Nueva Zelanda'
           },
           {
             id: "2",
-            capital: 'Plitvice Lakes',
-            country: 'Croatia'
+            capital: 'Lagos de Plitvice',
+            country: 'Croacia'
           },
           {
             id: "3",
             capital: 'Picos de Europa',
-            country: 'Northern Spain'
+            country: 'España'
           },
         ],
         correctAnswerIndex: 3,
@@ -328,26 +328,26 @@ const questions6Es = [
         id: "6b",
         status: "Flags",
         country: "Picos de Europa",
-        capital: "Northern Spain",
+        capital: "España",
         options: [
           {
             id: "0",
-            country: "Pulpit Rock\nNorway",
+            country: "Roca del Púlpito\nNoruega",
             img: require("../../../assets/NaturalMnt/Europe/pulpitRock.webp"),
           },
           {
             id: "1",
-            country: "Fiordland National Park\nNew Zealand",
+            country: "Parque Nacional de Fiordland\nNueva Zelanda",
             img: require("../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp"),
           },
           {
             id: "2",
-            country: "Plitvice Lakes\nCroatia",
+            country: "Lagos de Plitvice\nCroacia",
             img: require("../../../assets/NaturalMnt/Europe/Plitvice-lakes.webp"),
           },
           {
             id: "3",
-            country: "Picos de Europa\nNorthern Spain",
+            country: "Picos de Europa\nEspaña",
             img: require("../../../assets/NaturalMnt/Europe/PicosdeEuropa.webp"),
           },
         ],
@@ -362,23 +362,23 @@ const questions6Es = [
         options: [
           {
             id: "0",
-            capital: 'Table Mountain National Park',
-            country: 'South Africa'
+            capital: 'Parque Nacional de la Montaña de la Mesa',
+            country: 'Sudáfrica'
           },
           {
             id: "1",
-            capital: 'Swiss Alps',
-            country: 'Switzerland'
+            capital: 'Alpes suizos',
+            country: 'Suiza'
           },
           {
             id: "2",
-            capital: 'Mount Bromo',
+            capital: 'Monte Bromo',
             country: 'Indonesia'
           },
           {
             id: "3",
             capital: 'Trolltunga',
-            country: 'Norway'
+            country: 'Noruega'
           },
         ],
         correctAnswerIndex: 2,
@@ -386,27 +386,27 @@ const questions6Es = [
       {
         id: "7b",
         status: "Flags",
-        country: "Mount Bromo",
+        country: "Monte Bromo",
         capital: "Indonesia",
         options: [
           {
             id: "0",
-            country: "Swiss Alps\nSwitzerland",
+            country: "Alpes suizos\nSuiza",
             img: require("../../../assets/NaturalMnt/Europe/swissapls.jpg"),
           },
           {
             id: "1",
-            country: "Table Mountain National Park\nSouth Africa",
+            country: "Parque Nacional de la Montaña de la Mesa\nSudáfrica",
             img: require("../../../assets/NaturalMnt/Africa/table-mountain.webp"),
           },
           {
             id: "2",
-            country: "Mount Bromo\nIndonesia",
+            country: "Monte Bromo\nIndonesia",
             img: require("../../../assets/NaturalMnt/Asia/mountBromo.webp"),
           },
           {
             id: "3",
-            country: "Trolltunga\nNorway",
+            country: "Trolltunga\nNoruega",
             img: require("../../../assets/NaturalMnt/Europe/Trolltunga.webp"),
           },
         ],
@@ -416,27 +416,27 @@ const questions6Es = [
         id: "8a",
         status: "Capitals",
         img: 'L',
-        country: "New Zealand",
+        country: "Nueva Zelanda",
         image: require("../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp"),
         options: [
           {
             id: "0",
-            capital: 'Fiordland National Park',
-            country: 'New Zealand'
+            capital: 'Parque Nacional de Fiordland',
+            country: 'Nueva Zelanda'
           },
           {
             id: "1",
-            capital: 'Great Barrier Reef',
+            capital: 'Gran Barrera de Coral',
             country: 'Australia'
           },
           {
             id: "2",
-            capital: 'The Great Ocean Road',
+            capital: 'La Gran Carretera Oceánica',
             country: 'Australia'
           },
           {
             id: "3",
-            capital: 'Avenue of Baobabs',
+            capital: 'Avenidas de Baobabs',
             country: 'Madagascar'
           },
         ],
@@ -445,27 +445,27 @@ const questions6Es = [
       {
         id: "8b",
         status: "Flags",
-        country: "Fiordland National Park",
+        country: "Parque Nacional de Fiordland",
         capital: "Indonesia",
         options: [
           {
             id: "0",
-            country: "Fiordland National Park\nIndonesia",
+            country: "Parque Nacional de Fiordland\nIndonesia",
             img: require("../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp"),
           },
           {
             id: "1",
-            country: "Great Barrier Reef\nAustralia",
+            country: "Gran Barrera de Coral\nAustralia",
             img: require("../../../assets/NaturalMnt/Oceania/greatBarrierReef.webp"),
           },
           {
             id: "2",
-            country: "The Great Ocean Road\nAustralia",
+            country: "La Gran Carretera Oceánica\nAustralia",
             img: require("../../../assets/NaturalMnt/Oceania/TheGreatOceanRoad.webp"),
           },
           {
             id: "3",
-            country: "Avenue of Baobabs\nMadagascar",
+            country: "Avenidas de Baobabs\nMadagascar",
             img: require("../../../assets/NaturalMnt/Africa/avenueofboababs.webp"),
           },
         ],
@@ -475,28 +475,28 @@ const questions6Es = [
         id: "9a",
         status: "Capitals",
         img: 'L',
-        country: "New Zealand",
+        country: "Nueva Zelanda",
         image: require("../../../assets/NaturalMnt/Oceania/mountcook.webp"),
         options: [
           {
             id: "0",
-            capital: 'Crooked Forest',
-            country: 'Poland'
+            capital: 'Bosque Torcido',
+            country: 'Polonia'
           },
           {
             id: "1",
-            capital: 'Giant\'a Causeway',
-            country: 'Ireland'
+            capital: 'Calzada del Gigante',
+            country: 'Irlanda'
           },
           {
             id: "2",
-            capital: 'Isle of Skye',
-            country: 'Scotland'
+            capital: 'Isla de Skye',
+            country: 'Escocia'
           },
           {
             id: "3",
-            capital: 'Mount Cook',
-            country: 'New Zealand'
+            capital: 'Monte Cook',
+            country: 'Nueva Zelanda'
           },
         ],
         correctAnswerIndex: 3,
@@ -504,27 +504,27 @@ const questions6Es = [
       {
         id: "9b",
         status: "Flags",
-        country: "Mount Cook",
-        capital: "New Zealand",
+        country: "Monte Cook",
+        capital: "Nueva Zelanda",
         options: [
           {
             id: "0",
-            country: "Crooked Forest\nPoland",
+            country: "Bosque Torcido\nPolonia",
             img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
           },
           {
             id: "1",
-            country: "Giant\'a Causeway\nIreland",
+            country: "Calzada del Gigante\nIrlanda",
             img: require("../../../assets/NaturalMnt/Europe/GiantsCauseway.webp"),
           },
           {
             id: "2",
-            country: "Isle of Skye\nScotland",
+            country: "Isla de Skye\nEscocia",
             img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
           },
           {
             id: "3",
-            country: "Mount Cook\nNew Zealand",
+            country: "Monte Cook\nNueva Zelanda",
             img: require("../../../assets/NaturalMnt/Oceania/mountcook.webp"),
           },
         ],
@@ -534,27 +534,27 @@ const questions6Es = [
         id: "10a",
         status: "Capitals",
         img: 'L',
-        country: "Near Arctic/Antarctic",
+        country: "Zonas polares",
         image: require("../../../assets/NaturalMnt/Europe/Northern-Lights-Desktop-Wallpaper.jpg"),
         options: [
           {
             id: "0",
-            capital: 'Antelope Canyon',
-            country: 'USA'
+            capital: 'Cañón del Antílope',
+            country: 'EE.UU.'
           },
           {
             id: "1",
-            capital: 'Aurora',
-            country: 'Near Arctic/Antarctic'
+            capital: 'Aurora polar',
+            country: 'Zonas polares'
           },
           {
             id: "2",
             capital: 'Bora Bora',
-            country: 'French Polynesia'
+            country: 'Polinesia Francesa'
           },
           {
             id: "3",
-            capital: 'Halong Bay',
+            capital: 'Bahía de Halong',
             country: 'Vietnam'
           },
         ],
@@ -563,27 +563,27 @@ const questions6Es = [
       {
         id: "10b",
         status: "Flags",
-        country: "Aurora",
-        capital: "Near Arctic/Antarctic",
+        country: "Aurora polar",
+        capital: "Zonas polares",
         options: [
           {
             id: "0",
-            country: "Antelope Canyon\nUSA",
+            country: "Cañón del Antílope\nEE.UU.",
             img: require("../../../assets/NaturalMnt/America/Antelope-Canyon.webp"),
           },
           {
             id: "1",
-            country: "Aurora\nNear Arctic/Antarctic",
+            country: "Aurora polar\nZonas polares",
             img: require("../../../assets/NaturalMnt/Europe/Northern-Lights-Desktop-Wallpaper.jpg"),
           },
           {
             id: "2",
-            country: "Bora Bora\nFrench Polynesia",
+            country: "Bora Bora\nPolinesia Francesa",
             img: require("../../../assets/NaturalMnt/Asia/bora_bora.webp"),
           },
           {
             id: "3",
-            country: "Halong Bay\nVietnam",
+            country: "Bahía de Halong\nVietnam",
             img: require("../../../assets/NaturalMnt/Asia/halongbay-0.png"),
           },
         ],

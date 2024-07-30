@@ -3,28 +3,28 @@ const questions8Es = [
     id: "1a",
     status: "Capitals",
     img: 'L',
-    country: "French Polynesia",
+    country: "Polinesia Francesa",
     image: require("../../../assets/NaturalMnt/Asia/bora_bora.webp"),
     options: [
       {
         id: "0",
-        capital: 'Halong Bay',
+        capital: 'Bahía de Halong',
         country: 'Vietnam'
       },
       {
         id: "1",
-        capital: 'Huanglong Scenic Area',
+        capital: 'Área escénica de Huanglong',
         country: 'China'
       },
       {
         id: "2",
-        capital: 'Great Barrier Reef',
+        capital: 'Gran Barrera de Coral',
         country: 'Australia'
       },
       {
         id: "3",
         capital: 'Bora Bora',
-        country: 'French Polynesia'
+        country: 'Polinesia Francesa'
       },
     ],
     correctAnswerIndex: 3,
@@ -33,26 +33,26 @@ const questions8Es = [
       id: "1b",
       status: "Flags",
       country: "Bora Bora",
-      capital: "French Polynesia",
+      capital: "Polinesia Francesa",
       options: [
         {
           id: "0",
-          name: "Halong Bay\nVietnam",
+          name: "Bahía de Halong\nVietnam",
           img: require("../../../assets/NaturalMnt/Asia/halongbay-0.png"),
         },
         {
           id: "1",
-          name: "Great Barrier Reef\nAustralia",
+          name: "Gran Barrera de Coral\nAustralia",
           img: require("../../../assets/NaturalMnt/Oceania/greatBarrierReef.webp"),
         },
         {
           id: "2",
-          name: "Huanglong Scenic Area\nChina",
+          name: "Área escénica de Huanglong\nChina",
           img: require("../../../assets/NaturalMnt/Asia/huanglongScenicArea.webp"),
         },
         {
           id: "3",
-          name: "Bora Bora\nFrench Polynesia",
+          name: "Bora Bora\nPolinesia Francesa",
           img: require("../../../assets/NaturalMnt/Asia/bora_bora.webp"),
         },
       ],
@@ -62,27 +62,27 @@ const questions8Es = [
       id: "2a",
       status: "Capitals",
       img: 'L',
-      country: "Kazakhstan",
+      country: "Kazajstán",
       image: require("../../../assets/NaturalMnt/Asia/charynCanyon.webp"),
       options: [
         {
           id: "0",
-          capital: 'Antelope Canyon',
-          country: 'USA'
+          capital: 'Cañón del Antílope',
+          country: 'EE.UU.'
         },
         {
           id: "1",
-          capital: 'Charyn Canyon',
-          country: 'Kazakhstan'
+          capital: 'Cañón de Charyn',
+          country: 'Kazajstán'
         },
         {
           id: "2",
-          capital: 'Great Ocean Road',
+          capital: 'Gran Carretera Oceánica',
           country: 'Australia'
         },
         {
           id: "3",
-          capital: 'Ayers Rock',
+          capital: 'Uluru',
           country: 'Australia'
         },
       ],
@@ -91,27 +91,27 @@ const questions8Es = [
     {
       id: "2b",
       status: "Flags",
-      country: "Charyn Canyon",
-      capital: "Kazakhstan",
+      country: "Cañón de Charyn",
+      capital: "Kazajstán",
       options: [
         {
           id: "0",
-          name: "Antelope Canyon\nUSA",
+          name: "Cañón del Antílope\nEE.UU.",
           img: require("../../../assets/NaturalMnt/America/Antelope-Canyon.webp"),
         },
         {
           id: "1",
-          name: "Charyn Canyon\nKazakhstan",
+          name: "Cañón de Charyn\nKazajstán",
           img: require("../../../assets/NaturalMnt/Asia/charynCanyon.webp"),
         },
         {
           id: "2",
-          name: "Great Ocean Road\nAustralia",
+          name: "Gran Carretera Oceánica\nAustralia",
           img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.png"),
         },
         {
           id: "3",
-          name: "Ayers Rock\nAustralia",
+          name: "Uluru\nAustralia",
           img: require("../../../assets/NaturalMnt/Oceania/Ayers-Rock.webp"),
         },
       ],
@@ -126,22 +126,22 @@ const questions8Es = [
       options: [
         {
           id: "0",
-          capital: 'Mount Everest',
+          capital: 'Monte Everest',
           country: 'Nepal/China'
         },
         {
           id: "1",
-          capital: 'Pamukkale',
-          country: 'Turkey'
+          capital: 'Pamukale',
+          country: 'Turquía'
         },
         {
           id: "2",
-          capital: 'Jiuzhaigou Valley',
+          capital: 'Valle de Jiuzhaigou',
           country: 'China'
         },
         {
           id: "3",
-          capital: 'Mount Huang',
+          capital: 'Monte Huang',
           country: 'China'
         },
       ],
@@ -150,27 +150,27 @@ const questions8Es = [
     {
       id: "3b",
       status: "Flags",
-      country: "Jiuzhaigou Valley",
+      country: "Valle de Jiuzhaigou",
       capital: "China",
       options: [
         {
           id: "0",
-          name: "Mount Huang\nChina",
+          name: "Monte Huang\nChina",
           img: require("../../../assets/NaturalMnt/Asia/mountHuangshan.webp"),
         },
         {
           id: "1",
-          name: "Pamukkale\nTurkey",
+          name: "Pamukale\nTurquía",
           img: require("../../../assets/NaturalMnt/Asia/Pamukkale.webp"),
         },
         {
           id: "2",
-          name: "Jiuzhaigou Valley\nChina",
+          name: "Valle de Jiuzhaigou\nChina",
           img: require("../../../assets/NaturalMnt/Asia/Jiuzhaigou-Valley.webp"),
         },
         {
           id: "3",
-          name: "Mount Everest\nNepal/China",
+          name: "Monte Everest\nNepal/China",
           img: require("../../../assets/NaturalMnt/Asia/Mount-Everest.webp"),
         },
       ],
@@ -185,23 +185,23 @@ const questions8Es = [
       options: [
         {
           id: "0",
-          capital: 'Mount Huang',
+          capital: 'Monte Huang',
           country: 'China'
         },
         {
           id: "1",
-          capital: 'Mount Kinabalu',
-          country: 'Malaysia'
+          capital: 'Monte Kinabalu',
+          country: 'Malasia'
         },
         {
           id: "2",
-          capital: 'Arches National Park',
-          country: 'USA'
+          capital: 'Parque Nacional de los Arcos',
+          country: 'EE.UU.'
         },
         {
           id: "3",
-          capital: 'Cappadocia',
-          country: 'Turkey'
+          capital: 'Capadocia',
+          country: 'Turquía'
         },
       ],
       correctAnswerIndex: 0,
@@ -209,27 +209,27 @@ const questions8Es = [
     {
       id: "4b",
       status: "Flags",
-      country: "Mount Huang",
+      country: "Monte Huang",
       capital: "China",
       options: [
         {
           id: "0",
-          name: "Mount Huang\nChina",
+          name: "Monte Huang\nChina",
           img: require("../../../assets/NaturalMnt/Asia/mountHuangshan.webp"),
         },
         {
           id: "1",
-          name: "Mount Kinabalu\nMalaysia",
+          name: "Monte Kinabalu\nMalasia",
           img: require("../../../assets/NaturalMnt/Asia/MountKinabalu.webp"),
         },
         {
           id: "2",
-          name: "Arches National Park\nUSA",
+          name: "Parque Nacional de los Arcos\nEE.UU.",
           img: require("../../../assets/NaturalMnt/America/Arches-National-Park.webp"),
         },
         {
           id: "3",
-          name: "Cappadocia\nTurkey",
+          name: "Capadocia\nTurquía",
           img: require("../../../assets/NaturalMnt/Asia/Cappadocia-valley.webp"),
         },
       ],
@@ -239,27 +239,27 @@ const questions8Es = [
       id: "5a",
       status: "Capitals",
       img: 'L',
-      country: "French Polynesia",
+      country: "Polinesia Francesa",
       image: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
       options: [
         {
           id: "0",
-          capital: 'Crooked Forest',
-          country: 'Poland'
+          capital: 'Bosque Torcido',
+          country: 'Polonia'
         },
         {
           id: "1",
-          capital: 'Dead Sea',
-          country: 'Jordan/Israel/West Bank'
+          capital: 'Mar Muerto',
+          country: 'Jordania/Israel/Cisjordania'
         },
         {
           id: "2",
-          capital: 'Mount Otemanu',
-          country: 'French Polynesia'
+          capital: 'Monte Otemanu',
+          country: 'Polinesia Francesa'
         },
         {
           id: "3",
-          capital: 'Gobi Desert',
+          capital: 'Desierto de gobi',
           country: 'China/Mongolia'
         },
       ],
@@ -268,27 +268,27 @@ const questions8Es = [
     {
       id: "5b",
       status: "Flags",
-      country: "Mount Otemanu",
-      capital: "French Polynesia",
+      country: "Monte Otemanu",
+      capital: "Polinesia Francesa",
       options: [
         {
           id: "0",
-          name: "Crooked Forest\nPoland",
+          name: "Bosque Torcido\nPolonia",
           img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
         },
         {
           id: "1",
-          name: "Dead Sea\nJordan/Israel/West Bank",
+          name: "Mar Muerto\nJordania/Israel/Cisjordania",
           img: require("../../../assets/NaturalMnt/Asia/DeadSea.jpg"),
         },
         {
           id: "2",
-          name: "Mount Otemanu\nFrench Polynesia",
+          name: "Monte Otemanu\nPolinesia Francesa",
           img: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
         },
         {
           id: "3",
-          name: "Gobi Desert\nChina/Mongolia",
+          name: "Desierto de gobi\nChina/Mongolia",
           img: require("../../../assets/NaturalMnt/Asia/Winter-GobiDesert.webp"),
         },
       ],
@@ -298,28 +298,28 @@ const questions8Es = [
       id: "6a",
       status: "Capitals",
       img: 'L',
-      country: "Turkey",
+      country: "Turquía",
       image: require("../../../assets/NaturalMnt/Asia/Pamukkale.webp"),
       options: [
         {
           id: "0",
-          capital: 'Underwater Waterfalls',
+          capital: 'Cascadas submarinas',
           country: 'Mauritius'
         },
         {
           id: "1",
-          capital: 'Pamukkale',
-          country: 'Turkey'
+          capital: 'Pamukale',
+          country: 'Turquía'
         },
         {
           id: "2",
-          capital: 'Mount Vesuvius',
-          country: 'Italy'
+          capital: 'Monte Vesubio',
+          country: 'Italia'
         },
         {
           id: "3",
           capital: 'Meteora',
-          country: 'Greece'
+          country: 'Grecia'
         },
       ],
       correctAnswerIndex: 1,
@@ -327,27 +327,27 @@ const questions8Es = [
     {
       id: "6b",
       status: "Flags",
-      country: "Pamukkale",
-      capital: "Turkey",
+      country: "Pamukale",
+      capital: "Turquía",
       options: [
         {
           id: "0",
-          name: "Underwater Waterfalls\nMauritius",
+          name: "Cascadas submarinas\nMauritius",
           img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
         },
         {
           id: "1",
-          name: "Pamukkale\nTurkey",
+          name: "Pamukale\nTurquía",
           img: require("../../../assets/NaturalMnt/Asia/Pamukkale.webp"),
         },
         {
           id: "2",
-          name: "Mount Vesuvius\nItaly",
+          name: "Monte Vesubio\nItalia",
           img: require("../../../assets/NaturalMnt/Europe/mount-vesuvius.webp"),
         },
         {
           id: "3",
-          name: "Meteora\nGreece",
+          name: "Meteora\nGrecia",
           img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
         },
       ],
@@ -362,22 +362,22 @@ const questions8Es = [
       options: [
         {
           id: "0",
-          capital: 'Mount Etna',
-          country: 'Italy'
+          capital: 'Monte Etna',
+          country: 'Italia'
         },
         {
           id: "1",
-          capital: 'Kakadu National Park',
+          capital: 'Parque Nacional de Kakadu',
           country: 'Australia'
         },
         {
           id: "2",
-          capital: 'The Twelve Apostles',
+          capital: 'Los Doce Apóstoles',
           country: 'Australia'
         },
         {
           id: "3",
-          capital: 'Gobi Desert',
+          capital: 'Desierto de gobi',
           country: 'China/Mongolia'
         },
       ],
@@ -386,27 +386,27 @@ const questions8Es = [
     {
       id: "7b",
       status: "Flags",
-      country: "Gobi Desert",
+      country: "Desierto de gobi",
       capital: "China/Mongolia",
       options: [
         {
           id: "0",
-          name: "Mount Etna\nItaly",
+          name: "Monte Etna\nItalia",
           img: require("../../../assets//NaturalMnt/Europe/mountEtna.webp"),
         },
         {
           id: "1",
-          name: "Kakadu National Park\nAustralia",
+          name: "Parque Nacional de Kakadu\nAustralia",
           img: require("../../../assets/NaturalMnt/Oceania/Kakadu-National-Park.png"),
         },
         {
           id: "2",
-          name: "The Twelve Apostles\nAustralia",
+          name: "Los Doce Apóstoles\nAustralia",
           img: require("../../../assets/NaturalMnt/Oceania/12-apostels.webp"),
         },
         {
           id: "3",
-          name: "Gobi Desert\nChina/Mongolia",
+          name: "Desierto de gobi\nChina/Mongolia",
           img: require("../../../assets//NaturalMnt/Asia/Winter-GobiDesert.webp"),
         },
       ],
@@ -422,7 +422,7 @@ const questions8Es = [
         {
           id: "0",
           capital: 'Wadi Rum',
-          country: 'Jordan'
+          country: 'Jordania'
         },
         {
           id: "1",
@@ -431,13 +431,13 @@ const questions8Es = [
         },
         {
           id: "2",
-          capital: 'Mount Kenya',
-          country: 'Kenya'
+          capital: 'Monte Kenia',
+          country: 'Kenia'
         },
         {
           id: "3",
-          capital: 'Nile',
-          country: 'Egypt'
+          capital: 'Nilo',
+          country: 'Egipto'
         },
       ],
       correctAnswerIndex: 1,
@@ -450,7 +450,7 @@ const questions8Es = [
       options: [
         {
           id: "0",
-          name: "Wadi Rum\nJordan",
+          name: "Wadi Rum\nJordania",
           img: require("../../../assets/NaturalMnt/Asia/wadi-rum.webp"),
         },
         {
@@ -460,12 +460,12 @@ const questions8Es = [
         },
         {
           id: "2",
-          name: "Nile\nEgypt",
+          name: "Nilo\nEgipto",
           img: require("../../../assets/NaturalMnt/Africa/RiverNile.webp"),
         },
         {
           id: "3",
-          name: "Mount Kenya\nKenya",
+          name: "Monte Kenia\nKenia",
           img: require("../../../assets/NaturalMnt/Africa/mountKenya.webp"),
         },
       ],
@@ -475,23 +475,23 @@ const questions8Es = [
       id: "9a",
       status: "Capitals",
       img: 'L',
-      country: "USA",
+      country: "EE.UU.",
       image: require("../../../assets/NaturalMnt/America/mount rainier.webp"),
       options: [
         {
           id: "0",
-          capital: 'Niagara Falls',
-          country: 'USA/Canada'
+          capital: 'Cataratas del Niágara',
+          country: 'EE.UU./Canadá'
         },
         {
           id: "1",
-          capital: 'Rainbow Mountain',
-          country: 'Peru'
+          capital: 'Montaña Arco Iris (Vinicunca)',
+          country: 'Perú'
         },
         {
           id: "2",
-          capital: 'Mount Rainier',
-          country: 'USA'
+          capital: 'Monte Rainier',
+          country: 'EE.UU.'
         },
         {
           id: "3",
@@ -504,22 +504,22 @@ const questions8Es = [
     {
       id: "9b",
       status: "Flags",
-      country: "Mount Rainier",
-      capital: "USA",
+      country: "Monte Rainier",
+      capital: "EE.UU.",
       options: [
         {
           id: "0",
-          name: "Niagara Falls\nUSA/Canada",
+          name: "Cataratas del Niágara\nEE.UU./Canadá",
           img: require("../../../assets/NaturalMnt/America/NiagaraFalls.webp"),
         },
         {
           id: "1",
-          name: "Rainbow Mountain\nPeru",
+          name: "Montaña Arco Iris (Vinicunca)\nPerú",
           img: require("../../../assets/NaturalMnt/America/rainbowMountain.webp"),
         },
         {
           id: "2",
-          name: "Mount Rainier\nUSA",
+          name: "Monte Rainier\nEE.UU.",
           img: require("../../../assets/NaturalMnt/America/mount rainier.webp"),
         },
         {
@@ -544,18 +544,18 @@ const questions8Es = [
         },
         {
           id: "1",
-          capital: 'Blue Lagoon',
-          country: 'Iceland'
+          capital: 'Laguna Azul',
+          country: 'Islandia'
         },
         {
           id: "2",
-          capital: 'Cliffs of Moher',
-          country: 'Ireland'
+          capital: 'Acantilados de Moher',
+          country: 'Irlanda'
         },
         {
           id: "3",
-          capital: 'Isle of Skye',
-          country: 'Scotland'
+          capital: 'Isla de Skye',
+          country: 'Escocia'
         },
       ],
       correctAnswerIndex: 0,
@@ -573,17 +573,17 @@ const questions8Es = [
         },
         {
           id: "1",
-          name: "Blue Lagoon\nIceland",
+          name: "Laguna Azul\nIslandia",
           img: require("../../../assets/NaturalMnt/Europe/BlueLagoon.webp"),
         },
         {
           id: "2",
-          name: "Cliffs of Moher\nIreland",
+          name: "Acantilados de Moher\nIrlanda",
           img: require("../../../assets/NaturalMnt/Europe/CliffsofMoher.webp"),
         },
         {
           id: "3",
-          name: "Isle of Skye\nScotland",
+          name: "Isla de Skye\nEscocia",
           img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
         },
       ],
