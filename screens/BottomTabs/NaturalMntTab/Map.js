@@ -16,7 +16,6 @@ const { width, height } = Dimensions.get("window");
 const ASPECT_RATIO = (width * 100) / height;
 
 const Map = () => {
-
   const {mapMonumentsItem} =useSelector((state) => state.MonumentMapNames)
   const [region, setRegion] = useState({
     latitude: 37.78825,

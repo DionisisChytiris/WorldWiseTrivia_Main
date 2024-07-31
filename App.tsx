@@ -1,15 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import AppNavigator from './AppNavigator';
 import { ThemeProvider } from './utils/ThemeMode/ThemeProvider';
 import { store } from './ReduxSetUp/store';
 import{Provider} from 'react-redux'
+import Splash from './Splash';
 
 export default function App() {
+  const [isLoading, setIsLoading]= useState<boolean>(true)
   return (
+    isLoading ? <Splash setIsLoading={setIsLoading}/> :
+  
     <Provider store={store}>
       <ThemeProvider>
           <AppNavigator/>
       </ThemeProvider>
     </Provider>
+      
   );
 }
