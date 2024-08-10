@@ -9,14 +9,14 @@ const EurMntEl = [
   {
     id: "2",
     img: require("../../../assets/NaturalMnt/Europe/sevensisters.webp"),
-    name: "Αποτόμες Ακτές του Seven Sisters",
+    name: "Απότομες Ακτές του Seven Sisters",
     country: "Αγγλία",
     // city: 'South East England'
   },
   {
     id: "3",
     img: require("../../../assets/NaturalMnt/Europe/CliffsofMoher.webp"),
-    name: "Αποτόμες Ακτές του Μόχερ",
+    name: "Απότομες Ακτές του Μόχερ",
     country: "Ιρλανδία",
     // city: 'County Clare'
   },

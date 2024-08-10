@@ -11,11 +11,13 @@ import React, { useState, useRef,useCallback }  from 'react'
 import { AntDesign } from "@expo/vector-icons";
 import MapView, { MAP_TYPES, Marker, PROVIDER_GOOGLE } from "react-native-maps";
 import { useSelector } from "react-redux";
+import MapDataEn from '../../../data/naturalMnts/Map/MapEn';
 
 const { width, height } = Dimensions.get("window");
 const ASPECT_RATIO = (width * 100) / height;
 
 const Map = () => {
+  const dataMap = MapDataEn
   const {mapMonumentsItem} =useSelector((state) => state.MonumentMapNames)
   const [region, setRegion] = useState({
     latitude: 37.78825,
@@ -83,7 +85,7 @@ const Map = () => {
         mapType={MAP_TYPES.TERRAIN}
         style={styles.map}
         initialRegion={region}
-        provider={PROVIDER_GOOGLE}
+        provider={MapView.PROVIDER_GOOGLE}
         onRegionChange={onRegionChange}
       >
         <Marker
@@ -104,15 +106,16 @@ const Map = () => {
             <LetterButton ltr="A" />
             <LetterButton ltr="B" />
             <LetterButton ltr="C" />
-            <LetterButton ltr="D-F" />
+            <LetterButton ltr="D" />
+            <LetterButton ltr="E-F" />
             <LetterButton ltr="G" />
-            <LetterButton ltr="H-L" />
+            <LetterButton ltr="H-J" />
+            <LetterButton ltr="K-L" />
             <LetterButton ltr="M" />
             <LetterButton ltr="N-P" />
-            <LetterButton ltr="R" />
-            <LetterButton ltr="S" />
+            <LetterButton ltr="R-S" />
             <LetterButton ltr="T" />
-            <LetterButton ltr="U-W" />
+            <LetterButton ltr="U-Z" />
           </View>
         </ScrollView>
         <View style={{ alignItems: "center", justifyContent: "center" }}>
@@ -122,7 +125,8 @@ const Map = () => {
 
       <View style={styles.buttonContainer}>
         <ScrollView horizontal={true}>
-          {mapMonumentsItem.map((item, index) => {
+          {dataMap.map((item, index) => {
+          // {mapMonumentsItem.map((item, index) => {
             // const [test, setTest] =React.useState(1)
             return (
               <View
@@ -183,7 +187,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   map: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
   },
   bubble: {
     backgroundColor: "rgba(255,255,255,0.7)",

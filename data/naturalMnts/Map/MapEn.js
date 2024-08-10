@@ -94,7 +94,7 @@ const MapDataEn = [
         ltr: 'B',
         title: 'Blue Mountains',
         description: '',
-        img: require('../../../assets/NaturalMnt/Europe/BlueLagoon.webp'),
+        img: require('../../../assets/NaturalMnt/Oceania/Australia-Blue-Mountains.webp'),
         latitude: -33.64887,
         longitude: 150.41979,
         zoomLocation: 5.3,
@@ -231,7 +231,7 @@ const MapDataEn = [
     },
     {
         id: '24',
-        ltr: 'E',
+        ltr: 'E-F',
         title: 'Eye of the Earth',
         description: '',
         img: require('../../../assets/NaturalMnt/Europe/eyelake.jpg'),
@@ -241,7 +241,7 @@ const MapDataEn = [
     },
     {
         id: '25',
-        ltr: 'F',
+        ltr: 'E-F',
         title: 'Fingal\'s Cave',
         description: '',
         img: require('../../../assets/NaturalMnt/Europe/Fingalscave.jpg'),
@@ -251,7 +251,7 @@ const MapDataEn = [
     },
     {
         id: '26',
-        ltr: 'F',
+        ltr: 'E-F',
         title: 'Fiordland National Park',
         description: '',
         img: require('../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp'),
@@ -261,7 +261,7 @@ const MapDataEn = [
     },
     {
         id: '27',
-        ltr: 'F',
+        ltr: 'E-F',
         title: 'Fox Glacier',
         description: '',
         img: require('../../../assets/NaturalMnt/Oceania/fox-glacier.jpg'),
@@ -351,7 +351,7 @@ const MapDataEn = [
     },
     {
         id: '36',
-        ltr: 'H',
+        ltr: 'H-J',
         title: 'Halong Bay',
         description: '',
         img: require('../../../assets/NaturalMnt/Asia/halongbay-0.png'),
@@ -361,7 +361,7 @@ const MapDataEn = [
     },
     {
         id: '37',
-        ltr: 'H',
+        ltr: 'H-J',
         title: 'Heaven\'s Gate',
         description: '',
         img: require('../../../assets/NaturalMnt/Asia/heavensgate.jpg'),
@@ -371,7 +371,7 @@ const MapDataEn = [
     },
     {
         id: '38',
-        ltr: 'H',
+        ltr: 'H-J',
         title: 'Huanglong Scenic Area',
         description: '',
         img: require('../../../assets/NaturalMnt/Asia/huanglongScenicArea.webp'),
@@ -381,7 +381,7 @@ const MapDataEn = [
     },
     {
         id: '39',
-        ltr: 'I',
+        ltr: 'H-J',
         title: 'Iguazu Falls',
         description: '',
         img: require('../../../assets/NaturalMnt/America/iguazufalls.webp'),
@@ -391,7 +391,7 @@ const MapDataEn = [
     },
     {
         id: '40',
-        ltr: 'I',
+        ltr: 'H-J',
         title: 'Isle of Skye',
         description: '',
         img: require('../../../assets/NaturalMnt/Europe/isleofSkye.webp'),
@@ -401,7 +401,7 @@ const MapDataEn = [
     },
     {
         id: '41',
-        ltr: 'J',
+        ltr: 'H-J',
         title: 'Jiuzhaigou Valley',
         description: '',
         img: require('../../../assets/NaturalMnt/Asia/Jiuzhaigou-Valley.webp'),
@@ -411,7 +411,7 @@ const MapDataEn = [
     },
     {
         id: '42',
-        ltr: 'K',
+        ltr: 'K-L',
         title: 'Kauai',
         description: '',
         img: require('../../../assets/NaturalMnt/America/KauaiUSA.webp'),
@@ -421,7 +421,7 @@ const MapDataEn = [
     },
     {
         id: '43',
-        ltr: 'K',
+        ltr: 'K-L',
         title: 'Kakadu National Park',
         description: '',
         img: require('../../../assets/NaturalMnt/Africa/kalandula-falls-angola.webp'),
@@ -431,7 +431,7 @@ const MapDataEn = [
     },
     {
         id: '44',
-        ltr: 'K',
+        ltr: 'K-L',
         title: 'Kalandula Falls',
         description: '',
         img: require('../../../assets/NaturalMnt/Africa/kalandula-falls-angola.webp'),
@@ -441,7 +441,7 @@ const MapDataEn = [
     },
     {
         id: '45',
-        ltr: 'L',
+        ltr: 'K-L',
         title: 'Lake Bled',
         description: '',
         img: require('../../../assets/NaturalMnt/Europe/lake-bled.webp'),
@@ -451,7 +451,7 @@ const MapDataEn = [
     },
     {
         id: '46',
-        ltr: 'L',
+        ltr: 'K-L',
         title: 'Lake Hillier',
         description: '',
         img: require('../../../assets/NaturalMnt/Oceania/lakehillier.webp'),
@@ -461,7 +461,7 @@ const MapDataEn = [
     },
     {
         id: '47',
-        ltr: 'L',
+        ltr: 'K-L',
         title: 'Lake Titicaca',
         description: '',
         img: require('../../../assets/NaturalMnt/America/lakeTiticaca.webp'),
@@ -801,7 +801,7 @@ const MapDataEn = [
     },
     {
         id: '81',
-        ltr: 'R',
+        ltr: 'R-S',
         title: 'Rainbow Mountain',
         description: '',
         img: require('../../../assets/NaturalMnt/America/rainbowMountain.webp'),
@@ -811,7 +811,7 @@ const MapDataEn = [
     },
     {
         id: '82',
-        ltr: 'S',
+        ltr: 'R-S',
         title: 'Sahara Desert',
         description: '',
         img: require('../../../assets/NaturalMnt/Africa/Sahara-Desert.webp'),
@@ -821,7 +821,7 @@ const MapDataEn = [
     },
     {
         id: '83',
-        ltr: 'S',
+        ltr: 'R-S',
         title: 'Salar de Uyuni',
         description: '',
         img: require('../../../assets/NaturalMnt/America/SalardeUyuni.webp'),
@@ -831,7 +831,7 @@ const MapDataEn = [
     },
     {
         id: '84',
-        ltr: 'S',
+        ltr: 'R-S',
         title: 'Santorini Caldera',
         description: '',
         img: require('../../../assets/NaturalMnt/Europe/Santorini-Caldera.jpg'),
@@ -841,7 +841,7 @@ const MapDataEn = [
     },
     {
         id: '85',
-        ltr: 'S',
+        ltr: 'R-S',
         title: 'Serengeti National Park',
         description: '',
         img: require('../../../assets/NaturalMnt/Africa/serengeti-national-park.webp'),
@@ -851,7 +851,7 @@ const MapDataEn = [
     },
     {
         id: '86',
-        ltr: 'S',
+        ltr: 'R-S',
         title: 'Sequoia National Park',
         description: '',
         img: require('../../../assets/NaturalMnt/America/Sequoia-National-Park.webp'),
@@ -861,7 +861,7 @@ const MapDataEn = [
     },
     {
         id: '87',
-        ltr: 'S',
+        ltr: 'R-S',
         title: 'Seven Sisters',
         description: '',
         img: require('../../../assets/NaturalMnt/Europe/sevensisters.webp'),
@@ -871,7 +871,7 @@ const MapDataEn = [
     },
     {
         id: '88',
-        ltr: 'S',
+        ltr: 'R-S',
         title: 'Skaftafell Ice Cave',
         description: '',
         img: require('../../../assets/NaturalMnt/Europe/skaftafell.webp'),
@@ -881,7 +881,7 @@ const MapDataEn = [
     },
     {
         id: '89',
-        ltr: 'S',
+        ltr: 'R-S',
         title: 'Sossusvlei',
         description: '',
         img: require('../../../assets/NaturalMnt/Africa/Sossusvlei-Dunes.webp'),
@@ -891,7 +891,7 @@ const MapDataEn = [
     },
     {
         id: '90',
-        ltr: 'S',
+        ltr: 'R-S',
         title: 'Swiss Alps',
         description: '',
         img: require('../../../assets/NaturalMnt/Europe/swissapls.jpg'),
@@ -961,7 +961,7 @@ const MapDataEn = [
     },
     {
         id: '97',
-        ltr: 'U',
+        ltr: 'U-Z',
         title: 'Underwater Waterfalls',
         description: '',
         img: require('../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp'),
@@ -971,7 +971,7 @@ const MapDataEn = [
     },
     {
         id: '98',
-        ltr: 'V',
+        ltr: 'U-Z',
         title: 'Victoria Falls',
         description: '',
         img: require('../../../assets/NaturalMnt/Africa/Victoria-Falls.webp'),
@@ -981,7 +981,7 @@ const MapDataEn = [
     },
     {
         id: '99',
-        ltr: 'W',
+        ltr: 'U-Z',
         title: 'Wadi Rum',
         description: '',
         img: require('../../../assets/NaturalMnt/Asia/wadi-rum.webp'),
@@ -991,7 +991,7 @@ const MapDataEn = [
     },
     {
         id: '100',
-        ltr: 'W',
+        ltr: 'U-Z',
         title: 'White Desert National Park',
         description: '',
         img: require('../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp'),
@@ -1001,7 +1001,7 @@ const MapDataEn = [
     },
     {
         id: '101',
-        ltr: 'W',
+        ltr: 'U-Z',
         title: 'White Sands National Park',
         description: '',
         img: require('../../../assets/NaturalMnt/America/white-sandsNationalPark.webp'),
@@ -1011,7 +1011,7 @@ const MapDataEn = [
     },
     {
         id: '102',
-        ltr: 'Y',
+        ltr: 'U-Z',
         title: 'Yellowstone National Park',
         description: '',
         img: require('../../../assets/NaturalMnt/America/yellowstone.webp'),
@@ -1021,7 +1021,7 @@ const MapDataEn = [
     },
     {
         id: '103',
-        ltr: 'Y',
+        ltr: 'U-Z',
         title: 'Yosemite National Park',
         description: '',
         img: require('../../../assets/NaturalMnt/America/yosemite-national-park.webp'),
@@ -1031,7 +1031,7 @@ const MapDataEn = [
     },
     {
         id: '104',
-        ltr: 'Z',
+        ltr: 'U-Z',
         title: 'Zhangjiajie',
         description: '',
         img: require('../../../assets/NaturalMnt/Asia/ZhangjiajieNationalForestPark.webp'),
