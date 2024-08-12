@@ -14,6 +14,7 @@ import { AntDesign } from "@expo/vector-icons";
 import { FlashList } from "@shopify/flash-list";
 import MapView, { MAP_TYPES, Marker, PROVIDER_GOOGLE } from "react-native-maps";
 import { useSelector } from "react-redux";
+import { useTranslation } from "react-i18next";
 import mapDataEn from "../../../data/worldMonuments/Map/MapEn";
 
 const { width, height } = Dimensions.get("window");
@@ -21,6 +22,7 @@ const ASPECT_RATIO = (width * 100) / height;
 
 const Map = () => {
   const {mapMonumentsItem} =useSelector((state) => state.MonumentMapNames)
+  const { t } = useTranslation();
   const [region, setRegion] = useState({
     latitude: 37.78825,
     longitude: -122.4324,
@@ -103,18 +105,18 @@ const Map = () => {
         </View>
         <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
           <View style={{ gap: 0, flexDirection: "row" }}>
-            <LetterButton ltr="A" />
-            <LetterButton ltr="B" />
-            <LetterButton ltr="C" />
-            <LetterButton ltr="D-F" />
-            <LetterButton ltr="G" />
-            <LetterButton ltr="H-L" />
-            <LetterButton ltr="M" />
-            <LetterButton ltr="N-P" />
-            <LetterButton ltr="R" />
-            <LetterButton ltr="S" />
-            <LetterButton ltr="T" />
-            <LetterButton ltr="U-W" />
+            <LetterButton ltr={t("Mntltr1")} />
+            <LetterButton ltr={t("Mntltr2")} />
+            <LetterButton ltr={t("Mntltr3")} />
+            <LetterButton ltr={t("Mntltr4")} />
+            <LetterButton ltr={t("Mntltr5")} />
+            <LetterButton ltr={t("Mntltr6")}/>
+            <LetterButton ltr={t("Mntltr7")} />
+            <LetterButton ltr={t("Mntltr8")} />
+            <LetterButton ltr={t("Mntltr9")}/>
+            <LetterButton ltr={t("Mntltr10")}/>
+            <LetterButton ltr={t("Mntltr11")}/>
+            <LetterButton ltr={t("Mntltr12")}/>
           </View>
         </ScrollView>
         <View style={{ alignItems: "center", justifyContent: "center" }}>

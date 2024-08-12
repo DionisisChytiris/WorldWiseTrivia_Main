@@ -14,7 +14,7 @@ import { NaturalAsiaSlice, NaturalEurSlice, NaturalAmerSlice, NaturalAfrSlice, N
 import QuizStatusSlice from './QuizStatus/QuizStatus'
 import SoundSlice from './SoundVibration/SoundSlice'
 import VibrationSlice from './SoundVibration/VibrationSlice'
-import {NaturalMnt1Slice, NaturalMnt2Slice, NaturalMnt3Slice, NaturalMnt4Slice, NaturalMnt5Slice, NaturalMnt6Slice, NaturalMnt7Slice, NaturalMnt8Slice, NaturalMnt9Slice, NaturalMnt10Slice} from './NaturalMntQuizSlices'
+import {NaturalMnt1Slice, NaturalMnt2Slice, NaturalMnt3Slice, NaturalMnt4Slice, NaturalMnt5Slice, NaturalMnt6Slice, NaturalMnt7Slice, NaturalMnt8Slice, NaturalMnt9Slice, NaturalMnt10Slice,NaturalMntMapSlice} from './NaturalMntQuizSlices'
 
 export const store = configureStore({
     reducer: {
@@ -72,13 +72,14 @@ export const store = configureStore({
         quizStatus: QuizStatusSlice,
         CapitalsMapNames: CapitalsMapsSlice,
         MonumentMapNames: MonumentsMapSlice,
+        NaturalMntMapNames: NaturalMntMapSlice,
         soundActive: SoundSlice,
         boolean: VibrationSlice,
         NaturalEur: NaturalEurSlice,
         NaturalAsia: NaturalAsiaSlice,
         NaturalAmer: NaturalAmerSlice,
         NaturalAfr: NaturalAfrSlice,
-        NaturalOcea: NaturalOceanSlice
+        NaturalOcea: NaturalOceanSlice,
     },
     middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({

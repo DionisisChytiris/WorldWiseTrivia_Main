@@ -9,7 +9,7 @@ interface SplashProps {
 
 const Splash = ({ setIsLoading }: SplashProps): JSX.Element => {
   return (
-    // <SafeAreaView>
+
 
     <View
       style={{
@@ -24,13 +24,13 @@ const Splash = ({ setIsLoading }: SplashProps): JSX.Element => {
         <Text>Hello</Text> */}
       <LottieView
         style={{ width: "100%", height: "100%" }}
-        source={require("./assets/splashscreen.json")}
+        source={require("./assets/LottieAnimation/splashscreen.json")}
         autoPlay
         loop={false}
         onAnimationFinish={()=>setIsLoading(false)}
       />
     </View>
-    // </SafeAreaView>
+
   );
 };
 

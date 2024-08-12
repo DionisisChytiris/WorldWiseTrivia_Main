@@ -1,6 +1,14 @@
-import { View, Text, Pressable, Image, StyleSheet, Vibration } from "react-native";
+import {
+  View,
+  Text,
+  Pressable,
+  Image,
+  StyleSheet,
+  Vibration,
+} from "react-native";
 import React, { useState, useEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
+import LottieView from "lottie-react-native";
 import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
 import { MaterialIcons } from "@expo/vector-icons";
@@ -11,7 +19,7 @@ import { Audio } from "expo-av";
 const QuizMainTemplate = (props) => {
   const boolean = useAppSelector((state) => state.boolean.value);
   const soundActive = useAppSelector((state) => state.soundActive.value);
-  const isBoolean = boolean.toString()
+  const isBoolean = boolean.toString();
   const navigation = useNavigation();
   const [score, setScore] = React.useState(0);
   const { colors } = useTheme();
@@ -48,17 +56,23 @@ const QuizMainTemplate = (props) => {
   useEffect(() => {
     return correctSound ? () => correctSound.uploadAsync() : undefined;
   }, [correctSound]);
- 
+
   useEffect(() => {
     if (selectedAnswer !== null) {
       if (selectedAnswer === currentQuestion?.correctAnswerIndex) {
         setScore((score) => score + 10);
         setAnswerStatus(true);
         setDisabled(true);
-        console.log(isBoolean)
+        // console.log(isBoolean);
         // Vibration.vibrate([100, 50, 200, 100, 200, 100, 300])
-        {boolean? Vibration.vibrate([100, 50, 200, 100, 200, 100, 300]) :null}
-        {soundActive? null:CorrectPlaySound() }
+        {
+          boolean
+            ? Vibration.vibrate([100, 50, 200, 100, 200, 100, 300])
+            : null;
+        }
+        {
+          soundActive ? null : CorrectPlaySound();
+        }
         // CorrectPlaySound()
       } else {
         setDisabled(true);
@@ -66,7 +80,9 @@ const QuizMainTemplate = (props) => {
         setShow(true);
         setImg(styles.img1);
         removeHeart();
-        {boolean? Vibration.vibrate():null }
+        {
+          boolean ? Vibration.vibrate() : null;
+        }
       }
     } else {
       setDisabled(false);
@@ -132,7 +148,7 @@ const QuizMainTemplate = (props) => {
     const newArray = heart.length - 1;
     heart.pop(newArray);
     {
-      newArray === 0 && navigation.navigate(props.loseScreen, {score:score});
+      newArray === 0 && navigation.navigate(props.loseScreen, { score: score });
     }
   };
 
@@ -170,9 +186,6 @@ const QuizMainTemplate = (props) => {
   const dt = data.length - 1;
   const filteredLength = dt / 3;
 
-
- 
-
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
       {/* Header */}
@@ -182,9 +195,11 @@ const QuizMainTemplate = (props) => {
           {index + 1} / {filteredLength}
         </Text>
         <Text style={{ color: colors.text, fontWeight: "500" }}>
-        {t("quiz")}{" "}{props.quizName}
+          {t("quiz")} {props.quizName}
         </Text>
-        <Text style={{ color: colors.text }}>{t("score")} {score}</Text>
+        <Text style={{ color: colors.text }}>
+          {t("score")} {score}
+        </Text>
         {/* {currentQuestion.status === "Guess" ? (
           <Text style={{}}>{apple}</Text>
         ) : (
@@ -210,7 +225,9 @@ const QuizMainTemplate = (props) => {
               </View>
               {/* <Text>{guesses}</Text> */}
               <View style={{ position: "absolute", top: 25 }}>
-                <Text style={{ color: colors.text}}>{currentQuestion.country}</Text>
+                <Text style={{ color: colors.text }}>
+                  {currentQuestion.country}
+                </Text>
               </View>
               <View style={{ marginTop: 50 }}>
                 <Image source={currentQuestion.img} style={styles.guessImg} />
@@ -231,15 +248,10 @@ const QuizMainTemplate = (props) => {
                           : { fontSize: 18, color: "gray" }
                       }
                     >
-                      {chosenLetters.includes(letter) ? (
-                        letter
-                      ) : (
-                        <Text>_</Text>
-                      )}
+                      {chosenLetters.includes(letter) ? letter : <Text>_</Text>}
                     </Text>
                   </View>
                 ))}
-               
               </View>
               <View style={stylesMain.hintLetterbox}>
                 {show ? null : (
@@ -303,17 +315,51 @@ const QuizMainTemplate = (props) => {
                     {/* Correct (Tick) Symbol */}
                     {selectedAnswer === index &&
                     index === currentQuestion.correctAnswerIndex ? (
-                      <View style={styles.tick}>
-                        <MaterialIcons name="done" size={30} color="white" />
+                      <View
+                        style={{
+                          position: "absolute",
+                          width: "100%",
+                          height: "70%",
+                          top: 0,
+                          right: -30,
+                        }}
+                      >
+                        <LottieView
+                          style={{ width: "100%", height: "100%" }}
+                          source={require("../../../assets/LottieAnimation/Success.json")}
+                          autoPlay
+                          loop={false}
+                        />
                       </View>
-                    ) : null}
+                    // <View style={styles.tick}>
+                    //   <MaterialIcons name="done" size={30} color="white" />
+                    // </View>
+                    ) : 
+                    null}
                     {/* Wrong (clear) Symbol */}
                     {selectedAnswer === index &&
                     index !== currentQuestion.correctAnswerIndex ? (
-                      <View style={styles.clear}>
-                        <MaterialIcons name="clear" size={30} color="white" />
+                      <View
+                        style={{
+                          position: "absolute",
+                          width: "100%",
+                          height: "70%",
+                          top: 0,
+                          right: -30,
+                        }}
+                      >
+                        <LottieView
+                          style={{ width: "100%", height: "100%" }}
+                          source={require("../../../assets/LottieAnimation/Fail.json")}
+                          autoPlay
+                          loop={false}
+                        />
                       </View>
-                    ) : null}
+                      // <View style={styles.clear}>
+                      //   <MaterialIcons name="clear" size={30} color="white" />
+                      // </View>
+                    ) : 
+                    null}
                     {show
                       ? index === currentQuestion.correctAnswerIndex && (
                           <View style={styles.tick}>
@@ -347,7 +393,11 @@ const QuizMainTemplate = (props) => {
               <View>
                 <Image
                   source={currentQuestion.image}
-                  style={currentQuestion.img === 'L' ? stylesMain.imageQuiz1 : stylesMain.imageQuiz}
+                  style={
+                    currentQuestion.img === "L"
+                      ? stylesMain.imageQuiz1
+                      : stylesMain.imageQuiz
+                  }
                 />
               </View>
             )}
@@ -390,7 +440,7 @@ const QuizMainTemplate = (props) => {
                     >
                       <Text
                         style={{
-                          fontSize: item.capital.length > 22 ? 16: 18,
+                          fontSize: item.capital.length > 22 ? 16 : 18,
                           fontWeight: "500",
                           color: colors.text,
                           textAlign: "center",
@@ -414,17 +464,51 @@ const QuizMainTemplate = (props) => {
                     {/* Correct (Tick) Symbol */}
                     {selectedAnswer === index &&
                     index === currentQuestion.correctAnswerIndex ? (
-                      <View style={styles.tick}>
-                        <MaterialIcons name="done" size={30} color="white" />
+                      <View
+                        style={{
+                          position: "absolute",
+                          width: "100%",
+                          height: "70%",
+                          top: 0,
+                          right: -30,
+                        }}
+                      >
+                        <LottieView
+                          style={{ width: "100%", height: "100%" }}
+                          source={require("../../../assets/LottieAnimation/Success.json")}
+                          autoPlay
+                          loop={false}
+                        />
                       </View>
-                    ) : null}
+                      // <View style={styles.tick}>
+                      //   <MaterialIcons name="done" size={30} color="white" />
+                      // </View>
+                    ) : 
+                    null}
                     {/* Wrong (clear) Symbol */}
                     {selectedAnswer === index &&
                     index !== currentQuestion.correctAnswerIndex ? (
-                      <View style={styles.clear}>
-                        <MaterialIcons name="clear" size={30} color="white" />
+                      <View
+                        style={{
+                          position: "absolute",
+                          width: "100%",
+                          height: "70%",
+                          top: 0,
+                          right: -30,
+                        }}
+                      >
+                        <LottieView
+                          style={{ width: "100%", height: "100%" }}
+                          source={require("../../../assets/LottieAnimation/Fail.json")}
+                          autoPlay
+                          loop={false}
+                        />
                       </View>
-                    ) : null}
+                      // <View style={styles.clear}>
+                      //   <MaterialIcons name="clear" size={30} color="white" />
+                      // </View>
+                    ) : 
+                    null}
                     {show
                       ? index === currentQuestion.correctAnswerIndex && (
                           <View style={styles.tick}>
@@ -553,5 +637,12 @@ const stylesMain = StyleSheet.create({
     height: 140,
     borderRadius: 20,
     marginTop: 80,
+  },
+  lottiestyle: {
+    position: "absolute",
+    width: "100%",
+    height: "70%",
+    top: 0,
+    right: -30,
   },
 });

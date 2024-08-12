@@ -41,7 +41,13 @@ const AsiaMntEs = [
     country: "China/Mongolia",
     city: "",
   },
-
+  {
+    id: "18",
+    img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
+    name: "La catarata submarina",
+    country: "Mauritius",
+    city: "",
+  },
   {
     id: "7",
     img: require("../../../assets/NaturalMnt/Asia/heavensgate.jpg"),
@@ -55,21 +61,6 @@ const AsiaMntEs = [
     name: "Mar Muerto",
     country: "Jordania/Palestina/Israel",
     // city: 'County Clare'
-  },
-
-  {
-    id: "9",
-    img: require("../../../assets/NaturalMnt/Asia/Mount-Everest.webp"),
-    name: "Monte Everest",
-    country: "Nepal/China",
-    city: "",
-  },
-  {
-    id: "10",
-    img: require("../../../assets/NaturalMnt/Asia/mount_fuji.webp"),
-    name: "Monte Fuji",
-    country: "Japón",
-    city: "",
   },
   {
     id: "11",
@@ -85,6 +76,22 @@ const AsiaMntEs = [
     country: "Indonesia",
     city: "",
   },
+  {
+    id: "9",
+    img: require("../../../assets/NaturalMnt/Asia/Mount-Everest.webp"),
+    name: "Monte Everest",
+    country: "Nepal/China",
+    city: "",
+  },
+  {
+    id: "10",
+    img: require("../../../assets/NaturalMnt/Asia/mount_fuji.webp"),
+    name: "Monte Fuji",
+    country: "Japón",
+    city: "",
+  },
+
+  
   // {
   //     id: '11',
   //     img: require('../../../assets/NaturalMnt/Asia/mountHua.png'),
@@ -129,13 +136,7 @@ const AsiaMntEs = [
     city: "",
   },
 
-  {
-    id: "18",
-    img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
-    name: "Underwater Waterfalls",
-    country: "Mauritius",
-    city: "",
-  },
+ 
   {
     id: "19",
     img: require("../../../assets/NaturalMnt/Asia/Jiuzhaigou-Valley.webp"),

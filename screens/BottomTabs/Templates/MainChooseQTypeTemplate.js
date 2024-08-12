@@ -2,6 +2,7 @@ import { View, Text, Pressable, StyleSheet, Image } from "react-native";
 import React, { useState } from "react";
 import { useNavigation } from "@react-navigation/native";
 import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
+import LottieView from "lottie-react-native";
 import { useSelector, useDispatch } from "react-redux";
 import { useTranslation } from "react-i18next";
 // import { useAppDispatch, useAppSelector } from "../../../ReduxSetUp/store";
@@ -19,8 +20,7 @@ const MainChooseQuizTypeTemplate = (props) => {
   const [scale1, setScale1] = React.useState(1);
   const [scale2, setScale2] = React.useState(1);
   const [scale3, setScale3] = React.useState(1);
-  const show = props.show
-
+  const show = props.show;
 
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
@@ -29,11 +29,20 @@ const MainChooseQuizTypeTemplate = (props) => {
           {t("type")}
         </Text>
       </View>
+      <View style={{width: '100%',height: props.lottieHeight,marginTop: 0, marginBottom: 0}}>
+        <LottieView
+          style={{ width: "100%", height: "100%" }}
+          source={props.lottieAnm}
+          autoPlay
+          loop
+          // onAnimationFinish={() => setIsLoading(false)}
+        />
+      </View>
       <Pressable
         onPressIn={() => setScale1(1.07)}
         onPressOut={() => {
           navigation.navigate(props.screen);
-        //   navigation.navigate("CapitalsHome");
+          //   navigation.navigate("CapitalsHome");
           dispatch(statusFlags());
           setScale1(1);
         }}
@@ -66,7 +75,10 @@ const MainChooseQuizTypeTemplate = (props) => {
         }}
         style={[
           styles.button,
-          { backgroundColor: colors.backgroundMaterialTopTab,transform: [{ scale: scale2 }], },
+          {
+            backgroundColor: colors.backgroundMaterialTopTab,
+            transform: [{ scale: scale2 }],
+          },
         ]}
       >
         <View style={styles.imgView}>
@@ -81,8 +93,7 @@ const MainChooseQuizTypeTemplate = (props) => {
           <Text style={{ color: colors.text }}>{t("4 WORDS")}</Text>
         </View>
       </Pressable>
-      {
-        show ?
+      {show ? (
         <Pressable
           onPressIn={() => setScale3(1.07)}
           onPressOut={() => {
@@ -92,7 +103,10 @@ const MainChooseQuizTypeTemplate = (props) => {
           }}
           style={[
             styles.button,
-            { backgroundColor: colors.backgroundMaterialTopTab,transform: [{ scale: scale3 }], },
+            {
+              backgroundColor: colors.backgroundMaterialTopTab,
+              transform: [{ scale: scale3 }],
+            },
           ]}
         >
           <View style={styles.imgView}>
@@ -106,9 +120,9 @@ const MainChooseQuizTypeTemplate = (props) => {
             <Text style={{ color: colors.text }}>{t("GUESS")}</Text>
             <Text style={{ color: colors.text }}>{t("THE WORD")}</Text>
           </View>
-        </Pressable>: null
-      }
-      </View>
+        </Pressable>
+      ) : null}
+    </View>
   );
 };
 
@@ -123,7 +137,7 @@ const styles = StyleSheet.create({
   button: {
     marginTop: 20,
     width: "80%",
-    height: 150,
+    height: 140,
     backgroundColor: "grey",
     flexDirection: "row",
     justifyContent: "center",

@@ -193,6 +193,9 @@ import {
   quizNtrMnt10El,
   quizNtrMnt10En,
   quizNtrMnt10Es,
+  NtrMntEn,
+  NtrMntEl,
+  NtrMntEs,
 } from "../../ReduxSetUp/NaturalMntQuizSlices";
 import { Feather } from "@expo/vector-icons";
 import { toggleBoolean } from "../../ReduxSetUp/SoundVibration/VibrationSlice.tsx";
@@ -303,6 +306,7 @@ const DrawerContent = (props) => {
     dispatch(quizNtrMnt8En());
     dispatch(quizNtrMnt9En());
     dispatch(quizNtrMnt10En());
+    dispatch(NtrMntEn())
   };
   const Spanish = () => {
     dispatch(flagsEs());
@@ -362,6 +366,7 @@ const DrawerContent = (props) => {
     dispatch(quizNtrMnt8Es());
     dispatch(quizNtrMnt9Es());
     dispatch(quizNtrMnt10Es());
+    dispatch(NtrMntEs())
   };
   const Greek = () => {
     dispatch(flagsEl());
@@ -422,6 +427,7 @@ const DrawerContent = (props) => {
     dispatch(quizNtrMnt8El());
     dispatch(quizNtrMnt9El());
     dispatch(quizNtrMnt10El());
+    dispatch(NtrMntEl())
   };
 
   return (

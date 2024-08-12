@@ -1,9 +1,9 @@
 const MapDataEl = [
   {
     id: "13",
-    ltr: "C",
+    ltr: "Α-Β",
     title: "Ακρωτήριο της Καλής Ελπίδας",
-    description: "",
+    description: "Το Ακρωτήριο της Καλής Ελπίδας, που βρίσκεται στο νότιο άκρο της Χερσονήσου του Ακρωτηρίου στη Νότια Αφρική, είναι ένα ιστορικό ορόσημο γνωστό για τους δραματικούς γκρεμούς, την άγρια ακτογραμμή και την πλούσια βιοποικιλότητα. Συχνά λανθασμένα θεωρείται το νοτιότερο σημείο της Αφρικής και είναι δημοφιλής προορισμός για τις εντυπωσιακές θέες στον ωκεανό και την άγρια ζωή, όπως πιγκουίνους και μπαμπουίνους.",
     img: require("../../../assets/NaturalMnt/Africa/CapeofGoodHope.webp"),
     latitude: -34.35404,
     longitude: 18.48549,
@@ -11,9 +11,9 @@ const MapDataEl = [
   },
   {
     id: "29",
-    ltr: "G",
+    ltr: "Α-Β",
     title: "Ακτή του Γίγαντα",
-    description: "",
+    description: "Η Ακτή του Γίγαντα, που βρίσκεται στη βόρεια ακτή της Βόρειας Ιρλανδίας, είναι γνωστή για την μοναδική γεωλογική της δομή με τις αλληλοσυνδεόμενες στήλες βασάλτου. Δημιουργημένη από ηφαιστειακή δραστηριότητα πριν από περίπου 60 εκατομμύρια χρόνια, αυτός ο τόπος που έχει ανακηρυχθεί Μνημείο Παγκόσμιας Κληρονομιάς από την UNESCO προσφέρει στους επισκέπτες ένα εντυπωσιακό φυσικό τοπίο και πλούσιους τοπικούς θρύλους.",
     img: require("../../../assets/NaturalMnt/Europe/GiantsCauseway.webp"),
     latitude: 55.24028,
     longitude: -6.51162,
@@ -21,9 +21,9 @@ const MapDataEl = [
   },
   {
     id: "17",
-    ltr: "C",
+    ltr: "Α-Β",
     title: "Απότομες Ακτές του Μόχερ",
-    description: "",
+    description: "Οι Βράχοι του Μόχερ, που βρίσκονται στην δυτική ακτή της Ιρλανδίας, είναι διάσημοι για τις δραματικές κατακόρυφες πτώσεις τους και τις εκτενείς θέες στον ωκεανό. Φτάνοντας έως και 214 μέτρα πάνω από τον Ατλαντικό, αυτοί οι βράχοι είναι δημοφιλής προορισμός για την εντυπωσιακή φυσική τους ομορφιά και την ποικιλόμορφη ορνιθοπανίδα τους.",
     img: require("../../../assets/NaturalMnt/Europe/CliffsofMoher.webp"),
     latitude: 52.97097,
     longitude: -9.43082,
@@ -31,7 +31,7 @@ const MapDataEl = [
   },
   {
     id: "87",
-    ltr: "S",
+    ltr: "Α-Β",
     title: "Απότομες Ακτές του Seven Sisters",
     description: "",
     img: require("../../../assets/NaturalMnt/Europe/sevensisters.webp"),
@@ -41,7 +41,7 @@ const MapDataEl = [
   },
   {
     id: "93",
-    ltr: "T",
+    ltr: "Α-Β",
     title: "Βελόνες",
     description: "",
     img: require("../../../assets/NaturalMnt/America/TheNeedles.webp"),
@@ -49,19 +49,10 @@ const MapDataEl = [
     longitude: -109.85011,
     zoomLocation: 5.3,
   },
-  {
-    id: "35",
-    ltr: "G",
-    title: "Βουνά Smoky Mountains",
-    description: "",
-    img: require("../../../assets/NaturalMnt/America/GreatSmokyMountains.webp"),
-    latitude: 35.62029,
-    longitude: -83.50874,
-    zoomLocation: 5.3,
-  },
+  
   {
     id: "81",
-    ltr: "R",
+    ltr: "Α-Β",
     title: "Βουνό των Επτά Χρωμάτων",
     description: "",
     img: require("../../../assets/NaturalMnt/America/rainbowMountain.webp"),
@@ -71,9 +62,9 @@ const MapDataEl = [
   },
   {
     id: "19",
-    ltr: "D",
+    ltr: "Α-Β",
     title: "Βύθισμα Ντανακίλ",
-    description: "",
+    description: "To Βύθισμα Ντανάκιλ, που βρίσκεται στο βορειοανατολικό Εθιοπία, είναι ένα από τα πιο ζεστά και απλησίαστα μέρη της Γης. Γνωστή για τα τοπία που θυμίζουν άλλον κόσμο, περιλαμβάνοντας λίμνες λάβας, αλατούχες πεδιάδες και θερμές πηγές θείου, προσφέρει ένα μοναδικό και ακραίο περιβάλλον που διαμορφώνεται από έντονη ηφαιστειακή δραστηριότητα.",
     img: require("../../../assets/NaturalMnt/Africa/The Danakil DepressionEthiopia.webp"),
     latitude: 11.95772,
     longitude: 41.578,
@@ -81,9 +72,9 @@ const MapDataEl = [
   },
   {
     id: "31",
-    ltr: "G",
+    ltr: "Γ-Δ",
     title: "Γκραν Κάνιον",
-    description: "",
+    description: "Το Μεγάλο Φαράγγι, που βρίσκεται στη βόρεια Αριζόνα των ΗΠΑ, είναι ένα εντυπωσιακό φυσικό θαύμα γνωστό για το τεράστιο μέγεθός του και τις εκπληκτικές γεωλογικές του μορφές. Σκαμμένο από τον ποταμό Κολοράντο κατά τη διάρκεια εκατομμυρίων ετών, η απέραντη έκτασή του αποκαλύπτει μια εντυπωσιακή ποικιλία στρωμάτων και χρωμάτων βράχων, καθιστώντας το ένα κορυφαίο προορισμό για περιήγηση και δραστηριότητες στη φύση.",
     img: require("../../../assets/NaturalMnt/America/grandcanyon.webp"),
     latitude: 36.09966,
     longitude: -112.1126,
@@ -91,9 +82,9 @@ const MapDataEl = [
   },
   {
     id: "1",
-    ltr: "A",
+    ltr: "Γ-Δ",
     title: "Δάσος Αμαζονίου",
-    description: "",
+    description: "Το τροπικό δάσος του Αμαζονίου, συχνά αποκαλούμενο \"οι πνεύμονες της Γης\", είναι το μεγαλύτερο τροπικό δάσος στον κόσμο. Φιλοξενεί μια απίστευτη ποικιλία ειδών και παίζει καθοριστικό ρόλο στη ρύθμιση του παγκόσμιου κλίματος.",
     img: require("../../../assets/NaturalMnt/America/amazonRainforest.webp"),
     latitude: -1.67089,
     longitude: -59.20359,
@@ -101,7 +92,7 @@ const MapDataEl = [
   },
   {
     id: "76",
-    ltr: "O",
+    ltr: "Γ-Δ",
     title: "Δέλτα Οκαβάνγκο",
     description: "",
     img: require("../../../assets/NaturalMnt/Africa/Botswana_Okavango_Delta.webp"),
@@ -111,20 +102,19 @@ const MapDataEl = [
   },
   {
     id: "15",
-    ltr: "C",
+    ltr: "Γ-Δ",
     title: "Διαμαντένια Πεδιάδα",
-    description: "",
+    description: "H Διαμαντένια Πεδιάδα που βρίσκεται στην πολιτεία Μπαΐα της Βραζιλίας, είναι γνωστό για τα δραματικά οροπέδια του, τα βαθιά φαράγγια και τους εντυπωσιακούς καταρράκτες. Το πάρκο είναι παράδεισος για τους λάτρεις της περιπέτειας, προσφέροντας δραστηριότητες όπως πεζοπορία, σπηλαιολογία και κολύμπι σε κρυστάλλινες φυσικές πισίνες.",
     img: require("../../../assets/NaturalMnt/America/chadadaDiamantina.webp"),
     latitude: -12.84231,
     longitude: -41.39732,
     zoomLocation: 5.3,
   },
-
   {
     id: "4",
-    ltr: "A",
+    ltr: "Ε",
     title: "Εθνικό Πάρκο Αψίδων",
-    description: "",
+    description: "Το Εθνικό Πάρκο Αψίδων, που βρίσκεται στη Γιούτα των ΗΠΑ, είναι διάσημο για τους πάνω από 2.000 φυσικούς πέτρινους σχηματισμούς του, σκαλισμένους από εκατομμύρια χρόνια διάβρωσης. Το πάρκο προσφέρει μαγευτικά τοπία και μοναδικούς βραχώδεις σχηματισμούς, καθιστώντας το έναν απαραίτητο προορισμό για τους λάτρεις της φύσης.",
     img: require("../../../assets/NaturalMnt/America/Arches-National-Park.webp"),
     latitude: 38.57536,
     longitude: -109.54741,
@@ -132,7 +122,7 @@ const MapDataEl = [
   },
   {
     id: "102",
-    ltr: "Y",
+    ltr: "Ε",
     title: "Εθνικό Πάρκο Γιέλοουστοουν",
     description: "",
     img: require("../../../assets/NaturalMnt/America/yellowstone.webp"),
@@ -142,7 +132,7 @@ const MapDataEl = [
   },
   {
     id: "103",
-    ltr: "Y",
+    ltr: "Ε",
     title: "Εθνικό Πάρκο Γιοσέμιτι",
     description: "",
     img: require("../../../assets/NaturalMnt/America/yosemite-national-park.webp"),
@@ -153,9 +143,9 @@ const MapDataEl = [
 
   {
     id: "21",
-    ltr: "D",
+    ltr: "Ε",
     title: "Εθνικό Πάρκο Δενάλι",
-    description: "",
+    description: "Το Εθνικό Πάρκο και Καταφύγιο Δενάλι, που βρίσκεται στην Αλάσκα των ΗΠΑ, φιλοξενεί την ψηλότερη κορυφή της Βόρειας Αμερικής, το Δενάλι, που ανέρχεται σε 6.190 μέτρα (20.310 πόδια). Το πάρκο είναι γνωστό για την εντυπωσιακή άγρια φύση του, την ποικιλόμορφη πανίδα του και τις ευκαιρίες για υπαίθριες περιπέτειες, όπως πεζοπορία, αναρρίχηση και παρατήρηση άγριας ζωής.",
     img: require("../../../assets/NaturalMnt/America/denali-national-park-alaska.webp"),
     latitude: 63.25846,
     longitude: -150.82368,
@@ -163,7 +153,7 @@ const MapDataEl = [
   },
   {
     id: "43",
-    ltr: "K",
+    ltr: "Ε",
     title: "Εθνικό Πάρκο Κακαντού",
     description: "",
     img: require("../../../assets/NaturalMnt/Africa/kalandula-falls-angola.webp"),
@@ -173,7 +163,7 @@ const MapDataEl = [
   },
   {
     id: "100",
-    ltr: "W",
+    ltr: "Ε",
     title: "Εθνικό Πάρκο Λευκής Ερήμου",
     description: "",
     img: require("../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp"),
@@ -183,7 +173,7 @@ const MapDataEl = [
   },
   {
     id: "101",
-    ltr: "W",
+    ltr: "Ε",
     title: "Εθνικό Πάρκο Λευκών Αμμουδιών",
     description: "",
     img: require("../../../assets/NaturalMnt/America/white-sandsNationalPark.webp"),
@@ -193,7 +183,7 @@ const MapDataEl = [
   },
   {
     id: "34",
-    ltr: "G",
+    ltr: "Ε",
     title: "Εθνικό Πάρκο Μεγάλων Αμμόλοφων",
     description: "",
     img: require("../../../assets/NaturalMnt/America/GreatSandDunesPark.webp"),
@@ -203,9 +193,9 @@ const MapDataEl = [
   },
   {
     id: "7",
-    ltr: "B",
+    ltr: "Ε",
     title: "Εθνικό Πάρκο Μπανφ",
-    description: "",
+    description: "Το Εθνικό Πάρκο Μπανφ, που βρίσκεται στα Καναδικά Βραχώδη Όρη, είναι το παλαιότερο εθνικό πάρκο του Καναδά και ένας χώρος Παγκόσμιας Κληρονομιάς της UNESCO. Είναι διάσημο για τα εντυπωσιακά τοπία του, όπως οι τυρκουάζ λίμνες, τα επιβλητικά βουνά και η πλούσια πανίδα.",
     img: require("../../../assets/NaturalMnt/America/BanffNationalPark.webp"),
     latitude: 51.49677,
     longitude: -115.9281,
@@ -214,9 +204,9 @@ const MapDataEl = [
 
   {
     id: "12",
-    ltr: "B",
+    ltr: "Ε",
     title: "Εθνικό Πάρκο Μπράις Κάνιον",
-    description: "",
+    description: "Το Εθνικό Πάρκο Μπράις Κάνιον, που βρίσκεται στη νότια Γιούτα των ΗΠΑ, είναι γνωστό για τους μοναδικούς γεωλογικούς σχηματισμούς του που ονομάζονται hoodoos—λεπτές και ψηλές στήλες από πέτρα που δημιουργούν ένα σουρεαλιστικό τοπίο. Τα ζωντανά κόκκινα, πορτοκαλί και λευκά χρώματα του πάρκου, σε συνδυασμό με τα δραματικά σημεία θέασης, το καθιστούν δημοφιλή προορισμό για λάτρεις της φύσης και φωτογράφους.",
     img: require("../../../assets/NaturalMnt/America/Bryce-Canyon.webp"),
     latitude: 37.59122,
     longitude: -112.18875,
@@ -224,7 +214,7 @@ const MapDataEl = [
   },
   {
     id: "91",
-    ltr: "T",
+    ltr: "Ε",
     title: "Εθνικό Πάρκο Όρος Τέιμπλ",
     description: "",
     img: require("../../../assets/NaturalMnt/Africa/table-mountain.webp"),
@@ -234,7 +224,7 @@ const MapDataEl = [
   },
   {
     id: "86",
-    ltr: "S",
+    ltr: "Ε",
     title: "Εθνικό Πάρκο Σεκόγιας",
     description: "",
     img: require("../../../assets/NaturalMnt/America/Sequoia-National-Park.webp"),
@@ -245,7 +235,7 @@ const MapDataEl = [
 
   {
     id: "85",
-    ltr: "S",
+    ltr: "Ε",
     title: "Εθνικό Πάρκο Σερενγκέτι",
     description: "",
     img: require("../../../assets/NaturalMnt/Africa/serengeti-national-park.webp"),
@@ -256,9 +246,9 @@ const MapDataEl = [
 
   {
     id: "26",
-    ltr: "E-F",
+    ltr: "Ε",
     title: "Εθνικό Πάρκο Φιόρντλαντ",
-    description: "",
+    description: "Το Εθνικό Πάρκο Φιορντλαντ, που βρίσκεται στο νοτιοδυτικό τμήμα της Νέας Ζηλανδίας, είναι γνωστό για τους εντυπωσιακούς φιόρδ του, όπως το Milford Sound και το Doubtful Sound. Το πάρκο διαθέτει δραματικά τοπία με βαθιά φαράγγια, επιβλητικά βουνά και καταπράσινα τροπικά δάση, καθιστώντας το καταφύγιο για τους λάτρεις της περιπέτειας και της φύσης.",
     img: require("../../../assets/NaturalMnt/Oceania/fiordlandNationalPark.webp"),
     latitude: -45.41155,
     longitude: 167.35768,
@@ -266,7 +256,7 @@ const MapDataEl = [
   },
   {
     id: "90",
-    ltr: "S",
+    ltr: "Ε",
     title: "Ελβετικές Άλπεις",
     description: "",
     img: require("../../../assets/NaturalMnt/Europe/swissapls.jpg"),
@@ -276,9 +266,9 @@ const MapDataEl = [
   },
   {
     id: "30",
-    ltr: "G",
+    ltr: "Ε",
     title: "Έρημος Γκόμπι",
-    description: "",
+    description: "Η Έρημος Γκόμπι, που εκτείνεται στη βόρεια Κίνα και τη νότια Μογγολία, είναι μια απέραντη και άγονη περιοχή γνωστή για τα δραματικά τοπία της και τις ακραίες θερμοκρασίες της. Ως μία από τις μεγαλύτερες ερήμους του κόσμου, διαθέτει ποικιλία τοπίων, όπως αμμόλοφους, βραχώδεις οροπέδια και αλμυρές πεδιάδες, και φιλοξενεί μοναδική άγρια ζωή όπως το καμήλα της Βακτρίας και η χιονισμένη λεοπάρδαλη.",
     img: require("../../../assets/NaturalMnt/Asia/Winter-GobiDesert.webp"),
     latitude: 42.28177,
     longitude: 106.47359,
@@ -286,7 +276,7 @@ const MapDataEl = [
   },
   {
     id: "82",
-    ltr: "S",
+    ltr: "Ε",
     title: "Έρημος Σαχάρα",
     description: "",
     img: require("../../../assets/NaturalMnt/Africa/Sahara-Desert.webp"),
@@ -296,7 +286,7 @@ const MapDataEl = [
   },
   {
     id: "104",
-    ltr: "Z",
+    ltr: "Ζ-Κ",
     title: "Ζανγκτσιάτζιε",
     description: "",
     img: require("../../../assets/NaturalMnt/Asia/ZhangjiajieNationalForestPark.webp"),
@@ -304,19 +294,10 @@ const MapDataEl = [
     longitude: 110.43298,
     zoomLocation: 5.3,
   },
-  {
-    id: "42",
-    ltr: "K",
-    title: "Καουάι",
-    description: "",
-    img: require("../../../assets/NaturalMnt/America/KauaiUSA.webp"),
-    latitude: 22.03524,
-    longitude: -159.53213,
-    zoomLocation: 5.3,
-  },
+ 
   {
     id: "84",
-    ltr: "S",
+    ltr: "Ζ-Κ",
     title: "Καλδέρα Σαντορίνης",
     description: "",
     img: require("../../../assets/NaturalMnt/Europe/Santorini-Caldera.jpg"),
@@ -325,10 +306,20 @@ const MapDataEl = [
     zoomLocation: 5.3,
   },
   {
+    id: "42",
+    ltr: "Ζ-Κ",
+    title: "Καουάι",
+    description: "Το Κάουαϊ, γνωστό ως το \"Νησί των Κήπων\", είναι το αρχαιότερο και βορειότερο από τα νησιά της Χαβάης, φημισμένο για τα καταπράσινα τροπικά δάση του, τους δραματικούς γκρεμούς και τις παρθένες παραλίες του. Με φυσικά θαύματα όπως η Ακτή Να Πάλι και το Φαράγγι Ουαϊμέα, το Κάουαϊ προσφέρει ένα εκπληκτικό τοπίο που προσελκύει πεζοπόρους, σέρφερ και λάτρεις της φύσης από όλο τον κόσμο.",
+    img: require("../../../assets/NaturalMnt/America/KauaiUSA.webp"),
+    latitude: 22.03524,
+    longitude: -159.53213,
+    zoomLocation: 5.3,
+  },
+  {
     id: "14",
-    ltr: "C",
+    ltr: "Ζ-Κ",
     title: "Καππαδοκία",
-    description: "",
+    description: "Η Καππαδοκία, που βρίσκεται στην κεντρική Τουρκία, είναι γνωστή για τα μοναδικά τοπία της, που θυμίζουν παραμύθι, με χαρακτηριστικούς πανύψηλους βραχώδεις σχηματισμούς, σπηλαιώδεις κατοικίες και αρχαίες υπόγειες πόλεις. Αυτή η μαγευτική περιοχή είναι επίσης διάσημη για τις πτήσεις με αερόστατα, προσφέροντας μαγευτικές θέες του σουρεαλιστικού τοπίου.",
     img: require("../../../assets/NaturalMnt/Asia/Cappadocia-valley.webp"),
     latitude: 38.65423,
     longitude: 34.86529,
@@ -336,7 +327,7 @@ const MapDataEl = [
   },
   {
     id: "98",
-    ltr: "V",
+    ltr: "Ζ-Κ",
     title: "Καταρράκτες Βικτώρια",
     description: "",
     img: require("../../../assets/NaturalMnt/Africa/Victoria-Falls.webp"),
@@ -346,9 +337,9 @@ const MapDataEl = [
   },
   {
     id: "2",
-    ltr: "A",
+    ltr: "Ζ-Κ",
     title: "Καταρράκτες Έιντζελ",
-    description: "",
+    description: "Ο Καταρράκτης του Αγγέλου, που βρίσκεται στη Βενεζουέλα, είναι ο ψηλότερος καταρράκτης χωρίς διακοπή στον κόσμο, με πτώση από ύψος 3.212 ποδιών (979 μέτρα). Αυτό το φυσικό θαύμα είναι διάσημο για την εκπληκτική του ομορφιά και την απομακρυσμένη του τοποθεσία στο Εθνικό Πάρκο Canaima.",
     img: require("../../../assets/NaturalMnt/America/Angel-Falls.webp"),
     latitude: 5.93847,
     longitude: -62.55886,
@@ -356,9 +347,9 @@ const MapDataEl = [
   },
   {
     id: "39",
-    ltr: "I",
+    ltr: "Ζ-Κ",
     title: "Καταρράκτες Ιγκουασού",
-    description: "",
+    description: "Οι Καταρράκτες του Ιγκουασού, που βρίσκονται στα σύνορα μεταξύ Αργεντινής και Βραζιλίας, είναι ένα από τα μεγαλύτερα και πιο εντυπωσιακά συστήματα καταρρακτών στον κόσμο. Αποτελούμενοι από πάνω από 270 ξεχωριστούς καταρράκτες, είναι γνωστοί για την εκπληκτική ομορφιά τους, τους ισχυρούς καταρράκτες και το τροπικό δάσος που τους περιβάλλει, καθιστώντας τους μνημείο παγκόσμιας κληρονομιάς της UNESCO και σημαντικό τουριστικό αξιοθέατο.",
     img: require("../../../assets/NaturalMnt/America/iguazufalls.webp"),
     latitude: -25.69083,
     longitude: -54.44105,
@@ -367,7 +358,7 @@ const MapDataEl = [
 
   {
     id: "44",
-    ltr: "K",
+    ltr: "Ζ-Κ",
     title: "Καταρράκτες Καλαντούλα",
     description: "",
     img: require("../../../assets/NaturalMnt/Africa/kalandula-falls-angola.webp"),
@@ -377,9 +368,9 @@ const MapDataEl = [
   },
   {
     id: "22",
-    ltr: "D",
+    ltr: "Ζ-Κ",
     title: "Καταρράκτης Ντέτιφος",
-    description: "",
+    description: "Ο καταρράκτης Ντέτιφος, που βρίσκεται στο βορειοανατολικό τμήμα της Ισλανδίας, είναι ένας από τους πιο ισχυρούς καταρράκτες της Ευρώπης, με πλάτος 100 μέτρα και ύψος 44 μέτρα. Η τεράστια ροή του και ο βροντώδης ήχος του δημιουργούν ένα δραματικό και εντυπωσιακό φυσικό θέαμα.",
     img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
     latitude: 65.81459,
     longitude: -16.38458,
@@ -387,7 +378,7 @@ const MapDataEl = [
   },
   {
     id: "72",
-    ltr: "N",
+    ltr: "Ζ-Κ",
     title: "Καταρράκτες του Νιαγάρα",
     description: "",
     img: require("../../../assets/NaturalMnt/America/NiagaraFalls.webp"),
@@ -397,9 +388,9 @@ const MapDataEl = [
   },
   {
     id: "41",
-    ltr: "J",
+    ltr: "Ζ-Κ",
     title: "Κοιλάδα Τζιουτζαϊγκού",
-    description: "",
+    description: "Η Κοιλάδα Τζιουτζαϊγκού, που βρίσκεται στην επαρχία Σιτσουάν της Κίνας, είναι ένα εντυπωσιακό φυσικό καταφύγιο γνωστό για τις πολύχρωμες λίμνες του, τους καταρράκτες και τις χιονισμένες κορυφές. Αυτό το μνημείο παγκόσμιας κληρονομιάς της UNESCO είναι διάσημο για την εκπληκτική φυσική του ομορφιά και τα ποικιλόμορφα οικοσυστήματά του, καθιστώντας το δημοφιλή προορισμό για τους λάτρεις της φύσης και τους φωτογράφους.",
     img: require("../../../assets/NaturalMnt/Asia/Jiuzhaigou-Valley.webp"),
     latitude: 33.20426,
     longitude: 103.90369,
@@ -407,9 +398,9 @@ const MapDataEl = [
   },
   {
     id: "36",
-    ltr: "H",
+    ltr: "Ζ-Κ",
     title: "Κόλπος του Χα Λονγκ",
-    description: "",
+    description: "Ο Κόλπος Χαλόνγκ, που βρίσκεται στο βορειοανατολικό Βιετνάμ, είναι γνωστός για τα σμαραγδένια νερά του και τις χιλιάδες πύργους ασβεστόλιθου με καταπράσινα τροπικά δάση στην κορυφή τους. Αυτός ο τόπος παγκόσμιας κληρονομιάς της UNESCO είναι γνωστός για την εκπληκτική φυσική ομορφιά του, τις μοναδικές σχηματισμένες πέτρες και την πλούσια πολιτιστική του ιστορία, καθιστώντας τον δημοφιλή προορισμό για κρουαζιέρες και εξερεύνηση.",
     img: require("../../../assets/NaturalMnt/Asia/halongbay-0.png"),
     latitude: 20.87487,
     longitude: 107.12195,
@@ -418,7 +409,7 @@ const MapDataEl = [
 
   {
     id: "71",
-    ltr: "N",
+    ltr: "Ζ-Κ",
     title: "Κρατήρας Νγκορονγκόρο",
     description: "",
     img: require("../../../assets/NaturalMnt/Africa/ngorongo.jpg"),
@@ -429,7 +420,7 @@ const MapDataEl = [
 
   {
     id: "70",
-    ltr: "M",
+    ltr: "Λ",
     title: "Λασποηφαίστεια",
     description: "",
     img: require("../../../assets/NaturalMnt/Asia/mud-volcanoes-in-gobustan.jpg"),
@@ -439,9 +430,9 @@ const MapDataEl = [
   },
   {
     id: "5",
-    ltr: "A",
+    ltr: "Λ",
     title: "Λεωφόρος των Μπαομπάμπ",
-    description: "",
+    description: "Η Λεωφόρος των Μπαομπάμπ, που βρίσκεται στη Μαδαγασκάρη, είναι ένα εκπληκτικό τοπίο με επιβλητικά δέντρα μπαομπάμπ κατά μήκος ενός χωματόδρομου. Αυτός ο εμβληματικός τόπος είναι διάσημος για την μοναδική του ομορφιά και αποτελεί έναν από τους πιο φωτογραφημένους προορισμούς στη χώρα.",
     img: require("../../../assets/NaturalMnt/Africa/avenueofboababs.webp"),
     latitude: -20.25064,
     longitude: 44.41965,
@@ -450,7 +441,7 @@ const MapDataEl = [
 
   {
     id: "52",
-    ltr: "M",
+    ltr: "Λ",
     title: "Λίμνη Μορέιν",
     description: "",
     img: require("../../../assets/NaturalMnt/America/Moraine-Lake.webp"),
@@ -461,7 +452,7 @@ const MapDataEl = [
 
   {
     id: "45",
-    ltr: "L",
+    ltr: "Λ",
     title: "Λίμνη Μπλεντ",
     description: "",
     img: require("../../../assets/NaturalMnt/Europe/lake-bled.webp"),
@@ -471,7 +462,7 @@ const MapDataEl = [
   },
   {
     id: "79",
-    ltr: "P",
+    ltr: "Λ",
     title: "Λίμνες Πλίτβιτσε",
     description: "",
     img: require("../../../assets/NaturalMnt/Europe/Plitvice-lakes.webp"),
@@ -481,7 +472,7 @@ const MapDataEl = [
   },
   {
     id: "47",
-    ltr: "L",
+    ltr: "Λ",
     title: "Λίμνη Τιτικάκα",
     description: "",
     img: require("../../../assets/NaturalMnt/America/lakeTiticaca.webp"),
@@ -491,7 +482,7 @@ const MapDataEl = [
   },
   {
     id: "46",
-    ltr: "L",
+    ltr: "Λ",
     title: "Λίμνη Χίλιερ",
     description: "",
     img: require("../../../assets/NaturalMnt/Oceania/lakehillier.webp"),
@@ -501,7 +492,7 @@ const MapDataEl = [
   },
   {
     id: "50",
-    ltr: "M",
+    ltr: "Λ",
     title: "Λόφοι Μίτεν",
     description: "",
     img: require("../../../assets/NaturalMnt/America/mitten-butte.webp"),
@@ -511,7 +502,7 @@ const MapDataEl = [
   },
   {
     id: "48",
-    ltr: "M",
+    ltr: "Μ",
     title: "Μαρμάρινες Σπηλιές",
     description: "",
     img: require("../../../assets/NaturalMnt/America/marble-caves-chile.png"),
@@ -521,9 +512,9 @@ const MapDataEl = [
   },
   {
     id: "24",
-    ltr: "E-F",
+    ltr: "Μ",
     title: "Μάτι της Γης",
-    description: "",
+    description: "Το Μάτι της Γης, που βρίσκεται στη Μαυριτανία, είναι μια εκτενής γεωλογική δομή γνωστή και ως η Δομή Richat. Αυτή η κυκλική, πολυεδρική δομή είναι ένα εξέχον ορόσημο ορατό από το διάστημα, και η προέλευσή της εξακολουθεί να συζητείται μεταξύ των επιστημόνων, με εικασίες που κυμαίνονται από κρατήρες πρόσκρουσης έως πρότυπα διάβρωσης.",
     img: require("../../../assets/NaturalMnt/Europe/eyelake.jpg"),
     latitude: 43.97684,
     longitude: 16.42993,
@@ -531,20 +522,29 @@ const MapDataEl = [
   },
   {
     id: "8",
-    ltr: "B",
+    ltr: "Μ",
     title: "Μαύρος Δάσος",
-    description: "",
+    description: "Το Μέλανας Δρυμός (Black Forest), που βρίσκεται στη νοτιοδυτική Γερμανία, είναι μια μεγάλη, πυκνοδασωμένη οροσειρά γνωστή για τα γραφικά χωριά της, τα ρολόγια κούκου και τα μαγευτικά τοπία. Είναι ένας δημοφιλής προορισμός για πεζοπορία, με τα σκοτεινά, μυστηριώδη δάση και τους κυματιστούς λόφους του.",
     img: require("../../../assets/NaturalMnt/Europe/blackForest.webp"),
     latitude: 48.28879,
     longitude: 8.09815,
     zoomLocation: 5.3,
   },
-
+  {
+    id: "35",
+    ltr: "Μ",
+    title: "Μεγάλα Καπνιστά Βουνά",
+    description: "Τα Μεγάλα Καπνιστά Βουνά, που εκτείνονται στα σύνορα μεταξύ Βόρειας Καρολίνας και Τενεσί των ΗΠΑ, είναι γνωστά για την γαλάζια ομίχλη τους και την πλούσια βιοποικιλότητα τους. Ως μέρος της οροσειράς των Απαλαχίων, αυτό το μνημείο παγκόσμιας κληρονομιάς της UNESCO προσφέρει καταπράσινα δάση, ποικιλόμορφη άγρια ζωή και πολυάριθμα μονοπάτια πεζοπορίας, καθιστώντας το ένα από τα πιο επισκέψιμα εθνικά πάρκα στις Ηνωμένες Πολιτείες.",
+    img: require("../../../assets/NaturalMnt/America/GreatSmokyMountains.webp"),
+    latitude: 35.62029,
+    longitude: -83.50874,
+    zoomLocation: 5.3,
+  },
   {
     id: "32",
-    ltr: "G",
+    ltr: "Μ",
     title: "Μεγάλος Κοραλλιογενής Ύφαλος",
-    description: "",
+    description: "Το Μεγάλο Κοραλλιογενές Ύφαλος, που βρίσκεται ανοιχτά της ακτής του Κουίνσλαντ στην Αυστραλία, είναι το μεγαλύτερο σύστημα κοραλλιογενών υφάλων στον κόσμο, εκτεινόμενο σε πάνω από 2.300 χιλιόμετρα. Γνωστός για την πολύχρωμη θαλάσσια ζωή του και τα ποικιλόμορφα οικοσυστήματα, είναι μνημείο Παγκόσμιας Κληρονομιάς της UNESCO και κορυφαίος προορισμός για καταδύσεις, σνέρκλινγκ και προστασία της θαλάσσιας ζωής.",
     img: require("../../../assets/NaturalMnt/Oceania/greatBarrierReef.webp"),
     latitude: -19.50604,
     longitude: 149.04688,
@@ -552,9 +552,9 @@ const MapDataEl = [
   },
   {
     id: "33",
-    ltr: "G",
+    ltr: "Μ",
     title: "Μεγάλη Μπλε Τρύπα",
-    description: "",
+    description: "H Μεγάλο Μπλε Τρύπα, που βρίσκεται ανοιχτά της ακτής του Μπελίζ στην Καραϊβική Θάλασσα, είναι μια τεράστια υποθαλάσσια \"τρύπα\" γνωστή για το βαθύ μπλε χρώμα της και τις μοναδικές γεωλογικές της μορφές. Με διάμετρο πάνω από 300 μέτρα και βάθος 124 μέτρων, είναι δημοφιλής προορισμός για καταδύσεις και θαλάσσιες έρευνες.",
     img: require("../../../assets/NaturalMnt/America/Great-Blue-Hole.webp"),
     latitude: 17.31461,
     longitude: -87.53544,
@@ -563,7 +563,7 @@ const MapDataEl = [
 
   {
     id: "49",
-    ltr: "M",
+    ltr: "Μ",
     title: "Μετέωρα",
     description: "",
     img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
@@ -573,9 +573,9 @@ const MapDataEl = [
   },
   {
     id: "10",
-    ltr: "B",
+    ltr: "Μ",
     title: "Μπλε Βουνά",
-    description: "",
+    description: "Τα Μπλε Όρη, που βρίσκονται κοντά στο Σίδνεϊ της Αυστραλίας, είναι μια τραχιά περιοχή γνωστή για το εντυπωσιακό τοπίο της, τα δάση ευκαλύπτου και την χαρακτηριστική μπλε ομίχλη που δημιουργείται από τα σταγονίδια ελαίου των δέντρων. Αυτή η περιοχή, η οποία έχει ανακηρυχθεί Μνημείο Παγκόσμιας Κληρονομιάς, προσφέρει εντυπωσιακά σημεία θέασης, καταρράκτες και πλούσια πανίδα.",
     img: require("../../../assets/NaturalMnt/Oceania/Australia-Blue-Mountains.webp"),
     latitude: -33.64887,
     longitude: 150.41979,
@@ -583,9 +583,9 @@ const MapDataEl = [
   },
   {
     id: "9",
-    ltr: "B",
+    ltr: "Μ",
     title: "Μπλε Λιμνοθάλασσα",
-    description: "",
+    description: "Η Μπλε Λιμνοθάλασσα, που βρίσκεται στην Ισλανδία, είναι ένα γεωθερμικό σπα γνωστό για τα γαλαζοπράσινα νερά του, πλούσια σε μέταλλα. Περιτριγυρισμένη από πεδία λάβας, προσφέρει μια μοναδική και χαλαρωτική εμπειρία, προσελκύοντας επισκέπτες από όλο τον κόσμο.",
     img: require("../../../assets/NaturalMnt/Europe/BlueLagoon.webp"),
     latitude: 63.87905,
     longitude: -22.44537,
@@ -594,9 +594,9 @@ const MapDataEl = [
 
   {
     id: "11",
-    ltr: "B",
+    ltr: "Μ",
     title: "Μπόρα Μπόρα",
-    description: "",
+    description: "Τα Μπόρα Μπόρα, που βρίσκεται στην Γαλλική Πολυνησία, είναι ένας τροπικός παράδεισος γνωστός για τα κρυστάλλινα τυρκουάζ νερά, τα μπανγκαλόου πάνω από το νερό και τους ζωντανούς κοραλλιογενείς υφάλους. Περιτριγυρισμένη από μια λιμνοθάλασσα και έναν φραγμό υφάλων, είναι ένας παγκοσμίου φήμης προορισμός για πολυτελείς διακοπές και ρομαντικές αποδράσεις.",
     img: require("../../../assets/NaturalMnt/Asia/bora_bora.webp"),
     latitude: -16.50461,
     longitude: -151.74263,
@@ -604,7 +604,7 @@ const MapDataEl = [
   },
   {
     id: "73",
-    ltr: "N",
+    ltr: "Ν",
     title: "Νείλος",
     description: "",
     img: require("../../../assets/NaturalMnt/Africa/RiverNile.webp"),
@@ -613,8 +613,18 @@ const MapDataEl = [
     zoomLocation: 5.3,
   },
   {
+    id: '20a',
+    ltr: 'Ν',
+    title: 'Νεκρά Θάλασσα',
+    description: 'Η Νεκρά Θάλασσα, που βρίσκεται μεταξύ του Ισραήλ και της Ιορδανίας, είναι διάσημη για την ακραία αλμυρότητά της, η οποία επιτρέπει στους ανθρώπους να επιπλέουν χωρίς προσπάθεια στην επιφάνειά της. Τα μοναδικά πλούσια σε μέταλλα νερά και η λάσπη της είναι γνωστά για τις θεραπευτικές τους ιδιότητες, και το χαμηλότερο σημείο της επιφάνειας της Γης την καθιστά ένα σημαντικό φυσικό θαύμα.',
+    img: require('../../../assets/NaturalMnt/Asia/DeadSea.jpg'),
+    latitude: 31.50401,
+    longitude: 35.47916,
+    zoomLocation: 5.3,
+},
+  {
     id: "51",
-    ltr: "M",
+    ltr: "Ν",
     title: "Νεφελώδες Δάσος Μοντεβέρδε",
     description: "",
     img: require("../../../assets/NaturalMnt/America/Monteverde-cloud-forest-Costa-Rica.webp"),
@@ -625,9 +635,9 @@ const MapDataEl = [
 
   {
     id: "28",
-    ltr: "G",
+    ltr: "Ν",
     title: "Νησιά Γκαλαπάγκος",
-    description: "",
+    description: "Τα Νησιά Γκαλαπάγκος, που βρίσκονται στον Ειρηνικό Ωκεανό, έξω από την ακτή του Ισημερινού, είναι γνωστά για τη μοναδική τους άγρια ζωή και τα ποικιλόμορφα οικοσυστήματά τους. Αυτά τα ηφαιστειακά νησιά, που έγιναν διάσημα χάρη στις μελέτες του Κάρολου Δαρβίνου, προσφέρουν στους επισκέπτες εξαιρετικές ευκαιρίες να δουν είδη που δεν βρίσκονται πουθενά αλλού στη Γη, όπως τις γιγάντιες χελώνες και τις θαλάσσιες ιγκουάνα.",
     img: require("../../../assets/NaturalMnt/America/galapagosIslands.webp"),
     latitude: -0.42,
     longitude: -90.41273,
@@ -635,9 +645,9 @@ const MapDataEl = [
   },
   {
     id: "40",
-    ltr: "I",
+    ltr: "Ν",
     title: "Νήσος Σκάι",
-    description: "",
+    description: "Το Νησί Σκάι, που βρίσκεται ανοιχτά της δυτικής ακτής της Σκωτίας, είναι γνωστό για τα τραχιά τοπία του, τα εντυπωσιακά βράχια και τα γραφικά χωριά του. Διάσημο για την εκπληκτική φυσική του ομορφιά, συμπεριλαμβανομένης της οροσειράς Κούιλιν και των Πηγών των Νεράιδων, είναι δημοφιλής προορισμός για πεζοπόρους, φωτογράφους και όσους αναζητούν τη γοητεία των Σκωτσέζικων Υψιπέδων.",
     img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
     latitude: 57.27101,
     longitude: -6.15283,
@@ -645,7 +655,7 @@ const MapDataEl = [
   },
   {
     id: "92",
-    ltr: "T",
+    ltr: "Ο",
     title: "Ο Δρόμος του Μεγάλου Ωκεανού",
     description: "",
     img: require("../../../assets/NaturalMnt/Oceania/TheGreatOceanRoad.webp"),
@@ -656,7 +666,7 @@ const MapDataEl = [
 
   {
     id: "94",
-    ltr: "T",
+    ltr: "Ο",
     title: "Οι Δώδεκα Απόστολοι",
     description: "",
     img: require("../../../assets/NaturalMnt/Oceania/12-apostels.webp"),
@@ -666,7 +676,7 @@ const MapDataEl = [
   },
   {
     id: "57",
-    ltr: "M",
+    ltr: "Ο",
     title: "Όρος Αίτνα",
     description: "",
     img: require("../../../assets/NaturalMnt/Europe/mountEtna.webp"),
@@ -676,7 +686,7 @@ const MapDataEl = [
   },
   {
     id: "53",
-    ltr: "M",
+    ltr: "Ο",
     title: "Όρος Αραράτ",
     description: "",
     img: require("../../../assets/NaturalMnt/Asia/mountArarat.webp"),
@@ -686,7 +696,7 @@ const MapDataEl = [
   },
   {
     id: "68",
-    ltr: "M",
+    ltr: "Ο",
     title: "Όρος Βεζούβιος",
     description: "",
     img: require("../../../assets/NaturalMnt/Europe/mount-vesuvius.webp"),
@@ -696,7 +706,7 @@ const MapDataEl = [
   },
   {
     id: "69",
-    ltr: "M",
+    ltr: "Ο",
     title: "Όρος Γιασούρ",
     description: "",
     img: require("../../../assets/NaturalMnt/Oceania/yasur_mount.webp"),
@@ -706,7 +716,7 @@ const MapDataEl = [
   },
   {
     id: "58",
-    ltr: "M",
+    ltr: "Ο",
     title: "Όρος Έβερεστ",
     description: "",
     img: require("../../../assets/NaturalMnt/Asia/Mount-Everest.webp"),
@@ -716,7 +726,7 @@ const MapDataEl = [
   },
   {
     id: "56",
-    ltr: "M",
+    ltr: "Ο",
     title: "Όρος Ελμπρούς",
     description: "",
     img: require("../../../assets/NaturalMnt/Europe/mount-elbrus.webp"),
@@ -727,7 +737,7 @@ const MapDataEl = [
 
   {
     id: "61",
-    ltr: "M",
+    ltr: "Ο",
     title: "Όρος Κένυα",
     description: "",
     img: require("../../../assets/NaturalMnt/Africa/mountKenya.webp"),
@@ -737,7 +747,7 @@ const MapDataEl = [
   },
   {
     id: "62",
-    ltr: "M",
+    ltr: "Ο",
     title: "Όρος Κιλιμάντζαρο",
     description: "",
     img: require("../../../assets/NaturalMnt/Africa/Kilimanjaro.webp"),
@@ -747,7 +757,7 @@ const MapDataEl = [
   },
   {
     id: "63",
-    ltr: "M",
+    ltr: "Ο",
     title: "Όρος Κιναμπάλου",
     description: "",
     img: require("../../../assets/NaturalMnt/Asia/MountKinabalu.webp"),
@@ -757,7 +767,7 @@ const MapDataEl = [
   },
   {
     id: "55",
-    ltr: "M",
+    ltr: "Ο",
     title: "Όρος Κουκ",
     description: "",
     img: require("../../../assets/NaturalMnt/Oceania/mountcook.webp"),
@@ -767,7 +777,7 @@ const MapDataEl = [
   },
   {
     id: "54",
-    ltr: "M",
+    ltr: "Ο",
     title: "Όρος Μπρόμο",
     description: "",
     img: require("../../../assets/NaturalMnt/Asia/mountArarat.webp"),
@@ -778,7 +788,7 @@ const MapDataEl = [
 
   {
     id: "64",
-    ltr: "M",
+    ltr: "Ο",
     title: "Όρος Οτεμανού",
     description: "",
     img: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
@@ -788,7 +798,7 @@ const MapDataEl = [
   },
   {
     id: "65",
-    ltr: "M",
+    ltr: "Ο",
     title: "Όρος Ρενιέρ",
     description: "",
     img: require("../../../assets/NaturalMnt/America/mount rainier.webp"),
@@ -798,7 +808,7 @@ const MapDataEl = [
   },
   {
     id: "66",
-    ltr: "M",
+    ltr: "Ο",
     title: "Όρος Σινά",
     description: "",
     img: require("../../../assets/NaturalMnt/Africa/mountSinai.webp"),
@@ -808,7 +818,7 @@ const MapDataEl = [
   },
   {
     id: "67",
-    ltr: "M",
+    ltr: "Ο",
     title: "Όρος Τέιδε",
     description: "",
     img: require("../../../assets/NaturalMnt/Europe/mountTeide.webp"),
@@ -818,7 +828,7 @@ const MapDataEl = [
   },
   {
     id: "59",
-    ltr: "M",
+    ltr: "Ο",
     title: "Όρος Φούτζι",
     description: "",
     img: require("../../../assets/NaturalMnt/Asia/mount_fuji.webp"),
@@ -828,7 +838,7 @@ const MapDataEl = [
   },
   {
     id: "60",
-    ltr: "M",
+    ltr: "Ο",
     title: "Όρος Χουάνγκ",
     description: "",
     img: require("../../../assets/NaturalMnt/Asia/mountHuangshan.webp"),
@@ -839,7 +849,7 @@ const MapDataEl = [
 
   {
     id: "99",
-    ltr: "W",
+    ltr: "Ο",
     title: "Ουάντι Ραμ",
     description: "",
     img: require("../../../assets/NaturalMnt/Asia/wadi-rum.webp"),
@@ -850,9 +860,9 @@ const MapDataEl = [
 
   {
     id: "6",
-    ltr: "A",
+    ltr: "Ο",
     title: "Ουλουρού",
-    description: "",
+    description: "Το Ayers Rock, γνωστό και ως Uluru, είναι ένας τεράστιος μονολιθικός ψαμμίτης που βρίσκεται στην καρδιά της Βόρειας Επικράτειας της Αυστραλίας. Είναι ιερός τόπος για τον ιθαγενή λαό Anangu και είναι διάσημο για το εντυπωσιακό κόκκινο χρώμα του, το οποίο αλλάζει δραματικά την ανατολή και τη δύση του ηλίου.",
     img: require("../../../assets/NaturalMnt/Oceania/Ayers-Rock.webp"),
     latitude: -25.34488,
     longitude: 131.03388,
@@ -861,9 +871,9 @@ const MapDataEl = [
 
   {
     id: "27",
-    ltr: "E-F",
+    ltr: "Π",
     title: "Παγετώνας Φοξ",
-    description: "",
+    description: "Ο Παγετώνας Φοξ, που βρίσκεται στο Νότιο Νησί της Νέας Ζηλανδίας, είναι ένας εντυπωσιακός παγετώνας που καταλήγει από τα Νότια Άλπεα σε τροπικό δάσος. Γνωστός για τις δραματικές μορφές πάγου του και την προσβασιμότητά του, προσφέρει στους επισκέπτες την ευκαιρία να εξερευνήσουν τις μπλε σπηλιές πάγου και τις ρωγμές του μέσω καθοδηγούμενων περιηγήσεων και περιπετειών με ελικόπτερο.",
     img: require("../../../assets/NaturalMnt/Oceania/fox-glacier.jpg"),
     latitude: -43.46657,
     longitude: 169.96378,
@@ -871,7 +881,7 @@ const MapDataEl = [
   },
   {
     id: "77",
-    ltr: "P",
+    ltr: "Π",
     title: "Παμούκαλε",
     description: "",
     img: require("../../../assets/NaturalMnt/Asia/Pamukkale.webp"),
@@ -882,7 +892,7 @@ const MapDataEl = [
 
   {
     id: "74",
-    ltr: "N",
+    ltr: "Π",
     title: "Παραλία Ενενήντα Μιλίων",
     description: "",
     img: require("../../../assets/NaturalMnt/Oceania/NinetyMileBeach.jpg"),
@@ -892,9 +902,9 @@ const MapDataEl = [
   },
   {
     id: "38",
-    ltr: "H",
+    ltr: "Π",
     title: "Περιοχή Τοπίων Χουάνγκλονγκ",
-    description: "",
+    description: "Η Περιοχή Φυσικής Ομορφιάς Χουανγκλόνγκ, που βρίσκεται στην επαρχία Σιτσουάν της Κίνας, είναι γνωστή για τους εντυπωσιακούς ασβεστολιθικούς σχηματισμούς της, τις ζωηρές τυρκουάζ λίμνες και τα καταπράσινα δάση. Αυτό το μνημείο παγκόσμιας κληρονομιάς της UNESCO φιλοξενεί επίσης ποικιλόμορφη άγρια ζωή και είναι διάσημο για τον μοναδικό συνδυασμό φυσικής ομορφιάς και πολιτιστικής σημασίας, καθιστώντας το δημοφιλή προορισμό για τους λάτρεις της φύσης και τους τουρίστες.",
     img: require("../../../assets/NaturalMnt/Asia/huanglongScenicArea.webp"),
     latitude: 32.74312,
     longitude: 103.83282,
@@ -902,7 +912,7 @@ const MapDataEl = [
   },
   {
     id: "80",
-    ltr: "P",
+    ltr: "Π",
     title: "Πέτρινος Αμβωνας",
     description: "",
     img: require("../../../assets/NaturalMnt/Europe/pulpitRock.webp"),
@@ -913,7 +923,7 @@ const MapDataEl = [
 
   {
     id: "78",
-    ltr: "P",
+    ltr: "Π",
     title: "Πίκος ντε Εουρόπα",
     description: "",
     img: require("../../../assets/NaturalMnt/Europe/PicosdeEuropa.webp"),
@@ -923,9 +933,9 @@ const MapDataEl = [
   },
   {
     id: "23",
-    ltr: "D",
+    ltr: "Π",
     title: "Πύργος του Διαβόλου",
-    description: "",
+    description: "Ο Πύργος του Διαβόλου, που βρίσκεται στο βορειοανατολικό Ουαϊόμινγκ των ΗΠΑ, είναι ένα εντυπωσιακό μονόλιθος γνωστός για τις μοναδικές κάθετες στήλες βασάλτου του. Ονομασμένος ως το πρώτο εθνικό μνημείο στις ΗΠΑ, αποτελεί μια εξέχουσα γεωλογική μορφή και ιερό τόπο για διάφορες φυλές των ιθαγενών Αμερικανών.",
     img: require("../../../assets/NaturalMnt/America//devils-tower.webp"),
     latitude: 44.58964,
     longitude: -104.71511,
@@ -933,9 +943,9 @@ const MapDataEl = [
   },
   {
     id: "37",
-    ltr: "H",
+    ltr: "Π",
     title: "Πύλη του Ουρανού",
-    description: "",
+    description: "Η Πύλη του Ουρανού, που βρίσκεται στο βουνό Τιανμέν στο Τζανγκτζιατζιέ, Κίνα, είναι μια φυσική αψίδα σκαλισμένη στο βουνό, με ύψος πάνω από 130 μέτρα. Αυτό το εκπληκτικό ορόσημο είναι γνωστό για την δραματική του θέα και την απότομη, ελικοειδή σκάλα που οδηγεί στην κορυφή, προσελκύοντας επισκέπτες που αναζητούν τόσο πνευματική σημασία όσο και φυσική ομορφιά.",
     img: require("../../../assets/NaturalMnt/Asia/heavensgate.jpg"),
     latitude: 29.04438,
     longitude: 110.48299,
@@ -943,7 +953,7 @@ const MapDataEl = [
   },
   {
     id: "95",
-    ltr: "T",
+    ltr: "Π",
     title: "Πύργοι του Πάινε",
     description: "",
     img: require("../../../assets/NaturalMnt/America/torres-del-paine.webp"),
@@ -954,7 +964,7 @@ const MapDataEl = [
 
   {
     id: "83",
-    ltr: "S",
+    ltr: "Σ",
     title: "Σαλάρ ντε Ουγιούνι",
     description: "",
     img: require("../../../assets/NaturalMnt/America/SalardeUyuni.webp"),
@@ -964,7 +974,7 @@ const MapDataEl = [
   },
   {
     id: "88",
-    ltr: "S",
+    ltr: "Σ",
     title: "Σκάφταφελ",
     description: "",
     img: require("../../../assets/NaturalMnt/Europe/skaftafell.webp"),
@@ -974,7 +984,7 @@ const MapDataEl = [
   },
   {
     id: "89",
-    ltr: "S",
+    ltr: "Σ",
     title: "Σοσουσβλέι",
     description: "",
     img: require("../../../assets/NaturalMnt/Africa/Sossusvlei-Dunes.webp"),
@@ -985,9 +995,9 @@ const MapDataEl = [
 
   {
     id: "25",
-    ltr: "E-F",
+    ltr: "Σ",
     title: "Σπήλαιο του Φίνγκαλ",
-    description: "",
+    description: "Η Σπηλιά του Φίνγκολ, που βρίσκεται στο ακατοίκητο νησί Στάφα στη Σκωτία, είναι διάσημη για τις δραματικές στήλες βασάλτου της και την εντυπωσιακή φυσική της ακουστική. Η σπηλιά, που σχηματίστηκε από ηφαιστειακή δραστηριότητα, είναι γνωστή για το μοναδικό εσωτερικό της, σχεδόν σαν καθεδρική ναός, και έχει εμπνεύσει πολλούς καλλιτέχνες και συνθέτες.",
     img: require("../../../assets/NaturalMnt/Europe/Fingalscave.jpg"),
     latitude: 56.43137,
     longitude: -6.34141,
@@ -995,9 +1005,9 @@ const MapDataEl = [
   },
   {
     id: "18",
-    ltr: "C",
+    ltr: "Σ",
     title: "Στρεβλό Δάσος",
-    description: "",
+    description: "Το Στρεβλό Δάσος, που βρίσκεται στη δυτική Πολωνία, είναι διάσημο για την ομάδα από περίπου 400 πεύκα με ασυνήθιστα καμπυλωμένα κορμούς. Η ακριβής αιτία αυτών των ιδιόμορφων σχημάτων παραμένει άγνωστη, προσθέτοντας έναν αέρα μυστηρίου και γοητείας στο δάσος.",
     img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
     latitude: 53.21406,
     longitude: 14.47583,
@@ -1006,7 +1016,7 @@ const MapDataEl = [
 
   {
     id: "96",
-    ltr: "T",
+    ltr: "Τ-Φ",
     title: "Τρολτούγκα",
     description: "",
     img: require("../../../assets/NaturalMnt/Europe/Trolltunga.webp"),
@@ -1028,7 +1038,7 @@ const MapDataEl = [
 
   {
     id: "97",
-    ltr: "U",
+    ltr: "Τ-Φ",
     title: "Υποβρύχιοι Καταρράκτες",
     description: "",
     img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
@@ -1038,9 +1048,9 @@ const MapDataEl = [
   },
   {
     id: "3",
-    ltr: "A",
+    ltr: "Τ-Φ",
     title: "Φαράγγι Αντίλοπα",
-    description: "",
+    description: "Το Φαράγγι της Αντιλόπης, που βρίσκεται στην Αριζόνα των ΗΠΑ, είναι ένα εντυπωσιακό φαράγγι σχισμής, γνωστό για τη κυματιστή του δομή και τα έντονα, μεταβαλλόμενα χρώματα. Σχηματισμένο από διάβρωση, είναι δημοφιλής προορισμός για φωτογράφους και λάτρεις της φύσης.",
     img: require("../../../assets/NaturalMnt/America/Antelope-Canyon.webp"),
     latitude: 36.84532,
     longitude: -111.38205,
@@ -1049,9 +1059,9 @@ const MapDataEl = [
 
   {
     id: "16",
-    ltr: "C",
+    ltr: "Τ-Φ",
     title: "Φαράγγι Τσαρίν",
-    description: "",
+    description: "Το Φαράγγι Τσαρίν, που βρίσκεται στο Καζακστάν, είναι γνωστό για τις εντυπωσιακά πολύχρωμες γεωλογικές του σχηματισμούς και τα δραματικά τοπία του. Συχνά αναφέρεται ως ο \"μικρός αδελφός του Μεγάλου Φαραγγιού\", διαθέτει μοναδικούς σχηματισμούς από διάβρωση και προσφέρει μαγευτικές θέες του τραχού εδάφους του.",
     img: require("../../../assets/NaturalMnt/Asia/charynCanyon.webp"),
     latitude: 43.23736,
     longitude: 78.86591,

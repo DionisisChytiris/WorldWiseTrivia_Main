@@ -86,7 +86,7 @@ const AmerMntEs = [
   {
     id: "13",
     img: require("../../../assets/NaturalMnt/America/GreatSmokyMountains.webp"),
-    name: "Montañas Great Smoky",
+    name: "Grandes Montañas Humeantes",
     country: "EE.UU.",
     city: "Tennesse-Carolina del Norte",
   },
@@ -105,6 +105,13 @@ const AmerMntEs = [
     city: "",
   },
   {
+    id: "18",
+    img: require("../../../assets/NaturalMnt/America/chadadaDiamantina.webp"),
+    name: "Parque nacional de la Chapada de la Diamantina",
+    country: "Brasil",
+    city: "",
+  },
+  {
     id: "16",
     img: require("../../../assets/NaturalMnt/America/Arches-National-Park.webp"),
     name: "Parque Nacional de los Arcos",
@@ -118,13 +125,7 @@ const AmerMntEs = [
     country: "EE.UU.",
     city: "Utah",
   },
-  {
-    id: "18",
-    img: require("../../../assets/NaturalMnt/America/chadadaDiamantina.webp"),
-    name: "Parque nacional de la Chapada de la Diamantina",
-    country: "Brasil",
-    city: "",
-  },
+
   {
     id: "19",
     img: require("../../../assets/NaturalMnt/America/white-sandsNationalPark.webp"),

@@ -11,14 +11,18 @@ import React, { useState, useRef,useCallback }  from 'react'
 import { AntDesign } from "@expo/vector-icons";
 import MapView, { MAP_TYPES, Marker, PROVIDER_GOOGLE } from "react-native-maps";
 import { useSelector } from "react-redux";
+import { useTranslation } from "react-i18next";
 import MapDataEn from '../../../data/naturalMnts/Map/MapEn';
+import MapDataEl from '../../../data/naturalMnts/Map/MapEl';
+import MapDataEs from '../../../data/naturalMnts/Map/MapEs';
 
 const { width, height } = Dimensions.get("window");
 const ASPECT_RATIO = (width * 100) / height;
 
 const Map = () => {
-  const dataMap = MapDataEn
-  const {mapMonumentsItem} =useSelector((state) => state.MonumentMapNames)
+  const dataMap = MapDataEs
+  const {mapNaturalMntItem} =useSelector((state) => state.NaturalMntMapNames)
+  const { t } = useTranslation();
   const [region, setRegion] = useState({
     latitude: 37.78825,
     longitude: -122.4324,
@@ -103,19 +107,19 @@ const Map = () => {
         </View>
         <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
           <View style={{ gap: 0, flexDirection: "row" }}>
-            <LetterButton ltr="A" />
-            <LetterButton ltr="B" />
-            <LetterButton ltr="C" />
-            <LetterButton ltr="D" />
-            <LetterButton ltr="E-F" />
-            <LetterButton ltr="G" />
-            <LetterButton ltr="H-J" />
-            <LetterButton ltr="K-L" />
-            <LetterButton ltr="M" />
-            <LetterButton ltr="N-P" />
-            <LetterButton ltr="R-S" />
-            <LetterButton ltr="T" />
-            <LetterButton ltr="U-Z" />
+            <LetterButton ltr={t("Ntrltr1")}/>
+            <LetterButton ltr={t("Ntrltr2")}/>
+            <LetterButton ltr={t("Ntrltr3")} />
+            <LetterButton ltr={t("Ntrltr4")} />
+            <LetterButton ltr={t("Ntrltr5")}/>
+            <LetterButton ltr={t("Ntrltr6")} />
+            <LetterButton ltr={t("Ntrltr7")} />
+            <LetterButton ltr={t("Ntrltr8")} />
+            <LetterButton ltr={t("Ntrltr9")}/>
+            <LetterButton ltr={t("Ntrltr10")}/>
+            <LetterButton ltr={t("Ntrltr11")} />
+            <LetterButton ltr={t("Ntrltr12")}/>
+            <LetterButton ltr={t("Ntrltr13")}/>
           </View>
         </ScrollView>
         <View style={{ alignItems: "center", justifyContent: "center" }}>
@@ -125,7 +129,7 @@ const Map = () => {
 
       <View style={styles.buttonContainer}>
         <ScrollView horizontal={true}>
-          {dataMap.map((item, index) => {
+          {mapNaturalMntItem.map((item, index) => {
           // {mapMonumentsItem.map((item, index) => {
             // const [test, setTest] =React.useState(1)
             return (

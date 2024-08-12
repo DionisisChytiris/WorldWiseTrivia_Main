@@ -28,6 +28,13 @@ const AfrMntEs = [
         city: '',
     },
     {
+        id: '11',
+        img: require('../../../assets/NaturalMnt/Africa/ngorongo.jpg'),
+        name: 'Cráter del Ngorongoro',
+        country: 'Tanzania',
+        city: '',
+    },
+    {
         id: '5',
         img: require('../../../assets/NaturalMnt/Africa/Botswana_Okavango_Delta.webp'),
         name: 'Delta del Okavango',
@@ -44,17 +51,17 @@ const AfrMntEs = [
    
   
     {
-        id: '7',
-        img: require('../../../assets/NaturalMnt/Africa/Kilimanjaro.webp'),
-        name: 'Monte Kilimanjaro',
-        country: 'Tanzania',
-        city: '',
-    },
-    {
         id: '8',
         img: require('../../../assets/NaturalMnt/Africa/mountKenya.webp'),
         name: 'Monte Kenia',
         country: 'Kenia',
+        city: '',
+    },
+    {
+        id: '7',
+        img: require('../../../assets/NaturalMnt/Africa/Kilimanjaro.webp'),
+        name: 'Monte Kilimanjaro',
+        country: 'Tanzania',
         city: '',
     },
     {
@@ -71,11 +78,13 @@ const AfrMntEs = [
         country: 'Egipto',
         city: '',
     },
+
+  
     {
-        id: '11',
-        img: require('../../../assets/NaturalMnt/Africa/ngorongo.jpg'),
-        name: 'Ngorongoro Crater',
-        country: 'Tanzania',
+        id: '13',
+        img: require('../../../assets/NaturalMnt/Africa/table-mountain.webp'),
+        name: 'Parque Nacional de la Montaña de la Mesa',
+        country: 'Sudáfrica',
         city: '',
     },
     {
@@ -83,13 +92,6 @@ const AfrMntEs = [
         img: require('../../../assets/NaturalMnt/Africa/Egypt-White-Desert-National.webp'),
         name: 'Parque Nacional del Desierto Blanco',
         country: 'Egipto',
-        city: '',
-    },
-    {
-        id: '13',
-        img: require('../../../assets/NaturalMnt/Africa/table-mountain.webp'),
-        name: 'Parque Nacional de la Montaña de la Mesa',
-        country: 'Sudáfrica',
         city: '',
     },
     
@@ -110,8 +112,8 @@ const AfrMntEs = [
     {
         id: '15',
         img: require('../../../assets/NaturalMnt/Africa/Sahara-Desert.webp'),
-        name: 'Sahara Desert',
-        country: 'North Africa',
+        name: 'Sahara',
+        country: 'África del Norte',
         city: '',
     },
     {
