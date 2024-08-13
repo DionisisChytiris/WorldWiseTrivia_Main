@@ -1,54 +1,212 @@
-import React, { Component } from 'react';
-import { View, Text,Animated, StyleSheet } from 'react-native';
+import {
+  View,
+  Text,
+  ImageBackground,
+  ScrollView,
+  StyleSheet,
+  Animated,
+  Easing,
+  Image,
+  Pressable,
+} from "react-native";
+import React, { useRef, useEffect, useState } from "react";
+import { useNavigation, useRoute } from "@react-navigation/native";
+import { Dimensions } from "react-native";
+import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
+import { useTranslation } from "react-i18next";
+
+const windowWidth = Dimensions.get("window").width;
+const windowHeight = Dimensions.get("window").height;
+
+
+const QuizTemplate = (props) => {
+  const navigation = useNavigation();
+  const { t } = useTranslation();
+  const { colors } = useTheme();
+  const [test, setTest] = useState(styles.button);
+  return (
+    <Pressable
+      key={props.id}
+      onPressIn={() => setTest(styles.button1)}
+      onPressOut={() => (
+        navigation.navigate(props.quiz), setTest(styles.button)
+      )}
+      style={test}
+    >
+      <Image
+        source={props.image}
+        style={{
+          width: "100%",
+          height:windowHeight> 900 ? 120 :'100%',
+          borderRadius: 10,
+          opacity: 0.7,
+        }}
+        resizeMode="cover"
+      />
+      <View style={{ position: "absolute", bottom: 10 }}>
+        <Text style={{ color: "white", fontWeight: "bold", opacity: 1 }}>
+          {t("quiz")} {props.title}
+        </Text>
+      </View>
+    </Pressable>
+  );
+};
 
 const MixedQstsQuizHome = () => {
-  const animatedValue = React.useRef(new Animated.Value(0)).current;
+  const { colors } = useTheme();
+  const initialValue = 0;
+  const translateValue = useRef(new Animated.Value(initialValue)).current;
 
-  React.useEffect(() => {
-    animateBackground();
-  }, []);
-
-  const animateBackground = () => {
-    Animated.loop(
-      Animated.timing(animatedValue, {
+  useEffect(() => {
+    const translate = () => {
+      translateValue.setValue(initialValue);
+      Animated.timing(translateValue, {
         toValue: 1,
-        duration: 5000,
+        duration: 20000,
+        easing: Easing.linear,
         useNativeDriver: true,
-      })
-    ).start();
-  };
+      }).start(() => translate());
+    };
 
-  const backgroundColor = animatedValue.interpolate({
-    inputRange: [0, 1],
-    outputRange: ['rgb(0, 0, 255)', 'rgb(255, 0, 0)'],
+    translate();
+  }, [translateValue]);
+
+  const translateAnimation = translateValue.interpolate({
+    inputRange: [0, 0.7, 0.7, 0.7, 1],
+    outputRange: [-281, 0, 281, 0, -281],
   });
 
+  const AnimatedImage = Animated.createAnimatedComponent(ImageBackground);
+
   return (
-    <View style={styles.container}>
-      <Animated.View style={[styles.background, { backgroundColor }]} />
-      <View>
-        <Text style={{color: 'white', fontSize: 26}}>Hello world</Text>
+    <View style={[styles.container, {backgroundColor: colors.bgFlagsCnt}]}>
+      <AnimatedImage
+        resizeMode="repeat"
+        style={[
+          styles.background,
+          {
+            transform: [
+              {
+                translateX: translateAnimation,
+              },
+              {
+                translateY: 0,
+              },
+            ],
+          },
+        ]}
+        source={require("../../../assets/more/worldMap.png")}
+      />
+      <View style={styles.quizBtnBox}>
+        <View style={{ width: "50%", gap: windowHeight> 900 ? 60: 20 }}>
+          <QuizTemplate
+            quiz="Quiz1"
+            title="1"
+            image={require("../../../assets/NaturalMnt/America/Antelope-Canyon.webp")}
+          />
+          <QuizTemplate
+            quiz="Quiz3"
+            title="3"
+            image={require("../../../assets/WorldMonuments/Oceania/Gold_Coast.png")}
+          />
+          <QuizTemplate
+            quiz="Quiz5"
+            title="5"
+            image={require("../../../assets/NaturalMnt/Africa/CapeofGoodHope.webp")}
+          />
+          <QuizTemplate
+            quiz="Quiz7"
+            title="7"
+            image={require("../../../assets/WorldMonuments/USA/Empire-State-Building.png")}
+          />
+          <QuizTemplate
+            quiz="Quiz9"
+            title="9"
+            image={require("../../../assets/NaturalMnt/Europe/CliffsofMoher.webp")}
+          />
+        </View>
+        <View style={{ width: "50%", marginTop: 70, marginLeft: 20, gap: windowHeight> 900 ? 60: 20 }}>
+          <QuizTemplate
+            quiz="Quiz2"
+            title="2"
+            image={require("../../../assets/WorldMonuments/Asia/forbidden-city.jpg")}
+          />
+          <QuizTemplate
+            quiz="Quiz4"
+            title="4"
+            image={require("../../../assets/NaturalMnt/America/Great-Blue-Hole.webp")}
+          />
+          <QuizTemplate
+            quiz="Quiz6"
+            title="6"
+            image={require("../../../assets/WorldMonuments/Europe/Acropolis.png")}
+          />
+          <QuizTemplate
+            quiz="Quiz8"
+            title="8"
+            image={require("../../../assets/NaturalMnt/Europe/eyelake.jpg")}
+          />
+          <QuizTemplate
+            quiz="Quiz10"
+            title="10"
+            image={require("../../../assets/WorldMonuments/Europe/cathedralMilan.png")}
+          />
+        </View>
       </View>
     </View>
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  background: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
-  },
-});
-
 export default MixedQstsQuizHome;
 
 
-// export default ScienceQuizHome
+const styles = StyleSheet.create({
+  container: {
+    width: windowWidth,
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 15,
+    flex: 1,
+  },
+  quizBtnBox: {
+    width: windowHeight> 900 ? "60%":"80%",
+    height: windowHeight / 1.4,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyItems: "center",
+  },
+  background: {
+    position: "absolute",
+    width: windowWidth * 2,
+    height: windowHeight / 4.7,
+    top: windowHeight / 1.7,
+    opacity: 0.4,
+    transform: [
+      {
+        translateX: 0,
+      },
+      {
+        translateY: 0,
+      },
+    ],
+  },
+  button: {
+    width: "85%",
+    height: 80,
+    // height: windowHeight> 900 ? 120 :80,
+    margin: "2%",
+    borderRadius: 10,
+    alignItems: "center",
+    justifyContent: "center",
+    opacity: 1,
+  },
+  button1: {
+    width: "85%",
+    height: 80,
+    margin: "2%",
+    borderRadius: 10,
+    alignItems: "center",
+    justifyContent: "center",
+    opacity: 0.4,
+  },
+});

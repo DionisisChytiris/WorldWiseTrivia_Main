@@ -13,8 +13,8 @@ const Quiz1 = () => {
       // dataQuiz={questions1En}
       dataQuiz={quiz1ItemsNtrMnts}
       quizName="1"
-      results="ResultsMnt1"
-      loseScreen='LoseScreen1'
+      results="ResNrtMnt1"
+      loseScreen='ResLoseScr1'
       status={initStatus}
     />
   );

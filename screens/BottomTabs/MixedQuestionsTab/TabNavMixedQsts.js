@@ -6,10 +6,8 @@ import { useTranslation } from "react-i18next";
 // import { TopTabFlagNavigator } from "./TopTabFlags/topTabFlagNavigator";
 import MixedQstsQuizHome from "./MixedQstsQuizHome";
 import Settings from "../Settings";
-// import {
-//   Quiz1
-// } from "./Quizzes";
-import Return from "./Return";
+import ChooseQuizType from "./ChooseQuizType";
+
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
@@ -49,64 +47,15 @@ const TabNavMixedQsts= ({ navigation }) => {
         }}
       >
         {() => (
-          <Stack.Navigator initialRouteName="MixedQstsHome">
+          // <Stack.Navigator initialRouteName="MixedQstsHome">
+          <Stack.Navigator>
             <Stack.Group screenOptions={{ headerShown: false }}>
+              <Stack.Screen name="ChooseQuizTypeMixed" component={ChooseQuizType} />
               <Stack.Screen name="MixedQstsHome" component={MixedQstsQuizHome} />
-              {/* <Stack.Screen name="Quiz1" component={Quiz1} /> */}
             </Stack.Group>
           </Stack.Navigator>
         )}
       </Tab.Screen>
-{/* 
-      <Tab.Screen
-        name="FlagsScreen"
-        options={{
-          headerShown: false,
-          tabBarLabel: "Learn",
-          tabBarIcon: () => (
-            <Image
-              style={{ width: 30, height: 30, marginTop: 12, borderRadius: 16 }}
-              source={require("../../../assets/QuizScreen/flag.png")}
-            />
-          ),
-        }}
-      >
-        {() => (
-          <Stack.Navigator>
-            <Stack.Screen
-              name="TopTabFlagNavigator"
-              component={TopTabFlagNavigator}
-              options={{ headerShown: false }}
-            />
-          </Stack.Navigator>
-        )}
-      </Tab.Screen> */}
-{/* 
-      <Tab.Screen
-        name="ReturnQuiz"
-        options={{
-          headerShown: false,
-          tabBarLabel: t("Map"),
-          tabBarIcon: () => (
-            <Image
-              style={{ width: 30, height: 30, marginTop: 10 }}
-              source={require("../../../assets/settings/undo.png")}
-            />
-          ),
-        }}
-      >
-        {() => (
-          <Stack.Navigator>
-            <Stack.Group>
-              <Stack.Screen
-                name="Return"
-                component={Return}
-                options={{ headerShown: false }}
-              />
-            </Stack.Group>
-          </Stack.Navigator>
-        )}
-      </Tab.Screen> */}
 
       <Tab.Screen
         name="Open"

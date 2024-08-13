@@ -5,6 +5,8 @@ const ChooseQuizType = () => {
   return (
     <MainChooseQuizTypeTemplate
       screen="NaturalMntHome"
+      image1={require("../../../assets/more/NtrMnt1.jpg")}
+      image2={require("../../../assets/more/NtrMnt2.jpg")}
       lottieHeight="28%"
       lottieAnm={require("../../../assets/LottieAnimation/NaturalMnt.json")}
     />

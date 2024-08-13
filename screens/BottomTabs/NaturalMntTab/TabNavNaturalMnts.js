@@ -4,7 +4,7 @@ import { Pressable, Image, Platform, Text } from "react-native";
 import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import Settings from "../Settings";
 import NaturalMntsQuizHome from "./NaturalMntsQuizHome";
-import { Quiz1, Quiz10, Quiz2, Quiz3, Quiz4, Quiz5, Quiz6, Quiz7, Quiz8,Quiz9 } from "./Quizzes";
+import { Quiz1, Quiz10, Quiz2, Quiz3, Quiz4, Quiz5, Quiz6, Quiz7, Quiz8,Quiz9, ResLoseScr1, ResLoseScr10, ResLoseScr2, ResLoseScr3, ResLoseScr4, ResLoseScr5, ResLoseScr6, ResLoseScr7, ResLoseScr8, ResLoseScr9, ResNrtMnt1, ResNrtMnt10, ResNrtMnt2, ResNrtMnt3, ResNrtMnt4, ResNrtMnt5, ResNrtMnt6, ResNrtMnt7, ResNrtMnt8, ResNrtMnt9 } from "./Quizzes";
 // import LearnAnimals from './LearnAnimals'
 // import Return from './Return'
 import Map from './Map'
@@ -68,6 +68,26 @@ const TabNavNaturalMnts = ({ navigation }) => {
               <Stack.Screen name="Quiz8" component={Quiz8} />
               <Stack.Screen name="Quiz9" component={Quiz9} />
               <Stack.Screen name="Quiz10" component={Quiz10} />
+              <Stack.Screen name="ResNrtMnt1" component={ResNrtMnt1} />
+              <Stack.Screen name="ResNrtMnt2" component={ResNrtMnt2} />
+              <Stack.Screen name="ResNrtMnt3" component={ResNrtMnt3} />
+              <Stack.Screen name="ResNrtMnt4" component={ResNrtMnt4} />
+              <Stack.Screen name="ResNrtMnt5" component={ResNrtMnt5} />
+              <Stack.Screen name="ResNrtMnt6" component={ResNrtMnt6} />
+              <Stack.Screen name="ResNrtMnt7" component={ResNrtMnt7} />
+              <Stack.Screen name="ResNrtMnt8" component={ResNrtMnt8} />
+              <Stack.Screen name="ResNrtMnt9" component={ResNrtMnt9} />
+              <Stack.Screen name="ResNrtMnt10" component={ResNrtMnt10} />
+              <Stack.Screen name="ResLoseScr1" component={ResLoseScr1} />
+              <Stack.Screen name="ResLoseScr2" component={ResLoseScr2} />
+              <Stack.Screen name="ResLoseScr3" component={ResLoseScr3} />
+              <Stack.Screen name="ResLoseScr4" component={ResLoseScr4} />
+              <Stack.Screen name="ResLoseScr5" component={ResLoseScr5} />
+              <Stack.Screen name="ResLoseScr6" component={ResLoseScr6} />
+              <Stack.Screen name="ResLoseScr7" component={ResLoseScr7} />
+              <Stack.Screen name="ResLoseScr8" component={ResLoseScr8} />
+              <Stack.Screen name="ResLoseScr9" component={ResLoseScr9} />
+              <Stack.Screen name="ResLoseScr10" component={ResLoseScr10} />
             </Stack.Group>
           </Stack.Navigator>
         )}

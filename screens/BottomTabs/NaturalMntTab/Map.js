@@ -141,7 +141,7 @@ const Map = () => {
                   <Pressable
                     key={index}
                     style={[styles.button,{opacity: 1}]}
-                    // onPressIn={()=>setTest(0.5)}
+                    // onPressIn={()=>{}}
                     onPress={() => {
                       animateRegion(
                         setLtd(item.latitude),
@@ -152,6 +152,7 @@ const Map = () => {
                       // setTest(1)
                       Alert.alert(item.title,item.description)
                     }}
+                    // onPressOut={()=>Alert.alert(item.title,item.description)}
                   >
                     {loading && (
                       <ActivityIndicator size="large" color="#0000ff" />

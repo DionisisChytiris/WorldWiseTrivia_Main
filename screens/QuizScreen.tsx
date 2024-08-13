@@ -130,7 +130,7 @@ const QuizScreen = () => {
             {/* Natural Monument */}
             <CategoryItem
               page="NaturalMonument"
-              img={require("../assets/QuizScreen/animals.jpg")}
+              img={require("../assets/QuizScreen/naturalmnt.jpg")}
               text={t("naturalMonuments")}
               scores={score1}
             />

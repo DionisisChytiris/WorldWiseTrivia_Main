@@ -659,7 +659,7 @@ const MapDataEs = [
     id: "24",
     ltr: "N-P",
     title: "Ojo de la Tierra",
-    description: "El Ojo de la Tierra, ubicado en Mauritania, es una vasta formación geológica también conocida como la Estructura Richat. Esta formación circular con múltiples anillos es un hito prominente visible desde el espacio, y su origen sigue siendo objeto de debate entre los científicos, que van desde cráteres de impacto hasta patrones de erosión.",
+    description: "El Ojo de la Tierra, ubicado en Croacia, es un fascinante manantial natural que forma la fuente del río Cetina. Esta impresionante característica del agua, que se asemeja a un ojo humano, es conocida por sus aguas cristalinas de color azul-verde y su impresionante profundidad, lo que la convierte en un destino popular para buceadores y amantes de la naturaleza. El Ojo de la Tierra no es solo una maravilla geológica, sino también una parte significativa del paisaje cultural y ecológico de la región.",
     img: require("../../../assets/NaturalMnt/Europe/eyelake.jpg"),
     latitude: 43.97684,
     longitude: 16.42993,

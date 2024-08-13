@@ -56,7 +56,7 @@ const MainChooseQuizTypeTemplate = (props) => {
       >
         <View style={styles.imgView}>
           <Image
-            source={require("../../../assets/more/images.jpg")}
+            source={props.image1}
             style={styles.img}
             cover="contain"
           />
@@ -83,7 +83,7 @@ const MainChooseQuizTypeTemplate = (props) => {
       >
         <View style={styles.imgView}>
           <Image
-            source={require("../../../assets/more/words.jpg")}
+            source={props.image2}
             style={styles.img}
             cover="contain"
           />

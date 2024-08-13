@@ -4,6 +4,7 @@ import { PieChart } from "react-native-gifted-charts";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
+import LottieView from "lottie-react-native";
 
 const MainResultsTemplate = (props:any) => {
   const navigation = useNavigation();
@@ -65,6 +66,25 @@ const MainResultsTemplate = (props:any) => {
           <Text style={{ color: colors.text, marginTop: 30  }}>10</Text>
         </View>
       </View>
+
+      {props.percentage > 60 ? 
+        <View
+        style={{
+          position: "absolute",
+          width: '100%',
+          height: 500,
+          bottom: 0
+        }}
+      >
+        <LottieView
+          style={{ width: "100%", height: "100%" }}
+          source={require("../../../assets/LottieAnimation/confeti.json")}
+          autoPlay
+          loop={false}
+        />
+      </View>
+        : 
+        null}
       
     </View>
   );

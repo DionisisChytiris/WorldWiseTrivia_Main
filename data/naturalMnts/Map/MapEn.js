@@ -233,7 +233,7 @@ const MapDataEn = [
         id: '24',
         ltr: 'E-F',
         title: 'Eye of the Earth',
-        description: 'The Eye of the Earth, located in Mauritania, is a vast geological formation also known as the Richat Structure. This circular, multi-ringed formation is a prominent landmark visible from space, and its origin is still debated among scientists, ranging from impact craters to erosion patterns.',
+        description: 'The Eye of the Earth, located in Croatia, is a mesmerizing natural spring that forms the source of the Cetina River. This stunning water feature, resembling a human eye, is known for its crystal-clear blue-green waters and impressive depth, which makes it a popular destination for divers and nature enthusiasts. The Eye of the Earth is not only a geological wonder but also a significant part of the region’s cultural and ecological landscape.',
         img: require('../../../assets/NaturalMnt/Europe/eyelake.jpg'),
         latitude: 43.97684,
         longitude: 16.42993,
@@ -701,7 +701,7 @@ const MapDataEn = [
     },
     {
         id: '71',
-        ltr: 'N',
+        ltr: 'N-P',
         title: 'Ngorongoro Crater',
         description: 'The Ngorongoro Crater, located in Tanzania, is a massive caldera formed by the collapse of a volcanic cone around 2 million years ago. It is one of the world\'s largest inactive volcanic craters, covering about 260 square kilometers (100 square miles) and is renowned for its rich wildlife, including lions, elephants, and rhinos. The crater is a UNESCO World Heritage site and a popular destination for safaris and wildlife enthusiasts.',
         img: require('../../../assets/NaturalMnt/Africa/ngorongo.jpg'),
@@ -711,7 +711,7 @@ const MapDataEn = [
     },
     {
         id: '72',
-        ltr: 'N',
+        ltr: 'N-P',
         title: 'Niagara Falls',
         description: 'Niagara Falls, located on the border between the United States and Canada, is one of the most famous and powerful waterfalls in the world. Comprising three separate falls—the American Falls, Bridal Veil Falls, and Horseshoe Falls—it cascades over 50 meters (165 feet) and attracts millions of visitors annually. The falls are renowned for their breathtaking beauty and the thundering roar of the cascading water.',
         img: require('../../../assets/NaturalMnt/America/NiagaraFalls.webp'),
@@ -721,7 +721,7 @@ const MapDataEn = [
     },
     {
         id: '73',
-        ltr: 'N',
+        ltr: 'N-P',
         title: 'Nile',
         description: 'The Nile River, flowing through northeastern Africa, is one of the longest rivers in the world, stretching about 6,650 kilometers (4,130 miles). It traverses eleven countries, including Uganda, Sudan, and Egypt, before emptying into the Mediterranean Sea. The Nile has been a crucial lifeline for the civilizations of ancient Egypt and continues to be vital for the region\'s agriculture and economy.',
         img: require('../../../assets/NaturalMnt/Africa/RiverNile.webp'),
@@ -731,7 +731,7 @@ const MapDataEn = [
     },
     {
         id: '74',
-        ltr: 'N',
+        ltr: 'N-P',
         title: 'Ninety Mile Beach',
         description: 'Ninety Mile Beach, located on the western coast of New Zealand\'s North Island, is a stunning stretch of coastline that actually spans about 88 kilometers (55 miles). Known for its vast, sandy expanse and beautiful sunsets, the beach is popular for activities like sandboarding, fishing, and driving along its hard-packed sand. It is also a culturally significant area for the Māori people.',
         img: require('../../../assets/NaturalMnt/Oceania/NinetyMileBeach.jpg'),
@@ -751,7 +751,7 @@ const MapDataEn = [
     // },
     {
         id: '76',
-        ltr: 'O',
+        ltr: 'N-P',
         title: 'Okavango Delta',
         description: 'The Okavango Delta, located in Botswana, is one of the largest inland deltas in the world, spanning about 15,000 square kilometers (5,800 square miles) during peak flooding. This unique ecosystem, where the Okavango River empties into the Kalahari Desert, creates a lush wetland teeming with diverse wildlife, including elephants, lions, and hippos. The delta is a UNESCO World Heritage site and a prime destination for safaris and nature enthusiasts.',
         img: require('../../../assets/NaturalMnt/Africa/Botswana_Okavango_Delta.webp'),
@@ -761,7 +761,7 @@ const MapDataEn = [
     },
     {
         id: '77',
-        ltr: 'P',
+        ltr: 'N-P',
         title: 'Pamukkale',
         description: 'Pamukkale, located in southwestern Turkey, is a natural wonder known for its terraces of white mineral-rich travertine, formed by hot springs. These cascading terraces, resembling a cotton castle, are filled with thermal waters believed to have healing properties. Pamukkale, along with the ancient city of Hierapolis, is a UNESCO World Heritage site and a popular destination for tourists seeking both relaxation and historical exploration.',
         img: require('../../../assets/NaturalMnt/Asia/Pamukkale.webp'),
@@ -771,7 +771,7 @@ const MapDataEn = [
     },
     {
         id: '78',
-        ltr: 'P',
+        ltr: 'N-P',
         title: 'Picos de Europa',
         description: 'Picos de Europa, located in northern Spain, is a stunning mountain range known for its dramatic limestone peaks, deep gorges, and lush valleys. As part of the Cantabrian Mountains, it spans three regions: Asturias, Cantabria, and Castile and León. The area is a popular destination for hiking, climbing, and wildlife observation, and it is also home to picturesque villages and rich cultural heritage.',
         img: require('../../../assets/NaturalMnt/Europe/PicosdeEuropa.webp'),
@@ -781,7 +781,7 @@ const MapDataEn = [
     },
     {
         id: '79',
-        ltr: 'P',
+        ltr: 'N-P',
         title: 'Plitvice Lakes',
         description: 'Plitvice Lakes, located in Croatia, is a breathtaking national park known for its cascading lakes, stunning waterfalls, and lush forests. The park features a series of 16 interconnected lakes, ranging from emerald green to turquoise, connected by waterfalls and surrounded by a rich variety of flora and fauna. Plitvice Lakes is a UNESCO World Heritage site and a popular destination for nature lovers and photographers.',
         img: require('../../../assets/NaturalMnt/Europe/Plitvice-lakes.webp'),
@@ -791,7 +791,7 @@ const MapDataEn = [
     },
     {
         id: '80',
-        ltr: 'P',
+        ltr: 'N-P',
         title: 'Pulpit Rock',
         description: 'Pulpit Rock, known as Preikestolen in Norwegian, is a famous cliff located in southwestern Norway. Rising 604 meters (1,982 feet) above the Lysefjord, the flat-topped rock offers stunning panoramic views of the fjord and surrounding mountains. It\'s one of Norway\'s most popular hiking destinations, attracting thousands of visitors each year who come to experience the breathtaking scenery.',
         img: require('../../../assets/NaturalMnt/Europe/pulpitRock.webp'),

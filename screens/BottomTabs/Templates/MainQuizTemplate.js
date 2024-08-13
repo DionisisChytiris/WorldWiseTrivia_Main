@@ -15,6 +15,9 @@ import { MaterialIcons } from "@expo/vector-icons";
 import { styles } from "../styles";
 import { useAppSelector } from "../../../ReduxSetUp/store";
 import { Audio } from "expo-av";
+import BrokenHeart from "./components/BrokenHeart";
+import SuccessAnimation from "./components/SuccessAnimation";
+import FailAnimation from "./components/FailAnimation";
 
 const QuizMainTemplate = (props) => {
   const boolean = useAppSelector((state) => state.boolean.value);
@@ -34,6 +37,7 @@ const QuizMainTemplate = (props) => {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [answerStatus, setAnswerStatus] = useState(null);
   const [show, setShow] = useState(null);
+  const [showHeart, setShowHeart] = useState(false);
   const [img, setImg] = useState(styles.img);
   const [chosenLetters, setChosenLetters] = useState([]);
   const [disabled, setDisabled] = useState(null);
@@ -79,6 +83,7 @@ const QuizMainTemplate = (props) => {
         setAnswerStatus(true);
         setShow(true);
         setImg(styles.img1);
+        setShowHeart(true);
         removeHeart();
         {
           boolean ? Vibration.vibrate() : null;
@@ -208,6 +213,9 @@ const QuizMainTemplate = (props) => {
         <Text style={{}}>{heart}</Text>
       </View>
 
+      {/* Show broken heart when you lose a life */}
+      {showHeart ? <BrokenHeart /> : null}
+
       {/* Quiz Template */}
       <View style={styles.quizContainer}>
         {/* Guess Quiz */}
@@ -315,51 +323,13 @@ const QuizMainTemplate = (props) => {
                     {/* Correct (Tick) Symbol */}
                     {selectedAnswer === index &&
                     index === currentQuestion.correctAnswerIndex ? (
-                      <View
-                        style={{
-                          position: "absolute",
-                          width: "100%",
-                          height: "70%",
-                          top: 0,
-                          right: -30,
-                        }}
-                      >
-                        <LottieView
-                          style={{ width: "100%", height: "100%" }}
-                          source={require("../../../assets/LottieAnimation/Success.json")}
-                          autoPlay
-                          loop={false}
-                        />
-                      </View>
-                    // <View style={styles.tick}>
-                    //   <MaterialIcons name="done" size={30} color="white" />
-                    // </View>
-                    ) : 
-                    null}
+                      <SuccessAnimation />
+                    ) : null}
                     {/* Wrong (clear) Symbol */}
                     {selectedAnswer === index &&
                     index !== currentQuestion.correctAnswerIndex ? (
-                      <View
-                        style={{
-                          position: "absolute",
-                          width: "100%",
-                          height: "70%",
-                          top: 0,
-                          right: -30,
-                        }}
-                      >
-                        <LottieView
-                          style={{ width: "100%", height: "100%" }}
-                          source={require("../../../assets/LottieAnimation/Fail.json")}
-                          autoPlay
-                          loop={false}
-                        />
-                      </View>
-                      // <View style={styles.clear}>
-                      //   <MaterialIcons name="clear" size={30} color="white" />
-                      // </View>
-                    ) : 
-                    null}
+                      <FailAnimation />
+                    ) : null}
                     {show
                       ? index === currentQuestion.correctAnswerIndex && (
                           <View style={styles.tick}>
@@ -464,49 +434,13 @@ const QuizMainTemplate = (props) => {
                     {/* Correct (Tick) Symbol */}
                     {selectedAnswer === index &&
                     index === currentQuestion.correctAnswerIndex ? (
-                      <View
-                        style={{
-                          position: "absolute",
-                          width: "100%",
-                          height: "70%",
-                          top: 0,
-                          right: -30,
-                        }}
-                      >
-                        <LottieView
-                          style={{ width: "100%", height: "100%" }}
-                          source={require("../../../assets/LottieAnimation/Success.json")}
-                          autoPlay
-                          loop={false}
-                        />
-                      </View>
-                      // <View style={styles.tick}>
-                      //   <MaterialIcons name="done" size={30} color="white" />
-                      // </View>
-                    ) : 
+                     <SuccessAnimation/>
+                    ) :
                     null}
                     {/* Wrong (clear) Symbol */}
                     {selectedAnswer === index &&
                     index !== currentQuestion.correctAnswerIndex ? (
-                      <View
-                        style={{
-                          position: "absolute",
-                          width: "100%",
-                          height: "70%",
-                          top: 0,
-                          right: -30,
-                        }}
-                      >
-                        <LottieView
-                          style={{ width: "100%", height: "100%" }}
-                          source={require("../../../assets/LottieAnimation/Fail.json")}
-                          autoPlay
-                          loop={false}
-                        />
-                      </View>
-                      // <View style={styles.clear}>
-                      //   <MaterialIcons name="clear" size={30} color="white" />
-                      // </View>
+                     <FailAnimation/>
                     ) : 
                     null}
                     {show
@@ -552,7 +486,8 @@ const QuizMainTemplate = (props) => {
             {
               selectedAnswer == null
                 ? null
-                : (setIndex(index + 1), restartApple(), setDisabled(false));
+                : (setIndex(index + 1), restartApple(), setDisabled(false)),
+                setShowHeart(false);
             }
             if (guesses == currentQuestion.num) {
               setIndex(index + 1);

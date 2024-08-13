@@ -4,7 +4,7 @@ import questions6En from '../../data/naturalMnts/Questions/questions6En'
 import questions6Es from '../../data/naturalMnts/Questions/questions6Es'
 
 const initialState = {
-    quiz6ItemsNtrMnts: questions6El
+    quiz6ItemsNtrMnts: questions6En
 }
 
 const NaturalMnt6Slice = createSlice({

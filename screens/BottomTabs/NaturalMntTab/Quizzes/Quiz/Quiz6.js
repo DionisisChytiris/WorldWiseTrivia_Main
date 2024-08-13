@@ -12,8 +12,8 @@ const Quiz6 = () => {
     <QuizMainTemplate
       dataQuiz={quiz6ItemsNtrMnts }
       quizName="6"
-      results="ResultsMnt6"
-      loseScreen='LoseScreen6'
+      results="ResNrtMnt6"
+      loseScreen='ResLoseScr6'
       status={initStatus}
     />
   );
