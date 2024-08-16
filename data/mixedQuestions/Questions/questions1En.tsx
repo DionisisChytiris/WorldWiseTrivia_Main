@@ -586,6 +586,12 @@ const qstMixed1En = [
         ],
         correctAnswerIndex: 3,
       },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
 ]
 
 export default qstMixed1En

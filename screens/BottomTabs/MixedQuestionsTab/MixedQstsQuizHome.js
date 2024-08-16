@@ -97,6 +97,7 @@ const MixedQstsQuizHome = () => {
         ]}
         source={require("../../../assets/more/worldMap.png")}
       />
+      {/* <ScrollView style={{backgroundColor: 'yellow'}}> */}
       <View style={styles.quizBtnBox}>
         <View style={{ width: "50%", gap: windowHeight> 900 ? 60: 20 }}>
           <QuizTemplate
@@ -153,6 +154,7 @@ const MixedQstsQuizHome = () => {
           />
         </View>
       </View>
+      {/* </ScrollView> */}
     </View>
   );
 };
@@ -170,10 +172,11 @@ const styles = StyleSheet.create({
   },
   quizBtnBox: {
     width: windowHeight> 900 ? "60%":"80%",
-    height: windowHeight / 1.4,
+    // height: windowHeight / 1.4,
     flexDirection: "row",
     alignItems: "center",
     justifyItems: "center",
+    // margin: 'auto'
   },
   background: {
     position: "absolute",
@@ -191,6 +194,7 @@ const styles = StyleSheet.create({
     ],
   },
   button: {
+    // width: "85%",
     width: "85%",
     height: 80,
     // height: windowHeight> 900 ? 120 :80,

@@ -45,9 +45,10 @@ const ChooseQuizType = () => {
   const backgroundColor = animatedValue.interpolate({
     // inputRange: [0, 1],
     // outputRange: ["rgb(0, 0,0)", "rgb(51,250,170)"],
+
     inputRange: [ 0, 0.2, 0.4, 0.6, 0.8, 1 ],
-                
-    outputRange: [ '#002c54', '#003a6e', '#004d54', '#005451', '#003a6e', '#002c54' ]
+    outputRange: [ '#002c54', '#003a6e', '#004154', '#003d54', '#003a6e', '#002c54' ]
+
   });
 
   return (
