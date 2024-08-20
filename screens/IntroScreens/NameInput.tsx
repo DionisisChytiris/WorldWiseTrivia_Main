@@ -8,7 +8,7 @@ const NameInput = ({navigation}) => {
   const [name, setName] = useState("");
   const { t } = useTranslation();
 
-  const setData = async()=>{
+  const storeData = async()=>{
     if(name.length == 0) {
       alert('warning!')
     } else {
@@ -94,7 +94,7 @@ const NameInput = ({navigation}) => {
           <Text style={styles.title}>{t("skip")}</Text>
         </Pressable>
         <Pressable
-          onPress={setData}
+          onPress={storeData}
           style={styles.button2}
         >
           <Text style={styles.title}>{t("next-step")}</Text>

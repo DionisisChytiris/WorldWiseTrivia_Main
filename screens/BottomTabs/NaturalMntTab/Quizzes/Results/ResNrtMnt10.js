@@ -21,6 +21,7 @@ const ResNrtMnt10 = () => {
         percentage={correct}
         numCorAns={crAns}
         numWrnAns={wrnAns}
+        quizNum=''
       />
     );
 }

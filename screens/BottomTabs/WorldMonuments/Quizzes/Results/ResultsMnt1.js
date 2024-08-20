@@ -21,6 +21,7 @@ const ResultsCpt1 = () => {
       percentage={correct}
       numCorAns={crAns}
       numWrnAns={wrnAns}
+      quizNum='Quiz2'
     />
   );
 };

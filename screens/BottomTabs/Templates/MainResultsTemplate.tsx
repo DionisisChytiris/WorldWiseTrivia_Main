@@ -6,28 +6,39 @@ import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
 import LottieView from "lottie-react-native";
 
-const MainResultsTemplate = (props:any) => {
-  const navigation = useNavigation();
+const MainResultsTemplate = (props: any) => {
+  const navigation = useNavigation<any>();
   const { colors } = useTheme();
   const { t } = useTranslation();
 
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
-      <View style={{flexDirection: 'row', gap: 10, marginBottom:20}}>
-        <Text style={{ color: colors.text, fontWeight: 'bold' }}>{t("quiz")}</Text>
-        <Text style={{ color: colors.text, fontWeight: 'bold' }}>{props.number}</Text>
-        <Text style={{ color: colors.text, marginLeft: 20, fontWeight: 'bold' }}>{t("results")}</Text>
+      <View style={{ flexDirection: "row", gap: 10, marginBottom: 20 }}>
+        <Text style={{ color: colors.text, fontWeight: "bold" }}>
+          {t("quiz")}
+        </Text>
+        <Text style={{ color: colors.text, fontWeight: "bold" }}>
+          {props.number}
+        </Text>
+        <Text
+          style={{ color: colors.text, marginLeft: 20, fontWeight: "bold" }}
+        >
+          {t("results")}
+        </Text>
       </View>
-      <View style={{marginVertical: 20, flexDirection: 'row', gap: 50}}>
-        <View style={{alignItems: 'center', gap: 5}}>
-            <View style={{width: 30, height: 6, backgroundColor: 'lightgreen'}}/>
-            <Text style={{color: colors.text,fontSize: 10}}>{t("correct")}</Text>
+      <View style={{ marginVertical: 20, flexDirection: "row", gap: 50 }}>
+        <View style={{ alignItems: "center", gap: 5 }}>
+          <View
+            style={{ width: 30, height: 6, backgroundColor: "lightgreen" }}
+          />
+          <Text style={{ color: colors.text, fontSize: 10 }}>
+            {t("correct")}
+          </Text>
         </View>
-        <View style={{alignItems: 'center', gap: 5}}>
-            <View style={{width: 30, height: 6, backgroundColor: 'magenta'}}/>
-            <Text style={{color: colors.text,fontSize: 10}}>{t("wrong")}</Text>
+        <View style={{ alignItems: "center", gap: 5 }}>
+          <View style={{ width: 30, height: 6, backgroundColor: "magenta" }} />
+          <Text style={{ color: colors.text, fontSize: 10 }}>{t("wrong")}</Text>
         </View>
-       
       </View>
       <PieChart
         data={props.data}
@@ -37,55 +48,89 @@ const MainResultsTemplate = (props:any) => {
         innerRadius={60}
         centerLabelComponent={() => {
           return (
-            <View style={{flexDirection: 'row'}}>
-            <Text style={{ fontSize: 30, color: colors.text }}>
-              {props.percentage}
-            </Text>
-            <Text style={{ fontSize: 22, color: colors.text, marginTop: 8 }}>
-              %
-            </Text>
-
+            <View style={{ flexDirection: "row" }}>
+              <Text style={{ fontSize: 30, color: colors.text }}>
+                {props.percentage}
+              </Text>
+              <Text style={{ fontSize: 22, color: colors.text, marginTop: 8 }}>
+                %
+              </Text>
             </View>
           );
         }}
       />
-    
+
       <View style={{ flexDirection: "row", gap: 15 }}>
         <View style={{ width: "50%", alignItems: "flex-end" }}>
-            <Text style={{ color: colors.text, marginTop: 50 }}>{t("correctAnswers")}:</Text>
-            <Text style={{ color: colors.text, marginTop: 10 }}>{t("percentage")}:</Text>
-            <Text style={{ color: colors.text, marginTop: 30 }}>{t("wrongAnswers")}:</Text>
-            <Text style={{ color: colors.text, marginTop: 10 }}>{t("percentage")}:</Text>
-            <Text style={{ color: colors.text, marginTop: 30 }}>{t("totalQuestions")}:</Text>
+          <Text style={{ color: colors.text, marginTop: 50 }}>
+            {t("correctAnswers")}:
+          </Text>
+          <Text style={{ color: colors.text, marginTop: 10 }}>
+            {t("percentage")}:
+          </Text>
+          <Text style={{ color: colors.text, marginTop: 30 }}>
+            {t("wrongAnswers")}:
+          </Text>
+          <Text style={{ color: colors.text, marginTop: 10 }}>
+            {t("percentage")}:
+          </Text>
+          <Text style={{ color: colors.text, marginTop: 30 }}>
+            {t("totalQuestions")}:
+          </Text>
         </View>
-        <View style={{ width: "40%"}}>
-          <Text style={{ color: colors.greenText, marginTop: 50  }}>{props.numCorAns}</Text>
-          <Text style={{ color: colors.greenText, marginTop: 10  }}>{props.percentage}%</Text>
-          <Text style={{ color: "magenta", marginTop: 30  }}>{props.numWrnAns}</Text>
-          <Text style={{ color: "magenta", marginTop: 10  }}>{100 - props.percentage}%</Text>
-          <Text style={{ color: colors.text, marginTop: 30  }}>10</Text>
+        <View style={{ width: "40%" }}>
+          <Text style={{ color: colors.greenText, marginTop: 50 }}>
+            {props.numCorAns}
+          </Text>
+          <Text style={{ color: colors.greenText, marginTop: 10 }}>
+            {props.percentage}%
+          </Text>
+          <Text style={{ color: "magenta", marginTop: 30 }}>
+            {props.numWrnAns}
+          </Text>
+          <Text style={{ color: "magenta", marginTop: 10 }}>
+            {100 - props.percentage}%
+          </Text>
+          <Text style={{ color: colors.text, marginTop: 30 }}>10</Text>
         </View>
       </View>
 
-      {props.percentage > 60 ? 
+      {props.quizNum === "" ? null : (
+        <Pressable
+          onPress={() => navigation.navigate(props.quizNum)}
+          style={{
+            position: "absolute",
+            bottom: 30,
+            right: 30,
+            borderColor: colors.textDrawer,
+            borderWidth: 0.5,
+            borderRadius: 10,
+            paddingHorizontal: 10,
+            paddingVertical: 5,
+            zIndex: 99999,
+          }}
+        >
+          <Text style={{ color: colors.textDrawer }}>Next Quiz</Text>
+        </Pressable>
+      )}
+
+      {props.percentage > 60 ? (
         <View
-        style={{
-          position: "absolute",
-          width: '100%',
-          height: 500,
-          bottom: 0
-        }}
-      >
-        <LottieView
-          style={{ width: "100%", height: "100%" }}
-          source={require("../../../assets/LottieAnimation/confeti.json")}
-          autoPlay
-          loop={false}
-        />
-      </View>
-        : 
-        null}
-      
+          style={{
+            position: "absolute",
+            width: "100%",
+            height: 500,
+            bottom: 0,
+          }}
+        >
+          <LottieView
+            style={{ width: "100%", height: "100%" }}
+            source={require("../../../assets/LottieAnimation/confeti.json")}
+            autoPlay
+            loop={false}
+          />
+        </View>
+      ) : null}
     </View>
   );
 };

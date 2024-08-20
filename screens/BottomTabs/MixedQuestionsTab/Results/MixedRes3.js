@@ -20,6 +20,7 @@ const MixedRes3 = () => {
         percentage={correct}
         numCorAns={crAns}
         numWrnAns={wrnAns}
+        quizNum='Quiz4'
       />
     );
 }
