@@ -1,5 +1,64 @@
 const qstMixed7En = [
   {
+    id: "10a",
+    status: "Capitals",
+    img: "L",
+    country: "Spain",
+    image: require("../../../assets/WorldMonuments/Europe/RoyalPalaceMadrid.png"),
+    options: [
+      {
+        id: "0",
+        capital: "Royal Palace\nof Madrid",
+        country: "Spain",
+      },
+      {
+        id: "1",
+        capital: "Imperial\nPalace",
+        country: "Japon",
+      },
+      {
+        id: "2",
+        capital: "Palace of\nVersailles",
+        country: "France",
+      },
+      {
+        id: "3",
+        capital: "The Grand\nPalace",
+        country: "Thailand",
+      },
+    ],
+    correctAnswerIndex: 0,
+  },
+  {
+    id: "10b",
+    status: "Flags",
+    country: "Royal Palace of Madrid",
+    capital: "Spain",
+    options: [
+      {
+        id: "0",
+        country: "Royal Palace of Madrid\nSpain",
+        img: require("../../../assets/WorldMonuments/Europe/RoyalPalaceMadrid.png"),
+      },
+      {
+        id: "1",
+        country: "Imperial Palace\nJapan",
+        img: require("../../../assets/WorldMonuments/Asia/ImperialPalaceTokyo.png"),
+      },
+      {
+        id: "2",
+        country: "Palace of Versailles\nFrance",
+        img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
+      },
+      {
+        id: "3",
+        country: "The Grand Palace\nThailand",
+        img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
+      },
+    ],
+    correctAnswerIndex: 0,
+  },
+  {
     id: "1a",
     status: "Capitals",
     country: "Denmark",
@@ -58,62 +117,63 @@ const qstMixed7En = [
     correctAnswerIndex: 0,
   },
   {
-    id: "2a",
+    id: "8a",
     status: "Capitals",
-    country: "Singapore",
-    image: require("../../../assets/Flags/singapore.png"),
+    img: "L",
+    country: "Italy",
+    image: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
     options: [
       {
         id: "0",
-        capital: "Manila",
-        country: "Philippines",
+        capital: "Rialto Bridge",
+        country: "Italy",
       },
       {
         id: "1",
-        capital: "Jakarta",
-        country: "Indonesia",
+        capital: "Tower Bridge",
+        country: "UK",
       },
       {
         id: "2",
-        capital: "Singapore",
-        country: "Singapore",
+        capital: "Brooklyn\nBridge",
+        country: "USA",
       },
       {
         id: "3",
-        capital: "Kuala \nLumpur",
-        country: "Malaysia",
+        capital: "Sydney\nHarbour Bridge",
+        country: "Australia",
       },
     ],
-    correctAnswerIndex: 2,
+    correctAnswerIndex: 0,
   },
   {
-    id: "2b",
+    id: "8b",
     status: "Flags",
-    capital: "Singapore",
-    country: "Singapore",
+    country: "Rialto Bridge",
+    capital: "Italy",
     options: [
       {
         id: "0",
-        img: require("../../../assets/Flags/poland.png"),
-        country: "Poland",
+        country: "Rialto Bridge\nItaly",
+        img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.png"),
       },
       {
         id: "1",
-        img: require("../../../assets/Flags/malta.png"),
-        country: "Malta",
+        country: "Dom Luís I Bridge\nPortugal",
+        img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.png"),
       },
       {
         id: "2",
-        img: require("../../../assets/Flags/singapore.png"),
-        country: "Singapore",
+        country: "Brooklyn Bridge\nUSA",
+        img: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.png"),
       },
       {
         id: "3",
-        img: require("../../../assets/Flags/austria.png"),
-        country: "Austria",
+        country: "Sydney Harbour Bridge\nAustralia",
+        img: require("../../../assets/WorldMonuments/Oceania/harbour-bridge.png"),
       },
     ],
-    correctAnswerIndex: 2,
+    correctAnswerIndex: 0,
   },
   {
     id: "3a",
@@ -147,8 +207,8 @@ const qstMixed7En = [
   {
     id: "3b",
     status: "Flags",
-    capital: "Manila",
-    country: "Philippines",
+    capital: "Baku",
+    country: "Azerbaijan",
     options: [
       {
         id: "0",
@@ -173,64 +233,7 @@ const qstMixed7En = [
     ],
     correctAnswerIndex: 3,
   },
-  {
-    id: "4a",
-    status: "Capitals",
-    country: "Addis Ababa",
-    image: require("../../../assets/Flags/Ethiopia.png"),
-    options: [
-      {
-        id: "0",
-        capital: "Sudan",
-        country: "Khartoum",
-      },
-      {
-        id: "1",
-        capital: "Kenya",
-        country: "Nairobi",
-      },
-      {
-        id: "2",
-        capital: "Uganda",
-        country: "Kampala",
-      },
-      {
-        id: "3",
-        capital: "Ethiopia",
-        country: "Addis Ababa",
-      },
-    ],
-    correctAnswerIndex: 3,
-  },
-  {
-    id: "4b",
-    status: "Flags",
-    capital: "Addis Ababa",
-    country: "Ethiopia",
-    options: [
-      {
-        id: "0",
-        img: require("../../../assets/Flags/kenya.png"),
-        country: "Kenya",
-      },
-      {
-        id: "1",
-        img: require("../../../assets/Flags/safrica.png"),
-        country: "South Africa",
-      },
-      {
-        id: "2",
-        img: require("../../../assets/Flags/Zambia.png"),
-        country: "Zambia",
-      },
-      {
-        id: "3",
-        img: require("../../../assets/Flags/Ethiopia.png"),
-        country: "Ethiopia",
-      },
-    ],
-    correctAnswerIndex: 3,
-  },
+ 
   {
     id: "5a",
     status: "Capitals",
@@ -350,6 +353,64 @@ const qstMixed7En = [
     correctAnswerIndex: 2,
   },
   {
+    id: "4a",
+    status: "Capitals",
+    country: "Addis Ababa",
+    image: require("../../../assets/Flags/Ethiopia.png"),
+    options: [
+      {
+        id: "0",
+        capital: "Sudan",
+        country: "Khartoum",
+      },
+      {
+        id: "1",
+        capital: "Kenya",
+        country: "Nairobi",
+      },
+      {
+        id: "2",
+        capital: "Uganda",
+        country: "Kampala",
+      },
+      {
+        id: "3",
+        capital: "Ethiopia",
+        country: "Addis Ababa",
+      },
+    ],
+    correctAnswerIndex: 3,
+  },
+  {
+    id: "4b",
+    status: "Flags",
+    capital: "Addis Ababa",
+    country: "Ethiopia",
+    options: [
+      {
+        id: "0",
+        img: require("../../../assets/Flags/kenya.png"),
+        country: "Kenya",
+      },
+      {
+        id: "1",
+        img: require("../../../assets/Flags/safrica.png"),
+        country: "South Africa",
+      },
+      {
+        id: "2",
+        img: require("../../../assets/Flags/Zambia.png"),
+        country: "Zambia",
+      },
+      {
+        id: "3",
+        img: require("../../../assets/Flags/Ethiopia.png"),
+        country: "Ethiopia",
+      },
+    ],
+    correctAnswerIndex: 3,
+  },
+  {
     id: "7a",
     status: "Capitals",
     img: "L",
@@ -408,64 +469,64 @@ const qstMixed7En = [
     ],
     correctAnswerIndex: 0,
   },
+ 
   {
-    id: "8a",
+    id: "2a",
     status: "Capitals",
-    img: "L",
-    country: "Italy",
-    image: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
+    country: "Singapore",
+    image: require("../../../assets/Flags/singapore.png"),
     options: [
       {
         id: "0",
-        capital: "Rialto Bridge",
-        country: "Italy",
+        capital: "Manila",
+        country: "Philippines",
       },
       {
         id: "1",
-        capital: "Tower Bridge",
-        country: "UK",
+        capital: "Jakarta",
+        country: "Indonesia",
       },
       {
         id: "2",
-        capital: "Brooklyn\nBridge",
-        country: "USA",
+        capital: "Singapore",
+        country: "Singapore",
       },
       {
         id: "3",
-        capital: "Sydney\nHarbour Bridge",
-        country: "Australia",
+        capital: "Kuala \nLumpur",
+        country: "Malaysia",
       },
     ],
-    correctAnswerIndex: 0,
+    correctAnswerIndex: 2,
   },
   {
-    id: "8b",
+    id: "2b",
     status: "Flags",
-    country: "Rialto Bridge",
-    capital: "Italy",
+    capital: "Singapore",
+    country: "Singapore",
     options: [
       {
         id: "0",
-        country: "Rialto Bridge\nItaly",
-        img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.png"),
+        img: require("../../../assets/Flags/poland.png"),
+        country: "Poland",
       },
       {
         id: "1",
-        country: "Dom Luís I Bridge\nPortugal",
-        img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.png"),
+        img: require("../../../assets/Flags/malta.png"),
+        country: "Malta",
       },
       {
         id: "2",
-        country: "Brooklyn Bridge\nUSA",
-        img: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.png"),
+        img: require("../../../assets/Flags/singapore.png"),
+        country: "Singapore",
       },
       {
         id: "3",
-        country: "Sydney Harbour Bridge\nAustralia",
-        img: require("../../../assets/WorldMonuments/Oceania/harbour-bridge.png"),
+        img: require("../../../assets/Flags/austria.png"),
+        country: "Austria",
       },
     ],
-    correctAnswerIndex: 0,
+    correctAnswerIndex: 2,
   },
   {
     id: "9a",
@@ -526,68 +587,71 @@ const qstMixed7En = [
     ],
     correctAnswerIndex: 2,
   },
+ 
   {
-    id: "10a",
-    status: "Capitals",
-    img: "L",
-    country: "Spain",
-    image: require("../../../assets/WorldMonuments/Europe/RoyalPalaceMadrid.png"),
-    options: [
-      {
-        id: "0",
-        capital: "Royal Palace\nof Madrid",
-        country: "Spain",
-      },
-      {
-        id: "1",
-        capital: "Imperial\nPalace",
-        country: "Japan",
-      },
-      {
-        id: "2",
-        capital: "Palace of\nVersailles",
-        country: "France",
-      },
-      {
-        id: "3",
-        capital: "The Grand\nPalace",
-        country: "Thailand",
-      },
-    ],
-    correctAnswerIndex: 0,
-  },
-  {
-    id: "10b",
+    id: "11",
     status: "Flags",
-    country: "Royal Palace of Madrid",
-    capital: "Spain",
-    options: [
-      {
-        id: "0",
-        country: "Royal Palace of Madrid\nSpain",
-        img: require("../../../assets/WorldMonuments/Europe/RoyalPalaceMadrid.png"),
-      },
-      {
-        id: "1",
-        country: "Imperial Palace\nJapan",
-        img: require("../../../assets/WorldMonuments/Asia/ImperialPalaceTokyo.png"),
-      },
-      {
-        id: "2",
-        country: "Palace of Versailles\nFrance",
-        img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
-      },
-      {
-        id: "3",
-        country: "The Grand Palace\nThailand",
-        img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
-      },
-    ],
-    correctAnswerIndex: 0,
+    capital: "",
+    country: "",
   },
   {
     id: "11",
-    monument: "",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
     country: "",
   },
 ];

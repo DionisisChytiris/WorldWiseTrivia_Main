@@ -1,4 +1,63 @@
 const qstMixed8En = [
+  {
+    id: "9a",
+    status: "Capitals",
+    img: 'L',
+    country: "Australia",
+    image: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.jpg"),
+    options: [
+      {
+        id: "0",
+        capital: 'Golden\nGate Bridge',
+        country: 'USA'
+      },
+      {
+        id: "1",
+        capital: 'Tulum',
+        country: 'Mexico'
+      },
+      {
+        id: "2",
+        capital: 'Gold Coast',
+        country: 'Australia'
+      },
+      {
+        id: "3",
+        capital: 'Copacabana',
+        country: 'Brazil'
+      },
+    ],
+    correctAnswerIndex: 2,
+  },
+  {
+    id: "9b",
+    status: "Flags",
+    country: "Gold Coast",
+    capital: "Australia",
+    options: [
+      {
+        id: "0",
+        name: "Golden Gate Bridge\nUSA",
+        img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.png"),
+      },
+      {
+        id: "1",
+        name: "Tulum\nMexico",
+        img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
+      },
+      {
+        id: "2",
+        name: "Gold Coast\nAustralia",
+        img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.png"),
+      },
+      {
+        id: "3",
+        name: "Panama Canal\nPanama",
+        img: require("../../../assets/WorldMonuments/America/PanamaCanal.png"),
+      },
+    ],
+    correctAnswerIndex: 2,
+  },
     {
         id: "1a",
         status: "Capitals",
@@ -57,63 +116,66 @@ const qstMixed8En = [
         ],
         correctAnswerIndex: 3,
       },
+     
+      
       {
-        id: "2a",
+        id: "8a",
         status: "Capitals",
-        country: "Russia",
-        image: require("../../../assets/Flags/russia.png"),
+        img: 'L',
+        country: "Spain",
+        image: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png"),
         options: [
           {
             id: "0",
-            capital: 'Moscow',
-            country: 'Russia'
+            capital: 'Louvre\nMuseum',
+            country: 'France'
           },
           {
             id: "1",
-            capital: 'Belgrade',
-            country: 'Serbia'
+            capital: 'Guggenheim\nMuseum',
+            country: 'Spain'
           },
           {
             id: "2",
-            capital: 'Zagreb',
-            country: 'Croatia'
+            capital: 'Registan',
+            country: 'Uzbekistan'
           },
           {
             id: "3",
-            capital: 'Ljubljana',
-            country: 'Slovenia'
+            capital: 'Space Needle',
+            country: 'USA'
           },
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
       },
       {
-        id: "2b",
-        status: "Flags" ,
-        capital: "Russia",
-        country: "Moscow",
+        id: "8b",
+        status: "Flags",
+        country: "Guggenheim Museum Bilbao",
+        capital: "Spain",
         options: [
           {
             id: "0",
-            img: require("../../../assets/Flags/russia.png"),
-            country: 'Russia'
+            name: "Louvre Museum\nFrance",
+            img: require("../../../assets/WorldMonuments/Europe/LouvreMuseum.png"),
           },
           {
             id: "1",
-            img: require("../../../assets/Flags/slovakia.png"),
-            country: 'Slovakia'
+            name: "Guggenheim Museum\nSpain",
+            img: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png"),
           },
           {
             id: "2",
-            img: require("../../../assets/Flags/finland.png"),
-            country: 'Finland'
+            name: "Space Needle\nUSA",
+            img: require("../../../assets/WorldMonuments/USA/spaceNeedle_Seattle.png"),
           },
           {
             id: "3",
-            img: require("../../../assets/Flags/skorea.png"),
-            country: 'South Korea'
+            name: "Registan\nUzbekistan",
+            img: require("../../../assets/WorldMonuments/Asia/Registan.png"),
           },
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
       },
       {
         id: "3a",
@@ -144,7 +206,6 @@ const qstMixed8En = [
         ],
         correctAnswerIndex: 2,
       },
-    
       {
         id: "3b",
         status: "Flags",
@@ -170,6 +231,66 @@ const qstMixed8En = [
             id: "3",
             img: require("../../../assets/Flags/United-Arab-Emirates.png"),
             country: "United Arab\nEmirates",
+          },
+        ],
+        correctAnswerIndex: 2,
+      },
+     
+      {
+        id: "5a",
+        status: "Capitals",
+        img: 'L',
+        country: "French Polynesia",
+        image: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
+        options: [
+          {
+            id: "0",
+            capital: 'Crooked Forest',
+            country: 'Poland'
+          },
+          {
+            id: "1",
+            capital: 'Dead Sea',
+            country: 'Jordan/Israel/West Bank'
+          },
+          {
+            id: "2",
+            capital: 'Mount Otemanu',
+            country: 'French Polynesia'
+          },
+          {
+            id: "3",
+            capital: 'Gobi Desert',
+            country: 'China/Mongolia'
+          },
+        ],
+        correctAnswerIndex: 2,
+      },
+      {
+        id: "5b",
+        status: "Flags",
+        country: "Mount Otemanu",
+        capital: "French Polynesia",
+        options: [
+          {
+            id: "0",
+            name: "Crooked Forest\nPoland",
+            img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
+          },
+          {
+            id: "1",
+            name: "Dead Sea\nJordan/Israel/West Bank",
+            img: require("../../../assets/NaturalMnt/Asia/DeadSea.jpg"),
+          },
+          {
+            id: "2",
+            name: "Mount Otemanu\nFrench Polynesia",
+            img: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
+          },
+          {
+            id: "3",
+            name: "Gobi Desert\nChina/Mongolia",
+            img: require("../../../assets/NaturalMnt/Asia/Winter-GobiDesert.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -232,65 +353,6 @@ const qstMixed8En = [
           },
         ],
         correctAnswerIndex: 0,
-      },
-      {
-        id: "5a",
-        status: "Capitals",
-        img: 'L',
-        country: "French Polynesia",
-        image: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
-        options: [
-          {
-            id: "0",
-            capital: 'Crooked Forest',
-            country: 'Poland'
-          },
-          {
-            id: "1",
-            capital: 'Dead Sea',
-            country: 'Jordan/Israel/West Bank'
-          },
-          {
-            id: "2",
-            capital: 'Mount Otemanu',
-            country: 'French Polynesia'
-          },
-          {
-            id: "3",
-            capital: 'Gobi Desert',
-            country: 'China/Mongolia'
-          },
-        ],
-        correctAnswerIndex: 2,
-      },
-      {
-        id: "5b",
-        status: "Flags",
-        country: "Mount Otemanu",
-        capital: "French Polynesia",
-        options: [
-          {
-            id: "0",
-            name: "Crooked Forest\nPoland",
-            img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
-          },
-          {
-            id: "1",
-            name: "Dead Sea\nJordan/Israel/West Bank",
-            img: require("../../../assets/NaturalMnt/Asia/DeadSea.jpg"),
-          },
-          {
-            id: "2",
-            name: "Mount Otemanu\nFrench Polynesia",
-            img: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
-          },
-          {
-            id: "3",
-            name: "Gobi Desert\nChina/Mongolia",
-            img: require("../../../assets/NaturalMnt/Asia/Winter-GobiDesert.webp"),
-          },
-        ],
-        correctAnswerIndex: 2,
       },
       {
         id: "6a",
@@ -410,123 +472,64 @@ const qstMixed8En = [
         ],
         correctAnswerIndex: 3,
       },
+      
       {
-        id: "8a",
+        id: "2a",
         status: "Capitals",
-        img: 'L',
-        country: "Spain",
-        image: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png"),
+        country: "Russia",
+        image: require("../../../assets/Flags/russia.png"),
         options: [
           {
             id: "0",
-            capital: 'Louvre\nMuseum',
-            country: 'France'
+            capital: 'Moscow',
+            country: 'Russia'
           },
           {
             id: "1",
-            capital: 'Guggenheim\nMuseum',
-            country: 'Spain'
+            capital: 'Belgrade',
+            country: 'Serbia'
           },
           {
             id: "2",
-            capital: 'Registan',
-            country: 'Uzbekistan'
+            capital: 'Zagreb',
+            country: 'Croatia'
           },
           {
             id: "3",
-            capital: 'Space Needle',
-            country: 'USA'
+            capital: 'Ljubljana',
+            country: 'Slovenia'
           },
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
       },
       {
-        id: "8b",
-        status: "Flags",
-        country: "Guggenheim Museum Bilbao",
-        capital: "Spain",
+        id: "2b",
+        status: "Flags" ,
+        capital: "Russia",
+        country: "Moscow",
         options: [
           {
             id: "0",
-            name: "Louvre Museum\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/LouvreMuseum.png"),
+            img: require("../../../assets/Flags/russia.png"),
+            country: 'Russia'
           },
           {
             id: "1",
-            name: "Guggenheim Museum\nSpain",
-            img: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png"),
+            img: require("../../../assets/Flags/slovakia.png"),
+            country: 'Slovakia'
           },
           {
             id: "2",
-            name: "Space Needle\nUSA",
-            img: require("../../../assets/WorldMonuments/USA/spaceNeedle_Seattle.png"),
+            img: require("../../../assets/Flags/finland.png"),
+            country: 'Finland'
           },
           {
             id: "3",
-            name: "Registan\nUzbekistan",
-            img: require("../../../assets/WorldMonuments/Asia/Registan.png"),
+            img: require("../../../assets/Flags/skorea.png"),
+            country: 'South Korea'
           },
         ],
-        correctAnswerIndex: 1,
-      },
-      {
-        id: "9a",
-        status: "Capitals",
-        img: 'L',
-        country: "Australia",
-        image: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.jpg"),
-        options: [
-          {
-            id: "0",
-            capital: 'Golden\nGate Bridge',
-            country: 'USA'
-          },
-          {
-            id: "1",
-            capital: 'Tulum',
-            country: 'Mexico'
-          },
-          {
-            id: "2",
-            capital: 'Gold Coast',
-            country: 'Australia'
-          },
-          {
-            id: "3",
-            capital: 'Copacabana',
-            country: 'Brazil'
-          },
-        ],
-        correctAnswerIndex: 2,
-      },
-      {
-        id: "9b",
-        status: "Flags",
-        country: "Gold Coast",
-        capital: "Australia",
-        options: [
-          {
-            id: "0",
-            name: "Golden Gate Bridge\nUSA",
-            img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.png"),
-          },
-          {
-            id: "1",
-            name: "Tulum\nMexico",
-            img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
-          },
-          {
-            id: "2",
-            name: "Gold Coast\nAustralia",
-            img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.png"),
-          },
-          {
-            id: "3",
-            name: "Panama Canal\nPanama",
-            img: require("../../../assets/WorldMonuments/America/PanamaCanal.png"),
-          },
-        ],
-        correctAnswerIndex: 2,
+        correctAnswerIndex: 0,
       },
       {
         id: "10a",
@@ -588,8 +591,69 @@ const qstMixed8En = [
         correctAnswerIndex: 0,
       },
       {
-        id: "11a",
-        monument: "",
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
         country: "",
       },
 ]

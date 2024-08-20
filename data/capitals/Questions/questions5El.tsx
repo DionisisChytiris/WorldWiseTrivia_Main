@@ -98,7 +98,7 @@ const question5El = [
   {
     id: "2b",
     status: "Flags",
-    capital: "μαλαίσία",
+    capital: "Mαλαίσία",
     country: "Kουάλα Λουμπούρ",
     options: [
       {

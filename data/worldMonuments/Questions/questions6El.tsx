@@ -268,7 +268,7 @@ const questions6El = [
       {
         id: "5b",
         status: "Flags",
-        country: "Sirigiya",
+        country: "Σιγκιρίγια",
         capital: "Σρι Λάνκα",
         options: [
           {

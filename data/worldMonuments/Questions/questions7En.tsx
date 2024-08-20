@@ -357,7 +357,7 @@ const questions7En = [
         id: "7a",
         status: "Capitals",
         img: 'L',
-        country: "Japan",
+        country: "Japon",
         image: require("../../../assets/WorldMonuments/Asia/Osaka-Castle.png"),
         options: [
           {
@@ -368,12 +368,12 @@ const questions7En = [
           {
             id: "1",
             capital: 'Osaka Castle',
-            country: 'Japan'
+            country: 'Japon'
           },
           {
             id: "2",
             capital: 'Himeji Castle',
-            country: 'Japan'
+            country: 'Japon'
           },
           {
             id: "3",
@@ -387,7 +387,7 @@ const questions7En = [
         id: "7b",
         status: "Flags",
         country: "Osaka Castle",
-        capital: "Japan",
+        capital: "Japon",
         options: [
           {
             id: "0",
@@ -396,7 +396,7 @@ const questions7En = [
           },
           {
             id: "1",
-            country: "Osaka Castle\nJapan",
+            country: "Osaka Castle\nJapon",
             img: require("../../../assets/WorldMonuments/Asia/Osaka-Castle.png"),
           },
           {
@@ -545,7 +545,7 @@ const questions7En = [
           {
             id: "1",
             capital: 'Imperial\nPalace',
-            country: 'Japan'
+            country: 'Japon'
           },
           {
             id: "2",
@@ -573,7 +573,7 @@ const questions7En = [
           },
           {
             id: "1",
-            country: "Imperial Palace\nJapan",
+            country: "Imperial Palace\nJapon",
             img: require("../../../assets/WorldMonuments/Asia/ImperialPalaceTokyo.png"),
           },
           {

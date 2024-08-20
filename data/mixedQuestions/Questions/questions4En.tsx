@@ -1,4 +1,63 @@
 const qstMixed4En = [
+  {
+    id: "10a",
+    status: "Capitals",
+    img: 'L',
+    country: "Italy",
+    image: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+    options: [
+      {
+        id: "0",
+        capital: 'Colosseum',
+        country: 'Italy'
+      },
+      {
+        id: "1",
+        capital: 'Eiffel Tower',
+        country: 'France'
+      },
+      {
+        id: "2",
+        capital: 'Cité de\nCarcassonne',
+        country: 'France'
+      },
+      {
+        id: "3",
+        capital: 'Leaning\nTower of Pisa',
+        country: 'Italy'
+      },
+    ],
+    correctAnswerIndex: 3,
+  },
+  {
+    id: "10b",
+    status: "Flags",
+    country: "Leaning Tower of Pisa",
+    capital: "Italy",
+    options: [
+      {
+        id: "0",
+        country: "Cité de Carcassonne\nFrance",
+        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
+      },
+      {
+        id: "1",
+        country: "Colosseum\nItaly",
+        img: require("../../../assets/WorldMonuments/Europe/colosseum.png"),
+      },
+      {
+        id: "2",
+        country: "Eiffel Tower\nFrance",
+        img: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
+      },
+      {
+        id: "3",
+        country: "Leaning Tower of Pisa\nItaly",
+        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+      },
+    ],
+    correctAnswerIndex: 3,
+  },
     {
         id: "1a",
         status: "Capitals",
@@ -115,123 +174,6 @@ const qstMixed4En = [
         correctAnswerIndex: 1,
       },
       {
-        id: "3a",
-        status: "Capitals",
-        country: "Tehran",
-        image: require("../../../assets/Flags/iran.png"),
-        options: [
-          {
-            id: "0",
-            capital: 'Iraq',
-            country: 'Baghdad'
-          },
-          {
-            id: "1",
-            capital: 'Iran',
-            country: 'Tehran'
-          },
-          {
-            id: "2",
-            capital: 'Jordan',
-            country: 'Amman'
-          },
-          {
-            id: "3",
-            capital: 'Syria',
-            country: 'Damascus'
-          },
-        ],
-        correctAnswerIndex: 1,
-      },
-    
-      {
-        id: "3b",
-        status: "Flags",
-        capital: "Tehran",
-        country: "Iran",
-        options: [
-          {
-            id: "0",
-            img: require("../../../assets/Flags/india.png"),
-            country: "India",
-          },
-          {
-            id: "1",
-            img: require("../../../assets/Flags/iran.png"),
-            country: "Iran",
-          },
-          {
-            id: "2",
-            img: require("../../../assets/Flags/italy.png"),
-            country: "Italy",
-          },
-          {
-            id: "3",
-            img: require("../../../assets/Flags/mexico.png"),
-            country: "Mexico",
-          },
-        ],
-        correctAnswerIndex: 1,
-      },
-      {
-        id: "4a",
-        status: "Capitals",
-        country: "Tripoli",
-        image: require("../../../assets/Flags/libya.png"),
-        options: [
-          {
-            id: "0",
-            capital: 'Libya',
-            country: 'Tripoli'
-          },
-          {
-            id: "1",
-            capital: 'Algeria',
-            country: 'Algiers'
-          },
-          {
-            id: "2",
-            capital: 'Egypt',
-            country: 'Cairo'
-          },
-          {
-            id: "3",
-            capital: 'Lebanon',
-            country: 'Beirut'
-          },
-        ],
-        correctAnswerIndex: 0,
-      },
-      {
-        id: "4b",
-        status: "Flags",
-        capital: "Tripoli",
-        country: "Libya",
-        options: [
-          {
-            id: "0",
-            img: require("../../../assets/Flags/libya.png"),
-            country: "Libya",
-          },
-          {
-            id: "1",
-            img: require("../../../assets/Flags/azerbaijan.png"),
-            country: "Azerbaijan",
-          },
-          {
-            id: "2",
-            img: require("../../../assets/Flags/tunisia.png"),
-            country: "Tunisia",
-          },
-          {
-            id: "3",
-            img: require("../../../assets/Flags/Algeria.png"),
-            country: "Algeria",
-          },
-        ],
-        correctAnswerIndex: 0,
-      },
-      {
         id: "5a",
         status: "Capitals",
         img: 'L',
@@ -291,6 +233,66 @@ const qstMixed4En = [
         correctAnswerIndex: 1,
       },
       {
+        id: "3a",
+        status: "Capitals",
+        country: "Tehran",
+        image: require("../../../assets/Flags/iran.png"),
+        options: [
+          {
+            id: "0",
+            capital: 'Iraq',
+            country: 'Baghdad'
+          },
+          {
+            id: "1",
+            capital: 'Iran',
+            country: 'Tehran'
+          },
+          {
+            id: "2",
+            capital: 'Jordan',
+            country: 'Amman'
+          },
+          {
+            id: "3",
+            capital: 'Syria',
+            country: 'Damascus'
+          },
+        ],
+        correctAnswerIndex: 1,
+      },
+    
+      {
+        id: "3b",
+        status: "Flags",
+        capital: "Tehran",
+        country: "Iran",
+        options: [
+          {
+            id: "0",
+            img: require("../../../assets/Flags/india.png"),
+            country: "India",
+          },
+          {
+            id: "1",
+            img: require("../../../assets/Flags/iran.png"),
+            country: "Iran",
+          },
+          {
+            id: "2",
+            img: require("../../../assets/Flags/italy.png"),
+            country: "Italy",
+          },
+          {
+            id: "3",
+            img: require("../../../assets/Flags/mexico.png"),
+            country: "Mexico",
+          },
+        ],
+        correctAnswerIndex: 1,
+      },
+     
+      {
         id: "6a",
         status: "Capitals",
         img: 'L',
@@ -349,6 +351,7 @@ const qstMixed4En = [
         ],
         correctAnswerIndex: 2,
       },
+
       {
         id: "7a",
         status: "Capitals",
@@ -408,6 +411,65 @@ const qstMixed4En = [
         ],
         correctAnswerIndex: 0,
       },
+      {
+        id: "4a",
+        status: "Capitals",
+        country: "Tripoli",
+        image: require("../../../assets/Flags/libya.png"),
+        options: [
+          {
+            id: "0",
+            capital: 'Libya',
+            country: 'Tripoli'
+          },
+          {
+            id: "1",
+            capital: 'Algeria',
+            country: 'Algiers'
+          },
+          {
+            id: "2",
+            capital: 'Egypt',
+            country: 'Cairo'
+          },
+          {
+            id: "3",
+            capital: 'Lebanon',
+            country: 'Beirut'
+          },
+        ],
+        correctAnswerIndex: 0,
+      },
+      {
+        id: "4b",
+        status: "Flags",
+        capital: "Tripoli",
+        country: "Libya",
+        options: [
+          {
+            id: "0",
+            img: require("../../../assets/Flags/libya.png"),
+            country: "Libya",
+          },
+          {
+            id: "1",
+            img: require("../../../assets/Flags/azerbaijan.png"),
+            country: "Azerbaijan",
+          },
+          {
+            id: "2",
+            img: require("../../../assets/Flags/tunisia.png"),
+            country: "Tunisia",
+          },
+          {
+            id: "3",
+            img: require("../../../assets/Flags/Algeria.png"),
+            country: "Algeria",
+          },
+        ],
+        correctAnswerIndex: 0,
+      },
+     
       {
         id: "8a",
         status: "Capitals",
@@ -526,64 +588,66 @@ const qstMixed4En = [
         ],
         correctAnswerIndex: 2,
       },
+      
       {
-        id: "10a",
-        status: "Capitals",
-        img: 'L',
-        country: "Italy",
-        image: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
-        options: [
-          {
-            id: "0",
-            capital: 'Colosseum',
-            country: 'Italy'
-          },
-          {
-            id: "1",
-            capital: 'Eiffel Tower',
-            country: 'France'
-          },
-          {
-            id: "2",
-            capital: 'Cité de\nCarcassonne',
-            country: 'France'
-          },
-          {
-            id: "3",
-            capital: 'Leaning\nTower of Pisa',
-            country: 'Italy'
-          },
-        ],
-        correctAnswerIndex: 3,
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
       },
       {
-        id: "10b",
+        id: "11",
         status: "Flags",
-        country: "Leaning Tower of Pisa",
-        capital: "Italy",
-        options: [
-          {
-            id: "0",
-            country: "Cité de Carcassonne\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
-          },
-          {
-            id: "1",
-            country: "Colosseum\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/colosseum.png"),
-          },
-          {
-            id: "2",
-            country: "Eiffel Tower\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
-          },
-          {
-            id: "3",
-            country: "Leaning Tower of Pisa\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
-          },
-        ],
-        correctAnswerIndex: 3,
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
       },
       {
         id: "11",

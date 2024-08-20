@@ -60,7 +60,7 @@ const question2Es = [
     {
       id: "1c",
       status: "Guess",
-      word: "JAPAN",
+      word: "Japon",
       country: "Tokio",
       num: 4,
       letters: "ILUEANORJPMC",

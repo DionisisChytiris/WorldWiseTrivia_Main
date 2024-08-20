@@ -1,14 +1,15 @@
 import React from "react";
+// import QuizMainTemplate from "../../Templates/MainQuizTemplate";
 import QuizMainTemplate from "../../Templates/MainQuizTemplate";
 import { useAppSelector } from "../../../../ReduxSetUp/store";
 
 const Quiz9 = () => {
   const { initStatus } = useAppSelector((state) => state.quizStatus);
-  const { quiz1ItemsCapitals } = useAppSelector((state) => state.quiz1Capitals);
+  const { quiz9ItemsMixed } = useAppSelector((state) => state.quiz9MixedQst);
 
   return (
     <QuizMainTemplate
-      dataQuiz={quiz1ItemsCapitals}
+      dataQuiz={quiz9ItemsMixed}
       quizName="9"
       results="MixedRes9"
       loseScreen='MixedLoseScr9'

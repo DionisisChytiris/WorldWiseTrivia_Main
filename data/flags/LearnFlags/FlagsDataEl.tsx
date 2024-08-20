@@ -345,7 +345,7 @@ const FlagsDataEl = [
      {
          id: '37',
          continent: 'Asia',
-         country: 'Japan',
+         country: 'Japon',
          capital: 'Tokyo',
          img: require('../../../assets/Flags/japan.png')
      },

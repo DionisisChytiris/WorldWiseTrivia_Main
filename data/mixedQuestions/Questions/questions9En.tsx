@@ -1,4 +1,63 @@
 const qstMixed9En = [
+  {
+    id: "10a",
+    status: "Capitals",
+    img: 'L',
+    country: "Japon",
+    image: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
+    options: [
+      {
+        id: "0",
+        capital: 'Bran Castle',
+        country: 'Romania'
+      },
+      {
+        id: "1",
+        capital: 'Entrance of \nLuxor Temple',
+        country: 'Egypt'
+      },
+      {
+        id: "2",
+        capital: 'Neuschwanstein\nCastle',
+        country: 'Germany'
+      },
+      {
+        id: "3",
+        capital: 'Himeji Castle',
+        country: 'Japon'
+      },
+    ],
+    correctAnswerIndex: 3,
+  },
+  {
+    id: "10b",
+    status: "Flags",
+    country: "Himeji Castle",
+    capital: "Japon",
+    options: [
+      {
+        id: "0",
+        country: "Bran Castle\nRomania",
+        img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
+      },
+      {
+        id: "1",
+        country: "Hiroshima Peace Memorial Park\nJapan",
+        img: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.png"),
+      },
+      {
+        id: "2",
+        country: "Entrance of Luxor Temple\nEgypt",
+        img: require("../../../assets/WorldMonuments/Africa/Entrance-of-Luxor-Temple-Egypt.jpg"),
+      },
+      {
+        id: "3",
+        country: "Himeji Castle\nJapan",
+        img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
+      },
+    ],
+    correctAnswerIndex: 3,
+  },
     {
         id: "1a",
         status: "Capitals",
@@ -58,62 +117,63 @@ const qstMixed9En = [
         correctAnswerIndex: 1,
       },
       {
-        id: "2a",
+        id: "8a",
         status: "Capitals",
-        country: "Moldova",
-        image: require("../../../assets/Flags/Moldova.png"),
+        img: 'L',
+        country: "Syria",
+        image: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.jpg"),
         options: [
           {
             id: "0",
-            capital: 'Chisinau',
-            country: 'Moldavia'
+            capital: 'Alhambra',
+            country: 'Spain'
           },
           {
             id: "1",
-            capital: 'Bucharest',
-            country: 'Romania'
+            capital: 'Arc de\nTriumph',
+            country: 'France'
           },
           {
             id: "2",
-            capital: 'Kyiv',
-            country: 'Ukraine'
+            capital: 'Citadel\nof Aleppo',
+            country: 'Syria'
           },
           {
             id: "3",
-            capital: 'Odessa',
-            country: 'Ukrainian city'
+            capital: 'Arles\nAmphitheatre',
+            country: 'France'
           },
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
       },
       {
-        id: "2b",
-        status: "Flags" ,
-        capital: "Moldova",
-        country: "Chisinau",
+        id: "8b",
+        status: "Flags",
+        country: "Citadel of Aleppo",
+        capital: "Syria",
         options: [
           {
             id: "0",
-            img: require("../../../assets/Flags/Moldova.png"),
-            country: 'Moldova'
+            country: "Arles Amphitheatre\nFrance",
+            img: require("../../../assets/WorldMonuments/Europe/AmpitheatreofArles.png"),
           },
           {
             id: "1",
-            img: require("../../../assets/Flags/colombia.png"),
-            country: 'Colombia'
+            country: "Arc de Triumph\nFrance",
+            img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png"),
           },
           {
             id: "2",
-            img: require("../../../assets/Flags/romania.png"),
-            country: 'Romania'
+            country: "Citadel of Aleppo\nSyria",
+            img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png"),
           },
           {
             id: "3",
-            img: require("../../../assets/Flags/venezuela.png"),
-            country: 'Venezuela'
+            country: "Alhambra\nSpain",
+            img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
           },
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
       },
       {
         id: "3a",
@@ -174,64 +234,7 @@ const qstMixed9En = [
         ],
         correctAnswerIndex: 3,
       },
-      {
-        id: "4a",
-        status: "Capitals",
-        country: "Suva",
-        image: require("../../../assets/Flags/Fiji.png"),
-        options: [
-          {
-            id: "0",
-            capital: 'Samoa',
-            country: 'Apia'
-          },
-          {
-            id: "1",
-            capital: 'Fiji',
-            country: 'Suva'
-          },
-          {
-            id: "2",
-            capital: 'Papua New\nGuinea',
-            country: 'Port Moresby'
-          },
-          {
-            id: "3",
-            capital: 'Solomon Islands',
-            country: 'Honiara'
-          },
-        ],
-        correctAnswerIndex: 1,
-      },
-      {
-        id: "4b",
-        status: "Flags",
-        capital: "Suva",
-        country: "Fiji",
-        options: [
-          {
-            id: "0",
-            img: require("../../../assets/Flags/Solomon-Islands.png"),
-            country: "Solomon Islands",
-          },
-          {
-            id: "1",
-            img: require("../../../assets/Flags/Fiji.png"),
-            country: "Fiji",
-          },
-          {
-            id: "2",
-            img: require("../../../assets/Flags/Papua-New-Guinea.png"),
-            country: "Papua New\nGuinea",
-          },
-          {
-            id: "3",
-            img: require("../../../assets/Flags/Marshall-Islands.png"),
-            country: "Marshall Islands",
-          },
-        ],
-        correctAnswerIndex: 1,
-      },
+     
       {
         id: "5a",
         status: "Capitals",
@@ -290,6 +293,64 @@ const qstMixed9En = [
           },
         ],
         correctAnswerIndex: 0,
+      },
+      {
+        id: "4a",
+        status: "Capitals",
+        country: "Suva",
+        image: require("../../../assets/Flags/Fiji.png"),
+        options: [
+          {
+            id: "0",
+            capital: 'Samoa',
+            country: 'Apia'
+          },
+          {
+            id: "1",
+            capital: 'Fiji',
+            country: 'Suva'
+          },
+          {
+            id: "2",
+            capital: 'Papua New\nGuinea',
+            country: 'Port Moresby'
+          },
+          {
+            id: "3",
+            capital: 'Solomon Islands',
+            country: 'Honiara'
+          },
+        ],
+        correctAnswerIndex: 1,
+      },
+      {
+        id: "4b",
+        status: "Flags",
+        capital: "Suva",
+        country: "Fiji",
+        options: [
+          {
+            id: "0",
+            img: require("../../../assets/Flags/Solomon-Islands.png"),
+            country: "Solomon Islands",
+          },
+          {
+            id: "1",
+            img: require("../../../assets/Flags/Fiji.png"),
+            country: "Fiji",
+          },
+          {
+            id: "2",
+            img: require("../../../assets/Flags/Papua-New-Guinea.png"),
+            country: "Papua New\nGuinea",
+          },
+          {
+            id: "3",
+            img: require("../../../assets/Flags/Marshall-Islands.png"),
+            country: "Marshall Islands",
+          },
+        ],
+        correctAnswerIndex: 1,
       },
       {
         id: "6a",
@@ -409,64 +470,64 @@ const qstMixed9En = [
         ],
         correctAnswerIndex: 1,
       },
+     
       {
-        id: "8a",
+        id: "2a",
         status: "Capitals",
-        img: 'L',
-        country: "Syria",
-        image: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.jpg"),
+        country: "Moldova",
+        image: require("../../../assets/Flags/Moldova.png"),
         options: [
           {
             id: "0",
-            capital: 'Alhambra',
-            country: 'Spain'
+            capital: 'Chisinau',
+            country: 'Moldavia'
           },
           {
             id: "1",
-            capital: 'Arc de\nTriumph',
-            country: 'France'
+            capital: 'Bucharest',
+            country: 'Romania'
           },
           {
             id: "2",
-            capital: 'Citadel\nof Aleppo',
-            country: 'Syria'
+            capital: 'Kyiv',
+            country: 'Ukraine'
           },
           {
             id: "3",
-            capital: 'Arles\nAmphitheatre',
-            country: 'France'
+            capital: 'Odessa',
+            country: 'Ukrainian city'
           },
         ],
-        correctAnswerIndex: 2,
+        correctAnswerIndex: 0,
       },
       {
-        id: "8b",
-        status: "Flags",
-        country: "Citadel of Aleppo",
-        capital: "Syria",
+        id: "2b",
+        status: "Flags" ,
+        capital: "Moldova",
+        country: "Chisinau",
         options: [
           {
             id: "0",
-            country: "Arles Amphitheatre\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/AmpitheatreofArles.png"),
+            img: require("../../../assets/Flags/Moldova.png"),
+            country: 'Moldova'
           },
           {
             id: "1",
-            country: "Arc de Triumph\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png"),
+            img: require("../../../assets/Flags/colombia.png"),
+            country: 'Colombia'
           },
           {
             id: "2",
-            country: "Citadel of Aleppo\nSyria",
-            img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png"),
+            img: require("../../../assets/Flags/romania.png"),
+            country: 'Romania'
           },
           {
             id: "3",
-            country: "Alhambra\nSpain",
-            img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
+            img: require("../../../assets/Flags/venezuela.png"),
+            country: 'Venezuela'
           },
         ],
-        correctAnswerIndex: 2,
+        correctAnswerIndex: 0,
       },
       {
         id: "9a",
@@ -527,68 +588,71 @@ const qstMixed9En = [
         ],
         correctAnswerIndex: 1,
       },
+     
       {
-        id: "10a",
-        status: "Capitals",
-        img: 'L',
-        country: "Japan",
-        image: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
-        options: [
-          {
-            id: "0",
-            capital: 'Bran Castle',
-            country: 'Romania'
-          },
-          {
-            id: "1",
-            capital: 'Entrance of \nLuxor Temple',
-            country: 'Egypt'
-          },
-          {
-            id: "2",
-            capital: 'Neuschwanstein\nCastle',
-            country: 'Germany'
-          },
-          {
-            id: "3",
-            capital: 'Himeji Castle',
-            country: 'Japan'
-          },
-        ],
-        correctAnswerIndex: 3,
-      },
-      {
-        id: "10b",
+        id: "11",
         status: "Flags",
-        country: "Himeji Castle",
-        capital: "Japan",
-        options: [
-          {
-            id: "0",
-            country: "Bran Castle\nRomania",
-            img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
-          },
-          {
-            id: "1",
-            country: "Hiroshima Peace Memorial Park\nJapan",
-            img: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.png"),
-          },
-          {
-            id: "2",
-            country: "Entrance of Luxor Temple\nEgypt",
-            img: require("../../../assets/WorldMonuments/Africa/Entrance-of-Luxor-Temple-Egypt.jpg"),
-          },
-          {
-            id: "3",
-            country: "Himeji Castle\nJapan",
-            img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
-          },
-        ],
-        correctAnswerIndex: 3,
+        capital: "",
+        country: "",
       },
       {
         id: "11",
-        monument: "",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
         country: "",
       },
 ]

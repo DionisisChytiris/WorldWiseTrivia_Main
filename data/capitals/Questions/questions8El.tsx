@@ -31,7 +31,7 @@ const question8El = [
   {
     id: "1b",
     status: "Flags",
-    capital: "βολιβία",
+    capital: "Bολιβία",
     country: "Λα Παζ",
     options: [
       {

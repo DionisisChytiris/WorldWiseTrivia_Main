@@ -21,6 +21,7 @@ const TabNavMixedQsts= ({ navigation }) => {
   return (
     <Tab.Navigator
       screenOptions={{
+        headerShown: false,
         headerStyle: {
           backgroundColor: colors.backgroundBottomTab,
         },

@@ -270,7 +270,7 @@ const question1En = [
     {
       id: "5a",
       status: "Capitals",
-      country: "Japan",
+      country: "Japon",
       image: require("../../../assets/Flags/japan.png"),
       options: [
         {
@@ -291,7 +291,7 @@ const question1En = [
         {
           id: "3",
           capital: 'Tokyo',
-          country: 'Japan'
+          country: 'Japon'
         },
       ],
       correctAnswerIndex: 3,
@@ -299,7 +299,7 @@ const question1En = [
     {
       id: "5b",
       status: "Flags" ,
-      capital: "Japan",
+      capital: "Japon",
       country: "Tokyo",
       options: [
         {
@@ -320,7 +320,7 @@ const question1En = [
         {
           id: "3",
           img: require("../../../assets/Flags/japan.png"),
-          country: 'Japan'
+          country: 'Japon'
         },
       ],
       correctAnswerIndex: 3,
@@ -329,7 +329,7 @@ const question1En = [
       id: "5c",
       status: "Guess",
       word: "TOKYO",
-      country: "Japan",
+      country: "Japon",
       num: 4,
       letters: "YLREAPOSJTKC",
       img: require("../../../assets/Flags/japan.png"),
@@ -420,7 +420,7 @@ const question1En = [
         {
           id: "2",
           capital: 'Tokyo',
-          country: 'Japan'
+          country: 'Japon'
         },
         {
           id: "3",

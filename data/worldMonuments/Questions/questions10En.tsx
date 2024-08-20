@@ -239,7 +239,7 @@ const questions10En = [
     id: "5a",
     status: "Capitals",
     img: 'L',
-    country: "Japan",
+    country: "Japon",
     image: require("../../../assets/WorldMonuments/Asia/Tokyo-Tower.png"),
     options: [
       {
@@ -260,7 +260,7 @@ const questions10En = [
       {
         id: "3",
         capital: "Tokyo Tower",
-        country: "Japan",
+        country: "Japon",
       },
     ],
     correctAnswerIndex: 3,
@@ -269,7 +269,7 @@ const questions10En = [
     id: "5b",
     status: "Flags",
     country: "Tokyo Tower",
-    capital: "Japan",
+    capital: "Japon",
     options: [
       {
         id: "0",
@@ -288,7 +288,7 @@ const questions10En = [
       },
       {
         id: "3",
-        country: "Tokyo Tower\nJapan",
+        country: "Tokyo Tower\nJapon",
         img: require("../../../assets/WorldMonuments/Asia/Tokyo-Tower.png"),
       },
     ],

@@ -191,7 +191,7 @@ const questions1En = [
       {
         id: "1",
         capital: 'Mount Fiji',
-        country: 'Japan'
+        country: 'Japon'
       },
       {
         id: "2",
@@ -219,7 +219,7 @@ const questions1En = [
       },
       {
         id: "1",
-        country: "Mount Fiji\nJapan",
+        country: "Mount Fiji\nJapon",
         img: require("../../../assets/NaturalMnt/Asia/mount_fuji.webp"),
       },
       {
@@ -416,7 +416,7 @@ const questions1En = [
     id: "8a",
     status: "Capitals",
     img: 'L',
-    country: "Japan",
+    country: "Japon",
     image: require("../../../assets/NaturalMnt/Asia/mount_fuji.webp"),
     options: [
       {
@@ -427,7 +427,7 @@ const questions1En = [
       {
         id: "1",
         capital: 'Mount Fuji',
-        country: 'Japan'
+        country: 'Japon'
       },
       {
         id: "2",
@@ -446,7 +446,7 @@ const questions1En = [
     id: "8b",
     status: "Flags",
     country: "Mount Fuji",
-    capital: "Japan",
+    capital: "Japon",
     options: [
       {
         id: "0",
@@ -455,7 +455,7 @@ const questions1En = [
       },
       {
         id: "1",
-        country: "Mount Fuji\nJapan",
+        country: "Mount Fuji\nJapon",
         img: require("../../../assets/NaturalMnt/Asia/mount_fuji.webp"),
       },
       {

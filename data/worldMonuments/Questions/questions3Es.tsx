@@ -8,7 +8,7 @@ const questions3Es = [
     options: [
       {
         id: "0",
-        capital: "Spanish \nSteps",
+        capital: "Escalinata de la plaza de España",
         country: "Italia",
       },
       {
@@ -18,12 +18,12 @@ const questions3Es = [
       },
       {
         id: "2",
-        capital: "Rialto \nBridge",
+        capital: "Puente de Rialto",
         country: "Italia",
       },
       {
         id: "3",
-        capital: "Leaning Tower \nof Pisa",
+        capital: "Torre de Pisa",
         country: "Italia",
       },
     ],
@@ -67,7 +67,7 @@ const questions3Es = [
     options: [
       {
         id: "0",
-        capital: "Medina of \nMarrakech",
+        capital: "Medina de \nMarrakech",
         country: "Marruecos",
       },
       {
@@ -82,7 +82,7 @@ const questions3Es = [
       },
       {
         id: "3",
-        capital: "St.Joseph's \nOratory",
+        capital: "Oratorio de San José de Monte Real",
         country: "Canadá",
       },
     ],
@@ -96,7 +96,7 @@ const questions3Es = [
     options: [
       {
         id: "0",
-        country: "Medina of Marrakech\nMarruecos",
+        country: "Medina de Marrakech\nMarruecos",
         img: require("../../../assets/WorldMonuments/Africa/medina-marrakech.png"),
       },
       {
@@ -111,7 +111,7 @@ const questions3Es = [
       },
       {
         id: "3",
-        country: "St.Joseph's Oratory\nCanada",
+        country: "Oratorio de San José de Monte Real\nCanadá",
         img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.png"),
       },
     ],
@@ -170,7 +170,7 @@ const questions3Es = [
       },
       {
         id: "3",
-        country: "The Big Buddha\nHong Kong",
+        country: "Buda Tian Tan\nHong Kong",
         img: require("../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.png"),
       },
     ],
@@ -190,17 +190,17 @@ const questions3Es = [
       },
       {
         id: "1",
-        capital: "Palacio de Potala ",
+        capital: "Palacio de Potala",
         country: "Tibet",
       },
       {
         id: "2",
-        capital: "Temples\n of Bagan",
+        capital: "Templos\n de Bagan",
         country: "Myanmar",
       },
       {
         id: "3",
-        capital: "Akshardham \nTemple",
+        capital: "Templo de Akshardham",
         country: "India",
       },
     ],
@@ -209,7 +209,7 @@ const questions3Es = [
   {
     id: "4b",
     status: "Flags",
-    country: "Temples of Bagan",
+    country: "Templos de Bagan",
     capital: "Myanmar",
     options: [
       {
@@ -219,17 +219,17 @@ const questions3Es = [
       },
       {
         id: "1",
-        country: "Palacio de Potala \nTibet",
+        country: "Palacio de Potala\nTibet",
         img: require("../../../assets/WorldMonuments/Asia/potalaPalaceTibet.png"),
       },
       {
         id: "2",
-        country: "Temples of Bagan\nMyanmar",
+        country: "Templos de Bagan\nMyanmar",
         img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.png"),
       },
       {
         id: "3",
-        country: "Akshardham Temple\nIndia",
+        country: "Templo de Akshardham\nIndia",
         img: require("../../../assets/WorldMonuments/Asia/AkshardhamTempleIndia.png"),
       },
     ],
@@ -244,12 +244,12 @@ const questions3Es = [
     options: [
       {
         id: "0",
-        capital: "Moai\nStatues",
+        capital: "Moai",
         country: "Isla de Pascua",
       },
       {
         id: "1",
-        capital: "Kailasa\nTemple",
+        capital: "Templo de Kailasa",
         country: "India",
       },
       {
@@ -259,7 +259,7 @@ const questions3Es = [
       },
       {
         id: "3",
-        capital: "Terracotta \nArmy",
+        capital: "Guerreros de terracota",
         country: "China",
       },
     ],
@@ -268,7 +268,7 @@ const questions3Es = [
   {
     id: "5b",
     status: "Flags",
-    country: "Terracotta Army",
+    country: "Guerreros de terracota",
     capital: "China",
     options: [
       {
@@ -283,12 +283,12 @@ const questions3Es = [
       },
       {
         id: "2",
-        country: "Moai Statues\nEaster Island",
+        country: "Moai\nIsla de Pascua",
         img: require("../../../assets/WorldMonuments/Asia/easter_island.png"),
       },
       {
         id: "3",
-        country: "Terracotta Army\nChina",
+        country: "Guerreros de terracota\nChina",
         img: require("../../../assets/WorldMonuments/Asia/terracottArmy.png"),
       },
     ],
@@ -318,7 +318,7 @@ const questions3Es = [
       },
       {
         id: "3",
-        capital: "Alcatraz \nIsland",
+        capital: "Isla de Alcatraz",
         country: "Estados Unidos",
       },
     ],
@@ -347,7 +347,7 @@ const questions3Es = [
       },
       {
         id: "3",
-        country: "Alcatraz Island\nEstados Unidos",
+        country: "Isla de Alcatraz\nEstados Unidos",
         img: require("../../../assets/WorldMonuments/USA/alcatraz.png"),
       },
     ],
@@ -362,7 +362,7 @@ const questions3Es = [
     options: [
       {
         id: "0",
-        capital: "The Big Buddha",
+        capital: "Buda Tian Tan",
         country: "Hong Kong",
       },
       {
@@ -377,7 +377,7 @@ const questions3Es = [
       },
       {
         id: "3",
-        capital: "Christ\nthe Redeemer",
+        capital: "Cristo Redentor",
         country: "Brasil",
       },
     ],
@@ -386,12 +386,12 @@ const questions3Es = [
   {
     id: "7b",
     status: "Flags",
-    country: "Cristo Redentor ",
+    country: "Cristo Redentor",
     capital: "Brasil",
     options: [
       {
         id: "0",
-        country: "The Big Buddha\nHong Kong",
+        country: "Buda Tian Tan\nHong Kong",
         img: require("../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.png"),
       },
       {
@@ -401,12 +401,12 @@ const questions3Es = [
       },
       {
         id: "2",
-        country: "Merlion Singapore\nSingapur",
+        country: "Merlion Singapur\nSingapur",
         img: require("../../../assets/WorldMonuments/Asia/merlion_singapore.png"),
       },
       {
         id: "3",
-        country: "Cristo Redentor \nBrasil",
+        country: "Cristo Redentor\nBrasil",
         img: require("../../../assets/WorldMonuments/America/Jesus-Christ-The-Redeemer.png"),
       },
     ],
@@ -514,7 +514,7 @@ const questions3Es = [
       },
       {
         id: "1",
-        country: "Iglesia de madera de Borgund\nNorway",
+        country: "Iglesia de madera de Borgund\nNoruega",
         img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
       },
       {
@@ -524,7 +524,7 @@ const questions3Es = [
       },
       {
         id: "3",
-        country: "Moai Statues\nEaster Island",
+        country: "Moai\nIsla de la Pascua",
         img: require("../../../assets/WorldMonuments/Asia/easterIsland.png"),
       },
     ],
@@ -534,13 +534,13 @@ const questions3Es = [
     id: "10a",
     status: "Capitals",
     img: 'L',
-    country: "Vatican City",
+    country: "Ciudad del Vaticano",
     image: require("../../../assets/WorldMonuments/Europe/St.-Peters-Basilica-Vatican.png"),
     options: [
       {
         id: "0",
-        capital: "St Peter's\nBasilica",
-        country: "Vatican City",
+        capital: "Basílica de San Pedro",
+        country: "Ciudad del Vaticano",
       },
       {
         id: "1",
@@ -554,7 +554,7 @@ const questions3Es = [
       },
       {
         id: "3",
-        capital: "Church of the Savior\non Blood",
+        capital: "Iglesia de la Resurrección de Cristo",
         country: "Rusia",
       },
     ],
@@ -563,17 +563,17 @@ const questions3Es = [
   {
     id: "10b",
     status: "Flags",
-    country: "Saint Peter's Basilica",
-    capital: "Vatican City",
+    country: "Basílica de San Pedro",
+    capital: "Ciudad del Vaticano",
     options: [
       {
         id: "0",
-        country: "Saint Peter's Basilica\nVatican City",
+        country: "Basílica de San Pedro\nCiudad del Vaticano",
         img: require("../../../assets/WorldMonuments/Europe/St.-Peters-Basilica-Vatican.png"),
       },
       {
         id: "1",
-        country: "Church of the Savior\non Blood\nRussia",
+        country: "Iglesia de la Resurrección de Cristo\nRusia",
         img: require("../../../assets/WorldMonuments/Europe/stPetersburg.png"),
       },
       {
@@ -583,7 +583,7 @@ const questions3Es = [
       },
       {
         id: "3",
-        country: "Catedral de San Basilio\nRussia",
+        country: "Catedral de San Basilio\nRusia",
         img: require("../../../assets/WorldMonuments/Europe/saint_basils_cathedral.png"),
       },
     ],

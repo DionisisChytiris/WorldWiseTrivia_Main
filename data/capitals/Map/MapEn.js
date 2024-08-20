@@ -1123,7 +1123,7 @@ const mapDataEn = [
         id: '112',
         ltr: 'T',
         capital: 'Tokyo',
-        country: 'Japan',
+        country: 'Japon',
         description: "Tokyo, the capital of Japan, is a bustling metropolis known for its vibrant city life, cutting-edge technology, and rich cultural heritage. It offers a fascinating blend of modern skyscrapers, historic temples, bustling markets, and serene gardens, making it a captivating destination for travelers from around the world.",
         latitude: 35.67,
         longitude: 139.75,

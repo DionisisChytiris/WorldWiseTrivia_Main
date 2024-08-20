@@ -42,7 +42,7 @@ const question7En = [
       {
         id: "1",
         img: require("../../../assets/Flags/japan.png"),
-        country: "Japan",
+        country: "Japon",
       },
       {
         id: "2",

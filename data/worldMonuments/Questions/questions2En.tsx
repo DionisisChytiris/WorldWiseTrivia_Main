@@ -363,7 +363,7 @@ const questions2En = [
       {
         id: "0",
         capital: "Tokyo Tower",
-        country: "Japan",
+        country: "Japon",
       },
       {
         id: "1",
@@ -432,7 +432,7 @@ const questions2En = [
       {
         id: "2",
         capital: "Hiroshima Peace \nMemorial",
-        country: "Japan",
+        country: "Japon",
       },
       {
         id: "3",
@@ -450,7 +450,7 @@ const questions2En = [
     options: [
       {
         id: "0",
-        country: "Hiroshima Peace Memorial Park\nJapan",
+        country: "Hiroshima Peace Memorial Park\nJapon",
         img: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.png"),
       },
       {

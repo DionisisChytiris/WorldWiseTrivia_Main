@@ -58,6 +58,65 @@ const qstMixed3En = [
         correctAnswerIndex: 0,
       },
       {
+        id: "10a",
+        status: "Capitals",
+        img: 'L',
+        country: "China",
+        image: require("../../../assets/WorldMonuments/Asia/terracottArmy.png"),
+        options: [
+          {
+            id: "0",
+            capital: "Moai\nStatues",
+            country: "Easter Island",
+          },
+          {
+            id: "1",
+            capital: "Kailasa\nTemple",
+            country: "India",
+          },
+          {
+            id: "2",
+            capital: "Jetavanara\nmaya",
+            country: "Sri Lanka",
+          },
+          {
+            id: "3",
+            capital: "Terracotta \nArmy",
+            country: "China",
+          },
+        ],
+        correctAnswerIndex: 3,
+      },
+      {
+        id: "10b",
+        status: "Flags",
+        country: "Terracotta Army",
+        capital: "China",
+        options: [
+          {
+            id: "0",
+            country: "Jetavanaramaya\nSri Lanka",
+            img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.png"),
+          },
+          {
+            id: "1",
+            country: "Kailasa Temple\nIndia",
+            img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
+          },
+          {
+            id: "2",
+            country: "Moai Statues\nEaster Island",
+            img: require("../../../assets/WorldMonuments/Asia/easter_island.png"),
+          },
+          {
+            id: "3",
+            country: "Terracotta Army\nChina",
+            img: require("../../../assets/WorldMonuments/Asia/terracottArmy.png"),
+          },
+        ],
+        correctAnswerIndex: 3,
+      },
+      {
         id: "2a",
         status: "Capitals",
         country: "Norway",
@@ -115,64 +174,7 @@ const qstMixed3En = [
         ],
         correctAnswerIndex: 0,
       },
-      {
-        id: "3a",
-        status: "Capitals",
-        country: "Quito",
-        image: require("../../../assets/Flags/ecuador.png"),
-        options: [
-          {
-            id: "0",
-            capital: "Colombia",
-            country: "Bogota",
-          },
-          {
-            id: "1",
-            capital: "Peru",
-            country: "Lima",
-          },
-          {
-            id: "2",
-            capital: "Ecuador",
-            country: "Quito",
-          },
-          {
-            id: "3",
-            capital: "Brazil",
-            country: "Brasilia",
-          },
-        ],
-        correctAnswerIndex: 2,
-      },
-      {
-        id: "3b",
-        status: "Flags",
-        capital: "Quito",
-        country: "Ecuador",
-        options: [
-          {
-            id: "0",
-            img: require("../../../assets/Flags/venezuela.png"),
-            country: "Venezuela",
-          },
-          {
-            id: "1",
-            img: require("../../../assets/Flags/colombia.png"),
-            country: "Colombia",
-          },
-          {
-            id: "2",
-            img: require("../../../assets/Flags/ecuador.png"),
-            country: "Ecuador",
-          },
-          {
-            id: "3",
-            img: require("../../../assets/Flags/romania.png"),
-            country: "Romania",
-          },
-        ],
-        correctAnswerIndex: 2,
-      },
+     
       {
         id: "4a",
         status: "Capitals",
@@ -289,6 +291,64 @@ const qstMixed3En = [
           },
         ],
         correctAnswerIndex: 0,
+      },
+      {
+        id: "3a",
+        status: "Capitals",
+        country: "Quito",
+        image: require("../../../assets/Flags/ecuador.png"),
+        options: [
+          {
+            id: "0",
+            capital: "Colombia",
+            country: "Bogota",
+          },
+          {
+            id: "1",
+            capital: "Peru",
+            country: "Lima",
+          },
+          {
+            id: "2",
+            capital: "Ecuador",
+            country: "Quito",
+          },
+          {
+            id: "3",
+            capital: "Brazil",
+            country: "Brasilia",
+          },
+        ],
+        correctAnswerIndex: 2,
+      },
+      {
+        id: "3b",
+        status: "Flags",
+        capital: "Quito",
+        country: "Ecuador",
+        options: [
+          {
+            id: "0",
+            img: require("../../../assets/Flags/venezuela.png"),
+            country: "Venezuela",
+          },
+          {
+            id: "1",
+            img: require("../../../assets/Flags/colombia.png"),
+            country: "Colombia",
+          },
+          {
+            id: "2",
+            img: require("../../../assets/Flags/ecuador.png"),
+            country: "Ecuador",
+          },
+          {
+            id: "3",
+            img: require("../../../assets/Flags/romania.png"),
+            country: "Romania",
+          },
+        ],
+        correctAnswerIndex: 2,
       },
       {
         id: "6a",
@@ -441,12 +501,12 @@ const qstMixed3En = [
       {
         id: "8b",
         status: "Flags",
-        country: "Ισπανικά Σκαλιά",
+        country: "Spanish Steps",
         capital: "Italy",
         options: [
           {
             id: "0",
-            country: "Ισπανικά Σκαλιά\nItaly",
+            country: "Spanish Steps\nItaly",
             img: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.png"),
           },
           {
@@ -526,64 +586,66 @@ const qstMixed3En = [
         ],
         correctAnswerIndex: 2,
       },
+     
       {
-        id: "10a",
-        status: "Capitals",
-        img: 'L',
-        country: "China",
-        image: require("../../../assets/WorldMonuments/Asia/terracottArmy.png"),
-        options: [
-          {
-            id: "0",
-            capital: "Moai\nStatues",
-            country: "Easter Island",
-          },
-          {
-            id: "1",
-            capital: "Kailasa\nTemple",
-            country: "India",
-          },
-          {
-            id: "2",
-            capital: "Jetavanara\nmaya",
-            country: "Sri Lanka",
-          },
-          {
-            id: "3",
-            capital: "Terracotta \nArmy",
-            country: "China",
-          },
-        ],
-        correctAnswerIndex: 3,
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
       },
       {
-        id: "10b",
+        id: "11",
         status: "Flags",
-        country: "Terracotta Army",
-        capital: "China",
-        options: [
-          {
-            id: "0",
-            country: "Jetavanaramaya\nSri Lanka",
-            img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.png"),
-          },
-          {
-            id: "1",
-            country: "Kailasa Temple\nIndia",
-            img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
-          },
-          {
-            id: "2",
-            country: "Moai Statues\nEaster Island",
-            img: require("../../../assets/WorldMonuments/Asia/easter_island.png"),
-          },
-          {
-            id: "3",
-            country: "Terracotta Army\nChina",
-            img: require("../../../assets/WorldMonuments/Asia/terracottArmy.png"),
-          },
-        ],
-        correctAnswerIndex: 3,
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
       },
       {
         id: "11",

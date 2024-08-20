@@ -3,7 +3,7 @@ const questions2El = [
     id: "1a",
     status: "Capitals",
     img: 'L',
-    country: "Vario",
+    country: "Διάφορες Νότιοαμερικανικές Χώρες",
     image: require("../../../assets/NaturalMnt/America/amazonRainforest.webp"),
     options: [
       {

@@ -123,7 +123,7 @@ const FlagsAsiaEn = [
      {
          id: '37',
          continent: 'Asia',
-         country: 'Japan',
+         country: 'Japon',
          capital: 'Tokyo',
          population: '123.2M',
          symbol: '¥',

@@ -209,7 +209,7 @@ const questions4Es = [
   {
     id: "4b",
     status: "Flags",
-    country: "Palacio de Potala ",
+    country: "Palacio de Potala",
     capital: "Tíbet",
     options: [
       {

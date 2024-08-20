@@ -62,7 +62,7 @@ const ChooseQuizType = () => {
       {/* <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}> */}
         <View style={{ padding: 20 }}>
           <Text
-            style={{ fontSize: 24, paddingBottom: 30,marginTop: -40, fontWeight: "500", color: 'white' }}
+            style={{ fontSize: 24, paddingBottom: 30,marginTop: -40, fontWeight: "500", color: '#ccc' }}
           >
             {t("type")}
           </Text>

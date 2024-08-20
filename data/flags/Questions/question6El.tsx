@@ -230,7 +230,6 @@ const question6El = [
     ],
     correctAnswerIndex: 2,
   },
-
   {
     id: "4b",
     status: "Flags",

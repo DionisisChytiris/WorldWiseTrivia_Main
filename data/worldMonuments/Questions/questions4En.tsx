@@ -416,28 +416,28 @@ const questions4En = [
     id: "8a",
     status: "Capitals",
     img: 'L',
-    country: "Japan",
+    country: "Japon",
     image: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.png"),
     options: [
       {
         id: "0",
         capital: 'Imperial\nPalace',
-        country: 'Japan'
+        country: 'Japon'
       },
       {
         id: "1",
         capital: 'Himeji\nCastle',
-        country: 'Japan'
+        country: 'Japon'
       },
       {
         id: "2",
         capital: 'Hiroshima\nPeace\nMemorial',
-        country: 'Japan'
+        country: 'Japon'
       },
       {
         id: "3",
         capital: 'Fushimi\nInari Shrine',
-        country: 'Japan'
+        country: 'Japon'
       },
     ],
     correctAnswerIndex: 2,
@@ -446,26 +446,26 @@ const questions4En = [
     id: "8b",
     status: "Flags",
     country: "Hiroshima Peace Memorial",
-    capital: "Japan",
+    capital: "Japon",
     options: [
       {
         id: "0",
-        country: "Himeji Castle\nJapan",
+        country: "Himeji Castle\nJapon",
         img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
       },
       {
         id: "1",
-        country: "Fushimi Inari Shrine\nJapan",
+        country: "Fushimi Inari Shrine\nJapon",
         img: require("../../../assets/WorldMonuments/Asia/FushimiInari-taishaShrineKyoto.png"),
       },
       {
         id: "2",
-        country: "Hiroshima Peace Memorial Park\nJapan",
+        country: "Hiroshima Peace Memorial Park\nJapon",
         img: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.png"),
       },
       {
         id: "3",
-        country: "Imperial Palace\nJapan",
+        country: "Imperial Palace\nJapon",
         img: require("../../../assets/WorldMonuments/Asia/ImperialPalaceTokyo.png"),
       },
     ],
@@ -555,7 +555,7 @@ const questions4En = [
       {
         id: "3",
         capital: 'Tokyo Tower',
-        country: 'Japan'
+        country: 'Japon'
       },
     ],
     correctAnswerIndex: 1,
@@ -583,7 +583,7 @@ const questions4En = [
       },
       {
         id: "3",
-        country: "Tokyo Tower\nJapan",
+        country: "Tokyo Tower\nJapon",
         img: require("../../../assets/WorldMonuments/Asia/TokyoTower.png"),
       },
     ],

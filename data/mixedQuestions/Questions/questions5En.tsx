@@ -1,61 +1,62 @@
 const qstMixed5En = [
   {
-    id: "1a",
+    id: "8a",
     status: "Capitals",
-    country: "Malaysia",
-    image: require("../../../assets/Flags/malaysia.png"),
+    img: 'L',
+    country: "Thailand",
+    image: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
     options: [
       {
         id: "0",
-        capital: "Jakarta",
-        country: "Indonesia",
+        capital: 'Taj Mahal',
+        country: 'India'
       },
       {
         id: "1",
-        capital: "Kuala Lumpur",
-        country: "Malaysia",
+        capital: 'Angkor Wat',
+        country: 'Cambodia'
       },
       {
         id: "2",
-        capital: "Manila",
-        country: "Philippines",
+        capital: 'Akshardham\nTemple',
+        country: 'India'
       },
       {
         id: "3",
-        capital: "Phnom Penh",
-        country: "Cambodia",
+        capital: 'The Grand\nPalace',
+        country: 'Thailand'
       },
     ],
-    correctAnswerIndex: 1,
+    correctAnswerIndex: 3,
   },
   {
-    id: "1b",
+    id: "8b",
     status: "Flags",
-    capital: "Malaysia",
-    country: "Kuala Lumpur",
+    country: " The Grand Palace",
+    capital: "Thailand",
     options: [
       {
         id: "0",
-        img: require("../../../assets/Flags/malaysia.png"),
-        country: "Malaysia",
+        country: "Akshardham Temple\nIndia",
+        img: require("../../../assets/WorldMonuments/Asia/AkshardhamTempleIndia.png"),
       },
       {
         id: "1",
-        img: require("../../../assets/Flags/philipines.png"),
-        country: "Philippines",
+        country: "Angkor Wat\nCambodia",
+        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.png"),
       },
       {
         id: "2",
-        img: require("../../../assets/Flags/Cambodia.png"),
-        country: "Cambodia",
+        country: "Taj Mahal\nIndia",
+        img: require("../../../assets/WorldMonuments/Asia/TajMajal.png"),
       },
       {
         id: "3",
-        img: require("../../../assets/Flags/thailand.png"),
-        country: "Thailand",
+        country: "The grand Palace\nThailand",
+        img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
       },
     ],
-    correctAnswerIndex: 0,
+    correctAnswerIndex: 3,
   },
   {
     id: "2a",
@@ -116,62 +117,63 @@ const qstMixed5En = [
     correctAnswerIndex: 2,
   },
   {
-    id: "3a",
+    id: "6a",
     status: "Capitals",
-    country: "Kuala Lumpur",
-    image: require("../../../assets/Flags/malaysia.png"),
+    img: "L",
+    country: "Vanuatu",
+    image: require("../../../assets/NaturalMnt/Oceania/yasur_mount.webp"),
     options: [
       {
         id: "0",
-        capital: "Thailand",
-        country: "Bangkok",
+        capital: "Mount Yasur",
+        country: "Vanuatu",
       },
       {
         id: "1",
-        capital: "Malaysia",
-        country: "Kuala Lumpur",
+        capital: "The Great Ocean Road",
+        country: "Australia",
       },
       {
         id: "2",
-        capital: "Vietnam",
-        country: "Hanoi",
+        capital: "Lake Hillier",
+        country: "Australia",
       },
       {
         id: "3",
-        capital: "Cambodia",
-        country: "Phnom Penh",
+        capital: "Great Barrier Reef",
+        country: "Australia",
       },
     ],
-    correctAnswerIndex: 1,
+    correctAnswerIndex: 0,
   },
   {
-    id: "3b",
+    id: "6b",
     status: "Flags",
-    capital: "Kuala Lumpur",
-    country: "Malaysia",
+    country: "Mount Yasur",
+    capital: "Vanuatu",
     options: [
       {
         id: "0",
-        img: require("../../../assets/Flags/thailand.png"),
-        country: "Thailand",
+        country: "Mount Yasur\nVanuatu",
+        img: require("../../../assets/NaturalMnt/Oceania/yasur_mount.webp"),
       },
       {
         id: "1",
-        img: require("../../../assets/Flags/malaysia.png"),
-        country: "Malaysia",
+        country: "The Great Ocean Road\nAustralia",
+        img: require("../../../assets/NaturalMnt/Oceania/TheGreatOceanRoad.webp"),
       },
       {
         id: "2",
-        img: require("../../../assets/Flags/Liberia.png"),
-        country: "Liberia",
+        country: "Lake Hillier\nAustralia",
+        img: require("../../../assets/NaturalMnt/Oceania/lakehillier.webp"),
       },
       {
         id: "3",
-        img: require("../../../assets/Flags/Cambodia.png"),
-        country: "Cambodia",
+        country: "Great Barrier Reef\nAustralia",
+        img: require("../../../assets/NaturalMnt/Oceania/greatBarrierReef.webp"),
       },
     ],
-    correctAnswerIndex: 1,
+    correctAnswerIndex: 0,
   },
   {
     id: "4a",
@@ -290,65 +292,7 @@ const qstMixed5En = [
     ],
     correctAnswerIndex: 1,
   },
-  {
-    id: "6a",
-    status: "Capitals",
-    img: "L",
-    country: "Vanuatu",
-    image: require("../../../assets/NaturalMnt/Oceania/yasur_mount.webp"),
-    options: [
-      {
-        id: "0",
-        capital: "Mount Yasur",
-        country: "Vanuatu",
-      },
-      {
-        id: "1",
-        capital: "The Great Ocean Road",
-        country: "Australia",
-      },
-      {
-        id: "2",
-        capital: "Lake Hillier",
-        country: "Australia",
-      },
-      {
-        id: "3",
-        capital: "Great Barrier Reef",
-        country: "Australia",
-      },
-    ],
-    correctAnswerIndex: 0,
-  },
-  {
-    id: "6b",
-    status: "Flags",
-    country: "Mount Yasur",
-    capital: "Vanuatu",
-    options: [
-      {
-        id: "0",
-        country: "Mount Yasur\nVanuatu",
-        img: require("../../../assets/NaturalMnt/Oceania/yasur_mount.webp"),
-      },
-      {
-        id: "1",
-        country: "The Great Ocean Road\nAustralia",
-        img: require("../../../assets/NaturalMnt/Oceania/TheGreatOceanRoad.webp"),
-      },
-      {
-        id: "2",
-        country: "Lake Hillier\nAustralia",
-        img: require("../../../assets/NaturalMnt/Oceania/lakehillier.webp"),
-      },
-      {
-        id: "3",
-        country: "Great Barrier Reef\nAustralia",
-        img: require("../../../assets/NaturalMnt/Oceania/greatBarrierReef.webp"),
-      },
-    ],
-    correctAnswerIndex: 0,
-  },
+ 
   {
     id: "7a",
     status: "Capitals",
@@ -409,64 +353,64 @@ const qstMixed5En = [
     correctAnswerIndex: 2,
   },
   {
-    id: "8a",
+    id: "1a",
     status: "Capitals",
-    img: 'L',
-    country: "Thailand",
-    image: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
+    country: "Malaysia",
+    image: require("../../../assets/Flags/malaysia.png"),
     options: [
       {
         id: "0",
-        capital: 'Taj Mahal',
-        country: 'India'
+        capital: "Jakarta",
+        country: "Indonesia",
       },
       {
         id: "1",
-        capital: 'Angkor Wat',
-        country: 'Cambodia'
+        capital: "Kuala Lumpur",
+        country: "Malaysia",
       },
       {
         id: "2",
-        capital: 'Akshardham\nTemple',
-        country: 'India'
+        capital: "Manila",
+        country: "Philippines",
       },
       {
         id: "3",
-        capital: 'The Grand\nPalace',
-        country: 'Thailand'
+        capital: "Phnom Penh",
+        country: "Cambodia",
       },
     ],
-    correctAnswerIndex: 3,
+    correctAnswerIndex: 1,
   },
   {
-    id: "8b",
+    id: "1b",
     status: "Flags",
-    country: " The Grand Palace",
-    capital: "Thailand",
+    capital: "Malaysia",
+    country: "Kuala Lumpur",
     options: [
       {
         id: "0",
-        country: "Akshardham Temple\nIndia",
-        img: require("../../../assets/WorldMonuments/Asia/AkshardhamTempleIndia.png"),
+        img: require("../../../assets/Flags/malaysia.png"),
+        country: "Malaysia",
       },
       {
         id: "1",
-        country: "Angkor Wat\nCambodia",
-        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.png"),
+        img: require("../../../assets/Flags/philipines.png"),
+        country: "Philippines",
       },
       {
         id: "2",
-        country: "Taj Mahal\nIndia",
-        img: require("../../../assets/WorldMonuments/Asia/TajMajal.png"),
+        img: require("../../../assets/Flags/Cambodia.png"),
+        country: "Cambodia",
       },
       {
         id: "3",
-        country: "The grand Palace\nThailand",
-        img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
+        img: require("../../../assets/Flags/thailand.png"),
+        country: "Thailand",
       },
     ],
-    correctAnswerIndex: 3,
+    correctAnswerIndex: 0,
   },
+ 
   {
     id: "9a",
     status: "Capitals",
@@ -586,10 +530,129 @@ const qstMixed5En = [
     correctAnswerIndex: 2,
   },
   {
+    id: "3a",
+    status: "Capitals",
+    country: "San Salvador",
+    image: require("../../../assets/Flags/elSalvador.png"),
+    options: [
+      {
+        id: "0",
+        capital: 'Nicaragua',
+        country: 'Managua'
+      },
+      {
+        id: "1",
+        capital: 'Guatemala',
+        country: 'Guatemala City'
+      },
+      {
+        id: "2",
+        capital: 'Honduras',
+        country: 'Tegucigalpa'
+      },
+      {
+        id: "3",
+        capital: 'El Salvador',
+        country: 'San Salvador'
+      },
+    ],
+    correctAnswerIndex: 3,
+  },
+  {
+    id: "3b",
+    status: "Flags",
+    capital: "San Salvador",
+    country: "El Salvador",
+    options: [
+      {
+        id: "0",
+        img: require("../../../assets/Flags/uruguay.png"),
+        country: "Uruguay",
+      },
+      {
+        id: "1",
+        img: require("../../../assets/Flags/argentina.png"),
+        country: "Argentina",
+      },
+      {
+        id: "2",
+        img: require("../../../assets/Flags/Panama.png"),
+        country: "Panama",
+      },
+      {
+        id: "3",
+        img: require("../../../assets/Flags/elSalvador.png"),
+        country: "El Salvador",
+      },
+    ],
+    correctAnswerIndex: 3,
+  },
+  {
     id: "11",
-    monument: "",
+    status: "Flags",
+    capital: "",
     country: "",
-  }
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
+  {
+    id: "11",
+    status: "Flags",
+    capital: "",
+    country: "",
+  },
 ];
 
 export default qstMixed5En;

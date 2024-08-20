@@ -24,7 +24,7 @@ const questions6En = [
       {
         id: "3",
         capital: 'Himeji Castle',
-        country: 'Japan'
+        country: 'Japon'
       },
     ],
     correctAnswerIndex: 2,
@@ -52,7 +52,7 @@ const questions6En = [
           },
           {
             id: "3",
-            country: "Himeji Castle\nJapan",
+            country: "Himeji Castle\nJapon",
             img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
           },
         ],

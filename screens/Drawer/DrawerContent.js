@@ -197,6 +197,8 @@ import {
   NtrMntEl,
   NtrMntEs,
 } from "../../ReduxSetUp/NaturalMntQuizSlices";
+import {quizMixed1En, quizMixed1El, quizMixed1Es, quizMixed10El, quizMixed10En, quizMixed10Es, quizMixed2El, quizMixed2En, quizMixed2Es, quizMixed3El, quizMixed3En, quizMixed3Es, quizMixed4El, quizMixed4En, quizMixed4Es, quizMixed5El, quizMixed5En, quizMixed5Es, quizMixed6El, quizMixed6En, quizMixed6Es, quizMixed7El, quizMixed7En, quizMixed7Es, quizMixed8El, quizMixed8En, quizMixed8Es, quizMixed9El, quizMixed9En,quizMixed9Es
+} from '../../ReduxSetUp/MixedQuizSlices'
 import { Feather } from "@expo/vector-icons";
 import { toggleBoolean } from "../../ReduxSetUp/SoundVibration/VibrationSlice.tsx";
 import { useAppSelector } from "../../ReduxSetUp/store";
@@ -307,6 +309,16 @@ const DrawerContent = (props) => {
     dispatch(quizNtrMnt9En());
     dispatch(quizNtrMnt10En());
     dispatch(NtrMntEn())
+    dispatch(quizMixed1En())
+    dispatch(quizMixed2En())
+    dispatch(quizMixed3En())
+    dispatch(quizMixed4En())
+    dispatch(quizMixed5En())
+    dispatch(quizMixed6En())
+    dispatch(quizMixed7En())
+    dispatch(quizMixed8En())
+    dispatch(quizMixed9En())
+    dispatch(quizMixed10En())
   };
   const Spanish = () => {
     dispatch(flagsEs());
@@ -367,6 +379,16 @@ const DrawerContent = (props) => {
     dispatch(quizNtrMnt9Es());
     dispatch(quizNtrMnt10Es());
     dispatch(NtrMntEs())
+    dispatch(quizMixed1Es())
+    dispatch(quizMixed2Es())
+    dispatch(quizMixed3Es())
+    dispatch(quizMixed4Es())
+    dispatch(quizMixed5Es())
+    dispatch(quizMixed6Es())
+    dispatch(quizMixed7Es())
+    dispatch(quizMixed8Es())
+    dispatch(quizMixed9Es())
+    dispatch(quizMixed10Es())
   };
   const Greek = () => {
     dispatch(flagsEl());
@@ -428,6 +450,16 @@ const DrawerContent = (props) => {
     dispatch(quizNtrMnt9El());
     dispatch(quizNtrMnt10El());
     dispatch(NtrMntEl())
+    dispatch(quizMixed1El())
+    dispatch(quizMixed2El())
+    dispatch(quizMixed3El())
+    dispatch(quizMixed4El())
+    dispatch(quizMixed5El())
+    dispatch(quizMixed6El())
+    dispatch(quizMixed7El())
+    dispatch(quizMixed8El())
+    dispatch(quizMixed9El())
+    dispatch(quizMixed10El())
   };
 
   return (
@@ -493,7 +525,7 @@ const DrawerContent = (props) => {
                     style={{ width: 20, height: 20 }}
                     source={dark ? lightMode : darkMode}
                   />
-                  <Text style={{ color: colors.text, fontSize: 13 }}>
+                  <Text style={{ color: colors.textDrawer, fontSize: 13 }}>
                     {dark ? t("lightMode") : t("darkMode")}
                   </Text>
                 </View>
@@ -537,7 +569,7 @@ const DrawerContent = (props) => {
                   source={require("../../assets/Flags/uk.png")}
                   style={{ width: 22, height: 15, borderRadius: 3 }}
                 />
-                <Text style={{ color: colors.text }}>English</Text>
+                <Text style={{ color: colors.textDrawer }}>English</Text>
               </Pressable>
 
               {/* Spanish */}
@@ -559,7 +591,7 @@ const DrawerContent = (props) => {
                   source={require("../../assets/Flags/spain.png")}
                   style={{ width: 22, height: 15, borderRadius: 3 }}
                 />
-                <Text style={{ color: colors.text }}>Spanish</Text>
+                <Text style={{ color: colors.textDrawer }}>Spanish</Text>
               </Pressable>
 
               {/* Greek */}
@@ -581,7 +613,7 @@ const DrawerContent = (props) => {
                   source={require("../../assets/Flags/greece.png")}
                   style={{ width: 22, height: 15, borderRadius: 3 }}
                 />
-                <Text style={{ color: colors.text }}>Greek</Text>
+                <Text style={{ color: colors.textDrawer }}>Greek</Text>
               </Pressable>
 
               <View style={styles.soundVibration}>
@@ -602,14 +634,14 @@ const DrawerContent = (props) => {
                 >
                   {isPlaying ? (
                     <View>
-                      <Feather name="volume-2" size={24} color={colors.text} />
+                      <Feather name="volume-2" size={24} color={colors.textDrawer} />
                     </View>
                   ) : (
                     <View>
                       <MaterialIcons
                         name="volume-off"
                         size={24}
-                        color={colors.text}
+                        color={colors.textDrawer}
                       />
                     </View>
                   )}
@@ -636,7 +668,7 @@ const DrawerContent = (props) => {
                       <MaterialCommunityIcons
                         name="vibrate-off"
                         size={24}
-                        color={colors.text}
+                        color={colors.textDrawer}
                       />
                     </View>
                   ) : (
@@ -644,7 +676,7 @@ const DrawerContent = (props) => {
                       <MaterialCommunityIcons
                         name="vibrate"
                         size={24}
-                        color={colors.text}
+                        color={colors.textDrawer}
                       />
                     </View>
                   )}

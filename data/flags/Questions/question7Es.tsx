@@ -233,8 +233,8 @@ const question7Es = [
   {
     id: "4b",
     status: "Flags",
-    capital: "Manila",
-    country: "Filipinas",
+    capital: "Bakú",
+    country: "Azerbaiyán",
     options: [
       {
         id: "0",

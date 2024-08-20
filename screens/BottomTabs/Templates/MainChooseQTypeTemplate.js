@@ -25,7 +25,7 @@ const MainChooseQuizTypeTemplate = (props) => {
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
       <View style={{ padding: 20 }}>
-        <Text style={{ fontSize: 20, fontWeight: "bold", color: colors.text }}>
+        <Text style={{ fontSize: 20, fontWeight: "bold", color: colors.textDrawer }}>
           {t("type")}
         </Text>
       </View>

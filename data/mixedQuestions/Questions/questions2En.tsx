@@ -1,62 +1,63 @@
 const qstMixed2En = [
-    {
-        id: "1a",
-        status: "Capitals",
-        country: "Cuba",
-        image: require("../../../assets/Flags/Cuba.png"),
-        options: [
-          {
-            id: "0",
-            capital: "Kingston",
-            country: "Jamaica",
-          },
-          {
-            id: "1",
-            capital: "Nassau",
-            country: "Bahamas",
-          },
-          {
-            id: "2",
-            capital: "Bridgetown",
-            country: "Barbados",
-          },
-          {
-            id: "3",
-            capital: "Havana",
-            country: "Cuba",
-          },
-        ],
-        correctAnswerIndex: 3,
+  {
+    id: "7a",
+    status: "Capitals",
+    img: 'L',
+    country: "Tanzania",
+    image: require("../../../assets/NaturalMnt/Africa/Kilimanjaro.webp"),
+    options: [
+      {
+        id: "0",
+        capital: "Mount Kenya",
+        country: "Kenya",
       },
       {
-        id: "1b",
-        status: "Flags",
-        capital: "Cuba",
-        country: "Havana",
-        options: [
-          {
-            id: "0",
-            img: require("../../../assets/Flags/philipines.png"),
-            country: "Philippines",
-          },
-          {
-            id: "1",
-            img: require("../../../assets/Flags/Cuba.png"),
-            country: "Cuba",
-          },
-          {
-            id: "2",
-            img: require("../../../assets/Flags/chile.png"),
-            country: "Chile",
-          },
-          {
-            id: "3",
-            img: require("../../../assets/Flags/puertoRico.jpg"),
-            country: "Puerto Rico",
-          },
-        ],
-        correctAnswerIndex: 1,
+        id: "1",
+        capital: "Mount Sinai",
+        country: "Egypt",
       },
+      {
+        id: "2",
+        capital: "Zhangjiajie",
+        country: "China",
+      },
+      {
+        id: "3",
+        capital: "Mount Kilimanjaro",
+        country: "Tanzania",
+      },
+    ],
+    correctAnswerIndex: 3,
+  },
+  {
+    id: "7b",
+    status: "Flags",
+    country: "Mount Kilimanjaro",
+    capital: "Tanzania",
+    options: [
+      {
+        id: "0",
+        country: "Mount Kenya\nKenya",
+        img: require("../../../assets/NaturalMnt/Africa/mountKenya.webp"),
+      },
+      {
+        id: "1",
+        country: "Mount Sinai\nEgypt",
+        img: require("../../../assets/NaturalMnt/Africa/mountSinai.webp"),
+      },
+      {
+        id: "2",
+        country: "Zhangjiajie\nChina",
+        img: require("../../../assets/NaturalMnt/Asia/zhangjiajie-national-forest-park-china.png"),
+      },
+      {
+        id: "3",
+        country: "Mount Kilimanjaro\nTanzania",
+        img: require("../../../assets/NaturalMnt/Africa/Kilimanjaro.webp"),
+      },
+    ],
+    correctAnswerIndex: 3,
+  },
       {
         id: "2a",
         status: "Capitals",
@@ -115,60 +116,63 @@ const qstMixed2En = [
         ],
         correctAnswerIndex: 2,
       },
+     
+     
       {
-        id: "3a",
+        id: "5a",
         status: "Capitals",
-        country: "Tokyo",
-        image: require("../../../assets/Flags/japan.png"),
+        img: 'L',
+        country: "Vietnam",
+        image: require("../../../assets/NaturalMnt/Asia/halongbay-0.png"),
         options: [
           {
             id: "0",
-            capital: 'Japan',
-            country: 'Tokyo'
+            capital: "Halong Bay",
+            country: "Vietnam",
           },
           {
             id: "1",
-            capital: 'South Korea',
-            country: 'Seoul'
+            capital: "Mount Bromo",
+            country: "Indonesia",
           },
           {
             id: "2",
-            capital: 'China',
-            country: 'Beijing'
+            capital: "Mount Otemanu",
+            country: "French Polynesia",
           },
           {
             id: "3",
-            capital: 'Vietnam',
-            country: 'Hanoi'
+            capital: "Bora Bora",
+            country: "French Polynesia",
           },
         ],
         correctAnswerIndex: 0,
       },
       {
-        id: "3b",
+        id: "5b",
         status: "Flags",
-        capital: "Tokyo",
-        country: "Japan",
+        country: "Halong Bay",
+        capital: "Vietnam",
         options: [
           {
             id: "0",
-            img: require("../../../assets/Flags/japan.png"),
-            country: "Japan",
+            country: "Halong Bay\nVietnam",
+            img: require("../../../assets/NaturalMnt/Asia/halongbay-0.png"),
           },
           {
             id: "1",
-            img: require("../../../assets/Flags/skorea.png"),
-            country: "South Korea",
+            country: "Mount Bromo\nIndonesia",
+            img: require("../../../assets/NaturalMnt/Asia/mountBromo.webp"),
           },
           {
             id: "2",
-            img: require("../../../assets/Flags/vietnam.png"),
-            country: "Vietnam",
+            country: "Mount Otemanu\nFrench Polynesia",
+            img: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
           },
           {
             id: "3",
-            img: require("../../../assets/Flags/china.png"),
-            country: "China",
+            country: "Bora Bora\nFrench Polynesia",
+            img: require("../../../assets/NaturalMnt/Asia/bora_bora.webp"),
           },
         ],
         correctAnswerIndex: 0,
@@ -232,65 +236,6 @@ const qstMixed2En = [
         correctAnswerIndex: 2
       },
       {
-        id: "5a",
-        status: "Capitals",
-        img: 'L',
-        country: "Vietnam",
-        image: require("../../../assets/NaturalMnt/Asia/halongbay-0.png"),
-        options: [
-          {
-            id: "0",
-            capital: "Halong Bay",
-            country: "Vietnam",
-          },
-          {
-            id: "1",
-            capital: "Mount Bromo",
-            country: "Indonesia",
-          },
-          {
-            id: "2",
-            capital: "Mount Otemanu",
-            country: "French Polynesia",
-          },
-          {
-            id: "3",
-            capital: "Bora Bora",
-            country: "French Polynesia",
-          },
-        ],
-        correctAnswerIndex: 0,
-      },
-      {
-        id: "5b",
-        status: "Flags",
-        country: "Halong Bay",
-        capital: "Vietnam",
-        options: [
-          {
-            id: "0",
-            country: "Halong Bay\nVietnam",
-            img: require("../../../assets/NaturalMnt/Asia/halongbay-0.png"),
-          },
-          {
-            id: "1",
-            country: "Mount Bromo\nIndonesia",
-            img: require("../../../assets/NaturalMnt/Asia/mountBromo.webp"),
-          },
-          {
-            id: "2",
-            country: "Mount Otemanu\nFrench Polynesia",
-            img: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
-          },
-          {
-            id: "3",
-            country: "Bora Bora\nFrench Polynesia",
-            img: require("../../../assets/NaturalMnt/Asia/bora_bora.webp"),
-          },
-        ],
-        correctAnswerIndex: 0,
-      },
-      {
         id: "6a",
         status: "Capitals",
         img: 'L',
@@ -350,64 +295,64 @@ const qstMixed2En = [
         correctAnswerIndex: 2,
       },
       {
-        id: "7a",
+        id: "1a",
         status: "Capitals",
-        img: 'L',
-        country: "Tanzania",
-        image: require("../../../assets/NaturalMnt/Africa/Kilimanjaro.webp"),
+        country: "Cuba",
+        image: require("../../../assets/Flags/Cuba.png"),
         options: [
           {
             id: "0",
-            capital: "Mount Kenya",
-            country: "Kenya",
+            capital: "Kingston",
+            country: "Jamaica",
           },
           {
             id: "1",
-            capital: "Mount Sinai",
-            country: "Egypt",
+            capital: "Nassau",
+            country: "Bahamas",
           },
           {
             id: "2",
-            capital: "Zhangjiajie",
-            country: "China",
+            capital: "Bridgetown",
+            country: "Barbados",
           },
           {
             id: "3",
-            capital: "Mount Kilimanjaro",
-            country: "Tanzania",
+            capital: "Havana",
+            country: "Cuba",
           },
         ],
         correctAnswerIndex: 3,
       },
       {
-        id: "7b",
+        id: "1b",
         status: "Flags",
-        country: "Mount Kilimanjaro",
-        capital: "Tanzania",
+        capital: "Cuba",
+        country: "Havana",
         options: [
           {
             id: "0",
-            country: "Mount Kenya\nKenya",
-            img: require("../../../assets/NaturalMnt/Africa/mountKenya.webp"),
+            img: require("../../../assets/Flags/philipines.png"),
+            country: "Philippines",
           },
           {
             id: "1",
-            country: "Mount Sinai\nEgypt",
-            img: require("../../../assets/NaturalMnt/Africa/mountSinai.webp"),
+            img: require("../../../assets/Flags/Cuba.png"),
+            country: "Cuba",
           },
           {
             id: "2",
-            country: "Zhangjiajie\nChina",
-            img: require("../../../assets/NaturalMnt/Asia/zhangjiajie-national-forest-park-china.png"),
+            img: require("../../../assets/Flags/chile.png"),
+            country: "Chile",
           },
           {
             id: "3",
-            country: "Mount Kilimanjaro\nTanzania",
-            img: require("../../../assets/NaturalMnt/Africa/Kilimanjaro.webp"),
+            img: require("../../../assets/Flags/puertoRico.jpg"),
+            country: "Puerto Rico",
           },
         ],
-        correctAnswerIndex: 3,
+        correctAnswerIndex: 1,
       },
+     
       {
         id: "8a",
         status: "Capitals",
@@ -466,6 +411,64 @@ const qstMixed2En = [
           },
         ],
         correctAnswerIndex: 3,
+      },
+      {
+        id: "3a",
+        status: "Capitals",
+        country: "Tokyo",
+        image: require("../../../assets/Flags/japan.png"),
+        options: [
+          {
+            id: "0",
+            capital: 'Japon',
+            country: 'Tokyo'
+          },
+          {
+            id: "1",
+            capital: 'South Korea',
+            country: 'Seoul'
+          },
+          {
+            id: "2",
+            capital: 'China',
+            country: 'Beijing'
+          },
+          {
+            id: "3",
+            capital: 'Vietnam',
+            country: 'Hanoi'
+          },
+        ],
+        correctAnswerIndex: 0,
+      },
+      {
+        id: "3b",
+        status: "Flags",
+        capital: "Tokyo",
+        country: "Japon",
+        options: [
+          {
+            id: "0",
+            img: require("../../../assets/Flags/japan.png"),
+            country: "Japon",
+          },
+          {
+            id: "1",
+            img: require("../../../assets/Flags/skorea.png"),
+            country: "South Korea",
+          },
+          {
+            id: "2",
+            img: require("../../../assets/Flags/vietnam.png"),
+            country: "Vietnam",
+          },
+          {
+            id: "3",
+            img: require("../../../assets/Flags/china.png"),
+            country: "China",
+          },
+        ],
+        correctAnswerIndex: 0,
       },
       {
         id: "9a",
@@ -584,6 +587,66 @@ const qstMixed2En = [
           },
         ],
         correctAnswerIndex: 0,
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
+      },
+      {
+        id: "11",
+        status: "Flags",
+        capital: "",
+        country: "",
       },
       {
         id: "11",

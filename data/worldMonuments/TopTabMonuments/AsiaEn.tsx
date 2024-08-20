@@ -67,7 +67,7 @@ const AsiaMonEn = [
         id: '9',
         img: require('../../../assets/WorldMonuments/Asia/FushimiInari-taishaShrineKyoto.png'),
         name: 'Fushimi Inari Shrine',
-        country: 'Japan',
+        country: 'Japon',
         city: 'Kyoto',
         date: 'AD '
     },
@@ -107,7 +107,7 @@ const AsiaMonEn = [
         id: '14',
         img: require('../../../assets/WorldMonuments/Asia/HimejiCastle.png'),
         name: 'Himeji Castle',
-        country: 'Japan',
+        country: 'Japon',
         city: 'Himeji',
         date: 'AD 1546'
     },
@@ -115,7 +115,7 @@ const AsiaMonEn = [
         id: '15',
         img: require('../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.png'),
         name: 'Hiroshima Peace Memorial',
-        country: 'Japan',
+        country: 'Japon',
         city: 'Hiroshima',
         date: '6th August 1945\n8:15am'
     },
@@ -148,7 +148,7 @@ const AsiaMonEn = [
         id: '19',
         img: require('../../../assets/WorldMonuments/Asia/Osaka-Castle.png'),
         name: 'Osaka Castle',
-        country: 'Japan',
+        country: 'Japon',
         city: 'Osaka',
         date: 'AD 1597'
     },
@@ -260,7 +260,7 @@ const AsiaMonEn = [
         id: '33',
         img: require('../../../assets/WorldMonuments/Asia/Tokyo-Tower.png'),
         name: 'Tokyo Tower',
-        country: 'Japan',
+        country: 'Japon',
         city: 'Minato\nTokyo',
         date: 'AD 1957'
     }

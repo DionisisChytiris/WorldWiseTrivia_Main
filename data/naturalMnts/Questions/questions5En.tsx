@@ -363,7 +363,7 @@ const questions5En = [
             {
               id: "0",
               capital: 'Mount Fuji',
-              country: 'Japan'
+              country: 'Japon'
             },
             {
               id: "1",
@@ -391,7 +391,7 @@ const questions5En = [
           options: [
             {
               id: "0",
-              country: "Mount Fuji\nJapan",
+              country: "Mount Fuji\nJapon",
               img: require("../../../assets/NaturalMnt/Asia/mount_fuji.webp"),
             },
             {

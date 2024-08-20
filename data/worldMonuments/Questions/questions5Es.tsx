@@ -136,7 +136,7 @@ const questions5Es = [
           },
           {
             id: "2",
-            capital: 'Akshardham\nTemple',
+            capital: 'Templo de Akshardham',
             country: 'India'
           },
           {
@@ -155,7 +155,7 @@ const questions5Es = [
         options: [
           {
             id: "0",
-            country: "Akshardham Temple\nIndia",
+            country: "Templo de Akshardham\nIndia",
             img: require("../../../assets/WorldMonuments/Asia/AkshardhamTempleIndia.png"),
           },
           {
@@ -170,7 +170,7 @@ const questions5Es = [
           },
           {
             id: "3",
-            country: "The grand Palace\nThailand",
+            country: "Gran Palacio\nTailandia",
             img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
           },
         ],

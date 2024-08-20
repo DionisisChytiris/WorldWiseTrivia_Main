@@ -233,8 +233,8 @@ const question7El = [
     {
       id: "4b",
       status: "Flags",
-      capital: "Mανίλα",
-      country: "Φιλιππίνες",
+      capital: "Μπακού",
+      country: "Aζερμπαϊτζάν",
       options: [
         {
           id: "0",

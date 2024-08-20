@@ -534,7 +534,7 @@ const questions9En = [
         id: "10a",
         status: "Capitals",
         img: 'L',
-        country: "Japan",
+        country: "Japon",
         image: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
         options: [
           {
@@ -555,7 +555,7 @@ const questions9En = [
           {
             id: "3",
             capital: 'Himeji Castle',
-            country: 'Japan'
+            country: 'Japon'
           },
         ],
         correctAnswerIndex: 3,
@@ -564,7 +564,7 @@ const questions9En = [
         id: "10b",
         status: "Flags",
         country: "Himeji Castle",
-        capital: "Japan",
+        capital: "Japon",
         options: [
           {
             id: "0",
@@ -573,7 +573,7 @@ const questions9En = [
           },
           {
             id: "1",
-            country: "Hiroshima Peace Memorial Park\nJapan",
+            country: "Hiroshima Peace Memorial Park\nJapon",
             img: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.png"),
           },
           {
@@ -583,7 +583,7 @@ const questions9En = [
           },
           {
             id: "3",
-            country: "Himeji Castle\nJapan",
+            country: "Himeji Castle\nJapon",
             img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
           },
         ],

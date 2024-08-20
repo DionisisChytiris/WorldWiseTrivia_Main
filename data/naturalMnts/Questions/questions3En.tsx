@@ -201,7 +201,7 @@ const questions3En = [
         {
           id: "3",
           capital: "Mount Fuji",
-          country: "Japan",
+          country: "Japon",
         },
       ],
       correctAnswerIndex: 2,
@@ -229,7 +229,7 @@ const questions3En = [
         },
         {
           id: "3",
-          country: "Mount Fuji\nJapan",
+          country: "Mount Fuji\nJapon",
           img: require("../../../assets/NaturalMnt/Asia/mount_fuji.webp"),
         },
       ],

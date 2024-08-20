@@ -550,7 +550,7 @@ const question3En = [
         {
           id: "1",
           capital: 'Tokyo',
-          country: 'Japan'
+          country: 'Japon'
         },
         {
           id: "2",
@@ -579,7 +579,7 @@ const question3En = [
         {
           id: "1",
           img: require("../../../assets/Flags/japan.png"),
-          country: 'Japan'
+          country: 'Japon'
         },
         {
           id: "2",

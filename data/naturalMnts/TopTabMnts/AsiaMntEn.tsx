@@ -87,7 +87,7 @@ const AsiaMntEn = [
         id: '8',
         img: require('../../../assets/NaturalMnt/Asia/mount_fuji.webp'),
         name: 'Mount Fuji',
-        country: 'Japan',
+        country: 'Japon',
         city: ''
     },
    
