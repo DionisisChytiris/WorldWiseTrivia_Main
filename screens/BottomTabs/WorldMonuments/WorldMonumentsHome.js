@@ -33,7 +33,7 @@ const QuizTemplate = (props) => {
     >
       <Image
         source={props.image}
-        style={{width: '100%', height: '100%',borderRadius: 10, opacity: 0.7}}
+        style={{width: '100%', height: windowHeight> 900 ? 120:'100%',borderRadius: 10, opacity: 0.7}}
         resizeMode="cover"
       />
       <View style={{position: 'absolute', bottom: 10}}>
@@ -96,14 +96,14 @@ const WorldMonumentsHome = () => {
           source={require("../../../assets/more/worldlandmarks.png")}
         />
        <View style={styles.quizBtnBox}>
-          <View style={{width: '50%', gap: 20}}>
+          <View style={{width: '50%', gap: windowHeight> 900 ? 60:20}}>
             <QuizTemplate quiz="Quiz1" title="1" image={require('../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.jpg')}/>
             <QuizTemplate quiz="Quiz3" title="3" image={require('../../../assets/WorldMonuments/Asia/easterIsland.png')}/>
             <QuizTemplate quiz="Quiz5" title="5" image={require('../../../assets/WorldMonuments/America/MachuPicchu.png')}/>
             <QuizTemplate quiz="Quiz7" title="7" image={require('../../../assets/WorldMonuments/Europe/duomo-florence.png')}/>
             <QuizTemplate quiz="Quiz9" title="9" image={require('../../../assets/WorldMonuments/Asia/Bangan-Temples.jpg')}/>
           </View>
-          <View style={{width: '50%', marginTop: 70,marginLeft: 20, gap: 20}}>
+          <View style={{width: '50%', marginTop: 70,marginLeft: 20, gap: windowHeight> 900 ? 60:20}}>
             <QuizTemplate quiz="Quiz2" title="2" image={require('../../../assets/WorldMonuments/America/Jesus-Christ-The-Redeemer.png')}/>
             <QuizTemplate quiz="Quiz4" title="4" image={require('../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.png')}/>
             <QuizTemplate quiz="Quiz6" title="6" image={require('../../../assets/WorldMonuments/Europe/knossos.jpg')}/>
@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   quizBtnBox: {
-    width: "80%",
+    width: windowHeight> 900 ? "60%":"80%",
     height: windowHeight / 1.4,
     flexDirection: "row",
     alignItems: "center",

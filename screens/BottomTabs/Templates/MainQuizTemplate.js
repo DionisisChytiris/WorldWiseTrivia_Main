@@ -18,6 +18,10 @@ import { Audio } from "expo-av";
 import BrokenHeart from "./components/BrokenHeart";
 import SuccessAnimation from "./components/SuccessAnimation";
 import FailAnimation from "./components/FailAnimation";
+import { Dimensions } from "react-native";
+
+const width = Dimensions.get("window").width;
+const height = Dimensions.get("window").height;
 
 const QuizMainTemplate = (props) => {
   const boolean = useAppSelector((state) => state.boolean.value);
@@ -288,8 +292,8 @@ const QuizMainTemplate = (props) => {
             <Text style={[styles.smTitle, { color: colors.text }]}>
               {currentQuestion.capital}
             </Text>
-            <Text style={[styles.LgTitle, { color: colors.text }]}>
-              {currentQuestion.country}
+            <Text style={[styles.LgTitle, { color: colors.text}]}>
+              {currentQuestion.country} 
             </Text>
             <View style={styles.box}>
               {currentQuestion?.options.map((item, index) => (
@@ -410,10 +414,11 @@ const QuizMainTemplate = (props) => {
                     >
                       <Text
                         style={{
-                          fontSize: item.capital.length > 22 ? 16 : 18,
+                          fontSize: item.capital.length > 22 ? 16 : height>880? 26:18,
                           fontWeight: "500",
                           color: colors.text,
                           textAlign: "center",
+                          paddingHorizontal: 20
                         }}
                       >
                         {item.capital}
@@ -562,14 +567,14 @@ const stylesMain = StyleSheet.create({
     left: 10,
   },
   imageQuiz1: {
-    width: 280,
-    height: 190,
+    width: height > 880 ? 450 :280,
+    height: height > 880 ? 270 :190,
     borderRadius: 20,
     marginTop: 50,
   },
   imageQuiz: {
-    width: 200,
-    height: 140,
+    width: height > 880 ? 350 :200,
+    height:height > 880 ? 220 :140,
     borderRadius: 20,
     marginTop: 80,
   },

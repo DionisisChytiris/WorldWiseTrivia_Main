@@ -125,7 +125,8 @@ const Map = () => {
     // let month = dateTime.toLocaleString('default', { month: 'short' });
     // let date = dateTime.getDate();
 
-    return `${hour} : ${minutes} `;
+    return `${hour} : ${minutes<10 ? 0: ''}${minutes} `;
+    // return `${hour} : ${minutes} `;
     // return `${hour} : ${minutes} ${ampm} - ${weekday} , ${month} ${date}`;
   };
 
@@ -179,13 +180,13 @@ const Map = () => {
         <Text style={[styles.weatherText, {fontSize: 30}]}>
           {Math.round(weather.main.temp)}°C
         </Text>
-        <Text style={[styles.weatherText, {fontSize: 14}]}>
+        {/* <Text style={[styles.weatherText, {fontSize: 14}]}>
           {t("localtime")}
         </Text>
         <Text style={[styles.weatherText, {fontSize: 20}]}>
           {localTime()}
+        </Text> */}
           {/* {weather.dt*1000-(weather.timezone*1000)} */}
-        </Text>
       </View>
 
       <View style={styles.buttonContainer}>

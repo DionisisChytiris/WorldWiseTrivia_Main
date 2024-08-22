@@ -11,6 +11,10 @@ import {
   statusFlags,
   statusGuess,
 } from "../../../ReduxSetUp/QuizStatus/QuizStatus";
+import { Dimensions } from "react-native";
+
+const windowWidth = Dimensions.get("window").width;
+const windowHeight = Dimensions.get("window").height;
 
 const MainChooseQuizTypeTemplate = (props) => {
   const navigation = useNavigation();
@@ -136,7 +140,7 @@ const styles = StyleSheet.create({
   },
   button: {
     marginTop: 20,
-    width: "80%",
+    width: windowHeight> 900 ? "60%":"80%",
     height: 140,
     backgroundColor: "grey",
     flexDirection: "row",

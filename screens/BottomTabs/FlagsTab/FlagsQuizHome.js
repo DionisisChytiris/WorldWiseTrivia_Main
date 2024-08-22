@@ -28,12 +28,11 @@ const QuizTemplate = (props) => {
       key={props.id}
       onPressIn={()=>setTest(styles.button1)}
       onPressOut={() => (navigation.navigate(props.quiz), setTest(styles.button))}
-      // style={[test,{ backgroundColor: colors.backgroundMaterialTopTab}]}
-      style={[test,{backgroundColor: colors.text1}]}
+      style={[test,{backgroundColor: colors.text1, height:windowHeight> 900 ? 120: 80}]}
     >
       <Image
         source={props.image}
-        style={{width: '100%', height: '100%', borderRadius: 10, opacity: 0.9}}
+        style={{width: '100%', height: windowHeight> 900 ? 110 :'100%', borderRadius: 10, opacity: 0.9}}
         resizeMode="cover"
       />
       {/* <View style={{position: 'absolute', bottom: 5,backgroundColor:'grey', width: 80, height: 40,borderRadius: 4, opacity: 0.6}}/> */}
@@ -105,7 +104,7 @@ const FlagsQuizHome = () => {
             <QuizTemplate quiz="Quiz7" title="7" image={require('../../../assets/Flags/World_Flag.png')}/>
             <QuizTemplate quiz="Quiz9" title="9" image={require('../../../assets/Flags/World_Flag.png')}/>
           </View>
-          <View style={{width: '50%', marginTop: 70,marginLeft: 20, gap: 20}}>
+          <View style={{width: '50%', marginTop: 70,marginLeft: 20, gap:20}}>
             <QuizTemplate quiz="Quiz2" title="2" image={require('../../../assets/Flags/World_Flag.png')}/>
             <QuizTemplate quiz="Quiz4" title="4" image={require('../../../assets/Flags/World_Flag.png')}/>
             <QuizTemplate quiz="Quiz6" title="6" image={require('../../../assets/Flags/World_Flag.png')}/>
@@ -132,7 +131,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   quizBtnBox: {
-    width: "80%",
+    width: windowHeight> 900 ? "60%":"80%",
     height: windowHeight / 1.4,
     flexDirection: "row",
     alignItems: "center",
