@@ -4,7 +4,7 @@ const qstMixed7Es = [
     status: "Capitals",
     img: "L",
     country: "España",
-    image: require("../../../assets/WorldMonuments/Europe/RoyalPalaceMadrid.png"),
+    image: require("../../../assets/WorldMonuments/Europe/RoyalPalaceMadrid.webp"),
     options: [
       {
         id: "0",
@@ -38,12 +38,12 @@ const qstMixed7Es = [
       {
         id: "0",
         country: "Palacio Real de Madrid\nEspaña",
-        img: require("../../../assets/WorldMonuments/Europe/RoyalPalaceMadrid.png"),
+        img: require("../../../assets/WorldMonuments/Europe/RoyalPalaceMadrid.webp"),
       },
       {
         id: "1",
         country: "Palacio Imperial de Tokio\nJapón",
-        img: require("../../../assets/WorldMonuments/Asia/ImperialPalaceTokyo.png"),
+        img: require("../../../assets/WorldMonuments/Asia/ImperialPalaceTokyo.webp"),
       },
       {
         id: "2",
@@ -53,7 +53,7 @@ const qstMixed7Es = [
       {
         id: "3",
         country: "Gran Palacio\nThailand",
-        img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
+        img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.webp"),
       },
     ],
     correctAnswerIndex: 0,
@@ -165,12 +165,12 @@ const qstMixed7Es = [
       {
         id: "2",
         country: "Puente de Brooklyn\nEstados Unidos",
-        img: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.png"),
+        img: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.webp"),
       },
       {
         id: "3",
         country: "Puente de la bahía de Sídney\nAustralia",
-        img: require("../../../assets/WorldMonuments/Oceania/harbour-bridge.png"),
+        img: require("../../../assets/WorldMonuments/Oceania/harbour-bridge.webp"),
       },
     ],
     correctAnswerIndex: 0,
@@ -531,7 +531,7 @@ const qstMixed7Es = [
     status: "Capitals",
     img: 'L',
     country: "Vaticano",
-    image: require("../../../assets/WorldMonuments/Europe/sistineChapel.png"),
+    image: require("../../../assets/WorldMonuments/Europe/sistineChapel.webp"),
     options: [
       {
         id: "0",
@@ -565,22 +565,22 @@ const qstMixed7Es = [
       {
         id: "0",
         country: "Notre Dame\nFrancia",
-        img: require("../../../assets/WorldMonuments/Europe/notreDame.png"),
+        img: require("../../../assets/WorldMonuments/Europe/notreDame.webp"),
       },
       {
         id: "1",
         country: "Sainte Chapelle\nFrancia",
-        img: require("../../../assets/WorldMonuments/Europe/sainte-Chapelle.png"),
+        img: require("../../../assets/WorldMonuments/Europe/sainte-Chapelle.webp"),
       },
       {
         id: "2",
         country: "Capilla Sixtina\nVaticano",
-        img: require("../../../assets/WorldMonuments/Europe/sistineChapel.png"),
+        img: require("../../../assets/WorldMonuments/Europe/sistineChapel.webp"),
       },
       {
         id: "3",
         country: "Basílica de San Pedro\nVaticano",
-        img: require("../../../assets/WorldMonuments/Europe/St.-Peters-Basilica-Vatican.png"),
+        img: require("../../../assets/WorldMonuments/Europe/St.-Peters-Basilica-Vatican.webp"),
       },
     ],
     correctAnswerIndex: 2,

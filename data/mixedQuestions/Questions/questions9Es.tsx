@@ -4,7 +4,7 @@ const qstMixed9Es = [
         status: "Capitals",
         img: 'L',
         country: "Japón",
-        image: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
+        image: require("../../../assets/WorldMonuments/Asia/HimejiCastle.webp"),
         options: [
           {
             id: "0",
@@ -38,12 +38,12 @@ const qstMixed9Es = [
           {
             id: "0",
             country: "Castillo de Bran\nRumanía",
-            img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.webp"),
           },
           {
             id: "1",
             country: "Monumento de la Paz de Hiroshima Park\nJapón",
-            img: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.png"),
+            img: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.webp"),
           },
           {
             id: "2",
@@ -53,7 +53,7 @@ const qstMixed9Es = [
           {
             id: "3",
             country: "Castillo de Himeji\nJapón",
-            img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
+            img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.webp"),
           },
         ],
         correctAnswerIndex: 3,
@@ -160,7 +160,7 @@ const qstMixed9Es = [
           {
             id: "1",
             country: "Arco del Triunfo\nFrancia",
-            img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png"),
+            img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.webp"),
           },
           {
             id: "2",
@@ -170,7 +170,7 @@ const qstMixed9Es = [
           {
             id: "3",
             country: "Alhambra\nEspaña",
-            img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
+            img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -566,7 +566,7 @@ const qstMixed9Es = [
           {
             id: "0",
             country: "Ciudadela de Carcasona\nFrancia",
-            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
+            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
           },
           {
             id: "1",
@@ -576,12 +576,12 @@ const qstMixed9Es = [
           {
             id: "2",
             country: "Monumento a Washington\nEstados Unidos",
-            img: require("../../../assets/WorldMonuments/USA/washingtonMonument.png"),
+            img: require("../../../assets/WorldMonuments/USA/washingtonMonument.webp"),
           },
           {
             id: "3",
             country: "Canal de Panamá \nPanama",
-            img: require("../../../assets/WorldMonuments/America/PanamaCanal.png"),
+            img: require("../../../assets/WorldMonuments/America/PanamaCanal.webp"),
           },
         ],
         correctAnswerIndex: 1,

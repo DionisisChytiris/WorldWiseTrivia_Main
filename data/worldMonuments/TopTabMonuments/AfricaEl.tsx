@@ -1,7 +1,7 @@
 const AfricaMonEl = [
     {
         id: '1',
-        img: require('../../../assets/WorldMonuments/Africa/abulShimbel.png'),
+        img: require('../../../assets/WorldMonuments/Africa/abulShimbel.webp'),
         name: 'Αμπού Σίμπελ',
         country: 'Αίγυπτος',
         city: 'Aσσουάν',
@@ -9,7 +9,7 @@ const AfricaMonEl = [
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/Africa/AïtBenhaddou.png'),
+        img: require('../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp'),
         name: 'Αΐτ-Μπεν-Χαντού',
         country: 'Μαρόκο',
         city: 'Αΐτ-Μπεν-Χαντού',
@@ -17,7 +17,7 @@ const AfricaMonEl = [
     },
     {
         id: '3',
-        img: require('../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.png'),
+        img: require('../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.webp'),
         name: 'Nαός του Αγίου Γεωργίου',
         country: 'Αιθιοπία',
         city: 'Λαλιμπέλα',
@@ -49,7 +49,7 @@ const AfricaMonEl = [
     },
     {
         id: '7',
-        img: require('../../../assets/WorldMonuments/Africa/mountsinai.jpg'),
+        img: require('../../../assets/WorldMonuments/Africa/mountsinai.webp'),
         name: "Ιερά Μονή Αγίας Αικατερίνης \nΌρους Σινά",
         country: 'Αίγυπτος',
         city: 'Χερσόνησος Σινά\nΌρος Σινά',

@@ -38,7 +38,7 @@ const qstMixed1El = [
       {
         id: "0",
         country: "Πύργος της Πίζας\nΙταλία",
-        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
       },
       {
         id: "1",
@@ -63,7 +63,7 @@ const qstMixed1El = [
     img: 'L',
     status: "Capitals",
     country: "Γαλλία",
-    image: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
+    image: require("../../../assets/WorldMonuments/Europe/eiffelTower.webp"),
     options: [
       {
         id: "0",
@@ -97,22 +97,22 @@ const qstMixed1El = [
       {
         id: "0",
         country: "Ακρόπολη\nΕλλάδα",
-        img: require("../../../assets/WorldMonuments/Europe/Acropolis.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Acropolis.webp"),
       },
       {
         id: "1",
         country: "Αψίδα του Θριάμβου\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png"),
+        img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.webp"),
       },
       {
         id: "2",
         country: "Πύργος του Άιφελ\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
+        img: require("../../../assets/WorldMonuments/Europe/eiffelTower.webp"),
       },
       {
         id: "3",
         country: "Κεκλιμένος Πύργος της Πίζας\nΙταλία",
-        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
       },
     ],
     correctAnswerIndex: 2,
@@ -474,7 +474,7 @@ const qstMixed1El = [
     status: "Capitals",
     img: 'L',
     country: "ΗΠΑ",
-    image: require("../../../assets/WorldMonuments/USA/statue-of-liberty.png"),
+    image: require("../../../assets/WorldMonuments/USA/statue-of-liberty.webp"),
     options: [
       {
         id: "0",
@@ -513,7 +513,7 @@ const qstMixed1El = [
       {
         id: "1",
         country: "Άγαλμα της Ελευθερίας\nΗΠΑ",
-        img: require("../../../assets/WorldMonuments/USA/statue-of-liberty.png"),
+        img: require("../../../assets/WorldMonuments/USA/statue-of-liberty.webp"),
       },
       {
         id: "2",

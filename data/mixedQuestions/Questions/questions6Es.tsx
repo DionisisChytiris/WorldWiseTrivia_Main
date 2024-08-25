@@ -38,7 +38,7 @@ const qstMixed6Es = [
           {
             id: "0",
             country: "Puerta de Brandeburgo\nAlemania",
-            img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.webp"),
           },
           {
             id: "1",
@@ -53,7 +53,7 @@ const qstMixed6Es = [
           {
             id: "3",
             country: "Museo Guggenheim\nEspaña",
-            img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.png"),
+            img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.webp"),
           },
         ],
         correctAnswerIndex: 1,
@@ -417,7 +417,7 @@ const qstMixed6Es = [
         status: "Capitals",
         img: 'L',
         country: "Rumanía",
-        image: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
+        image: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.webp"),
         options: [
           {
             id: "0",
@@ -451,22 +451,22 @@ const qstMixed6Es = [
               {
                 id: "0",
                 country: "Castillo de Eltz\nAlemania",
-                img: require("../../../assets/WorldMonuments/Europe/eltz-castle-muenstermaifeld-germany.png"),
+                img: require("../../../assets/WorldMonuments/Europe/eltz-castle-muenstermaifeld-germany.webp"),
               },
               {
                 id: "1",
                 country: "Castillo de Neuschwanstein\nAlemania",
-                img: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.png"),
+                img: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.webp"),
               },
               {
                 id: "2",
                 country: "Castillo de Bran\nRumanía",
-                img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
+                img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.webp"),
               },
               {
                 id: "3",
                 country: "Castillo de Himeji\nJapón",
-                img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
+                img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.webp"),
               },
             ],
             correctAnswerIndex: 2,
@@ -568,17 +568,17 @@ const qstMixed6Es = [
               {
                 id: "0",
                 country: "Iglesia de madera de Borgund\nNoruega",
-                img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
+                img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.webp"),
               },
               {
                 id: "1",
                 country: "Catedral de Santa María del Fiore\nItalia",
-                img: require("../../../assets/WorldMonuments/Europe/duomo-florence.png"),
+                img: require("../../../assets/WorldMonuments/Europe/duomo-florence.webp"),
               },
               {
                 id: "2",
                 country: "Sagrada Familia\nEspaña",
-                img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.png"),
+                img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.webp"),
               },
               {
                 id: "3",

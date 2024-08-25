@@ -1,7 +1,7 @@
 const AfricaMonEn = [
     {
         id: '1',
-        img: require('../../../assets/WorldMonuments/Africa/abulShimbel.png'),
+        img: require('../../../assets/WorldMonuments/Africa/abulShimbel.webp'),
         name: 'Abu Simbel',
         country: 'Egypt',
         city: 'Aswan',
@@ -9,7 +9,7 @@ const AfricaMonEn = [
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/Africa/AïtBenhaddou.png'),
+        img: require('../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp'),
         name: 'Aït Benhaddou',
         country: 'Morocco',
         city: 'Aït Benhaddou',
@@ -17,7 +17,7 @@ const AfricaMonEn = [
     },
     {
         id: '3',
-        img: require('../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.png'),
+        img: require('../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.webp'),
         name: 'Church of St. George',
         country: 'Ethiopia',
         city: 'Lalibela',
@@ -49,7 +49,7 @@ const AfricaMonEn = [
     },
     {
         id: '7',
-        img: require('../../../assets/WorldMonuments/Africa/mountsinai.jpg'),
+        img: require('../../../assets/WorldMonuments/Africa/mountsinai.webp'),
         name: "St Catherine's Monastery",
         country: 'Egypt',
         city: 'Sinai Peninsula\nMount Sinai',

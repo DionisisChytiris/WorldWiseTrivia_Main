@@ -38,7 +38,7 @@ const qstMixed6El = [
       {
         id: "0",
         country: "Πύλη του Βρανδεμβούργου\nΓερμανία",
-        img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.webp"),
       },
       {
         id: "1",
@@ -53,7 +53,7 @@ const qstMixed6El = [
       {
         id: "3",
         country: "Μουσείο Γκούγκενχάιμ\nΙσπανία",
-        img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.png"),
+        img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.webp"),
       },
     ],
     correctAnswerIndex: 1,
@@ -415,7 +415,7 @@ const qstMixed6El = [
     status: "Capitals",
     img: "L",
     country: "Ρουμανία",
-    image: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
+    image: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.webp"),
     options: [
       {
         id: "0",
@@ -449,22 +449,22 @@ const qstMixed6El = [
       {
         id: "0",
         country: "Κάστρο Ελτζ\nΓερμανία",
-        img: require("../../../assets/WorldMonuments/Europe/eltz-castle-muenstermaifeld-germany.png"),
+        img: require("../../../assets/WorldMonuments/Europe/eltz-castle-muenstermaifeld-germany.webp"),
       },
       {
         id: "1",
         country: "Κάστρο Nόισβανσταϊν\nΓερμανία",
-        img: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.png"),
+        img: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.webp"),
       },
       {
         id: "2",
         country: "Κάστρο Μπραν\nΡουμανία",
-        img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.webp"),
       },
       {
         id: "3",
         country: "Κάστρο του Χιμέτζι\nΙαπωνία",
-        img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
+        img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.webp"),
       },
     ],
     correctAnswerIndex: 2,
@@ -566,17 +566,17 @@ const qstMixed6El = [
       {
         id: "0",
         country: "Ξύλινη εκκλησία Μπόργουντ\nΝορβηγία",
-        img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
+        img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.webp"),
       },
       {
         id: "1",
         country: "Καθεδρικός ναός της Φλωρεντίας\nΙταλία",
-        img: require("../../../assets/WorldMonuments/Europe/duomo-florence.png"),
+        img: require("../../../assets/WorldMonuments/Europe/duomo-florence.webp"),
       },
       {
         id: "2",
         country: "Σαγράδα Φαμίλια\nΙσπανία",
-        img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.png"),
+        img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.webp"),
       },
       {
         id: "3",

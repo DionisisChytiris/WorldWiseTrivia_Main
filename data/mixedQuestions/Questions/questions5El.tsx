@@ -4,7 +4,7 @@ const qstMixed5El = [
     status: "Capitals",
     img: "L",
     country: "Tαϊλάνδη",
-    image: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
+    image: require("../../../assets/WorldMonuments/Asia/the-grand-palace.webp"),
     options: [
       {
         id: "0",
@@ -43,7 +43,7 @@ const qstMixed5El = [
       {
         id: "1",
         country: "Άνγκορ Βατ\nΚαμπότζη",
-        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.png"),
+        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
       },
       {
         id: "2",
@@ -53,7 +53,7 @@ const qstMixed5El = [
       {
         id: "3",
         country: "Το Μεγάλο Παλάτι\nTαϊλάνδη",
-        img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
+        img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.webp"),
       },
     ],
     correctAnswerIndex: 3,
@@ -414,7 +414,7 @@ const qstMixed5El = [
     status: "Capitals",
     img: 'L',
     country: "Καμπότζη",
-    image: require("../../../assets/WorldMonuments/Asia/AngkorWat.png"),
+    image: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
     options: [
       {
         id: "0",
@@ -448,22 +448,22 @@ const qstMixed5El = [
       {
         id: "0",
         country: "Σιγκιρίγια\nΣρι Λάνκα",
-        img: require("../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.png"),
+        img: require("../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.webp"),
       },
       {
         id: "1",
         country: "Ναός Καϊλάσα\nΙνδία",
-        img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
+        img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.webp"),
       },
       {
         id: "2",
         country: "Άνγκορ Βατ\nΚαμπότζη",
-        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.png"),
+        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
       },
       {
         id: "3",
         country: "Τζεταναβαραμάγια\nΣρι Λάνκα",
-        img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.png"),
+        img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.webp"),
       },
     ],
     correctAnswerIndex: 2,
@@ -473,7 +473,7 @@ const qstMixed5El = [
     status: "Capitals",
     img: 'L',
     country: "Ισπανία",
-    image: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
+    image: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
     options: [
       {
         id: "0",
@@ -507,22 +507,22 @@ const qstMixed5El = [
       {
         id: "0",
         country: "Μετέωρα\nΕλλάδα",
-        img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
+        img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
       },
       {
         id: "1",
         country: "Μον-Σαιν-Μισέλ\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.webp"),
       },
       {
         id: "2",
         country: "Αλάμπρα\nΙσπανία",
-        img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
+        img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
       },
       {
         id: "3",
         country: "Καρκασόν\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
+        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
       },
     ],
     correctAnswerIndex: 2,

@@ -38,7 +38,7 @@ const qstMixed1Es = [
       {
         id: "0",
         country: "Torre de Pisa\nItalia",
-        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
       },
       {
         id: "1",
@@ -63,7 +63,7 @@ const qstMixed1Es = [
     img: 'L',
     status: "Capitals",
     country: "Francia",
-    image: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
+    image: require("../../../assets/WorldMonuments/Europe/eiffelTower.webp"),
     options: [
       {
         id: "0",
@@ -97,22 +97,22 @@ const qstMixed1Es = [
       {
         id: "0",
         country: "Acrópolis\nGrecia",
-        img: require("../../../assets/WorldMonuments/Europe/Acropolis.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Acropolis.webp"),
       },
       {
         id: "1",
         country: "Arco del Triunfo\nFrancia",
-        img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png"),
+        img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.webp"),
       },
       {
         id: "2",
         country: "Torre Eiffel \nFrancia",
-        img: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
+        img: require("../../../assets/WorldMonuments/Europe/eiffelTower.webp"),
       },
       {
         id: "3",
         country: "Torre de Pisa\nItalia",
-        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
       },
     ],
     correctAnswerIndex: 2,
@@ -474,7 +474,7 @@ const qstMixed1Es = [
     status: "Capitals",
     img: 'L',
     country: "Estados Unidos",
-    image: require("../../../assets/WorldMonuments/USA/statue-of-liberty.png"),
+    image: require("../../../assets/WorldMonuments/USA/statue-of-liberty.webp"),
     options: [
       {
         id: "0",
@@ -513,7 +513,7 @@ const qstMixed1Es = [
       {
         id: "1",
         country: "Estatua de la Libertad\nEstados Unidos",
-        img: require("../../../assets/WorldMonuments/USA/statue-of-liberty.png"),
+        img: require("../../../assets/WorldMonuments/USA/statue-of-liberty.webp"),
       },
       {
         id: "2",

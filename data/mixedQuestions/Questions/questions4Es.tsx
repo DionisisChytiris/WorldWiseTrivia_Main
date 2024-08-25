@@ -4,7 +4,7 @@ const qstMixed4Es = [
     status: "Capitals",
     img: "L",
     country: "Italia",
-    image: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+    image: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
     options: [
       {
         id: "0",
@@ -38,22 +38,22 @@ const qstMixed4Es = [
       {
         id: "0",
         country: "Ciudadela de Carcasona\nFrancia",
-        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
+        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
       },
       {
         id: "1",
         country: "Coliseo\nItalia",
-        img: require("../../../assets/WorldMonuments/Europe/colosseum.png"),
+        img: require("../../../assets/WorldMonuments/Europe/colosseum.webp"),
       },
       {
         id: "2",
         country: "Torre Eiffel \nFrancia",
-        img: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
+        img: require("../../../assets/WorldMonuments/Europe/eiffelTower.webp"),
       },
       {
         id: "3",
         country: "Torre de Pisa\nItalia",
-        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
       },
     ],
     correctAnswerIndex: 3,
@@ -473,7 +473,7 @@ const qstMixed4Es = [
     status: "Capitals",
     img: 'L',
     country: "Italia",
-    image: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.png"),
+    image: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.webp"),
     options: [
       {
         id: "0",
@@ -507,7 +507,7 @@ const qstMixed4Es = [
       {
         id: "0",
         country: "Escalinata de la plaza de España\nItalia",
-        img: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.png"),
+        img: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.webp"),
       },
       {
         id: "1",
@@ -517,12 +517,12 @@ const qstMixed4Es = [
       {
         id: "2",
         country: "Guggenheim Museum\nEspaña",
-        img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.png"),
+        img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.webp"),
       },
       {
         id: "3",
         country: "Fontana di Trevi\nItalia",
-        img: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.png"),
+        img: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.webp"),
       },
     ],
     correctAnswerIndex: 3,
@@ -532,7 +532,7 @@ const qstMixed4Es = [
     status: "Capitals",
     img: 'L',
     country: "Reino Unido",
-    image: require("../../../assets/WorldMonuments/Europe/bigBen.png"),
+    image: require("../../../assets/WorldMonuments/Europe/bigBen.webp"),
     options: [
       {
         id: "0",
@@ -566,22 +566,22 @@ const qstMixed4Es = [
       {
         id: "0",
         country: "Palacio de Buckingham\nReino Unido",
-        img: require("../../../assets/WorldMonuments/Europe/buckinghampalace.png"),
+        img: require("../../../assets/WorldMonuments/Europe/buckinghampalace.webp"),
       },
       {
         id: "1",
         country: "Abadía de Westminster \nReino Unido",
-        img: require("../../../assets/WorldMonuments/Europe/westminster-abbey.png"),
+        img: require("../../../assets/WorldMonuments/Europe/westminster-abbey.webp"),
       },
       {
         id: "2",
         country: "Big Ben\nReino Unido",
-        img: require("../../../assets/WorldMonuments/Europe/bigBen.png"),
+        img: require("../../../assets/WorldMonuments/Europe/bigBen.webp"),
       },
       {
         id: "3",
         country: "Puente de la Torre\nReino Unido",
-        img: require("../../../assets/WorldMonuments/Europe/TowerBridge.png"),
+        img: require("../../../assets/WorldMonuments/Europe/TowerBridge.webp"),
       },
     ],
     correctAnswerIndex: 2,

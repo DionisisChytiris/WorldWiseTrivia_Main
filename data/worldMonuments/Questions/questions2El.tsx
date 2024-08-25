@@ -48,7 +48,7 @@ const questions2El = [
       {
         id: "2",
         country: "Ιερά Μονή Αγίας \nΑικατερίνης Όρους Σινά\nΑίγυπτος",
-        img: require("../../../assets/WorldMonuments/Africa/mountsinai.jpg"),
+        img: require("../../../assets/WorldMonuments/Africa/mountsinai.webp"),
       },
       {
         id: "3",
@@ -63,7 +63,7 @@ const questions2El = [
     status: "Capitals",
     img: 'L',
     country: "Ιορδανία",
-    image: require("../../../assets/WorldMonuments/Asia/jordanPetra.png"),
+    image: require("../../../assets/WorldMonuments/Asia/jordanPetra.webp"),
     options: [
       {
         id: "0",
@@ -102,17 +102,17 @@ const questions2El = [
       {
         id: "1",
         country: "Αΐτ-Μπεν-Χαντού\nMαρόκο",
-        img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.png"),
+        img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp"),
       },
       {
         id: "2",
         country: "Πέτρα\nΙορδανία",
-        img: require("../../../assets/WorldMonuments/Asia/jordanPetra.png"),
+        img: require("../../../assets/WorldMonuments/Asia/jordanPetra.webp"),
       },
       {
         id: "3",
         country: "Ναός Καϊλάσα\nIνδία",
-        img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
+        img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.webp"),
       },
     ],
     correctAnswerIndex: 2,
@@ -122,7 +122,7 @@ const questions2El = [
     status: "Capitals",
     img: 'L',
     country: "Γερμανία",
-    image: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
+    image: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.webp"),
     options: [
       {
         id: "0",
@@ -156,7 +156,7 @@ const questions2El = [
       {
         id: "0",
         country: "Πύλη του Βρανδεμβούργου\nΓερμανία",
-        img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.webp"),
       },
       {
         id: "1",
@@ -166,12 +166,12 @@ const questions2El = [
       {
         id: "2",
         country: "Πύργος του Άιφελ\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
+        img: require("../../../assets/WorldMonuments/Europe/eiffelTower.webp"),
       },
       {
         id: "3",
         country: "Μπιγκ Μπεν\nΗνωμένο Βασίλειο",
-        img: require("../../../assets/WorldMonuments/Europe/bigBen.png"),
+        img: require("../../../assets/WorldMonuments/Europe/bigBen.webp"),
       },
     ],
     correctAnswerIndex: 0,
@@ -181,7 +181,7 @@ const questions2El = [
     status: "Capitals",
     img: 'L',
     country: "Iταλία",
-    image: require("../../../assets/WorldMonuments/Europe/duomo-florence.png"),
+    image: require("../../../assets/WorldMonuments/Europe/duomo-florence.webp"),
     options: [
       {
         id: "0",
@@ -220,12 +220,12 @@ const questions2El = [
       {
         id: "1",
         country: "Καθεδρικός Ναός πόλης Μεξικού\nMεξικό",
-        img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png"),
+        img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.webp"),
       },
       {
         id: "2",
         country: "Καθεδρικός Ναός Φλωρεντίας\nIταλία",
-        img: require("../../../assets/WorldMonuments/Europe/duomo-florence.png"),
+        img: require("../../../assets/WorldMonuments/Europe/duomo-florence.webp"),
       },
       {
         id: "3",
@@ -279,12 +279,12 @@ const questions2El = [
       {
         id: "1",
         country: "Αψίδα του Θριάμβου\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png"),
+        img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.webp"),
       },
       {
         id: "2",
         country: "Μνημείο του Ουάσινγκτον\nΗΠΑ",
-        img: require("../../../assets/WorldMonuments/USA/washingtonMonument.png"),
+        img: require("../../../assets/WorldMonuments/USA/washingtonMonument.webp"),
       },
       {
         id: "3",
@@ -358,7 +358,7 @@ const questions2El = [
     status: "Capitals",
     img: 'L',
     country: "Ηνωμένα Αραβικά Εμιράτα",
-    image: require("../../../assets/WorldMonuments/Asia/burj-khalifa.png"),
+    image: require("../../../assets/WorldMonuments/Asia/burj-khalifa.webp"),
     options: [
       {
         id: "0",
@@ -392,7 +392,7 @@ const questions2El = [
       {
         id: "0",
         country: "Μνημείο του Ουάσινγκτον\nΗΠΑ",
-        img: require("../../../assets/WorldMonuments/USA/washingtonMonument.png"),
+        img: require("../../../assets/WorldMonuments/USA/washingtonMonument.webp"),
       },
       {
         id: "1",
@@ -402,7 +402,7 @@ const questions2El = [
       {
         id: "2",
         country: "Μπουρτζ Καλίφα\nΗνωμένα Αραβικά\nΕμιράτα",
-        img: require("../../../assets/WorldMonuments/Asia/burj-khalifa.png"),
+        img: require("../../../assets/WorldMonuments/Asia/burj-khalifa.webp"),
       },
       {
         id: "3",
@@ -451,7 +451,7 @@ const questions2El = [
       {
         id: "0",
         country: "Μνημείο Ειρήνης\nτης Χιροσίμα\nΙαπωνία",
-        img: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.png"),
+        img: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.webp"),
       },
       {
         id: "1",
@@ -461,12 +461,12 @@ const questions2El = [
       {
         id: "2",
         country: "Ναός του Ουρανού\nΚίνα",
-        img: require("../../../assets/WorldMonuments/Asia/temple-of-heaven-in-beijing.png"),
+        img: require("../../../assets/WorldMonuments/Asia/temple-of-heaven-in-beijing.webp"),
       },
       {
         id: "3",
         country: "Το Μεγάλο Παλάτι\nTαϊλάνδη",
-        img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
+        img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.webp"),
       },
     ],
     correctAnswerIndex: 1,
@@ -476,7 +476,7 @@ const questions2El = [
     status: "Capitals",
     img: 'L',
     country: "Ισπανία",
-    image: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.png"),
+    image: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.webp"),
     options: [
       {
         id: "0",
@@ -510,22 +510,22 @@ const questions2El = [
       {
         id: "0",
         country: "Καθεδρικός Ναός της\nΠόλης του Μεξικού",
-        img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png"),
+        img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.webp"),
       },
       {
         id: "1",
         country: "Παναγία των Παρισίων\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/notreDame.png"),
+        img: require("../../../assets/WorldMonuments/Europe/notreDame.webp"),
       },
       {
         id: "2",
         country: "Σαγράδα Φαμίλια\nΙσπανία",
-        img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.png"),
+        img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.webp"),
       },
       {
         id: "3",
         country: "Ναός του Χυμένου Αίματος\nΡωσία",
-        img: require("../../../assets/WorldMonuments/Europe/stPetersburg.png"),
+        img: require("../../../assets/WorldMonuments/Europe/stPetersburg.webp"),
       },
     ],
     correctAnswerIndex: 2,
@@ -535,7 +535,7 @@ const questions2El = [
     status: "Capitals",
     img: 'L',
     country: "Ρωσία",
-    image: require("../../../assets/WorldMonuments/Europe/saint_basils_cathedral.png"),
+    image: require("../../../assets/WorldMonuments/Europe/saint_basils_cathedral.webp"),
     options: [
       {
         id: "0",
@@ -569,7 +569,7 @@ const questions2El = [
       {
         id: "0",
         country: "Βασιλική του\nΑγίου Πέτρου\nΒατικανό",
-        img: require("../../../assets/WorldMonuments/Europe/St.-Peters-Basilica-Vatican.png"),
+        img: require("../../../assets/WorldMonuments/Europe/St.-Peters-Basilica-Vatican.webp"),
       },
       {
         id: "1",
@@ -579,12 +579,12 @@ const questions2El = [
       {
         id: "2",
         country: "Ξύλινη εκκλησία Μπόργουντ\nNορβηγία",
-        img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
+        img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.webp"),
       },
       {
         id: "3",
         country: "Καθεδρικός Ναός\nΑγίου Βασιλείου\nΡωσία",
-        img: require("../../../assets/WorldMonuments/Europe/saint_basils_cathedral.png"),
+        img: require("../../../assets/WorldMonuments/Europe/saint_basils_cathedral.webp"),
       },
     ],
     correctAnswerIndex: 3,

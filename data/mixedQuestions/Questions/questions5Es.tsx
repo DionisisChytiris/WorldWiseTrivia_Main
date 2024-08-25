@@ -4,7 +4,7 @@ const qstMixed5Es = [
     status: "Capitals",
     img: "L",
     country: "Tailandia",
-    image: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
+    image: require("../../../assets/WorldMonuments/Asia/the-grand-palace.webp"),
     options: [
       {
         id: "0",
@@ -43,7 +43,7 @@ const qstMixed5Es = [
       {
         id: "1",
         country: "Angkor Wat\nCambodia",
-        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.png"),
+        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
       },
       {
         id: "2",
@@ -53,7 +53,7 @@ const qstMixed5Es = [
       {
         id: "3",
         country: "Gran Palacio\nTailandia",
-        img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
+        img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.webp"),
       },
     ],
     correctAnswerIndex: 3,
@@ -415,7 +415,7 @@ const qstMixed5Es = [
     status: "Capitals",
     img: 'L',
     country: "Camboya",
-    image: require("../../../assets/WorldMonuments/Asia/AngkorWat.png"),
+    image: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
     options: [
       {
         id: "0",
@@ -449,22 +449,22 @@ const qstMixed5Es = [
       {
         id: "0",
         country: "Sigiriya\nSri Lanka",
-        img: require("../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.png"),
+        img: require("../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.webp"),
       },
       {
         id: "1",
         country: "Templo de Kailasa\nIndia",
-        img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
+        img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.webp"),
       },
       {
         id: "2",
         country: "Angkor Wat\nCambodia",
-        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.png"),
+        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
       },
       {
         id: "3",
         country: "Jetavanaramaya\nSri Lanka",
-        img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.png"),
+        img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.webp"),
       },
     ],
     correctAnswerIndex: 2,
@@ -474,7 +474,7 @@ const qstMixed5Es = [
     status: "Capitals",
     img: 'L',
     country: "España",
-    image: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
+    image: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
     options: [
       {
         id: "0",
@@ -508,22 +508,22 @@ const qstMixed5Es = [
       {
         id: "0",
         country: "Meteora\nGrecia",
-        img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
+        img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
       },
       {
         id: "1",
         country: "Monte Saint-Michel\nFrancia",
-        img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.webp"),
       },
       {
         id: "2",
         country: "Alhambra\nEspaña",
-        img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
+        img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
       },
       {
         id: "3",
         country: "Ciudadela de Carcasona\nFrancia",
-        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
+        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
       },
     ],
     correctAnswerIndex: 2,

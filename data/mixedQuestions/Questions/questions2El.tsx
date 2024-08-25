@@ -400,7 +400,7 @@ const qstMixed2El = [
           {
             id: "2",
             country: "Ιερά Μονή Αγίας \nΑικατερίνης Όρους Σινά\nΑίγυπτος",
-            img: require("../../../assets/WorldMonuments/Africa/mountsinai.jpg"),
+            img: require("../../../assets/WorldMonuments/Africa/mountsinai.webp"),
           },
           {
             id: "3",
@@ -473,7 +473,7 @@ const qstMixed2El = [
         status: "Capitals",
         img: 'L',
         country: "Ιορδανία",
-        image: require("../../../assets/WorldMonuments/Asia/jordanPetra.png"),
+        image: require("../../../assets/WorldMonuments/Asia/jordanPetra.webp"),
         options: [
           {
             id: "0",
@@ -512,17 +512,17 @@ const qstMixed2El = [
           {
             id: "1",
             country: "Αΐτ-Μπεν-Χαντού\nMαρόκο",
-            img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.png"),
+            img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp"),
           },
           {
             id: "2",
             country: "Πέτρα\nΙορδανία",
-            img: require("../../../assets/WorldMonuments/Asia/jordanPetra.png"),
+            img: require("../../../assets/WorldMonuments/Asia/jordanPetra.webp"),
           },
           {
             id: "3",
             country: "Ναός Καϊλάσα\nIνδία",
-            img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
+            img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -532,7 +532,7 @@ const qstMixed2El = [
         status: "Capitals",
         img: 'L',
         country: "Γερμανία",
-        image: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
+        image: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.webp"),
         options: [
           {
             id: "0",
@@ -566,7 +566,7 @@ const qstMixed2El = [
           {
             id: "0",
             country: "Πύλη του Βρανδεμβούργου\nΓερμανία",
-            img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.webp"),
           },
           {
             id: "1",
@@ -576,12 +576,12 @@ const qstMixed2El = [
           {
             id: "2",
             country: "Πύργος του Άιφελ\nΓαλλία",
-            img: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
+            img: require("../../../assets/WorldMonuments/Europe/eiffelTower.webp"),
           },
           {
             id: "3",
             country: "Μπιγκ Μπεν\nΗνωμένο Βασίλειο",
-            img: require("../../../assets/WorldMonuments/Europe/bigBen.png"),
+            img: require("../../../assets/WorldMonuments/Europe/bigBen.webp"),
           },
         ],
         correctAnswerIndex: 0,

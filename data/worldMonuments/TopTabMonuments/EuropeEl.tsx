@@ -1,7 +1,7 @@
 const EuropeMonEl = [
     {
         id: '1',
-        img: require('../../../assets/WorldMonuments/Europe/Acropolis.png'),
+        img: require('../../../assets/WorldMonuments/Europe/Acropolis.webp'),
         name: 'Ακρόπολη',
         country: 'Ελλάδα',
         city: 'Αθήνα',
@@ -17,7 +17,7 @@ const EuropeMonEl = [
     },
     {
         id: '3',
-        img: require('../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png'),
+        img: require('../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.webp'),
         name: 'Αψίδα του Θριάμβου',
         country: 'Γαλλία',
         city: 'Παρίσι',
@@ -25,7 +25,7 @@ const EuropeMonEl = [
     },
     {
         id: '4',
-        img: require('../../../assets/WorldMonuments/Europe/Atomium.png'),
+        img: require('../../../assets/WorldMonuments/Europe/Atomium.webp'),
         name: 'Ατόμιουμ',
         country: 'Βέλγιο',
         city: 'Βρυξέλλες',
@@ -33,7 +33,7 @@ const EuropeMonEl = [
     },
     {
         id: '5',
-        img: require('../../../assets/WorldMonuments/Europe/bigBen.png'),
+        img: require('../../../assets/WorldMonuments/Europe/bigBen.webp'),
         name: 'Μπιγκ Μπεν',
         country: 'Ηνωμένο Βασίλειο',
         city: 'Λονδίνο',
@@ -41,7 +41,7 @@ const EuropeMonEl = [
     },
     {
         id: '6',
-        img: require('../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png'),
+        img: require('../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.webp'),
         name: 'Borgund Stave Church',
         country: 'Νορβηγία',
         city: 'Borgund',
@@ -49,7 +49,7 @@ const EuropeMonEl = [
     },
     {
         id: '7',
-        img: require('../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png'),
+        img: require('../../../assets/WorldMonuments/Europe/Bran-CastleDracula.webp'),
         name: 'Κάστρο Μπραν',
         country: 'Ρουμανία',
         city: 'Μπραν \nΤρανσυλβανία',
@@ -57,7 +57,7 @@ const EuropeMonEl = [
     },
     {
         id: '8',
-        img: require('../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png'),
+        img: require('../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.webp'),
         name: 'Πύλη του Βρανδεμβούργου',
         country: 'Γερμανία',
         city: 'Βερολίνο',
@@ -65,7 +65,7 @@ const EuropeMonEl = [
     },
     {
         id: '9',
-        img: require('../../../assets/WorldMonuments/Europe/buckinghampalace.png'),
+        img: require('../../../assets/WorldMonuments/Europe/buckinghampalace.webp'),
         name: 'Ανάκτορα του Μπάκιγχαμ',
         country: 'Ηνωμένο Βασίλειο',
         city: 'Λονδίνο',
@@ -73,7 +73,7 @@ const EuropeMonEl = [
     },
     {
         id: '10',
-        img: require('../../../assets/WorldMonuments/Europe/stPetersburg.png'),
+        img: require('../../../assets/WorldMonuments/Europe/stPetersburg.webp'),
         name: 'Nαός του Σωτήρα \n του Χυμένου Αίματος',
         country: 'Ρωσία',
         city: 'Αγία Πετρούπολη',
@@ -81,14 +81,14 @@ const EuropeMonEl = [
     },
     {
         id: '11',
-        img: require('../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png'),
+        img: require('../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp'),
         name: 'Παλαιά πόλη της Καρκασσόν',
         country: 'Γαλλία',
         city: 'Καρκασσόν'
     },
     {
         id: '12',
-        img: require('../../../assets/WorldMonuments/Europe/colosseum.png'),
+        img: require('../../../assets/WorldMonuments/Europe/colosseum.webp'),
         name: 'Φλάβιο Αμφιθέατρο (Κολοσσαίο)',
         country: 'Ιταλία',
         city: 'Ρώμη',
@@ -96,7 +96,7 @@ const EuropeMonEl = [
     },
     {
         id: '13',
-        img: require('../../../assets/WorldMonuments/Europe/duomo-florence.png'),
+        img: require('../../../assets/WorldMonuments/Europe/duomo-florence.webp'),
         name: 'Καθεδρικός ναός της Φλωρεντίας',
         country: 'Ιταλία',
         city: 'Φλωρεντία',
@@ -112,7 +112,7 @@ const EuropeMonEl = [
     },
     {
         id: '15',
-        img: require('../../../assets/WorldMonuments/Europe/eiffelTower.png'),
+        img: require('../../../assets/WorldMonuments/Europe/eiffelTower.webp'),
         name: 'Πύργος του Άιφελ',
         country: 'Γαλλία',
         city: 'Παρίσι',
@@ -144,7 +144,7 @@ const EuropeMonEl = [
     },
     {
         id: '19',
-        img: require('../../../assets/WorldMonuments/Europe/meteora.png'),
+        img: require('../../../assets/WorldMonuments/Europe/meteora.webp'),
         name: 'Μετέωρα',
         country: 'Ελλάδα',
         city: 'Τρίκαλα',
@@ -152,7 +152,7 @@ const EuropeMonEl = [
     },
     {
         id: '20',
-        img: require('../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png'),
+        img: require('../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.webp'),
         name: 'Μον-Σαιν-Μισέλ ',
         country: 'Γαλλία',
         city: 'Νορμανδία',
@@ -160,7 +160,7 @@ const EuropeMonEl = [
     },
     {
         id: '21',
-        img: require('../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.png'),
+        img: require('../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.webp'),
         name: 'Κάστρο Nόισβανσταϊν',
         country: 'Γερμανία',
         city: 'Χοχενσβάνγκαου\nΒαβαρία',
@@ -168,7 +168,7 @@ const EuropeMonEl = [
     },
     {
         id: '22',
-        img: require('../../../assets/WorldMonuments/Europe/notreDame.png'),
+        img: require('../../../assets/WorldMonuments/Europe/notreDame.webp'),
         name: 'Παναγία των Παρισίων',
         country: 'Γαλλία',
         city: 'Παρίσι',
@@ -200,7 +200,7 @@ const EuropeMonEl = [
     },
     {
         id: '26',
-        img: require('../../../assets/WorldMonuments/Europe/RoyalPalaceMadrid.png'),
+        img: require('../../../assets/WorldMonuments/Europe/RoyalPalaceMadrid.webp'),
         name: 'Βασιλικό ανάκτορο της Μαδρίτης',
         country: 'Ισπανία',
         city: 'Μαδρίτη',
@@ -208,7 +208,7 @@ const EuropeMonEl = [
     },
     {
         id: '27',
-        img: require('../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.png'),
+        img: require('../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.webp'),
         name: 'Πομπηία ',
         country: 'Ιταλία',
         city: 'Νάπολη',
@@ -216,7 +216,7 @@ const EuropeMonEl = [
     },
     {
         id: '28',
-        img: require('../../../assets/WorldMonuments/Europe/sagradaFamilia.png'),
+        img: require('../../../assets/WorldMonuments/Europe/sagradaFamilia.webp'),
         name: 'Σαγράδα Φαμίλια',
         country: 'Ισπανία',
         city: 'Βαρκελώνη',
@@ -224,7 +224,7 @@ const EuropeMonEl = [
     },
     {
         id: '29',
-        img: require('../../../assets/WorldMonuments/Europe/saint_basils_cathedral.png'),
+        img: require('../../../assets/WorldMonuments/Europe/saint_basils_cathedral.webp'),
         name: "Καθεδρικός του Αγίου Βασιλείου",
         country: 'Ρωσσία',
         city: 'Μόσχα',
@@ -232,7 +232,7 @@ const EuropeMonEl = [
     },
     {
         id: '30',
-        img: require('../../../assets/WorldMonuments/Europe/sainte-Chapelle.png'),
+        img: require('../../../assets/WorldMonuments/Europe/sainte-Chapelle.webp'),
         name: 'Σαιντ-Σαπέλ',
         country: 'Γαλλία',
         city: 'Παρίσι',
@@ -240,7 +240,7 @@ const EuropeMonEl = [
     },
     {
         id: '31',
-        img: require('../../../assets/WorldMonuments/Europe/sistineChapel.png'),
+        img: require('../../../assets/WorldMonuments/Europe/sistineChapel.webp'),
         name: 'Καπέλα Σιστίνα',
         country: 'Βατικανό',
         city: 'Πόλη Βατικανού',
@@ -248,7 +248,7 @@ const EuropeMonEl = [
     },
     {
         id: '32',
-        img: require('../../../assets/WorldMonuments/Europe/spanish-steps-rome.png'),
+        img: require('../../../assets/WorldMonuments/Europe/spanish-steps-rome.webp'),
         name: 'Ισπανικά Σκαλιά (Σκαλινάτα)',
         country: 'Ιταλία',
         city: 'Ρώμη',
@@ -256,7 +256,7 @@ const EuropeMonEl = [
     },
     {
         id: '33',
-        img: require('../../../assets/WorldMonuments/Europe/St.-Peters-Basilica-Vatican.png'),
+        img: require('../../../assets/WorldMonuments/Europe/St.-Peters-Basilica-Vatican.webp'),
         name: "Βασιλική του Αγίου Πέτρου",
         country: 'Βατικανό',
         city: 'Πόλη Βατικανού',
@@ -264,14 +264,14 @@ const EuropeMonEl = [
     },
     {
         id: '34',
-        img: require('../../../assets/WorldMonuments/Europe/stMark_square_Venice.png'),
+        img: require('../../../assets/WorldMonuments/Europe/stMark_square_Venice.webp'),
         name: 'Πλατεία Αγίου Μάρκου',
         country: 'Ιταλία',
         city: 'Βενετία'
     },
     {
         id: '35',
-        img: require('../../../assets/WorldMonuments/Europe/stonehenge.png'),
+        img: require('../../../assets/WorldMonuments/Europe/stonehenge.webp'),
         name: 'Στόουνχεντζ',
         country: 'Ηνωμένο \nΒασίλειο',
         city: 'Γουΐλτσιρ\nΣώλσμπερι',
@@ -279,7 +279,7 @@ const EuropeMonEl = [
     },
     {
         id: '36',
-        img: require('../../../assets/WorldMonuments/Europe/TheAlambraGranada.png'),
+        img: require('../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp'),
         name: 'Αλάμπρα',
         country: 'Ισπανία',
         city: 'Γρανάδα',
@@ -287,7 +287,7 @@ const EuropeMonEl = [
     },
     {
         id: '37',
-        img: require('../../../assets/WorldMonuments/Europe/TowerBridge.png'),
+        img: require('../../../assets/WorldMonuments/Europe/TowerBridge.webp'),
         name: 'Τάουερ Μπριτζ (Γέφυρα του Πύργου)',
         country: 'Ηνωμένο Βασίλειο',
         city: 'Λονδίνο',
@@ -295,7 +295,7 @@ const EuropeMonEl = [
     },
     {
         id: '38',
-        img: require('../../../assets/WorldMonuments/Europe/TowerPisa.png'),
+        img: require('../../../assets/WorldMonuments/Europe/TowerPisa.webp'),
         name: 'Πύργος της Πίζας',
         country: 'Ιταλία',
         city: 'Πίζα',
@@ -303,7 +303,7 @@ const EuropeMonEl = [
     },
     {
         id: '39',
-        img: require('../../../assets/WorldMonuments/Europe/trevi-fontein-rome.png'),
+        img: require('../../../assets/WorldMonuments/Europe/trevi-fontein-rome.webp'),
         name: 'Φοντάνα ντι Τρέβι',
         country: 'Ιταλία',
         city: 'Ρώμη',
@@ -311,7 +311,7 @@ const EuropeMonEl = [
     },
     {
         id: '40',
-        img: require('../../../assets/WorldMonuments/Europe/westminster-abbey.png'),
+        img: require('../../../assets/WorldMonuments/Europe/westminster-abbey.webp'),
         name: 'Αββαείο του Ουεστμίνστερ',
         country: 'Ηνωμένο Βασίλειο',
         city: 'Λονδίνο',

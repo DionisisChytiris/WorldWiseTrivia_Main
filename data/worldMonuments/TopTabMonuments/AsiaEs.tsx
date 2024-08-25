@@ -9,7 +9,7 @@ const AsiaMonEs = [
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/Asia/AngkorWat.png'),
+        img: require('../../../assets/WorldMonuments/Asia/AngkorWat.webp'),
         name: 'Angkor Wat',
         country: 'Camboya',
         city: 'Provincia de \nSiem Reap',
@@ -17,7 +17,7 @@ const AsiaMonEs = [
     },
     {
         id: '3',
-        img: require('../../../assets/WorldMonuments/Asia/borobudur-temple-Indonesia.png'),
+        img: require('../../../assets/WorldMonuments/Asia/borobudur-temple-Indonesia.webp'),
         name: 'Borobudur',
         country: 'Indonesia',
         city: 'Java',
@@ -25,7 +25,7 @@ const AsiaMonEs = [
     },
     {
         id: '4',
-        img: require('../../../assets/WorldMonuments/Asia/burj-khalifa.png'),
+        img: require('../../../assets/WorldMonuments/Asia/burj-khalifa.webp'),
         name: 'Burj Khalifa',
         country: 'Emiratos Árabes Unidos',
         city: 'Dubái',
@@ -49,7 +49,7 @@ const AsiaMonEs = [
     },
     {
         id: '7',
-        img: require('../../../assets/WorldMonuments/Asia/ephesos.png'),
+        img: require('../../../assets/WorldMonuments/Asia/ephesos.webp'),
         name: 'Éfeso',
         country: 'Turquía',
         city: 'Selçuk',
@@ -73,7 +73,7 @@ const AsiaMonEs = [
     },
     {
         id: '10',
-        img: require('../../../assets/WorldMonuments/Asia/Gardens-by-the-Bay.png'),
+        img: require('../../../assets/WorldMonuments/Asia/Gardens-by-the-Bay.webp'),
         name: 'Jardines de la Bahía',
         country: 'Singapur',
         city: '',
@@ -81,7 +81,7 @@ const AsiaMonEs = [
     },
     {
         id: '11',
-        img: require('../../../assets/WorldMonuments/Asia/the-grand-palace.png'),
+        img: require('../../../assets/WorldMonuments/Asia/the-grand-palace.webp'),
         name: 'Gran Palacio Real',
         country: 'Tailandia',
         city: 'Bangkok',
@@ -105,7 +105,7 @@ const AsiaMonEs = [
     },
     {
         id: '14',
-        img: require('../../../assets/WorldMonuments/Asia/HimejiCastle.png'),
+        img: require('../../../assets/WorldMonuments/Asia/HimejiCastle.webp'),
         name: 'Castillo Himeji',
         country: 'Japón',
         city: 'Himeji',
@@ -113,7 +113,7 @@ const AsiaMonEs = [
     },
     {
         id: '15',
-        img: require('../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.png'),
+        img: require('../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.webp'),
         name: 'Monumento de la Paz \nde Hiroshima',
         country: 'Japón',
         city: 'Hiroshima',
@@ -121,7 +121,7 @@ const AsiaMonEs = [
     },
     {
         id: '16',
-        img: require('../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.png'),
+        img: require('../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.webp'),
         name: 'Jetavanaramaya',
         country: 'Sri Lanka',
         city: 'Anuradhapura',
@@ -130,7 +130,7 @@ const AsiaMonEs = [
    
     {
         id: '17',
-        img: require('../../../assets/WorldMonuments/Asia/kailasa-temple-india.png'),
+        img: require('../../../assets/WorldMonuments/Asia/kailasa-temple-india.webp'),
         name: 'Templo Kailash',
         country: 'India',
         city: 'Maharastra',
@@ -138,7 +138,7 @@ const AsiaMonEs = [
     },
     {
         id: '18',
-        img: require('../../../assets/WorldMonuments/Asia/easterIsland.png'),
+        img: require('../../../assets/WorldMonuments/Asia/easterIsland.webp'),
         name: 'Moái',
         country: 'Chile',
         city: 'Isla de Pascua',
@@ -170,7 +170,7 @@ const AsiaMonEs = [
     },
     {
         id: '22',
-        img: require('../../../assets/WorldMonuments/Asia/jordanPetra.png'),
+        img: require('../../../assets/WorldMonuments/Asia/jordanPetra.webp'),
         name: "Tesoro de Petra",
         country: 'Jordania',
         city: "Ma'an",
@@ -178,7 +178,7 @@ const AsiaMonEs = [
     },
     {
         id: '23',
-        img: require('../../../assets/WorldMonuments/Asia/potalaPalaceTibet.png'),
+        img: require('../../../assets/WorldMonuments/Asia/potalaPalaceTibet.webp'),
         name: 'Palacio de Potala',
         country: 'Tíbet',
         city: 'Lhasa',
@@ -202,7 +202,7 @@ const AsiaMonEs = [
     },
     {
         id: '26',
-        img: require('../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.png'),
+        img: require('../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.webp'),
         name: 'Sigiriya',
         country: 'Sri Lanka',
         city: 'Sigiriya',
@@ -218,7 +218,7 @@ const AsiaMonEs = [
     },
     {
         id: '28',
-        img: require('../../../assets/WorldMonuments/Asia/temple-of-heaven-in-beijing.png'),
+        img: require('../../../assets/WorldMonuments/Asia/temple-of-heaven-in-beijing.webp'),
         name: 'Templo del Cielo',
         country: 'China',
         city: 'Pekín',
@@ -226,7 +226,7 @@ const AsiaMonEs = [
     },
     {
         id: '29',
-        img: require('../../../assets/WorldMonuments/Asia/Bangan-Temples.png'),
+        img: require('../../../assets/WorldMonuments/Asia/Bangan-Temples.webp'),
         name: 'Bagan',
         country: 'Birmania',
         city: 'Mandalay',
@@ -234,7 +234,7 @@ const AsiaMonEs = [
     },
     {
         id: '30',
-        img: require('../../../assets/WorldMonuments/Asia/terracottArmy.png'),
+        img: require('../../../assets/WorldMonuments/Asia/terracottArmy.webp'),
         name: 'Guerreros de terracota',
         country: 'China',
         city: 'Lintong',
@@ -258,7 +258,7 @@ const AsiaMonEs = [
     },
     {
         id: '33',
-        img: require('../../../assets/WorldMonuments/Asia/Tokyo-Tower.png'),
+        img: require('../../../assets/WorldMonuments/Asia/Tokyo-Tower.webp'),
         name: 'Torre de Tokio',
         country: 'Japón',
         city: 'Minato, Tokio',

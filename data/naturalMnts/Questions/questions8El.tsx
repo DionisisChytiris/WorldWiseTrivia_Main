@@ -348,7 +348,7 @@ const questions8El = [
         {
           id: "3",
           name: "Μετέωρα\nΕλλάδα",
-          img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
+          img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
         },
       ],
       correctAnswerIndex: 1,

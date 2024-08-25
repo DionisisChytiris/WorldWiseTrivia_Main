@@ -4,7 +4,7 @@ const qstMixed10Es = [
     status: "Capitals",
     img: 'L',
     country: "Estados Unidos",
-    image: require("../../../assets/WorldMonuments/USA/hoover_dam_nevada.png"),
+    image: require("../../../assets/WorldMonuments/USA/hoover_dam_nevada.webp"),
     options: [
       {
         id: "0",
@@ -38,7 +38,7 @@ const qstMixed10Es = [
       {
         id: "0",
         country: "Monte Rushmore\nEstados Unidos",
-        img: require("../../../assets/WorldMonuments/USA/Mount_Rushmore.png"),
+        img: require("../../../assets/WorldMonuments/USA/Mount_Rushmore.webp"),
       },
       {
         id: "1",
@@ -48,12 +48,12 @@ const qstMixed10Es = [
       {
         id: "2",
         country: "Presa Hoover\nEstados Unidos",
-        img: require("../../../assets/WorldMonuments/USA/hoover_dam_nevada.png"),
+        img: require("../../../assets/WorldMonuments/USA/hoover_dam_nevada.webp"),
       },
       {
         id: "3",
         country: "Ciudadela de Carcasona\nFrancia",
-        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
+        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
       },
     ],
     correctAnswerIndex: 2,
@@ -121,7 +121,7 @@ const qstMixed10Es = [
     status: "Capitals",
     img: 'L',
     country: "Italia",
-    image: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.png"),
+    image: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.webp"),
     options: [
       {
         id: "0",
@@ -155,7 +155,7 @@ const qstMixed10Es = [
       {
         id: "0",
         country: "Acrópolis\nGrecia",
-        img: require("../../../assets/WorldMonuments/Europe/Acropolis.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Acropolis.webp"),
       },
       {
         id: "1",
@@ -165,7 +165,7 @@ const qstMixed10Es = [
       {
         id: "2",
         country: "Pompeya\nItalia",
-        img: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.webp"),
       },
       {
         id: "3",
@@ -568,7 +568,7 @@ const qstMixed10Es = [
     {
       id: "0",
       country: "Coliseo\nItalia",
-      img: require("../../../assets/WorldMonuments/Europe/colosseum.png"),
+      img: require("../../../assets/WorldMonuments/Europe/colosseum.webp"),
     },
     {
       id: "1",

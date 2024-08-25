@@ -9,7 +9,7 @@ const AsiaMonEl = [
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/Asia/AngkorWat.png'),
+        img: require('../../../assets/WorldMonuments/Asia/AngkorWat.webp'),
         name: 'Άνγκορ Βατ',
         country: 'Καμπότζη',
         city: 'Σιέμ Ριπ',
@@ -17,7 +17,7 @@ const AsiaMonEl = [
     },
     {
         id: '3',
-        img: require('../../../assets/WorldMonuments/Asia/borobudur-temple-Indonesia.png'),
+        img: require('../../../assets/WorldMonuments/Asia/borobudur-temple-Indonesia.webp'),
         name: 'Μπορομπουντούρ',
         country: 'Ινδονησία',
         city: 'Ιάβα',
@@ -25,7 +25,7 @@ const AsiaMonEl = [
     },
     {
         id: '4',
-        img: require('../../../assets/WorldMonuments/Asia/burj-khalifa.png'),
+        img: require('../../../assets/WorldMonuments/Asia/burj-khalifa.webp'),
         name: 'Μπουρτζ Χαλίφα',
         country: 'Ηνωμένα \nΑραβικά Εμιράτα',
         city: 'Ντουμπάι',
@@ -49,7 +49,7 @@ const AsiaMonEl = [
     },
     {
         id: '7',
-        img: require('../../../assets/WorldMonuments/Asia/ephesos.png'),
+        img: require('../../../assets/WorldMonuments/Asia/ephesos.webp'),
         name: 'Έφεσος',
         country: 'Τουρκία',
         city: 'Σελτσούκ',
@@ -73,7 +73,7 @@ const AsiaMonEl = [
     },
     {
         id: '10',
-        img: require('../../../assets/WorldMonuments/Asia/Gardens-by-the-Bay.png'),
+        img: require('../../../assets/WorldMonuments/Asia/Gardens-by-the-Bay.webp'),
         name: 'Κήποι από τον κόλπο',
         country: 'Σιγκαπούρη',
         city: '',
@@ -81,7 +81,7 @@ const AsiaMonEl = [
     },
     {
         id: '11',
-        img: require('../../../assets/WorldMonuments/Asia/the-grand-palace.png'),
+        img: require('../../../assets/WorldMonuments/Asia/the-grand-palace.webp'),
         name: 'Το Μεγάλο Παλάτι',
         country: 'Ταϊλάνδη',
         city: 'Μπανγκόκ',
@@ -105,7 +105,7 @@ const AsiaMonEl = [
     },
     {
         id: '14',
-        img: require('../../../assets/WorldMonuments/Asia/HimejiCastle.png'),
+        img: require('../../../assets/WorldMonuments/Asia/HimejiCastle.webp'),
         name: 'Κάστρο Χιμέτζι',
         country: 'Ιαπωνία',
         city: 'Χιμέτζι',
@@ -113,7 +113,7 @@ const AsiaMonEl = [
     },
     {
         id: '15',
-        img: require('../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.png'),
+        img: require('../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.webp'),
         name: 'Μνημείο Ειρήνης της Χιροσίμα',
         country: 'Ιαπωνία',
         city: 'Χιροσίμα',
@@ -121,7 +121,7 @@ const AsiaMonEl = [
     },
     {
         id: '16',
-        img: require('../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.png'),
+        img: require('../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.webp'),
         name: 'Jetavanaramaya',
         country: 'Σρι Λάνκα',
         city: 'Ανουρανταπούρα ',
@@ -130,7 +130,7 @@ const AsiaMonEl = [
    
     {
         id: '17',
-        img: require('../../../assets/WorldMonuments/Asia/kailasa-temple-india.png'),
+        img: require('../../../assets/WorldMonuments/Asia/kailasa-temple-india.webp'),
         name: 'Ναός Kailasa',
         country: 'Ινδία',
         city: 'Μαχαράστρα',
@@ -138,7 +138,7 @@ const AsiaMonEl = [
     },
     {
         id: '18',
-        img: require('../../../assets/WorldMonuments/Asia/easterIsland.png'),
+        img: require('../../../assets/WorldMonuments/Asia/easterIsland.webp'),
         name: 'Αγάλματα Μοάι',
         country: 'Χιλή',
         city: 'Νησί του Πάσχα',
@@ -170,7 +170,7 @@ const AsiaMonEl = [
     },
     {
         id: '22',
-        img: require('../../../assets/WorldMonuments/Asia/jordanPetra.png'),
+        img: require('../../../assets/WorldMonuments/Asia/jordanPetra.webp'),
         name: "Πέτρα",
         country: 'Ιορδανία',
         city: "Μαάν",
@@ -178,7 +178,7 @@ const AsiaMonEl = [
     },
     {
         id: '23',
-        img: require('../../../assets/WorldMonuments/Asia/potalaPalaceTibet.png'),
+        img: require('../../../assets/WorldMonuments/Asia/potalaPalaceTibet.webp'),
         name: 'Aνάκτορο Ποτάλα',
         country: 'Θιβέτ',
         city: 'Λάσα',
@@ -202,7 +202,7 @@ const AsiaMonEl = [
     },
     {
         id: '26',
-        img: require('../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.png'),
+        img: require('../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.webp'),
         name: 'Sigiriya',
         country: 'Σρι Λάνκα',
         city: 'Sigiriya',
@@ -218,7 +218,7 @@ const AsiaMonEl = [
     },
     {
         id: '28',
-        img: require('../../../assets/WorldMonuments/Asia/temple-of-heaven-in-beijing.png'),
+        img: require('../../../assets/WorldMonuments/Asia/temple-of-heaven-in-beijing.webp'),
         name: 'Ναός του Ουρανού',
         country: 'Κίνα',
         city: 'Πεκίνο',
@@ -226,7 +226,7 @@ const AsiaMonEl = [
     },
     {
         id: '29',
-        img: require('../../../assets/WorldMonuments/Asia/Bangan-Temples.png'),
+        img: require('../../../assets/WorldMonuments/Asia/Bangan-Temples.webp'),
         name: 'Μπαγκάν',
         country: 'Μιανμάρ',
         city: 'Μάνταλεϊ',
@@ -234,7 +234,7 @@ const AsiaMonEl = [
     },
     {
         id: '30',
-        img: require('../../../assets/WorldMonuments/Asia/terracottArmy.png'),
+        img: require('../../../assets/WorldMonuments/Asia/terracottArmy.webp'),
         name: 'Πήλινος στρατός',
         country: 'Κίνα',
         city: 'Lintong',
@@ -258,7 +258,7 @@ const AsiaMonEl = [
     },
     {
         id: '33',
-        img: require('../../../assets/WorldMonuments/Asia/Tokyo-Tower.png'),
+        img: require('../../../assets/WorldMonuments/Asia/Tokyo-Tower.webp'),
         name: 'Πύργος του Τόκιο',
         country: 'Ιαπωνία',
         city: 'Mινάτο\nTόκιο',

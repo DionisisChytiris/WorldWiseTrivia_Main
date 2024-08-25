@@ -1,7 +1,7 @@
 const AfricaMonEs = [
     {
         id: '1',
-        img: require('../../../assets/WorldMonuments/Africa/abulShimbel.png'),
+        img: require('../../../assets/WorldMonuments/Africa/abulShimbel.webp'),
         name: 'Abu Simbel',
         country: 'Egipto',
         city: 'Aswan',
@@ -9,7 +9,7 @@ const AfricaMonEs = [
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/Africa/AïtBenhaddou.png'),
+        img: require('../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp'),
         name: 'Ait Ben Hadu',
         country: 'Marruecos',
         city: 'Aït Ben Hadu',
@@ -17,7 +17,7 @@ const AfricaMonEs = [
     },
     {
         id: '3',
-        img: require('../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.png'),
+        img: require('../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.webp'),
         name: 'Iglesia de San Jorge',
         country: 'Etiopía',
         city: 'Lalibela',
@@ -49,7 +49,7 @@ const AfricaMonEs = [
     },
     {
         id: '7',
-        img: require('../../../assets/WorldMonuments/Africa/mountsinai.jpg'),
+        img: require('../../../assets/WorldMonuments/Africa/mountsinai.webp'),
         name: "Monasterio de Santa Catalina ",
         country: 'Egipto',
         city: 'Península Sinaí \nMonte Sinaí,',

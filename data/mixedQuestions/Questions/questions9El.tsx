@@ -4,7 +4,7 @@ const qstMixed9El = [
         status: "Capitals",
         img: 'L',
         country: "Ιαπωνία",
-        image: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
+        image: require("../../../assets/WorldMonuments/Asia/HimejiCastle.webp"),
         options: [
           {
             id: "0",
@@ -38,12 +38,12 @@ const qstMixed9El = [
           {
             id: "0",
             country: "Κάστρο Μπραν\nΡουμανία",
-            img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.webp"),
           },
           {
             id: "1",
             country: "Μνημείο Ειρήνης της Χιροσίμα Park\nJapan",
-            img: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.png"),
+            img: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.webp"),
           },
           {
             id: "2",
@@ -53,7 +53,7 @@ const qstMixed9El = [
           {
             id: "3",
             country: "Κάστρο του Χιμέτζι\nΙαπωνία",
-            img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
+            img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.webp"),
           },
         ],
         correctAnswerIndex: 3,
@@ -160,7 +160,7 @@ const qstMixed9El = [
           {
             id: "1",
             country: "Αψίδα του Θριάμβου\nΓαλλία",
-            img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png"),
+            img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.webp"),
           },
           {
             id: "2",
@@ -170,7 +170,7 @@ const qstMixed9El = [
           {
             id: "3",
             country: "Αλάμπρα\nΙσπανία",
-            img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
+            img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -567,7 +567,7 @@ const qstMixed9El = [
           {
             id: "0",
             country: "Καρκασόν\nΓαλλία",
-            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
+            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
           },
           {
             id: "1",
@@ -577,12 +577,12 @@ const qstMixed9El = [
           {
             id: "2",
             country: "Μνημείο του Ουάσινγκτον\nΗΠΑ",
-            img: require("../../../assets/WorldMonuments/USA/washingtonMonument.png"),
+            img: require("../../../assets/WorldMonuments/USA/washingtonMonument.webp"),
           },
           {
             id: "3",
             country: "Διώρυγα Παναμά\nΠαναμάς",
-            img: require("../../../assets/WorldMonuments/America/PanamaCanal.png"),
+            img: require("../../../assets/WorldMonuments/America/PanamaCanal.webp"),
           },
         ],
         correctAnswerIndex: 1,

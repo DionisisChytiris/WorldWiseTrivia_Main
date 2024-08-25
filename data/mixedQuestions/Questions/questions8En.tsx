@@ -48,12 +48,12 @@ const qstMixed8En = [
       {
         id: "2",
         name: "Gold Coast\nAustralia",
-        img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.png"),
+        img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.webp"),
       },
       {
         id: "3",
         name: "Panama Canal\nPanama",
-        img: require("../../../assets/WorldMonuments/America/PanamaCanal.png"),
+        img: require("../../../assets/WorldMonuments/America/PanamaCanal.webp"),
       },
     ],
     correctAnswerIndex: 2,
@@ -167,7 +167,7 @@ const qstMixed8En = [
           {
             id: "2",
             name: "Space Needle\nUSA",
-            img: require("../../../assets/WorldMonuments/USA/spaceNeedle_Seattle.png"),
+            img: require("../../../assets/WorldMonuments/USA/spaceNeedle_Seattle.webp"),
           },
           {
             id: "3",
@@ -408,7 +408,7 @@ const qstMixed8En = [
           {
             id: "3",
             name: "Meteora\nGreece",
-            img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
+            img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
           },
         ],
         correctAnswerIndex: 1,
@@ -536,7 +536,7 @@ const qstMixed8En = [
         status: "Capitals",
         img: 'L',
         country: "Egypt",
-        image: require("../../../assets/WorldMonuments/Africa/mountsinai.jpg"),
+        image: require("../../../assets/WorldMonuments/Africa/mountsinai.webp"),
         options: [
           {
             id: "0",
@@ -570,17 +570,17 @@ const qstMixed8En = [
           {
             id: "0",
             name: "Saint Catherine's Monastery\nEgypt",
-            img: require("../../../assets/WorldMonuments/Africa/mountsinai.jpg"),
+            img: require("../../../assets/WorldMonuments/Africa/mountsinai.webp"),
           },
           {
             id: "1",
             name: "Aït Benhaddou\nMorocco",
-            img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.png"),
+            img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp"),
           },
           {
             id: "2",
             name: "Cité de Carcassonne\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
+            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
           },
           {
             id: "3",

@@ -4,7 +4,7 @@ const questions1El = [
     img: 'L',
     status: "Capitals",
     country: "Γαλλία",
-    image: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
+    image: require("../../../assets/WorldMonuments/Europe/eiffelTower.webp"),
     options: [
       {
         id: "0",
@@ -38,22 +38,22 @@ const questions1El = [
       {
         id: "0",
         country: "Ακρόπολη\nΕλλάδα",
-        img: require("../../../assets/WorldMonuments/Europe/Acropolis.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Acropolis.webp"),
       },
       {
         id: "1",
         country: "Αψίδα του Θριάμβου\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png"),
+        img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.webp"),
       },
       {
         id: "2",
         country: "Πύργος του Άιφελ\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
+        img: require("../../../assets/WorldMonuments/Europe/eiffelTower.webp"),
       },
       {
         id: "3",
         country: "Κεκλιμένος Πύργος της Πίζας\nΙταλία",
-        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
       },
     ],
     correctAnswerIndex: 2,
@@ -63,7 +63,7 @@ const questions1El = [
     status: "Capitals",
     img: 'L',
     country: "ΗΠΑ",
-    image: require("../../../assets/WorldMonuments/USA/statue-of-liberty.png"),
+    image: require("../../../assets/WorldMonuments/USA/statue-of-liberty.webp"),
     options: [
       {
         id: "0",
@@ -102,7 +102,7 @@ const questions1El = [
       {
         id: "1",
         country: "Άγαλμα της Ελευθερίας\nΗΠΑ",
-        img: require("../../../assets/WorldMonuments/USA/statue-of-liberty.png"),
+        img: require("../../../assets/WorldMonuments/USA/statue-of-liberty.webp"),
       },
       {
         id: "2",
@@ -156,7 +156,7 @@ const questions1El = [
       {
         id: "0",
         country: "Πύργος της Πίζας\nΙταλία",
-        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
       },
       {
         id: "1",
@@ -220,17 +220,17 @@ const questions1El = [
       {
         id: "1",
         country: "Κάστρο Μπραν\nΡουμανία",
-        img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.webp"),
       },
       {
         id: "2",
         country: "Καθεδρικός Ναός Πόλης Μεξικού\nMεξικό",
-        img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png"),
+        img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.webp"),
       },
       {
         id: "3",
         country: "Καρκασσόν\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
+        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
       },
     ],
     correctAnswerIndex: 0,
@@ -274,12 +274,12 @@ const questions1El = [
       {
         id: "0",
         country: "Καθεδρικός ναός Φλωρεντίας\nΙταλία",
-        img: require("../../../assets/WorldMonuments/Europe/duomo-florence.png"),
+        img: require("../../../assets/WorldMonuments/Europe/duomo-florence.webp"),
       },
       {
         id: "1",
         country: "Μεγάλο Τζαμί της Ντζενέ\nΜάλι",
-        img: require("../../../assets/WorldMonuments/Africa/mosque-of-djenne.png"),
+        img: require("../../../assets/WorldMonuments/Africa/mosque-of-djenne.webp"),
       },
       {
         id: "2",
@@ -289,7 +289,7 @@ const questions1El = [
       {
         id: "3",
         country: "Ατόμιουμ\nΒέλγιο",
-        img: require("../../../assets/WorldMonuments/Europe/Atomium.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Atomium.webp"),
       },
     ],
     correctAnswerIndex: 2,
@@ -299,7 +299,7 @@ const questions1El = [
     status: "Capitals",
     img: 'L',
     country: "Γαλλία",
-    image: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png"),
+    image: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.webp"),
     options: [
       {
         id: "0",
@@ -333,17 +333,17 @@ const questions1El = [
       {
         id: "0",
         country: "Πύλη του Βρανδεμβούργου\nΓερμανία",
-        img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.webp"),
       },
       {
         id: "1",
         country: "Αψίδα του Θριάμβου\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png"),
+        img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.webp"),
       },
       {
         id: "2",
         country: "Πύργος του Άιφελ\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
+        img: require("../../../assets/WorldMonuments/Europe/eiffelTower.webp"),
       },
       {
         id: "3",
@@ -358,7 +358,7 @@ const questions1El = [
     status: "Capitals",
     img: 'L',
     country: "Ελλάδα",
-    image: require("../../../assets/WorldMonuments/Europe/Acropolis.png"),
+    image: require("../../../assets/WorldMonuments/Europe/Acropolis.webp"),
     options: [
       {
         id: "0",
@@ -392,12 +392,12 @@ const questions1El = [
       {
         id: "0",
         country: "Ακρόπολη\nΕλλάδα",
-        img: require("../../../assets/WorldMonuments/Europe/Acropolis.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Acropolis.webp"),
       },
       {
         id: "1",
         country: "Έφεσος\nTουρκία",
-        img: require("../../../assets/WorldMonuments/Asia/ephesos.png"),
+        img: require("../../../assets/WorldMonuments/Asia/ephesos.webp"),
       },
       {
         id: "2",
@@ -417,7 +417,7 @@ const questions1El = [
     status: "Capitals",
     img: 'L',
     country: "Περού",
-    image: require("../../../assets/WorldMonuments/America/MachuPicchu.png"),
+    image: require("../../../assets/WorldMonuments/America/MachuPicchu.webp"),
     options: [
       {
         id: "0",
@@ -451,7 +451,7 @@ const questions1El = [
       {
         id: "0",
         country: "Μάτσου Πίτσου\nΠερού",
-        img: require("../../../assets/WorldMonuments/America/MachuPicchu.png"),
+        img: require("../../../assets/WorldMonuments/America/MachuPicchu.webp"),
       },
       {
         id: "1",
@@ -520,7 +520,7 @@ const questions1El = [
       {
         id: "2",
         country: "Αψίδα του Θριάμβου\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png"),
+        img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.webp"),
       },
       {
         id: "3",
@@ -584,7 +584,7 @@ const questions1El = [
       {
         id: "3",
         country: "Ναός του Ουρανού\nΚίνα",
-        img: require("../../../assets/WorldMonuments/Asia/temple-of-heaven-in-beijing.png"),
+        img: require("../../../assets/WorldMonuments/Asia/temple-of-heaven-in-beijing.webp"),
       },
     ],
     correctAnswerIndex: 0,

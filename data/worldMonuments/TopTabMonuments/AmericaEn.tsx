@@ -1,7 +1,7 @@
 const AmericaMonEn = [
     {
         id: '1',
-        img: require('../../../assets/WorldMonuments/USA/alcatraz.png'),
+        img: require('../../../assets/WorldMonuments/USA/alcatraz.webp'),
         name: 'Alcatraz Island',
         country: 'USA',
         city: 'San Francisco',
@@ -9,7 +9,7 @@ const AmericaMonEn = [
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/USA/brooklyn-bridge.png'),
+        img: require('../../../assets/WorldMonuments/USA/brooklyn-bridge.webp'),
         name: 'Brooklyn Bridge',
         country: 'USA',
         city: 'New York',
@@ -34,7 +34,7 @@ const AmericaMonEn = [
     },
     {
         id: '5',
-        img: require('../../../assets/WorldMonuments/USA/cloud-gate-chicago.png'),
+        img: require('../../../assets/WorldMonuments/USA/cloud-gate-chicago.webp'),
         name: 'Cloud Gate',
         country: 'USA',
         city: 'Chicago',
@@ -58,7 +58,7 @@ const AmericaMonEn = [
     },
     {
         id: '8',
-        img: require('../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.png'),
+        img: require('../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.webp'),
         name: 'Golden Gate Bridge',
         country: 'USA',
         city: 'San Francisco',
@@ -66,7 +66,7 @@ const AmericaMonEn = [
     },
     {
         id: '9',
-        img: require('../../../assets/WorldMonuments/USA/hoover_dam_nevada.png'),
+        img: require('../../../assets/WorldMonuments/USA/hoover_dam_nevada.webp'),
         name: 'Hoover Dam',
         country: 'USA',
         city: 'Nevada',
@@ -83,7 +83,7 @@ const AmericaMonEn = [
     },
     {
         id: '11',
-        img: require('../../../assets/WorldMonuments/America/MachuPicchu.png'),
+        img: require('../../../assets/WorldMonuments/America/MachuPicchu.webp'),
         name: 'Machu Picchu',
         country: 'Peru',
         city: 'Cusco Region',
@@ -91,7 +91,7 @@ const AmericaMonEn = [
     },
     {
         id: '12',
-        img: require('../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png'),
+        img: require('../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.webp'),
         name: 'Metropolitan Cathedral of the \nAssumption of the Most Blessed Virgin Mary into Heaven',
         country: 'Mexico',
         city: 'Mexico City',
@@ -99,7 +99,7 @@ const AmericaMonEn = [
     },
     {
         id: '13',
-        img: require('../../../assets/WorldMonuments/USA/Mount_Rushmore.png'),
+        img: require('../../../assets/WorldMonuments/USA/Mount_Rushmore.webp'),
         name: 'Mount Rushmore National Memorial',
         country: 'USA',
         city: 'South Dakota',
@@ -107,7 +107,7 @@ const AmericaMonEn = [
     },
     {
         id: '14',
-        img: require('../../../assets/WorldMonuments/America/PanamaCanal.png'),
+        img: require('../../../assets/WorldMonuments/America/PanamaCanal.webp'),
         name: 'Panama Canal',
         country: 'Panama',
         city: 'Panama',
@@ -123,7 +123,7 @@ const AmericaMonEn = [
     },
     {
         id: '16',
-        img: require('../../../assets/WorldMonuments/USA/spaceNeedle_Seattle.png'),
+        img: require('../../../assets/WorldMonuments/USA/spaceNeedle_Seattle.webp'),
         name: 'Space Needle',
         country: 'USA',
         city: 'Seattle',
@@ -131,7 +131,7 @@ const AmericaMonEn = [
     },
     {
         id: '17',
-        img: require('../../../assets/WorldMonuments/USA/statue-of-liberty.png'),
+        img: require('../../../assets/WorldMonuments/USA/statue-of-liberty.webp'),
         name: 'Statue of Liberty',
         country: 'USA',
         city: 'New York',
@@ -163,7 +163,7 @@ const AmericaMonEn = [
     },
     {
         id: '20',
-        img: require('../../../assets/WorldMonuments/USA/washingtonMonument.png'),
+        img: require('../../../assets/WorldMonuments/USA/washingtonMonument.webp'),
         name: 'Washington Monument',
         country: 'USA',
         city: 'Washington, D.C.',

@@ -4,7 +4,7 @@ const qstMixed4El = [
         status: "Capitals",
         img: 'L',
         country: "Ιταλία",
-        image: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+        image: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
         options: [
           {
             id: "0",
@@ -38,22 +38,22 @@ const qstMixed4El = [
           {
             id: "0",
             country: "Καρκασόν\nΓαλλία",
-            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
+            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
           },
           {
             id: "1",
             country: "Κολοσσαίο\nΙταλία",
-            img: require("../../../assets/WorldMonuments/Europe/colosseum.png"),
+            img: require("../../../assets/WorldMonuments/Europe/colosseum.webp"),
           },
           {
             id: "2",
             country: "Πύργος του Άιφελ\nΓαλλία",
-            img: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
+            img: require("../../../assets/WorldMonuments/Europe/eiffelTower.webp"),
           },
           {
             id: "3",
             country: "Κεκλιμένος Πύργος της Πίζας\nΙταλία",
-            img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+            img: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
           },
         ],
         correctAnswerIndex: 3,
@@ -474,7 +474,7 @@ const qstMixed4El = [
         status: "Capitals",
         img: 'L',
         country: "Ιταλία",
-        image: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.png"),
+        image: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.webp"),
         options: [
           {
             id: "0",
@@ -508,7 +508,7 @@ const qstMixed4El = [
           {
             id: "0",
             country: "Ισπανικά Σκαλιά\nΙταλία",
-            img: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.png"),
+            img: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.webp"),
           },
           {
             id: "1",
@@ -518,12 +518,12 @@ const qstMixed4El = [
           {
             id: "2",
             country: "Μουσείο Γκούγκενχάιμ\nSΙσπανία",
-            img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.png"),
+            img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.webp"),
           },
           {
             id: "3",
             country: "Φοντάνα ντι Τρέβι\nΙταλία",
-            img: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.png"),
+            img: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.webp"),
           },
         ],
         correctAnswerIndex: 3,
@@ -533,7 +533,7 @@ const qstMixed4El = [
         status: "Capitals",
         img: 'L',
         country: "Ηνωμένο Βασίλειο",
-        image: require("../../../assets/WorldMonuments/Europe/bigBen.png"),
+        image: require("../../../assets/WorldMonuments/Europe/bigBen.webp"),
         options: [
           {
             id: "0",
@@ -567,22 +567,22 @@ const qstMixed4El = [
           {
             id: "0",
             country: "Ανάκτορα του Μπάκιγχαμ\nΗνωμένο Βασίλειο",
-            img: require("../../../assets/WorldMonuments/Europe/buckinghampalace.png"),
+            img: require("../../../assets/WorldMonuments/Europe/buckinghampalace.webp"),
           },
           {
             id: "1",
             country: "Αββαείο του Γουεσμίνστερ\nΗνωμένο Βασίλειο",
-            img: require("../../../assets/WorldMonuments/Europe/westminster-abbey.png"),
+            img: require("../../../assets/WorldMonuments/Europe/westminster-abbey.webp"),
           },
           {
             id: "2",
             country: "Μπιγκ Μπεν\nΗνωμένο Βασίλειο",
-            img: require("../../../assets/WorldMonuments/Europe/bigBen.png"),
+            img: require("../../../assets/WorldMonuments/Europe/bigBen.webp"),
           },
           {
             id: "3",
             country: "Γέφυρα του Πύργου\nΗνωμένο Βασίλειο",
-            img: require("../../../assets/WorldMonuments/Europe/TowerBridge.png"),
+            img: require("../../../assets/WorldMonuments/Europe/TowerBridge.webp"),
           },
         ],
         correctAnswerIndex: 2,

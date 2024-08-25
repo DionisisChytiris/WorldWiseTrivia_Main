@@ -1,7 +1,7 @@
 const AmericaMonEl = [
     {
         id: '1',
-        img: require('../../../assets/WorldMonuments/USA/alcatraz.png'),
+        img: require('../../../assets/WorldMonuments/USA/alcatraz.webp'),
         name: 'Αλκατράζ',
         country: 'ΗΠΑ',
         city: 'Σαν Φρανσίσκο',
@@ -9,7 +9,7 @@ const AmericaMonEl = [
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/USA/brooklyn-bridge.png'),
+        img: require('../../../assets/WorldMonuments/USA/brooklyn-bridge.webp'),
         name: 'Γέφυρα του Μπρούκλιν',
         country: 'ΗΠΑ',
         city: 'Νέα Υόρκη',
@@ -33,7 +33,7 @@ const AmericaMonEl = [
     },
     {
         id: '5',
-        img: require('../../../assets/WorldMonuments/USA/cloud-gate-chicago.png'),
+        img: require('../../../assets/WorldMonuments/USA/cloud-gate-chicago.webp'),
         name: 'Cloud Gate',
         country: 'ΗΠΑ',
         city: 'Σικάγο',
@@ -57,7 +57,7 @@ const AmericaMonEl = [
     },
     {
         id: '8',
-        img: require('../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.png'),
+        img: require('../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.webp'),
         name: 'Γέφυρα Γκόλντεν Γκέιτ ',
         country: 'ΗΠΑ',
         city: 'Σαν Φρανσίσκο',
@@ -65,7 +65,7 @@ const AmericaMonEl = [
     },
     {
         id: '9',
-        img: require('../../../assets/WorldMonuments/USA/hoover_dam_nevada.png'),
+        img: require('../../../assets/WorldMonuments/USA/hoover_dam_nevada.webp'),
         name: 'Φράγμα Χούβερ',
         country: 'ΗΠΑ',
         city: 'Νεβάδα',
@@ -81,7 +81,7 @@ const AmericaMonEl = [
     },
     {
         id: '11',
-        img: require('../../../assets/WorldMonuments/America/MachuPicchu.png'),
+        img: require('../../../assets/WorldMonuments/America/MachuPicchu.webp'),
         name: 'Μάτσου Πίτσου',
         country: 'Περού',
         city: 'Κούσκο',
@@ -89,7 +89,7 @@ const AmericaMonEl = [
     },
     {
         id: '12',
-        img: require('../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png'),
+        img: require('../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.webp'),
         name: 'Καθεδρικός Ναός της Πόλης του Μεξικού',
         country: 'Μεξικό',
         city: 'Πόλη του Μεξικού',
@@ -97,7 +97,7 @@ const AmericaMonEl = [
     },
     {
         id: '13',
-        img: require('../../../assets/WorldMonuments/USA/Mount_Rushmore.png'),
+        img: require('../../../assets/WorldMonuments/USA/Mount_Rushmore.webp'),
         name: 'Εθνικό Μνημείο του Όρους Ράσμορ',
         country: 'ΗΠΑ',
         city: 'Νότια Ντακότα',
@@ -105,7 +105,7 @@ const AmericaMonEl = [
     },
     {
         id: '14',
-        img: require('../../../assets/WorldMonuments/America/PanamaCanal.png'),
+        img: require('../../../assets/WorldMonuments/America/PanamaCanal.webp'),
         name: 'Διώρυγα του Παναμά',
         country: 'Παναμάς',
         city: '',
@@ -121,7 +121,7 @@ const AmericaMonEl = [
     },
     {
         id: '16',
-        img: require('../../../assets/WorldMonuments/USA/spaceNeedle_Seattle.png'),
+        img: require('../../../assets/WorldMonuments/USA/spaceNeedle_Seattle.webp'),
         name: 'Space Needle',
         country: 'ΗΠΑ',
         city: 'Σιάτλ',
@@ -129,7 +129,7 @@ const AmericaMonEl = [
     },
     {
         id: '17',
-        img: require('../../../assets/WorldMonuments/USA/statue-of-liberty.png'),
+        img: require('../../../assets/WorldMonuments/USA/statue-of-liberty.webp'),
         name: 'Άγαλμα της Ελευθερίας',
         country: 'ΗΠΑ',
         city: 'Νέα Υόρκη',
@@ -153,7 +153,7 @@ const AmericaMonEl = [
     },
     {
         id: '20',
-        img: require('../../../assets/WorldMonuments/USA/washingtonMonument.png'),
+        img: require('../../../assets/WorldMonuments/USA/washingtonMonument.webp'),
         name: 'Μνημείο Ουάσινγκτον',
         country: 'ΗΠΑ',
         city: 'Ουάσινγκτον',

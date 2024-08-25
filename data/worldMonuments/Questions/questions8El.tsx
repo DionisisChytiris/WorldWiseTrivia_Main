@@ -63,7 +63,7 @@ const questions8El = [
       status: "Capitals",
       img: 'L',
       country: "Παναμάς",
-      image: require("../../../assets/WorldMonuments/America/PanamaCanal.png"),
+      image: require("../../../assets/WorldMonuments/America/PanamaCanal.webp"),
       options: [
         {
           id: "0",
@@ -97,12 +97,12 @@ const questions8El = [
         {
           id: "0",
           name: "Αλκατράζ\nΗΠΑ",
-          img: require("../../../assets/WorldMonuments/USA/alcatraz.png"),
+          img: require("../../../assets/WorldMonuments/USA/alcatraz.webp"),
         },
         {
           id: "1",
           name: "Διώρυγα Παναμά\nΠαναμάς",
-          img: require("../../../assets/WorldMonuments/America/PanamaCanal.png"),
+          img: require("../../../assets/WorldMonuments/America/PanamaCanal.webp"),
         },
         {
           id: "2",
@@ -156,12 +156,12 @@ const questions8El = [
         {
           id: "0",
           name: "Κολοσσαίο\nΙταλία",
-          img: require("../../../assets/WorldMonuments/Europe/colosseum.png"),
+          img: require("../../../assets/WorldMonuments/Europe/colosseum.webp"),
         },
         {
           id: "1",
           name: "Μον-Σαιν-Μισέλ\nΓαλλία",
-          img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
+          img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.webp"),
         },
         {
           id: "2",
@@ -171,7 +171,7 @@ const questions8El = [
         {
           id: "3",
           name: "Κεκλιμένος Πύργος της Πίζας\nΙταλία",
-          img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+          img: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
         },
       ],
       correctAnswerIndex: 2,
@@ -181,7 +181,7 @@ const questions8El = [
       status: "Capitals",
       img: 'L',
       country: "Βέλγιο",
-      image: require("../../../assets/WorldMonuments/Europe/Atomium.png"),
+      image: require("../../../assets/WorldMonuments/Europe/Atomium.webp"),
       options: [
         {
           id: "0",
@@ -215,7 +215,7 @@ const questions8El = [
         {
           id: "0",
           name: "Ατόμιουμ\nBelgium",
-          img: require("../../../assets/WorldMonuments/Europe/Atomium.png"),
+          img: require("../../../assets/WorldMonuments/Europe/Atomium.webp"),
         },
         {
           id: "1",
@@ -225,12 +225,12 @@ const questions8El = [
         {
           id: "2",
           name: "Cloud Gate\nΗΠΑ",
-          img: require("../../../assets/WorldMonuments/USA/cloud-gate-chicago.png"),
+          img: require("../../../assets/WorldMonuments/USA/cloud-gate-chicago.webp"),
         },
         {
           id: "3",
           name: "Άγαλμα Μερλιόν\nΣιγκαπούρη",
-          img: require("../../../assets/WorldMonuments/Asia/merlion_singapore.png"),
+          img: require("../../../assets/WorldMonuments/Asia/merlion_singapore.webp"),
         },
       ],
       correctAnswerIndex: 0
@@ -240,7 +240,7 @@ const questions8El = [
       status: "Capitals",
       img: 'L',
       country: "Γαλλία",
-      image: require("../../../assets/WorldMonuments/Europe/sainte-Chapelle.png"),
+      image: require("../../../assets/WorldMonuments/Europe/sainte-Chapelle.webp"),
       options: [
         {
           id: "0",
@@ -274,7 +274,7 @@ const questions8El = [
         {
           id: "0",
           name: "Καπέλα Σιστίνα\nΒατικανό",
-          img: require("../../../assets/WorldMonuments/Europe/sistineChapel.png"),
+          img: require("../../../assets/WorldMonuments/Europe/sistineChapel.webp"),
         },
         {
           id: "1",
@@ -284,12 +284,12 @@ const questions8El = [
         {
           id: "2",
           name: "Σαιντ-Σαπέλ\nΓαλλία",
-          img: require("../../../assets/WorldMonuments/Europe/sainte-Chapelle.png"),
+          img: require("../../../assets/WorldMonuments/Europe/sainte-Chapelle.webp"),
         },
         {
           id: "3",
           name: "Παναγία των Παρισίων\nΓαλλία",
-          img: require("../../../assets/WorldMonuments/Europe/notreDame.png"),
+          img: require("../../../assets/WorldMonuments/Europe/notreDame.webp"),
         },
       ],
       correctAnswerIndex: 2,
@@ -299,7 +299,7 @@ const questions8El = [
       status: "Capitals",
       img: 'L',
       country: "Νησιά Πάσχα",
-      image: require("../../../assets/WorldMonuments/Asia/easterIsland.png"),
+      image: require("../../../assets/WorldMonuments/Asia/easterIsland.webp"),
       options: [
         {
           id: "0",
@@ -333,22 +333,22 @@ const questions8El = [
         {
           id: "0",
           name: "Στόουνχεντζ\nΗνωμένο Βασίλειο",
-          img: require("../../../assets/WorldMonuments/Europe/stonehenge.png"),
+          img: require("../../../assets/WorldMonuments/Europe/stonehenge.webp"),
         },
         {
           id: "1",
           name: "Αγάλματα Μοάι\nΝησιά Πάσχα",
-          img: require("../../../assets/WorldMonuments/Asia/easterIsland.png"),
+          img: require("../../../assets/WorldMonuments/Asia/easterIsland.webp"),
         },
         {
           id: "2",
           name: "Πομπηία\nΙταλία",
-          img: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.png"),
+          img: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.webp"),
         },
         {
           id: "3",
           name: "Μετέωρα\nΕλλάδα",
-          img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
+          img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
         },
       ],
       correctAnswerIndex: 1,
@@ -358,7 +358,7 @@ const questions8El = [
       status: "Capitals",
       img: 'L',
       country: "Ρωσία",
-      image: require("../../../assets/WorldMonuments/Europe/stPetersburg.png"),
+      image: require("../../../assets/WorldMonuments/Europe/stPetersburg.webp"),
       options: [
         {
           id: "0",
@@ -397,17 +397,17 @@ const questions8El = [
         {
           id: "1",
           name: "Πύλη του Βραδεμβούργου\nΓερμανία",
-          img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
+          img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.webp"),
         },
         {
           id: "2",
           name: "Καθεδρικός ναός πόλης του Μεξικού\nMεξικό",
-          img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png"),
+          img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.webp"),
         },
         {
           id: "3",
           name: "Ναός του Χυμένου Αίματος\nΡωσία",
-          img: require("../../../assets/WorldMonuments/Europe/stPetersburg.png"),
+          img: require("../../../assets/WorldMonuments/Europe/stPetersburg.webp"),
         },
       ],
       correctAnswerIndex: 3,
@@ -461,7 +461,7 @@ const questions8El = [
         {
           id: "2",
           name: "Space Needle\nΗΠΑ",
-          img: require("../../../assets/WorldMonuments/USA/spaceNeedle_Seattle.png"),
+          img: require("../../../assets/WorldMonuments/USA/spaceNeedle_Seattle.webp"),
         },
         {
           id: "3",
@@ -520,12 +520,12 @@ const questions8El = [
         {
           id: "2",
           name: "Χρυσή Ακτή\nΑυστραλία",
-          img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.png"),
+          img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.webp"),
         },
         {
           id: "3",
           name: "Διώρυγα Παναμά\nΠαναμάς",
-          img: require("../../../assets/WorldMonuments/America/PanamaCanal.png"),
+          img: require("../../../assets/WorldMonuments/America/PanamaCanal.webp"),
         },
       ],
       correctAnswerIndex: 2,
@@ -535,7 +535,7 @@ const questions8El = [
       status: "Capitals",
       img: 'L',
       country: "Αίγυπτος",
-      image: require("../../../assets/WorldMonuments/Africa/mountsinai.jpg"),
+      image: require("../../../assets/WorldMonuments/Africa/mountsinai.webp"),
       options: [
         {
           id: "0",
@@ -569,17 +569,17 @@ const questions8El = [
         {
           id: "0",
           name: "Μονή Αγίας Αικατερίνης\nΑίγυπτος",
-          img: require("../../../assets/WorldMonuments/Africa/mountsinai.jpg"),
+          img: require("../../../assets/WorldMonuments/Africa/mountsinai.webp"),
         },
         {
           id: "1",
           name: "Αϊτ Μπεντχαντού\nMαρόκο",
-          img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.png"),
+          img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp"),
         },
         {
           id: "2",
           name: "Καρκασόν\nΓαλλία",
-          img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
+          img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
         },
         {
           id: "3",

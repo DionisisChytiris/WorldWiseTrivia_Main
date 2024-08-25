@@ -170,7 +170,7 @@ const questions10El = [
       {
         id: "3",
         country: "Μετέωρα\nΕλλάδα",
-        img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
+        img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
       },
     ],
     correctAnswerIndex: 2,

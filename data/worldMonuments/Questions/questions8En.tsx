@@ -63,7 +63,7 @@
         status: "Capitals",
         img: 'L',
         country: "Panama",
-        image: require("../../../assets/WorldMonuments/America/PanamaCanal.png"),
+        image: require("../../../assets/WorldMonuments/America/PanamaCanal.webp"),
         options: [
           {
             id: "0",
@@ -97,12 +97,12 @@
           {
             id: "0",
             name: "Alcatraz Island\nUSA",
-            img: require("../../../assets/WorldMonuments/USA/alcatraz.png"),
+            img: require("../../../assets/WorldMonuments/USA/alcatraz.webp"),
           },
           {
             id: "1",
             name: "Panama Canal\nPanama",
-            img: require("../../../assets/WorldMonuments/America/PanamaCanal.png"),
+            img: require("../../../assets/WorldMonuments/America/PanamaCanal.webp"),
           },
           {
             id: "2",
@@ -156,12 +156,12 @@
           {
             id: "0",
             name: "Colosseum\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/colosseum.png"),
+            img: require("../../../assets/WorldMonuments/Europe/colosseum.webp"),
           },
           {
             id: "1",
             name: "Mont Saint Michel\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.webp"),
           },
           {
             id: "2",
@@ -171,7 +171,7 @@
           {
             id: "3",
             name: "Leaning Tower of Pisa\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+            img: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -181,7 +181,7 @@
         status: "Capitals",
         img: 'L',
         country: "Belgium",
-        image: require("../../../assets/WorldMonuments/Europe/Atomium.png"),
+        image: require("../../../assets/WorldMonuments/Europe/Atomium.webp"),
         options: [
           {
             id: "0",
@@ -215,7 +215,7 @@
           {
             id: "0",
             name: "Atomium\nBelgium",
-            img: require("../../../assets/WorldMonuments/Europe/Atomium.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Atomium.webp"),
           },
           {
             id: "1",
@@ -225,12 +225,12 @@
           {
             id: "2",
             name: "Cloud Gate\nUSA",
-            img: require("../../../assets/WorldMonuments/USA/cloud-gate-chicago.png"),
+            img: require("../../../assets/WorldMonuments/USA/cloud-gate-chicago.webp"),
           },
           {
             id: "3",
             name: "Merlion Singapore\nSingapore",
-            img: require("../../../assets/WorldMonuments/Asia/merlion_singapore.png"),
+            img: require("../../../assets/WorldMonuments/Asia/merlion_singapore.webp"),
           },
         ],
         correctAnswerIndex: 0
@@ -240,7 +240,7 @@
         status: "Capitals",
         img: 'L',
         country: "France",
-        image: require("../../../assets/WorldMonuments/Europe/sainte-Chapelle.png"),
+        image: require("../../../assets/WorldMonuments/Europe/sainte-Chapelle.webp"),
         options: [
           {
             id: "0",
@@ -274,7 +274,7 @@
           {
             id: "0",
             name: "Sistine Chapel\nVatican City",
-            img: require("../../../assets/WorldMonuments/Europe/sistineChapel.png"),
+            img: require("../../../assets/WorldMonuments/Europe/sistineChapel.webp"),
           },
           {
             id: "1",
@@ -284,12 +284,12 @@
           {
             id: "2",
             name: "Sainte Chapelle\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/sainte-Chapelle.png"),
+            img: require("../../../assets/WorldMonuments/Europe/sainte-Chapelle.webp"),
           },
           {
             id: "3",
             name: "Notre Dame\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/notreDame.png"),
+            img: require("../../../assets/WorldMonuments/Europe/notreDame.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -299,7 +299,7 @@
         status: "Capitals",
         img: 'L',
         country: "Easter Island",
-        image: require("../../../assets/WorldMonuments/Asia/easterIsland.png"),
+        image: require("../../../assets/WorldMonuments/Asia/easterIsland.webp"),
         options: [
           {
             id: "0",
@@ -333,22 +333,22 @@
           {
             id: "0",
             name: "Stonehedge\nUK",
-            img: require("../../../assets/WorldMonuments/Europe/stonehenge.png"),
+            img: require("../../../assets/WorldMonuments/Europe/stonehenge.webp"),
           },
           {
             id: "1",
             name: "Moai Statues\nEaster Island",
-            img: require("../../../assets/WorldMonuments/Asia/easterIsland.png"),
+            img: require("../../../assets/WorldMonuments/Asia/easterIsland.webp"),
           },
           {
             id: "2",
             name: "Ruins of Pompeii\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.webp"),
           },
           {
             id: "3",
             name: "Meteora\nGreece",
-            img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
+            img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
           },
         ],
         correctAnswerIndex: 1,
@@ -358,7 +358,7 @@
         status: "Capitals",
         img: 'L',
         country: "Russia",
-        image: require("../../../assets/WorldMonuments/Europe/stPetersburg.png"),
+        image: require("../../../assets/WorldMonuments/Europe/stPetersburg.webp"),
         options: [
           {
             id: "0",
@@ -397,17 +397,17 @@
           {
             id: "1",
             name: "Brandenburg Gate\nGermany",
-            img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.webp"),
           },
           {
             id: "2",
             name: "Mexico City Cathedral\nMexico",
-            img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png"),
+            img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.webp"),
           },
           {
             id: "3",
             name: "Saviour on the \nSpilled Blood\nRussia",
-            img: require("../../../assets/WorldMonuments/Europe/stPetersburg.png"),
+            img: require("../../../assets/WorldMonuments/Europe/stPetersburg.webp"),
           },
         ],
         correctAnswerIndex: 3,
@@ -461,7 +461,7 @@
           {
             id: "2",
             name: "Space Needle\nUSA",
-            img: require("../../../assets/WorldMonuments/USA/spaceNeedle_Seattle.png"),
+            img: require("../../../assets/WorldMonuments/USA/spaceNeedle_Seattle.webp"),
           },
           {
             id: "3",
@@ -520,12 +520,12 @@
           {
             id: "2",
             name: "Gold Coast\nAustralia",
-            img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.png"),
+            img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.webp"),
           },
           {
             id: "3",
             name: "Panama Canal\nPanama",
-            img: require("../../../assets/WorldMonuments/America/PanamaCanal.png"),
+            img: require("../../../assets/WorldMonuments/America/PanamaCanal.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -535,7 +535,7 @@
         status: "Capitals",
         img: 'L',
         country: "Egypt",
-        image: require("../../../assets/WorldMonuments/Africa/mountsinai.jpg"),
+        image: require("../../../assets/WorldMonuments/Africa/mountsinai.webp"),
         options: [
           {
             id: "0",
@@ -569,17 +569,17 @@
           {
             id: "0",
             name: "Saint Catherine's Monastery\nEgypt",
-            img: require("../../../assets/WorldMonuments/Africa/mountsinai.jpg"),
+            img: require("../../../assets/WorldMonuments/Africa/mountsinai.webp"),
           },
           {
             id: "1",
             name: "Aït Benhaddou\nMorocco",
-            img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.png"),
+            img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp"),
           },
           {
             id: "2",
             name: "Cité de Carcassonne\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
+            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
           },
           {
             id: "3",

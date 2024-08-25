@@ -1,7 +1,7 @@
 const EuropeMonEs = [
     {
         id: '1',
-        img: require('../../../assets/WorldMonuments/Europe/Acropolis.png'),
+        img: require('../../../assets/WorldMonuments/Europe/Acropolis.webp'),
         name: 'Acrópolis',
         country: 'Grecia',
         city: 'Atenas',
@@ -17,7 +17,7 @@ const EuropeMonEs = [
     },
     {
         id: '3',
-        img: require('../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png'),
+        img: require('../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.webp'),
         name: 'Arco del Triunfo',
         country: 'Francia',
         city: 'París',
@@ -25,7 +25,7 @@ const EuropeMonEs = [
     },
     {
         id: '4',
-        img: require('../../../assets/WorldMonuments/Europe/Atomium.png'),
+        img: require('../../../assets/WorldMonuments/Europe/Atomium.webp'),
         name: 'Atomium',
         country: 'Bélgica',
         city: 'Bruselas',
@@ -33,7 +33,7 @@ const EuropeMonEs = [
     },
     {
         id: '5',
-        img: require('../../../assets/WorldMonuments/Europe/bigBen.png'),
+        img: require('../../../assets/WorldMonuments/Europe/bigBen.webp'),
         name: 'Big Ben',
         country: 'Reino Unido',
         city: 'Londres',
@@ -41,7 +41,7 @@ const EuropeMonEs = [
     },
     {
         id: '6',
-        img: require('../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png'),
+        img: require('../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.webp'),
         name: 'Inglesia de madera de Borgund',
         country: 'Noruega',
         city: 'Borgund',
@@ -49,7 +49,7 @@ const EuropeMonEs = [
     },
     {
         id: '7',
-        img: require('../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png'),
+        img: require('../../../assets/WorldMonuments/Europe/Bran-CastleDracula.webp'),
         name: 'Castillo de Bran',
         country: 'Rumania',
         city: 'Bran, Transilvania',
@@ -57,7 +57,7 @@ const EuropeMonEs = [
     },
     {
         id: '8',
-        img: require('../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png'),
+        img: require('../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.webp'),
         name: 'Puerta de Brandeburgo',
         country: 'Alemania',
         city: 'Berlín',
@@ -65,7 +65,7 @@ const EuropeMonEs = [
     },
     {
         id: '9',
-        img: require('../../../assets/WorldMonuments/Europe/buckinghampalace.png'),
+        img: require('../../../assets/WorldMonuments/Europe/buckinghampalace.webp'),
         name: 'Palacio de Buckingham',
         country: 'Reino Unido',
         city: 'Londres',
@@ -73,7 +73,7 @@ const EuropeMonEs = [
     },
     {
         id: '10',
-        img: require('../../../assets/WorldMonuments/Europe/stPetersburg.png'),
+        img: require('../../../assets/WorldMonuments/Europe/stPetersburg.webp'),
         name: 'Iglesia del Salvador \nsobre la Sangre Derramada',
         country: 'Rusia',
         city: 'San Petersburgo',
@@ -81,14 +81,14 @@ const EuropeMonEs = [
     },
     {
         id: '11',
-        img: require('../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png'),
+        img: require('../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp'),
         name: 'Cité de Carcasona',
         country: 'Francia',
         city: 'Carcasona'
     },
     {
         id: '12',
-        img: require('../../../assets/WorldMonuments/Europe/colosseum.png'),
+        img: require('../../../assets/WorldMonuments/Europe/colosseum.webp'),
         name: 'Coliseo',
         country: 'Italia',
         city: 'Roma',
@@ -96,7 +96,7 @@ const EuropeMonEs = [
     },
     {
         id: '13',
-        img: require('../../../assets/WorldMonuments/Europe/duomo-florence.png'),
+        img: require('../../../assets/WorldMonuments/Europe/duomo-florence.webp'),
         name: 'Catedral de Santa María \ndel Fiore en Florencia',
         country: 'Italia',
         city: 'Florencia',
@@ -112,7 +112,7 @@ const EuropeMonEs = [
     },
     {
         id: '15',
-        img: require('../../../assets/WorldMonuments/Europe/eiffelTower.png'),
+        img: require('../../../assets/WorldMonuments/Europe/eiffelTower.webp'),
         name: 'Torre Eiffel',
         country: 'Francia',
         city: 'París',
@@ -144,7 +144,7 @@ const EuropeMonEs = [
     },
     {
         id: '19',
-        img: require('../../../assets/WorldMonuments/Europe/meteora.png'),
+        img: require('../../../assets/WorldMonuments/Europe/meteora.webp'),
         name: 'Monasterios de Meteora',
         country: 'Grecia',
         city: 'Tríkala',
@@ -152,7 +152,7 @@ const EuropeMonEs = [
     },
     {
         id: '20',
-        img: require('../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png'),
+        img: require('../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.webp'),
         name: 'Mont-Saint-Michel',
         country: 'Francia',
         city: 'Normandía',
@@ -160,7 +160,7 @@ const EuropeMonEs = [
     },
     {
         id: '21',
-        img: require('../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.png'),
+        img: require('../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.webp'),
         name: 'Palacio de Neuschwanstein',
         country: 'Alemania',
         city: '	Hohenschwangau\n  Baviera',
@@ -168,7 +168,7 @@ const EuropeMonEs = [
     },
     {
         id: '22',
-        img: require('../../../assets/WorldMonuments/Europe/notreDame.png'),
+        img: require('../../../assets/WorldMonuments/Europe/notreDame.webp'),
         name: 'Catedral de Notre-Dame',
         country: 'Francia',
         city: 'París',
@@ -200,7 +200,7 @@ const EuropeMonEs = [
     },
     {
         id: '26',
-        img: require('../../../assets/WorldMonuments/Europe/RoyalPalaceMadrid.png'),
+        img: require('../../../assets/WorldMonuments/Europe/RoyalPalaceMadrid.webp'),
         name: 'Palacio Real de Madrid',
         country: 'España',
         city: 'Madrid',
@@ -208,7 +208,7 @@ const EuropeMonEs = [
     },
     {
         id: '27',
-        img: require('../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.png'),
+        img: require('../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.webp'),
         name: 'Pompeya ',
         country: 'Italia',
         city: 'Nápoles',
@@ -216,7 +216,7 @@ const EuropeMonEs = [
     },
     {
         id: '28',
-        img: require('../../../assets/WorldMonuments/Europe/sagradaFamilia.png'),
+        img: require('../../../assets/WorldMonuments/Europe/sagradaFamilia.webp'),
         name: 'Sagrada Família',
         country: 'España',
         city: 'Barcelona',
@@ -224,7 +224,7 @@ const EuropeMonEs = [
     },
     {
         id: '29',
-        img: require('../../../assets/WorldMonuments/Europe/saint_basils_cathedral.png'),
+        img: require('../../../assets/WorldMonuments/Europe/saint_basils_cathedral.webp'),
         name: "Catedral de San Basilio",
         country: 'Rusia',
         city: 'Moscú',
@@ -232,7 +232,7 @@ const EuropeMonEs = [
     },
     {
         id: '30',
-        img: require('../../../assets/WorldMonuments/Europe/sainte-Chapelle.png'),
+        img: require('../../../assets/WorldMonuments/Europe/sainte-Chapelle.webp'),
         name: 'Santa Capilla',
         country: 'Francia',
         city: 'París',
@@ -240,7 +240,7 @@ const EuropeMonEs = [
     },
     {
         id: '31',
-        img: require('../../../assets/WorldMonuments/Europe/sistineChapel.png'),
+        img: require('../../../assets/WorldMonuments/Europe/sistineChapel.webp'),
         name: 'Capilla Sixtina',
         country: 'Ciudad del Vaticano',
         city: '',
@@ -248,7 +248,7 @@ const EuropeMonEs = [
     },
     {
         id: '32',
-        img: require('../../../assets/WorldMonuments/Europe/spanish-steps-rome.png'),
+        img: require('../../../assets/WorldMonuments/Europe/spanish-steps-rome.webp'),
         name: 'Escalinata de la plaza de España',
         country: 'Italia',
         city: 'Roma',
@@ -256,7 +256,7 @@ const EuropeMonEs = [
     },
     {
         id: '33',
-        img: require('../../../assets/WorldMonuments/Europe/St.-Peters-Basilica-Vatican.png'),
+        img: require('../../../assets/WorldMonuments/Europe/St.-Peters-Basilica-Vatican.webp'),
         name: "Basílica de San Pedro",
         country: 'Ciudad del Vaticano',
         city: '',
@@ -264,14 +264,14 @@ const EuropeMonEs = [
     },
     {
         id: '34',
-        img: require('../../../assets/WorldMonuments/Europe/stMark_square_Venice.png'),
+        img: require('../../../assets/WorldMonuments/Europe/stMark_square_Venice.webp'),
         name: 'Plsza de San Marcos',
         country: 'Italia',
         city: 'Venecia'
     },
     {
         id: '35',
-        img: require('../../../assets/WorldMonuments/Europe/stonehenge.png'),
+        img: require('../../../assets/WorldMonuments/Europe/stonehenge.webp'),
         name: 'Stonehenge',
         country: 'Reino Unido',
         city: 'Wiltshire\nSalisbury',
@@ -279,7 +279,7 @@ const EuropeMonEs = [
     },
     {
         id: '36',
-        img: require('../../../assets/WorldMonuments/Europe/TheAlambraGranada.png'),
+        img: require('../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp'),
         name: 'Alhambra',
         country: 'España',
         city: 'Granada',
@@ -287,7 +287,7 @@ const EuropeMonEs = [
     },
     {
         id: '37',
-        img: require('../../../assets/WorldMonuments/Europe/TowerBridge.png'),
+        img: require('../../../assets/WorldMonuments/Europe/TowerBridge.webp'),
         name: 'Puente de la Torre',
         country: 'Reino Unido',
         city: 'Londres',
@@ -295,7 +295,7 @@ const EuropeMonEs = [
     },
     {
         id: '38',
-        img: require('../../../assets/WorldMonuments/Europe/TowerPisa.png'),
+        img: require('../../../assets/WorldMonuments/Europe/TowerPisa.webp'),
         name: 'Torre inclinada de Pisa',
         country: 'Italia',
         city: 'Pisa',
@@ -303,7 +303,7 @@ const EuropeMonEs = [
     },
     {
         id: '39',
-        img: require('../../../assets/WorldMonuments/Europe/trevi-fontein-rome.png'),
+        img: require('../../../assets/WorldMonuments/Europe/trevi-fontein-rome.webp'),
         name: 'Fontana de Trevi ',
         country: 'Italia',
         city: 'Roma',
@@ -311,7 +311,7 @@ const EuropeMonEs = [
     },
     {
         id: '40',
-        img: require('../../../assets/WorldMonuments/Europe/westminster-abbey.png'),
+        img: require('../../../assets/WorldMonuments/Europe/westminster-abbey.webp'),
         name: 'Abadía de Westminster',
         country: 'Reino Unido',
         city: 'Londres',

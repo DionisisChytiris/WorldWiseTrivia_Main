@@ -62,7 +62,7 @@ const qstMixed3En = [
         status: "Capitals",
         img: 'L',
         country: "China",
-        image: require("../../../assets/WorldMonuments/Asia/terracottArmy.png"),
+        image: require("../../../assets/WorldMonuments/Asia/terracottArmy.webp"),
         options: [
           {
             id: "0",
@@ -96,12 +96,12 @@ const qstMixed3En = [
           {
             id: "0",
             country: "Jetavanaramaya\nSri Lanka",
-            img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.png"),
+            img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.webp"),
           },
           {
             id: "1",
             country: "Kailasa Temple\nIndia",
-            img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
+            img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.webp"),
           },
           {
             id: "2",
@@ -111,7 +111,7 @@ const qstMixed3En = [
           {
             id: "3",
             country: "Terracotta Army\nChina",
-            img: require("../../../assets/WorldMonuments/Asia/terracottArmy.png"),
+            img: require("../../../assets/WorldMonuments/Asia/terracottArmy.webp"),
           },
         ],
         correctAnswerIndex: 3,
@@ -473,7 +473,7 @@ const qstMixed3En = [
         status: "Capitals",
         img: 'L',
         country: "Italy",
-        image: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.png"),
+        image: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.webp"),
         options: [
           {
             id: "0",
@@ -507,12 +507,12 @@ const qstMixed3En = [
           {
             id: "0",
             country: "Spanish Steps\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.png"),
+            img: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.webp"),
           },
           {
             id: "1",
             country: "Trevi Fountain\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.png"),
+            img: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.webp"),
           },
           {
             id: "2",
@@ -522,7 +522,7 @@ const qstMixed3En = [
           {
             id: "3",
             country: "Leaning Tower of Pisa\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+            img: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
           },
         ],
         correctAnswerIndex: 0,
@@ -532,7 +532,7 @@ const qstMixed3En = [
         status: "Capitals",
         img: 'L',
         country: "Italy",
-        image: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.png"),
+        image: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.webp"),
         options: [
           {
             id: "0",
@@ -576,7 +576,7 @@ const qstMixed3En = [
           {
             id: "2",
             country: "Piazza San Marco\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.png"),
+            img: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.webp"),
           },
           {
             id: "3",

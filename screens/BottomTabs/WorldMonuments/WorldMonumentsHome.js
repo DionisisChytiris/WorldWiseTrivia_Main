@@ -98,17 +98,17 @@ const WorldMonumentsHome = () => {
        <View style={styles.quizBtnBox}>
           <View style={{width: '50%', gap: windowHeight> 900 ? 60:20}}>
             <QuizTemplate quiz="Quiz1" title="1" image={require('../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.jpg')}/>
-            <QuizTemplate quiz="Quiz3" title="3" image={require('../../../assets/WorldMonuments/Asia/easterIsland.png')}/>
-            <QuizTemplate quiz="Quiz5" title="5" image={require('../../../assets/WorldMonuments/America/MachuPicchu.png')}/>
-            <QuizTemplate quiz="Quiz7" title="7" image={require('../../../assets/WorldMonuments/Europe/duomo-florence.png')}/>
-            <QuizTemplate quiz="Quiz9" title="9" image={require('../../../assets/WorldMonuments/Asia/Bangan-Temples.jpg')}/>
+            <QuizTemplate quiz="Quiz3" title="3" image={require('../../../assets/WorldMonuments/Asia/easterIsland.webp')}/>
+            <QuizTemplate quiz="Quiz5" title="5" image={require('../../../assets/WorldMonuments/America/MachuPicchu.webp')}/>
+            <QuizTemplate quiz="Quiz7" title="7" image={require('../../../assets/WorldMonuments/Europe/duomo-florence.webp')}/>
+            <QuizTemplate quiz="Quiz9" title="9" image={require('../../../assets/WorldMonuments/Asia/Bangan-Temples.webp')}/>
           </View>
           <View style={{width: '50%', marginTop: 70,marginLeft: 20, gap: windowHeight> 900 ? 60:20}}>
             <QuizTemplate quiz="Quiz2" title="2" image={require('../../../assets/WorldMonuments/America/Jesus-Christ-The-Redeemer.png')}/>
             <QuizTemplate quiz="Quiz4" title="4" image={require('../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.png')}/>
             <QuizTemplate quiz="Quiz6" title="6" image={require('../../../assets/WorldMonuments/Europe/knossos.jpg')}/>
-            <QuizTemplate quiz="Quiz8" title="8" image={require('../../../assets/WorldMonuments/USA/statue-of-liberty.png')}/>
-            <QuizTemplate quiz="Quiz10" title="10" image={require('../../../assets/WorldMonuments/Asia/terracottArmy.png')}/>           
+            <QuizTemplate quiz="Quiz8" title="8" image={require('../../../assets/WorldMonuments/USA/statue-of-liberty.webp')}/>
+            <QuizTemplate quiz="Quiz10" title="10" image={require('../../../assets/WorldMonuments/Asia/terracottArmy.webp')}/>           
           </View>
           
         </View>

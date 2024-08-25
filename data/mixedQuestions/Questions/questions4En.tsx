@@ -4,7 +4,7 @@ const qstMixed4En = [
     status: "Capitals",
     img: 'L',
     country: "Italy",
-    image: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+    image: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
     options: [
       {
         id: "0",
@@ -38,22 +38,22 @@ const qstMixed4En = [
       {
         id: "0",
         country: "Cité de Carcassonne\nFrance",
-        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
+        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
       },
       {
         id: "1",
         country: "Colosseum\nItaly",
-        img: require("../../../assets/WorldMonuments/Europe/colosseum.png"),
+        img: require("../../../assets/WorldMonuments/Europe/colosseum.webp"),
       },
       {
         id: "2",
         country: "Eiffel Tower\nFrance",
-        img: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
+        img: require("../../../assets/WorldMonuments/Europe/eiffelTower.webp"),
       },
       {
         id: "3",
         country: "Leaning Tower of Pisa\nItaly",
-        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
       },
     ],
     correctAnswerIndex: 3,
@@ -475,7 +475,7 @@ const qstMixed4En = [
         status: "Capitals",
         img: 'L',
         country: "Italy",
-        image: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.png"),
+        image: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.webp"),
         options: [
           {
             id: "0",
@@ -509,7 +509,7 @@ const qstMixed4En = [
           {
             id: "0",
             country: "Spanish Steps\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.png"),
+            img: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.webp"),
           },
           {
             id: "1",
@@ -519,12 +519,12 @@ const qstMixed4En = [
           {
             id: "2",
             country: "Guggenheim Museum\nSpain",
-            img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.png"),
+            img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.webp"),
           },
           {
             id: "3",
             country: "Trevi Fountain\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.png"),
+            img: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.webp"),
           },
         ],
         correctAnswerIndex: 3,
@@ -534,7 +534,7 @@ const qstMixed4En = [
         status: "Capitals",
         img: 'L',
         country: "UK",
-        image: require("../../../assets/WorldMonuments/Europe/bigBen.png"),
+        image: require("../../../assets/WorldMonuments/Europe/bigBen.webp"),
         options: [
           {
             id: "0",
@@ -568,22 +568,22 @@ const qstMixed4En = [
           {
             id: "0",
             country: "Buckingham Palace\nUK",
-            img: require("../../../assets/WorldMonuments/Europe/buckinghampalace.png"),
+            img: require("../../../assets/WorldMonuments/Europe/buckinghampalace.webp"),
           },
           {
             id: "1",
             country: "Westminster Abbey\nUK",
-            img: require("../../../assets/WorldMonuments/Europe/westminster-abbey.png"),
+            img: require("../../../assets/WorldMonuments/Europe/westminster-abbey.webp"),
           },
           {
             id: "2",
             country: "Big Ben\nUK",
-            img: require("../../../assets/WorldMonuments/Europe/bigBen.png"),
+            img: require("../../../assets/WorldMonuments/Europe/bigBen.webp"),
           },
           {
             id: "3",
             country: "Tower Bridge\nUK",
-            img: require("../../../assets/WorldMonuments/Europe/TowerBridge.png"),
+            img: require("../../../assets/WorldMonuments/Europe/TowerBridge.webp"),
           },
         ],
         correctAnswerIndex: 2,

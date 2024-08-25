@@ -402,7 +402,7 @@ const qstMixed2En = [
           {
             id: "2",
             country: "Saint Catherine's Monastery\nEgypt",
-            img: require("../../../assets/WorldMonuments/Africa/mountsinai.jpg"),
+            img: require("../../../assets/WorldMonuments/Africa/mountsinai.webp"),
           },
           {
             id: "3",
@@ -475,7 +475,7 @@ const qstMixed2En = [
         status: "Capitals",
         img: 'L',
         country: "Jordan",
-        image: require("../../../assets/WorldMonuments/Asia/jordanPetra.png"),
+        image: require("../../../assets/WorldMonuments/Asia/jordanPetra.webp"),
         options: [
           {
             id: "0",
@@ -514,17 +514,17 @@ const qstMixed2En = [
           {
             id: "1",
             country: "Aït Benhaddou\nMorocco",
-            img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.png"),
+            img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp"),
           },
           {
             id: "2",
             country: "Petra\nJordan",
-            img: require("../../../assets/WorldMonuments/Asia/jordanPetra.png"),
+            img: require("../../../assets/WorldMonuments/Asia/jordanPetra.webp"),
           },
           {
             id: "3",
             country: "Kailasa Temple\nIndia",
-            img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
+            img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -534,7 +534,7 @@ const qstMixed2En = [
         status: "Capitals",
         img: 'L',
         country: "Germany",
-        image: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
+        image: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.webp"),
         options: [
           {
             id: "0",
@@ -568,7 +568,7 @@ const qstMixed2En = [
           {
             id: "0",
             country: "Brandenburg Gate\nGermany",
-            img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.webp"),
           },
           {
             id: "1",
@@ -578,12 +578,12 @@ const qstMixed2En = [
           {
             id: "2",
             country: "Eiffel Tower\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/eiffelTower.png"),
+            img: require("../../../assets/WorldMonuments/Europe/eiffelTower.webp"),
           },
           {
             id: "3",
             country: "Big Ben\nUK",
-            img: require("../../../assets/WorldMonuments/Europe/bigBen.png"),
+            img: require("../../../assets/WorldMonuments/Europe/bigBen.webp"),
           },
         ],
         correctAnswerIndex: 0,

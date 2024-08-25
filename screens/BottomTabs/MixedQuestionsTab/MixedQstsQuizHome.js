@@ -108,7 +108,7 @@ const MixedQstsQuizHome = () => {
           <QuizTemplate
             quiz="Quiz3"
             title="3"
-            image={require("../../../assets/WorldMonuments/Oceania/Gold_Coast.png")}
+            image={require("../../../assets/WorldMonuments/Oceania/Gold_Coast.webp")}
           />
           <QuizTemplate
             quiz="Quiz5"
@@ -140,7 +140,7 @@ const MixedQstsQuizHome = () => {
           <QuizTemplate
             quiz="Quiz6"
             title="6"
-            image={require("../../../assets/WorldMonuments/Europe/Acropolis.png")}
+            image={require("../../../assets/WorldMonuments/Europe/Acropolis.webp")}
           />
           <QuizTemplate
             quiz="Quiz8"

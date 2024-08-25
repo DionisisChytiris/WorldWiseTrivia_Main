@@ -1,7 +1,7 @@
 const OceaniaMonEs = [
     {
         id: '1',
-        img: require('../../../assets/WorldMonuments/Oceania/Gold_Coast.png'),
+        img: require('../../../assets/WorldMonuments/Oceania/Gold_Coast.webp'),
         name: 'Costa de Oro',
         country: 'Australia',
         city: 'Queensland',
@@ -17,7 +17,7 @@ const OceaniaMonEs = [
     },
     {
         id: '3',
-        img: require('../../../assets/WorldMonuments/Oceania/harbour-bridge.png'),
+        img: require('../../../assets/WorldMonuments/Oceania/harbour-bridge.webp'),
         name: 'Puente de la bahía de Sídney',
         country: 'Australia',
         city: 'Sídney',
@@ -25,7 +25,7 @@ const OceaniaMonEs = [
     },
     {
         id: '4',
-        img: require('../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.png'),
+        img: require('../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.webp'),
         name: 'Ópera de Sídney',
         country: 'Australia',
         city: 'Sídney',

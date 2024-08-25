@@ -4,7 +4,7 @@ const questions3El = [
     status: "Capitals",
     img: 'L',
     country: "Ιταλία",
-    image: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.png"),
+    image: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.webp"),
     options: [
       {
         id: "0",
@@ -38,12 +38,12 @@ const questions3El = [
       {
         id: "0",
         country: "Ισπανικά Σκαλιά\nΙταλία",
-        img: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.png"),
+        img: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.webp"),
       },
       {
         id: "1",
         country: "Φοντάνα ντι Τρέβι\nΙταλία",
-        img: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.png"),
+        img: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.webp"),
       },
       {
         id: "2",
@@ -53,7 +53,7 @@ const questions3El = [
       {
         id: "3",
         country: "Κεκλιμένος Πύργος της Πίζας\nΙταλία",
-        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+        img: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
       },
     ],
     correctAnswerIndex: 0,
@@ -63,7 +63,7 @@ const questions3El = [
     status: "Capitals",
     img: 'L',
     country: "Iταλία",
-    image: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.png"),
+    image: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.webp"),
     options: [
       {
         id: "0",
@@ -107,7 +107,7 @@ const questions3El = [
       {
         id: "2",
         country: "Πλατεία Αγίου Μάρκου\nΙταλία",
-        img: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.png"),
+        img: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.webp"),
       },
       {
         id: "3",
@@ -122,7 +122,7 @@ const questions3El = [
     status: "Capitals",
     img: 'L',
     country: "Αίγυπτος",
-    image: require("../../../assets/WorldMonuments/Africa/abulShimbel.png"),
+    image: require("../../../assets/WorldMonuments/Africa/abulShimbel.webp"),
     options: [
       {
         id: "0",
@@ -156,12 +156,12 @@ const questions3El = [
       {
         id: "0",
         country: "Αμπού Σιμπέλ\nΑίγυπτος",
-        img: require("../../../assets/WorldMonuments/Africa/abulShimbel.png"),
+        img: require("../../../assets/WorldMonuments/Africa/abulShimbel.webp"),
       },
       {
         id: "1",
         country: "Όρος Ράσμορ\nΗΠΑ",
-        img: require("../../../assets/WorldMonuments/USA/Mount_Rushmore.png"),
+        img: require("../../../assets/WorldMonuments/USA/Mount_Rushmore.webp"),
       },
       {
         id: "2",
@@ -181,7 +181,7 @@ const questions3El = [
     status: "Capitals",
     img: 'L',
     country: "Μιανμάρ",
-    image: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.jpg"),
+    image: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.webp"),
     options: [
       {
         id: "0",
@@ -215,17 +215,17 @@ const questions3El = [
       {
         id: "0",
         country: "Μπορομπουντούρ\nΙνδονησία",
-        img: require("../../../assets/WorldMonuments/Asia/borobudur-temple-Indonesia.png"),
+        img: require("../../../assets/WorldMonuments/Asia/borobudur-temple-Indonesia.webp"),
       },
       {
         id: "1",
         country: "Ανάκτορο Ποτάλα\nΘιβέτ",
-        img: require("../../../assets/WorldMonuments/Asia/potalaPalaceTibet.png"),
+        img: require("../../../assets/WorldMonuments/Asia/potalaPalaceTibet.webp"),
       },
       {
         id: "2",
         country: "Μπαγκάν\nΜιανμάρ",
-        img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.png"),
+        img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.webp"),
       },
       {
         id: "3",
@@ -240,7 +240,7 @@ const questions3El = [
     status: "Capitals",
     img: 'L',
     country: "Κίνα",
-    image: require("../../../assets/WorldMonuments/Asia/terracottArmy.png"),
+    image: require("../../../assets/WorldMonuments/Asia/terracottArmy.webp"),
     options: [
       {
         id: "0",
@@ -274,12 +274,12 @@ const questions3El = [
       {
         id: "0",
         country: "Τζεταβανραμάγια\nΣρι Λάνκα",
-        img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.png"),
+        img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.webp"),
       },
       {
         id: "1",
         country: "Ναός Καϊλάσα\nΙνδία",
-        img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
+        img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.webp"),
       },
       {
         id: "2",
@@ -289,7 +289,7 @@ const questions3El = [
       {
         id: "3",
         country: "Πήλινος Στρατός\nΚίνα",
-        img: require("../../../assets/WorldMonuments/Asia/terracottArmy.png"),
+        img: require("../../../assets/WorldMonuments/Asia/terracottArmy.webp"),
       },
     ],
     correctAnswerIndex: 3,
@@ -299,7 +299,7 @@ const questions3El = [
     status: "Capitals",
     img: 'L',
     country: "ΗΠΑ",
-    image: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.png"),
+    image: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.webp"),
     options: [
       {
         id: "0",
@@ -333,22 +333,22 @@ const questions3El = [
       {
         id: "0",
         country: "Γέφυρα του Μπρούκλιν\nΗΠΑ",
-        img: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.png"),
+        img: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.webp"),
       },
       {
         id: "1",
         country: "Γέφυρα Γκόλντεν Γκέιτ\nΗΠΑ",
-        img: require("../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.png"),
+        img: require("../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.webp"),
       },
       {
         id: "2",
         country: "Γέφυρα του Σίδνεϊ\nΑυστραλία",
-        img: require("../../../assets/WorldMonuments/Oceania/harbour-bridge.png"),
+        img: require("../../../assets/WorldMonuments/Oceania/harbour-bridge.webp"),
       },
       {
         id: "3",
         country: "Αλκατράζ\nΗΠΑ",
-        img: require("../../../assets/WorldMonuments/USA/alcatraz.png"),
+        img: require("../../../assets/WorldMonuments/USA/alcatraz.webp"),
       },
     ],
     correctAnswerIndex: 0,
@@ -397,12 +397,12 @@ const questions3El = [
       {
         id: "1",
         country: "Κόπα Καμπάνα\nBραζιλία",
-        img: require("../../../assets/WorldMonuments/America/copacabana-beach.png"),
+        img: require("../../../assets/WorldMonuments/America/copacabana-beach.webp"),
       },
       {
         id: "2",
         country: "Άγαλμα Μερλιόν\nΣιγκαπούρη",
-        img: require("../../../assets/WorldMonuments/Asia/merlion_singapore.png"),
+        img: require("../../../assets/WorldMonuments/Asia/merlion_singapore.webp"),
       },
       {
         id: "3",
@@ -417,7 +417,7 @@ const questions3El = [
     status: "Capitals",
     img: 'L',
     country: "ΗΠΑ",
-    image: require("../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.png"),
+    image: require("../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.webp"),
     options: [
       {
         id: "0",
@@ -451,12 +451,12 @@ const questions3El = [
       {
         id: "0",
         country: "Γέφυρα του Σίδνεϊ\nΑυστραλία",
-        img: require("../../../assets/WorldMonuments/Oceania/harbour-bridge.png"),
+        img: require("../../../assets/WorldMonuments/Oceania/harbour-bridge.webp"),
       },
       {
         id: "1",
         country: "Γέφυρα Γκόλντεν Γκέιτ\nΗΠΑ",
-        img: require("../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.png"),
+        img: require("../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.webp"),
       },
       {
         id: "2",
@@ -466,7 +466,7 @@ const questions3El = [
       {
         id: "3",
         country: "Γέφυρα του Μπρούκλιν\nΗΠΑ",
-        img: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.png"),
+        img: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.webp"),
       },
     ],
     correctAnswerIndex: 1,
@@ -476,7 +476,7 @@ const questions3El = [
     status: "Capitals",
     img: 'L',
     country: "Ηνωμένο Βασίλειο",
-    image: require("../../../assets/WorldMonuments/Europe/stonehenge.png"),
+    image: require("../../../assets/WorldMonuments/Europe/stonehenge.webp"),
     options: [
       {
         id: "0",
@@ -510,22 +510,22 @@ const questions3El = [
       {
         id: "0",
         country: "Mον Σαιν Μισέλ\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.webp"),
       },
       {
         id: "1",
         country: "Ξύλινη εκκλησία Μπόργουντ\nNoρβηγία",
-        img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
+        img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.webp"),
       },
       {
         id: "2",
         country: "Στόουνχεντζ\nΗνωμένο Βασίλειο",
-        img: require("../../../assets/WorldMonuments/Europe/stonehenge.png"),
+        img: require("../../../assets/WorldMonuments/Europe/stonehenge.webp"),
       },
       {
         id: "3",
         country: "Αγάλματα Μοάι\nΝησιά Πάσχα",
-        img: require("../../../assets/WorldMonuments/Asia/easterIsland.png"),
+        img: require("../../../assets/WorldMonuments/Asia/easterIsland.webp"),
       },
     ],
     correctAnswerIndex: 2,
@@ -535,7 +535,7 @@ const questions3El = [
     status: "Capitals",
     img: 'L',
     country: "Βατικανό",
-    image: require("../../../assets/WorldMonuments/Europe/St.-Peters-Basilica-Vatican.png"),
+    image: require("../../../assets/WorldMonuments/Europe/St.-Peters-Basilica-Vatican.webp"),
     options: [
       {
         id: "0",
@@ -569,22 +569,22 @@ const questions3El = [
       {
         id: "0",
         country: "Βασιλική του Αγίου Πέτρου\nΒατικανό",
-        img: require("../../../assets/WorldMonuments/Europe/St.-Peters-Basilica-Vatican.png"),
+        img: require("../../../assets/WorldMonuments/Europe/St.-Peters-Basilica-Vatican.webp"),
       },
       {
         id: "1",
         country: "Ναός του Χυμένου Αίματος\nΡωσία",
-        img: require("../../../assets/WorldMonuments/Europe/stPetersburg.png"),
+        img: require("../../../assets/WorldMonuments/Europe/stPetersburg.webp"),
       },
       {
         id: "2",
         country: "Σαιντ-Σαπέλ\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/sainte-Chapelle.png"),
+        img: require("../../../assets/WorldMonuments/Europe/sainte-Chapelle.webp"),
       },
       {
         id: "3",
         country: "Καθεδρικός Ναός Αγίου Βασιλείου\nΡωσία",
-        img: require("../../../assets/WorldMonuments/Europe/saint_basils_cathedral.png"),
+        img: require("../../../assets/WorldMonuments/Europe/saint_basils_cathedral.webp"),
       },
     ],
     correctAnswerIndex: 0,

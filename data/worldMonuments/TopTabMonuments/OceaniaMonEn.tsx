@@ -1,7 +1,7 @@
 const OceaniaMonEn = [
     {
         id: '1',
-        img: require('../../../assets/WorldMonuments/Oceania/Gold_Coast.png'),
+        img: require('../../../assets/WorldMonuments/Oceania/Gold_Coast.webp'),
         name: 'Gold Coast',
         country: 'Australia',
         city: 'Queensland',
@@ -17,7 +17,7 @@ const OceaniaMonEn = [
     },
     {
         id: '3',
-        img: require('../../../assets/WorldMonuments/Oceania/harbour-bridge.png'),
+        img: require('../../../assets/WorldMonuments/Oceania/harbour-bridge.webp'),
         name: 'Sydney Harbour Bridge',
         country: 'Australia',
         city: 'Sydney',
@@ -25,7 +25,7 @@ const OceaniaMonEn = [
     },
     {
         id: '4',
-        img: require('../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.png'),
+        img: require('../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.webp'),
         name: 'Sydney Opera House',
         country: 'Australia',
         city: 'Sydney',

@@ -170,7 +170,7 @@ const questions10En = [
         {
           id: "3",
           country: "Meteora\nGreece",
-          img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
+          img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
         },
       ],
       correctAnswerIndex: 2,

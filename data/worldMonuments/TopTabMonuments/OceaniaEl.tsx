@@ -1,7 +1,7 @@
 const OceaniaMonEl = [
     {
         id: '1',
-        img: require('../../../assets/WorldMonuments/Oceania/Gold_Coast.png'),
+        img: require('../../../assets/WorldMonuments/Oceania/Gold_Coast.webp'),
         name: 'Χρυσή Ακτή',
         country: 'Aυστραλία',
         city: 'Κουίνσλαντ',
@@ -17,7 +17,7 @@ const OceaniaMonEl = [
     },
     {
         id: '3',
-        img: require('../../../assets/WorldMonuments/Oceania/harbour-bridge.png'),
+        img: require('../../../assets/WorldMonuments/Oceania/harbour-bridge.webp'),
         name: 'Γέφυρα του λιμανιού του Σίδνεϊ',
         country: 'Αυστραλία',
         city: 'Σίδνεϊ',
@@ -25,7 +25,7 @@ const OceaniaMonEl = [
     },
     {
         id: '4',
-        img: require('../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.png'),
+        img: require('../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.webp'),
         name: 'Όπερα του Σίδνεϊ ',
         country: 'Αυστραλία',
         city: 'Σίδνεϊ',

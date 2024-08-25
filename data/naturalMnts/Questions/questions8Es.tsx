@@ -348,7 +348,7 @@ const questions8Es = [
         {
           id: "3",
           name: "Meteora\nGrecia",
-          img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
+          img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
         },
       ],
       correctAnswerIndex: 1,

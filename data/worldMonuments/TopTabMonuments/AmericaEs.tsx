@@ -1,7 +1,7 @@
 const AmericaMonEs = [
     {
         id: '1',
-        img: require('../../../assets/WorldMonuments/USA/alcatraz.png'),
+        img: require('../../../assets/WorldMonuments/USA/alcatraz.webp'),
         name: 'Isla de Alcatraz',
         country: 'EE.UU.',
         city: 'San Francisco',
@@ -9,7 +9,7 @@ const AmericaMonEs = [
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/USA/brooklyn-bridge.png'),
+        img: require('../../../assets/WorldMonuments/USA/brooklyn-bridge.webp'),
         name: 'Puente de Brooklyn',
         country: 'EE.UU.',
         city: 'Nueva York',
@@ -33,7 +33,7 @@ const AmericaMonEs = [
     },
     {
         id: '5',
-        img: require('../../../assets/WorldMonuments/USA/cloud-gate-chicago.png'),
+        img: require('../../../assets/WorldMonuments/USA/cloud-gate-chicago.webp'),
         name: 'Cloud Gate',
         country: 'EE.UU.',
         city: 'Chicago',
@@ -57,7 +57,7 @@ const AmericaMonEs = [
     },
     {
         id: '8',
-        img: require('../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.png'),
+        img: require('../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.webp'),
         name: 'Golden Gate Bridge',
         country: 'EE.UU.',
         city: 'San Francisco',
@@ -65,7 +65,7 @@ const AmericaMonEs = [
     },
     {
         id: '9',
-        img: require('../../../assets/WorldMonuments/USA/hoover_dam_nevada.png'),
+        img: require('../../../assets/WorldMonuments/USA/hoover_dam_nevada.webp'),
         name: 'Presa Hoover',
         country: 'EE.UU.',
         city: 'Nevada',
@@ -81,7 +81,7 @@ const AmericaMonEs = [
     },
     {
         id: '11',
-        img: require('../../../assets/WorldMonuments/America/MachuPicchu.png'),
+        img: require('../../../assets/WorldMonuments/America/MachuPicchu.webp'),
         name: 'Machu Picchu',
         country: 'Perú',
         city: 'Cusco',
@@ -89,7 +89,7 @@ const AmericaMonEs = [
     },
     {
         id: '12',
-        img: require('../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png'),
+        img: require('../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.webp'),
         name: 'Catedral Metropolitana de la\nCiudad de México ',
         country: 'México',
         city: 'Ciudad de México',
@@ -97,7 +97,7 @@ const AmericaMonEs = [
     },
     {
         id: '13',
-        img: require('../../../assets/WorldMonuments/USA/Mount_Rushmore.png'),
+        img: require('../../../assets/WorldMonuments/USA/Mount_Rushmore.webp'),
         name: 'Monumento Nacional del\n Monte Rushmore',
         country: 'EE.UU.',
         city: 'Dakota del Sur',
@@ -105,7 +105,7 @@ const AmericaMonEs = [
     },
     {
         id: '14',
-        img: require('../../../assets/WorldMonuments/America/PanamaCanal.png'),
+        img: require('../../../assets/WorldMonuments/America/PanamaCanal.webp'),
         name: 'Canal de Panamá',
         country: 'Panamá',
         city: 'Panamá',
@@ -121,7 +121,7 @@ const AmericaMonEs = [
     },
     {
         id: '16',
-        img: require('../../../assets/WorldMonuments/USA/spaceNeedle_Seattle.png'),
+        img: require('../../../assets/WorldMonuments/USA/spaceNeedle_Seattle.webp'),
         name: 'Aguja Espacial',
         country: 'EE.UU.',
         city: 'Seattle',
@@ -129,7 +129,7 @@ const AmericaMonEs = [
     },
     {
         id: '17',
-        img: require('../../../assets/WorldMonuments/USA/statue-of-liberty.png'),
+        img: require('../../../assets/WorldMonuments/USA/statue-of-liberty.webp'),
         name: 'Estatua de la Libertad',
         country: 'EE.UU.',
         city: 'Nueva York',
@@ -153,7 +153,7 @@ const AmericaMonEs = [
     },
     {
         id: '20',
-        img: require('../../../assets/WorldMonuments/USA/washingtonMonument.png'),
+        img: require('../../../assets/WorldMonuments/USA/washingtonMonument.webp'),
         name: 'Monumento a Washington',
         country: 'EE.UU.',
         city: 'Washington, D.C.',

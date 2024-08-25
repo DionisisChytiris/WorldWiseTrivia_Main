@@ -62,7 +62,7 @@ const qstMixed3El = [
         status: "Capitals",
         img: 'L',
         country: "Κίνα",
-        image: require("../../../assets/WorldMonuments/Asia/terracottArmy.png"),
+        image: require("../../../assets/WorldMonuments/Asia/terracottArmy.webp"),
         options: [
           {
             id: "0",
@@ -96,12 +96,12 @@ const qstMixed3El = [
           {
             id: "0",
             country: "Τζεταβανραμάγια\nΣρι Λάνκα",
-            img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.png"),
+            img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.webp"),
           },
           {
             id: "1",
             country: "Ναός Καϊλάσα\nΙνδία",
-            img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
+            img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.webp"),
           },
           {
             id: "2",
@@ -111,7 +111,7 @@ const qstMixed3El = [
           {
             id: "3",
             country: "Πήλινος Στρατός\nΚίνα",
-            img: require("../../../assets/WorldMonuments/Asia/terracottArmy.png"),
+            img: require("../../../assets/WorldMonuments/Asia/terracottArmy.webp"),
           },
         ],
         correctAnswerIndex: 3,
@@ -472,7 +472,7 @@ const qstMixed3El = [
         status: "Capitals",
         img: 'L',
         country: "Ιταλία",
-        image: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.png"),
+        image: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.webp"),
         options: [
           {
             id: "0",
@@ -506,12 +506,12 @@ const qstMixed3El = [
           {
             id: "0",
             country: "Ισπανικά Σκαλιά\nΙταλία",
-            img: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.png"),
+            img: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.webp"),
           },
           {
             id: "1",
             country: "Φοντάνα ντι Τρέβι\nΙταλία",
-            img: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.png"),
+            img: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.webp"),
           },
           {
             id: "2",
@@ -521,7 +521,7 @@ const qstMixed3El = [
           {
             id: "3",
             country: "Κεκλιμένος Πύργος της Πίζας\nΙταλία",
-            img: require("../../../assets/WorldMonuments/Europe/TowerPisa.png"),
+            img: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
           },
         ],
         correctAnswerIndex: 0,
@@ -531,7 +531,7 @@ const qstMixed3El = [
         status: "Capitals",
         img: 'L',
         country: "Iταλία",
-        image: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.png"),
+        image: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.webp"),
         options: [
           {
             id: "0",
@@ -575,7 +575,7 @@ const qstMixed3El = [
           {
             id: "2",
             country: "Πλατεία Αγίου Μάρκου\nΙταλία",
-            img: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.png"),
+            img: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.webp"),
           },
           {
             id: "3",

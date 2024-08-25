@@ -458,7 +458,7 @@ const MapDataEs = [
     ltr: "M",
     title: "Meteora",
     description: "Meteora, ubicada en el centro de Grecia, es un sitio declarado Patrimonio de la Humanidad por la UNESCO, conocido por sus impresionantes monasterios encaramados sobre imponentes pilares de roca. Estos antiguos monasterios, construidos en los siglos XIV y XV, son una combinación asombrosa de belleza natural y significado espiritual, lo que convierte a Meteora en un destino único y asombroso para los visitantes.",
-    img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
+    img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
     latitude: 39.71503,
     longitude: 21.63402,
     zoomLocation: 5.3,

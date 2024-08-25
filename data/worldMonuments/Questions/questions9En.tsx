@@ -4,7 +4,7 @@ const questions9En = [
     status: "Capitals",
     img: 'L',
     country: "China",
-    image: require("../../../assets/WorldMonuments/Asia/temple-of-heaven-in-beijing.png"),
+    image: require("../../../assets/WorldMonuments/Asia/temple-of-heaven-in-beijing.webp"),
     options: [
       {
         id: "0",
@@ -38,12 +38,12 @@ const questions9En = [
           {
             id: "0",
             country: "Temple of Heaven\nChina",
-            img: require("../../../assets/WorldMonuments/Asia/temple-of-heaven-in-beijing.png"),
+            img: require("../../../assets/WorldMonuments/Asia/temple-of-heaven-in-beijing.webp"),
           },
           {
             id: "1",
             country: "Mont Saint Michel\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.webp"),
           },
           {
             id: "2",
@@ -112,7 +112,7 @@ const questions9En = [
           {
             id: "3",
             country: "Temples of Bagan\nMyanmar",
-            img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.png"),
+            img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -122,7 +122,7 @@ const questions9En = [
         status: "Capitals",
         img: 'L',
         country: "Mexico",
-        image: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png"),
+        image: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.webp"),
         options: [
           {
             id: "0",
@@ -161,17 +161,17 @@ const questions9En = [
           {
             id: "1",
             country: "Mexico City Cathedral\nMexico",
-            img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png"),
+            img: require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.webp"),
           },
           {
             id: "2",
             country: "Florence Cathedral\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/duomo-florence.png"),
+            img: require("../../../assets/WorldMonuments/Europe/duomo-florence.webp"),
           },
           {
             id: "3",
             country: "Notre Dame\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/notreDame.png"),
+            img: require("../../../assets/WorldMonuments/Europe/notreDame.webp"),
           },
         ],
         correctAnswerIndex: 1,
@@ -215,12 +215,12 @@ const questions9En = [
           {
             id: "0",
             country: "Sagrada Familia\nSpain",
-            img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.png"),
+            img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.webp"),
           },
           {
             id: "1",
             country: "Saint Basil's Cathedral\nRussia",
-            img: require("../../../assets/WorldMonuments/Europe/saint_basils_cathedral.png"),
+            img: require("../../../assets/WorldMonuments/Europe/saint_basils_cathedral.webp"),
           },
           {
             id: "2",
@@ -284,12 +284,12 @@ const questions9En = [
           {
             id: "2",
             country: "Cité de Carcassonne\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
+            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
           },
           {
             id: "3",
             country: "Sigiriya\nSri Lanka",
-            img: require("../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.png"),
+            img: require("../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.webp"),
           },
         ],
         correctAnswerIndex: 0,
@@ -333,17 +333,17 @@ const questions9En = [
           {
             id: "0",
             country: "Alcatraz Island\nUSA",
-            img: require("../../../assets/WorldMonuments/USA/alcatraz.png"),
+            img: require("../../../assets/WorldMonuments/USA/alcatraz.webp"),
           },
           {
             id: "1",
             country: "Statue of Liberty\nUSA",
-            img: require("../../../assets/WorldMonuments/USA/statue-of-liberty.png"),
+            img: require("../../../assets/WorldMonuments/USA/statue-of-liberty.webp"),
           },
           {
             id: "2",
             country: "Mont Saint Michel\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Mont-Saint-MichelNormandy.webp"),
           },
           {
             id: "3",
@@ -392,7 +392,7 @@ const questions9En = [
           {
             id: "0",
             country: "Angkor Wat\nCambodia",
-            img: require("../../../assets/WorldMonuments/Asia/AngkorWat.png"),
+            img: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
           },
           {
             id: "1",
@@ -402,7 +402,7 @@ const questions9En = [
           {
             id: "2",
             country: "The Grand Palace\nThailand",
-            img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.png"),
+            img: require("../../../assets/WorldMonuments/Asia/the-grand-palace.webp"),
           },
           {
             id: "3",
@@ -456,7 +456,7 @@ const questions9En = [
           {
             id: "1",
             country: "Arc de Triumph\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png"),
+            img: require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.webp"),
           },
           {
             id: "2",
@@ -466,7 +466,7 @@ const questions9En = [
           {
             id: "3",
             country: "Alhambra\nSpain",
-            img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
+            img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -510,7 +510,7 @@ const questions9En = [
           {
             id: "0",
             country: "Cité de Carcassonne\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.png"),
+            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
           },
           {
             id: "1",
@@ -520,12 +520,12 @@ const questions9En = [
           {
             id: "2",
             country: "Washington Monument\nUSA",
-            img: require("../../../assets/WorldMonuments/USA/washingtonMonument.png"),
+            img: require("../../../assets/WorldMonuments/USA/washingtonMonument.webp"),
           },
           {
             id: "3",
             country: "Panama Canal \nPanama",
-            img: require("../../../assets/WorldMonuments/America/PanamaCanal.png"),
+            img: require("../../../assets/WorldMonuments/America/PanamaCanal.webp"),
           },
         ],
         correctAnswerIndex: 1,
@@ -535,7 +535,7 @@ const questions9En = [
         status: "Capitals",
         img: 'L',
         country: "Japon",
-        image: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
+        image: require("../../../assets/WorldMonuments/Asia/HimejiCastle.webp"),
         options: [
           {
             id: "0",
@@ -569,12 +569,12 @@ const questions9En = [
           {
             id: "0",
             country: "Bran Castle\nRomania",
-            img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.webp"),
           },
           {
             id: "1",
             country: "Hiroshima Peace Memorial Park\nJapon",
-            img: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.png"),
+            img: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.webp"),
           },
           {
             id: "2",
@@ -584,7 +584,7 @@ const questions9En = [
           {
             id: "3",
             country: "Himeji Castle\nJapon",
-            img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
+            img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.webp"),
           },
         ],
         correctAnswerIndex: 3,

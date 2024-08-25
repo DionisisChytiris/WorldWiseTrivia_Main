@@ -484,7 +484,7 @@ const MapDataEn = [
         ltr: 'M',
         title: 'Meteora',
         description: 'Meteora, located in central Greece, is a UNESCO World Heritage site known for its breathtaking monasteries perched atop towering rock pillars. These ancient monasteries, built in the 14th and 15th centuries, are a remarkable blend of natural beauty and spiritual significance, making Meteora a unique and awe-inspiring destination for visitors.',
-        img: require('../../../assets/WorldMonuments/Europe/meteora.png'),
+        img: require('../../../assets/WorldMonuments/Europe/meteora.webp'),
         latitude: 39.71503,
         longitude: 21.63402,
         zoomLocation: 5.3,

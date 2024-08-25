@@ -108,12 +108,12 @@ const CapitalsQuizHome = () => {
           <QuizTemplate
             quiz="Quiz1"
             title="1"
-            image={require("../../../assets/WorldMonuments/Europe/eiffelTower.png")}
+            image={require("../../../assets/WorldMonuments/Europe/eiffelTower.webp")}
           />
           <QuizTemplate
             quiz="Quiz3"
             title="3"
-            image={require("../../../assets/WorldMonuments/Europe/colosseum.png")}
+            image={require("../../../assets/WorldMonuments/Europe/colosseum.webp")}
           />
           <QuizTemplate
             quiz="Quiz5"
@@ -123,19 +123,19 @@ const CapitalsQuizHome = () => {
           <QuizTemplate
             quiz="Quiz7"
             title="7"
-            image={require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.png")}
+            image={require("../../../assets/WorldMonuments/Europe/arc-de-triomphe-paris.webp")}
           />
           <QuizTemplate
             quiz="Quiz9"
             title="9"
-            image={require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.png")}
+            image={require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.webp")}
           />
         </View>
         <View style={{ width: "50%", marginTop: 70, marginLeft: 20, gap: windowHeight> 900 ? 60: 20 }}>
           <QuizTemplate
             quiz="Quiz2"
             title="2"
-            image={require("../../../assets/WorldMonuments/Asia/the-grand-palace.png")}
+            image={require("../../../assets/WorldMonuments/Asia/the-grand-palace.webp")}
           />
           <QuizTemplate
             quiz="Quiz4"
@@ -145,12 +145,12 @@ const CapitalsQuizHome = () => {
           <QuizTemplate
             quiz="Quiz6"
             title="6"
-            image={require("../../../assets/WorldMonuments/Europe/Acropolis.png")}
+            image={require("../../../assets/WorldMonuments/Europe/Acropolis.webp")}
           />
           <QuizTemplate
             quiz="Quiz8"
             title="8"
-            image={require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png")}
+            image={require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.webp")}
           />
           <QuizTemplate
             quiz="Quiz10"

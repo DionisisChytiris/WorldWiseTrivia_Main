@@ -4,7 +4,7 @@ const questions6Es = [
     status: "Capitals",
     img: 'L',
     country: "Rumanía",
-    image: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
+    image: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.webp"),
     options: [
       {
         id: "0",
@@ -38,22 +38,22 @@ const questions6Es = [
           {
             id: "0",
             country: "Castillo de Eltz\nAlemania",
-            img: require("../../../assets/WorldMonuments/Europe/eltz-castle-muenstermaifeld-germany.png"),
+            img: require("../../../assets/WorldMonuments/Europe/eltz-castle-muenstermaifeld-germany.webp"),
           },
           {
             id: "1",
             country: "Castillo de Neuschwanstein\nAlemania",
-            img: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.png"),
+            img: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.webp"),
           },
           {
             id: "2",
             country: "Castillo de Bran\nRumanía",
-            img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Bran-CastleDracula.webp"),
           },
           {
             id: "3",
             country: "Castillo de Himeji\nJapón",
-            img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.png"),
+            img: require("../../../assets/WorldMonuments/Asia/HimejiCastle.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -97,17 +97,17 @@ const questions6Es = [
           {
             id: "0",
             country: "Iglesia de madera de Borgund\nNoruega",
-            img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
+            img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.webp"),
           },
           {
             id: "1",
             country: "Catedral de Santa María del Fiore\nItalia",
-            img: require("../../../assets/WorldMonuments/Europe/duomo-florence.png"),
+            img: require("../../../assets/WorldMonuments/Europe/duomo-florence.webp"),
           },
           {
             id: "2",
             country: "Sagrada Familia\nEspaña",
-            img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.png"),
+            img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.webp"),
           },
           {
             id: "3",
@@ -156,7 +156,7 @@ const questions6Es = [
           {
             id: "0",
             country: "Puerta de Brandeburgo\nAlemania",
-            img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Brandenburg-Gate-Berlin.webp"),
           },
           {
             id: "1",
@@ -171,7 +171,7 @@ const questions6Es = [
           {
             id: "3",
             country: "Museo Guggenheim\nEspaña",
-            img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.png"),
+            img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.webp"),
           },
         ],
         correctAnswerIndex: 1,
@@ -181,7 +181,7 @@ const questions6Es = [
         status: "Capitals",
         img: 'L',
         country: "Marruecos",
-        image: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.png"),
+        image: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp"),
         options: [
           {
             id: "0",
@@ -215,22 +215,22 @@ const questions6Es = [
           {
             id: "0",
             country: "Alhambra\nEspaña",
-            img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.png"),
+            img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
           },
           {
             id: "1",
             country: "Templos de Bagan\nBirmania",
-            img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.png"),
+            img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.webp"),
           },
           {
             id: "2",
             country: "Ait Ben Hadu\nMarruecos",
-            img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.png"),
+            img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp"),
           },
           {
             id: "3",
             country: "Templo de Kailasa\nIndia",
-            img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.png"),
+            img: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -240,7 +240,7 @@ const questions6Es = [
         status: "Capitals",
         img: 'L',
         country: "Sri Lanka",
-        image: require("../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.png"),
+        image: require("../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.webp"),
         options: [
           {
             id: "0",
@@ -274,22 +274,22 @@ const questions6Es = [
           {
             id: "0",
             country: "Sigiriya\nSri Lanka",
-            img: require("../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.png"),
+            img: require("../../../assets/WorldMonuments/Asia/Sigiriya__Sri_Lanka.webp"),
           },
           {
             id: "1",
             country: "Iglesia de madera de Borgund\nNoruega",
-            img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
+            img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.webp"),
           },
           {
             id: "2",
             country: "Iglesia de San Jorge\nEtiopía",
-            img: require("../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.png"),
+            img: require("../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.webp"),
           },
           {
             id: "3",
             country: "Meteora\nGrecia",
-            img: require("../../../assets/WorldMonuments/Europe/meteora.png"),
+            img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
           },
         ],
         correctAnswerIndex: 0,
@@ -338,12 +338,12 @@ const questions6Es = [
           {
             id: "1",
             country: "Acrópolis\nGrecia",
-            img: require("../../../assets/WorldMonuments/Europe/Acropolis.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Acropolis.webp"),
           },
           {
             id: "2",
             country: "Pompeya\nItalia",
-            img: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.webp"),
           },
           {
             id: "3",
@@ -397,7 +397,7 @@ const questions6Es = [
           {
             id: "1",
             country: "Museo Guggenheim\nEspaña",
-            img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.png"),
+            img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.webp"),
           },
           {
             id: "2",
@@ -417,7 +417,7 @@ const questions6Es = [
         status: "Capitals",
         img: 'L',
         country: "Indonesia",
-        image: require("../../../assets/WorldMonuments/Asia/borobudur-temple-Indonesia.png"),
+        image: require("../../../assets/WorldMonuments/Asia/borobudur-temple-Indonesia.webp"),
         options: [
           {
             id: "0",
@@ -451,12 +451,12 @@ const questions6Es = [
           {
             id: "0",
             country: "Borobudur\nIndonesia",
-            img: require("../../../assets/WorldMonuments/Asia/borobudur-temple-Indonesia.png"),
+            img: require("../../../assets/WorldMonuments/Asia/borobudur-temple-Indonesia.webp"),
           },
           {
             id: "1",
             country: "Palacio de Potala\nTíbet",
-            img: require("../../../assets/WorldMonuments/Asia/potalaPalaceTibet.png"),
+            img: require("../../../assets/WorldMonuments/Asia/potalaPalaceTibet.webp"),
           },
           {
             id: "2",
@@ -466,7 +466,7 @@ const questions6Es = [
           {
             id: "3",
             country: "Jetavanaramaya\nSri Lanka",
-            img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.png"),
+            img: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.webp"),
           },
         ],
         correctAnswerIndex: 0,
@@ -476,7 +476,7 @@ const questions6Es = [
         status: "Capitals",
         img: 'L',
         country: "Reino Unido",
-        image: require("../../../assets/WorldMonuments/Europe/westminster-abbey.png"),
+        image: require("../../../assets/WorldMonuments/Europe/westminster-abbey.webp"),
         options: [
           {
             id: "0",
@@ -510,12 +510,12 @@ const questions6Es = [
           {
             id: "0",
             country: "Sagrada Familia\nEspaña",
-            img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.png"),
+            img: require("../../../assets/WorldMonuments/Europe/sagradaFamilia.webp"),
           },
           {
             id: "1",
             country: "Palacio de Buckingham\nReino Unido",
-            img: require("../../../assets/WorldMonuments/Europe/buckinghampalace.png"),
+            img: require("../../../assets/WorldMonuments/Europe/buckinghampalace.webp"),
           },
           {
             id: "2",
@@ -525,7 +525,7 @@ const questions6Es = [
           {
             id: "3",
             country: "Abadía de Westminster\nReino Unido",
-            img: require("../../../assets/WorldMonuments/Europe/westminster-abbey.png"),
+            img: require("../../../assets/WorldMonuments/Europe/westminster-abbey.webp"),
           },
         ],
         correctAnswerIndex: 3,
@@ -535,7 +535,7 @@ const questions6Es = [
         status: "Capitals",
         img: 'L',
         country: "Noruega",
-        image: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
+        image: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.webp"),
         options: [
           {
             id: "0",
@@ -569,17 +569,17 @@ const questions6Es = [
           {
             id: "0",
             country: "Stonehedge\nReino Unido",
-            img: require("../../../assets/WorldMonuments/Europe/stonehenge.png"),
+            img: require("../../../assets/WorldMonuments/Europe/stonehenge.webp"),
           },
           {
             id: "1",
             country: "Iglesia de madera de Borgund\nNoruega",
-            img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.png"),
+            img: require("../../../assets/WorldMonuments/Europe/borgund-stave-church-Norway.webp"),
           },
           {
             id: "2",
             country: "Iglesia de San Jorge\nEtiopía",
-            img: require("../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.png"),
+            img: require("../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.webp"),
           },
           {
             id: "3",
