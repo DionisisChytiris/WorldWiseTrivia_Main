@@ -53,7 +53,7 @@ const questions9El = [
           {
             id: "3",
             country: "Η Φωλιά της Τίγρης\nΜπουτάν",
-            img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
+            img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp"),
           },
         ],
         correctAnswerIndex: 0,
@@ -225,12 +225,12 @@ const questions9El = [
           {
             id: "2",
             country: "Ναός του Αγίου Ιωσήφ\nΚαναδάς",
-            img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.png"),
+            img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.webp"),
           },
           {
             id: "3",
             country: "Tαζ Μαχάλ\nΙνδία",
-            img: require("../../../assets/WorldMonuments/Asia/TajMajal.png"),
+            img: require("../../../assets/WorldMonuments/Asia/TajMajal.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -274,7 +274,7 @@ const questions9El = [
           {
             id: "0",
             country: "Τικάλ\nΓουατεμάλα",
-            img: require("../../../assets/WorldMonuments/America/TikalGuatemala.png"),
+            img: require("../../../assets/WorldMonuments/America/TikalGuatemala.webp"),
           },
           {
             id: "1",
@@ -461,7 +461,7 @@ const questions9El = [
           {
             id: "2",
             country: "Χαλέπι\nΣυρία",
-            img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png"),
+            img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.webp"),
           },
           {
             id: "3",

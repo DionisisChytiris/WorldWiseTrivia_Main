@@ -166,7 +166,7 @@ const questions7Es = [
           {
             id: "2",
             country: "El nido del Tigre\nBután",
-            img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
+            img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp"),
           },
           {
             id: "3",

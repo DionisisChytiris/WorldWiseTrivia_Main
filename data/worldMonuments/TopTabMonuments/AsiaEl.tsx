@@ -41,7 +41,7 @@ const AsiaMonEl = [
     },
     {
         id: '6',
-        img: require('../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png'),
+        img: require('../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.webp'),
         name: 'Citadel of Aleppo',
         country: 'Συρία',
         city: 'Χαλέπι',
@@ -97,7 +97,7 @@ const AsiaMonEl = [
     },
     {
         id: '13',
-        img: require('../../../assets/WorldMonuments/Asia/AgiaSofia.png'),
+        img: require('../../../assets/WorldMonuments/Asia/AgiaSofia.webp'),
         name: 'Αγία Σοφία',
         country: 'Τουρκία',
         city: 'Κωνσταντινούπολη',
@@ -210,7 +210,7 @@ const AsiaMonEl = [
     },
     {
         id: '27',
-        img: require('../../../assets/WorldMonuments/Asia/TajMajal.png'),
+        img: require('../../../assets/WorldMonuments/Asia/TajMajal.webp'),
         name: 'Ταζ Μαχάλ',
         country: 'Ινδία',
         city: 'Άγκρα',
@@ -250,7 +250,7 @@ const AsiaMonEl = [
     },
     {
         id: '32',
-        img: require('../../../assets/WorldMonuments/Asia/TigersNestBhutan.png'),
+        img: require('../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp'),
         name: "Η φωλιά του τίγρη",
         country: 'Μπουτάν',
         city: 'Πάρο',

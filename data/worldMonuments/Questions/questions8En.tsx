@@ -584,7 +584,7 @@
           {
             id: "3",
             name: "Tiger's Nest\nBhutan",
-            img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
+            img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp"),
           },
         ],
         correctAnswerIndex: 0,

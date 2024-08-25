@@ -578,12 +578,12 @@ const qstMixed10El = [
     {
       id: "2",
       country: "Ναός του Καρνάκ\nΑίγυπτος",
-      img: require("../../../assets/WorldMonuments/Africa/KarnakTempleLuxor.png"),
+      img: require("../../../assets/WorldMonuments/Africa/KarnakTempleLuxor.webp"),
     },
     {
       id: "3",
       country: "Χαλέπι\nΣυρία",
-      img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png"),
+      img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.webp"),
     },
   ],
   correctAnswerIndex: 1,

@@ -356,7 +356,7 @@ const qstMixed2El = [
         status: "Capitals",
         img: 'L',
         country: "Tουρκία",
-        image: require("../../../assets/WorldMonuments/Asia/AgiaSofia.png"),
+        image: require("../../../assets/WorldMonuments/Asia/AgiaSofia.webp"),
         options: [
           {
             id: "0",
@@ -405,7 +405,7 @@ const qstMixed2El = [
           {
             id: "3",
             country: "Αγία Σοφία\nΤουρκία",
-            img: require("../../../assets/WorldMonuments/Asia/AgiaSofia.png"),
+            img: require("../../../assets/WorldMonuments/Asia/AgiaSofia.webp"),
           },
         ],
         correctAnswerIndex: 3,

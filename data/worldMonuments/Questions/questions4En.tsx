@@ -230,7 +230,7 @@ const questions4En = [
       {
         id: "3",
         country: "Tiger's Nest\nBhutan",
-        img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
+        img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp"),
       },
     ],
     correctAnswerIndex: 2,
@@ -569,7 +569,7 @@ const questions4En = [
       {
         id: "0",
         country: "The Shard\nUK",
-        img: require("../../../assets/WorldMonuments/Europe/TheShard.png"),
+        img: require("../../../assets/WorldMonuments/Europe/TheShard.webp"),
       },
       {
         id: "1",

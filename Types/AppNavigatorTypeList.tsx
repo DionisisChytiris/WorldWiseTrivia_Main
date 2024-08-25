@@ -4,5 +4,5 @@ export type AppNavigatorTypeList = {
     NameInput: undefined;
     ChangeTheme: undefined;
     ToggleBtn: undefined;
-    Draw: undefined;
+    Draw: { name: string };
 }

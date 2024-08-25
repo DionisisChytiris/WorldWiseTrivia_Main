@@ -41,7 +41,7 @@ const AfricaMonEl = [
     },
     {
         id: '6',
-        img: require('../../../assets/WorldMonuments/Africa/KarnakTempleLuxor.png'),
+        img: require('../../../assets/WorldMonuments/Africa/KarnakTempleLuxor.webp'),
         name: 'Καρνάκ',
         country: 'Αίγυπτος',
         city: 'Λούξορ',

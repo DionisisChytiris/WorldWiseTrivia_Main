@@ -355,7 +355,7 @@ const qstMixed2Es = [
         status: "Capitals",
         img: 'L',
         country: "Turquía",
-        image: require("../../../assets/WorldMonuments/Asia/AgiaSofia.png"),
+        image: require("../../../assets/WorldMonuments/Asia/AgiaSofia.webp"),
         options: [
           {
             id: "0",
@@ -404,7 +404,7 @@ const qstMixed2Es = [
           {
             id: "3",
             country: "Catedral de Santa Sofía",
-            img: require("../../../assets/WorldMonuments/Asia/AgiaSofia.png"),
+            img: require("../../../assets/WorldMonuments/Asia/AgiaSofia.webp"),
           },
         ],
         correctAnswerIndex: 3,

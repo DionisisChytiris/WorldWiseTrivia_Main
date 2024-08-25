@@ -112,7 +112,7 @@ const questions3Es = [
       {
         id: "3",
         country: "Oratorio de San José de Monte Real\nCanadá",
-        img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.png"),
+        img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.webp"),
       },
     ],
     correctAnswerIndex: 2,

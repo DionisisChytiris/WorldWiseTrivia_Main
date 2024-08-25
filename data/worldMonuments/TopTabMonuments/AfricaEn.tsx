@@ -41,7 +41,7 @@ const AfricaMonEn = [
     },
     {
         id: '6',
-        img: require('../../../assets/WorldMonuments/Africa/KarnakTempleLuxor.png'),
+        img: require('../../../assets/WorldMonuments/Africa/KarnakTempleLuxor.webp'),
         name: 'Karnak Temple',
         country: 'Egypt',
         city: 'Luxor',

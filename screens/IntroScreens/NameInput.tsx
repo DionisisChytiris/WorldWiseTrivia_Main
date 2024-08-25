@@ -10,7 +10,7 @@ const NameInput = ({navigation}) => {
 
   const storeData = async()=>{
     if(name.length == 0) {
-      alert('warning!')
+      setName('user')
     } else {
       try{
         var user ={
@@ -20,7 +20,7 @@ const NameInput = ({navigation}) => {
           : name[0].toUpperCase() + name.slice(1)
         }
         await AsyncStorage.setItem('UserName', JSON.stringify(user))
-        navigation.navigate("Draw")
+        navigation.navigate("Draw", {name: name})
         setName('')
       }catch(e){
         console.log(e)
@@ -68,7 +68,7 @@ const NameInput = ({navigation}) => {
             >
               {t("Enter your Name")}
             </Text>
-            <Text>{name}</Text>
+            {/* <Text>{name}</Text> */}
           </View>
           <View style={{ flexDirection: "row", alignItems: "center", gap: 5 }}>
             <TextInput
@@ -88,7 +88,7 @@ const NameInput = ({navigation}) => {
         }}
       >
         <Pressable
-          onPress={()=>navigation.navigate("Draw")}
+          onPress={()=>navigation.navigate("Draw", {name: name})}
           style={styles.button1}
         >
           <Text style={styles.title}>{t("skip")}</Text>

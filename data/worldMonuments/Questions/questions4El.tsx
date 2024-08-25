@@ -230,7 +230,7 @@ const questions4El = [
       {
         id: "3",
         country: "Η Φωλιά της Τίγρης\nΜπουτάν",
-        img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
+        img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp"),
       },
     ],
     correctAnswerIndex: 2,
@@ -569,7 +569,7 @@ const questions4El = [
       {
         id: "0",
         country: "Σαρντ\nΗνωμένο Βασίλειο",
-        img: require("../../../assets/WorldMonuments/Europe/TheShard.png"),
+        img: require("../../../assets/WorldMonuments/Europe/TheShard.webp"),
       },
       {
         id: "1",

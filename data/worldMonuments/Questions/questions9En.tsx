@@ -53,7 +53,7 @@ const questions9En = [
           {
             id: "3",
             country: "Tiger's Nest\nBhutan",
-            img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
+            img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp"),
           },
         ],
         correctAnswerIndex: 0,
@@ -225,12 +225,12 @@ const questions9En = [
           {
             id: "2",
             country: "St.Joseph's Oratory\nCanada",
-            img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.png"),
+            img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.webp"),
           },
           {
             id: "3",
             country: "Taj Majal\nIndia",
-            img: require("../../../assets/WorldMonuments/Asia/TajMajal.png"),
+            img: require("../../../assets/WorldMonuments/Asia/TajMajal.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -274,7 +274,7 @@ const questions9En = [
           {
             id: "0",
             country: "Tikal\nGuatemala",
-            img: require("../../../assets/WorldMonuments/America/TikalGuatemala.png"),
+            img: require("../../../assets/WorldMonuments/America/TikalGuatemala.webp"),
           },
           {
             id: "1",
@@ -461,7 +461,7 @@ const questions9En = [
           {
             id: "2",
             country: "Citadel of Aleppo\nSyria",
-            img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png"),
+            img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.webp"),
           },
           {
             id: "3",

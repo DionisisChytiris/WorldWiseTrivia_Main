@@ -582,7 +582,7 @@ const qstMixed8El = [
       {
         id: "3",
         name: "Η Φωλιά της Τίγρης\nΜπουτάν",
-        img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
+        img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp"),
       },
     ],
     correctAnswerIndex: 0,

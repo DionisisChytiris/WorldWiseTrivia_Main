@@ -166,7 +166,7 @@ const questions5Es = [
           {
             id: "2",
             country: "Taj Mahal\nIndia",
-            img: require("../../../assets/WorldMonuments/Asia/TajMajal.png"),
+            img: require("../../../assets/WorldMonuments/Asia/TajMajal.webp"),
           },
           {
             id: "3",
@@ -348,7 +348,7 @@ const questions5Es = [
           {
             id: "3",
             country: "The Shard\nReino Unido",
-            img: require("../../../assets/WorldMonuments/Europe/TheShard.png"),
+            img: require("../../../assets/WorldMonuments/Europe/TheShard.webp"),
           },
         ],
         correctAnswerIndex: 0
@@ -451,7 +451,7 @@ const questions5Es = [
           {
             id: "0",
             country: "Oratorio de San José\nCanadá",
-            img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.png"),
+            img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.webp"),
           },
           {
             id: "1",

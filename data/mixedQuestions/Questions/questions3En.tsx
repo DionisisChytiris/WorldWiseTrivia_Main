@@ -581,7 +581,7 @@ const qstMixed3En = [
           {
             id: "3",
             country: "St.Joseph's Oratory\nCanada",
-            img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.png"),
+            img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.webp"),
           },
         ],
         correctAnswerIndex: 2,

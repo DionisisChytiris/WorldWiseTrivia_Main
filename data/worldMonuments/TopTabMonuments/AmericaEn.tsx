@@ -115,7 +115,7 @@ const AmericaMonEn = [
     },
     {
         id: '15',
-        img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.png"),
+        img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.webp"),
         name: "Saint Joseph's Oratory of Mount Royal",
         country: 'Canada',
         city: 'Montreal',
@@ -139,7 +139,7 @@ const AmericaMonEn = [
     },
     {
         id: '18',
-        img: require('../../../assets/WorldMonuments/America/TikalGuatemala.png'),
+        img: require('../../../assets/WorldMonuments/America/TikalGuatemala.webp'),
         name: 'Tikal',
         country: 'Guatemala',
         city: 'Flores\nPeten Basin',

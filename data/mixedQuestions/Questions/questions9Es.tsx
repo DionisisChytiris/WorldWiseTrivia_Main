@@ -165,7 +165,7 @@ const qstMixed9Es = [
           {
             id: "2",
             country: "Ciudadela de Alepo\nsiria",
-            img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png"),
+            img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.webp"),
           },
           {
             id: "3",

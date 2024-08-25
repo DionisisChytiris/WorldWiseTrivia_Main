@@ -166,7 +166,7 @@ const questions5El = [
           {
             id: "2",
             country: "Ταζ Μαχάλ\nΙνδία",
-            img: require("../../../assets/WorldMonuments/Asia/TajMajal.png"),
+            img: require("../../../assets/WorldMonuments/Asia/TajMajal.webp"),
           },
           {
             id: "3",
@@ -348,7 +348,7 @@ const questions5El = [
           {
             id: "3",
             country: "Σαρντ\nΗνωμένο Βασίλειο",
-            img: require("../../../assets/WorldMonuments/Europe/TheShard.png"),
+            img: require("../../../assets/WorldMonuments/Europe/TheShard.webp"),
           },
         ],
         correctAnswerIndex: 0
@@ -451,7 +451,7 @@ const questions5El = [
           {
             id: "0",
             country: "Ναός του Αγίου Ιωσήφ\nΚαναδάς",
-            img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.png"),
+            img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.webp"),
           },
           {
             id: "1",

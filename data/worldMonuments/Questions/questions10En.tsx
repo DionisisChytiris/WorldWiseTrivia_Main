@@ -53,7 +53,7 @@ const questions10En = [
       {
         id: "3",
         country: "Citadel of Aleppo\nSyria",
-        img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png"),
+        img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.webp"),
       },
     ],
     correctAnswerIndex: 2,
@@ -102,7 +102,7 @@ const questions10En = [
       {
         id: "1",
         country: "Hagia Sophia\nTurkey",
-        img: require("../../../assets/WorldMonuments/Asia/AgiaSofia.png"),
+        img: require("../../../assets/WorldMonuments/Asia/AgiaSofia.webp"),
       },
       {
         id: "2",
@@ -166,7 +166,7 @@ const questions10En = [
       {
         id: "2",
         country: "Tiger's Nest\nBhutan",
-        img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
+        img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp"),
       },
       {
         id: "3",
@@ -279,7 +279,7 @@ const questions10En = [
       {
         id: "1",
         country: "The Shard\nUK",
-        img: require("../../../assets/WorldMonuments/Europe/TheShard.png"),
+        img: require("../../../assets/WorldMonuments/Europe/TheShard.webp"),
       },
       {
         id: "2",
@@ -520,12 +520,12 @@ const questions10En = [
       {
         id: "2",
         country: "Karnak Temple Luxor\nEgypt",
-        img: require("../../../assets/WorldMonuments/Africa/KarnakTempleLuxor.png"),
+        img: require("../../../assets/WorldMonuments/Africa/KarnakTempleLuxor.webp"),
       },
       {
         id: "3",
         country: "Citadel of Aleppo\nSyria",
-        img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png"),
+        img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.webp"),
       },
     ],
     correctAnswerIndex: 1,

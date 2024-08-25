@@ -166,7 +166,7 @@ const questions7En = [
           {
             id: "2",
             country: "Tiger's Nest\nBhutan",
-            img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
+            img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp"),
           },
           {
             id: "3",

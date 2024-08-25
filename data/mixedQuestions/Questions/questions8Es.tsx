@@ -582,7 +582,7 @@ const qstMixed8Es = [
           {
             id: "3",
             name: "El nido de Tigre\nBután",
-            img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
+            img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp"),
           },
         ],
         correctAnswerIndex: 0,

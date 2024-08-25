@@ -333,7 +333,7 @@ const questions6Es = [
           {
             id: "0",
             country: "El nido del Tigre\nBután",
-            img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
+            img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp"),
           },
           {
             id: "1",
@@ -407,7 +407,7 @@ const questions6Es = [
           {
             id: "3",
             country: "Oratorio de San José\nCanadá",
-            img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.png"),
+            img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.webp"),
           },
         ],
         correctAnswerIndex: 2,
@@ -461,7 +461,7 @@ const questions6Es = [
           {
             id: "2",
             country: "Taj Mahal\nIndia",
-            img: require("../../../assets/WorldMonuments/Asia/TajMajal.png"),
+            img: require("../../../assets/WorldMonuments/Asia/TajMajal.webp"),
           },
           {
             id: "3",
@@ -584,7 +584,7 @@ const questions6Es = [
           {
             id: "3",
             country: "Tikal\nGuatemala",
-            img: require("../../../assets/WorldMonuments/America/TikalGuatemala.png"),
+            img: require("../../../assets/WorldMonuments/America/TikalGuatemala.webp"),
           },
         ],
         correctAnswerIndex: 1,

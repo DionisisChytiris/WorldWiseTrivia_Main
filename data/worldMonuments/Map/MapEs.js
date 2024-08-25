@@ -206,7 +206,7 @@ const mapDataEs = [
        ltr: 'C',
        title: 'Ciudadela de Alepo',
        description: "La Ciudadela de Alepo, ubicada en Alepo, Siria, es uno de los castillos más antiguos y grandes del mundo. Con una historia que se remonta al tercer milenio a.C., ha servido como fortaleza para diversas civilizaciones, incluidos los griegos, romanos, bizantinos y otomanos. A pesar de sufrir daños durante la Guerra Civil Siria, se están realizando esfuerzos para preservar y restaurar este Sitio de Patrimonio Mundial de la UNESCO, que es un testimonio de la rica historia y patrimonio cultural de la región.",
-       img: require('../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png'),
+       img: require('../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.webp'),
        latitude: 36.199476310873905,
        longitude: 37.16295102928561
        ,
@@ -439,7 +439,7 @@ const mapDataEs = [
        ltr: 'H-L',
        title: 'Santa Sofía',
        description: "Santa Sofía, ubicada en Estambul, Turquía, es una maravilla arquitectónica histórica construida originalmente como catedral en el año 537 d.C. Más tarde sirvió como mezquita y ahora funciona como museo. Conocida por su enorme cúpula y sus impresionantes mosaicos, Santa Sofía refleja la rica historia cultural y religiosa de los imperios bizantino y otomano.",
-       img: require('../../../assets/WorldMonuments/Asia/AgiaSofia.png'),
+       img: require('../../../assets/WorldMonuments/Asia/AgiaSofia.webp'),
        latitude: 41.00528189718451, 
        longitude: 28.976659657184122,
        zoomLocation: 6,
@@ -779,7 +779,7 @@ const mapDataEs = [
        ltr: 'S',
        title: "Oratorio de San José",
        description: "La Oratorio de San José del Monte Real es una basílica católica romana y santuario nacional ubicado en Montreal, Canadá. Construido en las laderas del Monte Real, está dedicado a San José, el santo patrón de Canadá. La construcción comenzó en 1904 bajo la guía del Hermano André, quien luego fue canonizado como santo. El oratorio es conocido por su impresionante arquitectura, su atmósfera serena y su papel como lugar de peregrinación y curación.",
-       img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.png"),
+       img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.webp"),
        latitude: 45.491889608012094,  
        longitude:  -73.61643461616332,
        zoomLocation: 9
@@ -889,7 +889,7 @@ const mapDataEs = [
        ltr: 'T',
        title: 'Taj Majal',
        description: "El Taj Mahal, ubicado en Agra, India, es uno de los ejemplos más exquisitos de la arquitectura mogol en el mundo. Construido por el emperador Shah Jahan en memoria de su amada esposa Mumtaz Mahal, es famoso por su impresionante mausoleo de mármol blanco y sus intrincados detalles decorativos. Completado en 1653, es un Patrimonio de la Humanidad de la UNESCO y un símbolo de amor y belleza eterna, atrayendo a millones de visitantes cada año de todo el mundo.",
-       img: require('../../../assets/WorldMonuments/Asia/TajMajal.png'),
+       img: require('../../../assets/WorldMonuments/Asia/TajMajal.webp'),
        latitude: 27.175077964874227, 
        longitude: 78.0421207389885,
        zoomLocation: 5
@@ -919,7 +919,7 @@ const mapDataEs = [
        ltr: 'T',
        title: "Tikal",
        description: "Tikal, ubicado en la selva tropical de Guatemala, es uno de los sitios arqueológicos más importantes de la antigua civilización maya. Sus imponentes pirámides y templos se elevan sobre el dosel de la selva, ofreciendo una visión de la rica historia y cultura de los mayas. Designado como Patrimonio de la Humanidad por la UNESCO, Tikal atrae a visitantes de todo el mundo que vienen a explorar sus impresionantes ruinas y sumergirse en la atmósfera misteriosa de esta antigua ciudad.",
-       img: require('../../../assets/WorldMonuments/America/TikalGuatemala.png'),
+       img: require('../../../assets/WorldMonuments/America/TikalGuatemala.webp'),
        latitude: 17.227213064277567,   
        longitude: -89.60934255154484,
        zoomLocation: 7
@@ -979,7 +979,7 @@ const mapDataEs = [
        ltr: 'T',
        title: "Nido de Tigre",
        description: 'El Nido del Tigre, también conocido como Paro Taktsang, es un monasterio sagrado situado en un acantilado en el Valle de Paro de Bután. Construido en 1692, este sitio icónico se aferra al borde de una montaña empinada, ofreciendo vistas impresionantes del paisaje circundante. Es un símbolo de la cultura y espiritualidad butanesas, atrayendo a peregrinos y turistas por igual para recorrer el desafiante sendero y alcanzar sus salones venerados.',
-       img: require('../../../assets/WorldMonuments/Asia/TigersNestBhutan.png'),
+       img: require('../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp'),
        latitude: 27.488750671031582,
        longitude:  89.35871623899675,
        zoomLocation: 6

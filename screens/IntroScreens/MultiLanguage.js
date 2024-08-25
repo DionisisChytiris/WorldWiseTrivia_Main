@@ -1,5 +1,5 @@
 import { useNavigation } from "@react-navigation/native";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { View, Text, StyleSheet, Pressable, Image, Alert } from "react-native";
 import { RFValue } from "react-native-responsive-fontsize";
 import i18next, { languageResources } from "../../MultiLanguage/i18next";
@@ -99,6 +99,25 @@ const MultiLanguage = () => {
   const [color3, setColor3] = useState("#dbdddd");
   const { t } = useTranslation();
   const dispatch = useDispatch();
+  const [name, setName] = useState("");
+
+  useEffect(() => {
+    getData();
+  }, []);
+
+  const getData= ()=>{
+    try{
+      AsyncStorage.getItem('UserName')
+      .then((value)=>{
+        if(value !=null){
+          let user = JSON.parse(value)
+          setName(user.Name)
+        }
+      })
+    }catch(e){
+      console.log(e)
+    }
+  }
 
   const English = () => {
     setColor1("#4ddbdf");
@@ -271,7 +290,7 @@ const MultiLanguage = () => {
       </View>
       <View style={styles.skipNextBtn}>
         <Pressable
-          onPress={() => navigation.navigate("Draw")}
+          onPress={() => navigation.navigate("Draw", {name: name})}
           style={styles.button1}
         >
           <Text style={styles.title}>{t("skip")}</Text>

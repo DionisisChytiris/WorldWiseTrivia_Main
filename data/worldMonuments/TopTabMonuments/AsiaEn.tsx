@@ -41,7 +41,7 @@ const AsiaMonEn = [
     },
     {
         id: '6',
-        img: require('../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png'),
+        img: require('../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.webp'),
         name: 'Citadel of Aleppo ',
         country: 'Syria',
         city: 'Aleppo',
@@ -97,7 +97,7 @@ const AsiaMonEn = [
     },
     {
         id: '13',
-        img: require('../../../assets/WorldMonuments/Asia/AgiaSofia.png'),
+        img: require('../../../assets/WorldMonuments/Asia/AgiaSofia.webp'),
         name: 'Hagia Sophia',
         country: 'Turkey',
         city: 'Instanbul',
@@ -210,7 +210,7 @@ const AsiaMonEn = [
     },
     {
         id: '27',
-        img: require('../../../assets/WorldMonuments/Asia/TajMajal.png'),
+        img: require('../../../assets/WorldMonuments/Asia/TajMajal.webp'),
         name: 'Taj Mahal',
         country: 'India',
         city: 'Agra',
@@ -250,7 +250,7 @@ const AsiaMonEn = [
     },
     {
         id: '32',
-        img: require('../../../assets/WorldMonuments/Asia/TigersNestBhutan.png'),
+        img: require('../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp'),
         name: "Tiger's Nest",
         country: 'Bhutan',
         city: 'Paro',

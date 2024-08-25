@@ -579,12 +579,12 @@ const qstMixed10En = [
       {
         id: "2",
         country: "Karnak Temple Luxor\nEgypt",
-        img: require("../../../assets/WorldMonuments/Africa/KarnakTempleLuxor.png"),
+        img: require("../../../assets/WorldMonuments/Africa/KarnakTempleLuxor.webp"),
       },
       {
         id: "3",
         country: "Citadel of Aleppo\nSyria",
-        img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png"),
+        img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.webp"),
       },
     ],
     correctAnswerIndex: 1,

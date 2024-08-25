@@ -4,7 +4,7 @@ const questions2Es = [
     status: "Capitals",
     img: 'L',
     country: "Turquía",
-    image: require("../../../assets/WorldMonuments/Asia/AgiaSofia.png"),
+    image: require("../../../assets/WorldMonuments/Asia/AgiaSofia.webp"),
     options: [
       {
         id: "0",
@@ -53,7 +53,7 @@ const questions2Es = [
       {
         id: "3",
         country: "Catedral de Santa Sofía",
-        img: require("../../../assets/WorldMonuments/Asia/AgiaSofia.png"),
+        img: require("../../../assets/WorldMonuments/Asia/AgiaSofia.webp"),
       },
     ],
     correctAnswerIndex: 3,
@@ -230,7 +230,7 @@ const questions2Es = [
       {
         id: "3",
         country: "Catedral de Santa Sofía\nTurquía",
-        img: require("../../../assets/WorldMonuments/Asia/AgiaSofia.png"),
+        img: require("../../../assets/WorldMonuments/Asia/AgiaSofia.webp"),
       },
     ],
     correctAnswerIndex: 2,
@@ -397,7 +397,7 @@ const questions2Es = [
       {
         id: "1",
         country: "The Shard\nReino Unido",
-        img: require("../../../assets/WorldMonuments/Europe/TheShard.png"),
+        img: require("../../../assets/WorldMonuments/Europe/TheShard.webp"),
       },
       {
         id: "2",

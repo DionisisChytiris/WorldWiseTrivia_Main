@@ -166,7 +166,7 @@ const questions7El = [
           {
             id: "2",
             country: "Η Φωλιά της Τίγρης\nΜπουτάν",
-            img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.png"),
+            img: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp"),
           },
           {
             id: "3",

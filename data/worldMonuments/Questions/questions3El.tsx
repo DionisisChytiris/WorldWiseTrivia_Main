@@ -112,7 +112,7 @@ const questions3El = [
       {
         id: "3",
         country: "Η ρητορική του\nΑγίου Ιωσήφ\nΚαναδάς",
-        img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.png"),
+        img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.webp"),
       },
     ],
     correctAnswerIndex: 2,

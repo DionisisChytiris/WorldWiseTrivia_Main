@@ -48,7 +48,7 @@ const qstMixed5En = [
       {
         id: "2",
         country: "Taj Mahal\nIndia",
-        img: require("../../../assets/WorldMonuments/Asia/TajMajal.png"),
+        img: require("../../../assets/WorldMonuments/Asia/TajMajal.webp"),
       },
       {
         id: "3",

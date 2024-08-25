@@ -206,7 +206,7 @@ const mapDataEn = [
         ltr: 'C',
         title: 'Citadel of Aleppo',
         description: "The Citadel of Aleppo, located in Aleppo, Syria, is one of the oldest and largest castles in the world. Dating back to the 3rd millennium BC, it has served as a fortress for various civilizations, including the Greeks, Romans, Byzantines, and Ottomans. Despite suffering damage during the Syrian Civil War, efforts are underway to preserve and restore this UNESCO World Heritage Site, which stands as a testament to the region's rich history and cultural heritage.",
-        img: require('../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.png'),
+        img: require('../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.webp'),
         latitude: 36.199476310873905,
         longitude: 37.16295102928561
         ,
@@ -439,7 +439,7 @@ const mapDataEn = [
         ltr: 'H-L',
         title: 'Hagia Sofia',
         description: "Hagia Sophia, located in Istanbul, Turkey, is a historic architectural marvel originally built as a cathedral in 537 AD. It later served as a mosque and now functions as a museum. Renowned for its massive dome and stunning mosaics, Hagia Sophia reflects the rich cultural and religious history of the Byzantine and Ottoman empires.",
-        img: require('../../../assets/WorldMonuments/Asia/AgiaSofia.png'),
+        img: require('../../../assets/WorldMonuments/Asia/AgiaSofia.webp'),
         latitude: 41.00528189718451, 
         longitude: 28.976659657184122,
         zoomLocation: 6,
@@ -779,7 +779,7 @@ const mapDataEn = [
         ltr: 'S',
         title: "Saint Joseph's Oratory",
         description: "Saint Joseph's Oratory of Mount Royal is a Roman Catholic basilica and national shrine located in Montreal, Canada. Built on the slopes of Mount Royal, it is dedicated to Saint Joseph, the patron saint of Canada. Construction began in 1904 under the guidance of Brother André, who was later canonized as a saint. The oratory is known for its stunning architecture, serene atmosphere, and its role as a place of pilgrimage and healing.",
-        img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.png"),
+        img: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.webp"),
         latitude: 45.491889608012094,  
         longitude:  -73.61643461616332,
         zoomLocation: 9
@@ -889,7 +889,7 @@ const mapDataEn = [
         ltr: 'T',
         title: 'Taj Majal',
         description: "The Taj Mahal, located in Agra, India, is one of the most exquisite examples of Mughal architecture in the world. Built by Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal, it is renowned for its stunning white marble mausoleum and intricate decorative details. Completed in 1653, it is a UNESCO World Heritage Site and a symbol of eternal love and beauty, attracting millions of visitors annually from around the globe.",
-        img: require('../../../assets/WorldMonuments/Asia/TajMajal.png'),
+        img: require('../../../assets/WorldMonuments/Asia/TajMajal.webp'),
         latitude: 27.175077964874227, 
         longitude: 78.0421207389885,
         zoomLocation: 5
@@ -919,7 +919,7 @@ const mapDataEn = [
         ltr: 'T',
         title: "Tikal",
         description: "Tikal, located in the rainforests of Guatemala, is one of the most significant archaeological sites of the ancient Mayan civilization. Its towering pyramids and temples rise above the jungle canopy, offering a glimpse into the rich history and culture of the Maya. Designated as a UNESCO World Heritage Site, Tikal attracts visitors from around the world who come to explore its impressive ruins and immerse themselves in the mysterious atmosphere of this ancient city.",
-        img: require('../../../assets/WorldMonuments/America/TikalGuatemala.png'),
+        img: require('../../../assets/WorldMonuments/America/TikalGuatemala.webp'),
         latitude: 17.227213064277567,   
         longitude: -89.60934255154484,
         zoomLocation: 7
@@ -979,7 +979,7 @@ const mapDataEn = [
         ltr: 'T',
         title: "Tiger's Nest",
         description: "Tiger's Nest, also known as Paro Taktsang, is a sacred monastery perched on a cliffside in the Paro Valley of Bhutan. Built in 1692, this iconic site clings to the edge of a steep mountain, offering breathtaking views of the surrounding landscape. It is a symbol of Bhutanese culture and spirituality, attracting pilgrims and tourists alike to hike the challenging trail to reach its revered halls.",
-        img: require('../../../assets/WorldMonuments/Asia/TigersNestBhutan.png'),
+        img: require('../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp'),
         latitude: 27.488750671031582,
         longitude:  89.35871623899675,
         zoomLocation: 6

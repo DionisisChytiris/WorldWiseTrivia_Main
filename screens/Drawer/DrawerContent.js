@@ -203,6 +203,7 @@ import { Feather } from "@expo/vector-icons";
 import { toggleBoolean } from "../../ReduxSetUp/SoundVibration/VibrationSlice.tsx";
 import { useAppSelector } from "../../ReduxSetUp/store";
 import { toggleSound } from "../../ReduxSetUp/SoundVibration/SoundSlice";
+import { useRoute } from "@react-navigation/native";
 // import { statusActive, statusCancel, toggleValue } from "../../ReduxSetUp/SoundVibration/VibrationSlice.tsx";
 
 const DrawerContent = (props) => {
@@ -220,6 +221,8 @@ const DrawerContent = (props) => {
   const [isbg2, setIsbg2] = useState("transparent");
   const lightMode = require("../../assets/settings/day-mode.png");
   const darkMode = require("../../assets/settings/moon.png");
+  const route = useRoute();
+  const newName = route.params.name
 
   useEffect(() => {
     getData();
@@ -243,7 +246,8 @@ const DrawerContent = (props) => {
       await AsyncStorage.clear();
       // await AsyncStorage.removeItem('score1');
       navigation.navigate("NameInput");
-      setName(user.Name);
+      // setName(user.Name);
+      setName('');
     } catch (error) {
       console.log(error);
     }
@@ -470,7 +474,7 @@ const DrawerContent = (props) => {
         <TouchableRipple>
           <View style={styles.userTitle}>
             <Text style={[styles.userText, { color: colors.textDrawer }]}>
-              {t("hello")} {name}!!!
+              {t("hello")} {newName ? newName : '...' }!!!
             </Text>
             <Pressable
               style={{ position: "absolute", right: 20 }}

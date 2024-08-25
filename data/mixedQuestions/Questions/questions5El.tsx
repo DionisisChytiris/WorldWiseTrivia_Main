@@ -48,7 +48,7 @@ const qstMixed5El = [
       {
         id: "2",
         country: "Ταζ Μαχάλ\nΙνδία",
-        img: require("../../../assets/WorldMonuments/Asia/TajMajal.png"),
+        img: require("../../../assets/WorldMonuments/Asia/TajMajal.webp"),
       },
       {
         id: "3",

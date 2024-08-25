@@ -87,7 +87,7 @@ const ChangeTheme= () => {
         }}
       >
         <Pressable
-          onPress={() => navigation.navigate("Draw")}
+          onPress={() => navigation.navigate("Draw", {name: name})}
           style={styles.button1}
         >
           <Text style={styles.title}>{t("skip")}</Text>
