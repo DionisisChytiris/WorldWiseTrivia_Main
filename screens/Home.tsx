@@ -96,6 +96,9 @@ const Home = () => {
           </View>
         )} */}
       </Pressable>
+      <View style={{position: 'absolute', bottom: 40}}>
+        <Text style={{ color: text1, fontSize: 12 }}> 2024</Text>
+      </View>
       {/* <View style={{ position: "absolute", bottom: 80 }}>
         <Pressable onPress={playSound}>
           <Text style={{ color: "white", marginTop: 50 }}>Sound On</Text>
