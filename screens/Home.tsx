@@ -4,21 +4,22 @@ import { AppNavigatorTypeList } from "../Types/AppNavigatorTypeList";
 import React, { useState, useEffect } from "react";
 import { View, Text, StyleSheet, Pressable } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { useTheme } from "../utils/ThemeMode/ThemeProvider";
 import { Audio } from "expo-av";
 import { toggleBoolean } from "../ReduxSetUp/SoundVibration/VibrationSlice";
 import { useAppSelector } from "../ReduxSetUp/store";
-import { use } from "i18next";
-import { Colors } from "react-native-paper";
 
 type HomeProp = StackNavigationProp<AppNavigatorTypeList, "Home">;
 
 const Home = () => {
   const boolean = useAppSelector((state) => state.boolean.value);
   const navigation = useNavigation<HomeProp>();
+  const { colors } = useTheme();
   const [name, setName] = useState("");
   const [color, setColor] = useState("#002c54");
   const [circle, setCircle] = useState("#ccc");
   const [text, setText] = useState("#002c54");
+  const [text1, setText1] = useState("#9aa3a8");
 
   useEffect(() => {
     getData();
@@ -64,17 +65,18 @@ const Home = () => {
     <View style={[styles.container, { backgroundColor: color }]}>
       {name ? (
         <View style={{ marginBottom: 0 }}>
-          <Text style={{ color: 'white', marginTop: -100 }}>Welcome back {name}</Text>
+          <Text style={{ color: text1, marginTop: -120 }}>Welcome back {name}</Text>
         </View>
       ):null }
       <Pressable
         onPressIn={() => (
-          setColor("#ccc"), setCircle("#002c54"), setText("#ccc")
+          setColor("#ccc"), setCircle("#002c54"), setText("#ccc"),setText1("#002c54")
         )}
         onPressOut={() => {
           setColor("#002c54");
           setCircle("#ccc");
           setText("#002c54");
+          setText1("#9aa3a8")
           name
             ? navigation.navigate("Draw", {name: name})
             : navigation.navigate("MultiLanguage");
@@ -123,6 +125,7 @@ const styles = StyleSheet.create({
     // backgroundColor: '#002c54',
     alignItems: "center",
     justifyContent: "center",
+    // marginVertical: 60
   },
   circle: {
     width: 200,

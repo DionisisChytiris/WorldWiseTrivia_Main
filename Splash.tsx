@@ -9,28 +9,22 @@ interface SplashProps {
 
 const Splash = ({ setIsLoading }: SplashProps): JSX.Element => {
   return (
-
-
     <View
       style={{
         flex: 1,
         margin: 0,
         alignItems: "center",
-        backgroundColor: "transparent",
+        backgroundColor: "transparent"
       }}
     >
-      {/* <Text>Hello</Text>
-        <Text>Hello</Text>
-        <Text>Hello</Text> */}
       <LottieView
         style={{ width: "100%", height: "100%" }}
         source={require("./assets/LottieAnimation/splashscreen.json")}
         autoPlay
         loop={false}
-        onAnimationFinish={()=>setIsLoading(false)}
+        onAnimationFinish={() => setIsLoading(false)}
       />
     </View>
-
   );
 };
 
