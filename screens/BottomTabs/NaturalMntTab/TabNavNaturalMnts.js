@@ -1,6 +1,6 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { Pressable, Image, Platform, Text } from "react-native";
+import { Pressable, Image, Platform, Text, View } from "react-native";
 import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import Settings from "../Settings";
 import NaturalMntsQuizHome from "./NaturalMntsQuizHome";
@@ -9,6 +9,7 @@ import { Quiz1, Quiz10, Quiz2, Quiz3, Quiz4, Quiz5, Quiz6, Quiz7, Quiz8,Quiz9, R
 // import Return from './Return'
 import Map from './Map'
 import { useTranslation } from "react-i18next";
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import TopTabNaturalMntsNavigator from "./TopTabNaturalMnts/topTabNaturalMntsNavigator";
 import ChooseQuizType from "./ChooseQuizType";
 
@@ -124,10 +125,13 @@ const TabNavNaturalMnts = ({ navigation }) => {
           tabBarLabel: t("Map"),
           // tabBarIcon: () => <AntDesign name="home" size={24} color="blue" />,
           tabBarIcon: () => (
-            <Image
-              style={{ width: 30, height: 30, marginTop: 10 }}
-              source={require("../../../assets/settings/undo.png")}
-            />
+            <View style={{marginBottom: -15}}>
+            <MaterialCommunityIcons name="map-marker-radius" size={32} color="white" />
+          </View>
+            // <Image
+            //   style={{ width: 30, height: 30, marginTop: 10 }}
+            //   source={require("../../../assets/settings/undo.png")}
+            // />
           ),
         }}
       >
