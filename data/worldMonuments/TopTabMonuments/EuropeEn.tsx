@@ -89,7 +89,7 @@ const EuropeMonEn = [
     },
     {
         id: '11',
-        img: require('../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp'),
+        img: require('../../../assets/WorldMonuments/Europe/Carcason.webp'),
         name: 'Cité de Carcassonne',
         country: 'France',
         city: 'Carcassonne'

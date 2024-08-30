@@ -572,12 +572,12 @@ const qstMixed8El = [
       {
         id: "1",
         name: "Αϊτ Μπεντχαντού\nMαρόκο",
-        img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp"),
+        img: require("../../../assets/WorldMonuments/Africa/AitBen.webp"),
       },
       {
         id: "2",
         name: "Καρκασόν\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
+        img: require("../../../assets/WorldMonuments/Europe/Carcason.webp"),
       },
       {
         id: "3",

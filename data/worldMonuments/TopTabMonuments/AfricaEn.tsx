@@ -9,7 +9,7 @@ const AfricaMonEn = [
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp'),
+        img: require('../../../assets/WorldMonuments/Africa/AitBen.webp'),
         name: 'Aït Benhaddou',
         country: 'Morocco',
         city: 'Aït Benhaddou',

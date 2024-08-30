@@ -230,7 +230,7 @@ const questions1El = [
       {
         id: "3",
         country: "Καρκασσόν\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
+        img: require("../../../assets/WorldMonuments/Europe/Carcason.webp"),
       },
     ],
     correctAnswerIndex: 0,

@@ -284,7 +284,7 @@ const questions9El = [
           {
             id: "2",
             country: "Καρκασόν\nΓαλλία",
-            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/Carcason.webp"),
           },
           {
             id: "3",
@@ -510,7 +510,7 @@ const questions9El = [
           {
             id: "0",
             country: "Καρκασόν\nΓαλλία",
-            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/Carcason.webp"),
           },
           {
             id: "1",

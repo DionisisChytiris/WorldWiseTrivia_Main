@@ -81,7 +81,7 @@ const EuropeMonEl = [
     },
     {
         id: '11',
-        img: require('../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp'),
+        img: require('../../../assets/WorldMonuments/Europe/Carcason.webp'),
         name: 'Παλαιά πόλη της Καρκασσόν',
         country: 'Γαλλία',
         city: 'Καρκασσόν'

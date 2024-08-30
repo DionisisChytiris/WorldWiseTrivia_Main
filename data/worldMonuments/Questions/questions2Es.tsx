@@ -102,7 +102,7 @@ const questions2Es = [
       {
         id: "1",
         country: "Ait Ben Hadu\nMarruecos",
-        img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp"),
+        img: require("../../../assets/WorldMonuments/Africa/AitBen.webp"),
       },
       {
         id: "2",

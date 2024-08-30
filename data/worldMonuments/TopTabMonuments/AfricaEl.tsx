@@ -9,7 +9,7 @@ const AfricaMonEl = [
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp'),
+        img: require('../../../assets/WorldMonuments/Africa/AitBen.webp'),
         name: 'Αΐτ-Μπεν-Χαντού',
         country: 'Μαρόκο',
         city: 'Αΐτ-Μπεν-Χαντού',

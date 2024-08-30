@@ -48,7 +48,7 @@ const questions5El = [
           {
             id: "2",
             country: "Καρκασόν\nΓαλλία",
-            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/Carcason.webp"),
           },
           {
             id: "3",
@@ -289,7 +289,7 @@ const questions5El = [
           {
             id: "3",
             country: "Καρκασόν\nΓαλλία",
-            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/Carcason.webp"),
           },
         ],
         correctAnswerIndex: 2,

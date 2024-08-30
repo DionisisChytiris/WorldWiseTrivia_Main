@@ -512,7 +512,7 @@ const qstMixed2El = [
           {
             id: "1",
             country: "Αΐτ-Μπεν-Χαντού\nMαρόκο",
-            img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp"),
+            img: require("../../../assets/WorldMonuments/Africa/AitBen.webp"),
           },
           {
             id: "2",

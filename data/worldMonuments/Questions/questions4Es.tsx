@@ -510,7 +510,7 @@ const questions4Es = [
       {
         id: "0",
         country: "Ciudadela de Carcasona\nFrancia",
-        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
+        img: require("../../../assets/WorldMonuments/Europe/Carcason.webp"),
       },
       {
         id: "1",

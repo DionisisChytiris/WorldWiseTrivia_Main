@@ -510,7 +510,7 @@ const questions4En = [
       {
         id: "0",
         country: "Cité de Carcassonne\nFrance",
-        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
+        img: require("../../../assets/WorldMonuments/Europe/Carcason.webp"),
       },
       {
         id: "1",

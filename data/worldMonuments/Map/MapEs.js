@@ -24,7 +24,7 @@ const mapDataEs = [
        ltr: 'A',
        title: 'Aït Benhaddou',
        description: 'Aït Benhaddou es un histórico ksar (pueblo fortificado) situado en el sur de Marruecos, conocido por su impresionante arquitectura de tierra. Data del siglo XVII y ha sido Patrimonio de la Humanidad por la UNESCO desde 1987. Ha servido como escenario para muchas películas famosas.',
-       img: require('../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp'),
+       img: require('../../../assets/WorldMonuments/Africa/AitBen.webp'),
        latitude: 31.046181462516635,
        longitude: -7.132153412968057,
        zoomLocation: 6,
@@ -217,7 +217,7 @@ const mapDataEs = [
        ltr: 'C',
        title: 'Cité de Carcassonne',
        description: "La Cité de Carcassonne, ubicada en Carcasona, Francia, es una fortaleza medieval y Patrimonio de la Humanidad de la UNESCO. Con una historia que se remonta al período galo-romano, es famosa por sus murallas dobles bien conservadas y 52 torres. La fortaleza jugó un papel significativo en la historia de Francia y sirvió como una fortaleza militar estratégica. Hoy en día, atrae a visitantes de todo el mundo que vienen a explorar sus calles serpenteantes, murallas antiguas y sitios históricos.",
-       img: require('../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp'),
+       img: require('../../../assets/WorldMonuments/Europe/Carcason.webp'),
        latitude: 43.206081571126795,
        longitude: 2.3642282838057684
        ,

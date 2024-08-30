@@ -514,7 +514,7 @@ const qstMixed2En = [
           {
             id: "1",
             country: "Aït Benhaddou\nMorocco",
-            img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp"),
+            img: require("../../../assets/WorldMonuments/Africa/AitBen.webp"),
           },
           {
             id: "2",

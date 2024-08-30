@@ -53,7 +53,7 @@ const qstMixed10En = [
       {
         id: "3",
         country: "Cité de Carcassonne\nFrance",
-        img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
+        img: require("../../../assets/WorldMonuments/Europe/Carcason.webp"),
       },
     ],
     correctAnswerIndex: 2,

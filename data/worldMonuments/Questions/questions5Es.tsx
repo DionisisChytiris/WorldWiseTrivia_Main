@@ -48,7 +48,7 @@ const questions5Es = [
           {
             id: "2",
             country: "Ciudadela de Carcasona\nFrancia",
-            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/Carcason.webp"),
           },
           {
             id: "3",
@@ -289,7 +289,7 @@ const questions5Es = [
           {
             id: "3",
             country: "Ciudadela de Carcasona\nFrancia",
-            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/Carcason.webp"),
           },
         ],
         correctAnswerIndex: 2,

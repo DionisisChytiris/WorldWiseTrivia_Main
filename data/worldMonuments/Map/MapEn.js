@@ -24,7 +24,7 @@ const mapDataEn = [
         ltr: 'A',
         title: 'Aït Benhaddou',
         description: 'Aït Benhaddou is a historic ksar (fortified village) located in southern Morocco, known for its stunning earthen architecture. Dating back to the 17th century, it has been a UNESCO World Heritage Site since 1987 and has served as a backdrop for many famous films.',
-        img: require('../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp'),
+        img: require('../../../assets/WorldMonuments/Africa/AitBen.webp'),
         latitude: 31.046181462516635,
         longitude: -7.132153412968057,
         zoomLocation: 6,
@@ -217,7 +217,7 @@ const mapDataEn = [
         ltr: 'C',
         title: 'Cité de Carcassonne',
         description: "The Cité de Carcassonne, located in Carcassonne, France, is a medieval fortress and UNESCO World Heritage Site. Dating back to the Gallo-Roman period, it is famous for its well-preserved double walls and 52 towers. The fortress played a significant role in the history of France and served as a strategic military stronghold. Today, it attracts visitors from around the world who come to explore its winding streets, ancient ramparts, and historical sites.",
-        img: require('../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp'),
+        img: require('../../../assets/WorldMonuments/Europe/Carcason.webp'),
         latitude: 43.206081571126795,
         longitude: 2.3642282838057684
         ,

@@ -9,7 +9,7 @@ const AfricaMonEs = [
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp'),
+        img: require('../../../assets/WorldMonuments/Africa/AitBen.webp'),
         name: 'Ait Ben Hadu',
         country: 'Marruecos',
         city: 'Aït Ben Hadu',

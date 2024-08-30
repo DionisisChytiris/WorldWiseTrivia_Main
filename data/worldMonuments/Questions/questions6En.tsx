@@ -181,7 +181,7 @@ const questions6En = [
         status: "Capitals",
         img: 'L',
         country: "Morocco",
-        image: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp"),
+        image: require("../../../assets/WorldMonuments/Africa/AitBen.webp"),
         options: [
           {
             id: "0",
@@ -225,7 +225,7 @@ const questions6En = [
           {
             id: "2",
             country: "Aït Benhaddou\nMorocco",
-            img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp"),
+            img: require("../../../assets/WorldMonuments/Africa/AitBen.webp"),
           },
           {
             id: "3",

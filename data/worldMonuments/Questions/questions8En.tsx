@@ -574,12 +574,12 @@
           {
             id: "1",
             name: "Aït Benhaddou\nMorocco",
-            img: require("../../../assets/WorldMonuments/Africa/AïtBenhaddou.webp"),
+            img: require("../../../assets/WorldMonuments/Africa/AitBen.webp"),
           },
           {
             id: "2",
             name: "Cité de Carcassonne\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/CitédeCarcassonne.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/Carcason.webp"),
           },
           {
             id: "3",
