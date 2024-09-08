@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "WorldQuiz",
-    "slug": "WorldQuiz",
+    "name": "WorldWise Trivia App",
+    "slug": "WorldWiseTriviaApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo2.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,8 +18,10 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.worldwisetrivia.app",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo2.png",
         "backgroundColor": "#ffffff"
       }
     },
