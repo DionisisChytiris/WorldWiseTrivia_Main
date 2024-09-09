@@ -51,7 +51,7 @@ const EurMntEn = [
     },
     {
         id: '5',
-        img: require('../../../assets/NaturalMnt/Europe/Giant\'sCauseway.png'),
+        img: require('../../../assets/NaturalMnt/Europe/GiantsCauseway.webp'),
         name: 'Giant\'s Causeway',
         country: 'Ireland',
         // city: 'County Antrim'
@@ -72,7 +72,7 @@ const EurMntEn = [
     },
     {
         id: '6aw',
-        img: require('../../../assets/WorldMonuments/Europe/meteora.jpg'),
+        img: require('../../../assets/WorldMonuments/Europe/meteora.webp'),
         name: 'Meteora',
         country: 'Greece',
         // city: 'Julian Alps'

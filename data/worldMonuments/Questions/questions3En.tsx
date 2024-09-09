@@ -48,7 +48,7 @@ const questions3En = [
       {
         id: "2",
         country: "Rialto Bridge\nItaly",
-        img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
       },
       {
         id: "3",

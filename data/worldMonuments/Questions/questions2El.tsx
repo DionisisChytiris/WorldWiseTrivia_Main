@@ -38,12 +38,12 @@ const questions2El = [
       {
         id: "0",
         country: "Χαλέπι\nΣυρία",
-        img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.jpg"),
+        img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.webp"),
       },
       {
         id: "1",
         country: "Mετέωρα\nΕλλάδα",
-        img: require("../../../assets/WorldMonuments/Europe/meteora.jpg"),
+        img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
       },
       {
         id: "2",
@@ -407,7 +407,7 @@ const questions2El = [
       {
         id: "3",
         country: "Εμπάιρ Στέιτ\nΜπίλντινγκ\nΗΠΑ",
-        img: require("../../../assets/WorldMonuments/USA/Empire-State-Building.png"),
+        img: require("../../../assets/WorldMonuments/USA/Empire-State-Building.jpg"),
       },
     ],
     correctAnswerIndex: 2,

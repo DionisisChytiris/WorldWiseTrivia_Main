@@ -513,7 +513,7 @@ const qstMixed4El = [
           {
             id: "1",
             country: "Γέφυρα του Ριάλτο\nΙταλία",
-            img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
           },
           {
             id: "2",

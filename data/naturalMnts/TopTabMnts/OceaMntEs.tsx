@@ -9,7 +9,7 @@ const OceaMntEs = [
 
   {
     id: "2",
-    img: require("../../../assets/NaturalMnt/Oceania/greatBarrierReef.png"),
+    img: require("../../../assets/NaturalMnt/Oceania/greatBarrierReef.webp"),
     name: "Gran Barrera de Coral",
     country: "Australia",
     city: "",

@@ -49,7 +49,7 @@ const AmericaMonEl = [
     },
     {
         id: '7',
-        img: require('../../../assets/WorldMonuments/USA/Empire-State-Building.png'),
+        img: require('../../../assets/WorldMonuments/USA/Empire-State-Building.jpg'),
         name: 'Εμπάιρ Στέιτ Μπίλντινγκ',
         country: 'ΗΠΑ',
         city: 'Νέα Υόρκη',

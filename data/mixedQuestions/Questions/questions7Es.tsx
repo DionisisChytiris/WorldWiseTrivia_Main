@@ -48,7 +48,7 @@ const qstMixed7Es = [
       {
         id: "2",
         country: "Palacio de Versalles\nFrancia",
-        img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.jpg"),
       },
       {
         id: "3",
@@ -155,7 +155,7 @@ const qstMixed7Es = [
       {
         id: "0",
         country: "Puente de Rialto\nItalia",
-        img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
       },
       {
         id: "1",

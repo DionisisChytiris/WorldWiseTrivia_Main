@@ -50,7 +50,7 @@ const AmericaMonEn = [
     },
     {
         id: '7',
-        img: require('../../../assets/WorldMonuments/USA/Empire-State-Building.png'),
+        img: require('../../../assets/WorldMonuments/USA/Empire-State-Building.jpg'),
         name: 'Empire State Building',
         country: 'USA',
         city: 'New York',

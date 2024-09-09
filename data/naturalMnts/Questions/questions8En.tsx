@@ -107,7 +107,7 @@ const questions8En = [
           {
             id: "2",
             name: "Great Ocean Road\nAustralia",
-            img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.png"),
+            img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.jpg"),
           },
           {
             id: "3",

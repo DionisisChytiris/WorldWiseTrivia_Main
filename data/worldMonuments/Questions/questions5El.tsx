@@ -535,7 +535,7 @@ const questions5El = [
         status: "Capitals",
         img: 'L',
         country: "Σιγκαπούρη",
-        image: require("../../../assets/WorldMonuments/Asia/Gardens-by-the-Bay.jpg"),
+        image: require("../../../assets/WorldMonuments/Asia/Gardens-by-the-Bay.webp"),
         options: [
           {
             id: "0",
@@ -574,7 +574,7 @@ const questions5El = [
           {
             id: "1",
             country: "Παλάτι των Βερσαλλιών\nΓαλλία",
-            img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.jpg"),
           },
           {
             id: "2",

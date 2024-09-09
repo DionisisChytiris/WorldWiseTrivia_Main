@@ -161,7 +161,7 @@ const questions1En = [
       {
         id: "1",
         country: "Colosseum\nItaly",
-        img: require("../../../assets/WorldMonuments/Europe/colosseum.jpg"),
+        img: require("../../../assets/WorldMonuments/Europe/colosseum.webp"),
       },
       {
         id: "2",
@@ -181,7 +181,7 @@ const questions1En = [
     status: "Capitals",
     img: 'L',
     country: "India",
-    image: require("../../../assets/WorldMonuments/Asia/TajMajal.jpg"),
+    image: require("../../../assets/WorldMonuments/Asia/TajMajal.webp"),
     options: [
       {
         id: "0",
@@ -215,7 +215,7 @@ const questions1En = [
       {
         id: "0",
         country: "Taj Mahal\nIndia",
-        img: require("../../../assets/WorldMonuments/Asia/TajMajal.jpg"),
+        img: require("../../../assets/WorldMonuments/Asia/TajMajal.webp"),
       },
       {
         id: "1",
@@ -240,7 +240,7 @@ const questions1En = [
     status: "Capitals",
     img: 'L',
     country: "Australia",
-    image: require("../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.jpg"),
+    image: require("../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.webp"),
     options: [
       {
         id: "0",
@@ -284,7 +284,7 @@ const questions1En = [
       {
         id: "2",
         country: "Sydney Opera House\nAustralia",
-        img: require("../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.jpg"),
+        img: require("../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.webp"),
       },
       {
         id: "3",
@@ -461,7 +461,7 @@ const questions1En = [
       {
         id: "2",
         country: "Tikal\nGuatemala",
-        img: require("../../../assets/WorldMonuments/America/TikalGuatemala.jpg"),
+        img: require("../../../assets/WorldMonuments/America/TikalGuatemala.webp"),
       },
       {
         id: "3",
@@ -476,7 +476,7 @@ const questions1En = [
     status: "Capitals",
     img: 'L',
     country: "Italy",
-    image: require("../../../assets/WorldMonuments/Europe/colosseum.jpg"),
+    image: require("../../../assets/WorldMonuments/Europe/colosseum.webp"),
     options: [
       {
         id: "0",
@@ -510,12 +510,12 @@ const questions1En = [
       {
         id: "0",
         country: "Palace of Versailles\nFrance",
-        img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.jpg"),
       },
       {
         id: "1",
         country: "Knossos\nGreece",
-        img: require("../../../assets/WorldMonuments/Europe/knossos.png"),
+        img: require("../../../assets/WorldMonuments/Europe/knossos.jpg"),
       },
       {
         id: "2",
@@ -525,7 +525,7 @@ const questions1En = [
       {
         id: "3",
         country: "Colosseum\nItaly",
-        img: require("../../../assets/WorldMonuments/Europe/colosseum.jpg"),
+        img: require("../../../assets/WorldMonuments/Europe/colosseum.webp"),
       },
     ],
     correctAnswerIndex: 3,
@@ -574,7 +574,7 @@ const questions1En = [
       {
         id: "1",
         country: "Great Ocean Road\nAustralia",
-        img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.png"),
+        img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.jpg"),
       },
       {
         id: "2",

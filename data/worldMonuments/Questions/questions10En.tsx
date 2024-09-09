@@ -122,7 +122,7 @@ const questions10En = [
     status: "Capitals",
     img: 'L',
     country: "Bhutan",
-    image: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.jpg"),
+    image: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp"),
     options: [
       {
         id: "0",
@@ -215,7 +215,7 @@ const questions10En = [
       {
         id: "0",
         country: "Great Ocean road\nAustralia",
-        img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.png"),
+        img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.jpg"),
       },
       {
         id: "1",
@@ -225,7 +225,7 @@ const questions10En = [
       {
         id: "2",
         country: "Gold Coast\nAustralia",
-        img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.webp"),
+        img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.jpg"),
       },
       {
         id: "3",
@@ -392,7 +392,7 @@ const questions10En = [
       {
         id: "0",
         country: "Palace of Versailles \nFrance",
-        img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.jpg"),
       },
       {
         id: "1",

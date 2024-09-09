@@ -390,12 +390,12 @@ const qstMixed2El = [
           {
             id: "0",
             country: "Χαλέπι\nΣυρία",
-            img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.jpg"),
+            img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.webp"),
           },
           {
             id: "1",
             country: "Mετέωρα\nΕλλάδα",
-            img: require("../../../assets/WorldMonuments/Europe/meteora.jpg"),
+            img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
           },
           {
             id: "2",

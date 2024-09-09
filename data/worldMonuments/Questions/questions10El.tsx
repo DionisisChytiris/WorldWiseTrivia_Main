@@ -122,7 +122,7 @@ const questions10El = [
     status: "Capitals",
     img: 'L',
     country: "Μπουτάν",
-    image: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.jpg"),
+    image: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp"),
     options: [
       {
         id: "0",
@@ -215,7 +215,7 @@ const questions10El = [
       {
         id: "0",
         country: "Ο  Μεγάλος δρόμος του Ωκεανού\nΑυστραλία",
-        img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.png"),
+        img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.jpg"),
       },
       {
         id: "1",
@@ -225,7 +225,7 @@ const questions10El = [
       {
         id: "2",
         country: "Χρυσή Ακτή\nΑυστραλία",
-        img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.webp"),
+        img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.jpg"),
       },
       {
         id: "3",
@@ -392,7 +392,7 @@ const questions10El = [
       {
         id: "0",
         country: "Παλάτι των Βερσαλλιών\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.jpg"),
       },
       {
         id: "1",

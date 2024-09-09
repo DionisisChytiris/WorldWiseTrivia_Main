@@ -161,7 +161,7 @@ const questions1El = [
       {
         id: "1",
         country: "Κολοσσαίο\nΙταλία",
-        img: require("../../../assets/WorldMonuments/Europe/colosseum.jpg"),
+        img: require("../../../assets/WorldMonuments/Europe/colosseum.webp"),
       },
       {
         id: "2",
@@ -181,7 +181,7 @@ const questions1El = [
     status: "Capitals",
     img: 'L',
     country: "Ινδία",
-    image: require("../../../assets/WorldMonuments/Asia/TajMajal.jpg"),
+    image: require("../../../assets/WorldMonuments/Asia/TajMajal.webp"),
     options: [
       {
         id: "0",
@@ -215,7 +215,7 @@ const questions1El = [
       {
         id: "0",
         country: "Ταζ Μαζάλ\nIνδία",
-        img: require("../../../assets/WorldMonuments/Asia/TajMajal.jpg"),
+        img: require("../../../assets/WorldMonuments/Asia/TajMajal.webp"),
       },
       {
         id: "1",
@@ -240,7 +240,7 @@ const questions1El = [
     status: "Capitals",
     img: 'L',
     country: "Αυστραλία",
-    image: require("../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.jpg"),
+    image: require("../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.webp"),
     options: [
       {
         id: "0",
@@ -284,7 +284,7 @@ const questions1El = [
       {
         id: "2",
         country: "Όπερα του Σίδνεϊ\nΑυστραλία",
-        img: require("../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.jpg"),
+        img: require("../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.webp"),
       },
       {
         id: "3",
@@ -461,7 +461,7 @@ const questions1El = [
       {
         id: "2",
         country: "Tικάλ\nΓουατεμάλα",
-        img: require("../../../assets/WorldMonuments/America/TikalGuatemala.jpg"),
+        img: require("../../../assets/WorldMonuments/America/TikalGuatemala.webp"),
       },
       {
         id: "3",
@@ -476,7 +476,7 @@ const questions1El = [
     status: "Capitals",
     img: 'L',
     country: "Ιταλία",
-    image: require("../../../assets/WorldMonuments/Europe/colosseum.jpg"),
+    image: require("../../../assets/WorldMonuments/Europe/colosseum.webp"),
     options: [
       {
         id: "0",
@@ -510,12 +510,12 @@ const questions1El = [
       {
         id: "0",
         country: "Ανάκτορο των Βερσαλλιών\nΓαλλία",
-        img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.jpg"),
       },
       {
         id: "1",
         country: "Κνωσός\nΕλλάδα",
-        img: require("../../../assets/WorldMonuments/Europe/knossos.png"),
+        img: require("../../../assets/WorldMonuments/Europe/knossos.jpg"),
       },
       {
         id: "2",
@@ -525,7 +525,7 @@ const questions1El = [
       {
         id: "3",
         country: "Κολοσσαίο\nΙταλία",
-        img: require("../../../assets/WorldMonuments/Europe/colosseum.jpg"),
+        img: require("../../../assets/WorldMonuments/Europe/colosseum.webp"),
       },
     ],
     correctAnswerIndex: 3,
@@ -574,7 +574,7 @@ const questions1El = [
       {
         id: "1",
         country: "Ο μεγάλος δρόμος του ωκεανού\nΑυστραλία",
-        img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.png"),
+        img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.jpg"),
       },
       {
         id: "2",

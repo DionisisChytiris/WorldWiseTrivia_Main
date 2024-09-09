@@ -43,7 +43,7 @@ const questions4En = [
       {
         id: "1",
         country: "Rialto Bridge\nItaly",
-        img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
       },
       {
         id: "2",
@@ -358,7 +358,7 @@ const questions4En = [
     status: "Capitals",
     img: 'L',
     country: "USA",
-    image: require("../../../assets/WorldMonuments/USA/alcatraz.jpg"),
+    image: require("../../../assets/WorldMonuments/USA/alcatraz.webp"),
     options: [
       {
         id: "0",
@@ -574,7 +574,7 @@ const questions4En = [
       {
         id: "1",
         country: "Empire State Building\nUSA",
-        img: require("../../../assets/WorldMonuments/USA/Empire-State-Building.png"),
+        img: require("../../../assets/WorldMonuments/USA/Empire-State-Building.jpg"),
       },
       {
         id: "2",
@@ -584,7 +584,7 @@ const questions4En = [
       {
         id: "3",
         country: "Tokyo Tower\nJapon",
-        img: require("../../../assets/WorldMonuments/Asia/TokyoTower.png"),
+        img: require("../../../assets/WorldMonuments/Asia/Tokyo-Tower.webp"),
       },
     ],
     correctAnswerIndex: 1,

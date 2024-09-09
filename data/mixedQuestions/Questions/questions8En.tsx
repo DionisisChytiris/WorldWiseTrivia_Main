@@ -48,7 +48,7 @@ const qstMixed8En = [
       {
         id: "2",
         name: "Gold Coast\nAustralia",
-        img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.webp"),
+        img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.jpg"),
       },
       {
         id: "3",

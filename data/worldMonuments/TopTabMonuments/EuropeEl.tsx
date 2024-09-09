@@ -128,7 +128,7 @@ const EuropeMonEl = [
     },
     {
         id: '17',
-        img: require('../../../assets/WorldMonuments/Europe/knossos.png'),
+        img: require('../../../assets/WorldMonuments/Europe/knossos.jpg'),
         name: 'Κνωσός',
         country: 'Ελλάδα',
         city: 'Ηράκλειο',
@@ -176,7 +176,7 @@ const EuropeMonEl = [
     },
     {
         id: '23',
-        img: require('../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png'),
+        img: require('../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.jpg'),
         name: 'Ανάκτορο των Βερσαλλιών',
         country: 'Γαλλία',
         city: 'Βερσαλλίες',
@@ -192,7 +192,7 @@ const EuropeMonEl = [
     },
     {
         id: '25',
-        img: require('../../../assets/WorldMonuments/Europe/Rialto-Bridge.png'),
+        img: require('../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg'),
         name: 'Γέφυρα του Ριάλτο',
         country: 'Ιταλία',
         city: 'Βενετία',

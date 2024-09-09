@@ -38,7 +38,7 @@ const questions8El = [
         {
           id: "0",
           name: "Κνωσός\nΕλλάδα",
-          img: require("../../../assets/WorldMonuments/Europe/knossos.png"),
+          img: require("../../../assets/WorldMonuments/Europe/knossos.jpg"),
         },
         {
           id: "1",
@@ -107,7 +107,7 @@ const questions8El = [
         {
           id: "2",
           name: "Ο μεγάλος δρόμος του Ωκεανού\nΑυστραλία",
-          img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.png"),
+          img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.jpg"),
         },
         {
           id: "3",
@@ -520,7 +520,7 @@ const questions8El = [
         {
           id: "2",
           name: "Χρυσή Ακτή\nΑυστραλία",
-          img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.webp"),
+          img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.jpg"),
         },
         {
           id: "3",

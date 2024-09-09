@@ -181,7 +181,7 @@ const questions9El = [
         status: "Capitals",
         img: 'L',
         country: "Καναδάς",
-        image: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.jpg"),
+        image: require("../../../assets/WorldMonuments/America/St.-Joseph's-Oratory_Montreal.webp"),
         options: [
           {
             id: "0",
@@ -240,7 +240,7 @@ const questions9El = [
         status: "Capitals",
         img: 'L',
         country: "Γουατεμάλα",
-        image: require("../../../assets/WorldMonuments/America/TikalGuatemala.jpg"),
+        image: require("../../../assets/WorldMonuments/America/TikalGuatemala.webp"),
         options: [
           {
             id: "0",
@@ -417,7 +417,7 @@ const questions9El = [
         status: "Capitals",
         img: 'L',
         country: "Συρία",
-        image: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.jpg"),
+        image: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.webp"),
         options: [
           {
             id: "0",

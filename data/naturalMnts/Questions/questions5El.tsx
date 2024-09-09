@@ -451,7 +451,7 @@ const questions5El = [
           {
             id: "0",
             country: "Όρος Μπρόμο\nΙνδονησία",
-            img: require("../../../assets/NaturalMnt/Asia/mountBromo.png"),
+            img: require("../../../assets/NaturalMnt/Asia/mountBromo.webp"),
           },
           {
             id: "1",

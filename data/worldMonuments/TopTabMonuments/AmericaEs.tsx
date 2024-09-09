@@ -49,7 +49,7 @@ const AmericaMonEs = [
     },
     {
         id: '7',
-        img: require('../../../assets/WorldMonuments/USA/Empire-State-Building.png'),
+        img: require('../../../assets/WorldMonuments/USA/Empire-State-Building.jpg'),
         name: 'Empire State Building',
         country: 'EE.UU.',
         city: 'Nueva York',

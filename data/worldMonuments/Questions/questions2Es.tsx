@@ -38,12 +38,12 @@ const questions2Es = [
       {
         id: "0",
         country: "Ciudadela de Alepo\nSiria",
-        img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.jpg"),
+        img: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.webp"),
       },
       {
         id: "1",
         country: "Meteora\nGrecia",
-        img: require("../../../assets/WorldMonuments/Europe/meteora.jpg"),
+        img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
       },
       {
         id: "2",
@@ -407,7 +407,7 @@ const questions2Es = [
       {
         id: "3",
         country: "Empire State Building\nEstados Unidos",
-        img: require("../../../assets/WorldMonuments/USA/Empire-State-Building.png"),
+        img: require("../../../assets/WorldMonuments/USA/Empire-State-Building.jpg"),
       },
     ],
     correctAnswerIndex: 2,

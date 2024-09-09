@@ -45,7 +45,7 @@ const EurMntEs = [
   },
   {
     id: "7",
-    img: require("../../../assets/NaturalMnt/Europe/Giant'sCauseway.png"),
+    img: require("../../../assets/NaturalMnt/Europe/GiantsCauseway.webp"),
     name: "Calzada del Gigante",
     country: "Irlanda",
     // city: 'County Antrim'
@@ -94,7 +94,7 @@ const EurMntEs = [
   },
   {
     id: "14",
-    img: require("../../../assets/WorldMonuments/Europe/meteora.jpg"),
+    img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
     name: "Meteora",
     country: "Grecia",
     // city: 'Julian Alps'

@@ -97,7 +97,7 @@ const WorldMonumentsHome = () => {
         />
        <View style={styles.quizBtnBox}>
           <View style={{width: '50%', gap: windowHeight> 900 ? 60:20}}>
-            <QuizTemplate quiz="Quiz1" title="1" image={require('../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.jpg')}/>
+            <QuizTemplate quiz="Quiz1" title="1" image={require('../../../assets/WorldMonuments/Oceania/SydneyOperaHouse.webp')}/>
             <QuizTemplate quiz="Quiz3" title="3" image={require('../../../assets/WorldMonuments/Asia/easterIsland.webp')}/>
             <QuizTemplate quiz="Quiz5" title="5" image={require('../../../assets/WorldMonuments/America/MachuPicchu.webp')}/>
             <QuizTemplate quiz="Quiz7" title="7" image={require('../../../assets/WorldMonuments/Europe/duomo-florence.webp')}/>

@@ -24,7 +24,7 @@ const OceaMntEl = [
  
   {
     id: "4",
-    img: require("../../../assets/NaturalMnt/Oceania/greatBarrierReef.png"),
+    img: require("../../../assets/NaturalMnt/Oceania/greatBarrierReef.webp"),
     name: "Μεγάλος Κοραλλιογενής Ύφαλος",
     country: "Αυστραλία",
     city: "",

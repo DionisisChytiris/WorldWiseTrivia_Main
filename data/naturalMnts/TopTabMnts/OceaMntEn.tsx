@@ -29,7 +29,7 @@ const OceaMntEn = [
     },
     {
         id: '4',
-        img: require('../../../assets/NaturalMnt/Oceania/greatBarrierReef.png'),
+        img: require('../../../assets/NaturalMnt/Oceania/greatBarrierReef.webp'),
         name: 'Great Barrier Reef',
         country: 'Australia',
         city: ''

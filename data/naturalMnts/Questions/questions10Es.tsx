@@ -4,7 +4,7 @@ const questions10Es = [
     status: "Capitals",
     img: 'L',
     country: "Grecia",
-    image: require("../../../assets/WorldMonuments/Europe/meteora.jpg"),
+    image: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
     options: [
       {
         id: "0",
@@ -47,7 +47,7 @@ const questions10Es = [
       {
         id: "2",
         country: "Meteora\nGrecia",
-        img: require("../../../assets/WorldMonuments/Europe/meteora.jpg"),
+        img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
       },
       {
         id: "3",
@@ -450,7 +450,7 @@ const questions10Es = [
       {
         id: "0",
         country: "Meteora\nGrecia",
-        img: require("../../../assets/WorldMonuments/Europe/meteora.jpg"),
+        img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
       },
       {
         id: "1",

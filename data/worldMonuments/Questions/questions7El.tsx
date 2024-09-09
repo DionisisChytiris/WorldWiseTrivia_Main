@@ -102,7 +102,7 @@ const questions7El = [
           {
             id: "1",
             country: "Γέφυρα του Ριάλτο\nΗνωμένο Βασίλειο",
-            img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
           },
           {
             id: "2",
@@ -122,7 +122,7 @@ const questions7El = [
         status: "Capitals",
         img: 'L',
         country: "Ελλάδα",
-        image: require("../../../assets/WorldMonuments/Europe/meteora.jpg"),
+        image: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
         options: [
           {
             id: "0",
@@ -392,7 +392,7 @@ const questions7El = [
           {
             id: "0",
             country: "Κνωσός\nΕλλάδα",
-            img: require("../../../assets/WorldMonuments/Europe/knossos.png"),
+            img: require("../../../assets/WorldMonuments/Europe/knossos.jpg"),
           },
           {
             id: "1",
@@ -451,7 +451,7 @@ const questions7El = [
           {
             id: "0",
             country: "Γέφυρα του Ριάλτο\nΙταλία",
-            img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
           },
           {
             id: "1",
@@ -579,7 +579,7 @@ const questions7El = [
           {
             id: "2",
             country: "Ανάκτορο των\nΒερσαλλιών\nΓαλλία",
-            img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.jpg"),
           },
           {
             id: "3",

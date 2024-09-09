@@ -102,7 +102,7 @@ const questions7En = [
           {
             id: "1",
             country: "Rialto Bridge\nUK",
-            img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
           },
           {
             id: "2",
@@ -122,7 +122,7 @@ const questions7En = [
         status: "Capitals",
         img: 'L',
         country: "Greece",
-        image: require("../../../assets/WorldMonuments/Europe/meteora.jpg"),
+        image: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
         options: [
           {
             id: "0",
@@ -392,7 +392,7 @@ const questions7En = [
           {
             id: "0",
             country: "Knossos\nGreece",
-            img: require("../../../assets/WorldMonuments/Europe/knossos.png"),
+            img: require("../../../assets/WorldMonuments/Europe/knossos.jpg"),
           },
           {
             id: "1",
@@ -451,7 +451,7 @@ const questions7En = [
           {
             id: "0",
             country: "Rialto Bridge\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
           },
           {
             id: "1",
@@ -579,7 +579,7 @@ const questions7En = [
           {
             id: "2",
             country: "Palace of Versailles\nFrance",
-            img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.jpg"),
           },
           {
             id: "3",

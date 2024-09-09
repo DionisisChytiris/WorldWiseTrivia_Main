@@ -38,7 +38,7 @@ const questions8Es = [
         {
           id: "0",
           name: "Cnosos\nGrecia",
-          img: require("../../../assets/WorldMonuments/Europe/knossos.png"),
+          img: require("../../../assets/WorldMonuments/Europe/knossos.jpg"),
         },
         {
           id: "1",
@@ -107,7 +107,7 @@ const questions8Es = [
         {
           id: "2",
           name: "Great Ocean Road\nAustralia",
-          img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.png"),
+          img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.jpg"),
         },
         {
           id: "3",
@@ -520,7 +520,7 @@ const questions8Es = [
         {
           id: "2",
           name: "Costa de Oro\nAustralia",
-          img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.webp"),
+          img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.jpg"),
         },
         {
           id: "3",

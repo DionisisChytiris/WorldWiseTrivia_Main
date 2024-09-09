@@ -107,7 +107,7 @@ const questions8Es = [
         {
           id: "2",
           name: "Gran Carretera Oceánica\nAustralia",
-          img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.png"),
+          img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.jpg"),
         },
         {
           id: "3",

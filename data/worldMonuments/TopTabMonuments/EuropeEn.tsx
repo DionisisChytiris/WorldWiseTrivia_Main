@@ -136,7 +136,7 @@ const EuropeMonEn = [
     },
     {
         id: '17',
-        img: require('../../../assets/WorldMonuments/Europe/knossos.png'),
+        img: require('../../../assets/WorldMonuments/Europe/knossos.jpg'),
         name: 'Knossos',
         country: 'Greece',
         city: 'Heraklion',
@@ -184,7 +184,7 @@ const EuropeMonEn = [
     },
     {
         id: '23',
-        img: require('../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png'),
+        img: require('../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.jpg'),
         name: 'Palace of Versailles',
         country: 'France',
         city: 'Versailles',
@@ -200,7 +200,7 @@ const EuropeMonEn = [
     },
     {
         id: '25',
-        img: require('../../../assets/WorldMonuments/Europe/Rialto-Bridge.png'),
+        img: require('../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg'),
         name: 'Rialto Bridge',
         country: 'Italy',
         city: 'Venice',

@@ -1,7 +1,7 @@
 const OceaniaMonEl = [
     {
         id: '1',
-        img: require('../../../assets/WorldMonuments/Oceania/Gold_Coast.webp'),
+        img: require('../../../assets/WorldMonuments/Oceania/Gold_Coast.jpg'),
         name: 'Χρυσή Ακτή',
         country: 'Aυστραλία',
         city: 'Κουίνσλαντ',
@@ -9,7 +9,7 @@ const OceaniaMonEl = [
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/Oceania/greatoceanroad.png'),
+        img: require('../../../assets/WorldMonuments/Oceania/greatoceanroad.jpg'),
         name: 'Μεγάλος Ωκεάνιος Δρόμος',
         country: 'Αυστραλία',
         city: 'Nοτιοανατολική\nακτή της \nΑυστραλίας',

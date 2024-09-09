@@ -166,7 +166,7 @@ const questions6Es = [
           {
             id: "2",
             country: "Cnosos\nGrecia",
-            img: require("../../../assets/WorldMonuments/Europe/knossos.png"),
+            img: require("../../../assets/WorldMonuments/Europe/knossos.jpg"),
           },
           {
             id: "3",
@@ -348,7 +348,7 @@ const questions6Es = [
           {
             id: "3",
             country: "Cnosos\nGrecia",
-            img: require("../../../assets/WorldMonuments/Europe/knossos.png"),
+            img: require("../../../assets/WorldMonuments/Europe/knossos.jpg"),
           },
         ],
         correctAnswerIndex: 3,
@@ -392,7 +392,7 @@ const questions6Es = [
           {
             id: "0",
             country: "Palacio de Versalles \nFrancia",
-            img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.jpg"),
           },
           {
             id: "1",

@@ -48,7 +48,7 @@ const qstMixed6En = [
       {
         id: "2",
         country: "Knossos\nGreece",
-        img: require("../../../assets/WorldMonuments/Europe/knossos.png"),
+        img: require("../../../assets/WorldMonuments/Europe/knossos.jpg"),
       },
       {
         id: "3",

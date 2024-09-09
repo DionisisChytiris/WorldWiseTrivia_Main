@@ -43,7 +43,7 @@ const qstMixed1El = [
       {
         id: "1",
         country: "Κολοσσαίο\nΙταλία",
-        img: require("../../../assets/WorldMonuments/Europe/colosseum.jpg"),
+        img: require("../../../assets/WorldMonuments/Europe/colosseum.webp"),
       },
       {
         id: "2",

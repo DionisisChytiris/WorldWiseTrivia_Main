@@ -48,7 +48,7 @@ const qstMixed8El = [
       {
         id: "2",
         name: "Χρυσή Ακτή\nΑυστραλία",
-        img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.webp"),
+        img: require("../../../assets/WorldMonuments/Oceania/Gold_Coast.jpg"),
       },
       {
         id: "3",

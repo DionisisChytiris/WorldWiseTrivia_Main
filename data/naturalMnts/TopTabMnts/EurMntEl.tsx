@@ -1,7 +1,7 @@
 const EurMntEl = [
   {
     id: "1",
-    img: require("../../../assets/NaturalMnt/Europe/Giant'sCauseway.png"),
+    img: require("../../../assets/NaturalMnt/Europe/GiantsCauseway.webp"),
     name: "Ακτή του Γίγαντα",
     country: "Ιρλανδία",
     // city: 'County Antrim'
@@ -74,7 +74,7 @@ const EurMntEl = [
   },
   {
     id: "11",
-    img: require("../../../assets/WorldMonuments/Europe/meteora.jpg"),
+    img: require("../../../assets/WorldMonuments/Europe/meteora.webp"),
     name: "Μετέωρα",
     country: "Ελλάδα",
     // city: 'Julian Alps'

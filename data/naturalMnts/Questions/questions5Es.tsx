@@ -451,7 +451,7 @@ const questions5Es = [
           {
             id: "0",
             country: "Monte Bromo\nIndonesia",
-            img: require("../../../assets/NaturalMnt/Asia/mountBromo.png"),
+            img: require("../../../assets/NaturalMnt/Asia/mountBromo.webp"),
           },
           {
             id: "1",

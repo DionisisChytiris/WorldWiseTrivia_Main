@@ -121,7 +121,7 @@ const qstMixed9En = [
         status: "Capitals",
         img: 'L',
         country: "Syria",
-        image: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.jpg"),
+        image: require("../../../assets/WorldMonuments/Asia/CitadelofAleppoSyria.webp"),
         options: [
           {
             id: "0",

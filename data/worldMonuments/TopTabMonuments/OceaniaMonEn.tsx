@@ -1,7 +1,7 @@
 const OceaniaMonEn = [
     {
         id: '1',
-        img: require('../../../assets/WorldMonuments/Oceania/Gold_Coast.webp'),
+        img: require('../../../assets/WorldMonuments/Oceania/Gold_Coast.jpg'),
         name: 'Gold Coast',
         country: 'Australia',
         city: 'Queensland',
@@ -9,7 +9,7 @@ const OceaniaMonEn = [
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/Oceania/greatoceanroad.png'),
+        img: require('../../../assets/WorldMonuments/Oceania/greatoceanroad.jpg'),
         name: 'Great Ocean Road',
         country: 'Australia',
         city: 'South-eastern \ncoast of Australia',

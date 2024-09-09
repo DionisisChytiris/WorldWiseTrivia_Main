@@ -107,7 +107,7 @@ const questions8El = [
         {
           id: "2",
           name: "Ο Μεγάλος Δρόμος του Ωκεανού\nΑυστραλία",
-          img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.png"),
+          img: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.jpg"),
         },
         {
           id: "3",

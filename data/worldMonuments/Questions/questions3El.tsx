@@ -48,7 +48,7 @@ const questions3El = [
       {
         id: "2",
         country: "Γέφυρα του Ριάλτο\nΙταλία",
-        img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.png"),
+        img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
       },
       {
         id: "3",
