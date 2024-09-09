@@ -12,7 +12,7 @@ import {
 } from "react-native";
 import { AntDesign } from "@expo/vector-icons";
 import { FlashList } from "@shopify/flash-list";
-import MapView, { Callout, MAP_TYPES, Marker } from "react-native-maps";
+import MapView, { Callout, MAP_TYPES, Marker, PROVIDER_GOOGLE } from "react-native-maps";
 import mapDataEn from "../../../data/capitals/Map/MapEn";
 import { useSelector } from "react-redux";
 import { useTranslation } from "react-i18next";
@@ -113,27 +113,28 @@ const Map = () => {
     return <ActivityIndicator />;
   }
 
-  const localTime = () => {
-    let dateTime = new Date(weather.dt * 1000 + weather.timezone * 1000);
+  // const localTime = () => {
+  //   let dateTime = new Date(weather.dt * 1000 + weather.timezone * 1000);
 
-    // Convert into 24-hour format
-    let hour = (dateTime.getHours() % 24) - 1;
-    let ampm = hour >= 12 ? "pm" : "am";
+  
+  //   let hour = (dateTime.getHours() % 24) - 1;
+  //   let ampm = hour >= 12 ? "pm" : "am";
 
-    let minutes = dateTime.getMinutes();
-    // let weekday = dateTime.toLocaleString('default', { weekday: 'long' });
-    // let month = dateTime.toLocaleString('default', { month: 'short' });
-    // let date = dateTime.getDate();
+  //   let minutes = dateTime.getMinutes();
+  //   let weekday = dateTime.toLocaleString('default', { weekday: 'long' });
+  //   let month = dateTime.toLocaleString('default', { month: 'short' });
+  //   let date = dateTime.getDate();
 
-    return `${hour} : ${minutes<10 ? 0: ''}${minutes} `;
-    // return `${hour} : ${minutes} `;
-    // return `${hour} : ${minutes} ${ampm} - ${weekday} , ${month} ${date}`;
-  };
+  //   return `${hour} : ${minutes<10 ? 0: ''}${minutes} `;
+  //   return `${hour} : ${minutes} `;
+  //   return `${hour} : ${minutes} ${ampm} - ${weekday} , ${month} ${date}`;
+  // };
 
   return (
     <View style={styles.container}>
       <MapView
         ref={mapRef}
+        provider={PROVIDER_GOOGLE}
         mapType={MAP_TYPES.TERRAIN}
         style={styles.map}
         initialRegion={region}

@@ -20,7 +20,7 @@ const { width, height } = Dimensions.get("window");
 const ASPECT_RATIO = (width * 100) / height;
 
 const Map = () => {
-  const dataMap = MapDataEs
+  // const dataMap = MapDataEs
   const {mapNaturalMntItem} =useSelector((state) => state.NaturalMntMapNames)
   const { t } = useTranslation();
   const [region, setRegion] = useState({
@@ -89,7 +89,7 @@ const Map = () => {
         mapType={MAP_TYPES.TERRAIN}
         style={styles.map}
         initialRegion={region}
-        provider={MapView.PROVIDER_GOOGLE}
+        provider={PROVIDER_GOOGLE}
         onRegionChange={onRegionChange}
       >
         <Marker
