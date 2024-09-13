@@ -220,7 +220,7 @@ const questions8Es = [
         {
           id: "1",
           name: "La Sirenita\nDinamarca",
-          img: require("../../../assets/WorldMonuments/Europe/Little-mermaid-statue.png"),
+          img: require("../../../assets/WorldMonuments/Europe/Little-mermaid-statue.webp"),
         },
         {
           id: "2",
@@ -417,7 +417,7 @@ const questions8Es = [
       status: "Capitals",
       img: 'L',
       country: "España",
-      image: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png"),
+      image: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.webp"),
       options: [
         {
           id: "0",
@@ -456,7 +456,7 @@ const questions8Es = [
         {
           id: "1",
           name: "Museo Guggenheim\nEspaña",
-          img: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png"),
+          img: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.webp"),
         },
         {
           id: "2",

@@ -171,7 +171,7 @@ const questions6En = [
           {
             id: "3",
             country: "Guggenheim Museum\nSpain",
-            img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.webp"),
           },
         ],
         correctAnswerIndex: 1,
@@ -397,7 +397,7 @@ const questions6En = [
           {
             id: "1",
             country: "Guggenheim Museum\nSpain",
-            img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.webp"),
           },
           {
             id: "2",

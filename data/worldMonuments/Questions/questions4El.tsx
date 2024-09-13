@@ -48,7 +48,7 @@ const questions4El = [
       {
         id: "2",
         country: "Μουσείο Γκούγκενχάιμ\nSΙσπανία",
-        img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.webp"),
+        img: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.webp"),
       },
       {
         id: "3",

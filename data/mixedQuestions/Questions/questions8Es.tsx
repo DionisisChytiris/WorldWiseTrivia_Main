@@ -121,7 +121,7 @@ const qstMixed8Es = [
         status: "Capitals",
         img: 'L',
         country: "España",
-        image: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png"),
+        image: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.webp"),
         options: [
           {
             id: "0",
@@ -160,7 +160,7 @@ const qstMixed8Es = [
           {
             id: "1",
             name: "Museo Guggenheim\nEspaña",
-            img: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png"),
+            img: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.webp"),
           },
           {
             id: "2",

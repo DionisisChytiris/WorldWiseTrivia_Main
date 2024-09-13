@@ -120,7 +120,7 @@ const EuropeMonEl = [
     },
     {
         id: '16',
-        img: require('../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png'),
+        img: require('../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.webp'),
         name: ' Μουσείο Γκούγκενχαϊμ Μπιλμπάο',
         country: 'Ισπανία',
         city: 'Μπιλμπάο',

@@ -407,7 +407,7 @@ const questions7Es = [
           {
             id: "3",
             country: "Museo Guggenheim \nEspaña",
-            img: require("../../../assets/WorldMonuments/Europe/GuggenheimBilbao.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.webp"),
           },
         ],
         correctAnswerIndex: 1,

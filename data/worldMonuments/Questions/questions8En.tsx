@@ -220,7 +220,7 @@
           {
             id: "1",
             name: "Little Mermaid Statue\nDenmark",
-            img: require("../../../assets/WorldMonuments/Europe/Little-mermaid-statue.png"),
+            img: require("../../../assets/WorldMonuments/Europe/Little-mermaid-statue.webp"),
           },
           {
             id: "2",
@@ -417,7 +417,7 @@
         status: "Capitals",
         img: 'L',
         country: "Spain",
-        image: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png"),
+        image: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.webp"),
         options: [
           {
             id: "0",
@@ -456,7 +456,7 @@
           {
             id: "1",
             name: "Guggenheim Museum\nSpain",
-            img: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png"),
+            img: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.webp"),
           },
           {
             id: "2",

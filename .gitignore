@@ -15,7 +15,7 @@ web-build/
 .pnp.js
 
 # api keys
-.env
+.env*
 
 # Native
 *.orig.*

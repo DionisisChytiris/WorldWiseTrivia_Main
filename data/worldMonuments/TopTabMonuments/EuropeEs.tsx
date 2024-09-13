@@ -120,7 +120,7 @@ const EuropeMonEs = [
     },
     {
         id: '16',
-        img: require('../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png'),
+        img: require('../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.webp'),
         name: 'Museo Guggenheim Bilbao',
         country: 'España',
         city: 'Bilbao',

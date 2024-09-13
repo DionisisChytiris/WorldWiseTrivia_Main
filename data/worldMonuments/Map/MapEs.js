@@ -429,7 +429,7 @@ const mapDataEs = [
        ltr: 'G',
        title: 'Museo Guggenheim',
        description: "El Museo Guggenheim Bilbao es un museo de arte moderno ubicado en Bilbao, España. Diseñado por el arquitecto Frank Gehry, se inauguró en 1997 y es conocido por su arquitectura innovadora e impactante. El museo ha transformado a Bilbao en un destino cultural y alberga importantes colecciones de arte contemporáneo.",
-       img: require('../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.png'),
+       img: require('../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.webp'),
        latitude:  43.268462026079206, 
        longitude: -2.933916777155703,
        zoomLocation: 6,

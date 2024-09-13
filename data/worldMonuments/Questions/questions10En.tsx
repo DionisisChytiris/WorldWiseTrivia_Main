@@ -338,7 +338,7 @@ const questions10En = [
       {
         id: "1",
         country: "Largo di Torre Argentina\nItaly",
-        img: require("../../../assets/WorldMonuments/Europe/scavi_di_torre_argentina-rome.png"),
+        img: require("../../../assets/WorldMonuments/Europe/scavi_di_torre_argentina-rome.webp"),
       },
       {
         id: "2",

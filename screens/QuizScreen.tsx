@@ -105,7 +105,8 @@ const QuizScreen = () => {
             {/* Capitals */}
             <CategoryItem
               page="Capitals"
-              img={require("../assets/QuizScreen/lon.png")}
+              // img={require("../assets/QuizScreen/lon.png")}
+              img={require("../assets/more/capitals.webp")}
               text={t("capitals")}
               scores={score}
             />
@@ -113,7 +114,8 @@ const QuizScreen = () => {
             {/* Flags */}
             <CategoryItem
               page="Flags"
-              img={require("../assets/QuizScreen/flag.png")}
+              img={require("../assets/Flags/flags.png")}
+              // img={require("../assets/QuizScreen/flag.png")}
               text={t("flags")}
               scores={score1}
             />
@@ -121,7 +123,8 @@ const QuizScreen = () => {
             {/* World Monuments */}
             <CategoryItem
               page="WorldMonuments"
-              img={require("../assets/QuizScreen/monument.jpg")}
+              // img={require("../assets/QuizScreen/monument.jpg")}
+              img={require("../assets/WorldMonuments/worldmnt.webp")}
               // text={t("flags")}
               text={t("worldMonuments2")}
               scores={score1}
@@ -130,7 +133,8 @@ const QuizScreen = () => {
             {/* Natural Monument */}
             <CategoryItem
               page="NaturalMonument"
-              img={require("../assets/QuizScreen/naturalmnt.jpg")}
+              img={require("../assets/NaturalMnt/ntrmnt.webp")}
+              // img={require("../assets/QuizScreen/naturalmnt.jpg")}
               text={t("naturalMonuments")}
               scores={score1}
             />
@@ -138,7 +142,8 @@ const QuizScreen = () => {
             {/* Science */}
             <CategoryItem
               page="MixedQuestions"
-              img={require("../assets/QuizScreen/science.jpg")}
+              img={require("../assets/more/mixed.png")}
+              // img={require("../assets/QuizScreen/science.jpg")}
               text={t("mixedQuestions")}
               scores={score1}
             />
