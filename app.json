@@ -25,9 +25,8 @@
     },
     "android": {
       "package": "com.worldwisetrivia.app",
-      "versionCode": 2,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/logoSm.png",
+        "foregroundImage": "./assets/logo1.png",
         "backgroundColor": "#ffffff"
       },
       "config": {
