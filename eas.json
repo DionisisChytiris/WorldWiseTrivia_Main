@@ -20,6 +20,12 @@
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "ios": {
+        "appleId": "dhitiris@yahoo.gr",
+        "ascAppId": "6670754535",
+        "appleTeamId": "ZMF2MQZHPK"
+      }
+    }
   }
 }

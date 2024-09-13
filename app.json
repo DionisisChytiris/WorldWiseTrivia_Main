@@ -20,7 +20,8 @@
         "googleMaps": {
           "apiKey": "process.env.EXPO_PUBLIC_GOOGLE_MAPS_KEY"
         }
-      }
+      },
+      "bundleIdentifier": "com.worldwisetrivia.app"
     },
     "android": {
       "package": "com.worldwisetrivia.app",
