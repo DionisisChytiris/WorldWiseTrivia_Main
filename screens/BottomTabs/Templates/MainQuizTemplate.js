@@ -157,7 +157,7 @@ const QuizMainTemplate = (props) => {
     const newArray = heart.length - 1;
     heart.pop(newArray);
     {
-      newArray === 0 && navigation.navigate(props.loseScreen, { score: score });
+      newArray === 0 && navigation.navigate(props.loseScreen, { score: score })
     }
   };
 

@@ -2,7 +2,7 @@
   "_comment1": "----------Settings---------------",
   "change-language": "Αλλαγή γλώσσας",
   "change-theme": "Αλλαγή Θέματος",
-  "welcome": "Καλώς Ήλθατε",
+  "welcome": "Καλώς Ήλθατε ",
   "hello": "Γειά σου",
   "skip": "Skip",
   "next-step": "Επόμενο",
@@ -15,6 +15,7 @@
   "lightMode": "Ανοιχτό Θέμα",
   "quiz": "Κουίζ",
   "score": "Σκορ",
+  "repeat": "Επανάληψη",
 
   "_CATEGORIES": "----------CATEGORIES---------------",
   "categories": "Κατηγορίες",

@@ -16,6 +16,7 @@ import SoundSlice from './SoundVibration/SoundSlice'
 import VibrationSlice from './SoundVibration/VibrationSlice'
 import {NaturalMnt1Slice, NaturalMnt2Slice, NaturalMnt3Slice, NaturalMnt4Slice, NaturalMnt5Slice, NaturalMnt6Slice, NaturalMnt7Slice, NaturalMnt8Slice, NaturalMnt9Slice, NaturalMnt10Slice,NaturalMntMapSlice} from './NaturalMntQuizSlices'
 import { MixedQuiz1Slice, MixedQuiz2Slice, MixedQuiz3Slice, MixedQuiz4Slice, MixedQuiz5Slice, MixedQuiz6Slice, MixedQuiz7Slice, MixedQuiz8Slice, MixedQuiz9Slice, MixedQuiz10Slice } from './MixedQuizSlices'
+import LanguageSlice from './LanguageSlice/LanguageSlice'
 
 export const store = configureStore({
     reducer: {
@@ -91,6 +92,7 @@ export const store = configureStore({
         quiz8MixedQst: MixedQuiz8Slice,
         quiz9MixedQst: MixedQuiz9Slice,
         quiz10MixedQst: MixedQuiz10Slice,
+        lngTri18NextName: LanguageSlice
     },
     middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({

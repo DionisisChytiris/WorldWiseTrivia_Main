@@ -8,12 +8,14 @@ import { useTheme } from "../utils/ThemeMode/ThemeProvider";
 import { Audio } from "expo-av";
 import { toggleBoolean } from "../ReduxSetUp/SoundVibration/VibrationSlice";
 import { useAppSelector } from "../ReduxSetUp/store";
+import { useTranslation } from "react-i18next";
 
 type HomeProp = StackNavigationProp<AppNavigatorTypeList, "Home">;
 
 const Home = () => {
   const boolean = useAppSelector((state) => state.boolean.value);
   const navigation = useNavigation<HomeProp>();
+  const { t } = useTranslation();
   const { colors } = useTheme();
   const [name, setName] = useState("");
   const [color, setColor] = useState("#002c54");
@@ -65,7 +67,7 @@ const Home = () => {
     <View style={[styles.container, { backgroundColor: color }]}>
       {name ? (
         <View style={{ marginBottom: 0 }}>
-          <Text style={{ color: text1, marginTop: -120 }}>Welcome back {name}</Text>
+          <Text style={{ color: text1, marginTop: -120 }}>{t("welcome")}{name}</Text>
         </View>
       ):null }
       <Pressable

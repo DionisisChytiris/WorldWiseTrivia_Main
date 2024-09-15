@@ -22,6 +22,7 @@ const MixedLoseScr4 = () => {
         percentage={correct}
         numCorAns={crAns}
         unanswered={wrnAns}
+        quizNumR='MixedQstsHome'
       />
     );
 }

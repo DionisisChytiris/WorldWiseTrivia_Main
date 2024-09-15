@@ -86,6 +86,7 @@ import {
   quizCpt10Es,
 } from "../../ReduxSetUp/CapitalsQuizSlices";
 import { NtrAsiaEl, NtrAsiaEn, NtrAsiaEs, NtrEurEl, NtrEurEn, NtrEurEs, NtrAmerEl, NtrAmerEn, NtrAmerEs, NtrAfrEl, NtrAfrEn, NtrAfrEs, NtrOceaEl, NtrOceaEn, NtrOceaEs } from "../../ReduxSetUp/NaturalMntLearnSlices";
+import { lngTrEn, lngTrEl, lngTrEs } from "../../ReduxSetUp/LanguageSlice/LanguageSlice";
 // import { AppNavigatorTypeList } from "../../Types/AppNavigatorTypeList";
 // import { StackNavigationProp } from "@react-navigation/stack";
 
@@ -120,6 +121,7 @@ const MultiLanguage = () => {
   }
 
   const English = () => {
+    dispatch(lngTrEn())
     setColor1("#4ddbdf");
     setColor2("#dbdddd");
     setColor3("#dbdddd");
@@ -156,6 +158,7 @@ const MultiLanguage = () => {
     dispatch(NtrOceaEn())
   };
   const Spanish = () => {
+    dispatch(lngTrEs())
     setColor2("#4ddbdf");
     setColor1("#dbdddd");
     setColor3("#dbdddd");
@@ -192,6 +195,7 @@ const MultiLanguage = () => {
     dispatch(NtrOceaEs())
   };
   const Greek = () => {
+    dispatch(lngTrEl())
     setColor3("#4ddbdf");
     setColor1("#dbdddd");
     setColor2("#dbdddd");
@@ -251,7 +255,7 @@ const MultiLanguage = () => {
         <Pressable
           style={[styles.chngLgBtn, { backgroundColor: color1 }]}
           onPress={() => {
-            i18next.changeLanguage(Object.keys(languageResources)[0]);
+            // i18next.changeLanguage(Object.keys(languageResources)[0]);
             English();
           }}
         >
@@ -264,7 +268,7 @@ const MultiLanguage = () => {
         <Pressable
           style={[styles.chngLgBtn, { backgroundColor: color2 }]}
           onPress={() => {
-            i18next.changeLanguage(Object.keys(languageResources)[1]);
+            // i18next.changeLanguage(Object.keys(languageResources)[1]);
             Spanish();
           }}
         >
@@ -277,7 +281,7 @@ const MultiLanguage = () => {
         <Pressable
           style={[styles.chngLgBtn, { backgroundColor: color3 }]}
           onPress={() => {
-            i18next.changeLanguage(Object.keys(languageResources)[2]);
+            // i18next.changeLanguage(Object.keys(languageResources)[2]);
             Greek();
           }}
         >

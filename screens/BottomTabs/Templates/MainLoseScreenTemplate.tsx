@@ -5,8 +5,8 @@ import { useNavigation, useRoute } from "@react-navigation/native";
 import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
 
-const MainLoseScreenTemplate = (props) => {
-  const navigation = useNavigation();
+const MainLoseScreenTemplate = (props:any) => {
+  const navigation = useNavigation<any>();
   const { colors } = useTheme();
   const { t } = useTranslation();
 
@@ -55,23 +55,42 @@ const MainLoseScreenTemplate = (props) => {
       <View style={{ flexDirection: "row", gap: 15 }}>
         <View style={{ width: "50%", alignItems: "flex-end" }}>
             <Text style={{ color: colors.text, marginTop: 40 }}>{t("correctAnswers")}:</Text>
-            <Text style={{ color: colors.text, marginTop: 10 }}>{t("percentage")}:</Text>
+            <Text style={{ color: colors.text, marginTop: 5 }}>{t("percentage")}:</Text>
             <Text style={{ color: colors.text, marginTop: 30 }}>{t("wrongAnswers")}:</Text>
-            <Text style={{ color: colors.text, marginTop: 10 }}>{t("percentage")}:</Text>
+            <Text style={{ color: colors.text, marginTop: 5 }}>{t("percentage")}:</Text>
             <Text style={{ color: colors.text, marginTop: 30 }}>{t("unansweredAnswers")}:</Text>
-            <Text style={{ color: colors.text, marginTop: 10 }}>{t("percentage")}:</Text>
+            <Text style={{ color: colors.text, marginTop: 5 }}>{t("percentage")}:</Text>
             <Text style={{ color: colors.text, marginTop: 30 }}>{t("totalQuestions")}:</Text>
         </View>
         <View style={{ width: "40%"}}>
           <Text style={{ color: colors.greenText, marginTop: 40  }}>{props.numCorAns}</Text>
-          <Text style={{ color: colors.greenText, marginTop: 10  }}>{props.percentage}%</Text>
+          <Text style={{ color: colors.greenText, marginTop: 5  }}>{props.percentage}%</Text>
           <Text style={{ color: "magenta", marginTop: 30  }}>3/10</Text>
-          <Text style={{ color: "magenta", marginTop: 10  }}>30%</Text>
+          <Text style={{ color: "magenta", marginTop: 5  }}>30%</Text>
           <Text style={{ color: colors.textDrawer, marginTop: 30  }}>{props.unanswered}</Text>
-          <Text style={{ color: colors.textDrawer, marginTop: 10  }}>{70 - props.percentage}%</Text>
+          <Text style={{ color: colors.textDrawer, marginTop: 5  }}>{70 - props.percentage}%</Text>
           <Text style={{ color: colors.text, marginTop: 30  }}>10</Text>
         </View>
       </View>
+
+      {props.quizNumR === "" ? null : (
+        <Pressable
+          onPress={() => navigation.navigate(props.quizNumR)}
+          style={{
+            position: "absolute",
+            bottom: 30,
+            right: 30,
+            borderColor: colors.textDrawer,
+            borderWidth: 0.5,
+            borderRadius: 10,
+            paddingHorizontal: 10,
+            paddingVertical: 5,
+            zIndex: 99999,
+          }}
+        >
+          <Text style={{ color: colors.textDrawer }}>{t("repeat")}</Text>
+        </Pressable>
+      )}
       
     </View>
   );

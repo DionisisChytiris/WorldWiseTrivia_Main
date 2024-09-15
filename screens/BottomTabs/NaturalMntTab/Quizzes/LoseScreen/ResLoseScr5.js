@@ -22,6 +22,7 @@ const ResLoseScr5 = () => {
         percentage={correct}
         numCorAns={crAns}
         unanswered={wrnAns}
+        quizNumR='NaturalMntHome'
       />
     );
 }

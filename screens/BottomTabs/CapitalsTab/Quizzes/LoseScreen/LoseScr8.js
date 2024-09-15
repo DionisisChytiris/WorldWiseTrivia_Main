@@ -22,6 +22,7 @@ const LoseScreen8 = () => {
       percentage={correct}
       numCorAns={crAns}
       unanswered={wrnAns}
+      quizNumR='CapitalsHome'
     />
   );
 };

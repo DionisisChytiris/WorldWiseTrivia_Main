@@ -3,10 +3,12 @@ import { View, Text, StyleSheet, Pressable, TextInput } from "react-native";
 import { RFValue } from "react-native-responsive-fontsize";
 import { useTranslation } from "react-i18next";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { useTheme } from "../../utils/ThemeMode/ThemeProvider";
 
 const NameInput = ({navigation}) => {
   const [name, setName] = useState("");
   const { t } = useTranslation();
+  const { dark, colors, setScheme } = useTheme();
 
   const storeData = async()=>{
     if(name.length == 0) {
@@ -47,7 +49,7 @@ const NameInput = ({navigation}) => {
   }
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container,{ backgroundColor: colors.backgroundDrawer }]}>
       <View
         style={{ width: "50%", flexDirection: "row", gap: 5, marginBottom: 70 }}
       >

@@ -199,6 +199,7 @@ import {
 } from "../../ReduxSetUp/NaturalMntQuizSlices";
 import {quizMixed1En, quizMixed1El, quizMixed1Es, quizMixed10El, quizMixed10En, quizMixed10Es, quizMixed2El, quizMixed2En, quizMixed2Es, quizMixed3El, quizMixed3En, quizMixed3Es, quizMixed4El, quizMixed4En, quizMixed4Es, quizMixed5El, quizMixed5En, quizMixed5Es, quizMixed6El, quizMixed6En, quizMixed6Es, quizMixed7El, quizMixed7En, quizMixed7Es, quizMixed8El, quizMixed8En, quizMixed8Es, quizMixed9El, quizMixed9En,quizMixed9Es
 } from '../../ReduxSetUp/MixedQuizSlices'
+import { lngTrEl,lngTrEn,lngTrEs } from "../../ReduxSetUp/LanguageSlice/LanguageSlice.js";
 import { Feather } from "@expo/vector-icons";
 import { toggleBoolean } from "../../ReduxSetUp/SoundVibration/VibrationSlice.tsx";
 import { useAppSelector } from "../../ReduxSetUp/store";
@@ -214,7 +215,7 @@ const DrawerContent = (props) => {
   const { dark, colors, setScheme } = useTheme();
   const { t } = useTranslation();
   const [name, setName] = useState("");
-  const [option, setOption] = useState("En");
+  const [option, setOption] = useState();
   const [isVibrating, setIsVibrating] = useState(true);
   const [isPlaying, setIsPlaying] = useState(true);
   const [isbg1, setIsbg1] = useState("transparent");
@@ -254,6 +255,7 @@ const DrawerContent = (props) => {
   };
 
   const English = () => {
+    dispatch(lngTrEn())
     dispatch(flagsEn());
     dispatch(flagsEuEn());
     dispatch(flgAmEn());
@@ -325,6 +327,7 @@ const DrawerContent = (props) => {
     dispatch(quizMixed10En())
   };
   const Spanish = () => {
+    dispatch(lngTrEs())
     dispatch(flagsEs());
     dispatch(flagsEuEs());
     dispatch(flgAmEs());
@@ -395,6 +398,7 @@ const DrawerContent = (props) => {
     dispatch(quizMixed10Es())
   };
   const Greek = () => {
+    dispatch(lngTrEl())
     dispatch(flagsEl());
     dispatch(flagsEuEl());
     dispatch(flgAmEl());
@@ -557,7 +561,7 @@ const DrawerContent = (props) => {
               {/* English */}
               <Pressable
                 onPress={() => {
-                  i18next.changeLanguage(Object.keys(languageResources)[0]);
+                  // i18next.changeLanguage(Object.keys(languageResources)[0]);
                   English();
                   setOption("En");
                 }}
@@ -565,7 +569,7 @@ const DrawerContent = (props) => {
                   styles.lngBtn,
                   {
                     backgroundColor:
-                      option == "En" ? colors.bgLngBtn1 : colors.bgLngBtn,
+                      option == "En" ? colors.bgLngBtn1 : colors.bgLngBtn
                   },
                 ]}
               >
@@ -579,7 +583,7 @@ const DrawerContent = (props) => {
               {/* Spanish */}
               <Pressable
                 onPress={() => {
-                  i18next.changeLanguage(Object.keys(languageResources)[1]);
+                  // i18next.changeLanguage(Object.keys(languageResources)[1]);
                   Spanish();
                   setOption("Es");
                 }}
@@ -587,7 +591,7 @@ const DrawerContent = (props) => {
                   styles.lngBtn,
                   {
                     backgroundColor:
-                      option == "Es" ? colors.bgLngBtn1 : colors.bgLngBtn,
+                      option == "Es" ? colors.bgLngBtn1 : colors.bgLngBtn
                   },
                 ]}
               >
@@ -595,13 +599,13 @@ const DrawerContent = (props) => {
                   source={require("../../assets/Flags/spain.png")}
                   style={{ width: 22, height: 15, borderRadius: 3 }}
                 />
-                <Text style={{ color: colors.textDrawer }}>Spanish</Text>
+                <Text style={{ color: colors.textDrawer }}>Español</Text>
               </Pressable>
 
               {/* Greek */}
               <Pressable
                 onPress={() => {
-                  i18next.changeLanguage(Object.keys(languageResources)[2]);
+                  // i18next.changeLanguage(Object.keys(languageResources)[2]);
                   Greek();
                   setOption("El");
                 }}
@@ -617,7 +621,7 @@ const DrawerContent = (props) => {
                   source={require("../../assets/Flags/greece.png")}
                   style={{ width: 22, height: 15, borderRadius: 3 }}
                 />
-                <Text style={{ color: colors.textDrawer }}>Greek</Text>
+                <Text style={{ color: colors.textDrawer }}>Ελληνικά</Text>
               </Pressable>
 
               <View style={styles.soundVibration}>

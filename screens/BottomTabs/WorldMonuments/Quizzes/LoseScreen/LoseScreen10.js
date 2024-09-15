@@ -22,6 +22,7 @@ const LoseScreen10 = () => {
       percentage={correct}
       numCorAns={crAns}
       unanswered={wrnAns}
+      quizNumR='WorldMonumentsHome'
     />
   );
 };

@@ -68,7 +68,7 @@ const ChangeTheme= () => {
 
       <Pressable
         onPress={() => {
-          (dark ? setScheme("light") : null)
+          (dark ? setScheme("light") : setScheme("dark"))
           // alert('hey')
           setBgColor2('lightgreen')
           setBgColor1('white')
