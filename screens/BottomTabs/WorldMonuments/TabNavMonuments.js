@@ -106,7 +106,8 @@ const TabNavMonuments = () => {
             tabBarIcon: ()=>(
                 <Image
                     style={{width: 30, height: 30, marginTop: 14, borderRadius: 16}}
-                    source={require('../../../assets/QuizScreen/monument.jpg')}
+                    // source={require('../../../assets/QuizScreen/monument.jpg')}
+                    source={require('../../../assets/WorldMonuments/worldmnt.webp')}
                 />
             )
         }}

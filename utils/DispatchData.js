@@ -1,0 +1,113 @@
+import { flagsEl, flagsEn, flagsEs } from "../ReduxSetUp/flagSlice";
+import {
+    flgAfEl,
+    flgAfEn,
+    flgAfEs,
+    flgAsEl,
+    flgAsEn,
+    flgAsEs,
+    flgOcEl,
+    flgOcEn,
+    flgOcEs,
+    flagsEuEl,
+    flagsEuEn,
+    flagsEuEs,
+    flgAmEl,
+    flgAmEn,
+    flgAmEs,
+    quiz1El,
+    quiz1En,
+    quiz1Es,
+    quiz2El,
+    quiz2En,
+    quiz2Es,
+    quiz3El,
+    quiz3En,
+    quiz3Es,
+    quiz4El,
+    quiz4En,
+    quiz4Es,
+    quiz5El,
+    quiz5En,
+    quiz5Es,
+    quiz6El,
+    quiz6En,
+    quiz6Es,
+    quiz7El,
+    quiz7En,
+    quiz7Es,
+    quiz8El,
+    quiz8En,
+    quiz8Es,
+    quiz9El,
+    quiz9En,
+    quiz9Es,
+    quiz10El,
+    quiz10En,
+    quiz10Es,
+  } from "../ReduxSetUp/FlagsQuizSlices";
+//   } from "../../ReduxSetUp/FlagsQuizSlices";
+  import {
+    quizCpt1El,
+    quizCpt1En,
+    quizCpt1Es,
+    quizCpt2El,
+    quizCpt2En,
+    quizCpt2Es,
+    quizCpt3El,
+    quizCpt3En,
+    quizCpt3Es,
+    quizCpt4El,
+    quizCpt4En,
+    quizCpt4Es,
+    quizCpt5El,
+    quizCpt5En,
+    quizCpt5Es,
+    quizCpt6El,
+    quizCpt6En,
+    quizCpt6Es,
+    quizCpt7El,
+    quizCpt7En,
+    quizCpt7Es,
+    quizCpt8El,
+    quizCpt8En,
+    quizCpt8Es,
+    quizCpt9El,
+    quizCpt9En,
+    quizCpt9Es,
+    quizCpt10El,
+    quizCpt10En,
+    quizCpt10Es,
+  } from "../ReduxSetUp/CapitalsQuizSlices";
+  import { NtrAsiaEl, NtrAsiaEn, NtrAsiaEs, NtrEurEl, NtrEurEn, NtrEurEs, NtrAmerEl, NtrAmerEn, NtrAmerEs, NtrAfrEl, NtrAfrEn, NtrAfrEs, NtrOceaEl, NtrOceaEn, NtrOceaEs } from "../ReduxSetUp/NaturalMntLearnSlices";
+  import { lngTrEn, lngTrEl, lngTrEs } from "../ReduxSetUp/LanguageSlice/LanguageSlice";
+  import { statusEn, statusEs, statusEl } from "../ReduxSetUp/QuizLngStatus/LngStatus";
+
+const actions= {
+    en: [
+        lngTrEn, flagsEn, flagsEuEn, flgAmEn, flgAfEn, flgAsEn, flgOcEn,
+        quiz1En, quiz2En, quiz3En, quiz4En, quiz5En, quiz6En, quiz7En, 
+        quiz8En, quiz9En, quiz10En, quizCpt1En, quizCpt2En, quizCpt3En, 
+        quizCpt4En, quizCpt5En, quizCpt6En, quizCpt7En, quizCpt8En, 
+        quizCpt9En, quizCpt10En, NtrEurEn, NtrAsiaEn, NtrAmerEn, 
+        NtrAfrEn, NtrOceaEn, statusEn
+      ],
+      es: [
+        lngTrEs, flagsEs, flagsEuEs, flgAmEs, flgAfEs, flgAsEs, flgOcEs,
+        quiz1Es, quiz2Es, quiz3Es, quiz4Es, quiz5Es, quiz6Es, quiz7Es,
+        quiz8Es, quiz9Es, quiz10Es, quizCpt1Es, quizCpt2Es, quizCpt3Es,
+        quizCpt4Es, quizCpt5Es, quizCpt6Es, quizCpt7Es, quizCpt8Es,
+        quizCpt9Es, quizCpt10Es, NtrEurEs, NtrAsiaEs, NtrAmerEs,
+        NtrAfrEs, NtrOceaEs, statusEs
+      ],
+      el: [
+        lngTrEl, flagsEl, flagsEuEl, flgAmEl, flgAfEl, flgAsEl, flgOcEl,
+        quiz1El, quiz2El, quiz3El, quiz4El, quiz5El, quiz6El, quiz7El,
+        quiz8El, quiz9El, quiz10El, quizCpt1El, quizCpt2El, quizCpt3El,
+        quizCpt4El, quizCpt5El, quizCpt6El, quizCpt7El, quizCpt8El,
+        quizCpt9El, quizCpt10El, NtrEurEl, NtrAsiaEl, NtrAmerEl,
+        NtrAfrEl, NtrOceaEl, statusEl
+      ]
+}
+
+export default actions

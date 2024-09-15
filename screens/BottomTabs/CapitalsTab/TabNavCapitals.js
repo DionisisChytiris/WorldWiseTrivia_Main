@@ -158,7 +158,8 @@ const TabNavCapitals = ({ navigation }) => {
           tabBarIcon: () => (
             <Image
               style={{ width: 30, height: 30, marginTop: 12, borderRadius: 16 }}
-              source={require("../../../assets/QuizScreen/lon.png")}
+              // source={require("../../../assets/QuizScreen/lon.png")}
+              source={require("../../../assets/more/capitals.webp")}
             />
           ),
         }}
