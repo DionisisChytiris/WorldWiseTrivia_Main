@@ -33,6 +33,8 @@ const DrawerContent = (props) => {
   const darkMode = require("../../assets/settings/moon.png");
   const route = useRoute();
   const newName = route.params.name
+  const [storedString, setStoredString] = useState(''); // Initial state
+  const STRING_KEY = 'myStoredString'; // Key for AsyncStorage
 
   useEffect(() => {
     getData();
@@ -48,6 +50,16 @@ const DrawerContent = (props) => {
       });
     } catch (e) {
       console.log(e);
+    }
+  };
+
+  const saveString = async (newString) => {
+    try {
+      setStoredString(newString); // Update the state
+      await AsyncStorage.setItem(STRING_KEY, newString); // Save the new string to AsyncStorage
+      console.log('String saved:', newString);
+    } catch (error) {
+      console.error('Failed to save string to AsyncStorage:', error);
     }
   };
 
@@ -159,6 +171,7 @@ const DrawerContent = (props) => {
                   // English();
                   setLanguage('en')
                   setOption("En");
+                  saveString('En')
                 }}
                 style={[
                   styles.lngBtn,
@@ -182,6 +195,7 @@ const DrawerContent = (props) => {
                   // Spanish();
                   setOption("Es");
                   setLanguage('es')
+                  saveString('Es')
                 }}
                 style={[
                   styles.lngBtn,
@@ -205,6 +219,7 @@ const DrawerContent = (props) => {
                   // Greek();
                   setLanguage('el')
                   setOption("El");
+                  saveString('El')
                 }}
                 style={[
                   styles.lngBtn,

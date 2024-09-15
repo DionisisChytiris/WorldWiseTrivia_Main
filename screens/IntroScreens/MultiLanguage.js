@@ -5,6 +5,7 @@ import { RFValue } from "react-native-responsive-fontsize";
 import { useTranslation } from "react-i18next";
 import { useDispatch } from "react-redux";
 import { statusEn, statusEs, statusEl } from "../../ReduxSetUp/QuizLngStatus/LngStatus";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 // import { AppNavigatorTypeList } from "../../Types/AppNavigatorTypeList";
 // import { StackNavigationProp } from "@react-navigation/stack";
@@ -21,6 +22,9 @@ const MultiLanguage = () => {
   const { t } = useTranslation();
   const dispatch = useDispatch();
   const [name, setName] = useState("");
+  const [storedString, setStoredString] = useState(''); // Initial state
+  const STRING_KEY = 'myStoredString'; // Key for AsyncStorage
+
 
   useEffect(() => {
     getData();
@@ -39,6 +43,17 @@ const MultiLanguage = () => {
       console.log(e)
     }
   }
+
+  
+  const saveString = async (newString) => {
+    try {
+      setStoredString(newString); // Update the state
+      await AsyncStorage.setItem(STRING_KEY, newString); // Save the new string to AsyncStorage
+      console.log('String saved:', newString);
+    } catch (error) {
+      console.error('Failed to save string to AsyncStorage:', error);
+    }
+  };
 
   const setLanguage = (language) => {
     const colors = {
@@ -81,7 +96,8 @@ const MultiLanguage = () => {
             // i18next.changeLanguage(Object.keys(languageResources)[0]);
             // English();
             setLanguage('en')
-            dispatch(statusEn())
+            // dispatch(statusEn())
+            saveString('En')
           }}
         >
           <Image
@@ -96,7 +112,8 @@ const MultiLanguage = () => {
             // i18next.changeLanguage(Object.keys(languageResources)[1]);
             // Spanish();
             setLanguage('es')
-            dispatch(statusEs())
+            // dispatch(statusEs())
+            saveString('Es')
           }}
         >
           <Image
@@ -111,7 +128,8 @@ const MultiLanguage = () => {
             // i18next.changeLanguage(Object.keys(languageResources)[2]);
             // Greek();
             setLanguage('el')
-            dispatch(statusEl())
+            // dispatch(statusEl())
+            saveString('El')
           }}
         >
           <Image

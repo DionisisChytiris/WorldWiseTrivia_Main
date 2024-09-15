@@ -12,12 +12,31 @@ import { AppNavigatorTypeList } from "./Types/AppNavigatorTypeList";
 import { useDispatch } from "react-redux";
 import actions from './utils/DispatchData'
 import { useAppSelector } from "./ReduxSetUp/store";
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Stack = createNativeStackNavigator<AppNavigatorTypeList>();
 
 const AppNavigator = () => {
   const dispatch = useDispatch();
   const { initLng } = useAppSelector((state) => state.lngStatus);
+  const [storedString, setStoredString] = React.useState(''); // Initial state
+  const STRING_KEY = 'myStoredString'; 
+
+  useEffect(() => {
+    const loadStoredString = async () => {
+      try {
+        const value = await AsyncStorage.getItem(STRING_KEY);
+        if (value !== null) {
+          setStoredString(value); // Set state if a value exists in AsyncStorage
+        }
+      } catch (error) {
+        console.error('Failed to load string from AsyncStorage:', error);
+      }
+    };
+
+    loadStoredString();
+  }, []);
+
   
   // type Language = 'en' | 'es' | 'el'
 
@@ -26,17 +45,17 @@ const AppNavigator = () => {
   };
 
   useEffect(()=>{
-    if(initLng === 'En'){
+    if(storedString === 'En'){
       setLanguage('en')
     }
-    if(initLng ==='Es' ){
+    if(storedString ==='Es' ){
       setLanguage('es')
     }
-    if(initLng ==='El'){
+    if(storedString ==='El'){
       setLanguage('el')
     }
-    console.log(initLng)
-  },[])
+    console.log(storedString)
+  },[storedString])
 
 
   return (
