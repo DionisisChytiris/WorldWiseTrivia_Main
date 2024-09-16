@@ -45,7 +45,7 @@ import {
   quiz10El,
   quiz10En,
   quiz10Es,
-} from "../../ReduxSetUp/FlagsQuizSlices";
+} from "../ReduxSetUp/FlagsQuizSlices";
 import {
   quizCpt1El,
   quizCpt1En,
@@ -80,7 +80,7 @@ import {
   CptNameEn,
   CptNameEs,
   CptNameEl,
-} from "../../ReduxSetUp/CapitalsQuizSlices";
+} from "../ReduxSetUp/CapitalsQuizSlices";
 import {
   quizMnt1El,
   quizMnt1En,
@@ -116,7 +116,7 @@ import {
   MnmEl,
   MnmEn,
   MnmEs,
-} from "../../ReduxSetUp/MonumentsQuizSlices";
+} from "../ReduxSetUp/MonumentsQuizSlices";
 import {
   MonEuEl,
   MonEuEs,
@@ -133,7 +133,7 @@ import {
   MonAsEl,
   MonAsEn,
   MonAsEs,
-} from "../../ReduxSetUp/MonumentsLearnSlices";
+} from "../ReduxSetUp/MonumentsLearnSlices";
 import {
   NtrAsiaEl,
   NtrAsiaEn,
@@ -150,7 +150,7 @@ import {
   NtrOceaEl,
   NtrOceaEn,
   NtrOceaEs,
-} from "../../ReduxSetUp/NaturalMntLearnSlices";
+} from "../ReduxSetUp/NaturalMntLearnSlices";
 import {
   quizNtrMnt1El,
   quizNtrMnt1En,
@@ -185,7 +185,7 @@ import {
   NtrMntEn,
   NtrMntEl,
   NtrMntEs,
-} from "../../ReduxSetUp/NaturalMntQuizSlices";
+} from "../ReduxSetUp/NaturalMntQuizSlices";
 import {
   quizMixed1En,
   quizMixed1El,
@@ -217,7 +217,7 @@ import {
   quizMixed9El,
   quizMixed9En,
   quizMixed9Es,
-} from "../../ReduxSetUp/MixedQuizSlices";
+} from "../ReduxSetUp/MixedQuizSlices";
 import {
   lngTrEn,
   lngTrEl,
