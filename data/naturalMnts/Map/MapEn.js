@@ -44,7 +44,7 @@ const MapDataEn = [
         ltr: 'A',
         title: 'Avenue of Baobabs',
         description: 'The Avenue of the Baobabs, located in Madagascar, is a stunning landscape featuring towering baobab trees lining a dirt road. This iconic site is famous for its unique beauty and is one of the most photographed locations in the country.',
-        img: require('../../../assets/NaturalMnt/Africa/avenueofboababs.webp'),
+        img: {uri:'https://firebasestorage.googleapis.com/v0/b/worldwisetriviaimages.appspot.com/o/avenueofboababs.webp?alt=media&token=3970e776-de2a-4de8-9d60-fda1347523fb'},
         latitude: -20.25064,
         longitude: 44.41965,
         zoomLocation: 5.3,

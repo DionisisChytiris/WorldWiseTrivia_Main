@@ -200,6 +200,8 @@ const QuizMainTemplate = (props) => {
   const [fiftyFifty2, setFiftyFifty2] = useState([]);
   const [soundRoll1, setSoundRoll1] = useState();
   const [soundRoll2, setSoundRoll2] = useState();
+  const [displayNone1, setDisplayNone1] = useState(stylesMain.fiftyfiftybutton)
+  const [displayNone2, setDisplayNone2] = useState(stylesMain.fiftyfiftybutton)
 
   async function playSoundRoll1() {
     const { sound } = await Audio.Sound.createAsync(
@@ -234,6 +236,7 @@ const QuizMainTemplate = (props) => {
       : undefined;
   }, [soundRoll2]);
 
+
   const handleFiftyFifty = async () => {
     {
       soundActive ? null : await playSoundRoll1();
@@ -264,6 +267,9 @@ const QuizMainTemplate = (props) => {
             setFiftyFifty(randomWrongAnswers);
           }, 1200);
     }
+    {setTimeout(()=>{
+      setDisplayNone1(stylesMain.testFifty)
+    },700)}
   };
 
   const handleFiftyFifty2 = async () => {
@@ -295,6 +301,7 @@ const QuizMainTemplate = (props) => {
             setFiftyFifty2(randomWrongAnswers);
           }, 1200);
     }
+    setDisplayNone2(stylesMain.testFifty)
   };
 
   return (
@@ -395,7 +402,7 @@ const QuizMainTemplate = (props) => {
             <PhoneHelpOption helpText={currentQuestion.textQuiz} />
             <Pressable
               onPress={handleFiftyFifty}
-              style={stylesMain.fiftyfiftybutton}
+              style={displayNone1}
             >
               <View>
                 <Text style={{ fontSize: 16 }}>50%</Text>
@@ -477,7 +484,7 @@ const QuizMainTemplate = (props) => {
             <Pressable
               onPress={handleFiftyFifty2}
               // onPress={()=>alert('hey')}
-              style={[stylesMain.fiftyfiftybutton, { zIndex: 999 }]}
+              style={[displayNone2, { zIndex: 999 }]}
             >
               <View>
                 <Text style={{ fontSize: 16 }}>50%</Text>
@@ -630,6 +637,8 @@ const QuizMainTemplate = (props) => {
                 setShowHeart(false),
                 setFiftyFifty([]);
               setFiftyFifty2([]);
+              setDisplayNone1(stylesMain.fiftyfiftybutton)
+              setDisplayNone2(stylesMain.fiftyfiftybutton)
               // console.log(fiftyFifty);
             }
             if (guesses == currentQuestion.num) {
@@ -690,6 +699,10 @@ const stylesMain = StyleSheet.create({
     width: 50,
     height: 35,
     borderRadius: 10,
+    zIndex: 999
+  },
+  testFifty:{
+    display: 'none'
   },
   selectLetter: {
     backgroundColor: "white",
