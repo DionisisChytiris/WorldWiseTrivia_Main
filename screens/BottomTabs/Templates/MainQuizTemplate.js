@@ -6,12 +6,13 @@ import {
   StyleSheet,
   Vibration,
 } from "react-native";
+import PhoneHelpOption from "../Templates/components/PhoneHelpOption";
 import React, { useState, useEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
 import LottieView from "lottie-react-native";
 import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
-import { MaterialIcons } from "@expo/vector-icons";
+import { MaterialIcons, Zocial } from "@expo/vector-icons";
 import { styles } from "../styles";
 import { useAppSelector } from "../../../ReduxSetUp/store";
 import { Audio } from "expo-av";
@@ -57,8 +58,10 @@ const QuizMainTemplate = (props) => {
   async function CorrectPlaySound() {
     const { sound } = await Audio.Sound.createAsync(
       require("../../../assets/correct1.wav")
+      // require("../../../assets/drumroll.mp3")
     );
     setCorrectSound(correctSound);
+    await sound.setVolumeAsync(0.3);
     await sound.playAsync();
   }
   useEffect(() => {
@@ -71,8 +74,6 @@ const QuizMainTemplate = (props) => {
         setScore((score) => score + 10);
         setAnswerStatus(true);
         setDisabled(true);
-        // console.log(isBoolean);
-        // Vibration.vibrate([100, 50, 200, 100, 200, 100, 300])
         {
           boolean
             ? Vibration.vibrate([100, 50, 200, 100, 200, 100, 300])
@@ -157,7 +158,7 @@ const QuizMainTemplate = (props) => {
     const newArray = heart.length - 1;
     heart.pop(newArray);
     {
-      newArray === 0 && navigation.navigate(props.loseScreen, { score: score })
+      newArray === 0 && navigation.navigate(props.loseScreen, { score: score });
     }
   };
 
@@ -167,7 +168,6 @@ const QuizMainTemplate = (props) => {
     {
       newApple === 0 && removeHeart();
       newApple === 0 && (setIndex(index + 1), restartGuess(), restartApple());
-      // newApple === 0 && navigation.navigate("LoseScreen");
     }
   };
 
@@ -194,6 +194,108 @@ const QuizMainTemplate = (props) => {
   // Arrange dataLength according the filteredData list
   const dt = data.length - 1;
   const filteredLength = dt / 3;
+
+  // 50/50 logic
+  const [fiftyFifty, setFiftyFifty] = useState([]);
+  const [fiftyFifty2, setFiftyFifty2] = useState([]);
+  const [soundRoll1, setSoundRoll1] = useState();
+  const [soundRoll2, setSoundRoll2] = useState();
+
+  async function playSoundRoll1() {
+    const { sound } = await Audio.Sound.createAsync(
+      require("../../../assets/cymbal.mp3") // Replace with your sound file path
+    );
+    setSoundRoll1(soundRoll1);
+    await sound.setVolumeAsync(0.3);
+    await sound.playAsync(); // Play the sound
+  }
+  async function playSoundRoll2() {
+    const { sound } = await Audio.Sound.createAsync(
+      require("../../../assets/cymbal.mp3") // Replace with your sound file path
+    );
+    setSoundRoll2(soundRoll2);
+    await sound.setVolumeAsync(0.3);
+    await sound.playAsync(); // Play the sound
+  }
+
+  useEffect(() => {
+    return soundRoll1
+      ? () => {
+          sound.unloadAsync(); // Cleanup sound when component unmounts
+        }
+      : undefined;
+  }, [soundRoll1]);
+
+  useEffect(() => {
+    return soundRoll2
+      ? () => {
+          sound.unloadAsync(); // Cleanup sound when component unmounts
+        }
+      : undefined;
+  }, [soundRoll2]);
+
+  const handleFiftyFifty = async () => {
+    {
+      soundActive ? null : await playSoundRoll1();
+    }
+
+    {
+      soundActive
+        ? setTimeout(() => {
+            const wrongAnswers = currentQuestion.options
+              .map((option, index) => index)
+              .filter((index) => index !== currentQuestion.correctAnswerIndex);
+
+            const randomWrongAnswers = wrongAnswers
+              .sort(() => 0.5 - Math.random())
+              .slice(0, 2);
+
+            setFiftyFifty(randomWrongAnswers);
+          }, 200)
+        : setTimeout(() => {
+            const wrongAnswers = currentQuestion.options
+              .map((option, index) => index)
+              .filter((index) => index !== currentQuestion.correctAnswerIndex);
+
+            const randomWrongAnswers = wrongAnswers
+              .sort(() => 0.5 - Math.random())
+              .slice(0, 2);
+
+            setFiftyFifty(randomWrongAnswers);
+          }, 1200);
+    }
+  };
+
+  const handleFiftyFifty2 = async () => {
+    {
+      soundActive ? null : await playSoundRoll2();
+    }
+    {
+      soundActive
+        ? setTimeout(() => {
+            const wrongAnswers = currentQuestion.options
+              .map((option, index) => index)
+              .filter((index) => index !== currentQuestion.correctAnswerIndex);
+
+            const randomWrongAnswers = wrongAnswers
+              .sort(() => 0.5 - Math.random())
+              .slice(0, 2);
+
+            setFiftyFifty2(randomWrongAnswers);
+          }, 200)
+        : setTimeout(() => {
+            const wrongAnswers = currentQuestion.options
+              .map((option, index) => index)
+              .filter((index) => index !== currentQuestion.correctAnswerIndex);
+
+            const randomWrongAnswers = wrongAnswers
+              .sort(() => 0.5 - Math.random())
+              .slice(0, 2);
+
+            setFiftyFifty2(randomWrongAnswers);
+          }, 1200);
+    }
+  };
 
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
@@ -289,11 +391,22 @@ const QuizMainTemplate = (props) => {
         {/* {currentQuestion.status === "Flags"  && (  */}
         {currentQuestion.status === status && status === "Flags" && (
           <>
+            {/* Testing Material to help user to find correct answer */}
+            <PhoneHelpOption helpText={currentQuestion.textQuiz} />
+            <Pressable
+              onPress={handleFiftyFifty}
+              style={stylesMain.fiftyfiftybutton}
+            >
+              <View>
+                <Text style={{ fontSize: 16 }}>50%</Text>
+              </View>
+            </Pressable>
+
             <Text style={[styles.smTitle, { color: colors.text }]}>
               {currentQuestion.capital}
             </Text>
-            <Text style={[styles.LgTitle, { color: colors.text}]}>
-              {currentQuestion.country} 
+            <Text style={[styles.LgTitle, { color: colors.text }]}>
+              {currentQuestion.country}
             </Text>
             <View style={styles.box}>
               {currentQuestion?.options.map((item, index) => (
@@ -303,18 +416,21 @@ const QuizMainTemplate = (props) => {
                     onPress={() => {
                       setSelectedAnswer(index);
                     }}
-                    disabled={disabled}
-                    style={
-                      selectedAnswer === index &&
-                      index === currentQuestion.correctAnswerIndex
+                    disabled={disabled || fiftyFifty.includes(index)}
+                    style={[
+                      fiftyFifty.includes(index)
+                        ? { opacity: 0.4 }
+                        : { opacity: 1 } ||
+                          (selectedAnswer === index &&
+                            index === currentQuestion.correctAnswerIndex)
                         ? styles.box1
                         : selectedAnswer !== currentQuestion.correctAnswerIndex
                         ? styles.box1
                         : selectedAnswer === index &&
                           index !== currentQuestion.correctAnswerIndex
                         ? styles.box1
-                        : styles.box2
-                    }
+                        : styles.box2,
+                    ]}
                   >
                     <View>
                       <Image source={item.img} style={img} />
@@ -356,9 +472,22 @@ const QuizMainTemplate = (props) => {
         {/* {currentQuestion.status === "Capitals" && ( */}
         {currentQuestion.status === status && status === "Capitals" && (
           <>
+            {/* Testing Material to help user to find correct answer */}
+            <PhoneHelpOption helpText={currentQuestion.textQuiz} />
+            <Pressable
+              onPress={handleFiftyFifty2}
+              // onPress={()=>alert('hey')}
+              style={[stylesMain.fiftyfiftybutton, { zIndex: 999 }]}
+            >
+              <View>
+                <Text style={{ fontSize: 16 }}>50%</Text>
+              </View>
+            </Pressable>
+
             <Text style={[styles.smTitle, { color: colors.text }]}>
               {currentQuestion.country}
             </Text>
+
             {!currentQuestion.image ? (
               <Text style={[styles.LgTitle, { color: colors.text }]}>
                 {currentQuestion.country}
@@ -383,18 +512,21 @@ const QuizMainTemplate = (props) => {
                     onPress={() => {
                       setSelectedAnswer(index);
                     }}
-                    disabled={disabled}
-                    style={
-                      selectedAnswer === index &&
-                      index === currentQuestion.correctAnswerIndex
+                    disabled={disabled || fiftyFifty2.includes(index)}
+                    style={[
+                      fiftyFifty2.includes(index)
+                        ? { opacity: 0.4 }
+                        : { opacity: 1 } ||
+                          (selectedAnswer === index &&
+                            index === currentQuestion.correctAnswerIndex)
                         ? styles.box1
                         : selectedAnswer !== currentQuestion.correctAnswerIndex
                         ? styles.box1
                         : selectedAnswer === index &&
                           index !== currentQuestion.correctAnswerIndex
                         ? styles.box1
-                        : styles.box2
-                    }
+                        : styles.box2,
+                    ]}
                   >
                     {/* <View>
                       <Image source={item.img} style={img} />
@@ -414,11 +546,16 @@ const QuizMainTemplate = (props) => {
                     >
                       <Text
                         style={{
-                          fontSize: item.capital.length > 22 ? 16 : height>880? 26:18,
+                          fontSize:
+                            item.capital.length > 22
+                              ? 16
+                              : height > 880
+                              ? 26
+                              : 18,
                           fontWeight: "500",
                           color: colors.text,
                           textAlign: "center",
-                          paddingHorizontal: 20
+                          paddingHorizontal: 20,
                         }}
                       >
                         {item.capital}
@@ -439,15 +576,13 @@ const QuizMainTemplate = (props) => {
                     {/* Correct (Tick) Symbol */}
                     {selectedAnswer === index &&
                     index === currentQuestion.correctAnswerIndex ? (
-                     <SuccessAnimation/>
-                    ) :
-                    null}
+                      <SuccessAnimation />
+                    ) : null}
                     {/* Wrong (clear) Symbol */}
                     {selectedAnswer === index &&
                     index !== currentQuestion.correctAnswerIndex ? (
-                     <FailAnimation/>
-                    ) : 
-                    null}
+                      <FailAnimation />
+                    ) : null}
                     {show
                       ? index === currentQuestion.correctAnswerIndex && (
                           <View style={styles.tick}>
@@ -492,7 +627,10 @@ const QuizMainTemplate = (props) => {
               selectedAnswer == null
                 ? null
                 : (setIndex(index + 1), restartApple(), setDisabled(false)),
-                setShowHeart(false);
+                setShowHeart(false),
+                setFiftyFifty([]);
+              setFiftyFifty2([]);
+              // console.log(fiftyFifty);
             }
             if (guesses == currentQuestion.num) {
               setIndex(index + 1);
@@ -538,6 +676,21 @@ const QuizMainTemplate = (props) => {
 export default QuizMainTemplate;
 
 const stylesMain = StyleSheet.create({
+  fadedOption: {
+    opacity: 0.4,
+  },
+  fiftyfiftybutton: {
+    position: "absolute",
+    left: 100,
+    top: 10,
+    display: "flex",
+    alignItems: "center",
+    backgroundColor: "lightgrey",
+    justifyContent: "center",
+    width: 50,
+    height: 35,
+    borderRadius: 10,
+  },
   selectLetter: {
     backgroundColor: "white",
     width: 50,
@@ -567,16 +720,16 @@ const stylesMain = StyleSheet.create({
     left: 10,
   },
   imageQuiz1: {
-    width: height > 880 ? 450 :280,
-    height: height > 880 ? 270 :190,
+    width: height > 880 ? 450 : 280,
+    height: height > 880 ? 270 : 190,
     borderRadius: 20,
-    marginTop: 50,
+    marginTop: 70,
   },
   imageQuiz: {
-    width: height > 880 ? 350 :200,
-    height:height > 880 ? 220 :140,
+    width: height > 880 ? 350 : 200,
+    height: height > 880 ? 220 : 140,
     borderRadius: 20,
-    marginTop: 80,
+    marginTop: 90,
   },
   lottiestyle: {
     position: "absolute",

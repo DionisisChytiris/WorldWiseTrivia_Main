@@ -27,6 +27,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 1,
+      textQuiz: 'hello Dionysis'
     },
     {
       id: "1b",
@@ -56,6 +57,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 1,
+      textQuiz: 'hello there'
     },
     {
       id: "1c",
