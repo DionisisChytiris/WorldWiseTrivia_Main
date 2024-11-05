@@ -75,8 +75,8 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
   },
   flagBox: {
-    width: "42%",
-    height: "42%",
+    width: "48%",
+    height: "32%",
     borderRadius: 20,
     opacity: 1,
   },
@@ -87,8 +87,8 @@ export const styles = StyleSheet.create({
     opacity: 1,
   },
   flagBoxMedium: {
-    width: "42%",
-    height: "42%",
+    width: "48%",
+    height: "34%",
     borderRadius: 20,
     opacity: 1,
   },
@@ -173,7 +173,7 @@ export const styles = StyleSheet.create({
   },
   guessDisplay: {
     flexDirection: "row",
-    width: height > 900 ? "58%" : "80%",
+    width: height > 900 ? "78%" : "80%",
     flexWrap: "wrap",
     justifyContent: "center",
     alignItems: "center",

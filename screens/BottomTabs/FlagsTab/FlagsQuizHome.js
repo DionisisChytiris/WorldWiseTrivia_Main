@@ -28,11 +28,11 @@ const QuizTemplate = (props) => {
       key={props.id}
       onPressIn={()=>setTest(styles.button1)}
       onPressOut={() => (navigation.navigate(props.quiz), setTest(styles.button))}
-      style={[test,{backgroundColor: colors.text1, height:windowHeight> 900 ? 120: 80}]}
+      style={[test,{backgroundColor: colors.text1, height:windowHeight> 900 ? 80: 80}]}
     >
       <Image
         source={props.image}
-        style={{width: '100%', height: windowHeight> 900 ? 110 :'100%', borderRadius: 10, opacity: 0.9}}
+        style={{width: '100%', height: windowHeight> 900 ? 70 :'100%', borderRadius: 10, opacity: 0.9}}
         resizeMode="cover"
       />
       {/* <View style={{position: 'absolute', bottom: 5,backgroundColor:'grey', width: 80, height: 40,borderRadius: 4, opacity: 0.6}}/> */}

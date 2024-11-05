@@ -37,7 +37,7 @@ const QuizTemplate = (props) => {
         source={props.image}
         style={{
           width: "100%",
-          height:windowHeight> 900 ? 120 :'100%',
+          height:windowHeight> 900 ? 80 :'100%',
           borderRadius: 10,
           opacity: 0.7,
         }}
@@ -104,7 +104,7 @@ const CapitalsQuizHome = () => {
         source={require("../../../assets/more/worldMap.png")}
       />
       <View style={styles.quizBtnBox}>
-        <View style={{ width: "50%", gap: windowHeight> 900 ? 60: 20 }}>
+        <View style={{ width: "50%", gap: windowHeight> 900 ? 20: 20 }}>
           <QuizTemplate
             quiz="Quiz1"
             title="1"
@@ -131,7 +131,7 @@ const CapitalsQuizHome = () => {
             image={require("../../../assets/WorldMonuments/America/Metropolitan-Cathedral_Mexico.webp")}
           />
         </View>
-        <View style={{ width: "50%", marginTop: 70, marginLeft: 20, gap: windowHeight> 900 ? 60: 20 }}>
+        <View style={{ width: "50%", marginTop: 70, marginLeft: 20, gap: windowHeight> 900 ? 20: 20 }}>
           <QuizTemplate
             quiz="Quiz2"
             title="2"
