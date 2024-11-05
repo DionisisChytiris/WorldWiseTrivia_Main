@@ -456,7 +456,7 @@ const qstMixed6Es = [
               {
                 id: "1",
                 country: "Castillo de Neuschwanstein\nAlemania",
-                img: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.webp"),
+                img: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.jpg"),
               },
               {
                 id: "2",

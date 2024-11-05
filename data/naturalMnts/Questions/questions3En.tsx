@@ -166,7 +166,7 @@ const questions3En = [
         {
           id: "2",
           country: "Isle of Skye\nScotland",
-          img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+          img: require("../../../assets/NaturalMnt/Europe/isleofSkye.jpg"),
         },
         {
           id: "3",

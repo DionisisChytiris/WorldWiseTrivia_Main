@@ -27,6 +27,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "Well, the capital of Germany, is known for its rich history, including the Wall that once divided the city. It's also famous for landmarks like the Brandenburg Gate, its vibrant arts scene, and being a center of political and cultural activity in Europe"
   },
   {
     id: "1b",
@@ -56,6 +57,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "The German flag features three horizontal stripes, in different colors.These colors symbolize unity, freedom, and democracy.Definitely there is no green on it."
   },
   {
     id: "1c",
@@ -94,6 +96,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "The capital of Austria, is renowned for its classical music heritage, with composers like Mozart and Beethoven having lived there. It's also famous for its imperial palaces, such as the Schönbrunn Palace."
   },
   {
     id: "2b",
@@ -123,6 +126,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "This flag features two bright colors in three horizontal stripes, with red on top and bottom."
   },
   {
     id: "2c",
@@ -161,6 +165,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "The capital of Morocco is known for its calm atmosphere compared to the bustling cities of Casablanca and Marrakech. It's home to the impressive Hassan Tower."
   },
   {
     id: "3b",
@@ -190,6 +195,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "A bold red flag featuring a five-pointed star at its center—representing a blend of history and tradition."
   },
   {
     id: "3c",
@@ -228,6 +234,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "The capital of Greece, is famed for its ancient landmarks like the Parthenon and Acropolis. It beautifully blends its rich past with modern culture, making it a unique and vibrant city."
   },
   {
     id: "4b",
@@ -257,6 +264,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "This flag's design is a reflection of Greece's maritime heritage, with blue and white stripes and a cross in the top corner."
   },
   {
     id: "4c",
@@ -295,6 +303,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "The capital of Cuba, is like a colorful vintage car, brimming with history and vibrant culture. Known for its stunning colonial architecture and lively music scene, it offers a unique blend of the past and present."
   },
   {
     id: "5b",
@@ -324,6 +333,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "Oh, for the Cuban flag, you just need to remember the blue and white stripes. There's a red triangle on the side with a white star inside—can’t miss it!"
   },
   {
     id: "5c",
@@ -362,6 +372,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "The capital of Ecuador, is like a hidden gem in the Andes, known for its stunning colonial architecture and breathtaking mountain views. It's one of the highest capital cities in the world, offering a unique blend of history and natural beauty."
   },
   {
     id: "6b",
@@ -391,6 +402,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "It’s mostly yellow with blue and red stripes, and don’t forget the emblem right in the middle—that’ll help you recognize it."
   },
   {
     id: "6c",
@@ -429,6 +441,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: " The capital of Mexico, is like a bustling metropolis, home to over 9 million people, making it one of the largest cities in the world. With its rich history and vibrant culture, it ranks among the most populous capitals globally."
   },
   {
     id: "7b",
@@ -458,6 +471,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "Oh, the Mexican flag? It’s got three vertical stripes—green, white, and red—and there’s a cool eagle emblem right in the middle."
   },
   {
     id: "7c",
@@ -496,6 +510,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "Think of a city famous for its ancient markets and the Umayyad Mosque. It lies near the eastern edge of the Mediterranean region, close to Lebanon, and just north of the border with Jordan."
   },
   {
     id: "8b",
@@ -525,6 +540,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "For the Syrian flag, look for horizontal stripes, and don’t forget the two green stars in the middle. That’s the key!"
   },
   {
     id: "8c",
@@ -563,6 +579,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "The capital of Portugal is known for its iconic trams and historic neighborhoods like Alfama. It's located on the coast, overlooking the Atlantic Ocean."
   },
   {
     id: "9b",
@@ -592,6 +609,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "The Portuguese flag? It’s split into green on the left and red on the right, with a detailed coat of arms right in the middle."
   },
   {
     id: "9c",
@@ -630,6 +648,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "The capital of the Netherlands is famous for its canals, narrow houses, and world-class art museums like the Rijksmuseum. It's known for its vibrant cycling culture."
   },
   {
     id: "10b",
@@ -659,6 +678,7 @@ const question2En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "Oh, the Dutch flag? It’s super simple—look for three horizontal stripes in red, white, and blue from top to bottom!" 
   },
   {
     id: "10c",

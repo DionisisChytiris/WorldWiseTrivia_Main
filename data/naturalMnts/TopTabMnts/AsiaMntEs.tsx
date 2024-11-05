@@ -43,7 +43,7 @@ const AsiaMntEs = [
   },
   {
     id: "18",
-    img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
+    img: require("../../../assets/NaturalMnt/Asia/underwaterFalls.jpg"),
     name: "La catarata submarina",
     country: "Mauritius",
     city: "",

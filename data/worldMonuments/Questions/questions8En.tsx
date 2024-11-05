@@ -112,7 +112,7 @@
           {
             id: "3",
             name: "Tulum\nMexico",
-            img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
+            img: require("../../../assets/WorldMonuments/America/Tulum.jpg"),
           },
         ],
         correctAnswerIndex: 1,
@@ -220,7 +220,7 @@
           {
             id: "1",
             name: "Little Mermaid Statue\nDenmark",
-            img: require("../../../assets/WorldMonuments/Europe/Little-mermaid-statue.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/Little-mermaid.jpg"),
           },
           {
             id: "2",
@@ -274,7 +274,7 @@
           {
             id: "0",
             name: "Sistine Chapel\nVatican City",
-            img: require("../../../assets/WorldMonuments/Europe/sistineChapel.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/Sistine-Chapel.jpg"),
           },
           {
             id: "1",
@@ -510,12 +510,12 @@
           {
             id: "0",
             name: "Golden Gate Bridge\nUSA",
-            img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.png"),
+            img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.webp"),
           },
           {
             id: "1",
             name: "Tulum\nMexico",
-            img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
+            img: require("../../../assets/WorldMonuments/America/Tulum.jpg"),
           },
           {
             id: "2",

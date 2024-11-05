@@ -274,7 +274,7 @@ const questions8El = [
         {
           id: "0",
           name: "Στρεβλό Δάσος\nΠολωνία",
-          img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
+          img: require("../../../assets/NaturalMnt/Europe/crookedForest.jpg"),
         },
         {
           id: "1",
@@ -333,7 +333,7 @@ const questions8El = [
         {
           id: "0",
           name: "Υποβρύχιοι καταρράκτες\nMauritius",
-          img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
+          img: require("../../../assets/NaturalMnt/Asia/underwaterFalls.jpg"),
         },
         {
           id: "1",
@@ -397,7 +397,7 @@ const questions8El = [
         {
           id: "1",
           name: "Εθνικό Πάρκο Κακαντού\nAυστραλία",
-          img: require("../../../assets/NaturalMnt/Oceania/Kakadu-National-Park.png"),
+          img: require("../../../assets/NaturalMnt/Oceania/kakadu.webp"),
         },
         {
           id: "2",
@@ -584,7 +584,7 @@ const questions8El = [
         {
           id: "3",
           name: "Νήσος Σκάι\nΣκωτία",
-          img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+          img: require("../../../assets/NaturalMnt/Europe/isleofSkye.jpg"),
         },
       ],
       correctAnswerIndex: 0,

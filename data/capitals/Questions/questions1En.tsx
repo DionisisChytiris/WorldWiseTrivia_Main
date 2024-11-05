@@ -27,7 +27,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 1,
-      textQuiz: 'hello Dionysis'
+      phoneHelp: '"Hey! That’s the Italian flag.The question is asking for the capital, right?  Think of cities that’s actually in Italy. Avoid any cities that aren’t part of the country!!!"'
     },
     {
       id: "1b",
@@ -57,7 +57,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 1,
-      textQuiz: 'hello there'
+      phoneHelp: 'Hmmm...I am not sure, but I think that the Italian flag has green and red stripes. '
     },
     {
       id: "1c",
@@ -96,6 +96,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp: 'Well, the capital of the UK is a city known for iconic landmarks like Big Ben, the Tower Bridge, and Buckingham Palace. It\'s a global hub for history, culture, and finance.'
     },
     {
       id: "2b",
@@ -125,6 +126,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp: 'Hi there. The UK flag combines the crosses of England (St George\'s Cross), Scotland (St Andrew\'s Cross), and Ireland (St Patrick\'s Cross). I don\'t remember the exact colors but I know there is a blue background.'
     },
     {
       id: "2c",
@@ -163,6 +165,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp: 'Well, the capital you are looking for is known for its vibrant culture, rich history, and stunning architecture. Key attractions include the Royal Palace, Prado Museum, and lively plazas like Puerta del Sol. '
     },
     {
       id: "3b",
@@ -192,6 +195,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp: 'Hey, the spanish flag contains an emblem placed in the middle stripe. I am pretty sure that one of its colors is red.'
     },
     {
       id: "3c",
@@ -230,6 +234,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp: 'This city founded by Vikings, it boasts landmarks like Trinity College, and the Book of Kells. It\'s literary heritage includes famed writers such as James Joyce and Oscar Wilde.'
     },
     {
       id: "4b",
@@ -259,6 +264,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 1,
+      phoneHelp: 'The Irish flag has the same colors with the Indian flag, without the emblem, and the stripes are placed vertically.'
     },
      {
       id: "4c",
@@ -297,6 +303,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp: 'This capital is a hub for technology, fashion, and cuisine, with districts like Akihabara known for electronics and Ginza for high-end shopping. Famous for its towering skyscrapers, such as those in Shibuya and Shinjuku. '
     },
     {
       id: "5b",
@@ -322,10 +329,11 @@ const question1En = [
         {
           id: "3",
           img: require("../../../assets/Flags/japan.png"),
-          country: 'Japon'
+          country: 'Japan'
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp: 'The Japanese flag features a simple design of a circle representing the sun on a white background.'
     },
     {
       id: "5c",
@@ -364,6 +372,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp:'A coastal city that blends colonial history with modern urban life. It is renowned for its world-class cuisine, especially ceviche, and has a thriving food scene.'
     },
     {
       id: "6b",
@@ -393,6 +402,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp:'The Peruvian flag features three stripes -two red and one white- with an emblem in the middle.'
     },
     {
       id: "6c",
@@ -431,6 +441,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp: ' This city is home to iconic landmarks like the Forbidden City, Tiananmen Square, and the Temple of Heaven. The nearby Great Wall of China adds to its historical significance'
     },
     {
       id: "7b",
@@ -460,6 +471,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp: 'The Chinese flag is known as the "Five star Red Flag". It features a large yellow star and four smaller in a semicircle.'
     },
     {
       id: "7c",
@@ -498,6 +510,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 1,
+      phoneHelp: 'This  is a city known for its ancient history and vibrant culture. It’s home to the Great Pyramids of Giza and the Sphinx, remnants of the powerful pharaohs'
     },
     {
       id: "8b",
@@ -527,6 +540,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 1,
+      phoneHelp: 'The Egyptian flag consists of three horizontal stripes with the national emblem, the Eagle of Saladin, in the center.'
     },
     {
       id: "8c",
@@ -565,6 +579,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 1,
+      phoneHelp: 'This city is famed for its art, history, and romance. Iconic landmarks like the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral make it a cultural hub.'
     },
     {
       id: "9b",
@@ -594,6 +609,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp: 'The French flag, known as the Tricolore, consists of three vertical stripes of blue, white and red.'
     },
     {
       id: "9c",
@@ -632,6 +648,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp: 'Hmmm...I am not sure. Think of cities that’s actually in Australia. Avoid any cities that aren’t part of the country.'
     },
     {
       id: "10b",
@@ -661,6 +678,7 @@ const question1En = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp: 'The Australian flag features a blue background with the Union Jack, symbolizing the British heritage.'
     },
     {
       id: "10c",

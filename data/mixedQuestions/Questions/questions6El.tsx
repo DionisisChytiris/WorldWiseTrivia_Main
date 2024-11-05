@@ -454,7 +454,7 @@ const qstMixed6El = [
       {
         id: "1",
         country: "Κάστρο Nόισβανσταϊν\nΓερμανία",
-        img: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.webp"),
+        img: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.jpg"),
       },
       {
         id: "2",

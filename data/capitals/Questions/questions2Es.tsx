@@ -27,6 +27,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Bueno, la capital de Alemania es conocida por su rica historia, incluido el Muro que una vez dividió la ciudad. También es famosa por lugares emblemáticos como la Puerta de Brandeburgo, su vibrante escena artística y por ser un centro de actividad política y cultural en Europa.",
   },
   {
     id: "1b",
@@ -56,6 +58,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "La bandera de Alemania tiene tres franjas horizontales, de diferentes colores. Estos colores simbolizan la unidad, la libertad y la democracia. Definitivamente, no hay verde en ella.",
   },
   {
     id: "1c",
@@ -94,6 +98,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "La capital de Austria es conocida por su herencia de música clásica, con compositores como Mozart y Beethoven que vivieron allí. También es famosa por sus palacios imperiales, como el Palacio de Schönbrunn.",
   },
   {
     id: "2b",
@@ -123,6 +129,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "Esta bandera presenta dos colores brillantes en tres franjas horizontales, con rojo en la parte superior e inferior.",
   },
   {
     id: "2c",
@@ -161,6 +169,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "La capital de Marruecos es conocida por su ambiente tranquilo en comparación con las bulliciosas ciudades de Casablanca y Marrakech. Alberga la impresionante Torre Hassan.",
   },
   {
     id: "3b",
@@ -190,6 +200,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Una bandera roja intensa con una estrella de cinco puntas en el centro, que representa una mezcla de historia y tradición.",
   },
   {
     id: "3c",
@@ -228,6 +240,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "La capital de Grecia es famosa por sus antiguos monumentos, como el Partenón y la Acrópolis. Combina maravillosamente su rico pasado con la cultura moderna, convirtiéndola en una ciudad única y vibrante.",
   },
   {
     id: "4b",
@@ -257,6 +271,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "El diseño de esta bandera refleja la herencia marítima de Grecia, con franjas azules y blancas y una cruz en la esquina superior.",
   },
   {
     id: "4c",
@@ -294,6 +310,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "La capital de Cuba es como un colorido coche antiguo, rebosante de historia y cultura vibrante. Conocida por su impresionante arquitectura colonial y su animada escena musical, ofrece una combinación única de pasado y presente.",
   },
   {
     id: "5b",
@@ -323,6 +341,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Para la bandera de Cuba, solo recuerda las franjas azules y blancas. Hay un triángulo rojo a un lado con una estrella blanca dentro — ¡imposible no verlo!",
   },
   {
     id: "5c",
@@ -361,6 +381,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "La capital de Ecuador es como una joya escondida en los Andes, conocida por su impresionante arquitectura colonial y sus vistas montañosas espectaculares. Es una de las capitales más altas del mundo, ofreciendo una combinación única de historia y belleza natural.",
   },
   {
     id: "6b",
@@ -390,6 +412,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Es principalmente amarilla con franjas azules y rojas, y no olvides el emblema en el centro — eso te ayudará a reconocerla.",
   },
   {
     id: "6c",
@@ -428,6 +452,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "La capital de México es como una metrópoli bulliciosa, hogar de más de 9 millones de personas, lo que la convierte en una de las ciudades más grandes del mundo. Con su rica historia y vibrante cultura, ocupa un lugar destacado entre las capitales más pobladas a nivel mundial.",
   },
   {
     id: "7b",
@@ -457,6 +483,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Oh, ¿la bandera de México? Tiene tres franjas verticales: verde, blanca y roja, y hay un impresionante emblema de un águila justo en el centro.",
   },
   {
     id: "7c",
@@ -495,6 +523,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "Piensa en una ciudad famosa por sus mercados antiguos y la Mezquita de los Omeyas. Se encuentra cerca del extremo oriental de la región mediterránea, cerca del Líbano y justo al norte de la frontera con Jordania.",
   },
   {
     id: "8b",
@@ -524,6 +554,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Para la bandera de Siria, busca franjas horizontales y no olvides las dos estrellas verdes en el centro. ¡Esa es la clave!",
   },
   {
     id: "8c",
@@ -562,6 +594,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "La capital de Portugal es conocida por sus icónicos tranvías y sus barrios históricos como Alfama. Se encuentra en la costa, con vistas al océano Atlántico.",
   },
   {
     id: "9b",
@@ -591,6 +625,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "¿La bandera de Portugal? Está dividida en verde a la izquierda y rojo a la derecha, con un detallado escudo de armas justo en el medio.",
   },
   {
     id: "9c",
@@ -630,6 +666,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "La capital de los Países Bajos es famosa por sus canales, casas estrechas y museos de arte de clase mundial como el Rijksmuseum. Es conocida por su vibrante cultura ciclista.",
   },
   {
     id: "10b",
@@ -659,6 +697,8 @@ const question2Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "Oh, ¿la bandera de los Países Bajos? Es muy simple: busca tres franjas horizontales en rojo, blanco y azul de arriba a abajo.",
   },
   {
     id: "10c",

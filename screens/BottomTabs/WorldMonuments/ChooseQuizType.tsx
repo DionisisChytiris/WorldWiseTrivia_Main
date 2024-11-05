@@ -5,7 +5,7 @@ const ChooseQuizType = () => {
   return (
     <MainChooseQuizTypeTemplate
       screen="WorldMonumentsHome"
-      image1={require("../../../assets/more/worldMnt1.jpg")}
+      image1={require("../../../assets/more/worldMnt1.webp")}
       image2={require("../../../assets/more/worldMnt2.jpg")}
       lottieAnm={require("../../../assets/LottieAnimation/Bigben.json")}
       lottieHeight="20%"

@@ -48,7 +48,7 @@ const questions3Es = [
       {
         id: "2",
         country: "Puente de Rialto\nItalia",
-        img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
+        img: require("../../../assets/WorldMonuments/Europe/Rialto-bridge.webp"),
       },
       {
         id: "3",
@@ -63,7 +63,7 @@ const questions3Es = [
     status: "Capitals",
     img: 'L',
     country: "Italia",
-    image: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.webp"),
+    image: require("../../../assets/WorldMonuments/Europe/stMarkVenice.jpg"),
     options: [
       {
         id: "0",
@@ -107,7 +107,7 @@ const questions3Es = [
       {
         id: "2",
         country: "Piazza San Marco\nItalia",
-        img: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.webp"),
+        img: require("../../../assets/WorldMonuments/Europe/stMarkVenice.jpg"),
       },
       {
         id: "3",
@@ -166,12 +166,12 @@ const questions3Es = [
       {
         id: "2",
         country: "Gran Esfinge de Guiza\nEgipto",
-        img: require("../../../assets/WorldMonuments/Africa/sphinx.png"),
+        img: require("../../../assets/WorldMonuments/Africa/sphinx.jpg"),
       },
       {
         id: "3",
         country: "Buda Tian Tan\nHong Kong",
-        img: require("../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.png"),
+        img: require("../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.webp"),
       },
     ],
     correctAnswerIndex: 0,
@@ -181,7 +181,7 @@ const questions3Es = [
     status: "Capitals",
     img: 'L',
     country: "Myanmar",
-    image: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.webp"),
+    image: require("../../../assets/WorldMonuments/Asia/Bagan.jpg"),
     options: [
       {
         id: "0",
@@ -225,7 +225,7 @@ const questions3Es = [
       {
         id: "2",
         country: "Templos de Bagan\nMyanmar",
-        img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.webp"),
+        img: require("../../../assets/WorldMonuments/Asia/Bagan.jpg"),
       },
       {
         id: "3",
@@ -392,12 +392,12 @@ const questions3Es = [
       {
         id: "0",
         country: "Buda Tian Tan\nHong Kong",
-        img: require("../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.png"),
+        img: require("../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.webp"),
       },
       {
         id: "1",
         country: "Copacabana\nBrasil",
-        img: require("../../../assets/WorldMonuments/America/copacabana-beach.webp"),
+        img: require("../../../assets/WorldMonuments/America/copacabana.webp"),
       },
       {
         id: "2",
@@ -461,7 +461,7 @@ const questions3Es = [
       {
         id: "2",
         country: "Dom Luís I Bridge\nPortugal",
-        img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.png"),
+        img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.webp"),
       },
       {
         id: "3",

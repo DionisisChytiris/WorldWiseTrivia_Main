@@ -137,7 +137,7 @@ const AsiaMntEl = [
 
   {
     id: "20",
-    img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
+    img: require("../../../assets/NaturalMnt/Asia/underwaterFalls.jpg"),
     name: "Yποβρύχιοι καταρράκτες",
     country: "Μαυρίκιος",
     city: "",

@@ -142,7 +142,7 @@ const QuizScreen = () => {
             {/* Science */}
             <CategoryItem
               page="MixedQuestions"
-              img={require("../assets/more/mixed.png")}
+              img={require("../assets/more/mixed.webp")}
               // img={require("../assets/QuizScreen/science.jpg")}
               text={t("mixedQuestions")}
               scores={score1}

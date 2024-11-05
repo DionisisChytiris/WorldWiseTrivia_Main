@@ -30,7 +30,7 @@ const EurMntEs = [
 
   {
     id: "5",
-    img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
+    img: require("../../../assets/NaturalMnt/Europe/crookedForest.jpg"),
     name: "Bosque Torcido",
     country: "Polonia",
     // city: 'County Clare'
@@ -52,7 +52,7 @@ const EurMntEs = [
   },
   {
     id: "8",
-    img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
+    img: require("../../../assets/NaturalMnt/Europe/dettifoss.jpg"),
     name: "Cascada Dettifoss",
     country: "Islandia",
     // city: 'North-east'
@@ -66,7 +66,7 @@ const EurMntEs = [
   },
   {
     id: "10",
-    img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+    img: require("../../../assets/NaturalMnt/Europe/isleofSkye.jpg"),
     name: "Isla de Skye",
     country: "Escocia",
     // city: 'Julian Alps'

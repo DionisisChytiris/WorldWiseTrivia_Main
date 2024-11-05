@@ -97,7 +97,7 @@ const questions2El = [
       {
         id: "0",
         country: "Ναός του Λούξορ\nΑίγυπτος",
-        img: require("../../../assets/WorldMonuments/Africa/Entrance-of-Luxor-Temple-Egypt.jpg"),
+        img: require("../../../assets/WorldMonuments/Africa/Luxor.jpg"),
       },
       {
         id: "1",
@@ -161,7 +161,7 @@ const questions2El = [
       {
         id: "1",
         country: "Γέφυρα Ponte D. Luis\nΠορτογαλία",
-        img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.png"),
+        img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.webp"),
       },
       {
         id: "2",
@@ -299,7 +299,7 @@ const questions2El = [
     status: "Capitals",
     img: 'L',
     country: "Αίγυπτος",
-    image: require("../../../assets/WorldMonuments/Africa/sphinx.png"),
+    image: require("../../../assets/WorldMonuments/Africa/sphinx.jpg"),
     options: [
       {
         id: "0",
@@ -333,12 +333,12 @@ const questions2El = [
       {
         id: "0",
         country: "Μεγάλη Σφίγγα\nτης Γκίζας\nΑίγυπτος",
-        img: require("../../../assets/WorldMonuments/Africa/sphinx.png"),
+        img: require("../../../assets/WorldMonuments/Africa/sphinx.jpg"),
       },
       {
         id: "1",
         country: "Ναός του Λούξορ\nΑίγυπτος",
-        img: require("../../../assets/WorldMonuments/Africa/Entrance-of-Luxor-Temple-Egypt.jpg"),
+        img: require("../../../assets/WorldMonuments/Africa/Luxor.jpg"),
       },
       {
         id: "2",

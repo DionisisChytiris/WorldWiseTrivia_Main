@@ -9,7 +9,7 @@ const AsiaMonEs = [
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/Asia/AngkorWat.webp'),
+        img: require('../../../assets/WorldMonuments/Asia/AngkorWat.jpg'),
         name: 'Angkor Wat',
         country: 'Camboya',
         city: 'Provincia de \nSiem Reap',
@@ -186,7 +186,7 @@ const AsiaMonEs = [
     },
     {
         id: '24',
-        img: require('../../../assets/WorldMonuments/Asia/Sheikh-Zayed-Grand-MosqueUAE.png'),
+        img: require('../../../assets/WorldMonuments/Asia/Sheikh-Zayed-Grand-MosqueUAE.webp'),
         name: 'Mezquita Sheikh Zayed',
         country: 'Emiratos \nÁrabes Unidos',
         city: 'Abu \nDhabi',
@@ -226,7 +226,7 @@ const AsiaMonEs = [
     },
     {
         id: '29',
-        img: require('../../../assets/WorldMonuments/Asia/Bangan-Temples.webp'),
+        img: require('../../../assets/WorldMonuments/Asia/Bagan.jpg'),
         name: 'Bagan',
         country: 'Birmania',
         city: 'Mandalay',
@@ -242,7 +242,7 @@ const AsiaMonEs = [
     },
     {
         id: '31',
-        img: require('../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.png'),
+        img: require('../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.webp'),
         name: 'Buda Tian Tan',
         country: 'Hong Kong',
         city: 'Isla de Lantau',

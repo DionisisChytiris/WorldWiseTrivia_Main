@@ -121,7 +121,7 @@ const qstMixed7En = [
     status: "Capitals",
     img: "L",
     country: "Italy",
-    image: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
+    image: require("../../../assets/WorldMonuments/Europe/Rialto-bridge.webp"),
     options: [
       {
         id: "0",
@@ -155,12 +155,12 @@ const qstMixed7En = [
       {
         id: "0",
         country: "Rialto Bridge\nItaly",
-        img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
+        img: require("../../../assets/WorldMonuments/Europe/Rialto-bridge.webp"),
       },
       {
         id: "1",
         country: "Dom Luís I Bridge\nPortugal",
-        img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.png"),
+        img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.webp"),
       },
       {
         id: "2",
@@ -533,7 +533,7 @@ const qstMixed7En = [
     status: "Capitals",
     img: "L",
     country: "Vatican City",
-    image: require("../../../assets/WorldMonuments/Europe/sistineChapel.webp"),
+    image: require("../../../assets/WorldMonuments/Europe/Sistine-Chapel.jpg"),
     options: [
       {
         id: "0",
@@ -577,7 +577,7 @@ const qstMixed7En = [
       {
         id: "2",
         country: "Sistine Chapel\nVatican City",
-        img: require("../../../assets/WorldMonuments/Europe/sistineChapel.webp"),
+        img: require("../../../assets/WorldMonuments/Europe/Sistine-Chapel.jpg"),
       },
       {
         id: "3",

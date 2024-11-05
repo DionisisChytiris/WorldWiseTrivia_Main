@@ -171,7 +171,7 @@ const questions9El = [
           {
             id: "3",
             country: "Έρημος Σαχάρα\nΒόρεια Αφρική",
-            img: require("../../../assets/NaturalMnt/Africa/Sahara-Desert.webp"),
+            img: require("../../../assets/NaturalMnt/Africa/Sahara.jpg"),
           },
         ],
         correctAnswerIndex: 1,
@@ -181,7 +181,7 @@ const questions9El = [
         status: "Capitals",
         img: 'L',
         country: "Αυστραλία",
-        image: require("../../../assets/NaturalMnt/Oceania/Kakadu-National-Park.png"),
+        image: require("../../../assets/NaturalMnt/Oceania/kakadu.webp"),
         options: [
           {
             id: "0",
@@ -225,7 +225,7 @@ const questions9El = [
           {
             id: "2",
             country: "Εθνικό Πάρκο Κακαντού\nAΑυστραλία",
-            img: require("../../../assets/NaturalMnt/Oceania/Kakadu-National-Park.png"),
+            img: require("../../../assets/NaturalMnt/Oceania/kakadu.webp"),
           },
           {
             id: "3",
@@ -240,7 +240,7 @@ const questions9El = [
         status: "Capitals",
         img: 'L',
         country: "Πολωνία",
-        image: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
+        image: require("../../../assets/NaturalMnt/Europe/crookedForest.jpg"),
         options: [
           {
             id: "0",
@@ -274,7 +274,7 @@ const questions9El = [
           {
             id: "0",
             country: "Στρεβλό Δάσος\nΠολωνία",
-            img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
+            img: require("../../../assets/NaturalMnt/Europe/crookedForest.jpg"),
           },
           {
             id: "1",
@@ -417,7 +417,7 @@ const questions9El = [
         status: "Capitals",
         img: 'L',
         country: "Βόρεια Αφρική",
-        image: require("../../../assets/NaturalMnt/Africa/Sahara-Desert.webp"),
+        image: require("../../../assets/NaturalMnt/Africa/Sahara.jpg"),
         options: [
           {
             id: "0",
@@ -461,7 +461,7 @@ const questions9El = [
           {
             id: "2",
             country: "Έρημος Σαχάρα\nΒόρεια Αφρική",
-            img: require("../../../assets/NaturalMnt/Africa/Sahara-Desert.webp"),
+            img: require("../../../assets/NaturalMnt/Africa/Sahara.jpg"),
           },
           {
             id: "3",
@@ -510,7 +510,7 @@ const questions9El = [
           {
             id: "0",
             country: "Νήσος Σκάι\nΣκωτία",
-            img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+            img: require("../../../assets/NaturalMnt/Europe/isleofSkye.jpg"),
           },
           {
             id: "1",
@@ -535,7 +535,7 @@ const questions9El = [
         status: "Capitals",
         img: 'L',
         country: "Μαυρίκιος",
-        image: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
+        image: require("../../../assets/NaturalMnt/Asia/underwaterFalls.jpg"),
         options: [
           {
             id: "0",
@@ -584,7 +584,7 @@ const questions9El = [
           {
             id: "3",
             country: "Υποβρύχιοι καταρράκτες\nΜαυρίκιος",
-            img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
+            img: require("../../../assets/NaturalMnt/Asia/underwaterFalls.jpg"),
           },
         ],
         correctAnswerIndex: 3,

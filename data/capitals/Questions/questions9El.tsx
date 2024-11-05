@@ -7,55 +7,59 @@ const question9El = [
     options: [
       {
         id: "0",
-        capital: 'Ρίγα',
-        country: 'Λετονία'
+        capital: "Ρίγα",
+        country: "Λετονία",
       },
       {
         id: "1",
-        capital: 'Τάλιν',
-        country: 'Eστονία'
+        capital: "Τάλιν",
+        country: "Eστονία",
       },
       {
         id: "2",
-        capital: 'Βίλνιους',
-        country: 'Λιθουανία'
+        capital: "Βίλνιους",
+        country: "Λιθουανία",
       },
       {
         id: "3",
-        capital: 'Mινσκ',
-        country: 'Λευκορωσία'
+        capital: "Mινσκ",
+        country: "Λευκορωσία",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Το μόνο που ξέρω είναι ότι το Βίλνιους είναι η πρωτεύουσα της Λιθουανίας και η Ρίγα είναι η πρωτεύουσα της Λετονίας.",
   },
   {
     id: "1b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Εστονία",
     country: "Tαλίν",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/nicaragua.png"),
-        country: 'Νικαράγουα'
+        country: "Νικαράγουα",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/estonia.png"),
-        country: 'Eστονία'
+        country: "Eστονία",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/azerbaijan.png"),
-        country: 'Aζερμπαϊτζάν'
+        country: "Aζερμπαϊτζάν",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/finland.png"),
-        country: 'Φινλανδία'
+        country: "Φινλανδία",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Αυτή η σημαία έχει τρεις οριζόντιες λωρίδες χωρίς κανένα έμβλημα. Τα χρώματά της αντιπροσωπεύουν τον ουρανό, το έδαφος και την αναζήτηση της χώρας για ελευθερία.",
   },
   {
     id: "1c",
@@ -74,56 +78,59 @@ const question9El = [
     options: [
       {
         id: "0",
-        capital: 'Κισινάου',
-        country: 'Μολδαβία'
+        capital: "Κισινάου",
+        country: "Μολδαβία",
       },
       {
         id: "1",
-        capital: 'Βουκουρέστι',
-        country: 'Ρουμανία'
+        capital: "Βουκουρέστι",
+        country: "Ρουμανία",
       },
       {
         id: "2",
-        capital: 'Κίεβο',
-        country: 'Ουκρανία'
+        capital: "Κίεβο",
+        country: "Ουκρανία",
       },
       {
         id: "3",
-        capital: 'Οδησσός',
-        country: 'Ουκρανική πόλη'
+        capital: "Οδησσός",
+        country: "Ουκρανική πόλη",
       },
-
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "Λοιπόν, η Οδησσός δεν είναι πρωτεύουσα. Νομίζω ότι η πρώτη απάντηση είναι η σωστή.",
   },
   {
     id: "2b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Μολδαβία",
     country: "Κισινάου",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/Moldova.png"),
-        country: 'Μολδαβία'
+        country: "Μολδαβία",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/colombia.png"),
-        country: 'Κολομβία'
+        country: "Κολομβία",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/romania.png"),
-        country: 'Ρουμανία'
+        country: "Ρουμανία",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/venezuela.png"),
-        country: 'Βενεζουέλα'
+        country: "Βενεζουέλα",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "Η σημαία της Μολδαβίας είναι παρόμοια με τη σημαία της Ρουμανίας. Η κύρια διαφορά είναι στην μεσαία λωρίδα.",
   },
   {
     id: "2c",
@@ -142,27 +149,28 @@ const question9El = [
     options: [
       {
         id: "0",
-        capital: 'Κουάλα \nΛουμπούρ',
-        country: 'Μαλαισία'
+        capital: "Κουάλα \nΛουμπούρ",
+        country: "Μαλαισία",
       },
       {
         id: "1",
-        capital: 'Τζακάρτα',
-        country: 'Ινδονησία'
+        capital: "Τζακάρτα",
+        country: "Ινδονησία",
       },
       {
         id: "2",
-        capital: 'Μανίλα',
-        country: 'Φιλιππίνες'
+        capital: "Μανίλα",
+        country: "Φιλιππίνες",
       },
       {
         id: "3",
-        capital: 'Πνομ \nΠεν',
-        country: 'Καμπότζη'
+        capital: "Πνομ \nΠεν",
+        country: "Καμπότζη",
       },
-
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Λοιπόν, δεν είμαι σίγουρος για την απάντηση, αλλά είμαι μεταξύ της Τζακάρτα και της Μανίλα.",
   },
   {
     id: "3b",
@@ -173,28 +181,30 @@ const question9El = [
       {
         id: "0",
         img: require("../../../assets/Flags/Cuba.png"),
-          country: 'Κούβα'
+        country: "Κούβα",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/chile.png"),
-          country: 'Χιλή'
+        country: "Χιλή",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/philipines.png"),
-          country: 'Φιλιππίνες'
+        country: "Φιλιππίνες",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/czechia.png"),
-          country: 'Τσεχία'
+        country: "Τσεχία",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "H σημαία των Φιλιππίνων έχει δύο οριζόντιες λωρίδες: μπλε και κόκκινη. Στην αριστερή πλευρά, υπάρχει ένα λευκό τρίγωνο με έναν κίτρινο ήλιο με οκτώ ακτίνες και τρία αστέρια.",
   },
-  
-   {
+
+  {
     id: "3c",
     status: "Guess",
     word: "ΜΑΝΙΛΑ",
@@ -211,62 +221,65 @@ const question9El = [
     options: [
       {
         id: "0",
-        capital: 'Mανίλα',
-        country: 'Φιλιππίνες'
+        capital: "Mανίλα",
+        country: "Φιλιππίνες",
       },
       {
         id: "1",
-        capital: 'Νγκερουλμούντ',
-        country: 'Παλάου'
+        capital: "Νγκερουλμούντ",
+        country: "Παλάου",
       },
-    
+
       {
         id: "2",
-        capital: 'Χονιάρα',
-        country: 'Νήσοι Σολομώντα'
+        capital: "Χονιάρα",
+        country: "Νήσοι Σολομώντα",
       },
       {
         id: "3",
-        capital: 'Σούβα',
-        country: 'Φίτζι'
+        capital: "Σούβα",
+        country: "Φίτζι",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "Νομίζω ότι η Σούβα είναι η σωστή απάντηση.",
   },
   {
     id: "4b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Φίτζι",
     country: "Σούβα",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/uk.png"),
-        country: 'Ηνωμένο Βασίλειο'
+        country: "Ηνωμένο Βασίλειο",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/usa.png"),
-        country: 'ΗΠΑ'
+        country: "ΗΠΑ",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/newZealand.png"),
-        country: 'Nέα Ζηλανδία'
+        country: "Nέα Ζηλανδία",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/Fiji.png"),
-        country: 'Φίτζι'
+        country: "Φίτζι",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "H σημαία των Φίτζι έχει μπλε φόντο με την Ένωση της Βρετανίας στην επάνω αριστερή γωνία. Στη δεξιά πλευρά, υπάρχει μια ασπίδα που απεικονίζει έναν λέοντα, ζαχαροκάλαμο και μια καρύδα.",
   },
-   {
+  {
     id: "4c",
     status: "Guess",
     word: "ΣΟΥΒΑ",
-    country: 'Φίτζι',
+    country: "Φίτζι",
     num: 4,
     letters: "ΡΥΟΤΠΒΑΛΕΙΜΣ",
     img: require("../../../assets/Flags/Fiji.png"),
@@ -279,56 +292,59 @@ const question9El = [
     options: [
       {
         id: "0",
-        capital: 'Αμπούχα',
-        country: 'Νιγηρία'
+        capital: "Αμπούχα",
+        country: "Νιγηρία",
       },
       {
         id: "1",
-        capital: 'Γιαουντέ',
-        country: 'Καμερούν'
+        capital: "Γιαουντέ",
+        country: "Καμερούν",
       },
       {
         id: "2",
-        capital: 'Μονρόβια',
-        country: 'Λιβερία'
+        capital: "Μονρόβια",
+        country: "Λιβερία",
       },
       {
         id: "3",
-        capital: 'Λουάντα',
-        country: 'Ανγκόλα'
+        capital: "Λουάντα",
+        country: "Ανγκόλα",
       },
-
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Λοιπόν, δεν είμαι σίγουρος για την απάντηση, αλλά είμαι μεταξύ της Αμπούζα και της Γιαουντέ.",
   },
   {
     id: "5b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Καμερούν",
     country: "Γιαουντέ",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/senegal.png"),
-        country: 'Σενεγάλη'
+        country: "Σενεγάλη",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/Cameroon.png"),
-        country: 'Καμερούν'
+        country: "Καμερούν",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/Ghana.png"),
-        country: 'Γκάνα'
+        country: "Γκάνα",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/Zambia.png"),
-        country: 'Zάμπια'
+        country: "Zάμπια",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Αυτή η σημαία έχει τρεις κατακόρυφες λωρίδες. Στη μεσαία λωρίδα, υπάρχει ένα μικρό αστέρι που αντιπροσωπεύει την ενότητα και τους πλούσιους φυσικούς πόρους της χώρας.",
   },
   {
     id: "5c",
@@ -347,55 +363,59 @@ const question9El = [
     options: [
       {
         id: "0",
-        capital: 'Aλγέρι',
-        country: 'Aλγερία'
+        capital: "Aλγέρι",
+        country: "Aλγερία",
       },
       {
         id: "1",
-        capital: 'Λίβανος',
-        country: 'Bηρυτός'
+        capital: "Λίβανος",
+        country: "Bηρυτός",
       },
       {
         id: "2",
-        capital: 'Λιβύη',
-        country: 'Tρίπολη'
+        capital: "Λιβύη",
+        country: "Tρίπολη",
       },
       {
         id: "3",
-        capital: 'Κάιρο',
-        country: 'Αίγυπτος'
+        capital: "Κάιρο",
+        country: "Αίγυπτος",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "Ορισμένες χώρες έχουν πρωτεύουσες με ονόματα παρόμοια με το όνομα της χώρας.",
   },
   {
     id: "6b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Aλγερία",
     country: "Aλγέρι",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/Algeria.png"),
-        country: 'Aλγερία'
+        country: "Aλγερία",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/pakistan.png"),
-        country: 'Πακιστάν'
+        country: "Πακιστάν",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/azerbaijan.png"),
-        country: 'Aζερμπαϊτζάν'
+        country: "Aζερμπαϊτζάν",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/safrica.png"),
-        country: 'Νότια Αφρική'
+        country: "Νότια Αφρική",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "H σημαία της Αλγερίας έχει δύο κατακόρυφες ενότητες. Στο κέντρο, υπάρχει ένα ημισέληνο και ένα αστέρι, που συμβολίζουν το Ισλάμ και τον αγώνα της χώρας για ανεξαρτησία.",
   },
   {
     id: "6c",
@@ -414,55 +434,59 @@ const question9El = [
     options: [
       {
         id: "0",
-        capital: 'Aσουνσιόν',
-        country: 'Παραγουάη'
+        capital: "Aσουνσιόν",
+        country: "Παραγουάη",
       },
       {
         id: "1",
-        capital: 'Λα Παζ',
-        country: 'Bολιβία'
+        capital: "Λα Παζ",
+        country: "Bολιβία",
       },
       {
         id: "2",
-        capital: 'Κίτο',
-        country: 'Ισημερινός'
+        capital: "Κίτο",
+        country: "Ισημερινός",
       },
       {
         id: "3",
-        capital: 'Mοντεβιδέο',
-        country: 'Ουρουγουάη'
+        capital: "Mοντεβιδέο",
+        country: "Ουρουγουάη",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "Η πρωτεύουσα της Ουρουγουάης είναι γνωστή για την ιστορική της αρχιτεκτονική, τις παραθαλάσσιες θέες και την ζωντανή πολιτιστική σκηνή, συνδυάζοντας την αποικιακή γοητεία με τη σύγχρονη ζωή. Ξεκινά με το γράμμα 'Μ'!",
   },
   {
     id: "7b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Ουρουγουάη",
     country: "Mοντεβιδέο",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/nicaragua.png"),
-        country: 'Nικαράγουα'
+        country: "Nικαράγουα",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/Panama.png"),
-        country: 'Παναμάς'
+        country: "Παναμάς",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/argentina.png"),
-        country: 'Aργεντινή'
+        country: "Aργεντινή",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/uruguay.png"),
-        country: 'Ουρουγουάη'
+        country: "Ουρουγουάη",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "Δες τη σημαία της Ουρουγουάης! Στην επάνω αριστερή γωνία υπάρχει ένας χρυσός ήλιος με πρόσωπο, που αντιπροσωπεύει τον ήλιο του Μαΐου και την ανεξαρτησία της χώρας.",
   },
   {
     id: "7c",
@@ -481,26 +505,28 @@ const question9El = [
     options: [
       {
         id: "0",
-        capital: 'Αβάνα',
-        country: 'Κούβα'
+        capital: "Αβάνα",
+        country: "Κούβα",
       },
       {
         id: "1",
-        capital: 'Πορτ-ο-Πρενς',
-        country: 'Αϊτή'
+        capital: "Πορτ-ο-Πρενς",
+        country: "Αϊτή",
       },
       {
         id: "2",
-        capital: 'Κίνγστον',
-        country: 'Τζαμάικα'
+        capital: "Κίνγστον",
+        country: "Τζαμάικα",
       },
       {
         id: "3",
-        capital: 'Tεγκουσικάλπα',
-        country: 'Ονδούρα'
+        capital: "Tεγκουσικάλπα",
+        country: "Ονδούρα",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Η Τζαμάικα είναι ένα νησιωτικό κράτος της Καραϊβικής που γιορτάζεται για τις εκπληκτικές της παραλίες, τη ρέγκε μουσική και την ζωντανή της κουλτούρα. Η πρωτεύουσά της είναι η πολιτιστική καρδιά, γνωστή για την ιστορία της μουσικής και την ζωηρή ατμόσφαιρα. Ξεκινά με το γράμμα 'Κ'!",
   },
   {
     id: "8b",
@@ -511,25 +537,27 @@ const question9El = [
       {
         id: "0",
         img: require("../../../assets/Flags/kenya.png"),
-          country: 'Kένυα'
+        country: "Kένυα",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/canada.png"),
-          country: 'Κάναδας'
+        country: "Κάναδας",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/jamaica.png"),
-          country: 'Τζαμάικα'
+        country: "Τζαμάικα",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/Solomon-Islands.png"),
-          country: 'Νήσοι Σολομώντα'
+        country: "Νήσοι Σολομώντα",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Δες τη σημαία της Τζαμάικας! Έχει μια διαγώνια σταυρό που χωρίζει τη σημαία σε τρίγωνα.",
   },
   {
     id: "8c",
@@ -548,55 +576,59 @@ const question9El = [
     options: [
       {
         id: "0",
-        capital: 'Mουσκάτ',
-        country: 'Oμάν'
+        capital: "Mουσκάτ",
+        country: "Oμάν",
       },
       {
         id: "1",
-        capital: 'Bηρυτός',
-        country: 'Λίβανος'
+        capital: "Bηρυτός",
+        country: "Λίβανος",
       },
       {
         id: "2",
-        capital: 'Aμμάν',
-        country: 'Ιορδανία'
+        capital: "Aμμάν",
+        country: "Ιορδανία",
       },
       {
         id: "3",
         capital: "Σαναά",
-        country: 'Yεμένη'
+        country: "Yεμένη",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "Λοιπόν, δεν είμαι σίγουρος για την απάντηση, αλλά είμαι μεταξύ της Άμμαν και της Μουσκάτ.",
   },
   {
     id: "9b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Ομάν",
     country: "Mουσκάτ",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/Oman.png"),
-        country: 'Oμάν'
+        country: "Oμάν",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/United-Arab-Emirates.png"),
-        country: 'Ηνωμένα Αραβικά\nEμιράτα'
+        country: "Ηνωμένα Αραβικά\nEμιράτα",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/bulgaria.png"),
-        country: 'Bουλγαρία'
+        country: "Bουλγαρία",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/jordan.png"),
-        country: 'Ιορδανία'
+        country: "Ιορδανία",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "H σημαία του Ομάν έχει τρεις οριζόντιες λωρίδες και μια κατακόρυφη λωρίδα που εμφανίζει το εθνικό έμβλημα, το οποίο περιλαμβάνει έναν Χαντζάρ (μαχαίρι) και δύο διασταυρωμένες σπάθες, που συμβολίζουν την κληρονομιά και τη δύναμη του Ομάν.",
   },
   {
     id: "9c",
@@ -615,55 +647,59 @@ const question9El = [
     options: [
       {
         id: "0",
-        capital: 'Ντόχα',
-        country: 'Κατάρ'
+        capital: "Ντόχα",
+        country: "Κατάρ",
       },
       {
         id: "1",
-        capital: 'Bηρυτός',
-        country: 'Λίβανος'
+        capital: "Bηρυτός",
+        country: "Λίβανος",
       },
       {
         id: "2",
-        capital: 'Ριάντ',
-        country: 'Σαουδική Αραβία'
+        capital: "Ριάντ",
+        country: "Σαουδική Αραβία",
       },
       {
         id: "3",
-        capital: 'Mουσκάτ',
-        country: 'Oμάν'
+        capital: "Mουσκάτ",
+        country: "Oμάν",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Λοιπόν, δεν είμαι σίγουρος για την απάντηση, αλλά είμαι μεταξύ της Μουσκάτ και της Βηρυτού.",
   },
   {
     id: "10b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Λίβανος",
-      country: "Βηρυτός",
+    country: "Βηρυτός",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/peru.png"),
-        country: 'Περού'
+        country: "Περού",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/lebanon.png"),
-        country: 'Λίβανος'
+        country: "Λίβανος",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/austria.png"),
-        country: 'Αυστρία'
+        country: "Αυστρία",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/canada.png"),
-        country: 'Καναδάς'
+        country: "Καναδάς",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Στο κέντρο αυτής της σημαίας υπάρχει ένα πράσινο κέδρο, που συμβολίζει την ειρήνη και την ανθεκτικότητα της χώρας.",
   },
   {
     id: "10c",

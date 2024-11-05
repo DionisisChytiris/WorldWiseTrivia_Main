@@ -7,55 +7,59 @@ const question10El = [
     options: [
       {
         id: "0",
-        capital: 'Ρίγα',
-        country: 'Λετονία'
+        capital: "Ρίγα",
+        country: "Λετονία",
       },
       {
         id: "1",
-        capital: 'Tάλιν',
-        country: 'Eστονία'
+        capital: "Tάλιν",
+        country: "Eστονία",
       },
       {
         id: "2",
-        capital: 'Mινσκ',
-        country: 'Λευκορωσία'
+        capital: "Mινσκ",
+        country: "Λευκορωσία",
       },
       {
         id: "3",
-        capital: 'Βίλνιους',
-        country: 'Λιθουανία'
+        capital: "Βίλνιους",
+        country: "Λιθουανία",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "Λοιπόν, δεν είμαι σίγουρος για την απάντηση, αλλά είμαι μεταξύ του Βίλνιους και του Μινσκ.",
   },
   {
     id: "1b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Λιθουανία",
     country: "Βίλνιους",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/armenia.png"),
-        country: 'Αρμενία'
+        country: "Αρμενία",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/bulgaria.png"),
-        country: 'Βουλγαρία'
+        country: "Βουλγαρία",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/hungary.png"),
-        country: 'Ουγγαρία'
+        country: "Ουγγαρία",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/lithuania.png"),
-        country: 'Λιθουανία'
+        country: "Λιθουανία",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+     "Αυτή η σημαία έχει παρόμοια χρώματα με τη σημαία της Βουλγαρίας, αλλά η επάνω λωρίδα είναι κίτρινη αντί για λευκή.",
   },
   {
     id: "1c",
@@ -70,60 +74,62 @@ const question10El = [
     id: "2a",
     status: "Capitals",
     country: "Μπαχάμες",
-      image: require("../../../assets/Flags/Bahamas.png"),
-      options: [
-        {
-          id: "0",
-          capital: 'Κίνγκστον',
-          country: 'Τζαμάικα'
-        },
-        {
-          id: "1",
-          capital: 'Νασσάου',
-          country: 'Μπαχάμες'
-        },
-        {
-          id: "2",
-          capital: 'Σαν Χουαν',
-          country: 'Πουέρτο Ρίκο'
-        },
-        {
-          id: "3",
-          capital: 'Σαν Χοσέ',
-          country: 'Κόστα Ρίκα'
-        },
-
+    image: require("../../../assets/Flags/Bahamas.png"),
+    options: [
+      {
+        id: "0",
+        capital: "Κίνγκστον",
+        country: "Τζαμάικα",
+      },
+      {
+        id: "1",
+        capital: "Νασσάου",
+        country: "Μπαχάμες",
+      },
+      {
+        id: "2",
+        capital: "Σαν Χουαν",
+        country: "Πουέρτο Ρίκο",
+      },
+      {
+        id: "3",
+        capital: "Σαν Χοσέ",
+        country: "Κόστα Ρίκα",
+      },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "Νομίζω ότι η σωστή απάντηση είναι η Νασσάου.",
   },
   {
     id: "2b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Μπαχάμες",
     country: "Nασσάου",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/azerbaijan.png"),
-        country: 'Aζερμπαϊτζάν'
+        country: "Aζερμπαϊτζάν",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/Bahamas.png"),
-        country: 'Μπαχάμες'
+        country: "Μπαχάμες",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/Palau.png"),
-        country: 'Παλάου'
+        country: "Παλάου",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/Fiji.png"),
-        country: 'Φίτζι'
+        country: "Φίτζι",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Αυτή σημαία έχει τρεις οριζόντιες λωρίδες με ένα τρίγωνο στην αριστερή πλευρά.",
   },
   {
     id: "2c",
@@ -142,27 +148,27 @@ const question10El = [
     options: [
       {
         id: "0",
-        capital: 'Μουσκάτ',
-        country: 'Ομάν'
+        capital: "Μουσκάτ",
+        country: "Ομάν",
       },
       {
         id: "1",
-        capital: 'Αμμάν',
-        country: 'Ιορδανία'
+        capital: "Αμμάν",
+        country: "Ιορδανία",
       },
       {
         id: "2",
-        capital: 'Μανάμα',
-        country: 'Νικαράγουα'
+        capital: "Μανάμα",
+        country: "Νικαράγουα",
       },
       {
         id: "3",
-        capital: 'Ντόχα',
-        country: 'Κατάρ'
+        capital: "Ντόχα",
+        country: "Κατάρ",
       },
-
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "Είμαι λίγο αβέβαιος, αλλά είναι είτε η Μανάμα είτε το Κουβέιτ για μένα.",
   },
   {
     id: "3b",
@@ -173,28 +179,30 @@ const question10El = [
       {
         id: "0",
         img: require("../../../assets/Flags/qatar.png"),
-          country: 'Κατάρ'
+        country: "Κατάρ",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/Oman.png"),
-          country: 'Oμάν'
+        country: "Oμάν",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/Bahrain.png"),
-          country: 'Μπαχρέιν'
+        country: "Μπαχρέιν",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/jordan.png"),
-          country: 'Ιορδανία'
+        country: "Ιορδανία",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Αυτή η σημαία έχει ένα κόκκινο πεδίο στη δεξιά πλευρά με πέντε λευκά οδοντωτά άκρα που δημιουργούν ένα σχέδιο ζιγκ ζαγκ.",
   },
-  
-   {
+
+  {
     id: "3c",
     status: "Guess",
     word: "MANAMA",
@@ -211,57 +219,61 @@ const question10El = [
     options: [
       {
         id: "0",
-        capital: 'Μαπούτο',
-        country: 'Moζαμβίκη'
+        capital: "Μαπούτο",
+        country: "Moζαμβίκη",
       },
       {
         id: "1",
-        capital: 'Χαράρε',
-        country: 'Zιμπάμπουε'
+        capital: "Χαράρε",
+        country: "Zιμπάμπουε",
       },
       {
         id: "2",
-        capital: 'Γκαμπορόνε',
-        country: 'Μποτσουάνα'
+        capital: "Γκαμπορόνε",
+        country: "Μποτσουάνα",
       },
       {
         id: "3",
-        capital: 'Βίντχουκ',
-        country: 'Nαμίμπια'
+        capital: "Βίντχουκ",
+        country: "Nαμίμπια",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "Δεν είμαι σίγουρος, αλλά τείνω προς την Χαράρε ή το Μαπούτο.",
   },
   {
     id: "4b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Moζαμβίκη",
     country: "Mαπούτο",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/Mozambique.png"),
-        country: 'Moζαμβίκη'
+        country: "Moζαμβίκη",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/Zimbabwe.png"),
-        country: 'Zιμπάμπουε'
+        country: "Zιμπάμπουε",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/Zambia.png"),
-        country: 'Zάμπια'
+        country: "Zάμπια",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/safrica.png"),
-        country: 'Νότια Αφρική'
+        country: "Νότια Αφρική",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "Σε αυτή τη σημαία στην αριστερή πλευρά, υπάρχει ένα κόκκινο τρίγωνο που περιέχει ένα βιβλίο, ένα τουφέκι και μια φτυάρι, συμβολίζοντας την εκπαίδευση, την άμυνα και τη γεωργία.",
   },
-   {
+  {
     id: "4c",
     status: "Guess",
     word: "ΜΑΠΟΥΤΟ",
@@ -278,55 +290,59 @@ const question10El = [
     options: [
       {
         id: "0",
-        capital: 'Λουσάκα',
-        country: 'Zάμπια'
+        capital: "Λουσάκα",
+        country: "Zάμπια",
       },
       {
         id: "1",
-        capital: 'Γκαμπορόνε',
-        country: 'Μποτσουάνα'
+        capital: "Γκαμπορόνε",
+        country: "Μποτσουάνα",
       },
       {
         id: "2",
-        capital: 'Βίντχουκ',
-        country: 'Ναμίμπια'
+        capital: "Βίντχουκ",
+        country: "Ναμίμπια",
       },
       {
         id: "3",
-        capital: 'Χαράρε',
-        country: 'Zιμπάμπουε'
+        capital: "Χαράρε",
+        country: "Zιμπάμπουε",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Λοιπόν, δεν είμαι σίγουρος για την απάντηση, αλλά είμαι μεταξύ της Γκαμπορόνε και της Χαράρε.",
   },
   {
     id: "5b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Zάμπια",
     country: "Λουσάκα",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/Mozambique.png"),
-        country: 'Moζαμβίκη'
+        country: "Moζαμβίκη",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/Zambia.png"),
-        country: 'Zάμπια'
+        country: "Zάμπια",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/kenya.png"),
-        country: 'Kένυα'
+        country: "Kένυα",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/Ethiopia.png"),
-        country: 'Αιθιοπία'
+        country: "Αιθιοπία",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+     "Η σημαία της Ζάμπια έχει έναν πορτοκαλί αετό στην επάνω δεξιά γωνία. Ο αετός συμβολίζει την ελευθερία και την ικανότητα της χώρας να ξεπερνά τις προκλήσεις.",
   },
   {
     id: "5c",
@@ -345,56 +361,59 @@ const question10El = [
     options: [
       {
         id: "0",
-        capital: 'Λουσάκα',
-        country: 'Ζάμπια'
+        capital: "Λουσάκα",
+        country: "Ζάμπια",
       },
       {
         id: "1",
-        capital: 'Γκαμπορόνε',
-        country: 'Μποτσουάνα'
+        capital: "Γκαμπορόνε",
+        country: "Μποτσουάνα",
       },
       {
         id: "2",
-        capital: 'Βίντχουκ',
-        country: 'Ναμίμπια'
+        capital: "Βίντχουκ",
+        country: "Ναμίμπια",
       },
       {
         id: "3",
-        capital: 'Χαράρε',
-        country: 'Ζιμπάμπουε'
+        capital: "Χαράρε",
+        country: "Ζιμπάμπουε",
       },
-
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+     "Δεν είμαι σίγουρος για την απάντηση, αλλά είμαι μεταξύ Χαράρε και Ντοδόμα."
   },
   {
     id: "6b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Zιμπάμπουε",
     country: "Χαράρε",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/Ethiopia.png"),
-        country: 'Αιθιοπία'
+        country: "Αιθιοπία",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/kenya.png"),
-        country: 'Kένυα'
+        country: "Kένυα",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/Cameroon.png"),
-        country: 'Καμερούν'
+        country: "Καμερούν",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/Zimbabwe.png"),
-        country: 'Zιμπάμπουε'
+        country: "Zιμπάμπουε",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+    "Η σημαία της Ζιμπάμπουε έχει επτά οριζόντιες λωρίδες με ένα λευκό τρίγωνο στην αριστερή πλευρά που περιέχει ένα κόκκινο πεντάκτινο αστέρι και το πουλί της Ζιμπάμπουε.",
   },
   {
     id: "6c",
@@ -409,60 +428,62 @@ const question10El = [
     id: "7a",
     status: "Capitals",
     country: "Καμπότζη",
-      image: require("../../../assets/Flags/Cambodia.png"),
-      options: [
-        {
-          id: "0",
-          capital: 'Μπανγκόκ',
-          country: 'Ταϊλάνδη'
-        },
-        {
-          id: "1",
-          capital: 'Ανόι',
-          country: 'Βιετνάμ'
-        },
-        {
-          id: "2",
-          capital: 'Πνομ Πεν',
-          country: 'Καμπότζη'
-        },
-        {
-          id: "3",
-          capital: 'Kατμαντού',
-          country: 'Νεπάλ'
-        },
-
+    image: require("../../../assets/Flags/Cambodia.png"),
+    options: [
+      {
+        id: "0",
+        capital: "Μπανγκόκ",
+        country: "Ταϊλάνδη",
+      },
+      {
+        id: "1",
+        capital: "Ανόι",
+        country: "Βιετνάμ",
+      },
+      {
+        id: "2",
+        capital: "Πνομ Πεν",
+        country: "Καμπότζη",
+      },
+      {
+        id: "3",
+        capital: "Kατμαντού",
+        country: "Νεπάλ",
+      },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "Είμαι σχεδόν σίγουρος ότι η σωστή απάντηση είναι η Πνομ Πενχ.",
   },
   {
     id: "7b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Καμπότζη",
     country: "Πνομ Πεν",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/thailand.png"),
-        country: 'Ταϊλάνδη'
+        country: "Ταϊλάνδη",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/vietnam.png"),
-        country: 'Βιετνάμ'
+        country: "Βιετνάμ",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/Cambodia.png"),
-        country: 'Καμπότζη'
+        country: "Καμπότζη",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/malaysia.png"),
-        country: 'Μαλαισία'
+        country: "Μαλαισία",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Στο κέντρο αυτής της σημαίας υπάρχει μια εικόνα του Άνγκορ Βατ, ενός διάσημου ναού, που συμβολίζει την κληρονομιά και την περηφάνια της χώρας.",
   },
   {
     id: "7c",
@@ -481,26 +502,28 @@ const question10El = [
     options: [
       {
         id: "0",
-        capital: 'Μπανγκόκ',
-        country: 'Tαϊλάνδη'
+        capital: "Μπανγκόκ",
+        country: "Tαϊλάνδη",
       },
       {
         id: "1",
-        capital: 'Βιεντιάν',
-        country: 'Λάος'
+        capital: "Βιεντιάν",
+        country: "Λάος",
       },
       {
         id: "2",
-        capital: 'Κατμαντού',
-        country: 'Nεπάλ'
+        capital: "Κατμαντού",
+        country: "Nεπάλ",
       },
       {
         id: "3",
-        capital: 'Ουλάν Μπατόρ',
-        country: 'Μογγολία'
+        capital: "Ουλάν Μπατόρ",
+        country: "Μογγολία",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+    "Αυτό είναι εύκολο. Η πρωτεύουσα της Ταϊλάνδης είναι η Μπανγκόκ. Οι κύριες ατραξιόν περιλαμβάνουν το Μεγάλο Παλάτι, το Βατ Αρούν και τις πολυσύχναστες αγορές όπως η Τσατουτσάκ.",
   },
   {
     id: "8b",
@@ -511,25 +534,27 @@ const question10El = [
       {
         id: "0",
         img: require("../../../assets/Flags/thailand.png"),
-          country: 'Tαϊλάνδη'
+        country: "Tαϊλάνδη",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/costaRica.png"),
-          country: 'Κόστα Ρίκα'
+        country: "Κόστα Ρίκα",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/Indonesia.png"),
-          country: 'Ινδονησία'
+        country: "Ινδονησία",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/Cambodia.png"),
-          country: 'Καμπότζη'
+        country: "Καμπότζη",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "H σημαία της Ταϊλάνδης έχει πέντε οριζόντιες λωρίδες. Η μπλε λωρίδα είναι η πιο πλατιά και αντιπροσωπεύει τη μοναρχία, ενώ η κόκκινη συμβολίζει τον λαό και η λευκή την ειρήνη.",
   },
   {
     id: "8c",
@@ -548,55 +573,58 @@ const question10El = [
     options: [
       {
         id: "0",
-        capital: 'Γερεβάν',
-        country: 'Aρμενία'
+        capital: "Γερεβάν",
+        country: "Aρμενία",
       },
       {
         id: "1",
-        capital: 'Μπακού',
-        country: 'Aζερμπαϊτζάν'
+        capital: "Μπακού",
+        country: "Aζερμπαϊτζάν",
       },
       {
         id: "2",
-        capital: 'Tιφλίδα',
-        country: 'Γεωργία'
+        capital: "Tιφλίδα",
+        country: "Γεωργία",
       },
       {
         id: "3",
-        capital: 'Tεχεράνη',
-        country: 'Iράν'
+        capital: "Tεχεράνη",
+        country: "Iράν",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "Αυτό είναι δύσκολο. Είναι είτε η Τιφλίδα είτε το Μπακού.",
   },
   {
     id: "9b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Γεωργία",
     country: "Tιφλίδα",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/england.jpg"),
-        country: 'Αγγλία'
+        country: "Αγγλία",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/uk.png"),
-        country: 'Ηνωμένο Βασίλειο'
+        country: "Ηνωμένο Βασίλειο",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/georgia.png"),
-        country: 'Γεωργία'
+        country: "Γεωργία",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/azerbaijan.png"),
-        country: 'Aζερμπαϊτζάν'
+        country: "Aζερμπαϊτζάν",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Η σημαία της Γεωργίας έχει άσπρο φόντο με κόκκινους σταυρούς. Ο σχεδιασμός συμβολίζει τον Χριστιανισμό και την πλούσια πολιτιστική κληρονομιά της χώρας.",
   },
   {
     id: "9c",
@@ -615,55 +643,59 @@ const question10El = [
     options: [
       {
         id: "0",
-        capital: 'Ταράουα',
-        country: 'Kιριμπάτι'
+        capital: "Ταράουα",
+        country: "Kιριμπάτι",
       },
       {
         id: "1",
-        capital: 'Χονιάρα',
-        country: 'Νήσοι Σολομώντα'
+        capital: "Χονιάρα",
+        country: "Νήσοι Σολομώντα",
       },
       {
         id: "2",
-        capital: 'Σούβα',
-        country: 'Φίτζι'
+        capital: "Σούβα",
+        country: "Φίτζι",
       },
       {
         id: "3",
-        capital: 'Πορτ Μόρεσμπι',
-        country: 'Παπούα Νέα \nΓουινέα'
+        capital: "Πορτ Μόρεσμπι",
+        country: "Παπούα Νέα \nΓουινέα",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Λυπάμαι, αλλά δεν έχω ιδέα ποια είναι η πρωτεύουσα των Νήσων Σολομώντα.",
   },
   {
     id: "10b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Νήσοι Σολομώντα",
     country: "Χονιάρα",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/Kiribati.png"),
-        country: 'Kιριμπάτι'
+        country: "Kιριμπάτι",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/Solomon-Islands.png"),
-        country: 'Νήσοι Σολομώντα'
+        country: "Νήσοι Σολομώντα",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/Papua-New-Guinea.png"),
-        country: 'Παπούα Νέα \nΓουινέα'
+        country: "Παπούα Νέα \nΓουινέα",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/Fiji.png"),
-        country: 'Φίτζι'
+        country: "Φίτζι",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Δες τη σημαία των Νήσων Σολομώντα! Στην επάνω αριστερή γωνία υπάρχουν πέντε λευκά αστέρια που αντιπροσωπεύουν τα νησιά.",
   },
   {
     id: "10c",

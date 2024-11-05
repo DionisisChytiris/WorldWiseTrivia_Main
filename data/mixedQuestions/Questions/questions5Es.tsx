@@ -43,7 +43,7 @@ const qstMixed5Es = [
       {
         id: "1",
         country: "Angkor Wat\nCambodia",
-        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
+        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.jpg"),
       },
       {
         id: "2",
@@ -238,7 +238,7 @@ const qstMixed5Es = [
     status: "Capitals",
     img: "L",
     country: "Escocia",
-    image: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+    image: require("../../../assets/NaturalMnt/Europe/isleofSkye.jpg"),
     options: [
       {
         id: "0",
@@ -277,12 +277,12 @@ const qstMixed5Es = [
       {
         id: "1",
         country: "Isla de Skye\nEscocia",
-        img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+        img: require("../../../assets/NaturalMnt/Europe/isleofSkye.jpg"),
       },
       {
         id: "2",
         country: "Cascadas submarinas\nMauritius",
-        img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
+        img: require("../../../assets/NaturalMnt/Asia/underwaterFalls.jpg"),
       },
       {
         id: "3",
@@ -415,7 +415,7 @@ const qstMixed5Es = [
     status: "Capitals",
     img: 'L',
     country: "Camboya",
-    image: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
+    image: require("../../../assets/WorldMonuments/Asia/AngkorWat.jpg"),
     options: [
       {
         id: "0",
@@ -459,7 +459,7 @@ const qstMixed5Es = [
       {
         id: "2",
         country: "Angkor Wat\nCambodia",
-        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
+        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.jpg"),
       },
       {
         id: "3",
@@ -474,7 +474,7 @@ const qstMixed5Es = [
     status: "Capitals",
     img: 'L',
     country: "España",
-    image: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
+    image: require("../../../assets/WorldMonuments/Europe/alhambra.jpg"),
     options: [
       {
         id: "0",
@@ -518,7 +518,7 @@ const qstMixed5Es = [
       {
         id: "2",
         country: "Alhambra\nEspaña",
-        img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
+        img: require("../../../assets/WorldMonuments/Europe/alhambra.jpg"),
       },
       {
         id: "3",

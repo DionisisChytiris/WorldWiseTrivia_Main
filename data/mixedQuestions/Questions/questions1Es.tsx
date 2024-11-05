@@ -48,7 +48,7 @@ const qstMixed1Es = [
       {
         id: "2",
         country: "Gran Esfinge de Guiza\nEgipto",
-        img: require("../../../assets/WorldMonuments/Africa/sphinx.png"),
+        img: require("../../../assets/WorldMonuments/Africa/sphinx.jpg"),
       },
       {
         id: "3",
@@ -508,7 +508,7 @@ const qstMixed1Es = [
       {
         id: "0",
         country: "Valle de los Reyes\nEgipto",
-        img: require("../../../assets/WorldMonuments/Africa/Luxor-Valley-of-the-Kings.png"),
+        img: require("../../../assets/WorldMonuments/Africa/Luxor.jpg"),
       },
       {
         id: "1",

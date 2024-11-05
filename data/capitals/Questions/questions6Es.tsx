@@ -7,27 +7,28 @@ const question6Es = [
     options: [
       {
         id: "0",
-        capital: 'Budapest',
-        country: 'Hungría'
+        capital: "Budapest",
+        country: "Hungría",
       },
       {
         id: "1",
-        capital: 'Bucarest',
-        country: 'Rumanía'
+        capital: "Bucarest",
+        country: "Rumanía",
       },
       {
         id: "2",
-        capital: 'Bratislava',
-        country: 'Eslovaquia'
+        capital: "Bratislava",
+        country: "Eslovaquia",
       },
       {
         id: "3",
-        capital: 'Liubliana',
-        country: 'Eslovenia'
+        capital: "Liubliana",
+        country: "Eslovenia",
       },
-
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "La capital de Hungría es una ciudad impresionante, famosa por sus baños termales y su hermosa arquitectura a lo largo del río Danubio. ¡Empieza con 'B'!",
   },
   {
     id: "1b",
@@ -57,6 +58,8 @@ const question6Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Busca el diseño simple con tres franjas horizontales, sin ningún emblema.",
   },
   {
     id: "1c",
@@ -75,27 +78,28 @@ const question6Es = [
     options: [
       {
         id: "0",
-        capital: 'Auckland',
-        country: 'Nueva Zelanda'
+        capital: "Auckland",
+        country: "Nueva Zelanda",
       },
       {
         id: "1",
-        capital: 'Canberra',
-        country: 'Australia'
+        capital: "Canberra",
+        country: "Australia",
       },
       {
         id: "2",
-        capital: 'Perth',
-        country: 'Australia'
+        capital: "Perth",
+        country: "Australia",
       },
       {
         id: "3",
-        capital: 'Wellington',
-        country: 'Nueva Zelanda'
+        capital: "Wellington",
+        country: "Nueva Zelanda",
       },
-
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "Piensa en las ciudades que son realmente capitales. Solo dos de las opciones son capitales.",
   },
   {
     id: "2b",
@@ -125,6 +129,8 @@ const question6Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Busca una bandera de fondo azul oscuro con cuatro estrellas contorneadas en blanco. ¡Esta bandera del Hemisferio Sur también presenta un símbolo familiar en una esquina!",
   },
   {
     id: "2c",
@@ -163,6 +169,8 @@ const question6Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "La capital de Pakistán deriva su nombre de la palabra árabe 'Islam', que significa 'paz' o 'sumisión a Dios', y 'abad', que significa 'ciudad'. Por lo tanto, 'Islamabad' se puede traducir como 'Ciudad del Islam'.",
   },
   {
     id: "3b",
@@ -192,6 +200,8 @@ const question6Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "La bandera de Pakistán presenta un campo verde con una franja vertical blanca en el lado izquierdo. En el centro del verde, encontrarás un creciente blanco y una estrella de cinco puntas, simbolizando el progreso y la luz.",
   },
   {
     id: "3c",
@@ -230,6 +240,8 @@ const question6Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Bueno, no estoy seguro de la respuesta, pero estoy dividido entre Caracas y Bogotá.",
   },
   {
     id: "4b",
@@ -259,6 +271,8 @@ const question6Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "Esta bandera consiste en tres franjas horizontales, con colores similares a la bandera de Colombia. La franja del medio presenta un semicírculo de ocho estrellas blancas, simbolizando las provincias del país.",
   },
   {
     id: "4c",
@@ -277,27 +291,27 @@ const question6Es = [
     options: [
       {
         id: "0",
-        capital: 'Bratislava',
-        country: 'Eslovaquia'
+        capital: "Bratislava",
+        country: "Eslovaquia",
       },
       {
         id: "1",
-        capital: 'Belgrado',
-        country: 'Serbia'
+        capital: "Belgrado",
+        country: "Serbia",
       },
       {
         id: "2",
-        capital: 'Zagreb',
-        country: 'Croacia'
+        capital: "Zagreb",
+        country: "Croacia",
       },
       {
         id: "3",
-        capital: 'Liubliana',
-        country: 'Eslovenia'
+        capital: "Liubliana",
+        country: "Eslovenia",
       },
-
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "Creo que la respuesta correcta es Ljubljana.",
   },
   {
     id: "5b",
@@ -327,6 +341,8 @@ const question6Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "La bandera de Eslovenia tiene tres franjas horizontales: blanca en la parte superior, azul en el medio y roja en la parte inferior. En la esquina superior izquierda, hay un escudo que muestra el Monte Triglav y tres estrellas.",
   },
   {
     id: "5c",
@@ -341,31 +357,32 @@ const question6Es = [
     id: "6a",
     status: "Capitals",
     country: "India",
-      image: require("../../../assets/Flags/india.png"),
-      options: [
-        {
-          id: "0",
-          capital: 'Kathmandú',
-          country: 'Nepal'
-        },
-        {
-          id: "1",
-          capital: 'Bombay',
-          country: 'India'
-        },
-        {
-          id: "2",
-          capital: 'Nueva Delhi',
-          country: 'India'
-        },
-        {
-          id: "3",
-          capital: 'Calcuta',
-          country: 'India'
-        },
-
+    image: require("../../../assets/Flags/india.png"),
+    options: [
+      {
+        id: "0",
+        capital: "Kathmandú",
+        country: "Nepal",
+      },
+      {
+        id: "1",
+        capital: "Bombay",
+        country: "India",
+      },
+      {
+        id: "2",
+        capital: "Nueva Delhi",
+        country: "India",
+      },
+      {
+        id: "3",
+        capital: "Calcuta",
+        country: "India",
+      },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "La capital de India es una ciudad bulliciosa, conocida por su rica historia, su diversa cultura y sus importantes monumentos como la Puerta de la India y la Casa del Presidente. Solo dos de las opciones son capitales. Una de ellas es la capital de Nepal.",
   },
   {
     id: "6b",
@@ -395,6 +412,8 @@ const question6Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Bueno, esta bandera tiene colores similares a la bandera de Irlanda. En el medio de la franja blanca, verás una rueda azul con 24 radios llamada Chakra Ashoka, que representa el progreso y la verdad.",
   },
   {
     id: "6c",
@@ -409,31 +428,32 @@ const question6Es = [
     id: "7a",
     status: "Capitals",
     country: "Costa Rica",
-      image: require("../../../assets/Flags/costaRica.png"),
-      options: [
-        {
-          id: "0",
-          capital: 'San José',
-          country: 'Costa Rica'
-        },
-        {
-          id: "1",
-          capital: 'San Salvador',
-          country: 'El Salvador'
-        },
-        {
-          id: "2",
-          capital: 'Managua',
-          country: 'Nicaragua'
-        },
-        {
-          id: "3",
-          capital: 'San Juan',
-          country: 'Puerto Rico'
-        },
-
+    image: require("../../../assets/Flags/costaRica.png"),
+    options: [
+      {
+        id: "0",
+        capital: "San José",
+        country: "Costa Rica",
+      },
+      {
+        id: "1",
+        capital: "San Salvador",
+        country: "El Salvador",
+      },
+      {
+        id: "2",
+        capital: "Managua",
+        country: "Nicaragua",
+      },
+      {
+        id: "3",
+        capital: "San Juan",
+        country: "Puerto Rico",
+      },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "Bueno, no estoy seguro de la respuesta, pero estoy dividido entre San Juan y San José.",
   },
   {
     id: "7b",
@@ -463,6 +483,8 @@ const question6Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "Esta bandera presenta cinco franjas horizontales. Hay dos franjas blancas más delgadas arriba y abajo de la roja, simbolizando la paz y la felicidad.",
   },
   {
     id: "7c",
@@ -501,6 +523,8 @@ const question6Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "La capital de Arabia Saudita es una ciudad moderna, conocida por su impresionante horizonte y sus importantes monumentos culturales, incluyendo el Centro del Reino y la Fortaleza Masmak. ¡Empieza con 'R'!",
   },
   {
     id: "8b",
@@ -530,6 +554,8 @@ const question6Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "¡Mira la bandera de Arabia Saudita! Es completamente verde con una inscripción árabe blanca y una espada debajo. La inscripción es la shahada, una declaración de fe, que simboliza la fuerza y la unidad.",
   },
   {
     id: "8c",
@@ -548,27 +574,28 @@ const question6Es = [
     options: [
       {
         id: "0",
-        capital: 'Santo Domingo',
-        country: 'República Dominicana'
+        capital: "Santo Domingo",
+        country: "República Dominicana",
       },
       {
         id: "1",
-        capital: 'San José',
-        country: 'Costa Rica'
+        capital: "San José",
+        country: "Costa Rica",
       },
       {
         id: "2",
-        capital: 'San Salvador',
-        country: 'El Salvador'
+        capital: "San Salvador",
+        country: "El Salvador",
       },
       {
         id: "3",
-        capital: 'San Juan',
-        country: 'Puerto Rico'
+        capital: "San Juan",
+        country: "Puerto Rico",
       },
     ],
     correctAnswerIndex: 3,
-
+    phoneHelp:
+      "Bueno, no estoy seguro de la respuesta, pero estoy dividido entre San Juan y Santo Domingo.",
   },
   {
     id: "9b",
@@ -598,6 +625,8 @@ const question6Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "¡Mira la bandera de Puerto Rico! Tiene cinco franjas horizontales. Hay un triángulo azul a la izquierda con una estrella blanca dentro, que representa la independencia y la libertad de la isla.",
   },
   {
     id: "9c",
@@ -636,6 +665,8 @@ const question6Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "La capital de Paraguay es una ciudad bulliciosa, conocida por su moderna arquitectura y su rica historia, ubicada a lo largo del río Paraguay. ¡Empieza con 'A'!",
   },
   {
     id: "10b",
@@ -665,6 +696,8 @@ const question6Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "¡Nota el emblema único de un lado y las franjas rojas, blancas y azules! Este país sudamericano se destaca por su diseño de doble cara.",
   },
   {
     id: "10c",

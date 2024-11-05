@@ -28,6 +28,7 @@ const question7En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'Think of cities that are located in America.'
   },
   {
     id: "1b",
@@ -57,6 +58,7 @@ const question7En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'Check out the Canadian flag! "It is made up of two colors: red and white. Inside the white part, there’s a maple leaf, which symbolizes Canada’s nature and identity'
   },
    {
     id: "1c",
@@ -95,6 +97,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp: 'The capital of Denmark is famous for its colorful waterfront buildings, and the Little Mermaid statue.'
     },
     {
       id: "2b",
@@ -124,6 +127,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp: 'Take a look at the Danish flag! It has a red background with a white cross that extends to the edges. The cross is slightly off-center, symbolizing Christianity and Denmark’s heritage.'
     },
     {
       id: "2c",
@@ -162,6 +166,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp: 'Iraq’s capital is one of the oldest cities in the world, known for its rich history and location near the Tigris River. It starts with the letter B.'
     },
     {
       id: "3b",
@@ -191,6 +196,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp: 'This flag has three horizontal stripes in colors similar to those of Syrian and Egyptian flags. In the center, there’s a green Arabic inscription that reads \'Allahu Akbar,\' meaning \'God is Great,\' symbolizing strength and faith.'
     },
     
      {
@@ -230,6 +236,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between Kabul and Baku.'
     },
     {
       id: "4b",
@@ -259,6 +266,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp: ' This flag has three horizontal stripes. In the center of the middle stripe, there’s a white crescent and an eight-pointed star, symbolizing the country\'s culture and history.'
     },
      {
       id: "4c",
@@ -298,6 +306,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 1,
+      phoneHelp: ' Some countries have capitals that share the same name, like Mexico City for Mexico and Panama City for Panama.'
     },
     {
       id: "5b",
@@ -327,6 +336,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 1,
+      phoneHelp: 'This flag has three vertical stripes: light blue and white. In the center, there’s the national emblem, featuring a quetzal bird and a scroll that represents freedom.'
     },
     {
       id: "5c",
@@ -365,6 +375,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp: 'I think the correct answer is Singapore.'
     },
     {
       id: "6b",
@@ -394,6 +405,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp: 'Look at the Singaporean flag! It has a red background with a white crescent and five white stars in the top left corner. '
     },
     {
       id: "6c",
@@ -432,6 +444,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between Abuja and Addis Ababa.'
     },
     {
       id: "7b",
@@ -461,6 +474,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp: 'This flag features three horizontal stripes: green at the top, yellow in the middle, and red at the bottom. In the center, there’s a blue circle with a yellow star and rays'
     },
     {
       id: "7c",
@@ -499,6 +513,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp: 'I think the correct answer is Accra.'
     },
     {
       id: "8b",
@@ -528,6 +543,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp: 'Well, the Ghanaian flag has three horizontal stripes: red, yellow, and green. There’s a black star, symbolizing African freedom and independence.'
     },
     {
       id: "8c",
@@ -566,6 +582,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 1,
+      phoneHelp: 'The capital of Senegal is known for its vibrant markets and rich music scene. The city is also famous for hosting the Dakar Rally, an annual off-road race that originally started in Paris and has become a prominent motorsport event in the region.'
     },
     {
       id: "9b",
@@ -595,6 +612,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 1,
+      phoneHelp: 'This flag has three horizontal stripes: red, yellow, and green. In the center of the yellow stripe, there’s a green star, symbolizing hope and unity.'
     },
     {
       id: "9c",
@@ -633,6 +651,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between Athens and Nicosia.'
     },
     {
       id: "10b",
@@ -662,6 +681,7 @@ const question7En = [
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp: ' This flag features a white background with a map of the island in orange, along with two green olive branches below it.'
     },
     {
       id: "10c",

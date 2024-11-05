@@ -161,7 +161,7 @@ const questions10Es = [
       {
         id: "1",
         country: "Templos de Bangan\nBirmania",
-        img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.webp"),
+        img: require("../../../assets/WorldMonuments/Asia/Bagan.jpg"),
       },
       {
         id: "2",
@@ -230,7 +230,7 @@ const questions10Es = [
       {
         id: "3",
         country: "Golden Date Bridge\nEstados Unidos",
-        img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.png"),
+        img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.webp"),
       },
     ],
     correctAnswerIndex: 0,

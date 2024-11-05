@@ -38,7 +38,7 @@ const questions4Es = [
       {
         id: "0",
         country: "Cascada de Dettifoss\nIslandia",
-        img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
+        img: require("../../../assets/NaturalMnt/Europe/dettifoss.jpg"),
       },
       {
         id: "1",

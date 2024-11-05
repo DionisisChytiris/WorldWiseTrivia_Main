@@ -451,7 +451,7 @@ const questions2El = [
       {
         id: "0",
         country: "Καταρράκτης Ντέτιφος\nΙσλανδία",
-        img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
+        img: require("../../../assets/NaturalMnt/Europe/dettifoss.jpg"),
       },
       {
         id: "1",

@@ -38,12 +38,12 @@ const qstMixed8Es = [
           {
             id: "0",
             name: "Puente Golden Gate\nEstados Unidos",
-            img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.png"),
+            img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.webp"),
           },
           {
             id: "1",
             name: "Tulum\nMéxico",
-            img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
+            img: require("../../../assets/WorldMonuments/America/Tulum.jpg"),
           },
           {
             id: "2",
@@ -273,7 +273,7 @@ const qstMixed8Es = [
           {
             id: "0",
             name: "Bosque Torcido\nPolonia",
-            img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
+            img: require("../../../assets/NaturalMnt/Europe/crookedForest.jpg"),
           },
           {
             id: "1",
@@ -391,7 +391,7 @@ const qstMixed8Es = [
           {
             id: "0",
             name: "Cascadas submarinas\nMauritius",
-            img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
+            img: require("../../../assets/NaturalMnt/Asia/underwaterFalls.jpg"),
           },
           {
             id: "1",
@@ -455,7 +455,7 @@ const qstMixed8Es = [
           {
             id: "1",
             name: "Parque Nacional de Kakadu\nAustralia",
-            img: require("../../../assets/NaturalMnt/Oceania/Kakadu-National-Park.png"),
+            img: require("../../../assets/NaturalMnt/Oceania/kakadu.webp"),
           },
           {
             id: "2",

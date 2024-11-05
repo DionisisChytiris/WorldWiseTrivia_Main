@@ -17,7 +17,7 @@ const AfricaMonEs = [
     },
     {
         id: '3',
-        img: require('../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.webp'),
+        img: require('../../../assets/WorldMonuments/Africa/lalibela.webp'),
         name: 'Iglesia de San Jorge',
         country: 'Etiopía',
         city: 'Lalibela',
@@ -33,7 +33,7 @@ const AfricaMonEs = [
     },
     {
         id: '5',
-        img: require('../../../assets/WorldMonuments/Africa/sphinx.png'),
+        img: require('../../../assets/WorldMonuments/Africa/sphinx.jpg'),
         name: 'Gran Esfinge de Guiza',
         country: 'Egipto',
         city: 'Guiza',

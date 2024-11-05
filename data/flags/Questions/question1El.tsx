@@ -27,6 +27,7 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:""
   },
   {
     id: "1b",
@@ -56,6 +57,8 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+    "Η γερμανική σημαία διαθέτει τρεις οριζόντιες λωρίδες, σε διαφορετικά χρώματα. Αυτά τα χρώματα συμβολίζουν την ενότητα, την ελευθερία και τη δημοκρατία. Σίγουρα δεν υπάρχει πράσινο στη σημαία.",
   },
   {
     id: "1c",
@@ -94,6 +97,7 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:""
   },
   {
     id: "2b",
@@ -123,6 +127,7 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 2,
+     phoneHelp: 'Η ιρλανδική σημαία έχει τα ίδια χρώματα με την ινδική σημαία, χωρίς το έμβλημα, και οι λωρίδες είναι τοποθετημένες κάθετα.'
   },
   {
     id: "2c",
@@ -161,6 +166,7 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:""
   },
 
   {
@@ -191,6 +197,7 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'Η ισπανική σημαία έχει ένα έμβλημα που βρίσκεται στη μεσαία λωρίδα. Είμαι αρκετά σίγουρος ότι ένα από τα χρώματά της είναι το κόκκινο.'
   },
   {
     id: "3c",
@@ -229,6 +236,7 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:""
   },
 
   {
@@ -259,6 +267,8 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+    "Ο σχεδιασμός της ελληνικής σημαίας αντανακλά τη ναυτική της κληρονομιά.'Εχει μπλε και λευκές ρίγες και έναν σταυρό στην επάνω γωνία.",
   },
   {
     id: "4c",
@@ -297,6 +307,7 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:""
   },
 
   {
@@ -327,6 +338,8 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "Η γαλλική σημαία, γνωστή ως Τρικολόρ, αποτελείται από τρεις κάθετες λωρίδες: μπλε, λευκή και κόκκινη.",
   },
   {
     id: "5c",
@@ -365,6 +378,7 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:""
   },
   {
     id: "6b",
@@ -394,6 +408,8 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+    "Χμμμ... Δεν είμαι σίγουρος, αλλά νομίζω ότι η ιταλική σημαία έχει πράσινες και κόκκινες λωρίδες.",
   },
   {
     id: "6c",
@@ -432,6 +448,7 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:""
   },
   {
     id: "7b",
@@ -461,6 +478,8 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+    'Η κινεζική σημαία είναι γνωστή ως "Κόκκινη Σημαία με Πέντε Αστέρια". Διαθέτει ένα μεγάλο κίτρινο αστέρι και τέσσερα μικρότερα σε ημικύκλιο.',
   },
   {
     id: "7c",
@@ -498,6 +517,7 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:""
   },
   {
     id: "8b",
@@ -527,6 +547,8 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+    "Ω, η σημαία του Μεξικού; Έχει τρεις κάθετες ρίγες — πράσινη, λευκή και κόκκινη — και υπάρχει ένα εντυπωσιακό έμβλημα με αετό στη μέση.",
   },
   {
     id: "8c",
@@ -565,6 +587,7 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:""
   },
   {
     id: "9b",
@@ -594,6 +617,8 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+    "Απλά θυμήσου: κόκκινες και λευκές ρίγες με μια μπλε γωνία γεμάτη αστέρια. Είναι μια κλασική σημαία που όλοι γνωρίζουν!",
   },
   {
     id: "9c",
@@ -632,6 +657,7 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:""
   },
   {
     id: "10b",
@@ -661,6 +687,8 @@ const question1El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+    "Η σημαία του Ηνωμένου Βασιλείου συνδυάζει τους σταυρούς της Αγγλίας, της Σκωτίας και της Ιρλανδίας. Δεν θυμάμαι ακριβώς τα χρώματα, αλλά ξέρω ότι έχει μπλε φόντο.",
   },
   {
     id: "10c",

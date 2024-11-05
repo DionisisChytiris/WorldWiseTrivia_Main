@@ -97,7 +97,7 @@ const questions2Es = [
       {
         id: "0",
         country: "Entrada del Templo de Luxor\nEgipto",
-        img: require("../../../assets/WorldMonuments/Africa/Entrance-of-Luxor-Temple-Egypt.jpg"),
+        img: require("../../../assets/WorldMonuments/Africa/Luxor.jpg"),
       },
       {
         id: "1",
@@ -161,7 +161,7 @@ const questions2Es = [
       {
         id: "1",
         country: "Puente de Dom Luís I\nPortugal",
-        img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.png"),
+        img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.webp"),
       },
       {
         id: "2",
@@ -299,7 +299,7 @@ const questions2Es = [
     status: "Capitals",
     img: 'L',
     country: "Egipto",
-    image: require("../../../assets/WorldMonuments/Africa/sphinx.png"),
+    image: require("../../../assets/WorldMonuments/Africa/sphinx.jpg"),
     options: [
       {
         id: "0",
@@ -333,12 +333,12 @@ const questions2Es = [
       {
         id: "0",
         country: "Gran Esfinge de Guiza\nEgipto",
-        img: require("../../../assets/WorldMonuments/Africa/sphinx.png"),
+        img: require("../../../assets/WorldMonuments/Africa/sphinx.jpg"),
       },
       {
         id: "1",
         country: "Entrada del Templo de Luxor\nEgipto",
-        img: require("../../../assets/WorldMonuments/Africa/Entrance-of-Luxor-Temple-Egypt.jpg"),
+        img: require("../../../assets/WorldMonuments/Africa/Luxor.jpg"),
       },
       {
         id: "2",

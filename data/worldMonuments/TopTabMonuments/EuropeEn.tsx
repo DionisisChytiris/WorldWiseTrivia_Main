@@ -1,7 +1,7 @@
 const EuropeMonEn = [
     {
         id: '1',
-        img: require('../../../assets/WorldMonuments/USA/acropolis.jpg'),
+        img: require('../../../assets/WorldMonuments/Europe/Acropolis.webp'),
         name: 'Acropolis',
         country: 'Greece',
         city: 'Athens',
@@ -9,7 +9,7 @@ const EuropeMonEn = [
     },
     {
         id: '36',
-        img: require('../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp'),
+        img: require('../../../assets/WorldMonuments/Europe/alhambra.jpg'),
         name: 'Alhambra',
         country: 'Spain',
         city: 'Granada',
@@ -168,7 +168,7 @@ const EuropeMonEn = [
     },
     {
         id: '21',
-        img: require('../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.webp'),
+        img: require('../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.jpg'),
         name: 'Neuschwanstein Castle',
         country: 'Germany',
         city: '	Hohenschwangau\n  Bavaria',
@@ -192,7 +192,7 @@ const EuropeMonEn = [
     },
     {
         id: '24',
-        img: require('../../../assets/WorldMonuments/Europe/palace-of-westminster_main.png'),
+        img: require('../../../assets/WorldMonuments/Europe/palace-of-westminster_main.webp'),
         name: 'Palace of Westminster',
         country: 'UK',
         city: 'London',
@@ -200,7 +200,7 @@ const EuropeMonEn = [
     },
     {
         id: '25',
-        img: require('../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg'),
+        img: require('../../../assets/WorldMonuments/Europe/Rialto-bridge.webp'),
         name: 'Rialto Bridge',
         country: 'Italy',
         city: 'Venice',
@@ -248,7 +248,7 @@ const EuropeMonEn = [
     },
     {
         id: '31',
-        img: require('../../../assets/WorldMonuments/Europe/sistineChapel.webp'),
+        img: require('../../../assets/WorldMonuments/Europe/Sistine-Chapel.jpg'),
         name: 'Sistine Chapel',
         country: 'Italy',
         city: 'Vatican City',
@@ -272,7 +272,7 @@ const EuropeMonEn = [
     },
     {
         id: '34',
-        img: require('../../../assets/WorldMonuments/Europe/stMark_square_Venice.webp'),
+        img: require('../../../assets/WorldMonuments/Europe/stMarkVenice.jpg'),
         name: 'Piazza San Marco',
         country: 'Italy',
         city: 'Venice'

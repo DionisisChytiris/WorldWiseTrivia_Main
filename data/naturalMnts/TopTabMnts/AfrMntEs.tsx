@@ -111,7 +111,7 @@ const AfrMntEs = [
     },
     {
         id: '15',
-        img: require('../../../assets/NaturalMnt/Africa/Sahara-Desert.webp'),
+        img: require('../../../assets/NaturalMnt/Africa/Sahara.jpg'),
         name: 'Sahara',
         country: 'África del Norte',
         city: '',

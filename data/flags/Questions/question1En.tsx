@@ -7,26 +7,27 @@ const question1En = [
     options: [
       {
         id: "0",
-        capital: 'Belgium',
-        country: 'Brussels'
+        capital: "Belgium",
+        country: "Brussels",
       },
       {
         id: "1",
-        capital: 'Germany',
-        country: 'Berlin'
+        capital: "Germany",
+        country: "Berlin",
       },
       {
         id: "2",
-        capital: 'Romania',
-        country: 'Bucharest'
+        capital: "Romania",
+        country: "Bucharest",
       },
       {
         id: "3",
-        capital: 'France',
-        country: 'Paris'
+        capital: "France",
+        country: "Paris",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "1b",
@@ -56,6 +57,8 @@ const question1En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "The German flag features three horizontal stripes, in different colors.These colors symbolize unity, freedom, and democracy.Definitely there is no green on it.",
   },
   {
     id: "1c",
@@ -74,55 +77,58 @@ const question1En = [
     options: [
       {
         id: "0",
-        capital: 'Italy',
-        country: 'Rome'
+        capital: "Italy",
+        country: "Rome",
       },
       {
         id: "1",
-        capital: 'India',
-        country: 'New Delhi'
+        capital: "India",
+        country: "New Delhi",
       },
       {
         id: "2",
-        capital: 'Ireland',
-        country: 'Dublin'
+        capital: "Ireland",
+        country: "Dublin",
       },
       {
         id: "3",
-        capital: 'France',
-        country: 'Paris'
+        capital: "France",
+        country: "Paris",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "2b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Dublin",
     country: "Ireland",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/italy.png"),
-        country: 'Italy'
+        country: "Italy",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/india.png"),
-        country: 'India'
+        country: "India",
       },
       {
         id: "2",
         img: require("../../../assets/Flags//ireland.png"),
-        country: 'Ireland'
+        country: "Ireland",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/france.png"),
-        country: 'France'
+        country: "France",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "The Irish flag has the same colors with the Indian flag, without the emblem, and the stripes are placed vertically.",
   },
   {
     id: "2c",
@@ -141,26 +147,27 @@ const question1En = [
     options: [
       {
         id: "0",
-        capital: 'Spain',
-        country: 'Madrid'
+        capital: "Spain",
+        country: "Madrid",
       },
       {
         id: "1",
-        capital: 'Portugal',
-        country: 'Lisbon'
+        capital: "Portugal",
+        country: "Lisbon",
       },
       {
         id: "2",
-        capital: 'France',
-        country: 'Paris'
+        capital: "France",
+        country: "Paris",
       },
       {
         id: "3",
-        capital: 'Italy',
-        country: 'Rome'
+        capital: "Italy",
+        country: "Rome",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
 
   {
@@ -191,6 +198,8 @@ const question1En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Hey, the spanish flag contains an emblem placed in the middle stripe. I am pretty sure that one of its colors is red.",
   },
   {
     id: "3c",
@@ -209,26 +218,27 @@ const question1En = [
     options: [
       {
         id: "0",
-        capital: 'Cyprus',
-        country: 'Nicosia'
+        capital: "Cyprus",
+        country: "Nicosia",
       },
       {
         id: "1",
-        capital: 'Greece',
-        country: 'Athens'
+        capital: "Greece",
+        country: "Athens",
       },
       {
         id: "2",
-        capital: 'Italy',
-        country: 'Rome'
+        capital: "Italy",
+        country: "Rome",
       },
       {
         id: "3",
-        capital: 'Bulgaria',
-        country: 'Sofia'
+        capital: "Bulgaria",
+        country: "Sofia",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
 
   {
@@ -259,6 +269,7 @@ const question1En = [
       },
     ],
     correctAnswerIndex: 1,
+      phoneHelp: "This flag's design is a reflection of Greece's maritime heritage, with blue and white stripes and a cross in the top corner."
   },
   {
     id: "4c",
@@ -277,26 +288,27 @@ const question1En = [
     options: [
       {
         id: "0",
-        capital: 'Spain',
-        country: 'Madrid'
+        capital: "Spain",
+        country: "Madrid",
       },
       {
         id: "1",
-        capital: 'Belgium',
-        country: 'Brussels'
+        capital: "Belgium",
+        country: "Brussels",
       },
       {
         id: "2",
-        capital: 'Switzerland',
-        country: 'Bern'
+        capital: "Switzerland",
+        country: "Bern",
       },
       {
         id: "3",
-        capital: 'France',
-        country: 'Paris'
+        capital: "France",
+        country: "Paris",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:""
   },
 
   {
@@ -327,6 +339,7 @@ const question1En = [
       },
     ],
     correctAnswerIndex: 3,
+     phoneHelp: 'The French flag, known as the Tricolore, consists of three vertical stripes of blue, white and red.'
   },
   {
     id: "5c",
@@ -345,26 +358,27 @@ const question1En = [
     options: [
       {
         id: "0",
-        capital: 'Italy',
-        country: 'Rome'
+        capital: "Italy",
+        country: "Rome",
       },
       {
         id: "1",
-        capital: 'Hungary',
-        country: 'Budapest'
+        capital: "Hungary",
+        country: "Budapest",
       },
       {
         id: "2",
-        capital: 'Mexico',
-        country: 'Mexico city'
+        capital: "Mexico",
+        country: "Mexico city",
       },
       {
         id: "3",
-        capital: 'France',
-        country: 'Paris'
+        capital: "France",
+        country: "Paris",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:""
   },
   {
     id: "6b",
@@ -394,6 +408,7 @@ const question1En = [
       },
     ],
     correctAnswerIndex: 0,
+     phoneHelp: 'Hmmm...I am not sure, but I think that the Italian flag has green and red stripes. '
   },
   {
     id: "6c",
@@ -412,55 +427,57 @@ const question1En = [
     options: [
       {
         id: "0",
-        capital: 'Vietnam',
-        country: 'Hanoi'
+        capital: "Vietnam",
+        country: "Hanoi",
       },
       {
         id: "1",
-        capital: 'Cambodia',
-        country: 'Phnom Penh'
+        capital: "Cambodia",
+        country: "Phnom Penh",
       },
       {
         id: "2",
-        capital: 'China',
-        country: 'Beijing'
+        capital: "China",
+        country: "Beijing",
       },
       {
         id: "3",
-        capital: 'Malaysia',
-        country: 'Kuala Lumpur'
+        capital: "Malaysia",
+        country: "Kuala Lumpur",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:""
   },
   {
     id: "7b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Beijing",
     country: "China",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/vietnam.png"),
-        country: 'Vietnam'
+        country: "Vietnam",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/Cambodia.png"),
-        country: 'Cambodia'
+        country: "Cambodia",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/china.png"),
-        country: 'China'
+        country: "China",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/malaysia.png"),
-        country: 'Malaysia'
+        country: "Malaysia",
       },
     ],
     correctAnswerIndex: 2,
+      phoneHelp: 'The Chinese flag is known as the "Five star Red Flag". It features a large yellow star and four smaller in a semicircle.'
   },
   {
     id: "7c",
@@ -478,26 +495,27 @@ const question1En = [
     options: [
       {
         id: "0",
-        capital: 'Italy',
-        country: 'Rome'
+        capital: "Italy",
+        country: "Rome",
       },
       {
         id: "1",
-        capital: 'Mexico',
-        country: 'Mexico city'
+        capital: "Mexico",
+        country: "Mexico city",
       },
       {
         id: "2",
-        capital: 'India',
-        country: 'New Delhi'
+        capital: "India",
+        country: "New Delhi",
       },
       {
         id: "3",
-        capital: 'Hungary',
-        country: 'Budapest'
+        capital: "Hungary",
+        country: "Budapest",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:""
   },
   {
     id: "8b",
@@ -527,6 +545,7 @@ const question1En = [
       },
     ],
     correctAnswerIndex: 1,
+     phoneHelp: "Oh, the Mexican flag? It’s got three vertical stripes—green, white, and red—and there’s a cool eagle emblem right in the middle."
   },
   {
     id: "8c",
@@ -545,26 +564,27 @@ const question1En = [
     options: [
       {
         id: "0",
-        capital: 'Canada',
-        country: 'Ottawa'
+        capital: "Canada",
+        country: "Ottawa",
       },
       {
         id: "1",
-        capital: 'Cuba',
-        country: 'Havana'
+        capital: "Cuba",
+        country: "Havana",
       },
       {
         id: "2",
-        capital: 'Liberia',
-        country: 'Monrovia'
+        capital: "Liberia",
+        country: "Monrovia",
       },
       {
         id: "3",
-        capital: 'USA',
-        country: 'Washington DC'
+        capital: "USA",
+        country: "Washington DC",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:""
   },
   {
     id: "9b",
@@ -594,6 +614,8 @@ const question1En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+    "Just remember: red and white stripes with a blue corner filled with stars. It’s a classic flag that everyone knows!",
   },
   {
     id: "9c",
@@ -612,26 +634,27 @@ const question1En = [
     options: [
       {
         id: "0",
-        capital: 'New Zealand',
-        country: 'Wellington'
+        capital: "New Zealand",
+        country: "Wellington",
       },
       {
         id: "1",
-        capital: 'Australia',
-        country: 'Canberra'
+        capital: "Australia",
+        country: "Canberra",
       },
       {
         id: "2",
-        capital: 'UK',
-        country: 'London'
+        capital: "UK",
+        country: "London",
       },
       {
         id: "3",
-        capital: 'USA',
-        country: 'Washington DC'
+        capital: "USA",
+        country: "Washington DC",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:""
   },
   {
     id: "10b",
@@ -661,6 +684,7 @@ const question1En = [
       },
     ],
     correctAnswerIndex: 2,
+     phoneHelp: 'Hi there. The UK flag combines the crosses of England (St George\'s Cross), Scotland (St Andrew\'s Cross), and Ireland (St Patrick\'s Cross). I don\'t remember the exact colors but I know there is a blue background.'
   },
   {
     id: "10c",

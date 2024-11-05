@@ -9,7 +9,7 @@ const AsiaMonEn = [
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/Asia/AngkorWat.webp'),
+        img: require('../../../assets/WorldMonuments/Asia/AngkorWat.jpg'),
         name: 'Angkor Wat',
         country: 'Cambodia',
         city: 'Siem Reap',
@@ -186,7 +186,7 @@ const AsiaMonEn = [
     },
     {
         id: '24',
-        img: require('../../../assets/WorldMonuments/Asia/Sheikh-Zayed-Grand-MosqueUAE.png'),
+        img: require('../../../assets/WorldMonuments/Asia/Sheikh-Zayed-Grand-MosqueUAE.webp'),
         name: 'Sheikh Zayed Grand Mosque',
         country: 'United Arab Emirates',
         city: 'Abu \nDhabi',
@@ -226,7 +226,7 @@ const AsiaMonEn = [
     },
     {
         id: '29',
-        img: require('../../../assets/WorldMonuments/Asia/Bangan-Temples.webp'),
+        img: require('../../../assets/WorldMonuments/Asia/Bagan.jpg'),
         name: 'Temples Of Bagan',
         country: 'Myanmar',
         city: 'Mandalay Region',
@@ -242,7 +242,7 @@ const AsiaMonEn = [
     },
     {
         id: '31',
-        img: require('../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.png'),
+        img: require('../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.webp'),
         name: 'The Big Buddha',
         country: 'Hong Kong',
         city: 'Lantau Island',

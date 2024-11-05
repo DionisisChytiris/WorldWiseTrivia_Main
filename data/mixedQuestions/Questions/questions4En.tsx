@@ -514,7 +514,7 @@ const qstMixed4En = [
           {
             id: "1",
             country: "Rialto Bridge\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
+            img: require("../../../assets/WorldMonuments/Europe/Rialto-bridge.webp"),
           },
           {
             id: "2",

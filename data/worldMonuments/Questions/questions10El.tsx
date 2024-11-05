@@ -161,7 +161,7 @@ const questions10El = [
       {
         id: "1",
         country: "Μπάγκαν\nΜιανμάρ",
-        img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.webp"),
+        img: require("../../../assets/WorldMonuments/Asia/Bagan.jpg"),
       },
       {
         id: "2",
@@ -230,7 +230,7 @@ const questions10El = [
       {
         id: "3",
         country: "Γκόλντεν Γκέιτ Μπριντζ\nΗΠΑ",
-        img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.png"),
+        img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.webp"),
       },
     ],
     correctAnswerIndex: 0,

@@ -27,6 +27,8 @@ const question3Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "La capital de Qatar es conocida por sus rascacielos futuristas, su arquitectura moderna y el impresionante paseo marítimo de Corniche. Es un centro de cultura y comercio en Oriente Medio.",
   },
   {
     id: "1b",
@@ -56,6 +58,8 @@ const question3Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "La bandera de Qatar es bastante única: es principalmente color granate con una banda blanca serrada en el lado izquierdo.",
   },
   {
     id: "1c",
@@ -94,6 +98,8 @@ const question3Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      " La capital de los Estados Unidos alberga monumentos icónicos como la Casa Blanca y el Capitolio de EE. UU. Es una ciudad conocida por su importancia política y sus monumentos históricos.",
   },
   {
     id: "2b",
@@ -123,6 +129,8 @@ const question3Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "Solo recuerda: franjas rojas y blancas con una esquina azul llena de estrellas. ¡Es una bandera clásica que todos conocen!",
   },
   {
     id: "2c",
@@ -161,6 +169,8 @@ const question3Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      'La capital de Noruega es conocida por sus espacios verdes, la historia vikinga y museos como el Museo de Barcos Vikingos. Se encuentra en la parte sur de Noruega, en la cabecera de un profundo fiordo, rodeada de colinas boscosas y cerca del fiordo de Oslo.',
   },
   {
     id: "3b",
@@ -190,6 +200,8 @@ const question3Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "¡La bandera de Noruega es realmente distintiva! Es roja con una cruz azul contornada en blanco — ¡muy reconocible!",
   },
   {
     id: "3c",
@@ -228,6 +240,8 @@ const question3Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "Piensa en ciudades que realmente estén en Colombia. ¡Evita cualquier ciudad que no forme parte del país!!!",
   },
   {
     id: "4b",
@@ -257,6 +271,8 @@ const question3Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      " ¡La bandera de Colombia es muy colorida! Tiene tres franjas horizontales: amarilla en la parte superior, seguida de azul y roja.",
   },
 
   {
@@ -296,6 +312,8 @@ const question3Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "La capital de Jordania es conocida por sus antiguas ruinas romanas, incluido un famoso anfiteatro, y sus bulliciosos mercados. Es una ciudad que sirve como puerta de entrada al cercano Mar Muerto y a Petra.",
   },
   {
     id: "5b",
@@ -325,6 +343,8 @@ const question3Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "Piensa en una bandera con franjas negras, blancas y verdes, y hay un triángulo rojo a la izquierda con una estrella blanca dentro.",
   },
   {
     id: "5c",
@@ -343,27 +363,28 @@ const question3Es = [
     options: [
       {
         id: "0",
-        capital: 'Budapest',
-        country: 'Hungría'
+        capital: "Budapest",
+        country: "Hungría",
       },
       {
         id: "1",
-        capital: 'Praga',
-        country: 'República Checa'
+        capital: "Praga",
+        country: "República Checa",
       },
       {
         id: "2",
-        capital: 'Liubliana',
-        country: 'Eslovenia'
+        capital: "Liubliana",
+        country: "Eslovenia",
       },
       {
         id: "3",
-        capital: 'Bratislava',
-        country: 'Eslovaquia'
+        capital: "Bratislava",
+        country: "Eslovaquia",
       },
-
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "La capital de Chequia es famosa por su casco antiguo medieval, su impresionante arquitectura gótica y monumentos como el Castillo de Praga y el Puente de Carlos.",
   },
   {
     id: "6b",
@@ -393,6 +414,8 @@ const question3Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Piensa en una bandera con dos colores principales y un triángulo en el lado izquierdo. ¡Tiene un diseño limpio y simple!",
   },
   {
     id: "6c",
@@ -411,27 +434,28 @@ const question3Es = [
     options: [
       {
         id: "0",
-        capital: 'Kuala Lumpur',
-        country: 'Malasia'
+        capital: "Kuala Lumpur",
+        country: "Malasia",
       },
       {
         id: "1",
-        capital: 'Manila',
-        country: 'Filipinas'
+        capital: "Manila",
+        country: "Filipinas",
       },
       {
         id: "2",
-        capital: 'Yakarta',
-        country: 'Indonesia'
+        capital: "Yakarta",
+        country: "Indonesia",
       },
       {
         id: "3",
-        capital: 'Bandar Seri\nBegawan',
-        country: 'Brunéi'
+        capital: "Bandar Seri\nBegawan",
+        country: "Brunéi",
       },
-
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Esta ciudad está ubicada en la costa noroeste de la isla de Java, con vista al mar de Java, y es la ciudad más grande y poblada de Indonesia.",
   },
   {
     id: "7b",
@@ -461,6 +485,8 @@ const question3Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Tiene un aspecto sencillo con dos franjas, colores similares a la bandera de Polonia.",
   },
   {
     id: "7c",
@@ -499,6 +525,8 @@ const question3Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "La capital de Argentina es famosa por su arquitectura de estilo europeo, su vibrante música de tango y monumentos como la Casa Rosada y el Obelisco.",
   },
   {
     id: "8b",
@@ -528,6 +556,8 @@ const question3Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Presenta un aspecto limpio con azul y blanco, además de un emblema justo en el medio que resalta.",
   },
   {
     id: "8c",
@@ -566,6 +596,8 @@ const question3Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "La capital de Corea del Sur es conocida por sus modernos rascacielos, innovaciones de alta tecnología y palacios históricos como Gyeongbokgung. Es una ciudad donde la tradición se encuentra con la tecnología de vanguardia. No la confundas con la capital japonesa.",
   },
   {
     id: "9b",
@@ -595,6 +627,8 @@ const question3Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "Con un fondo blanco y un símbolo de yin-yang rojo y azul en el centro, esta bandera también incluye cuatro trigramas negros en cada esquina, simbolizando la armonía y el equilibrio.",
   },
 
   {
@@ -610,31 +644,32 @@ const question3Es = [
     id: "10a",
     status: "Capitals",
     country: "Finlandia",
-      image: require("../../../assets/Flags/finland.png"),
-      options: [
-        {
-          id: "0",
-          capital: 'Helsinki',
-          country: 'Finlandia'
-        },
-        {
-          id: "1",
-          capital: 'Oslo',
-          country: 'Noruega'
-        },
-        {
-          id: "2",
-          capital: 'Estocolmo',
-          country: 'Suecia'
-        },
-        {
-          id: "3",
-          capital: 'Copenhague',
-          country: 'Dinamarca'
-        },
-
+    image: require("../../../assets/Flags/finland.png"),
+    options: [
+      {
+        id: "0",
+        capital: "Helsinki",
+        country: "Finlandia",
+      },
+      {
+        id: "1",
+        capital: "Oslo",
+        country: "Noruega",
+      },
+      {
+        id: "2",
+        capital: "Estocolmo",
+        country: "Suecia",
+      },
+      {
+        id: "3",
+        capital: "Copenhague",
+        country: "Dinamarca",
+      },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "La capital de Finlandia es conocida por su diseño moderno, vistas al agua y monumentos como la Catedral de Helsinki y la Plaza del Mercado. Es una ciudad que abraza la naturaleza y la simplicidad nórdica.",
   },
   {
     id: "10b",
@@ -664,6 +699,8 @@ const question3Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Esta bandera presenta una cruz nórdica azul sobre un fondo blanco, simbolizando los lagos de Finlandia y los paisajes cubiertos de nieve.",
   },
   {
     id: "10c",

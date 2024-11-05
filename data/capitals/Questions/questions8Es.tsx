@@ -27,6 +27,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+    "Bueno, no estoy seguro de la respuesta, pero estoy dividido entre La Paz y Lima.",
   },
   {
     id: "1b",
@@ -56,6 +58,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+    "La bandera boliviana presenta tres franjas horizontales: roja, amarilla y verde, con un emblema en el centro.",
   },
   {
     id: "1c",
@@ -94,6 +98,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "Las principales atracciones de esta capital incluyen la icónica Plaza Roja, el Kremlin y la Catedral de San Basilio. La ciudad cuenta con un impresionante sistema de metro, teatros renombrados como el Bolshói y una vibrante escena artística.",
   },
   {
     id: "2b",
@@ -123,6 +129,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "¡Mira la bandera de Rusia! Tiene tres franjas horizontales: blanca en la parte superior, azul en el medio y roja en la parte inferior.",
   },
   {
     id: "2c",
@@ -161,6 +169,7 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "Estoy bastante seguro de que la respuesta correcta es Ankara.",
   },
   {
     id: "3b",
@@ -190,6 +199,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "¡Mira la bandera turca! Presenta un fondo rojo brillante con una luna creciente blanca y una estrella en el centro.",
   },
 
   {
@@ -229,6 +240,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Bueno, no estoy seguro de la respuesta, pero estoy dividido entre Managua y San José.",
   },
   {
     id: "4b",
@@ -258,6 +271,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Esta bandera tiene tres franjas horizontales: azul y blanca. En la franja del medio, hay un emblema que presenta un triángulo con un volcán, simbolizando los ricos recursos naturales del país.",
   },
   {
     id: "4c",
@@ -296,6 +311,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "Bueno, no estoy seguro de la respuesta, pero estoy dividido entre Ereván y Tbilisi.",
   },
   {
     id: "5b",
@@ -325,6 +342,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "¡Mira la bandera de Armenia! Presenta tres franjas horizontales: roja en la parte superior, azul en el medio y naranja en la parte inferior.",
   },
   {
     id: "5c",
@@ -364,6 +383,7 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "Estoy bastante seguro de que la respuesta correcta es Abuja.",
   },
   {
     id: "6b",
@@ -393,6 +413,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "¡Mira la bandera de Nigeria! Tiene tres franjas verticales: verdes a los lados y blanca en el medio.",
   },
   {
     id: "6c",
@@ -431,6 +453,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Bueno, no estoy seguro de la respuesta, pero estoy dividido entre Pretoria y Dodoma.",
   },
   {
     id: "7b",
@@ -460,6 +484,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Esta bandera tiene un diseño único con una forma de 'Y' en el centro. Los colores representan la diversidad y la unidad del país.",
   },
   {
     id: "7c",
@@ -498,6 +524,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "Algunos países tienen capitales con nombres similares al de la nación.",
   },
   {
     id: "8b",
@@ -527,6 +555,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "¡Mira la bandera de Túnez! Hay una media luna roja y una estrella roja. La bandera es similar a la bandera turca.",
   },
   {
     id: "8c",
@@ -565,6 +595,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "Bueno, no estoy seguro de la respuesta, pero estoy dividido entre Zagreb y Belgrado.",
   },
   {
     id: "9b",
@@ -594,6 +626,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "Esta bandera tiene tres franjas horizontales en colores similares a los de las banderas rusa y croata. En el lado izquierdo, se encuentra el escudo nacional que presenta un águila de doble cabeza y una corona.",
   },
   {
     id: "9c",
@@ -632,6 +666,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Es una pregunta difícil. No tengo idea de cuál es la respuesta correcta.",
   },
   {
     id: "10b",
@@ -661,6 +697,8 @@ const question8Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "¡Mira la bandera de Angola! En el centro, hay un emblema que presenta un engranaje, un machete y una estrella, simbolizando la industria, la agricultura y el progreso.",
   },
   {
     id: "10c",

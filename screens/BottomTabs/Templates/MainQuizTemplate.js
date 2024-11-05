@@ -54,19 +54,32 @@ const QuizMainTemplate = (props) => {
   const status = props.status;
   // const [isVib, setIsVib] = useState(true)
 
-  const [correctSound, setCorrectSound] = useState();
+  // const [correctSound, setCorrectSound] = useState();
   async function CorrectPlaySound() {
     const { sound } = await Audio.Sound.createAsync(
       require("../../../assets/correct1.wav")
       // require("../../../assets/drumroll.mp3")
     );
-    setCorrectSound(correctSound);
+    // setCorrectSound(correctSound);
     await sound.setVolumeAsync(0.3);
     await sound.playAsync();
   }
-  useEffect(() => {
-    return correctSound ? () => correctSound.uploadAsync() : undefined;
-  }, [correctSound]);
+  // useEffect(() => {
+  //   return correctSound ? () => correctSound.uploadAsync() : undefined;
+  // }, [correctSound]);
+
+  // const [wrongSound, setWrongSound] = useState();
+  async function WrongPlaySound() {
+    const { sound } = await Audio.Sound.createAsync(
+      require("../../../assets/error.mp3")
+    );
+    // setWrongSound(wrongSound);
+    await sound.setVolumeAsync(0.3);
+    await sound.playAsync();
+  }
+  // useEffect(() => {
+  //   return wrongSound ? () => wrongSound.uploadAsync() : undefined;
+  // }, [wrongSound]);
 
   useEffect(() => {
     if (selectedAnswer !== null) {
@@ -92,6 +105,9 @@ const QuizMainTemplate = (props) => {
         removeHeart();
         {
           boolean ? Vibration.vibrate() : null;
+        }
+        {
+          soundActive ? null : WrongPlaySound();
         }
       }
     } else {
@@ -198,45 +214,58 @@ const QuizMainTemplate = (props) => {
   // 50/50 logic
   const [fiftyFifty, setFiftyFifty] = useState([]);
   const [fiftyFifty2, setFiftyFifty2] = useState([]);
-  const [soundRoll1, setSoundRoll1] = useState();
-  const [soundRoll2, setSoundRoll2] = useState();
-  const [displayNone1, setDisplayNone1] = useState(stylesMain.fiftyfiftybutton)
-  const [displayNone2, setDisplayNone2] = useState(stylesMain.fiftyfiftybutton)
+  // const [soundRoll1, setSoundRoll1] = useState();
+  // const [soundRoll2, setSoundRoll2] = useState();
+  const [displayNone1, setDisplayNone1] = useState(stylesMain.fiftyfiftybutton);
+  const [displayNone2, setDisplayNone2] = useState(stylesMain.fiftyfiftybutton);
+
+  const soundFiles = [
+    require('../../../assets/fiftyfifty.mp3'),
+    require('../../../assets/timpani1.mp3'),
+    require('../../../assets/cymbal.mp3'), // Add more sounds as needed
+  ];
 
   async function playSoundRoll1() {
-    const { sound } = await Audio.Sound.createAsync(
-      require("../../../assets/cymbal.mp3") // Replace with your sound file path
+    const randomIndex = Math.floor(Math.random() * soundFiles.length);
+    const selectedSound = soundFiles[randomIndex];
+
+    const { sound} = await Audio.Sound.createAsync(
+      selectedSound
+      // require("../../../assets/fiftyfifty.mp3") 
     );
-    setSoundRoll1(soundRoll1);
+    // setSoundRoll1(soundRoll1);
     await sound.setVolumeAsync(0.3);
     await sound.playAsync(); // Play the sound
   }
   async function playSoundRoll2() {
+    const randomIndex = Math.floor(Math.random() * soundFiles.length);
+    const selectedSound = soundFiles[randomIndex];
     const { sound } = await Audio.Sound.createAsync(
-      require("../../../assets/cymbal.mp3") // Replace with your sound file path
+      selectedSound
+      // require("../../../assets/fiftyfifty.mp3") 
     );
-    setSoundRoll2(soundRoll2);
+    // setSoundRoll2(soundRoll2);
     await sound.setVolumeAsync(0.3);
     await sound.playAsync(); // Play the sound
   }
 
-  useEffect(() => {
-    return soundRoll1
-      ? () => {
-          sound.unloadAsync(); // Cleanup sound when component unmounts
-        }
-      : undefined;
-  }, [soundRoll1]);
+  // useEffect(() => {
+  //   return soundRoll1
+  //     ? () => {
+  //         sound.unloadAsync(); 
+  //       }
+  //     : undefined;
+  // }, [soundRoll1]);
 
-  useEffect(() => {
-    return soundRoll2
-      ? () => {
-          sound.unloadAsync(); // Cleanup sound when component unmounts
-        }
-      : undefined;
-  }, [soundRoll2]);
+  // useEffect(() => {
+  //   return soundRoll2
+  //     ? () => {
+  //         sound.unloadAsync();
+  //       }
+  //     : undefined;
+  // }, [soundRoll2]);
 
-
+  //1 word-4 images
   const handleFiftyFifty = async () => {
     {
       soundActive ? null : await playSoundRoll1();
@@ -265,13 +294,16 @@ const QuizMainTemplate = (props) => {
               .slice(0, 2);
 
             setFiftyFifty(randomWrongAnswers);
-          }, 1200);
+          }, 1400);
     }
-    {setTimeout(()=>{
-      setDisplayNone1(stylesMain.testFifty)
-    },700)}
+    {
+      setTimeout(() => {
+        setDisplayNone1(stylesMain.testFifty);
+      }, 100);
+    }
   };
 
+  // 1 image- 4 words
   const handleFiftyFifty2 = async () => {
     {
       soundActive ? null : await playSoundRoll2();
@@ -299,9 +331,13 @@ const QuizMainTemplate = (props) => {
               .slice(0, 2);
 
             setFiftyFifty2(randomWrongAnswers);
-          }, 1200);
+          }, 1400);
     }
-    setDisplayNone2(stylesMain.testFifty)
+    {
+      setTimeout(() => {
+        setDisplayNone2(stylesMain.testFifty);
+      }, 100);
+    }
   };
 
   return (
@@ -309,7 +345,6 @@ const QuizMainTemplate = (props) => {
       {/* Header */}
       <View style={{ flexDirection: "row", gap: 30 }}>
         <Text style={{ color: colors.text }}>
-          {/* {index + 1} / {data.length - 1} */}
           {index + 1} / {filteredLength}
         </Text>
         <Text style={{ color: colors.text, fontWeight: "500" }}>
@@ -318,11 +353,6 @@ const QuizMainTemplate = (props) => {
         <Text style={{ color: colors.text }}>
           {t("score")} {score}
         </Text>
-        {/* {currentQuestion.status === "Guess" ? (
-          <Text style={{}}>{apple}</Text>
-        ) : (
-          <Text style={{}}>{heart}</Text>
-          )} */}
         <Text style={{}}>{heart}</Text>
       </View>
 
@@ -399,11 +429,8 @@ const QuizMainTemplate = (props) => {
         {currentQuestion.status === status && status === "Flags" && (
           <>
             {/* Testing Material to help user to find correct answer */}
-            <PhoneHelpOption helpText={currentQuestion.textQuiz} />
-            <Pressable
-              onPress={handleFiftyFifty}
-              style={displayNone1}
-            >
+            <PhoneHelpOption helpText={currentQuestion.phoneHelp} />
+            <Pressable onPress={handleFiftyFifty} style={displayNone1}>
               <View>
                 <Text style={{ fontSize: 16 }}>50%</Text>
               </View>
@@ -480,7 +507,7 @@ const QuizMainTemplate = (props) => {
         {currentQuestion.status === status && status === "Capitals" && (
           <>
             {/* Testing Material to help user to find correct answer */}
-            <PhoneHelpOption helpText={currentQuestion.textQuiz} />
+            <PhoneHelpOption helpText={currentQuestion.phoneHelp} />
             <Pressable
               onPress={handleFiftyFifty2}
               // onPress={()=>alert('hey')}
@@ -611,6 +638,7 @@ const QuizMainTemplate = (props) => {
 
       {/* Arrow Right*/}
       {/* {index + 1 > data.length - 2 ? ( */}
+      <>
       {index + 1 > filteredLength - 1 ? (
         <Pressable
           style={{ position: "absolute", bottom: "55%", right: 10 }}
@@ -637,8 +665,8 @@ const QuizMainTemplate = (props) => {
                 setShowHeart(false),
                 setFiftyFifty([]);
               setFiftyFifty2([]);
-              setDisplayNone1(stylesMain.fiftyfiftybutton)
-              setDisplayNone2(stylesMain.fiftyfiftybutton)
+              setDisplayNone1(stylesMain.fiftyfiftybutton);
+              setDisplayNone2(stylesMain.fiftyfiftybutton);
               // console.log(fiftyFifty);
             }
             if (guesses == currentQuestion.num) {
@@ -657,6 +685,8 @@ const QuizMainTemplate = (props) => {
           )}
         </Pressable>
       )}
+</>
+
 
       {/* Arrow Left*/}
       {/* {index == 0 ? null : (
@@ -690,19 +720,19 @@ const stylesMain = StyleSheet.create({
   },
   fiftyfiftybutton: {
     position: "absolute",
-    left: 100,
+    left: 75,
     top: 10,
     display: "flex",
     alignItems: "center",
     backgroundColor: "lightgrey",
     justifyContent: "center",
     width: 50,
-    height: 35,
-    borderRadius: 10,
-    zIndex: 999
+    height: 50,
+    borderRadius: '50%',
+    zIndex: 999,
   },
-  testFifty:{
-    display: 'none'
+  testFifty: {
+    display: "none",
   },
   selectLetter: {
     backgroundColor: "white",

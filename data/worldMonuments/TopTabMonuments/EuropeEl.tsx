@@ -160,7 +160,7 @@ const EuropeMonEl = [
     },
     {
         id: '21',
-        img: require('../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.webp'),
+        img: require('../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.jpg'),
         name: 'Κάστρο Nόισβανσταϊν',
         country: 'Γερμανία',
         city: 'Χοχενσβάνγκαου\nΒαβαρία',
@@ -184,7 +184,7 @@ const EuropeMonEl = [
     },
     {
         id: '24',
-        img: require('../../../assets/WorldMonuments/Europe/palace-of-westminster_main.png'),
+        img: require('../../../assets/WorldMonuments/Europe/palace-of-westminster_main.webp'),
         name: 'Ανάκτορα του Ουεστμίνστερ',
         country: 'Ηνωμένο Βασίλειο',
         city: 'Λονδίνο',
@@ -192,7 +192,7 @@ const EuropeMonEl = [
     },
     {
         id: '25',
-        img: require('../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg'),
+        img: require('../../../assets/WorldMonuments/Europe/Rialto-bridge.webp'),
         name: 'Γέφυρα του Ριάλτο',
         country: 'Ιταλία',
         city: 'Βενετία',
@@ -240,7 +240,7 @@ const EuropeMonEl = [
     },
     {
         id: '31',
-        img: require('../../../assets/WorldMonuments/Europe/sistineChapel.webp'),
+        img: require('../../../assets/WorldMonuments/Europe/Sistine-Chapel.jpg'),
         name: 'Καπέλα Σιστίνα',
         country: 'Βατικανό',
         city: 'Πόλη Βατικανού',
@@ -264,7 +264,7 @@ const EuropeMonEl = [
     },
     {
         id: '34',
-        img: require('../../../assets/WorldMonuments/Europe/stMark_square_Venice.webp'),
+        img: require('../../../assets/WorldMonuments/Europe/stMarkVenice.jpg'),
         name: 'Πλατεία Αγίου Μάρκου',
         country: 'Ιταλία',
         city: 'Βενετία'
@@ -279,7 +279,7 @@ const EuropeMonEl = [
     },
     {
         id: '36',
-        img: require('../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp'),
+        img: require('../../../assets/WorldMonuments/Europe/alhambra.jpg'),
         name: 'Αλάμπρα',
         country: 'Ισπανία',
         city: 'Γρανάδα',

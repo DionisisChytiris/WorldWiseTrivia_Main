@@ -48,7 +48,7 @@ const qstMixed9Es = [
           {
             id: "2",
             country: "Entrada del Templo de Luxor\nEgypt",
-            img: require("../../../assets/WorldMonuments/Africa/Entrance-of-Luxor-Temple-Egypt.jpg"),
+            img: require("../../../assets/WorldMonuments/Africa/Luxor.jpg"),
           },
           {
             id: "3",
@@ -170,7 +170,7 @@ const qstMixed9Es = [
           {
             id: "3",
             country: "Alhambra\nEspaña",
-            img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/alhambra.jpg"),
           },
         ],
         correctAnswerIndex: 2,
@@ -239,7 +239,7 @@ const qstMixed9Es = [
         status: "Capitals",
         img: 'L',
         country: "Polonia",
-        image: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
+        image: require("../../../assets/NaturalMnt/Europe/crookedForest.jpg"),
         options: [
           {
             id: "0",
@@ -273,7 +273,7 @@ const qstMixed9Es = [
           {
             id: "0",
             country: "Bosque Torcido\nPolonia",
-            img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
+            img: require("../../../assets/NaturalMnt/Europe/crookedForest.jpg"),
           },
           {
             id: "1",
@@ -532,7 +532,7 @@ const qstMixed9Es = [
         status: "Capitals",
         img: 'L',
         country: "México",
-        image: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
+        image: require("../../../assets/WorldMonuments/America/Tulum.jpg"),
         options: [
           {
             id: "0",
@@ -571,7 +571,7 @@ const qstMixed9Es = [
           {
             id: "1",
             country: "Tulum\nMéxico",
-            img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
+            img: require("../../../assets/WorldMonuments/America/Tulum.jpg"),
           },
           {
             id: "2",

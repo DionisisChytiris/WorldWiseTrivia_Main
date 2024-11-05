@@ -42,3 +42,7 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# hide Firebase images
+assets/naturalMonuments.js
+assets/worldMonuments.js

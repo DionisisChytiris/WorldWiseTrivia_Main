@@ -27,12 +27,13 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between La Paz and Lima.'
     },
     {
       id: "1b",
       status: "Flags" ,
       capital: "Bolivia",
-      country: "La Paz/Sucre",
+      country: "La Paz",
       options: [
         {
           id: "0",
@@ -56,6 +57,7 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp: 'The Bolivian flag features three horizontal stripes: red, yellow and green, with an emblem in the center.'
     },
     {
       id: "1c",
@@ -94,6 +96,7 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp: "Key attractions of this capital include the iconic Red Square, the Kremlin, and St. Basil's Cathedral. The city boasts a stunning metro system, renowned theaters like the Bolshoi, and a lively arts scene."
     },
     {
       id: "2b",
@@ -123,6 +126,7 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp: 'Check out the Russian flag! It has three horizontal stripes: white on the top, blue in the middle, and red at the bottom.'
     },
     {
       id: "2c",
@@ -161,6 +165,7 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp: 'I am pretty sure the correct answer is Ankara.'
     },
     {
       id: "3b",
@@ -190,6 +195,7 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp: 'Take a look at the Turkish flag! It features a bright red background with a white crescent moon and a star in the center.'
     },
     
      {
@@ -224,11 +230,12 @@ const question8En = [
         },
         {
           id: "3",
-          capital: 'Costa Rica',
-          country: 'San Jose'
+          capital: 'San Jose',
+          country: 'Costa Rica'
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between Managua and San Jose.'
     },
     {
       id: "4b",
@@ -258,6 +265,7 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp: 'This flag has three horizontal stripes: blue and white. In the middle stripe, there\'s an emblem, which features a triangle with a volcano, symbolizing the country’s rich natural resources.'
     },
      {
       id: "4c",
@@ -296,6 +304,7 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between Yerevan and Tbilisi.'
     },
     {
       id: "5b",
@@ -325,6 +334,7 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp: 'Take a look at the Armenian flag! It features three horizontal stripes: red at the top, blue in the middle, and orange at the bottom.'
     },
     {
       id: "5c",
@@ -364,6 +374,7 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 1,
+      phoneHelp: 'I am pretty sure the correct answer is Abuja.'
     },
     {
       id: "6b",
@@ -393,6 +404,7 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 1,
+      phoneHelp: 'Check out the Nigerian flag! It has three vertical stripes: green on the sides and white in the middle.'
     },
     {
       id: "6c",
@@ -431,6 +443,7 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between Pretoria and Dodoma.'
     },
     {
       id: "7b",
@@ -460,6 +473,7 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp: 'This flag has a unique design with a \'Y\' shape in the center. The colors represent the country’s diversity and unity.'
     },
     {
       id: "7c",
@@ -498,6 +512,7 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp: 'Some countries have capitals with names similar to the country’s name.'
     },
     {
       id: "8b",
@@ -527,6 +542,7 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp: 'Check out the Tunisian flag! There is a red crescent and a red star. The flag is similar to the Turkish flag.'
     },
     {
       id: "8c",
@@ -565,6 +581,7 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between Zagreb and Belgrade.'
     },
     {
       id: "9b",
@@ -594,6 +611,7 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp: 'This flag has three horizontal stripes in colors similar to those of Russian and Croatian flags. On the left side, there’s the national coat of arms featuring a double-headed eagle and a crown.'
     },
     {
       id: "9c",
@@ -633,6 +651,7 @@ const question8En = [
         
       ],
       correctAnswerIndex: 1,
+      phoneHelp: 'That is a tough question. I have no idea what the correct answer is.'
     },
     {
       id: "10b",
@@ -662,6 +681,7 @@ const question8En = [
         },
       ],
       correctAnswerIndex: 1,
+      phoneHelp: 'Check out the Angolan flag! In the center, there’s an emblem featuring a half gear, a machete, and a star, symbolizing industry, agriculture, and progress.'
     },
     {
       id: "10c",

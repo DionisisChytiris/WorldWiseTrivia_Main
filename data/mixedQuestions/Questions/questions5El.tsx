@@ -43,7 +43,7 @@ const qstMixed5El = [
       {
         id: "1",
         country: "Άνγκορ Βατ\nΚαμπότζη",
-        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
+        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.jpg"),
       },
       {
         id: "2",
@@ -238,7 +238,7 @@ const qstMixed5El = [
     status: "Capitals",
     img: "L",
     country: "Σκωτία",
-    image: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+    image: require("../../../assets/NaturalMnt/Europe/isleofSkye.jpg"),
     options: [
       {
         id: "0",
@@ -277,12 +277,12 @@ const qstMixed5El = [
       {
         id: "1",
         country: "Νήσος Σκάι\nΣκωτία",
-        img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+        img: require("../../../assets/NaturalMnt/Europe/isleofSkye.jpg"),
       },
       {
         id: "2",
         country: "Υποβρύχιοι καταρράκτες\nΜαυρίκιος",
-        img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
+        img: require("../../../assets/NaturalMnt/Asia/underwaterFalls.jpg"),
       },
       {
         id: "3",
@@ -414,7 +414,7 @@ const qstMixed5El = [
     status: "Capitals",
     img: 'L',
     country: "Καμπότζη",
-    image: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
+    image: require("../../../assets/WorldMonuments/Asia/AngkorWat.jpg"),
     options: [
       {
         id: "0",
@@ -458,7 +458,7 @@ const qstMixed5El = [
       {
         id: "2",
         country: "Άνγκορ Βατ\nΚαμπότζη",
-        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
+        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.jpg"),
       },
       {
         id: "3",
@@ -473,7 +473,7 @@ const qstMixed5El = [
     status: "Capitals",
     img: 'L',
     country: "Ισπανία",
-    image: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
+    image: require("../../../assets/WorldMonuments/Europe/alhambra.jpg"),
     options: [
       {
         id: "0",
@@ -517,7 +517,7 @@ const qstMixed5El = [
       {
         id: "2",
         country: "Αλάμπρα\nΙσπανία",
-        img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
+        img: require("../../../assets/WorldMonuments/Europe/alhambra.jpg"),
       },
       {
         id: "3",

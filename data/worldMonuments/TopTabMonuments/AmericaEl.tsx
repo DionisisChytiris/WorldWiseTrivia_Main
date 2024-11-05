@@ -137,7 +137,7 @@ const AmericaMonEl = [
     },
     {
         id: '18',
-        img: require('../../../assets/WorldMonuments/America/TikalGuatemala.webp'),
+        img: require('../../../assets/WorldMonuments/America/Tikal.jpg'),
         name: 'Τικάλ',
         country: 'Γουατεμάλα',
         city: 'Flores\nPeten Basin',
@@ -145,7 +145,7 @@ const AmericaMonEl = [
     },
     {
         id: '19',
-        img: require('../../../assets/WorldMonuments/America/TulumMexico.png'),
+        img: require('../../../assets/WorldMonuments/America/Tulum.jpg'),
         name: 'Τουλούμ',
         country: 'Μεξικό',
         city: 'Κουιντάνα Ρο',

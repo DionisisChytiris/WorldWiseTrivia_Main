@@ -507,7 +507,7 @@ const qstMixed2El = [
           {
             id: "0",
             country: "Ναός του Λούξορ\nΑίγυπτος",
-            img: require("../../../assets/WorldMonuments/Africa/Entrance-of-Luxor-Temple-Egypt.jpg"),
+            img: require("../../../assets/WorldMonuments/Africa/Luxor.jpg"),
           },
           {
             id: "1",
@@ -571,7 +571,7 @@ const qstMixed2El = [
           {
             id: "1",
             country: "Γέφυρα Ponte D. Luis\nΠορτογαλία",
-            img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.png"),
+            img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.webp"),
           },
           {
             id: "2",

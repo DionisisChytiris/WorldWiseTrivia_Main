@@ -451,7 +451,7 @@ const questions2En = [
         {
           id: "0",
           country: "Dettifoss Waterfall\nIceland",
-          img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
+          img: require("../../../assets/NaturalMnt/Europe/dettifoss.jpg"),
         },
         {
           id: "1",

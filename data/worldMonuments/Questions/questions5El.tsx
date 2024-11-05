@@ -97,7 +97,7 @@ const questions5El = [
           {
             id: "0",
             country: "Επιγραγή Χόλιγουντ\nΗΠΑ",
-            img: require("../../../assets/WorldMonuments/USA/Hollywood.png"),
+            img: require("../../../assets/WorldMonuments/USA/Hollywood1.jpg"),
           },
           {
             id: "1",
@@ -161,7 +161,7 @@ const questions5El = [
           {
             id: "1",
             country: "Άνγκορ Βατ\nΚαμπότζη",
-            img: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
+            img: require("../../../assets/WorldMonuments/Asia/AngkorWat.jpg"),
           },
           {
             id: "2",
@@ -181,7 +181,7 @@ const questions5El = [
         status: "Capitals",
         img: 'L',
         country: "Καμπότζη",
-        image: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
+        image: require("../../../assets/WorldMonuments/Asia/AngkorWat.jpg"),
         options: [
           {
             id: "0",
@@ -225,7 +225,7 @@ const questions5El = [
           {
             id: "2",
             country: "Άνγκορ Βατ\nΚαμπότζη",
-            img: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
+            img: require("../../../assets/WorldMonuments/Asia/AngkorWat.jpg"),
           },
           {
             id: "3",
@@ -240,7 +240,7 @@ const questions5El = [
         status: "Capitals",
         img: 'L',
         country: "Ισπανία",
-        image: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
+        image: require("../../../assets/WorldMonuments/Europe/alhambra.jpg"),
         options: [
           {
             id: "0",
@@ -284,7 +284,7 @@ const questions5El = [
           {
             id: "2",
             country: "Αλάμπρα\nΙσπανία",
-            img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/alhambra.jpg"),
           },
           {
             id: "3",

@@ -45,7 +45,7 @@ const AfrMntEl = [
     },
     {
         id: '7',
-        img: require('../../../assets/NaturalMnt/Africa/Sahara-Desert.webp'),
+        img: require('../../../assets/NaturalMnt/Africa/Sahara.jpg'),
         name: 'Έρημος Σαχάρα',
         country: 'Βόρεια Αφρική',
         city: '',

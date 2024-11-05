@@ -97,7 +97,7 @@ const questions1En = [
       {
         id: "0",
         country: "Valley of the Kings\nEgypt",
-        img: require("../../../assets/WorldMonuments/Africa/Luxor-Valley-of-the-Kings.png"),
+        img: require("../../../assets/WorldMonuments/Africa/Luxor.jpg"),
       },
       {
         id: "1",
@@ -166,7 +166,7 @@ const questions1En = [
       {
         id: "2",
         country: "Great Sphinx of Giza\nEgypt",
-        img: require("../../../assets/WorldMonuments/Africa/sphinx.png"),
+        img: require("../../../assets/WorldMonuments/Africa/sphinx.jpg"),
       },
       {
         id: "3",
@@ -348,7 +348,7 @@ const questions1En = [
       {
         id: "3",
         country: "Rialto Bridge\nItaly",
-        img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
+        img: require("../../../assets/WorldMonuments/Europe/Rialto-bridge.webp"),
       },
     ],
     correctAnswerIndex: 1,
@@ -456,12 +456,12 @@ const questions1En = [
       {
         id: "1",
         country: "Tulum\nMexico",
-        img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
+        img: require("../../../assets/WorldMonuments/America/Tulum.jpg"),
       },
       {
         id: "2",
         country: "Tikal\nGuatemala",
-        img: require("../../../assets/WorldMonuments/America/TikalGuatemala.webp"),
+        img: require("../../../assets/WorldMonuments/America/Tikal.jpg"),
       },
       {
         id: "3",

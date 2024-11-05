@@ -27,6 +27,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Todo lo que sé es que Vilna es la capital de Lituania y Riga es la capital de Letonia.",
   },
   {
     id: "1b",
@@ -56,6 +58,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Esta bandera tiene tres franjas horizontales sin ningún emblema. Sus colores representan el cielo, el suelo y la búsqueda de libertad del país.",
   },
   {
     id: "1c",
@@ -94,6 +98,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "Bueno, Odesa no es una capital. Creo que la primera respuesta es la correcta.",
   },
   {
     id: "2b",
@@ -123,6 +129,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "La bandera de Moldavia es similar a la bandera de Rumanía. La diferencia clave está en la franja del medio.",
   },
   {
     id: "2c",
@@ -161,6 +169,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Bueno, no estoy seguro de la respuesta, pero estoy dividido entre Yakarta y Manila.",
   },
   {
     id: "3b",
@@ -190,6 +200,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "¡Mira la bandera de Filipinas! Tiene dos franjas horizontales: azul y roja. En el lado izquierdo, hay un triángulo blanco con un sol amarillo de ocho rayos y tres estrellas.",
   },
 
   {
@@ -230,6 +242,7 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "Creo que Suva es la respuesta correcta.",
   },
   {
     id: "4b",
@@ -259,6 +272,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "¡Mira la bandera de Fiyi! Presenta un campo azul con la Union Jack en la esquina superior izquierda. En el lado derecho, hay un escudo que representa un león, caña de azúcar y una palmera de coco.",
   },
   {
     id: "4c",
@@ -298,6 +313,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Bueno, no estoy seguro de la respuesta, pero estoy dividido entre Abuja y Yaundé.",
   },
   {
     id: "5b",
@@ -327,6 +344,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Esta bandera tiene tres franjas verticales. En la franja del medio, hay una pequeña estrella que representa la unidad y los ricos recursos naturales del país.",
   },
   {
     id: "5c",
@@ -365,6 +384,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "Algunos países tienen capitales cuyos nombres son similares al nombre del país.",
   },
   {
     id: "6b",
@@ -394,6 +415,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "¡Mira la bandera de Argelia! Tiene dos secciones verticales. En el centro, hay una media luna y una estrella, simbolizando el Islam y la lucha del país por la independencia.",
   },
   {
     id: "6c",
@@ -432,6 +455,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "La capital de Uruguay es conocida por su arquitectura histórica, sus vistas costeras y su vibrante escena cultural, que mezcla el encanto colonial con la vida moderna. ¡Comienza con la letra 'M'!",
   },
   {
     id: "7b",
@@ -461,6 +486,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "¡Mira la bandera de Uruguay! En la esquina superior izquierda hay un sol dorado con cara, que representa el sol de mayo y la independencia del país.",
   },
   {
     id: "7c",
@@ -485,7 +512,7 @@ const question9Es = [
       {
         id: "1",
         capital: "Puerto Príncipe",
-        country: "Haití"
+        country: "Haití",
       },
       {
         id: "2",
@@ -499,6 +526,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "Jamaica es una nación insular del Caribe celebrada por sus impresionantes playas, la música reggae y su vibrante cultura. Su capital es el corazón cultural, conocida por su historia musical y su ambiente animado. ¡Comienza con la letra 'K'!",
   },
   {
     id: "8b",
@@ -528,6 +557,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "¡Mira la bandera de Jamaica! Tiene una cruz diagonal que divide la bandera en triángulos.",
   },
   {
     id: "8c",
@@ -566,6 +597,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "Bueno, no estoy seguro de la respuesta, pero estoy dividido entre Ammán y Mascate.",
   },
   {
     id: "9b",
@@ -595,6 +628,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "¡Mira la bandera de Omán! Tiene tres franjas horizontales y una franja vertical que presenta el escudo nacional, que incluye un khanjar (daga) y dos espadas cruzadas, simbolizando el patrimonio y la fortaleza de Omán.",
   },
   {
     id: "9c",
@@ -633,6 +668,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Bueno, no estoy seguro de la respuesta, pero estoy dividido entre Mascate y Beirut.",
   },
   {
     id: "10b",
@@ -662,6 +699,8 @@ const question9Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "En el centro de esta bandera, hay un cedro verde, que simboliza la paz y la resiliencia del país.",
   },
   {
     id: "10c",

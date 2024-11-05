@@ -281,7 +281,7 @@ const qstMixed3El = [
           {
             id: "2",
             country: "Νήσος Σκάι\nΣκωτία",
-            img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+            img: require("../../../assets/NaturalMnt/Europe/isleofSkye.jpg"),
           },
           {
             id: "3",
@@ -516,7 +516,7 @@ const qstMixed3El = [
           {
             id: "2",
             country: "Γέφυρα του Ριάλτο\nΙταλία",
-            img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
+            img: require("../../../assets/WorldMonuments/Europe/Rialto-bridge.webp"),
           },
           {
             id: "3",
@@ -531,7 +531,7 @@ const qstMixed3El = [
         status: "Capitals",
         img: 'L',
         country: "Iταλία",
-        image: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.webp"),
+        image: require("../../../assets/WorldMonuments/Europe/stMarkVenice.jpg"),
         options: [
           {
             id: "0",
@@ -575,7 +575,7 @@ const qstMixed3El = [
           {
             id: "2",
             country: "Πλατεία Αγίου Μάρκου\nΙταλία",
-            img: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/stMarkVenice.jpg"),
           },
           {
             id: "3",

@@ -48,7 +48,7 @@ const qstMixed1El = [
       {
         id: "2",
         country: "Μεγάλη Σφίγγα της Γκίζας\nΑίγυπτος",
-        img: require("../../../assets/WorldMonuments/Africa/sphinx.png"),
+        img: require("../../../assets/WorldMonuments/Africa/sphinx.jpg"),
       },
       {
         id: "3",
@@ -508,7 +508,7 @@ const qstMixed1El = [
       {
         id: "0",
         country: "Κοιλάδα των Βασιλέων\nΑίγυπτος",
-        img: require("../../../assets/WorldMonuments/Africa/Luxor-Valley-of-the-Kings.png"),
+        img: require("../../../assets/WorldMonuments/Africa/Luxor.jpg"),
       },
       {
         id: "1",

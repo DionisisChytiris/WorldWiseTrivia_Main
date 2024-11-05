@@ -27,6 +27,7 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 1,
+      phoneHelp:""
     },
     {
       id: "1b",
@@ -56,6 +57,8 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 1,
+      phoneHelp:
+      "La bandera de Alemania tiene tres franjas horizontales, de diferentes colores. Estos colores simbolizan la unidad, la libertad y la democracia. Definitivamente, no hay verde en ella.",
     },
     {
       id: "1c",
@@ -94,6 +97,7 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp:""
     },
     {
       id: "2b",
@@ -123,6 +127,8 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp:
+      "La bandera de Irlanda tiene los mismos colores que la bandera de India, sin el emblema, y las franjas están colocadas verticalmente.",
     },
     {
       id: "2c",
@@ -161,6 +167,7 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp:""
     },
   
     {
@@ -191,6 +198,8 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp:
+      "La bandera de España contiene un emblema ubicado en la franja central. Estoy bastante seguro de que uno de sus colores es el rojo.",
     },
     {
       id: "3c",
@@ -229,6 +238,7 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 1,
+      phoneHelp:""
     },
   
     {
@@ -259,6 +269,8 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 1,
+      phoneHelp:
+      "El diseño de esta bandera refleja la herencia marítima de Grecia, con franjas azules y blancas y una cruz en la esquina superior.",
     },
     {
       id: "4c",
@@ -297,6 +309,7 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp:""
     },
   
     {
@@ -327,6 +340,7 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp: 'La bandera de Francia, conocida como la Tricolor, consiste en tres franjas verticales de azul, blanco y rojo.'
     },
     {
       id: "5c",
@@ -365,6 +379,7 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp:""
     },
     {
       id: "6b",
@@ -394,6 +409,8 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp:
+      "Mmm... No estoy seguro, pero creo que la bandera italiana tiene franjas verdes y rojas. ",
     },
     {
       id: "6c",
@@ -432,6 +449,7 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp:""
     },
     {
       id: "7b",
@@ -461,6 +479,8 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 2,
+       phoneHelp:
+      'La bandera de China es conocida como la "Bandera Roja de las Cinco Estrellas". Tiene una gran estrella amarilla y cuatro más pequeñas en un semicírculo.',
     },
     {
       id: "7c",
@@ -498,6 +518,7 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 1,
+      phoneHelp:""
     },
     {
       id: "8b",
@@ -527,6 +548,8 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 1,
+      phoneHelp:
+      "Oh, ¿la bandera de México? Tiene tres franjas verticales: verde, blanca y roja, y hay un impresionante emblema de un águila justo en el centro.",
     },
     {
       id: "8c",
@@ -565,6 +588,7 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 3,
+      phoneHelp:""
     },
     {
       id: "9b",
@@ -594,6 +618,8 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 0,
+      phoneHelp:
+      "Solo recuerda: franjas rojas y blancas con una esquina azul llena de estrellas. ¡Es una bandera clásica que todos conocen!",
     },
     {
       id: "9c",
@@ -632,6 +658,7 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp:""
     },
     {
       id: "10b",
@@ -661,6 +688,8 @@ const question1Es = [
         },
       ],
       correctAnswerIndex: 2,
+      phoneHelp:
+      "La bandera del Reino Unido combina las cruces de Inglaterra, Escocia e Irlanda. No recuerdo los colores exactos, pero sé que tiene un fondo azul.",
     },
     {
       id: "10c",

@@ -3,31 +3,32 @@ const question5Es = [
     id: "1a",
     status: "Capitals",
     country: "El Salvador",
-      image: require("../../../assets/Flags/elSalvador.png"),
-      options: [
-        {
-          id: "0",
-          capital: 'San José',
-          country: 'Puerto Rico'
-        },
-        {
-          id: "1",
-          capital: 'Tegucigalpa',
-          country: 'Honduras'
-        },
-        {
-          id: "2",
-          capital: 'Managua',
-          country: 'Nicaragua'
-        },
-        {
-          id: "3",
-          capital: 'San Salvador',
-          country: 'El Salvador'
-        },
-
+    image: require("../../../assets/Flags/elSalvador.png"),
+    options: [
+      {
+        id: "0",
+        capital: "San José",
+        country: "Puerto Rico",
+      },
+      {
+        id: "1",
+        capital: "Tegucigalpa",
+        country: "Honduras",
+      },
+      {
+        id: "2",
+        capital: "Managua",
+        country: "Nicaragua",
+      },
+      {
+        id: "3",
+        capital: "San Salvador",
+        country: "El Salvador",
+      },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "Η πρωτεύουσα του Ελ Σαλβαδόρ είναι η μεγαλύτερη πόλη της χώρας, γνωστή για τα γύρω ηφαίστεια και τη ζωντανή της ατμόσφαιρα. Το όνομά της ξεκινά με 'S'.",
   },
   {
     id: "1b",
@@ -57,6 +58,7 @@ const question5Es = [
       },
     ],
     correctAnswerIndex: 2,
+     phoneHelp: 'Esta bandera presenta tres franjas horizontales de azul y blanco, con un emblema en el centro. Este emblema no es un triángulo.'
   },
   {
     id: "1c",
@@ -71,31 +73,32 @@ const question5Es = [
     id: "2a",
     status: "Capitals",
     country: "Malasia",
-      image: require("../../../assets/Flags/malaysia.png"),
-      options: [
-        {
-          id: "0",
-          capital: 'Yakarta',
-          country: 'Indonesia'
-        },
-        {
-          id: "1",
-          capital: 'Kuala Lumpur',
-          country: 'Malasia'
-        },
-        {
-          id: "2",
-          capital: 'Manila',
-          country: 'Filipinas'
-        },
-        {
-          id: "3",
-          capital: 'Nom Pen',
-          country: 'Camboya'
-        },
-
+    image: require("../../../assets/Flags/malaysia.png"),
+    options: [
+      {
+        id: "0",
+        capital: "Yakarta",
+        country: "Indonesia",
+      },
+      {
+        id: "1",
+        capital: "Kuala Lumpur",
+        country: "Malasia",
+      },
+      {
+        id: "2",
+        capital: "Manila",
+        country: "Filipinas",
+      },
+      {
+        id: "3",
+        capital: "Nom Pen",
+        country: "Camboya",
+      },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Bueno, no estoy seguro de la respuesta, pero estoy dividido entre Yakarta y Kuala Lumpur.",
   },
   {
     id: "2b",
@@ -125,6 +128,7 @@ const question5Es = [
       },
     ],
     correctAnswerIndex: 0,
+     phoneHelp: 'Esta bandera es similar a la bandera de los Estados Unidos de América, pero con un creciente amarillo y una estrella en la esquina superior izquierda.'
   },
   {
     id: "2c",
@@ -163,6 +167,8 @@ const question5Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp:
+      "La capital de Suecia es una pintoresca ciudad famosa por sus canales y sus edificios históricos. ¡Es la ciudad más grande del país y su nombre comienza con 'S'!",
   },
   {
     id: "3b",
@@ -192,6 +198,7 @@ const question5Es = [
       },
     ],
     correctAnswerIndex: 2,
+     phoneHelp: 'Esta bandera presenta una cruz nórdica que se extiende hasta los bordes, con los mismos colores que la bandera de Ucrania, simbolizando la herencia cristiana de la nación y sus lazos históricos con otros países escandinavos.'
   },
   {
     id: "3c",
@@ -230,6 +237,8 @@ const question5Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "Definitivamente, Bangkok es la capital de Tailandia y Pekín es la capital de China.",
   },
   {
     id: "4b",
@@ -259,6 +268,7 @@ const question5Es = [
       },
     ],
     correctAnswerIndex: 0,
+      phoneHelp: 'La bandera de Vietnam tiene un fondo rojo con una gran estrella en el centro. El rojo representa la lucha por la independencia, mientras que la estrella amarilla simboliza la unidad.'
   },
   {
     id: "4c",
@@ -297,6 +307,7 @@ const question5Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "Piensa en ciudades que se encuentran en Europa Central.",
   },
   {
     id: "5b",
@@ -326,6 +337,7 @@ const question5Es = [
       },
     ],
     correctAnswerIndex: 0,
+     phoneHelp: 'La bandera suiza presenta un fondo rojo con una cruz blanca en el centro. El diseño representa la unidad y la neutralidad suizas.'
   },
   {
     id: "5c",
@@ -344,27 +356,28 @@ const question5Es = [
     options: [
       {
         id: "0",
-        capital: 'Oslo',
-        country: 'Noruega'
+        capital: "Oslo",
+        country: "Noruega",
       },
       {
         id: "1",
-        capital: 'Tallin',
-        country: 'Estonia'
+        capital: "Tallin",
+        country: "Estonia",
       },
       {
         id: "2",
-        capital: 'Reikiavik',
-        country: 'Islandia'
+        capital: "Reikiavik",
+        country: "Islandia",
       },
       {
         id: "3",
-        capital: 'Estocolmo',
-        country: 'Suecia'
+        capital: "Estocolmo",
+        country: "Suecia",
       },
-
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "La capital de Islandia es una ciudad colorida, conocida por su arquitectura única y sus impresionantes alrededores naturales. ¡Es la ciudad más grande del país y su nombre comienza con 'R'!",
   },
   {
     id: "6b",
@@ -394,6 +407,7 @@ const question5Es = [
       },
     ],
     correctAnswerIndex: 2,
+     phoneHelp: 'La bandera islandesa tiene un fondo azul con una cruz contornada en blanco. Los colores representan las características naturales del país: azul por el océano, blanco por el hielo y la nieve, y rojo por las erupciones volcánicas.'
   },
   {
     id: "6c",
@@ -408,31 +422,32 @@ const question5Es = [
     id: "7a",
     status: "Capitals",
     country: "Ucrania",
-      image: require("../../../assets/Flags/ukrainer.png"),
-      options: [
-        {
-          id: "0",
-          capital: 'Kiev',
-          country: 'Ucrania'
-        },
-        {
-          id: "1",
-          capital: 'Tallin',
-          country: 'Estonia'
-        },
-        {
-          id: "2",
-          capital: 'Minsk',
-          country: 'Bielorrusia'
-        },
-        {
-          id: "3",
-          capital: 'Riga',
-          country: 'Letonia'
-        },
-
+    image: require("../../../assets/Flags/ukrainer.png"),
+    options: [
+      {
+        id: "0",
+        capital: "Kiev",
+        country: "Ucrania",
+      },
+      {
+        id: "1",
+        capital: "Tallin",
+        country: "Estonia",
+      },
+      {
+        id: "2",
+        capital: "Minsk",
+        country: "Bielorrusia",
+      },
+      {
+        id: "3",
+        capital: "Riga",
+        country: "Letonia",
+      },
     ],
     correctAnswerIndex: 0,
+    phoneHelp:
+      "La capital de Ucrania es una ciudad vibrante, conocida por su rica historia, su impresionante arquitectura y sus monumentos culturales. ¡Está situada a lo largo del río Dnipro y su nombre comienza con 'K'!",
   },
   {
     id: "7b",
@@ -462,6 +477,7 @@ const question5Es = [
       },
     ],
     correctAnswerIndex: 1,
+     phoneHelp: 'La bandera de Ucrania consiste en dos franjas horizontales. El azul representa el cielo, mientras que el amarillo simboliza los campos de trigo.'
   },
   {
     id: "7c",
@@ -500,6 +516,7 @@ const question5Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "Estoy muy cerca de dar Nairobi como mi respuesta final.",
   },
   {
     id: "8b",
@@ -529,6 +546,7 @@ const question5Es = [
       },
     ],
     correctAnswerIndex: 3,
+      phoneHelp: 'La bandera de Kenia presenta tres franjas horizontales con bordes blancos. El negro representa al pueblo, el rojo simboliza la lucha por la independencia y el verde representa la tierra.'
   },
   {
     id: "8c",
@@ -567,6 +585,8 @@ const question5Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp:
+      "La capital de Malta es una ciudad histórica, conocida por su impresionante arquitectura y su rica historia. ¡Está ubicada en la isla del mismo nombre y su nombre comienza con 'V'!",
   },
   {
     id: "9b",
@@ -596,6 +616,7 @@ const question5Es = [
       },
     ],
     correctAnswerIndex: 0,
+      phoneHelp: 'La bandera de Malta está compuesta por dos franjas verticales: blanca en el lado izquierdo y roja en el lado derecho. Presenta una representación de la Cruz de Jorge en la esquina superior del asta, simbolizando valentía y honor.'
   },
   {
     id: "9c",
@@ -634,6 +655,8 @@ const question5Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp:
+      "La capital de Serbia es una ciudad animada, conocida por su vibrante vida nocturna y sus monumentos culturales. ¡Se encuentra en la confluencia de dos ríos, el Sava y el Danubio, y su nombre comienza con 'B'!",
   },
   {
     id: "10b",
@@ -663,6 +686,7 @@ const question5Es = [
       },
     ],
     correctAnswerIndex: 2,
+      phoneHelp: 'La bandera de Serbia consta de tres franjas horizontales, con colores similares a la bandera de Rusia, pero al revés. Los colores representan el movimiento panslavo, y el escudo de armas se encuentra en el lado izquierdo.'
   },
   {
     id: "10c",

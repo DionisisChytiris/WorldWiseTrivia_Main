@@ -160,7 +160,7 @@ const EuropeMonEs = [
     },
     {
         id: '21',
-        img: require('../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.webp'),
+        img: require('../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.jpg'),
         name: 'Palacio de Neuschwanstein',
         country: 'Alemania',
         city: '	Hohenschwangau\n  Baviera',
@@ -184,7 +184,7 @@ const EuropeMonEs = [
     },
     {
         id: '24',
-        img: require('../../../assets/WorldMonuments/Europe/palace-of-westminster_main.png'),
+        img: require('../../../assets/WorldMonuments/Europe/palace-of-westminster_main.webp'),
         name: 'Palacio de Westminster',
         country: 'Reino Unido',
         city: 'Londres',
@@ -192,7 +192,7 @@ const EuropeMonEs = [
     },
     {
         id: '25',
-        img: require('../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg'),
+        img: require('../../../assets/WorldMonuments/Europe/Rialto-bridge.webp'),
         name: 'Puente de Rialto',
         country: 'Italia',
         city: 'Venecia',
@@ -240,7 +240,7 @@ const EuropeMonEs = [
     },
     {
         id: '31',
-        img: require('../../../assets/WorldMonuments/Europe/sistineChapel.webp'),
+        img: require('../../../assets/WorldMonuments/Europe/Sistine-Chapel.jpg'),
         name: 'Capilla Sixtina',
         country: 'Ciudad del Vaticano',
         city: '',
@@ -264,7 +264,7 @@ const EuropeMonEs = [
     },
     {
         id: '34',
-        img: require('../../../assets/WorldMonuments/Europe/stMark_square_Venice.webp'),
+        img: require('../../../assets/WorldMonuments/Europe/stMarkVenice.jpg'),
         name: 'Plsza de San Marcos',
         country: 'Italia',
         city: 'Venecia'
@@ -279,7 +279,7 @@ const EuropeMonEs = [
     },
     {
         id: '36',
-        img: require('../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp'),
+        img: require('../../../assets/WorldMonuments/Europe/alhambra.jpg'),
         name: 'Alhambra',
         country: 'España',
         city: 'Granada',

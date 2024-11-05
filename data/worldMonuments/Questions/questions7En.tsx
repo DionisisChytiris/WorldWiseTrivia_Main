@@ -4,7 +4,7 @@ const questions7En = [
     status: "Capitals",
     img: 'L',
     country: "Germany",
-    image: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.webp"),
+    image: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.jpg"),
     options: [
       {
         id: "0",
@@ -53,7 +53,7 @@ const questions7En = [
           {
             id: "3",
             country: "Neuschwanstein Castle\nGermany",
-            img: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.jpg"),
           },
         ],
         correctAnswerIndex: 3,
@@ -63,7 +63,7 @@ const questions7En = [
         status: "Capitals",
         img: 'L',
         country: "UK",
-        image: require("../../../assets/WorldMonuments/Europe/palace-of-westminster_main.png"),
+        image: require("../../../assets/WorldMonuments/Europe/palace-of-westminster_main.webp"),
         options: [
           {
             id: "0",
@@ -101,13 +101,13 @@ const questions7En = [
           },
           {
             id: "1",
-            country: "Rialto Bridge\nUK",
-            img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
+            country: "Rialto Bridge\nItaly",
+            img: require("../../../assets/WorldMonuments/Europe/Rialto-bridge.webp"),
           },
           {
             id: "2",
             country: "Palace of Westminster\nUK",
-            img: require("../../../assets/WorldMonuments/Europe/palace-of-westminster_main.png"),
+            img: require("../../../assets/WorldMonuments/Europe/palace-of-westminster_main.webp"),
           },
           {
             id: "3",
@@ -161,7 +161,7 @@ const questions7En = [
           {
             id: "1",
             country: "Alhambra\nSpain",
-            img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/alhambra.jpg"),
           },
           {
             id: "2",
@@ -181,7 +181,7 @@ const questions7En = [
         status: "Capitals",
         img: 'L',
         country: "Ethiopia",
-        image: require("../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.webp"),
+        image: require("../../../assets/WorldMonuments/Africa/lalibela.webp"),
         options: [
           {
             id: "0",
@@ -225,7 +225,7 @@ const questions7En = [
           {
             id: "2",
             country: "Church of Saint George\nEthiopia",
-            img: require("../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.webp"),
+            img: require("../../../assets/WorldMonuments/Africa/lalibela.webp"),
           },
           {
             id: "3",
@@ -333,7 +333,7 @@ const questions7En = [
           {
             id: "0",
             country: "Tulum\nMexico",
-            img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
+            img: require("../../../assets/WorldMonuments/America/Tulum.jpg"),
           },
           {
             id: "1",
@@ -417,7 +417,7 @@ const questions7En = [
         status: "Capitals",
         img: 'L',
         country: "Italy",
-        image: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
+        image: require("../../../assets/WorldMonuments/Europe/Rialto-bridge.webp"),
         options: [
           {
             id: "0",
@@ -451,12 +451,12 @@ const questions7En = [
           {
             id: "0",
             country: "Rialto Bridge\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
+            img: require("../../../assets/WorldMonuments/Europe/Rialto-bridge.webp"),
           },
           {
             id: "1",
             country: "Dom Luís I Bridge\nPortugal",
-            img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.png"),
+            img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.webp"),
           },
           {
             id: "2",
@@ -476,7 +476,7 @@ const questions7En = [
         status: "Capitals",
         img: 'L',
         country: "Vatican City",
-        image: require("../../../assets/WorldMonuments/Europe/sistineChapel.webp"),
+        image: require("../../../assets/WorldMonuments/Europe/Sistine-Chapel.jpg"),
         options: [
           {
             id: "0",
@@ -520,7 +520,7 @@ const questions7En = [
           {
             id: "2",
             country: "Sistine Chapel\nVatican City",
-            img: require("../../../assets/WorldMonuments/Europe/sistineChapel.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/Sistine-Chapel.jpg"),
           },
           {
             id: "3",

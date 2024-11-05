@@ -27,6 +27,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'All I know is that Vilnius is the capital of Lithuania and Riga is the capital of Latvia.'
   },
   {
     id: "1b",
@@ -56,6 +57,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'This flag has three horizontal stripes with no any emblem on it. Its colors represent the sky, the soil, and the country\'s quest for freedom.'
   },
   {
     id: "1c",
@@ -94,6 +96,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'Well, Odessa is not a capital. I think the first answer is the correct one.'
   },
   {
     id: "2b",
@@ -123,6 +126,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'The Moldovan flag is similar to the Romanian flag. The key difference is in the middle stripe.'
   },
   {
     id: "2c",
@@ -161,6 +165,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between Jakarta and Manila.'
   },
   {
     id: "3b",
@@ -190,6 +195,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'Check out the Philippine flag! It has two horizontal bands: blue and red. On the left side, there’s a white triangle featuring a yellow sun with eight rays and three stars.'
   },
   
    {
@@ -230,6 +236,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'I think Suva is the correct answer.'
   },
   {
     id: "4b",
@@ -259,6 +266,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'Check out the Fijian flag! It features a blue field with a Union Jack in the top left corner. On the right side, there’s a shield, depicting a lion, sugarcane, and a coconut palm.'
   },
    {
     id: "4c",
@@ -298,6 +306,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between Abuja and Yaounde.'
   },
   {
     id: "5b",
@@ -327,6 +336,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'This flag has three vertical stripes. In the middle stripe, there’s a small star, representing unity and the country’s rich natural resources.'
   },
   {
     id: "5c",
@@ -365,6 +375,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'Some countries have capitals with names similar to the country’s name.'
   },
   {
     id: "6b",
@@ -394,6 +405,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'Check out the Algerian flag! It has two vertical sections. In the center, there’s a crescent and a  star, symbolizing Islam and the country’s struggle for independence.'
   },
   {
     id: "6c",
@@ -432,6 +444,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'The capital of Uruguay, is known for its historic architecture, coastal views, and vibrant cultural scene, blending colonial charm with modern life. It starts with the letter \'M\'!'
   },
   {
     id: "7b",
@@ -461,6 +474,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'Take a look at the Uruguayan flag! On the top left corner there’s a golden sun with a face, representing the sun of May and the country\'s independence.'
   },
   {
     id: "7c",
@@ -499,6 +513,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'Jamaica is a Caribbean island nation celebrated for its stunning beaches, reggae music, and vibrant culture. Its capital is the cultural heart, known for its music history and lively atmosphere. It starts with the letter \'K\'!'
   },
   {
     id: "8b",
@@ -528,6 +543,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'Check out the Jamaican flag! It has a diagonal cross that divides the flag into triangles.'
   },
   {
     id: "8c",
@@ -566,6 +582,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between Amman and Muscat.'
   },
   {
     id: "9b",
@@ -595,6 +612,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'Take a look at the Omani flag! It has three horizontal stripes and a vertical stripe featuring the national coat of arms, which includes a Khanjar (dagger) and two crossed swords, symbolizing Oman’s heritage and strength.'
   },
   {
     id: "9c",
@@ -633,6 +651,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between Muscat and Beirut.'
   },
   {
     id: "10b",
@@ -662,6 +681,7 @@ const question9En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'In the center of this flag, there’s a green cedar tree, which symbolizes peace and the country’s resilience.'
   },
   {
     id: "10c",

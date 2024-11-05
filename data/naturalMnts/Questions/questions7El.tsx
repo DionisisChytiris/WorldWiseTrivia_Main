@@ -215,7 +215,7 @@ const questions7El = [
           {
             id: "0",
             country: "Νήσος Σκάι\nΣκωτία",
-            img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+            img: require("../../../assets/NaturalMnt/Europe/isleofSkye.jpg"),
           },
           {
             id: "1",

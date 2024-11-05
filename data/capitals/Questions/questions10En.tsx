@@ -27,6 +27,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between Vilnius and Minsk.'
   },
   {
     id: "1b",
@@ -56,6 +57,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'This flag has similar colors to the Bulgarian flag, but the top stripe is yellow instead of white.'
   },
   {
     id: "1c",
@@ -93,7 +95,8 @@ const question10En = [
         country: 'Costa Rica'
       },
     ],
-    correctAnswerIndex: 1,
+    correctAnswerIndex: 0,
+    phoneHelp: 'I think the correct answer is Nassau.'
   },
   {
     id: "2b",
@@ -123,6 +126,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'Check out the Bahamian flag! It features three horizontal stripes with a triangle on the left side.'
   },
   {
     id: "2c",
@@ -161,6 +165,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'I’m a bit uncertain, but it\'s either Manama or Kuwait for me.'
   },
   {
     id: "3b",
@@ -190,6 +195,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'This flag has a red field on the right side with five white serrated edges that create a zigzag pattern.'
   },
   
    {
@@ -229,6 +235,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'I\'m not positive, but I\'m leaning toward either Harare or Maputo.'
   },
   {
     id: "4b",
@@ -258,6 +265,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'Check out the Mozambican flag! On the left side, there’s a red triangle that contains a book, a rifle, and a hoe, symbolizing education, defense, and agriculture.'
   },
    {
     id: "4c",
@@ -296,6 +304,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between Gaborone and Harare.'
   },
   {
     id: "5b",
@@ -325,6 +334,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'The Zambian flag has an orange eagle in the upper right corner. The eagle symbolizes freedom and the country\'s ability to rise above challenges.'
   },
   {
     id: "5c",
@@ -363,6 +373,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'I\'m unsure of the answer, but I\'m stuck between Harare and Dodoma.'
   },
   {
     id: "6b",
@@ -392,6 +403,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'Check out the Zimbabwean flag! It features seven horizontal stripes with a white triangle on the left side that contains a red five-pointed star and a Zimbabwe Bird.'
   },
   {
     id: "6c",
@@ -430,6 +442,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'I am pretty sure the correct answer is Phnom Penh.'
   },
   {
     id: "7b",
@@ -459,6 +472,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'Take a look at the Cambodian flag! In the center, there’s an image of Angkor Wat, a famous temple, symbolizing the nation’s heritage and pride.'
   },
   {
     id: "7c",
@@ -497,6 +511,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'That\'s easy. The capital of Thailand is Bangkok. Key attractions include the Grand Palace, Wat Arun, and bustling markets like Chatuchak. '
   },
   {
     id: "8b",
@@ -526,6 +541,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'Check out the Thai flag! It features five horizontal stripes. The blue stripe is the widest and represents the monarchy, while the red stands for the people and the white symbolizes peace.'
   },
   {
     id: "8c",
@@ -564,6 +580,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'That\'s tough. It\'s either Tbilisi or Baku.'
   },
   {
     id: "9b",
@@ -593,6 +610,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'The Georgian flag! It features a white background with red crosses. The design symbolizes Christianity and the country\'s rich cultural heritage.'
   },
   {
     id: "9c",
@@ -631,6 +649,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'Sorry, but I have no idea what is the capital of Solomon Islands.'
   },
   {
     id: "10b",
@@ -660,6 +679,7 @@ const question10En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'Check out the Solomon Islands flag! In the top left corner, there are five white stars representing the islands.'
   },
   {
     id: "10c",

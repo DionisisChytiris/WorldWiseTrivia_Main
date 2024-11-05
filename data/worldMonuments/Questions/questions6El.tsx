@@ -43,7 +43,7 @@ const questions6El = [
           {
             id: "1",
             country: "Κάστρο Nόισβανσταϊν\nΓερμανία",
-            img: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/NeuschwansteinCastle.jpg"),
           },
           {
             id: "2",
@@ -215,12 +215,12 @@ const questions6El = [
           {
             id: "0",
             country: "Αλάμπρα\nΙσπανία",
-            img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/alhambra.jpg"),
           },
           {
             id: "1",
             country: "Μπαγκάν\nΜιανμάρ",
-            img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.webp"),
+            img: require("../../../assets/WorldMonuments/Asia/Bagan.jpg"),
           },
           {
             id: "2",
@@ -284,7 +284,7 @@ const questions6El = [
           {
             id: "2",
             country: "Ναός Αγίου Γεωργίου\nΑιθιοπία",
-            img: require("../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.webp"),
+            img: require("../../../assets/WorldMonuments/Africa/lalibela.webp"),
           },
           {
             id: "3",
@@ -520,7 +520,7 @@ const questions6El = [
           {
             id: "2",
             country: "Παλάτι του Γουεσμίνστερ\nΗνωμένο Βασίλειο",
-            img: require("../../../assets/WorldMonuments/Europe/palace-of-westminster_main.png"),
+            img: require("../../../assets/WorldMonuments/Europe/palace-of-westminster_main.webp"),
           },
           {
             id: "3",
@@ -579,12 +579,12 @@ const questions6El = [
           {
             id: "2",
             country: "Ναός Αγίου Γεωργίου\nΑιθιοπία",
-            img: require("../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.webp"),
+            img: require("../../../assets/WorldMonuments/Africa/lalibela.webp"),
           },
           {
             id: "3",
             country: "Τικάλ\nΓουατεμάλα",
-            img: require("../../../assets/WorldMonuments/America/TikalGuatemala.webp"),
+            img: require("../../../assets/WorldMonuments/America/Tikal.jpg"),
           },
         ],
         correctAnswerIndex: 1,

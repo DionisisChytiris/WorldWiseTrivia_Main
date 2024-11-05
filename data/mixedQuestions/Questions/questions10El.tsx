@@ -455,7 +455,7 @@ const qstMixed10El = [
     {
       id: "1",
       country: "Νήσος Σκάι\nΣκωτία",
-      img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+      img: require("../../../assets/NaturalMnt/Europe/isleofSkye.jpg"),
     },
     {
       id: "2",

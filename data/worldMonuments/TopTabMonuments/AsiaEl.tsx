@@ -9,7 +9,7 @@ const AsiaMonEl = [
     },
     {
         id: '2',
-        img: require('../../../assets/WorldMonuments/Asia/AngkorWat.webp'),
+        img: require('../../../assets/WorldMonuments/Asia/AngkorWat.jpg'),
         name: 'Άνγκορ Βατ',
         country: 'Καμπότζη',
         city: 'Σιέμ Ριπ',
@@ -186,7 +186,7 @@ const AsiaMonEl = [
     },
     {
         id: '24',
-        img: require('../../../assets/WorldMonuments/Asia/Sheikh-Zayed-Grand-MosqueUAE.png'),
+        img: require('../../../assets/WorldMonuments/Asia/Sheikh-Zayed-Grand-MosqueUAE.webp'),
         name: 'Μεγάλο Τζαμί Sheikh Zayed',
         country: 'Ηνωμένα \nΑραβικά Εμιράτα',
         city: 'Άμπου \nΝτάμπι',
@@ -226,7 +226,7 @@ const AsiaMonEl = [
     },
     {
         id: '29',
-        img: require('../../../assets/WorldMonuments/Asia/Bangan-Temples.webp'),
+        img: require('../../../assets/WorldMonuments/Asia/Bagan.jpg'),
         name: 'Μπαγκάν',
         country: 'Μιανμάρ',
         city: 'Μάνταλεϊ',
@@ -242,7 +242,7 @@ const AsiaMonEl = [
     },
     {
         id: '31',
-        img: require('../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.png'),
+        img: require('../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.webp'),
         name: 'O Mεγάλος Βούδας',
         country: 'Χονγκ Κονγκ',
         city: 'Νησί Λαντάου',

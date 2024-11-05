@@ -512,7 +512,7 @@ const qstMixed4Es = [
       {
         id: "1",
         country: "Puente de Rialto\nItalia",
-        img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
+        img: require("../../../assets/WorldMonuments/Europe/Rialto-bridge.webp"),
       },
       {
         id: "2",

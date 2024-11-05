@@ -112,7 +112,7 @@ const questions8El = [
         {
           id: "3",
           name: "Τουλούμ\nMεξικό",
-          img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
+          img: require("../../../assets/WorldMonuments/America/Tulum.jpg"),
         },
       ],
       correctAnswerIndex: 1,
@@ -220,7 +220,7 @@ const questions8El = [
         {
           id: "1",
           name: "Άγαλμα της Μικρής Γοργόνας\nΔανία",
-          img: require("../../../assets/WorldMonuments/Europe/Little-mermaid-statue.webp"),
+          img: require("../../../assets/WorldMonuments/Europe/Little-mermaid.jpg"),
         },
         {
           id: "2",
@@ -274,7 +274,7 @@ const questions8El = [
         {
           id: "0",
           name: "Καπέλα Σιστίνα\nΒατικανό",
-          img: require("../../../assets/WorldMonuments/Europe/sistineChapel.webp"),
+          img: require("../../../assets/WorldMonuments/Europe/Sistine-Chapel.jpg"),
         },
         {
           id: "1",
@@ -510,12 +510,12 @@ const questions8El = [
         {
           id: "0",
           name: "Γέφυρα Γκόλντεν Γκέιτ\nΗΠΑ",
-          img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.png"),
+          img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.webp"),
         },
         {
           id: "1",
           name: "Τουλούμ\nMεξικό",
-          img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
+          img: require("../../../assets/WorldMonuments/America/Tulum.jpg"),
         },
         {
           id: "2",

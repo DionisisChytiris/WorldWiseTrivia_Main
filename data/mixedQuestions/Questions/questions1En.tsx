@@ -48,7 +48,7 @@ const qstMixed1En = [
       {
         id: "2",
         country: "Great Sphinx of Giza\nEgypt",
-        img: require("../../../assets/WorldMonuments/Africa/sphinx.png"),
+        img: require("../../../assets/WorldMonuments/Africa/sphinx.jpg"),
       },
       {
         id: "3",
@@ -511,7 +511,7 @@ const qstMixed1En = [
       {
         id: "0",
         country: "Valley of the Kings\nEgypt",
-        img: require("../../../assets/WorldMonuments/Africa/Luxor-Valley-of-the-Kings.png"),
+        img: require("../../../assets/WorldMonuments/Africa/Luxor.jpg"),
       },
       {
         id: "1",

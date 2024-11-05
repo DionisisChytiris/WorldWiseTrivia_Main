@@ -48,7 +48,7 @@ const qstMixed9En = [
       {
         id: "2",
         country: "Entrance of Luxor Temple\nEgypt",
-        img: require("../../../assets/WorldMonuments/Africa/Entrance-of-Luxor-Temple-Egypt.jpg"),
+        img: require("../../../assets/WorldMonuments/Africa/Luxor.jpg"),
       },
       {
         id: "3",
@@ -170,7 +170,7 @@ const qstMixed9En = [
           {
             id: "3",
             country: "Alhambra\nSpain",
-            img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/alhambra.jpg"),
           },
         ],
         correctAnswerIndex: 2,
@@ -240,7 +240,7 @@ const qstMixed9En = [
         status: "Capitals",
         img: 'L',
         country: "Poland",
-        image: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
+        image: require("../../../assets/NaturalMnt/Europe/crookedForest.jpg"),
         options: [
           {
             id: "0",
@@ -274,7 +274,7 @@ const qstMixed9En = [
           {
             id: "0",
             country: "Crooked Forest\nPoland",
-            img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
+            img: require("../../../assets/NaturalMnt/Europe/crookedForest.jpg"),
           },
           {
             id: "1",
@@ -534,7 +534,7 @@ const qstMixed9En = [
         status: "Capitals",
         img: 'L',
         country: "Mexico",
-        image: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
+        image: require("../../../assets/WorldMonuments/America/Tulum.jpg"),
         options: [
           {
             id: "0",
@@ -573,7 +573,7 @@ const qstMixed9En = [
           {
             id: "1",
             country: "Tulum\nMexico",
-            img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
+            img: require("../../../assets/WorldMonuments/America/Tulum.jpg"),
           },
           {
             id: "2",

@@ -27,6 +27,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'The capital of El Salvador is the country\'s largest city, known for its surrounding volcanoes and bustling atmosphere. Its name starts with \'S\'!'
   },
   {
     id: "1b",
@@ -56,6 +57,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'This flag features three horizontal stripes of blue and white, with an emblem in the center. This emblem is not a triangle.'
   },
   {
     id: "1c",
@@ -94,6 +96,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between Jakarta and Kuala Lumpur.'
   },
   {
     id: "2b",
@@ -123,6 +126,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'This flag is similar to the flag of the United States of America, but with a yellow crescent and a star on the top left corner.'
   },
   {
     id: "2c",
@@ -161,6 +165,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'The capital of Sweden is a picturesque city famous for its canals and historic buildings. It’s the largest city in the country and begins with an \'S\'!'
   },
   {
     id: "3b",
@@ -190,6 +195,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'This flag features a Nordic cross that extends to the edges, same colors with the Ukrainian flag,symbolizing the nation\'s Christian heritage and its historical ties to other Scandinavian countries'
   },
   {
     id: "3c",
@@ -228,6 +234,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'Definitely Bangkok is the capital of Thailand and Beijing is the capital of China.'
   },
   {
     id: "4b",
@@ -257,6 +264,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'The Vietnamese flag has a red background with a large star in the center. The red represents the struggle for independence, while the yellow star symbolizes unity'
   },
   {
     id: "4c",
@@ -295,6 +303,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'Think of cities that are located in central Europe.'
   },
   {
     id: "5b",
@@ -324,6 +333,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'The Swiss flag features a red background with a white cross in the center. The design represents Swiss unity and neutrality.'
   },
   {
     id: "5c",
@@ -362,6 +372,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'The capital of Iceland is a colorful city known for its unique architecture and stunning natural surroundings. It\'s the largest city in the country and starts with a \'R\'!'
   },
   {
     id: "6b",
@@ -391,6 +402,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'The Icelandic flag has a blue background with a cross outlined in white. The colors represent the country\'s natural features: blue for the ocean, white for ice and snow, and red for volcanic eruptions.'
   },
   {
     id: "6c",
@@ -429,6 +441,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'The capital of Ukraine is a vibrant city known for its rich history, stunning architecture, and cultural landmarks. It’s located along the Dnieper River and starts with a \'K\'!'
   },
   {
     id: "7b",
@@ -458,6 +471,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'The Ukrainian flag consists of two horizontal stripes. The blue represents the sky, while the yellow symbolizes fields of wheat.'
   },
   {
     id: "7c",
@@ -496,6 +510,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'I\'m very close to giving Nairobi as my final answer.'
   },
   {
     id: "8b",
@@ -525,6 +540,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'The Kenyan flag features three horizontal stripes with white borders. The black represents the people, red symbolizes the struggle for independence, and green stands for the land.'
   },
   {
     id: "8c",
@@ -563,6 +579,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'The capital of Malta is a historic city known for its stunning architecture and rich history. It\'s located on the island of the same name and starts with a \'V\'!'
   },
   {
     id: "9b",
@@ -592,6 +609,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'The Maltese flag is composed of two vertical stripes: white on the left side and red on the other side. It features a representation of the George Cross in the upper hoist corner, symbolizing bravery and honor.'
   },
   {
     id: "9c",
@@ -630,6 +648,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'The capital of Serbia is a lively city known for its vibrant nightlife and cultural landmarks. It lies at the confluence of two rivers, the Sava and the Danube, and starts with a \'B\'!'
   },
   {
     id: "10b",
@@ -659,6 +678,7 @@ const question5En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'The Serbian flag consists of three horizontal stripes, similar colors with the Russian flag but upside down. The colors represent the Pan-Slavic movement, and the coat of arms is located on the left side.'
   },
   {
     id: "10c",

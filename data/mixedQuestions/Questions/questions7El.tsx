@@ -121,7 +121,7 @@ const qstMixed7El = [
     status: "Capitals",
     img: "L",
     country: "Ιταλία",
-    image: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
+    image: require("../../../assets/WorldMonuments/Europe/Rialto-bridge.webp"),
     options: [
       {
         id: "0",
@@ -155,12 +155,12 @@ const qstMixed7El = [
       {
         id: "0",
         country: "Γέφυρα του Ριάλτο\nΙταλία",
-        img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
+        img: require("../../../assets/WorldMonuments/Europe/Rialto-bridge.webp"),
       },
       {
         id: "1",
         country: "Γέφυρα Dom Luís I\nΠορτογαλία",
-        img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.png"),
+        img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.webp"),
       },
       {
         id: "2",
@@ -532,7 +532,7 @@ const qstMixed7El = [
     status: "Capitals",
     img: 'L',
     country: "Βατικανό",
-    image: require("../../../assets/WorldMonuments/Europe/sistineChapel.webp"),
+    image: require("../../../assets/WorldMonuments/Europe/Sistine-Chapel.jpg"),
     options: [
       {
         id: "0",
@@ -576,7 +576,7 @@ const qstMixed7El = [
       {
         id: "2",
         country: "Καπέλα Σιστίνα\nΒατικανό",
-        img: require("../../../assets/WorldMonuments/Europe/sistineChapel.webp"),
+        img: require("../../../assets/WorldMonuments/Europe/Sistine-Chapel.jpg"),
       },
       {
         id: "3",

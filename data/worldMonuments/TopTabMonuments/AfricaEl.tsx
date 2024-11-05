@@ -17,7 +17,7 @@ const AfricaMonEl = [
     },
     {
         id: '3',
-        img: require('../../../assets/WorldMonuments/Africa/ChurchStGeorgeEthiopia.webp'),
+        img: require('../../../assets/WorldMonuments/Africa/lalibela.webp'),
         name: 'Nαός του Αγίου Γεωργίου',
         country: 'Αιθιοπία',
         city: 'Λαλιμπέλα',
@@ -33,7 +33,7 @@ const AfricaMonEl = [
     },
     {
         id: '5',
-        img: require('../../../assets/WorldMonuments/Africa/sphinx.png'),
+        img: require('../../../assets/WorldMonuments/Africa/sphinx.jpg'),
         name: 'Μεγάλη Σφίγγα της Γκίζας',
         country: 'Αίγυπτος',
         city: 'Γκίζα',

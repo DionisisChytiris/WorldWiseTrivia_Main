@@ -4,7 +4,7 @@ const questions6En = [
       status: "Capitals",
       img: 'L',
       country: "Iceland",
-      image: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
+      image: require("../../../assets/NaturalMnt/Europe/dettifoss.jpg"),
       options: [
         {
           id: "0",
@@ -48,7 +48,7 @@ const questions6En = [
             {
               id: "2",
               country: "Dettifoss Waterfall\nIceland",
-              img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
+              img: require("../../../assets/NaturalMnt/Europe/dettifoss.jpg"),
             },
             {
               id: "3",
@@ -510,7 +510,7 @@ const questions6En = [
             {
               id: "0",
               country: "Crooked Forest\nPoland",
-              img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
+              img: require("../../../assets/NaturalMnt/Europe/crookedForest.jpg"),
             },
             {
               id: "1",
@@ -520,7 +520,7 @@ const questions6En = [
             {
               id: "2",
               country: "Isle of Skye\nScotland",
-              img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+              img: require("../../../assets/NaturalMnt/Europe/isleofSkye.jpg"),
             },
             {
               id: "3",

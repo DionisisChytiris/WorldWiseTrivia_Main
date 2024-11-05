@@ -4,7 +4,7 @@ const questions5El = [
     status: "Capitals",
     img: 'L',
     country: "Σκωτία",
-    image: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+    image: require("../../../assets/NaturalMnt/Europe/isleofSkye.jpg"),
     options: [
       {
         id: "0",
@@ -43,12 +43,12 @@ const questions5El = [
           {
             id: "1",
             country: "Νήσος Σκάι\nΣκωτία",
-            img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+            img: require("../../../assets/NaturalMnt/Europe/isleofSkye.jpg"),
           },
           {
             id: "2",
             country: "Υποβρύχιοι καταρράκτες\nΜαυρίκιος",
-            img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
+            img: require("../../../assets/NaturalMnt/Asia/underwaterFalls.jpg"),
           },
           {
             id: "3",
@@ -215,12 +215,12 @@ const questions5El = [
           {
             id: "0",
             country: "Στρεβλό Δάσος\nΠολωνία",
-            img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
+            img: require("../../../assets/NaturalMnt/Europe/crookedForest.jpg"),
           },
           {
             id: "1",
             country: "Καταρράκτης Ντέτιφος\nΙσλανδία",
-            img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
+            img: require("../../../assets/NaturalMnt/Europe/dettifoss.jpg"),
           },
           {
             id: "2",
@@ -348,7 +348,7 @@ const questions5El = [
           {
             id: "3",
             country: "Καππαδοκία\nΤουρκία",
-            img: require("../../../assets/NaturalMnt/Asia/Cappadocia.png"),
+            img: require("../../../assets/NaturalMnt/Asia/Cappadocia-valley.webp"),
           },
         ],
         correctAnswerIndex: 0
@@ -456,7 +456,7 @@ const questions5El = [
           {
             id: "1",
             country: "Υποβρύχιοι καταρράκτες\nΜαυρίκιος",
-            img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
+            img: require("../../../assets/NaturalMnt/Asia/underwaterFalls.jpg"),
           },
           {
             id: "2",

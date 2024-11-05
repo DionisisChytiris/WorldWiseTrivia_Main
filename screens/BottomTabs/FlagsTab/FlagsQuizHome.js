@@ -55,7 +55,7 @@ const FlagsQuizHome = () => {
       translateValue.setValue(initialValue);
       Animated.timing(translateValue, {
         toValue: 1,
-        duration: 20000,
+        duration: 10000,
         easing: Easing.linear,
         useNativeDriver: true,
       }).start(() => translate());
@@ -94,7 +94,7 @@ const FlagsQuizHome = () => {
               ],
             },
           ]}
-          source={require("../../../assets/more/flags.png")}
+          source={require("../../../assets/more/flags.webp")}
         />
        <View style={styles.quizBtnBox}>
           <View style={{width: '50%', gap: 20}}>
@@ -140,8 +140,8 @@ const styles = StyleSheet.create({
   background: {
     position: "absolute",
     width: windowWidth *2,
-    height: windowHeight/10,
-    top: windowHeight/1.5,
+    height: windowHeight> 900 ? windowHeight/1.6 :  windowHeight/4,
+    top: windowHeight> 900 ?windowHeight/1.6 : windowHeight/2,
     opacity: 0.4,
     transform: [
       {

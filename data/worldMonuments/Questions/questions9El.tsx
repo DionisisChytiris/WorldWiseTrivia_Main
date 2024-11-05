@@ -63,7 +63,7 @@ const questions9El = [
         status: "Capitals",
         img: 'L',
         country: "Χονγκ Κονγκ",
-        image: require("../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.png"),
+        image: require("../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.webp"),
         options: [
           {
             id: "0",
@@ -97,22 +97,22 @@ const questions9El = [
           {
             id: "0",
             country: "Είσοδος του ναού Λούξορ\nΑίγυπτος",
-            img: require("../../../assets/WorldMonuments/Africa/Entrance-of-Luxor-Temple-Egypt.jpg"),
+            img: require("../../../assets/WorldMonuments/Africa/Luxor.jpg"),
           },
           {
             id: "1",
             country: "Μεγάλη Σφίγγα της Γκίζας\nΑίγυπτος",
-            img: require("../../../assets/WorldMonuments/Africa/sphinx.png"),
+            img: require("../../../assets/WorldMonuments/Africa/sphinx.jpg"),
           },
           {
             id: "2",
             country: "Ο Μεγάλος Βούδας\nΧονγκ Κονγκ",
-            img: require("../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.png"),
+            img: require("../../../assets/WorldMonuments/Asia/Big-Buddha-Hong-Kong.webp"),
           },
           {
             id: "3",
             country: "Μπαγκάν\nΜιανμάρ",
-            img: require("../../../assets/WorldMonuments/Asia/Bangan-Temples.webp"),
+            img: require("../../../assets/WorldMonuments/Asia/Bagan.jpg"),
           },
         ],
         correctAnswerIndex: 2,
@@ -240,7 +240,7 @@ const questions9El = [
         status: "Capitals",
         img: 'L',
         country: "Γουατεμάλα",
-        image: require("../../../assets/WorldMonuments/America/TikalGuatemala.webp"),
+        image: require("../../../assets/WorldMonuments/America/Tikal.jpg"),
         options: [
           {
             id: "0",
@@ -274,12 +274,12 @@ const questions9El = [
           {
             id: "0",
             country: "Τικάλ\nΓουατεμάλα",
-            img: require("../../../assets/WorldMonuments/America/TikalGuatemala.webp"),
+            img: require("../../../assets/WorldMonuments/America/Tikal.jpg"),
           },
           {
             id: "1",
             country: "Τουλούμ\nMεξικό",
-            img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
+            img: require("../../../assets/WorldMonuments/America/Tulum.jpg"),
           },
           {
             id: "2",
@@ -392,7 +392,7 @@ const questions9El = [
           {
             id: "0",
             country: "Άνγκορ Βατ\nΚαμπότζη",
-            img: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
+            img: require("../../../assets/WorldMonuments/Asia/AngkorWat.jpg"),
           },
           {
             id: "1",
@@ -466,7 +466,7 @@ const questions9El = [
           {
             id: "3",
             country: "Αλάμπρα\nΙσπανία",
-            img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/alhambra.jpg"),
           },
         ],
         correctAnswerIndex: 2,
@@ -476,7 +476,7 @@ const questions9El = [
         status: "Capitals",
         img: 'L',
         country: "Mεξικό",
-        image: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
+        image: require("../../../assets/WorldMonuments/America/Tulum.jpg"),
         options: [
           {
             id: "0",
@@ -515,7 +515,7 @@ const questions9El = [
           {
             id: "1",
             country: "Τουλούμ\nMεξικό",
-            img: require("../../../assets/WorldMonuments/America/TulumMexico.png"),
+            img: require("../../../assets/WorldMonuments/America/Tulum.jpg"),
           },
           {
             id: "2",
@@ -579,7 +579,7 @@ const questions9El = [
           {
             id: "2",
             country: "Είσοδος ναού Λούξορ\nΑίγυπτος",
-            img: require("../../../assets/WorldMonuments/Africa/Entrance-of-Luxor-Temple-Egypt.jpg"),
+            img: require("../../../assets/WorldMonuments/Africa/Luxor.jpg"),
           },
           {
             id: "3",

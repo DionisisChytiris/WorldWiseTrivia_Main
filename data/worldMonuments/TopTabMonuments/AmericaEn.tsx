@@ -139,7 +139,7 @@ const AmericaMonEn = [
     },
     {
         id: '18',
-        img: require('../../../assets/WorldMonuments/America/TikalGuatemala.webp'),
+        img: require('../../../assets/WorldMonuments/America/Tikal.jpg'),
         name: 'Tikal',
         country: 'Guatemala',
         city: 'Flores\nPeten Basin',
@@ -147,7 +147,7 @@ const AmericaMonEn = [
     },
     {
         id: '19',
-        img: require('../../../assets/WorldMonuments/America/TulumMexico.png'),
+        img: require('../../../assets/WorldMonuments/America/Tulum.jpg'),
         name: 'Tulum',
         country: 'Mexico',
         city: 'Quintana Roo',

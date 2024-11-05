@@ -38,7 +38,7 @@ const EurMntEl = [
 
   {
     id: "6",
-    img: require("../../../assets/NaturalMnt/Europe/dettifossWaterfall.webp"),
+    img: require("../../../assets/NaturalMnt/Europe/dettifoss.jpg"),
     name: "Καταρράκτης Ντέτιφος",
     country: "Ισλανδία",
     // city: 'North-east'
@@ -89,7 +89,7 @@ const EurMntEl = [
 
   {
     id: "13",
-    img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+    img: require("../../../assets/NaturalMnt/Europe/isleofSkye.jpg"),
     name: "Νήσος Σκάι",
     country: "Σκωτία",
     // city: 'Julian Alps'
@@ -161,7 +161,7 @@ const EurMntEl = [
   },
   {
     id: "23",
-    img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
+    img: require("../../../assets/NaturalMnt/Europe/crookedForest.jpg"),
     name: "Στρεβλό Δάσος",
     country: "Πολωνία",
     // city: 'County Clare'

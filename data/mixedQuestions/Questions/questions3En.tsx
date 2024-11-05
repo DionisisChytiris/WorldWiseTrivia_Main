@@ -282,7 +282,7 @@ const qstMixed3En = [
           {
             id: "2",
             country: "Isle of Skye\nScotland",
-            img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+            img: require("../../../assets/NaturalMnt/Europe/isleofSkye.jpg"),
           },
           {
             id: "3",
@@ -517,7 +517,7 @@ const qstMixed3En = [
           {
             id: "2",
             country: "Rialto Bridge\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
+            img: require("../../../assets/WorldMonuments/Europe/Rialto-bridge.webp"),
           },
           {
             id: "3",
@@ -532,7 +532,7 @@ const qstMixed3En = [
         status: "Capitals",
         img: 'L',
         country: "Italy",
-        image: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.webp"),
+        image: require("../../../assets/WorldMonuments/Europe/stMarkVenice.jpg"),
         options: [
           {
             id: "0",
@@ -576,7 +576,7 @@ const qstMixed3En = [
           {
             id: "2",
             country: "Piazza San Marco\nItaly",
-            img: require("../../../assets/WorldMonuments/Europe/stMark_square_Venice.webp"),
+            img: require("../../../assets/WorldMonuments/Europe/stMarkVenice.jpg"),
           },
           {
             id: "3",

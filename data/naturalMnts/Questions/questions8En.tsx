@@ -274,7 +274,7 @@ const questions8En = [
           {
             id: "0",
             name: "Crooked Forest\nPoland",
-            img: require("../../../assets/NaturalMnt/Europe/Crooked-Forest-Polonia.webp"),
+            img: require("../../../assets/NaturalMnt/Europe/crookedForest.jpg"),
           },
           {
             id: "1",
@@ -333,7 +333,7 @@ const questions8En = [
           {
             id: "0",
             name: "Underwater Waterfalls\nMauritius",
-            img: require("../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp"),
+            img: require("../../../assets/NaturalMnt/Asia/underwaterFalls.jpg"),
           },
           {
             id: "1",
@@ -397,7 +397,7 @@ const questions8En = [
           {
             id: "1",
             name: "Kakadu National Park\nAustralia",
-            img: require("../../../assets/NaturalMnt/Oceania/Kakadu-National-Park.png"),
+            img: require("../../../assets/NaturalMnt/Oceania/kakadu.webp"),
           },
           {
             id: "2",
@@ -584,7 +584,7 @@ const questions8En = [
           {
             id: "3",
             name: "Isle of Skye\nScotland",
-            img: require("../../../assets/NaturalMnt/Europe/isleofSkye.webp"),
+            img: require("../../../assets/NaturalMnt/Europe/isleofSkye.jpg"),
           },
         ],
         correctAnswerIndex: 0,

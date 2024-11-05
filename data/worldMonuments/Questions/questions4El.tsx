@@ -43,7 +43,7 @@ const questions4El = [
       {
         id: "1",
         country: "Γέφυρα του Ριάλτο\nΙταλία",
-        img: require("../../../assets/WorldMonuments/Europe/Rialto-Bridge.jpg"),
+        img: require("../../../assets/WorldMonuments/Europe/Rialto-bridge.webp"),
       },
       {
         id: "2",
@@ -166,7 +166,7 @@ const questions4El = [
       {
         id: "2",
         country: "Γέφυρα Γκόλντεν Γκέιτ\nΗΠΑ",
-        img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.png"),
+        img: require("../../../assets/WorldMonuments/USA/Golden-Gate-San-Francisco.webp"),
       },
       {
         id: "3",
@@ -220,7 +220,7 @@ const questions4El = [
       {
         id: "1",
         country: "Άνγκορ Βατ\nΚαμπότζη",
-        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.webp"),
+        img: require("../../../assets/WorldMonuments/Asia/AngkorWat.jpg"),
       },
       {
         id: "2",
@@ -348,7 +348,7 @@ const questions4El = [
       {
         id: "3",
         country: "Παλάτι του Γουεσμίνστερ\nΗνωμένο Βασίλειο",
-        img: require("../../../assets/WorldMonuments/Europe/palace-of-westminster_main.png"),
+        img: require("../../../assets/WorldMonuments/Europe/palace-of-westminster_main.webp"),
       },
     ],
     correctAnswerIndex: 2,
@@ -407,7 +407,7 @@ const questions4El = [
       {
         id: "3",
         country: "Αλάμπρα\nΙσπανία",
-        img: require("../../../assets/WorldMonuments/Europe/TheAlambraGranada.webp"),
+        img: require("../../../assets/WorldMonuments/Europe/alhambra.jpg"),
       },
     ],
     correctAnswerIndex: 0,

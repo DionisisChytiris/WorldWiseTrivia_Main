@@ -179,7 +179,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     width: windowWidth * 2,
     height: windowHeight / 4.7,
-    top: windowHeight / 1.7,
+    top: windowHeight> 900 ? windowHeight / 1.8 : windowHeight/ 2.1,
     opacity: 0.4,
     transform: [
       {

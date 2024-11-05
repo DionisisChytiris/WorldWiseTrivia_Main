@@ -27,6 +27,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'The capital of Hungary is a stunning city famous for its thermal baths and beautiful architecture along the Danube River. It starts with a \'B\'!'
   },
   {
     id: "1b",
@@ -56,6 +57,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'Look for the simple design with three horizontal stripes, with no any emblem.'
   },
   {
     id: "1c",
@@ -94,6 +96,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'Think of the cities that are actually capitals. Only two of the options are capitals.'
   },
   {
     id: "2b",
@@ -123,6 +126,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'Look for a dark blue background with four stars outlined in white. This Southern Hemisphere flag also features a familiar symbol in one corner!'
   },
   {
     id: "2c",
@@ -161,6 +165,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'The capital of Pakistan derives its name from the Arabic word "Islam," meaning "peace" or "submission to God," and "abad," which means "city". Thus, "Islamabad" can be translated to mean "City of Islam".'
   },
   {
     id: "3b",
@@ -190,6 +195,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'The Pakistani flag features a green field with a white vertical stripe on the left side. In the center of the green, you\'ll find a white crescent moon and a five-pointed star, symbolizing progress and light.'
   },
   {
     id: "3c",
@@ -228,6 +234,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between Caracas and Bogota.'
   },
   {
     id: "4b",
@@ -257,6 +264,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'This flag consists of three horizontal stripes, similar colors with the Colombian flag. The middle stripe features a semicircle of eight white stars, symbolizing the country\'s provinces.'
   },
   {
     id: "4c",
@@ -295,6 +303,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'I think the correct answer is Ljubljana.'
   },
   {
     id: "5b",
@@ -324,6 +333,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'The Slovenian flag has three horizontal stripes: white on top, blue in the middle, and red on the bottom. In the top left corner, there’s a coat of arms that shows Mount Triglav and three stars.'
   },
   {
     id: "5c",
@@ -363,6 +373,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'The capital of India is a bustling city known for its rich history, diverse culture, and significant landmarks like the India Gate and the President\'s House. Only two of the options are capitals. One of them is the capital of Nepal.'
   },
   {
     id: "6b",
@@ -392,6 +403,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'Well, this flag has similar colors with the Irish flag. In the middle of the white stripe, you’ll see a blue wheel with 24 spokes called the Ashoka Chakra, representing progress and truth.'
   },
   {
     id: "6c",
@@ -430,6 +442,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between San Juan and San Jose.'
   },
   {
     id: "7b",
@@ -459,6 +472,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'This flag features five horizontal stripes. There are two thinner white stripes above and below the red one, symbolizing peace and happiness.'
   },
   {
     id: "7c",
@@ -497,6 +511,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'The capital of Saudi Arabia is a modern city known for its stunning skyline and significant cultural landmarks, including the Kingdom Centre and the Masmak Fortress. It starts with a \'R\'!'
   },
   {
     id: "8b",
@@ -526,6 +541,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: 'Check out the Saudi Arabian flag! It’s all green with a white Arabic inscription and a sword below it. The inscription is the shahada, a declaration of faith, symbolizing strength and unity.'
   },
   {
     id: "8c",
@@ -559,11 +575,12 @@ const question6En = [
       },
       {
         id: "3",
-        capital: "Havan",
+        capital: "Havana",
         country: "Cuba",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: 'Well, I\'m not sure of the answer, but I\'m torn between San Juan and Santo Domingo.'
   },
   {
     id: "9b",
@@ -593,6 +610,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: 'Look at the Puerto Rican flag! It has five horizontal stripes. There’s a blue triangle on the left with a white star inside, representing the island\'s independence and freedom.'
   },
   {
     id: "9c",
@@ -631,6 +649,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'The capital of Paraguay is a bustling city known for its modern architecture and rich history, located along the Paraguay River. It starts with an \'A\'!'
   },
   {
     id: "10b",
@@ -660,6 +679,7 @@ const question6En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: 'Notice the unique emblem on one side and the red, white, and blue stripes. This South American country stands out with its double-sided design!'
   },
   {
     id: "10c",

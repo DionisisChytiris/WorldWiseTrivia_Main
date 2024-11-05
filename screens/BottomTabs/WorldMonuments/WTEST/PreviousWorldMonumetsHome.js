@@ -16,7 +16,7 @@ import {
       <ScrollView horizontal={true}>
         <View style={{ flex: 1, backgroundColor: "gray" }}>
           <ImageBackground
-            source={require('../../../assets/QuizScreen/worldlandmarks.png')}
+            source={require('../../../assets/QuizScreen/worldlandmarks.webp')}
             style={{width: 1050, height: '100%'}}
           >
             <Pressable

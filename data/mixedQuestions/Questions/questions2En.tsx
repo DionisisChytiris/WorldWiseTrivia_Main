@@ -509,7 +509,7 @@ const qstMixed2En = [
           {
             id: "0",
             country: "Entrance of Luxor Temple\nEgypt",
-            img: require("../../../assets/WorldMonuments/Africa/Entrance-of-Luxor-Temple-Egypt.jpg"),
+            img: require("../../../assets/WorldMonuments/Africa/Luxor.jpg"),
           },
           {
             id: "1",
@@ -573,7 +573,7 @@ const qstMixed2En = [
           {
             id: "1",
             country: "Dom Luís I Bridge\nPortugal",
-            img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.png"),
+            img: require("../../../assets/WorldMonuments/Europe/DomLuisBridgePorto.webp"),
           },
           {
             id: "2",

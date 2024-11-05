@@ -137,7 +137,7 @@ const AsiaMntEn = [
    
     {
         id: '16a',
-        img: require('../../../assets/NaturalMnt/Asia/underwaterwaterfalls.webp'),
+        img: require('../../../assets/NaturalMnt/Asia/underwaterFalls.jpg'),
         name: 'Underwater Waterfalls',
         country: 'Mauritius',
         city: ''
