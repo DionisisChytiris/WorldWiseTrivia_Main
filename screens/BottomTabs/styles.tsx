@@ -48,7 +48,7 @@ export const styles = StyleSheet.create({
     right: 30,
   },
   LgTitle: {
-    fontSize: height > 880 ? 50 : 30,
+    fontSize: height > 880 ? height> 1000? 50: 40 : 35,
     fontWeight: "500",
     marginTop: height > 880 ? 150 : 120,
     textAlign: "center",
@@ -75,7 +75,7 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
   },
   flagBox: {
-    width: "48%",
+    width: height> 900? "48%":"42%",
     height: "32%",
     borderRadius: 20,
     opacity: 1,
@@ -87,8 +87,8 @@ export const styles = StyleSheet.create({
     opacity: 1,
   },
   flagBoxMedium: {
-    width: "48%",
-    height: "34%",
+    width: height > 900? height > 1000? "36%":"48%":"40%",
+    height:  height > 900? height > 1000? "38%":"34%": "40%",
     borderRadius: 20,
     opacity: 1,
   },
@@ -173,7 +173,7 @@ export const styles = StyleSheet.create({
   },
   guessDisplay: {
     flexDirection: "row",
-    width: height > 900 ? "78%" : "80%",
+    width: height > 900 ?  height>1000? "60%":"78%" : "80%",
     flexWrap: "wrap",
     justifyContent: "center",
     alignItems: "center",

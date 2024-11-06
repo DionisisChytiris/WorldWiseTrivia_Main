@@ -68,7 +68,7 @@ const TabNavCapitals = ({ navigation }) => {
           backgroundColor: colors.backgroundBottomTab,
           height: Platform.OS == "ios" ? 90 : 70,
           paddingBottom: Platform.OS == "ios" ? 30 : 10
-        },
+        }
       }}
     >
       <Tab.Screen

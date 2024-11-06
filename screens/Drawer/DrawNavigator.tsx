@@ -41,6 +41,7 @@ const DrawNavigator = () => {
                 fontWeight: "bold",
                 color: colors.textDrawer,
               },
+              orientation: "portrait"
             }}
           >
             {/* <Stack.Screen name="Hello" component={Hello} /> */}
