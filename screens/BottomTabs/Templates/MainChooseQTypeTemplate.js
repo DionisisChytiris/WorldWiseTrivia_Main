@@ -141,7 +141,7 @@ const styles = StyleSheet.create({
   button: {
     marginTop: 20,
     width: windowHeight> 900 ? "60%":"80%",
-    height: 140,
+    height: 130,
     backgroundColor: "grey",
     flexDirection: "row",
     justifyContent: "center",
@@ -149,14 +149,14 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   imgView: {
-    width: 130,
+    width: 110,
     backgroundColor: "#e8e8e8",
     alignItems: "center",
     borderRadius: 20,
   },
   img: {
-    width: 90,
-    height: 120,
+    width: 70,
+    height: 100,
     borderRadius: 10,
   },
 });

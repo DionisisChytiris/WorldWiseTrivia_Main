@@ -585,7 +585,7 @@ const QuizMainTemplate = (props) => {
                             item.capital.length > 22
                               ? 16
                               : height > 880
-                              ? 26
+                              ? 22
                               : 18,
                           fontWeight: "500",
                           color: colors.text,
@@ -764,16 +764,16 @@ const stylesMain = StyleSheet.create({
     left: 10,
   },
   imageQuiz1: {
-    width: height > 880 ? 450 : 280,
-    height: height > 880 ? 270 : 190,
-    borderRadius: 20,
-    marginTop: 70,
-  },
-  imageQuiz: {
-    width: height > 880 ? 350 : 200,
-    height: height > 880 ? 220 : 140,
+    width: height > 880 ? 320 : 280,
+    height: height > 880 ? 220 : 190,
     borderRadius: 20,
     marginTop: 90,
+  },
+  imageQuiz: {
+    width: height > 880 ? 280 : 200,
+    height: height > 880 ? 180 : 140,
+    borderRadius: 20,
+    marginTop: 100,
   },
   lottiestyle: {
     position: "absolute",

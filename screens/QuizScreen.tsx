@@ -167,11 +167,11 @@ const styles = StyleSheet.create({
   content: {
     marginTop: 24,
     justifyContent: "center",
-    gap: height>900 ? 15 : 0
+    gap: height>1000 ? 10 : 0
   },
   image: {
-    width: height > 900 ? width * 0.22 : width * 0.32,
-    height: height> 900? height * 0.11 : height * 0.13,
+    width: height > 860 ? width * 0.26  : width * 0.30,
+    height: height> 900? (height > 1000? height*0.15 : height * 0.10): height * 0.11,
     // width: width * 0.38,
     // height: height * 0.14,
     borderRadius: 20,
@@ -182,7 +182,7 @@ const styles = StyleSheet.create({
   },
   text: {
     // fontSize: RFValue(10, 450),
-    fontSize: height > 900 ? 22 : 18,
+    fontSize: height > 900 ? (height> 1000? 26 : 19 ): 18,
     fontWeight: "bold",
     width: width * 0.34,
   },
@@ -208,7 +208,7 @@ const styles = StyleSheet.create({
     right: 0,
   },
   button: {
-    width: height> 900 ? width* 0.60 :width * 0.80,
+    width: height> 900 ? width* 0.70 :width * 0.80,
     marginVertical: 10,
     paddingVertical: 10,
     paddingHorizontal: 10,

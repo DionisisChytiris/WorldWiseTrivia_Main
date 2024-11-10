@@ -61,12 +61,12 @@ const AppNavigator = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={Home} options={{headerShown: false}} />
-        <Stack.Screen name="MultiLanguage" component={MultiLanguage} options={{headerShown: false, gestureEnabled: false}}/>
-        <Stack.Screen name="NameInput" component={NameInput} options={{headerShown: false, gestureEnabled: false}}/>
-        <Stack.Screen name="ChangeTheme" component={ChangeTheme} options={{headerShown: false, gestureEnabled: false}}/>
-        <Stack.Screen name="ToggleBtn" component={ToggleBtn} options={{headerShown: false, gestureEnabled: false}}/>
-        <Stack.Screen name="Draw" component={DrawNavigator} options={{headerShown: false, gestureEnabled: false}}/>
+        <Stack.Screen name="Home" component={Home} options={{headerShown: false, orientation: "portrait"}}/>
+        <Stack.Screen name="MultiLanguage" component={MultiLanguage} options={{headerShown: false, gestureEnabled: false, orientation: "portrait"}}/>
+        <Stack.Screen name="NameInput" component={NameInput} options={{headerShown: false, gestureEnabled: false, orientation: "portrait"}}/>
+        <Stack.Screen name="ChangeTheme" component={ChangeTheme} options={{headerShown: false, gestureEnabled: false, orientation: "portrait"}}/>
+        <Stack.Screen name="ToggleBtn" component={ToggleBtn} options={{headerShown: false, gestureEnabled: false, orientation: "portrait"}}/>
+        <Stack.Screen name="Draw" component={DrawNavigator} options={{headerShown: false, gestureEnabled: false, orientation: "portrait"}}/>
       </Stack.Navigator>
       <StatusBar style='auto'/>
     </NavigationContainer>

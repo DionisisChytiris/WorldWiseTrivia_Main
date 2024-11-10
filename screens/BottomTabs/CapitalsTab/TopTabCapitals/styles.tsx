@@ -17,6 +17,6 @@ export const styles = StyleSheet.create({
   },
   flashListContainer: {
     width: width / 1.07,
-    height: height> 900? height/1.4:height / 1.6,
+    height: height> 900? height/1.3: height / 1.6,
   }
 });
