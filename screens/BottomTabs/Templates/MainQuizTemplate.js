@@ -429,7 +429,8 @@ const QuizMainTemplate = (props) => {
         {currentQuestion.status === status && status === "Flags" && (
           <>
             {/* Testing Material to help user to find correct answer */}
-            <PhoneHelpOption helpText={currentQuestion.phoneHelp} />
+            {currentQuestion.phoneHelp === '' ? null : <PhoneHelpOption helpText={currentQuestion.phoneHelp} />}
+            
             <Pressable onPress={handleFiftyFifty} style={displayNone1}>
               <View>
                 <Text style={{ fontSize: 16 }}>50%</Text>

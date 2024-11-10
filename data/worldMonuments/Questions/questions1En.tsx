@@ -28,6 +28,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: ''
   },
   {
     id: "1b",
@@ -57,6 +58,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: ''
   },
   {
     id: "2a",
@@ -87,6 +89,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: ''
   },
   {
     id: "2b",
@@ -116,6 +119,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: ''
   },
   {
     id: "3a",
@@ -146,6 +150,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: ''
   },
   {
     id: "3b",
@@ -175,6 +180,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: ''
   },
   {
     id: "4a",
@@ -205,6 +211,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: ''
   },
   {
     id: "4b",
@@ -234,6 +241,9 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: ''
+
+
   },
   {
     id: "5a",
@@ -264,6 +274,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: ''
   },
   {
     id: "5b",
@@ -293,6 +304,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: ''
   },
   {
     id: "6a",
@@ -323,6 +335,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: ''
   },
   {
     id: "6b",
@@ -352,6 +365,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: ''
   },
   {
     id: "7a",
@@ -382,6 +396,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: ''
   },
   {
     id: "7b",
@@ -411,6 +426,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: ''
   },
   {
     id: "8a",
@@ -441,6 +457,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: ''
   },
   {
     id: "8b",
@@ -470,6 +487,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: ''
   },
   {
     id: "9a",
@@ -500,6 +518,8 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: ''
+
   },
   {
     id: "9b",
@@ -529,6 +549,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: ''
   },
   {
     id: "10a",
@@ -559,6 +580,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: ''
   },
   {
     id: "10b",
@@ -588,6 +610,7 @@ const questions1En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: ''
   },
   {
     id: "11",
