@@ -11,11 +11,21 @@
     "preview": {
       "distribution": "internal"
     },
+    "staging": {
+      "channel": "staging"
+    },
     "production": {
       "autoIncrement": true,
       "env": {
         "EXPO_PUBLIC_API_KEY": "public",
         "EXPO_PUBLIC_GOOGLE_MAPS_KEY": "public"
+      },
+      "channel": "production",
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "ios": {
+        "simulator": false
       }
     }
   },
