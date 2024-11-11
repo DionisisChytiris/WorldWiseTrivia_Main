@@ -2,32 +2,33 @@ const qstMixed5En = [
   {
     id: "8a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Thailand",
     image: require("../../../assets/WorldMonuments/Asia/the-grand-palace.webp"),
     options: [
       {
         id: "0",
-        capital: 'Taj Mahal',
-        country: 'India'
+        capital: "Taj Mahal",
+        country: "India",
       },
       {
         id: "1",
-        capital: 'Angkor Wat',
-        country: 'Cambodia'
+        capital: "Angkor Wat",
+        country: "Cambodia",
       },
       {
         id: "2",
-        capital: 'Akshardham\nTemple',
-        country: 'India'
+        capital: "Akshardham\nTemple",
+        country: "India",
       },
       {
         id: "3",
-        capital: 'The Grand\nPalace',
-        country: 'Thailand'
+        capital: "The Grand\nPalace",
+        country: "Thailand",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "8b",
@@ -57,6 +58,7 @@ const qstMixed5En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "2a",
@@ -86,6 +88,7 @@ const qstMixed5En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "2b",
@@ -115,6 +118,7 @@ const qstMixed5En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "6a",
@@ -145,6 +149,7 @@ const qstMixed5En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "6b",
@@ -174,6 +179,7 @@ const qstMixed5En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "4a",
@@ -203,6 +209,7 @@ const qstMixed5En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "4b",
@@ -232,6 +239,7 @@ const qstMixed5En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "5a",
@@ -262,6 +270,7 @@ const qstMixed5En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "5b",
@@ -291,8 +300,9 @@ const qstMixed5En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
- 
+
   {
     id: "7a",
     status: "Capitals",
@@ -322,6 +332,7 @@ const qstMixed5En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "7b",
@@ -351,6 +362,7 @@ const qstMixed5En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "1a",
@@ -380,6 +392,7 @@ const qstMixed5En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "1b",
@@ -409,37 +422,39 @@ const qstMixed5En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
- 
+
   {
     id: "9a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Cambodia",
     image: require("../../../assets/WorldMonuments/Asia/AngkorWat.jpg"),
     options: [
       {
         id: "0",
-        capital: 'Kailasa\nTemple',
-        country: 'India'
+        capital: "Kailasa\nTemple",
+        country: "India",
       },
       {
         id: "1",
-        capital: 'Taj Mahal',
-        country: 'India'
+        capital: "Taj Mahal",
+        country: "India",
       },
       {
         id: "2",
-        capital: 'Angkor wat',
-        country: 'Cambodia'
+        capital: "Angkor wat",
+        country: "Cambodia",
       },
       {
         id: "3",
-        capital: 'Sigiriya',
-        country: 'Sri Lanka'
+        capital: "Sigiriya",
+        country: "Sri Lanka",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "9b",
@@ -469,36 +484,38 @@ const qstMixed5En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "10a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Spain",
     image: require("../../../assets/WorldMonuments/Europe/alhambra.jpg"),
     options: [
       {
         id: "0",
-        capital: 'Meteora',
-        country: 'Greece'
+        capital: "Meteora",
+        country: "Greece",
       },
       {
         id: "1",
-        capital: 'Alhambra',
-        country: 'Spain'
+        capital: "Alhambra",
+        country: "Spain",
       },
       {
         id: "2",
-        capital: 'Mont\nSaint Michel',
-        country: 'France'
+        capital: "Mont\nSaint Michel",
+        country: "France",
       },
       {
         id: "3",
-        capital: 'Cité de\nCarcassonne',
-        country: 'France'
+        capital: "Cité de\nCarcassonne",
+        country: "France",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "10b",
@@ -528,6 +545,7 @@ const qstMixed5En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "3a",
@@ -537,26 +555,27 @@ const qstMixed5En = [
     options: [
       {
         id: "0",
-        capital: 'Nicaragua',
-        country: 'Managua'
+        capital: "Nicaragua",
+        country: "Managua",
       },
       {
         id: "1",
-        capital: 'Guatemala',
-        country: 'Guatemala City'
+        capital: "Guatemala",
+        country: "Guatemala City",
       },
       {
         id: "2",
-        capital: 'Honduras',
-        country: 'Tegucigalpa'
+        capital: "Honduras",
+        country: "Tegucigalpa",
       },
       {
         id: "3",
-        capital: 'El Salvador',
-        country: 'San Salvador'
+        capital: "El Salvador",
+        country: "San Salvador",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "3b",
@@ -586,6 +605,7 @@ const qstMixed5En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "11",

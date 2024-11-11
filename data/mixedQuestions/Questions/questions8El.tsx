@@ -28,6 +28,7 @@ const qstMixed8El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "1b",
@@ -57,6 +58,7 @@ const qstMixed8El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "2a",
@@ -86,6 +88,7 @@ const qstMixed8El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "2b",
@@ -115,36 +118,38 @@ const qstMixed8El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "3a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Ισπανία",
     image: require("../../../assets/WorldMonuments/Europe/GuggenheimMuseumBilbao.webp"),
     options: [
       {
         id: "0",
-        capital: 'Μουσείο του Λούβρου',
-        country: 'Γαλλία'
+        capital: "Μουσείο του Λούβρου",
+        country: "Γαλλία",
       },
       {
         id: "1",
-        capital: 'Μουσείο Γκούγκενχάιμ',
-        country: 'Ισπανία'
+        capital: "Μουσείο Γκούγκενχάιμ",
+        country: "Ισπανία",
       },
       {
         id: "2",
-        capital: 'Ρέγκισταν',
-        country: 'ΟΥζμπεκιστάν'
+        capital: "Ρέγκισταν",
+        country: "ΟΥζμπεκιστάν",
       },
       {
         id: "3",
-        capital: 'Space Needle',
-        country: 'ΗΠΑ'
+        capital: "Space Needle",
+        country: "ΗΠΑ",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "3b",
@@ -174,6 +179,7 @@ const qstMixed8El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "4a",
@@ -183,26 +189,27 @@ const qstMixed8El = [
     options: [
       {
         id: "0",
-        capital: 'Ιράκ',
-        country: 'Bαγδάτη'
+        capital: "Ιράκ",
+        country: "Bαγδάτη",
       },
       {
         id: "1",
-        capital: 'Συρία',
-        country: 'Δαμασκός'
+        capital: "Συρία",
+        country: "Δαμασκός",
       },
       {
         id: "2",
-        capital: 'Tουρκία',
-        country: 'Άγκυρα'
+        capital: "Tουρκία",
+        country: "Άγκυρα",
       },
       {
         id: "3",
-        capital: 'Tυνησία',
-        country: 'Tύνιδα'
+        capital: "Tυνησία",
+        country: "Tύνιδα",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
 
   {
@@ -233,36 +240,38 @@ const qstMixed8El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "5a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Γαλλική Πολυνησία",
     image: require("../../../assets/NaturalMnt/Asia/mountOtemanu.png"),
     options: [
       {
         id: "0",
-        capital: 'Στρεβλό Δάσος',
-        country: 'Πολωνία'
+        capital: "Στρεβλό Δάσος",
+        country: "Πολωνία",
       },
       {
         id: "1",
-        capital: 'Νεκρά Θάλασσα',
-        country: 'Ιορδανία/Iσραήλ/Δυτική Όχθη'
+        capital: "Νεκρά Θάλασσα",
+        country: "Ιορδανία/Iσραήλ/Δυτική Όχθη",
       },
       {
         id: "2",
-        capital: 'Όρος Οτεμανού',
-        country: 'Γαλλική Πολυνησία'
+        capital: "Όρος Οτεμανού",
+        country: "Γαλλική Πολυνησία",
       },
       {
         id: "3",
-        capital: 'Έρημος Γκόμπι',
-        country: 'Κίνα/Μογγολία'
+        capital: "Έρημος Γκόμπι",
+        country: "Κίνα/Μογγολία",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "5b",
@@ -292,6 +301,7 @@ const qstMixed8El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "6a",
@@ -301,26 +311,27 @@ const qstMixed8El = [
     options: [
       {
         id: "0",
-        capital: 'Νικαράγουα',
-        country: 'Mανάγουα'
+        capital: "Νικαράγουα",
+        country: "Mανάγουα",
       },
       {
         id: "1",
-        capital: 'Ονδούρα',
-        country: 'Tεγουσιγάλπα'
+        capital: "Ονδούρα",
+        country: "Tεγουσιγάλπα",
       },
       {
         id: "2",
-        capital: 'Eλ Σαλβαδόρ',
-        country: 'Σαν ΣαλβαδόρΣαν'  
+        capital: "Eλ Σαλβαδόρ",
+        country: "Σαν ΣαλβαδόρΣαν",
       },
       {
         id: "3",
-        capital: 'Παναμάς',
-        country: 'Πόλη του Παναμά'
+        capital: "Παναμάς",
+        country: "Πόλη του Παναμά",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
 
   {
@@ -351,36 +362,38 @@ const qstMixed8El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "7a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Τουρκία",
     image: require("../../../assets/NaturalMnt/Asia/Pamukkale.webp"),
     options: [
       {
         id: "0",
-        capital: 'Υποβρύχιοι καταρράκτες',
-        country: 'Μαυρίκιος'
+        capital: "Υποβρύχιοι καταρράκτες",
+        country: "Μαυρίκιος",
       },
       {
         id: "1",
-        capital: 'Παμούκαλε',
-        country: 'Τουρκία'
+        capital: "Παμούκαλε",
+        country: "Τουρκία",
       },
       {
         id: "2",
-        capital: 'Όρος Βεζούβιος',
-        country: 'Ιταλία'
+        capital: "Όρος Βεζούβιος",
+        country: "Ιταλία",
       },
       {
         id: "3",
-        capital: 'Μετέωρα',
-        country: 'Ελλάδα'
+        capital: "Μετέωρα",
+        country: "Ελλάδα",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "7b",
@@ -410,36 +423,38 @@ const qstMixed8El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "8a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Κίνα/Μογγολία",
     image: require("../../../assets/NaturalMnt/Asia/Winter-GobiDesert.webp"),
     options: [
       {
         id: "0",
-        capital: 'Όρος Αίτνα',
-        country: 'Ιταλία'
+        capital: "Όρος Αίτνα",
+        country: "Ιταλία",
       },
       {
         id: "1",
-        capital: 'Εθνικό Πάρκο Κακαντού',
-        country: 'Αυστραλία'
+        capital: "Εθνικό Πάρκο Κακαντού",
+        country: "Αυστραλία",
       },
       {
         id: "2",
-        capital: 'Οι Δώδεκα Απόστολοι',
-        country: 'Αυστραλία'
+        capital: "Οι Δώδεκα Απόστολοι",
+        country: "Αυστραλία",
       },
       {
         id: "3",
-        capital: 'Έρημος Γκόμπι',
-        country: 'Κίνα/Μογγολία'
+        capital: "Έρημος Γκόμπι",
+        country: "Κίνα/Μογγολία",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "8b",
@@ -469,6 +484,7 @@ const qstMixed8El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "9a",
@@ -498,6 +514,7 @@ const qstMixed8El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "9b",
@@ -527,36 +544,38 @@ const qstMixed8El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "10a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Αίγυπτος",
     image: require("../../../assets/WorldMonuments/Africa/mountsinai.webp"),
     options: [
       {
         id: "0",
-        capital: 'Μονή Αγίας Αικατερίνης',
-        country: 'Αίγυπτος'
+        capital: "Μονή Αγίας Αικατερίνης",
+        country: "Αίγυπτος",
       },
       {
         id: "1",
-        capital: 'Αϊτ Μπεντχαντού',
-        country: 'Μαρόκο'
+        capital: "Αϊτ Μπεντχαντού",
+        country: "Μαρόκο",
       },
       {
         id: "2",
-        capital: 'Αλάμπρα',
-        country: 'Ισπανία'
+        capital: "Αλάμπρα",
+        country: "Ισπανία",
       },
       {
         id: "3",
-        capital: 'Καρκασόν',
-        country: 'Γαλλία'
+        capital: "Καρκασόν",
+        country: "Γαλλία",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "10b",
@@ -586,6 +605,7 @@ const qstMixed8El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "11a",

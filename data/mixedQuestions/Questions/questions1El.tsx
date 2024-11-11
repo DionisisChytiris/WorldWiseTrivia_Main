@@ -2,32 +2,33 @@ const qstMixed1El = [
   {
     id: "1a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Αίγυπτος",
     image: require("../../../assets/WorldMonuments/Africa/Pyramids.png"),
     options: [
       {
         id: "0",
-        capital: 'Πύργος της Πίζας',
-        country: 'Ιταλία'
+        capital: "Πύργος της Πίζας",
+        country: "Ιταλία",
       },
       {
         id: "1",
-        capital: 'Κολοσσαίο',
-        country: 'Ιταλία'
+        capital: "Κολοσσαίο",
+        country: "Ιταλία",
       },
       {
         id: "2",
-        capital: 'Μεγάλη Σφίγγα της Γκίζας',
-        country: 'Αίγυπτος'
+        capital: "Μεγάλη Σφίγγα της Γκίζας",
+        country: "Αίγυπτος",
       },
       {
         id: "3",
-        capital: 'Πυραμίδες της Γκίζας',
-        country: 'Αίγυπτος'
+        capital: "Πυραμίδες της Γκίζας",
+        country: "Αίγυπτος",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "1b",
@@ -57,36 +58,38 @@ const qstMixed1El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "2a",
-    img: 'L',
+    img: "L",
     status: "Capitals",
     country: "Γαλλία",
     image: require("../../../assets/WorldMonuments/Europe/eiffelTower.webp"),
     options: [
       {
         id: "0",
-        capital: 'Ακρόπολη',
-        country: 'Ελλάδα'
+        capital: "Ακρόπολη",
+        country: "Ελλάδα",
       },
       {
         id: "1",
-        capital: 'Κεκλιμένος Πύργος\nτης Πίζας',
-        country: 'Ιταλία'
+        capital: "Κεκλιμένος Πύργος\nτης Πίζας",
+        country: "Ιταλία",
       },
       {
         id: "2",
-        capital: 'Πύργος του Άιφελ',
-        country: 'Γαλλία'
+        capital: "Πύργος του Άιφελ",
+        country: "Γαλλία",
       },
       {
         id: "3",
-        capital: 'Αψίδα του Θριάμβου',
-        country: 'Γαλλία'
+        capital: "Αψίδα του Θριάμβου",
+        country: "Γαλλία",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "2b",
@@ -116,6 +119,7 @@ const qstMixed1El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "3a",
@@ -125,26 +129,27 @@ const qstMixed1El = [
     options: [
       {
         id: "0",
-        capital: 'Iταλία',
-        country: 'Ρώμη'
+        capital: "Iταλία",
+        country: "Ρώμη",
       },
       {
         id: "1",
-        capital: 'Μεξικό',
-        country: 'Πόλη του Μεξικού'
+        capital: "Μεξικό",
+        country: "Πόλη του Μεξικού",
       },
       {
         id: "2",
-        capital: 'Iνδία',
-        country: 'Nέο Δελχί'
+        capital: "Iνδία",
+        country: "Nέο Δελχί",
       },
       {
         id: "3",
-        capital: 'Ουγγαρία',
-        country: 'Bουδαπέστη'
+        capital: "Ουγγαρία",
+        country: "Bουδαπέστη",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "3b",
@@ -174,36 +179,38 @@ const qstMixed1El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "4a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Ζιμπάμπουε/Ζάμπια",
     image: require("../../../assets/NaturalMnt/Africa/Victoria-Falls.webp"),
     options: [
       {
         id: "0",
-        capital: 'Σοσουσβλέι',
-        country: 'Ναμίμπια'
+        capital: "Σοσουσβλέι",
+        country: "Ναμίμπια",
       },
       {
         id: "1",
-        capital: 'Καταρράκτες Βικτώρια',
-        country: 'Ζιμπάμπουε/Ζάμπια'
+        capital: "Καταρράκτες Βικτώρια",
+        country: "Ζιμπάμπουε/Ζάμπια",
       },
       {
         id: "2",
-        capital: 'Εθνικό Πάρκο Λευκής Ερήμου',
-        country: 'Αίγυπτος'
+        capital: "Εθνικό Πάρκο Λευκής Ερήμου",
+        country: "Αίγυπτος",
       },
       {
         id: "3",
-        capital: 'Όρος Κιλιμάντζαρο',
-        country: 'Τανζανία'
+        capital: "Όρος Κιλιμάντζαρο",
+        country: "Τανζανία",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "4b",
@@ -233,36 +240,38 @@ const qstMixed1El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "5a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "ΗΠΑ",
     image: require("../../../assets/NaturalMnt/America/Antelope-Canyon.webp"),
     options: [
       {
         id: "0",
-        capital: 'Εθνικό Πάρκο Αψίδων',
-        country: 'ΗΠΑ'
+        capital: "Εθνικό Πάρκο Αψίδων",
+        country: "ΗΠΑ",
       },
       {
         id: "1",
-        capital: 'Καππαδοκία',
-        country: 'Τουρκία'
+        capital: "Καππαδοκία",
+        country: "Τουρκία",
       },
       {
         id: "2",
-        capital: 'Παμούκαλε',
-        country: 'Τουρκία'
+        capital: "Παμούκαλε",
+        country: "Τουρκία",
       },
       {
         id: "3",
-        capital: 'Φαράγγι Αντίλοπα',
-        country: 'ΗΠΑ'
+        capital: "Φαράγγι Αντίλοπα",
+        country: "ΗΠΑ",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "5b",
@@ -292,6 +301,7 @@ const qstMixed1El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "6a",
@@ -301,26 +311,27 @@ const qstMixed1El = [
     options: [
       {
         id: "0",
-        capital: 'Κύπρος',
-        country: 'Λευκωσία'
+        capital: "Κύπρος",
+        country: "Λευκωσία",
       },
       {
         id: "1",
-        capital: 'Ελλάδα',
-        country: 'Aθήνα'
+        capital: "Ελλάδα",
+        country: "Aθήνα",
       },
       {
         id: "2",
-        capital: 'Iταλία',
-        country: 'Ρώμη'
+        capital: "Iταλία",
+        country: "Ρώμη",
       },
       {
         id: "3",
-        capital: 'Bουλγαρία',
-        country: 'Σόφια'
+        capital: "Bουλγαρία",
+        country: "Σόφια",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
 
   {
@@ -351,36 +362,38 @@ const qstMixed1El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "7a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Νεπάλ/Κίνα",
     image: require("../../../assets/NaturalMnt/Asia/Mount-Everest.webp"),
     options: [
       {
         id: "0",
-        capital: 'Όρος Έβερεστ',
-        country: 'Νεπάλ/Κίνα'
+        capital: "Όρος Έβερεστ",
+        country: "Νεπάλ/Κίνα",
       },
       {
         id: "1",
-        capital: 'Όρος Φούτζι',
-        country: 'Ιαπωνία'
+        capital: "Όρος Φούτζι",
+        country: "Ιαπωνία",
       },
       {
         id: "2",
-        capital: 'Όρος Οτεμανού',
-        country: 'Γαλλική Πολυνησία'
+        capital: "Όρος Οτεμανού",
+        country: "Γαλλική Πολυνησία",
       },
       {
         id: "3",
-        capital: 'Απότομες Ακτές του Μόχερ',
-        country: 'Ιρλανδία'
+        capital: "Απότομες Ακτές του Μόχερ",
+        country: "Ιρλανδία",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "7b",
@@ -410,6 +423,7 @@ const qstMixed1El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "8a",
@@ -419,85 +433,88 @@ const qstMixed1El = [
     options: [
       {
         id: "0",
-        capital: 'Παρίσι',
-        country: 'Γαλλία'
+        capital: "Παρίσι",
+        country: "Γαλλία",
       },
       {
         id: "1",
-        capital: 'Γαλλία',
-        country: 'Ηνωμένο Βασίλειο'
+        capital: "Γαλλία",
+        country: "Ηνωμένο Βασίλειο",
       },
       {
         id: "2",
-        capital: 'Μαδρίτη',
-        country: 'Ισπανία'
+        capital: "Μαδρίτη",
+        country: "Ισπανία",
       },
       {
         id: "3",
-        capital: 'Βερολίνο',
-        country: 'Γερμανία'
+        capital: "Βερολίνο",
+        country: "Γερμανία",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "8b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Γαλλία",
     country: "Παρίσι",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/netherlands.png"),
-        country: 'Ολλανδία'
+        country: "Ολλανδία",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/Cuba.png"),
-        country: 'Κούβα'
+        country: "Κούβα",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/france.png"),
-        country: 'Γαλλία'
+        country: "Γαλλία",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/russia.png"),
-        country: 'Ρωσία'
+        country: "Ρωσία",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "9a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "ΗΠΑ",
     image: require("../../../assets/WorldMonuments/USA/statue-of-liberty.webp"),
     options: [
       {
         id: "0",
-        capital: 'Κοιλάδα των Βασιλέων',
-        country: 'Αίγυπτος'
+        capital: "Κοιλάδα των Βασιλέων",
+        country: "Αίγυπτος",
       },
       {
         id: "1",
-        capital: 'Άγαλμα της Ελευθερίας',
-        country: 'ΗΠΑ'
+        capital: "Άγαλμα της Ελευθερίας",
+        country: "ΗΠΑ",
       },
       {
         id: "2",
-        capital: 'Το Άγαλμα του\nΧριστού Λυτρωτή',
-        country: 'Βραζιλία'
+        capital: "Το Άγαλμα του\nΧριστού Λυτρωτή",
+        country: "Βραζιλία",
       },
       {
         id: "3",
-        capital: 'Καπιτώλιο των\nΗνωμένων Πολιτειών',
-        country: 'ΗΠΑ'
+        capital: "Καπιτώλιο των\nΗνωμένων Πολιτειών",
+        country: "ΗΠΑ",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "9b",
@@ -527,6 +544,7 @@ const qstMixed1El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "10a",
@@ -536,55 +554,57 @@ const qstMixed1El = [
     options: [
       {
         id: "0",
-        capital: 'Ταϊπέι',
-        country: 'Ταϊβάν'
+        capital: "Ταϊπέι",
+        country: "Ταϊβάν",
       },
       {
         id: "1",
-        capital: 'Πεκίνο',
-        country: 'Κίνα'
+        capital: "Πεκίνο",
+        country: "Κίνα",
       },
       {
         id: "2",
-        capital: 'Σεούλ',
-        country: 'Νότια Κορέα'
+        capital: "Σεούλ",
+        country: "Νότια Κορέα",
       },
       {
         id: "3",
-        capital: 'Τόκιο',
-        country: 'Ιαπωνία'
+        capital: "Τόκιο",
+        country: "Ιαπωνία",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "10b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Ιαπωνία",
     country: "Τόκιο",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/skorea.png"),
-        country: 'Νότια Κορέα'
+        country: "Νότια Κορέα",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/Palau.png"),
-        country: 'Παλάου'
+        country: "Παλάου",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/Laos.png"),
-        country: 'Λάος'
+        country: "Λάος",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/japan.png"),
-        country: 'Ιαπωνία'
+        country: "Ιαπωνία",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "11",
@@ -652,6 +672,6 @@ const qstMixed1El = [
     capital: "",
     country: "",
   },
-]
+];
 
-export default qstMixed1El
+export default qstMixed1El;

@@ -28,6 +28,7 @@ const questions6En = [
         },
       ],
       correctAnswerIndex: 2,
+    phoneHelp: ''
     },
       {
           id: "1b",
@@ -57,6 +58,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 2,
+    phoneHelp: ''
         },
         {
           id: "2a",
@@ -87,6 +89,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 3,
+    phoneHelp: ''
         },
         {
           id: "2b",
@@ -116,6 +119,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 3,
+    phoneHelp: ''
         },
         {
           id: "3a",
@@ -146,6 +150,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 1,
+    phoneHelp: ''
         },
         {
           id: "3b",
@@ -175,6 +180,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 1,
+    phoneHelp: ''
         },
         {
           id: "4a",
@@ -205,6 +211,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 2,
+    phoneHelp: ''
         },
         {
           id: "4b",
@@ -234,6 +241,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 2,
+    phoneHelp: ''
         },
         {
           id: "5a",
@@ -264,6 +272,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 0,
+    phoneHelp: ''
         },
         {
           id: "5b",
@@ -293,6 +302,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 0,
+    phoneHelp: ''
         },
         {
           id: "6a",
@@ -323,6 +333,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 3,
+    phoneHelp: ''
         },
         {
           id: "6b",
@@ -352,6 +363,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 3,
+    phoneHelp: ''
         },
         {
           id: "7a",
@@ -382,6 +394,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 2,
+    phoneHelp: ''
         },
         {
           id: "7b",
@@ -411,6 +424,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 2,
+    phoneHelp: ''
         },
         {
           id: "8a",
@@ -441,6 +455,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 0,
+    phoneHelp: ''
         },
         {
           id: "8b",
@@ -470,6 +485,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 0,
+    phoneHelp: ''
         },
         {
           id: "9a",
@@ -500,6 +516,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 3,
+    phoneHelp: ''
         },
         {
           id: "9b",
@@ -529,6 +546,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 3,
+    phoneHelp: ''
         },
         {
           id: "10a",
@@ -559,6 +577,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 1,
+    phoneHelp: ''
         },
         {
           id: "10b",
@@ -588,6 +607,7 @@ const questions6En = [
             },
           ],
           correctAnswerIndex: 1,
+    phoneHelp: ''
         },
         {
           id: "11",

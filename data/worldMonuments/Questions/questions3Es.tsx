@@ -2,7 +2,7 @@ const questions3Es = [
   {
     id: "1a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Italia",
     image: require("../../../assets/WorldMonuments/Europe/spanish-steps-rome.webp"),
     options: [
@@ -28,6 +28,7 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "1b",
@@ -57,11 +58,12 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "2a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Italia",
     image: require("../../../assets/WorldMonuments/Europe/stMarkVenice.jpg"),
     options: [
@@ -87,6 +89,7 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "2b",
@@ -116,11 +119,12 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "3a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Egipto",
     image: require("../../../assets/WorldMonuments/Africa/abulShimbel.webp"),
     options: [
@@ -146,6 +150,7 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "3b",
@@ -175,11 +180,12 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "4a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Myanmar",
     image: require("../../../assets/WorldMonuments/Asia/Bagan.jpg"),
     options: [
@@ -205,6 +211,7 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "4b",
@@ -234,11 +241,12 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "5a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "China",
     image: require("../../../assets/WorldMonuments/Asia/terracottArmy.webp"),
     options: [
@@ -264,6 +272,7 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "5b",
@@ -293,11 +302,12 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "6a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Estados Unidos",
     image: require("../../../assets/WorldMonuments/USA/brooklyn-bridge.webp"),
     options: [
@@ -323,6 +333,7 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "6b",
@@ -352,11 +363,12 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "7a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Brasil",
     image: require("../../../assets/WorldMonuments/America/Jesus-Christ-The-Redeemer.png"),
     options: [
@@ -382,6 +394,7 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "7b",
@@ -411,11 +424,12 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "8a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Estados Unidos",
     image: require("../../../assets/WorldMonuments/USA/Golden-Gate-Bridge.webp"),
     options: [
@@ -441,6 +455,7 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "8b",
@@ -470,11 +485,12 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "9a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Reino Unido",
     image: require("../../../assets/WorldMonuments/Europe/stonehenge.webp"),
     options: [
@@ -500,6 +516,7 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "9b",
@@ -529,11 +546,12 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "10a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Ciudad del Vaticano",
     image: require("../../../assets/WorldMonuments/Europe/St.-Peters-Basilica-Vatican.webp"),
     options: [
@@ -559,6 +577,7 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "10b",
@@ -588,6 +607,7 @@ const questions3Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "11a",

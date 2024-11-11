@@ -28,6 +28,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "1b",
@@ -57,6 +58,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "2a",
@@ -86,6 +88,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "2b",
@@ -115,6 +118,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "3a",
@@ -145,6 +149,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "3b",
@@ -174,6 +179,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "4a",
@@ -203,6 +209,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
 
   {
@@ -233,6 +240,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "5a",
@@ -263,6 +271,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "5b",
@@ -292,6 +301,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "6a",
@@ -321,6 +331,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "6b",
@@ -350,6 +361,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "7a",
@@ -380,6 +392,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "7b",
@@ -409,6 +422,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "8a",
@@ -439,6 +453,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "8b",
@@ -468,6 +483,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "9a",
@@ -497,6 +513,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "9b",
@@ -526,36 +543,38 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "10a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Ιταλία",
     image: require("../../../assets/WorldMonuments/Europe/cathedralMilan.png"),
     options: [
       {
         id: "0",
-        capital: 'Ξύλινη εκκλησία Μπόργουντ',
-        country: 'Norway'
+        capital: "Ξύλινη εκκλησία Μπόργουντ",
+        country: "Norway",
       },
       {
         id: "1",
-        capital: 'Καθεδρικός ναός της Φλωρεντίας',
-        country: 'Ιταλία'
+        capital: "Καθεδρικός ναός της Φλωρεντίας",
+        country: "Ιταλία",
       },
       {
         id: "2",
-        capital: 'Σαγράδα Φαμίλια',
-        country: 'Ισπανία'
+        capital: "Σαγράδα Φαμίλια",
+        country: "Ισπανία",
       },
       {
         id: "3",
-        capital: 'Καθεδρικός ναός του Μιλάνου',
-        country: 'Ιταλία'
+        capital: "Καθεδρικός ναός του Μιλάνου",
+        country: "Ιταλία",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "10b",
@@ -585,6 +604,7 @@ const qstMixed6El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "11",

@@ -27,6 +27,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 1,
+    phoneHelp: ''
     },
     {
       id: "1b",
@@ -56,6 +57,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 1,
+    phoneHelp: ''
     },
     {
       id: "1c",
@@ -94,6 +96,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 3,
+    phoneHelp: ''
     },
     {
       id: "2b",
@@ -123,6 +126,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 3,
+    phoneHelp: ''
     },
     {
       id: "2c",
@@ -161,6 +165,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 0,
+    phoneHelp: ''
     },
   
     {
@@ -191,6 +196,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 0,
+    phoneHelp: ''
     },
     {
       id: "3c",
@@ -228,6 +234,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 2,
+    phoneHelp: ''
     },
   
     {
@@ -258,6 +265,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 2,
+    phoneHelp: ''
     },
     {
       id: "4c",
@@ -276,8 +284,8 @@ const question5Es = [
       options: [
         {
           id: "0",
-          capital: '',
-          country: ''
+          capital: 'Polonia',
+          country: 'Varsovia'
         },
         {
           id: "1",
@@ -286,16 +294,17 @@ const question5Es = [
         },
         {
           id: "2",
-          capital: '',
-          country: ''
+          capital: 'Austria',
+          country: 'Viena'
         },
         {
           id: "3",
-          capital: '',
-          country: ''
+          capital: 'Croacia',
+          country: 'Zagreb'
         },
       ],
       correctAnswerIndex: 1,
+    phoneHelp: ''
     },
     {
       id: "5b",
@@ -325,6 +334,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 1,
+    phoneHelp: ''
     },
     {
       id: "5c",
@@ -363,6 +373,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 2,
+    phoneHelp: ''
     },
     {
       id: "6b",
@@ -392,6 +403,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 2,
+    phoneHelp: ''
     },
     {
       id: "6c",
@@ -430,6 +442,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 1,
+    phoneHelp: ''
     },
     {
       id: "7b",
@@ -459,6 +472,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 1,
+    phoneHelp: ''
     },
     {
       id: "7c",
@@ -497,6 +511,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 0,
+    phoneHelp: ''
     },
     {
       id: "8b",
@@ -526,6 +541,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 0,
+    phoneHelp: ''
     },
     {
       id: "8c",
@@ -564,6 +580,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 3,
+    phoneHelp: ''
     },
     {
       id: "9b",
@@ -593,6 +610,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 3,
+    phoneHelp: ''
     },
     {
       id: "9c",
@@ -631,6 +649,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 2,
+    phoneHelp: ''
     },
     {
       id: "10b",
@@ -660,6 +679,7 @@ const question5Es = [
         },
       ],
       correctAnswerIndex: 2,
+    phoneHelp: ''
     },
     {
       id: "10c",

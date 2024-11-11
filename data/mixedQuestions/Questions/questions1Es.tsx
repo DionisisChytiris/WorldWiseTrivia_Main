@@ -2,32 +2,33 @@ const qstMixed1Es = [
   {
     id: "1a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Egipto",
     image: require("../../../assets/WorldMonuments/Africa/Pyramids.png"),
     options: [
       {
         id: "0",
-        capital: 'Torre de Pisa',
-        country: 'Italia'
+        capital: "Torre de Pisa",
+        country: "Italia",
       },
       {
         id: "1",
-        capital: 'Coliseo',
-        country: 'Italia'
+        capital: "Coliseo",
+        country: "Italia",
       },
       {
         id: "2",
-        capital: 'Gran Esfinge de Guiza',
-        country: 'Egipto'
+        capital: "Gran Esfinge de Guiza",
+        country: "Egipto",
       },
       {
         id: "3",
-        capital: 'Pirámides de Giza',
-        country: 'Egipto'
+        capital: "Pirámides de Giza",
+        country: "Egipto",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "1b",
@@ -57,36 +58,38 @@ const qstMixed1Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "2a",
-    img: 'L',
+    img: "L",
     status: "Capitals",
     country: "Francia",
     image: require("../../../assets/WorldMonuments/Europe/eiffelTower.webp"),
     options: [
       {
         id: "0",
-        capital: 'Acrópolis',
-        country: 'Grecia'
+        capital: "Acrópolis",
+        country: "Grecia",
       },
       {
         id: "1",
-        capital: 'Torre de Pisa',
-        country: 'Italia'
+        capital: "Torre de Pisa",
+        country: "Italia",
       },
       {
         id: "2",
-        capital: 'Torre Eiffel ',
-        country: 'Francia'
+        capital: "Torre Eiffel ",
+        country: "Francia",
       },
       {
         id: "3",
-        capital: 'Arco del \nTriunfo',
-        country: 'Francia'
+        capital: "Arco del \nTriunfo",
+        country: "Francia",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "2b",
@@ -116,6 +119,7 @@ const qstMixed1Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "3a",
@@ -125,26 +129,27 @@ const qstMixed1Es = [
     options: [
       {
         id: "0",
-        capital: 'Italia',
-        country: 'Roma'
+        capital: "Italia",
+        country: "Roma",
       },
       {
         id: "1",
-        capital: 'México',
-        country: 'Ciudad de México'
+        capital: "México",
+        country: "Ciudad de México",
       },
       {
         id: "2",
-        capital: 'India',
-        country: 'Nueva Delhi'
+        capital: "India",
+        country: "Nueva Delhi",
       },
       {
         id: "3",
-        capital: 'Hungría',
-        country: 'Budapest'
+        capital: "Hungría",
+        country: "Budapest",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "3b",
@@ -174,36 +179,38 @@ const qstMixed1Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "4a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Zimbabue/Zambia",
     image: require("../../../assets/NaturalMnt/Africa/Victoria-Falls.webp"),
     options: [
       {
         id: "0",
-        capital: 'Sossuvlei',
-        country: 'Namibia'
+        capital: "Sossuvlei",
+        country: "Namibia",
       },
       {
         id: "1",
-        capital: 'Cataratas Victoria',
-        country: 'Zimbabue/Zambia'
+        capital: "Cataratas Victoria",
+        country: "Zimbabue/Zambia",
       },
       {
         id: "2",
-        capital: 'Parque Nacional del Desierto Blanco',
-        country: 'c'
+        capital: "Parque Nacional del Desierto Blanco",
+        country: "c",
       },
       {
         id: "3",
-        capital: 'Monte Kilimanjaro',
-        country: 'Tanzania'
+        capital: "Monte Kilimanjaro",
+        country: "Tanzania",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "4b",
@@ -233,36 +240,38 @@ const qstMixed1Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "5a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "EE.UU.",
     image: require("../../../assets/NaturalMnt/America/Antelope-Canyon.webp"),
     options: [
       {
         id: "0",
-        capital: 'Parque Nacional de los Arcos',
-        country: 'EE.UU.'
+        capital: "Parque Nacional de los Arcos",
+        country: "EE.UU.",
       },
       {
         id: "1",
-        capital: 'Capadocia',
-        country: 'Turquía'
+        capital: "Capadocia",
+        country: "Turquía",
       },
       {
         id: "2",
-        capital: 'Pamukale',
-        country: 'Turquía'
+        capital: "Pamukale",
+        country: "Turquía",
       },
       {
         id: "3",
-        capital: 'Cañón del Antílope',
-        country: 'EE.UU.'
+        capital: "Cañón del Antílope",
+        country: "EE.UU.",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "5b",
@@ -292,6 +301,7 @@ const qstMixed1Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "6a",
@@ -301,26 +311,27 @@ const qstMixed1Es = [
     options: [
       {
         id: "0",
-        capital: 'Chipre',
-        country: 'Nicosia'
+        capital: "Chipre",
+        country: "Nicosia",
       },
       {
         id: "1",
-        capital: 'Grecia',
-        country: 'Atenas'
+        capital: "Grecia",
+        country: "Atenas",
       },
       {
         id: "2",
-        capital: 'Italia',
-        country: 'Roma'
+        capital: "Italia",
+        country: "Roma",
       },
       {
         id: "3",
-        capital: 'Bulgaria',
-        country: 'Sofía'
+        capital: "Bulgaria",
+        country: "Sofía",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
 
   {
@@ -351,36 +362,38 @@ const qstMixed1Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "7a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Nepal/China",
     image: require("../../../assets/NaturalMnt/Asia/Mount-Everest.webp"),
     options: [
       {
         id: "0",
-        capital: 'Monte Everest',
-        country: 'Nepal/China'
+        capital: "Monte Everest",
+        country: "Nepal/China",
       },
       {
         id: "1",
-        capital: 'Monte Fuji',
-        country: 'Japón'
+        capital: "Monte Fuji",
+        country: "Japón",
       },
       {
         id: "2",
-        capital: 'Monte Otemanu',
-        country: 'Polinesia Francesa'
+        capital: "Monte Otemanu",
+        country: "Polinesia Francesa",
       },
       {
         id: "3",
-        capital: 'Acantilados de Moher',
-        country: 'Irlanda'
+        capital: "Acantilados de Moher",
+        country: "Irlanda",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "7b",
@@ -410,6 +423,7 @@ const qstMixed1Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "8a",
@@ -419,85 +433,88 @@ const qstMixed1Es = [
     options: [
       {
         id: "0",
-        capital: 'Londres',
-        country: 'Reino Unido'
+        capital: "Londres",
+        country: "Reino Unido",
       },
       {
         id: "1",
-        capital: 'París',
-        country: 'Francia'
+        capital: "París",
+        country: "Francia",
       },
       {
         id: "2",
-        capital: 'Madrid',
-        country: 'España'
+        capital: "Madrid",
+        country: "España",
       },
       {
         id: "3",
-        capital: 'Berlín',
-        country: 'Alemania'
+        capital: "Berlín",
+        country: "Alemania",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "8b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Francia",
     country: "París",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/netherlands.png"),
-        country: 'Países Bajos'
+        country: "Países Bajos",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/Cuba.png"),
-        country: 'Cuba'
+        country: "Cuba",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/france.png"),
-        country: 'Francia'
+        country: "Francia",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/russia.png"),
-        country: 'Rusia'
+        country: "Rusia",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "9a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Estados Unidos",
     image: require("../../../assets/WorldMonuments/USA/statue-of-liberty.webp"),
     options: [
       {
         id: "0",
-        capital: 'Valle de los Reyes',
-        country: 'Egipto'
+        capital: "Valle de los Reyes",
+        country: "Egipto",
       },
       {
         id: "1",
-        capital: 'Estatua de la Libertad',
-        country: 'Estados Unidos'
+        capital: "Estatua de la Libertad",
+        country: "Estados Unidos",
       },
       {
         id: "2",
-        capital: 'Estatua de Cristo Redentor',
-        country: 'Brasil'
+        capital: "Estatua de Cristo Redentor",
+        country: "Brasil",
       },
       {
         id: "3",
-        capital: 'Capitolio de Estados Unidos',
-        country: 'Estados Unidos'
+        capital: "Capitolio de Estados Unidos",
+        country: "Estados Unidos",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "9b",
@@ -527,6 +544,7 @@ const qstMixed1Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "10a",
@@ -536,55 +554,57 @@ const qstMixed1Es = [
     options: [
       {
         id: "0",
-        capital: 'Taipéi',
-        country: 'Taiwán'
+        capital: "Taipéi",
+        country: "Taiwán",
       },
       {
         id: "1",
-        capital: 'Pekín',
-        country: 'China'
+        capital: "Pekín",
+        country: "China",
       },
       {
         id: "2",
-        capital: 'Seúl',
-        country: 'Corea del Sur'
+        capital: "Seúl",
+        country: "Corea del Sur",
       },
       {
         id: "3",
-        capital: 'Tokio',
-        country: 'Japón'
+        capital: "Tokio",
+        country: "Japón",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "10b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Japón",
     country: "Tokio",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/skorea.png"),
-        country: 'Corea del Sur'
+        country: "Corea del Sur",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/Palau.png"),
-        country: 'Palau'
+        country: "Palau",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/Laos.png"),
-        country: 'Laos'
+        country: "Laos",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/japan.png"),
-        country: 'Japón'
+        country: "Japón",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "11",
@@ -642,6 +662,6 @@ const qstMixed1Es = [
     monument: "",
     country: "",
   },
-] 
+];
 
-export default qstMixed1Es
+export default qstMixed1Es;

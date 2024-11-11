@@ -28,6 +28,7 @@ const qstMixed5El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "1b",
@@ -57,6 +58,7 @@ const qstMixed5El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "2a",
@@ -86,6 +88,7 @@ const qstMixed5El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "2b",
@@ -115,6 +118,7 @@ const qstMixed5El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "3a",
@@ -145,6 +149,7 @@ const qstMixed5El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "3b",
@@ -174,6 +179,7 @@ const qstMixed5El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "4a",
@@ -203,6 +209,7 @@ const qstMixed5El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "4b",
@@ -232,6 +239,7 @@ const qstMixed5El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "5a",
@@ -262,6 +270,7 @@ const qstMixed5El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "5b",
@@ -291,36 +300,38 @@ const qstMixed5El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "6a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Ελλάδα",
     image: require("../../../assets/NaturalMnt/Europe/Santorini-Caldera.jpg"),
     options: [
       {
         id: "0",
-        capital: 'Βύθισμα Ντανακίλ',
-        country: 'Αιθιοπία'
+        capital: "Βύθισμα Ντανακίλ",
+        country: "Αιθιοπία",
       },
       {
         id: "1",
-        capital: 'Ακρωτήριο της Καλής Ελπίδας',
-        country: 'Νότια Αφρική'
+        capital: "Ακρωτήριο της Καλής Ελπίδας",
+        country: "Νότια Αφρική",
       },
       {
         id: "2",
-        capital: 'Καλδέρα Σαντορίνης',
-        country: 'Ελλάδα'
+        capital: "Καλδέρα Σαντορίνης",
+        country: "Ελλάδα",
       },
       {
         id: "3",
-        capital: 'Μαρμάρινες Σπηλιές',
-        country: 'Χιλή'
+        capital: "Μαρμάρινες Σπηλιές",
+        country: "Χιλή",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "6b",
@@ -350,6 +361,7 @@ const qstMixed5El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "7a",
@@ -379,6 +391,7 @@ const qstMixed5El = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "7b",
@@ -408,36 +421,38 @@ const qstMixed5El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "8a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Καμπότζη",
     image: require("../../../assets/WorldMonuments/Asia/AngkorWat.jpg"),
     options: [
       {
         id: "0",
-        capital: 'Ναός Καϊλάσα',
-        country: 'Ινδία'
+        capital: "Ναός Καϊλάσα",
+        country: "Ινδία",
       },
       {
         id: "1",
-        capital: 'Ταζ Μαχάλ',
-        country: 'Ινδία'
+        capital: "Ταζ Μαχάλ",
+        country: "Ινδία",
       },
       {
         id: "2",
-        capital: 'Άνγκορ Βατ',
-        country: 'Καμπότζη'
+        capital: "Άνγκορ Βατ",
+        country: "Καμπότζη",
       },
       {
         id: "3",
-        capital: 'Σιγκιρίγια',
-        country: 'Σρι Λάνκα'
+        capital: "Σιγκιρίγια",
+        country: "Σρι Λάνκα",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "8b",
@@ -467,36 +482,38 @@ const qstMixed5El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "9a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Ισπανία",
     image: require("../../../assets/WorldMonuments/Europe/alhambra.jpg"),
     options: [
       {
         id: "0",
-        capital: 'Μετέωρα',
-        country: 'Ελλάδα'
+        capital: "Μετέωρα",
+        country: "Ελλάδα",
       },
       {
         id: "1",
-        capital: 'Αλάμπρα',
-        country: 'Ισπανία'
+        capital: "Αλάμπρα",
+        country: "Ισπανία",
       },
       {
         id: "2",
-        capital: 'Μον-Σαιν-Μισέλ',
-        country: 'Γαλλία'
+        capital: "Μον-Σαιν-Μισέλ",
+        country: "Γαλλία",
       },
       {
         id: "3",
-        capital: 'Καρκασόν',
-        country: 'Γαλλία'
+        capital: "Καρκασόν",
+        country: "Γαλλία",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "9b",
@@ -526,6 +543,7 @@ const qstMixed5El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "10a",
@@ -535,26 +553,27 @@ const qstMixed5El = [
     options: [
       {
         id: "0",
-        capital: 'Nικαράγουα',
-        country: 'Μανάγουα'
+        capital: "Nικαράγουα",
+        country: "Μανάγουα",
       },
       {
         id: "1",
-        capital: 'Γουατεμάλα',
-        country: 'Πόλη της Γουατεμάλα'
+        capital: "Γουατεμάλα",
+        country: "Πόλη της Γουατεμάλα",
       },
       {
         id: "2",
-        capital: 'Ονδούρα',
-        country: 'Τεγουσιγάλπα'
+        capital: "Ονδούρα",
+        country: "Τεγουσιγάλπα",
       },
       {
         id: "3",
-        capital: 'Ελ Σαλβαδόρ',
-        country: 'Σαν Σαλβαδόρ'
+        capital: "Ελ Σαλβαδόρ",
+        country: "Σαν Σαλβαδόρ",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "10b",
@@ -584,6 +603,7 @@ const qstMixed5El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "11",

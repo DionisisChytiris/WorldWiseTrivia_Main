@@ -27,6 +27,7 @@ const question10Es =  [
           },
         ],
         correctAnswerIndex: 3,
+    phoneHelp: ''
       },
     {
         id: "1b",
@@ -55,7 +56,8 @@ const question10Es =  [
                 country: "Bielorrusia",
             },
         ],
-        correctAnswerIndex: 3
+        correctAnswerIndex: 3,
+    phoneHelp: ''
     }, 
     {
         id: "1c",
@@ -94,6 +96,7 @@ const question10Es =  [
           },
         ],
         correctAnswerIndex: 1,
+    phoneHelp: ''
       },
     {
         id: "2b",
@@ -122,7 +125,8 @@ const question10Es =  [
                 country: "Islandia",
             },
         ],
-        correctAnswerIndex: 1
+        correctAnswerIndex: 1,
+    phoneHelp: ''
     }, 
     {
         id: "2c",
@@ -161,6 +165,7 @@ const question10Es =  [
           },
         ],
         correctAnswerIndex: 2,
+    phoneHelp: ''
       },
     
       {
@@ -191,6 +196,7 @@ const question10Es =  [
           },
         ],
         correctAnswerIndex: 2,
+    phoneHelp: ''
       },
     {
         id: "3c",
@@ -229,6 +235,7 @@ const question10Es =  [
           },
         ],
         correctAnswerIndex: 0,
+    phoneHelp: ''
       },
     
     {
@@ -258,7 +265,8 @@ const question10Es =  [
                 country: "República Sudafricana",
             },
         ],
-        correctAnswerIndex: 0
+        correctAnswerIndex: 0,
+    phoneHelp: ''
     }, 
     {
         id: "4c",
@@ -297,6 +305,7 @@ const question10Es =  [
           },
         ],
         correctAnswerIndex: 1,
+    phoneHelp: ''
       },
     
     {
@@ -326,7 +335,8 @@ const question10Es =  [
                 country: "Uganda",
             },
         ],
-        correctAnswerIndex: 1
+        correctAnswerIndex: 1,
+    phoneHelp: ''
     }, 
     {
         id: "5c",
@@ -365,6 +375,7 @@ const question10Es =  [
           },
         ],
         correctAnswerIndex: 2,
+    phoneHelp: ''
       },
       {
         id: "6b",
@@ -394,6 +405,7 @@ const question10Es =  [
           },
         ],
         correctAnswerIndex: 2,
+    phoneHelp: ''
       },
     {
         id: "6c",
@@ -432,6 +444,7 @@ const question10Es =  [
           },
         ],
         correctAnswerIndex: 0,
+    phoneHelp: ''
       },
     {
         id: "7b",
@@ -460,7 +473,8 @@ const question10Es =  [
                 country: "Indonesia",
             },
         ],
-        correctAnswerIndex: 0
+        correctAnswerIndex: 0,
+    phoneHelp: ''
     }, 
     {
         id: "7c",
@@ -499,6 +513,7 @@ const question10Es =  [
           },
         ],
         correctAnswerIndex: 1,
+    phoneHelp: ''
       },
     {
         id: "8b",
@@ -527,7 +542,8 @@ const question10Es =  [
                 country: "Solomon Islands",
             },
         ],
-        correctAnswerIndex: 1
+        correctAnswerIndex: 1,
+    phoneHelp: ''
     }, 
     {
         id: "8c",
@@ -566,6 +582,7 @@ const question10Es =  [
           },
         ],
         correctAnswerIndex: 3,
+    phoneHelp: ''
       },
     {
         id: "9b",
@@ -594,7 +611,8 @@ const question10Es =  [
                 country: "Georgia",
             },
         ],
-        correctAnswerIndex: 3
+        correctAnswerIndex: 3,
+    phoneHelp: ''
     },
     {
         id: "9c",
@@ -633,6 +651,7 @@ const question10Es =  [
           },
         ],
         correctAnswerIndex: 1,
+    phoneHelp: ''
       },
      {
         id: "10b",
@@ -661,7 +680,8 @@ const question10Es =  [
                 country: "Argentina",
             },
         ],
-        correctAnswerIndex: 1
+        correctAnswerIndex: 1,
+    phoneHelp: ''
     }, 
     {
         id: "10c",

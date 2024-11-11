@@ -2,7 +2,7 @@ const questions4Es = [
   {
     id: "1a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Italia",
     image: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.webp"),
     options: [
@@ -28,6 +28,7 @@ const questions4Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "1b",
@@ -57,11 +58,12 @@ const questions4Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "2a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Reino Unido",
     image: require("../../../assets/WorldMonuments/Europe/bigBen.webp"),
     options: [
@@ -87,6 +89,7 @@ const questions4Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "2b",
@@ -116,36 +119,38 @@ const questions4Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "3a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Australia",
     image: require("../../../assets/WorldMonuments/Oceania/harbour-bridge.webp"),
     options: [
       {
         id: "0",
-        capital: 'Puente de la bahía de Sídney',
-        country: 'Australia'
+        capital: "Puente de la bahía de Sídney",
+        country: "Australia",
       },
       {
         id: "1",
-        capital: 'Puente de Brooklyn',
-        country: 'Estados Unidos'
+        capital: "Puente de Brooklyn",
+        country: "Estados Unidos",
       },
       {
         id: "2",
-        capital: 'Puente de la Torre',
-        country: 'Reino Unido'
+        capital: "Puente de la Torre",
+        country: "Reino Unido",
       },
       {
         id: "3",
-        capital: 'Puente Golden Gate',
-        country: 'Estados Unidos'
+        capital: "Puente Golden Gate",
+        country: "Estados Unidos",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "3b",
@@ -175,36 +180,38 @@ const questions4Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "4a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Tíbet",
     image: require("../../../assets/WorldMonuments/Asia/potalaPalaceTibet.webp"),
     options: [
       {
         id: "0",
-        capital: 'El nido del Tigre',
-        country: 'Bután'
+        capital: "El nido del Tigre",
+        country: "Bután",
       },
       {
         id: "1",
-        capital: 'Angkor Wat',
-        country: 'Camboya'
+        capital: "Angkor Wat",
+        country: "Camboya",
       },
       {
         id: "2",
-        capital: 'Palacio de Potala ',
-        country: 'Tíbet'
+        capital: "Palacio de Potala ",
+        country: "Tíbet",
       },
       {
         id: "3",
-        capital: 'Sigiriya',
-        country: 'Sri Lanka'
+        capital: "Sigiriya",
+        country: "Sri Lanka",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "4b",
@@ -234,36 +241,38 @@ const questions4Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "5a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Francia",
     image: require("../../../assets/WorldMonuments/Europe/notreDame.webp"),
     options: [
       {
         id: "0",
-        capital: 'Acrópolis',
-        country: 'Grecia'
+        capital: "Acrópolis",
+        country: "Grecia",
       },
       {
         id: "1",
-        capital: 'Notre Dame',
-        country: 'Francia'
+        capital: "Notre Dame",
+        country: "Francia",
       },
       {
         id: "2",
-        capital: 'Catedral de Milán',
-        country: 'Italia'
+        capital: "Catedral de Milán",
+        country: "Italia",
       },
       {
         id: "3",
-        capital: 'Capilla Sixtina',
-        country: 'Vaticano'
+        capital: "Capilla Sixtina",
+        country: "Vaticano",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "5b",
@@ -293,36 +302,38 @@ const questions4Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "6a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Reino Unido",
     image: require("../../../assets/WorldMonuments/Europe/buckinghampalace.webp"),
     options: [
       {
         id: "0",
-        capital: 'Palacio Real de Madrid',
-        country: 'España'
+        capital: "Palacio Real de Madrid",
+        country: "España",
       },
       {
         id: "1",
-        capital: 'Gran Palacio',
-        country: 'Tailandia'
+        capital: "Gran Palacio",
+        country: "Tailandia",
       },
       {
         id: "2",
-        capital: 'Palacio de Buckingham',
-        country: 'Reino Unido'
+        capital: "Palacio de Buckingham",
+        country: "Reino Unido",
       },
       {
         id: "3",
-        capital: 'Palacio de\nWestminster',
-        country: 'Reino Unido'
+        capital: "Palacio de\nWestminster",
+        country: "Reino Unido",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "6b",
@@ -352,36 +363,38 @@ const questions4Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "7a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Estados Unidos",
     image: require("../../../assets/WorldMonuments/USA/alcatraz.webp"),
     options: [
       {
         id: "0",
-        capital: 'Isla de Alcatraz',
-        country: 'Estados Unidos'
+        capital: "Isla de Alcatraz",
+        country: "Estados Unidos",
       },
       {
         id: "1",
-        capital: 'Isla Ellis',
-        country: 'Estados Unidos'
+        capital: "Isla Ellis",
+        country: "Estados Unidos",
       },
       {
         id: "2",
-        capital: 'Mont\nSaint Michel',
-        country: 'Francia'
+        capital: "Mont\nSaint Michel",
+        country: "Francia",
       },
       {
         id: "3",
-        capital: 'Alhambra',
-        country: 'España'
+        capital: "Alhambra",
+        country: "España",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "7b",
@@ -411,36 +424,38 @@ const questions4Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "8a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Japón",
     image: require("../../../assets/WorldMonuments/Asia/hiroshima_peace_memorial_park.webp"),
     options: [
       {
         id: "0",
-        capital: 'Palacio Imperial de Tokio',
-        country: 'Japón'
+        capital: "Palacio Imperial de Tokio",
+        country: "Japón",
       },
       {
         id: "1",
-        capital: 'Castillo de Himeji',
-        country: 'Japón'
+        capital: "Castillo de Himeji",
+        country: "Japón",
       },
       {
         id: "2",
-        capital: 'Monumento de la Paz de Hiroshima',
-        country: 'Japón'
+        capital: "Monumento de la Paz de Hiroshima",
+        country: "Japón",
       },
       {
         id: "3",
-        capital: 'Fushimi\nInari Shrine',
-        country: 'Japón'
+        capital: "Fushimi\nInari Shrine",
+        country: "Japón",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "8b",
@@ -470,36 +485,38 @@ const questions4Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "9a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Italia",
     image: require("../../../assets/WorldMonuments/Europe/TowerPisa.webp"),
     options: [
       {
         id: "0",
-        capital: 'Coliseo',
-        country: 'Italia'
+        capital: "Coliseo",
+        country: "Italia",
       },
       {
         id: "1",
-        capital: 'Torre Eiffel ',
-        country: 'Francia'
+        capital: "Torre Eiffel ",
+        country: "Francia",
       },
       {
         id: "2",
-        capital: 'Ciudadela de Carcasona',
-        country: 'Francia'
+        capital: "Ciudadela de Carcasona",
+        country: "Francia",
       },
       {
         id: "3",
-        capital: 'Torre de Pisa',
-        country: 'Italia'
+        capital: "Torre de Pisa",
+        country: "Italia",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "9b",
@@ -529,36 +546,38 @@ const questions4Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "10a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Estados Unidos",
     image: require("../../../assets/WorldMonuments/USA/Empire-State-Building.jpg"),
     options: [
       {
         id: "0",
-        capital: 'The Shard',
-        country: 'Reino Unido'
+        capital: "The Shard",
+        country: "Reino Unido",
       },
       {
         id: "1",
-        capital: 'Empire\nState Building',
-        country: 'Estados Unidos'
+        capital: "Empire\nState Building",
+        country: "Estados Unidos",
       },
       {
         id: "2",
-        capital: 'Torres Petronas',
-        country: 'Malasia'
+        capital: "Torres Petronas",
+        country: "Malasia",
       },
       {
         id: "3",
-        capital: 'Torre de Tokio',
-        country: 'Japón'
+        capital: "Torre de Tokio",
+        country: "Japón",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "10b",
@@ -588,6 +607,7 @@ const questions4Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "11",

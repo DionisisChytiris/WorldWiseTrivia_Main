@@ -27,6 +27,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 3,
+    phoneHelp: ''
     },
     {
       id: "1b",
@@ -56,6 +57,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 3,
+    phoneHelp: ''
     },
     {
       id: "1c",
@@ -94,6 +96,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 1,
+    phoneHelp: ''
     },
     {
       id: "2b",
@@ -122,7 +125,8 @@ const question4El = [
           country: "Tυνησία",
         },
       ],
-      correctAnswerIndex: 1
+      correctAnswerIndex: 1,
+    phoneHelp: ''
     },
     {
       id: "2c",
@@ -161,6 +165,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 0,
+    phoneHelp: ''
     },
   
     {
@@ -191,6 +196,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 0,
+    phoneHelp: ''
     },
     {
       id: "3c",
@@ -229,6 +235,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 1,
+    phoneHelp: ''
     },
   
     {
@@ -259,6 +266,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 1,
+    phoneHelp: ''
     },
     {
       id: "4c",
@@ -297,6 +305,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 2,
+    phoneHelp: ''
     },
   
     {
@@ -327,6 +336,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 2,
+    phoneHelp: ''
     },
     {
       id: "5c",
@@ -364,7 +374,8 @@ const question4El = [
           country: 'Μπραζίλια'
         },
       ],
-      correctAnswerIndex: 3
+      correctAnswerIndex: 3,
+    phoneHelp: ''
     },
     {
       id: "6b",
@@ -394,6 +405,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 3,
+    phoneHelp: ''
     },
     {
       id: "6c",
@@ -432,6 +444,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 1,
+    phoneHelp: ''
     },
     {
       id: "7b",
@@ -461,6 +474,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 1,
+    phoneHelp: ''
     },
     {
       id: "7c",
@@ -499,6 +513,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 0,
+    phoneHelp: ''
     },
     {
       id: "8b",
@@ -528,6 +543,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 0,
+    phoneHelp: ''
     },
     {
       id: "8c",
@@ -566,6 +582,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 3,
+    phoneHelp: ''
     },
     {
       id: "9b",
@@ -595,6 +612,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 3,
+    phoneHelp: ''
     },
     {
       id: "9c",
@@ -633,6 +651,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 0,
+    phoneHelp: ''
     },
     {
       id: "10b",
@@ -662,6 +681,7 @@ const question4El = [
         },
       ],
       correctAnswerIndex: 0,
+    phoneHelp: ''
     },
     {
       id: "10c",

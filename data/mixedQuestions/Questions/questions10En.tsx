@@ -28,6 +28,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "10b",
@@ -57,6 +58,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "1a",
@@ -86,6 +88,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "1b",
@@ -115,6 +118,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "8a",
@@ -145,6 +149,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "8b",
@@ -174,6 +179,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "3a",
@@ -203,6 +209,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
 
   {
@@ -233,6 +240,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
 
   {
@@ -264,6 +272,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "5b",
@@ -293,6 +302,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "4a",
@@ -322,6 +332,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
 
   {
@@ -352,6 +363,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "6a",
@@ -382,6 +394,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "6b",
@@ -411,6 +424,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "7a",
@@ -441,6 +455,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "7b",
@@ -470,8 +485,9 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
- 
+
   {
     id: "2a",
     status: "Capitals",
@@ -500,6 +516,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "2b",
@@ -529,6 +546,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "9a",
@@ -559,6 +577,7 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "9b",
@@ -588,8 +607,9 @@ const qstMixed10En = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
- 
+
   {
     id: "11",
     status: "Flags",

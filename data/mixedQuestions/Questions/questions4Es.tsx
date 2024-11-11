@@ -28,6 +28,7 @@ const qstMixed4Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "1b",
@@ -57,6 +58,7 @@ const qstMixed4Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "2a",
@@ -66,143 +68,148 @@ const qstMixed4Es = [
     options: [
       {
         id: "0",
-        capital: 'Quito',
-        country: 'Ecuador'
+        capital: "Quito",
+        country: "Ecuador",
       },
       {
         id: "1",
-        capital: 'Lima',
-        country: 'Perú'
+        capital: "Lima",
+        country: "Perú",
       },
       {
         id: "2",
-        capital: 'Asunción',
-        country: 'Paraguay'
+        capital: "Asunción",
+        country: "Paraguay",
       },
       {
         id: "3",
-        capital: 'Santiago de Chile',
-        country: 'Chile'
+        capital: "Santiago de Chile",
+        country: "Chile",
       },
     ],
     correctAnswerIndex: 3,
-  },  {
+    phoneHelp: "",
+  },
+  {
     id: "2b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Chile",
     country: "Santiago \nde Chile",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/chile.png"),
-        country: 'Chile'
+        country: "Chile",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/czechia.png"),
-        country: 'Republica Checa'
+        country: "Republica Checa",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/philipines.png"),
-        country: 'Filipinas'
+        country: "Filipinas",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/Cuba.png"),
-        country: 'Cuba'
+        country: "Cuba",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "3a",
     status: "Capitals",
     country: "Brasil",
-      image: require("../../../assets/Flags/brazil.png"),
-      options: [
-        {
-          id: "0",
-          capital: 'Brasília',
-          country: 'Brasil'
-        },
-        {
-          id: "1",
-          capital: 'São Paulo',
-          country: 'Ciudad brasileña'
-        },
-        {
-          id: "2",
-          capital: 'Río de\nJaneiro',
-          country: 'Ciudad brasileña'
-        },
-        {
-          id: "3",
-          capital: 'Montevideo',
-          country: 'Uruguay'
-        },
-
+    image: require("../../../assets/Flags/brazil.png"),
+    options: [
+      {
+        id: "0",
+        capital: "Brasília",
+        country: "Brasil",
+      },
+      {
+        id: "1",
+        capital: "São Paulo",
+        country: "Ciudad brasileña",
+      },
+      {
+        id: "2",
+        capital: "Río de\nJaneiro",
+        country: "Ciudad brasileña",
+      },
+      {
+        id: "3",
+        capital: "Montevideo",
+        country: "Uruguay",
+      },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "3b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Brasil",
     country: "Brasília",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/argentina.png"),
-        country: 'Argentina'
+        country: "Argentina",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/brazil.png"),
-        country: 'Brasil'
+        country: "Brasil",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/mexico.png"),
-        country: 'México'
+        country: "México",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/peru.png"),
-        country: 'Perú'
+        country: "Perú",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "4a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Irlanda",
     image: require("../../../assets/NaturalMnt/Europe/GiantsCauseway.webp"),
     options: [
       {
         id: "0",
-        capital: 'Laguna Azul',
-        country: 'Islandia'
+        capital: "Laguna Azul",
+        country: "Islandia",
       },
       {
         id: "1",
-        capital: 'Calzada del Gigante',
-        country: 'Irlanda'
+        capital: "Calzada del Gigante",
+        country: "Irlanda",
       },
       {
         id: "2",
-        capital: 'Avenidas de Baobabs',
-        country: 'Madagascar'
+        capital: "Avenidas de Baobabs",
+        country: "Madagascar",
       },
       {
         id: "3",
-        capital: 'Cataratas de Kalandula',
-        country: 'Angola'
+        capital: "Cataratas de Kalandula",
+        country: "Angola",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "4b",
@@ -232,6 +239,7 @@ const qstMixed4Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "5a",
@@ -241,26 +249,27 @@ const qstMixed4Es = [
     options: [
       {
         id: "0",
-        capital: 'Irak',
-        country: 'Bagdad'
+        capital: "Irak",
+        country: "Bagdad",
       },
       {
         id: "1",
-        capital: 'Irán',
-        country: 'Teherán'
+        capital: "Irán",
+        country: "Teherán",
       },
       {
         id: "2",
-        capital: 'Jordania',
-        country: 'Amán'
+        capital: "Jordania",
+        country: "Amán",
       },
       {
         id: "3",
-        capital: 'Siria',
-        country: 'Damascus'
+        capital: "Siria",
+        country: "Damascus",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
 
   {
@@ -291,36 +300,38 @@ const qstMixed4Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "6a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Kenia",
     image: require("../../../assets/NaturalMnt/Africa/mountKenya.webp"),
     options: [
       {
         id: "0",
-        capital: 'Monte Vesubio',
-        country: 'Italia'
+        capital: "Monte Vesubio",
+        country: "Italia",
       },
       {
         id: "1",
-        capital: 'Montañas Azules',
-        country: 'Australia'
+        capital: "Montañas Azules",
+        country: "Australia",
       },
       {
         id: "2",
-        capital: 'Monte Kenia',
-        country: 'Kenia'
+        capital: "Monte Kenia",
+        country: "Kenia",
       },
       {
         id: "3",
-        capital: 'Monte Ararat',
-        country: 'Turquía'
+        capital: "Monte Ararat",
+        country: "Turquía",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "6b",
@@ -350,36 +361,38 @@ const qstMixed4Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "7a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Canadá/EE.UU.",
     image: require("../../../assets/NaturalMnt/America/NiagaraFalls.webp"),
     options: [
       {
         id: "0",
-        capital: 'Cataratas del Niágara',
-        country: 'Canadá/EE.UU.'
+        capital: "Cataratas del Niágara",
+        country: "Canadá/EE.UU.",
       },
       {
         id: "1",
-        capital: 'Parque Nacional de las Dunas de Yeso',
-        country: 'EE.UU.'
+        capital: "Parque Nacional de las Dunas de Yeso",
+        country: "EE.UU.",
       },
       {
         id: "2",
-        capital: 'Monte Cook',
-        country: 'Nueva Zelanda'
+        capital: "Monte Cook",
+        country: "Nueva Zelanda",
       },
       {
         id: "3",
-        capital: 'Monte Yasur',
-        country: 'Vanuatu'
+        capital: "Monte Yasur",
+        country: "Vanuatu",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "7b",
@@ -409,6 +422,7 @@ const qstMixed4Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "8a",
@@ -418,26 +432,27 @@ const qstMixed4Es = [
     options: [
       {
         id: "0",
-        capital: 'Libia',
-        country: 'Trípoli'
+        capital: "Libia",
+        country: "Trípoli",
       },
       {
         id: "1",
-        capital: 'Argelia',
-        country: 'Argel'
+        capital: "Argelia",
+        country: "Argel",
       },
       {
         id: "2",
-        capital: 'Egipto',
-        country: 'El Cairo'
+        capital: "Egipto",
+        country: "El Cairo",
       },
       {
         id: "3",
-        capital: 'Líbano',
-        country: 'Beirut'
+        capital: "Líbano",
+        country: "Beirut",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "8b",
@@ -467,11 +482,12 @@ const qstMixed4Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "9a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Italia",
     image: require("../../../assets/WorldMonuments/Europe/trevi-fontein-rome.webp"),
     options: [
@@ -497,6 +513,7 @@ const qstMixed4Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "9b",
@@ -526,11 +543,12 @@ const qstMixed4Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "10a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Reino Unido",
     image: require("../../../assets/WorldMonuments/Europe/bigBen.webp"),
     options: [
@@ -556,6 +574,7 @@ const qstMixed4Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "10b",
@@ -585,6 +604,7 @@ const qstMixed4Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "11",

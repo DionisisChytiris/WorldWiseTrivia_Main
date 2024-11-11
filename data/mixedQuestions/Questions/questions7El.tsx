@@ -28,6 +28,7 @@ const qstMixed7El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "1b",
@@ -57,6 +58,7 @@ const qstMixed7El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "2a",
@@ -86,6 +88,7 @@ const qstMixed7El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "2b",
@@ -115,6 +118,7 @@ const qstMixed7El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "3a",
@@ -145,6 +149,7 @@ const qstMixed7El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "3b",
@@ -174,6 +179,7 @@ const qstMixed7El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "4a",
@@ -203,6 +209,7 @@ const qstMixed7El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "4b",
@@ -232,6 +239,7 @@ const qstMixed7El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "5a",
@@ -262,6 +270,7 @@ const qstMixed7El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "5b",
@@ -291,6 +300,7 @@ const qstMixed7El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "6a",
@@ -321,6 +331,7 @@ const qstMixed7El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "6b",
@@ -350,6 +361,7 @@ const qstMixed7El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "7a",
@@ -379,6 +391,7 @@ const qstMixed7El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "7b",
@@ -408,36 +421,38 @@ const qstMixed7El = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "8a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Ναμίμπια",
     image: require("../../../assets/NaturalMnt/Africa/Sossusvlei-Dunes.webp"),
     options: [
       {
         id: "0",
-        capital: 'Σοσουσβλέι',
-        country: 'Ναμίμπια'
+        capital: "Σοσουσβλέι",
+        country: "Ναμίμπια",
       },
       {
         id: "1",
-        capital: 'Βύθισμα Ντανακίλ',
-        country: 'Αιθιοπία'
+        capital: "Βύθισμα Ντανακίλ",
+        country: "Αιθιοπία",
       },
       {
         id: "2",
-        capital: 'Έρημος Γκόμπι',
-        country: 'Κίνα/Μογγολία'
+        capital: "Έρημος Γκόμπι",
+        country: "Κίνα/Μογγολία",
       },
       {
         id: "3",
-        capital: 'Ακτή του Γίγαντα',
-        country: 'Ιρλανδία'
+        capital: "Ακτή του Γίγαντα",
+        country: "Ιρλανδία",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "8b",
@@ -467,6 +482,7 @@ const qstMixed7El = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "9a",
@@ -476,86 +492,88 @@ const qstMixed7El = [
     options: [
       {
         id: "0",
-        capital: 'Μανίλα',
-        country: 'Φιλιππίνες'
+        capital: "Μανίλα",
+        country: "Φιλιππίνες",
       },
       {
         id: "1",
-        capital: 'Τζακάρτα',
-        country: 'Ιορδανία'
+        capital: "Τζακάρτα",
+        country: "Ιορδανία",
       },
       {
         id: "2",
-        capital: 'Σιγκαπούρη',
-        country: 'Σιγκαπούρη'
+        capital: "Σιγκαπούρη",
+        country: "Σιγκαπούρη",
       },
       {
         id: "3",
-        capital: 'Κουάλα \nΛουμπούρ',
-        country: 'Μαλαισία'
+        capital: "Κουάλα \nΛουμπούρ",
+        country: "Μαλαισία",
       },
-
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "9b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Σιγκαπούρη",
     country: "Σιγκαπούρη",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/poland.png"),
-        country: 'Πολωνία'
+        country: "Πολωνία",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/malta.png"),
-        country: 'Mάλτα'
+        country: "Mάλτα",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/singapore.png"),
-        country: 'Σιγκαπούρη'
+        country: "Σιγκαπούρη",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/austria.png"),
-        country: 'Aυστρία'
+        country: "Aυστρία",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "10a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Βατικανό",
     image: require("../../../assets/WorldMonuments/Europe/Sistine-Chapel.jpg"),
     options: [
       {
         id: "0",
-        capital: 'Παναγία των Παρισίων',
-        country: 'Γαλλία'
+        capital: "Παναγία των Παρισίων",
+        country: "Γαλλία",
       },
       {
         id: "1",
-        capital: 'Bασιλική του Αγίου Πέτρου',
-        country: 'Βατικανό'
+        capital: "Bασιλική του Αγίου Πέτρου",
+        country: "Βατικανό",
       },
       {
         id: "2",
-        capital: 'Καπέλα Σιστίνα',
-        country: 'Βατικανό'
+        capital: "Καπέλα Σιστίνα",
+        country: "Βατικανό",
       },
       {
         id: "3",
-        capital: 'Σαιντ-Σαπέλ',
-        country: 'Γαλλία'
+        capital: "Σαιντ-Σαπέλ",
+        country: "Γαλλία",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "10b",
@@ -585,6 +603,7 @@ const qstMixed7El = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "11",

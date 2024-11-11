@@ -28,6 +28,7 @@ const qstMixed7Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "1b",
@@ -57,6 +58,7 @@ const qstMixed7Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "2a",
@@ -86,6 +88,7 @@ const qstMixed7Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "2b",
@@ -115,6 +118,7 @@ const qstMixed7Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "3a",
@@ -145,6 +149,7 @@ const qstMixed7Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "3b",
@@ -174,6 +179,7 @@ const qstMixed7Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "4a",
@@ -203,6 +209,7 @@ const qstMixed7Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "4b",
@@ -232,6 +239,7 @@ const qstMixed7Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "5a",
@@ -262,6 +270,7 @@ const qstMixed7Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "5b",
@@ -291,36 +300,38 @@ const qstMixed7Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "6a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Noruega",
     image: require("../../../assets/NaturalMnt/Europe/Trolltunga.webp"),
     options: [
       {
         id: "0",
-        capital: 'Roca del Púlpito',
-        country: 'Noruega'
+        capital: "Roca del Púlpito",
+        country: "Noruega",
       },
       {
         id: "1",
-        capital: 'Bahía de Halong',
-        country: 'Vietnam'
+        capital: "Bahía de Halong",
+        country: "Vietnam",
       },
       {
         id: "2",
-        capital: 'Trolltunga',
-        country: 'Noruega'
+        capital: "Trolltunga",
+        country: "Noruega",
       },
       {
         id: "3",
-        capital: 'Pamukale',
-        country: 'Turquía'
+        capital: "Pamukale",
+        country: "Turquía",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "6b",
@@ -350,6 +361,7 @@ const qstMixed7Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "7a",
@@ -359,26 +371,27 @@ const qstMixed7Es = [
     options: [
       {
         id: "0",
-        capital: 'Sudan',
-        country: 'Khartoum'
+        capital: "Sudan",
+        country: "Khartoum",
       },
       {
         id: "1",
-        capital: 'Kenya',
-        country: 'Nairobi'
+        capital: "Kenya",
+        country: "Nairobi",
       },
       {
         id: "2",
-        capital: 'Uganda',
-        country: 'Kampala'
+        capital: "Uganda",
+        country: "Kampala",
       },
       {
         id: "3",
-        capital: 'Etiopía',
-        country: 'Adís Abeba'
+        capital: "Etiopía",
+        country: "Adís Abeba",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "7b",
@@ -408,36 +421,38 @@ const qstMixed7Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "8a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Namibia",
     image: require("../../../assets/NaturalMnt/Africa/Sossusvlei-Dunes.webp"),
     options: [
       {
         id: "0",
-        capital: 'Sossusvlei',
-        country: 'Namibia'
+        capital: "Sossusvlei",
+        country: "Namibia",
       },
       {
         id: "1",
-        capital: 'Depresión de Danakil',
-        country: 'Etiopía'
+        capital: "Depresión de Danakil",
+        country: "Etiopía",
       },
       {
         id: "2",
-        capital: 'Desierto de gobi',
-        country: 'China/Mongolia'
+        capital: "Desierto de gobi",
+        country: "China/Mongolia",
       },
       {
         id: "3",
-        capital: 'Calzada del Gigante',
-        country: 'Irlanda'
+        capital: "Calzada del Gigante",
+        country: "Irlanda",
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "8b",
@@ -467,6 +482,7 @@ const qstMixed7Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "9a",
@@ -476,85 +492,88 @@ const qstMixed7Es = [
     options: [
       {
         id: "0",
-        capital: 'Manila',
-        country: 'Filipinas'
+        capital: "Manila",
+        country: "Filipinas",
       },
       {
         id: "1",
-        capital: 'Yakarta',
-        country: 'Indonesia'
+        capital: "Yakarta",
+        country: "Indonesia",
       },
       {
         id: "2",
-        capital: 'Singapur',
-        country: 'Singapur'
+        capital: "Singapur",
+        country: "Singapur",
       },
       {
         id: "3",
-        capital: 'Kuala \nLumpur',
-        country: 'Malasia'
+        capital: "Kuala \nLumpur",
+        country: "Malasia",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "9b",
-    status: "Flags" ,
+    status: "Flags",
     capital: "Singapur",
     country: "Singapur",
     options: [
       {
         id: "0",
         img: require("../../../assets/Flags/poland.png"),
-        country: 'Polonia'
+        country: "Polonia",
       },
       {
         id: "1",
         img: require("../../../assets/Flags/malta.png"),
-        country: 'Malta'
+        country: "Malta",
       },
       {
         id: "2",
         img: require("../../../assets/Flags/singapore.png"),
-        country: 'Singapur'
+        country: "Singapur",
       },
       {
         id: "3",
         img: require("../../../assets/Flags/austria.png"),
-        country: 'Austria'
+        country: "Austria",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "10a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Vaticano",
     image: require("../../../assets/WorldMonuments/Europe/Sistine-Chapel.jpg"),
     options: [
       {
         id: "0",
-        capital: 'Notre Dame',
-        country: 'Francia'
+        capital: "Notre Dame",
+        country: "Francia",
       },
       {
         id: "1",
-        capital: 'Basílica de San Pedro',
-        country: 'Vaticano'
+        capital: "Basílica de San Pedro",
+        country: "Vaticano",
       },
       {
         id: "2",
-        capital: 'Capilla Sixtina',
-        country: 'Vaticano'
+        capital: "Capilla Sixtina",
+        country: "Vaticano",
       },
       {
         id: "3",
-        capital: 'Sainte Chapelle',
-        country: 'Francia'
+        capital: "Sainte Chapelle",
+        country: "Francia",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "10b",
@@ -584,6 +603,7 @@ const qstMixed7Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "11",

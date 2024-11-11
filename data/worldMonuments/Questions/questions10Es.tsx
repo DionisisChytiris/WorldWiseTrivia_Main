@@ -2,7 +2,7 @@ const questions10Es = [
   {
     id: "1a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Sri Lanka",
     image: require("../../../assets/WorldMonuments/Asia/JetavanaramayaSriLanka.webp"),
     options: [
@@ -28,6 +28,7 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "1b",
@@ -57,11 +58,12 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "2a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "India",
     image: require("../../../assets/WorldMonuments/Asia/kailasa-temple-india.webp"),
     options: [
@@ -87,6 +89,7 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "2b",
@@ -116,11 +119,12 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "3a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Bután",
     image: require("../../../assets/WorldMonuments/Asia/TigersNestBhutan.webp"),
     options: [
@@ -146,6 +150,7 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "3b",
@@ -175,11 +180,12 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "4a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Australia",
     image: require("../../../assets/WorldMonuments/Oceania/greatoceanroad.jpg"),
     options: [
@@ -205,6 +211,7 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "4b",
@@ -234,11 +241,12 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "5a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Japón",
     image: require("../../../assets/WorldMonuments/Asia/Tokyo-Tower.webp"),
     options: [
@@ -264,6 +272,7 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "5b",
@@ -293,11 +302,12 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "6a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Turquía",
     image: require("../../../assets/WorldMonuments/Asia/ephesos.webp"),
     options: [
@@ -323,6 +333,7 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "6b",
@@ -352,11 +363,12 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "7a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Francia",
     image: require("../../../assets/WorldMonuments/Europe/Palace-of-Versailles-France.jpg"),
     options: [
@@ -382,6 +394,7 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "7b",
@@ -411,11 +424,12 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "8a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Italia",
     image: require("../../../assets/WorldMonuments/Europe/Ruins-of-Pompeii-Italy.webp"),
     options: [
@@ -441,6 +455,7 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "8b",
@@ -470,11 +485,12 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "9a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Irán",
     image: require("../../../assets/WorldMonuments/Asia/persepolis.png"),
     options: [
@@ -500,6 +516,7 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "9b",
@@ -529,11 +546,12 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "10a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Estados Unidos",
     image: require("../../../assets/WorldMonuments/USA/hoover_dam_nevada.webp"),
     options: [
@@ -559,6 +577,7 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "10b",
@@ -588,6 +607,7 @@ const questions10Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "11",

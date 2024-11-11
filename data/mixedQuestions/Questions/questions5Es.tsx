@@ -28,6 +28,7 @@ const qstMixed5Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "1b",
@@ -57,6 +58,7 @@ const qstMixed5Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "2a",
@@ -86,6 +88,7 @@ const qstMixed5Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "2b",
@@ -115,6 +118,7 @@ const qstMixed5Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "3a",
@@ -145,6 +149,7 @@ const qstMixed5Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "3b",
@@ -174,6 +179,7 @@ const qstMixed5Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "4a",
@@ -203,6 +209,7 @@ const qstMixed5Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "4b",
@@ -232,6 +239,7 @@ const qstMixed5Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "5a",
@@ -262,6 +270,7 @@ const qstMixed5Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "5b",
@@ -291,36 +300,38 @@ const qstMixed5Es = [
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "6a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Grecia",
     image: require("../../../assets/NaturalMnt/Europe/Santorini-Caldera.jpg"),
     options: [
       {
         id: "0",
-        capital: 'Depresión de Danakil',
-        country: 'Etiopía'
+        capital: "Depresión de Danakil",
+        country: "Etiopía",
       },
       {
         id: "1",
-        capital: 'Cabo de Buena Esperanza',
-        country: 'Sudáfrica'
+        capital: "Cabo de Buena Esperanza",
+        country: "Sudáfrica",
       },
       {
         id: "2",
-        capital: 'Caldera Santorini',
-        country: 'Grecia'
+        capital: "Caldera Santorini",
+        country: "Grecia",
       },
       {
         id: "3",
-        capital: 'Cuevas de mármol',
-        country: 'Chile'
+        capital: "Cuevas de mármol",
+        country: "Chile",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "6b",
@@ -350,36 +361,37 @@ const qstMixed5Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "7a",
     status: "Capitals",
     country: "Malasia",
-      image: require("../../../assets/Flags/malaysia.png"),
-      options: [
-        {
-          id: "0",
-          capital: 'Yakarta',
-          country: 'Indonesia'
-        },
-        {
-          id: "1",
-          capital: 'Kuala Lumpur',
-          country: 'Malasia'
-        },
-        {
-          id: "2",
-          capital: 'Manila',
-          country: 'Filipinas'
-        },
-        {
-          id: "3",
-          capital: 'Nom Pen',
-          country: 'Camboya'
-        },
-
+    image: require("../../../assets/Flags/malaysia.png"),
+    options: [
+      {
+        id: "0",
+        capital: "Yakarta",
+        country: "Indonesia",
+      },
+      {
+        id: "1",
+        capital: "Kuala Lumpur",
+        country: "Malasia",
+      },
+      {
+        id: "2",
+        capital: "Manila",
+        country: "Filipinas",
+      },
+      {
+        id: "3",
+        capital: "Nom Pen",
+        country: "Camboya",
+      },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "7b",
@@ -409,36 +421,38 @@ const qstMixed5Es = [
       },
     ],
     correctAnswerIndex: 0,
+    phoneHelp: "",
   },
   {
     id: "8a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "Camboya",
     image: require("../../../assets/WorldMonuments/Asia/AngkorWat.jpg"),
     options: [
       {
         id: "0",
-        capital: 'Kailasa\nTemple',
-        country: 'India'
+        capital: "Kailasa\nTemple",
+        country: "India",
       },
       {
         id: "1",
-        capital: 'Taj Mahal',
-        country: 'India'
+        capital: "Taj Mahal",
+        country: "India",
       },
       {
         id: "2",
-        capital: 'Angkor wat',
-        country: 'Camboya'
+        capital: "Angkor wat",
+        country: "Camboya",
       },
       {
         id: "3",
-        capital: 'Sigiriya',
-        country: 'Sri Lanka'
+        capital: "Sigiriya",
+        country: "Sri Lanka",
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "8b",
@@ -468,36 +482,38 @@ const qstMixed5Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "9a",
     status: "Capitals",
-    img: 'L',
+    img: "L",
     country: "España",
     image: require("../../../assets/WorldMonuments/Europe/alhambra.jpg"),
     options: [
       {
         id: "0",
-        capital: 'Meteora',
-        country: 'Grecia'
+        capital: "Meteora",
+        country: "Grecia",
       },
       {
         id: "1",
-        capital: 'Alhambra',
-        country: 'España'
+        capital: "Alhambra",
+        country: "España",
       },
       {
         id: "2",
-        capital: 'Mont\nSaint Michel',
-        country: 'Francia'
+        capital: "Mont\nSaint Michel",
+        country: "Francia",
       },
       {
         id: "3",
-        capital: 'Ciudadela de Carcasona',
-        country: 'Francia'
+        capital: "Ciudadela de Carcasona",
+        country: "Francia",
       },
     ],
     correctAnswerIndex: 1,
+    phoneHelp: "",
   },
   {
     id: "9b",
@@ -527,6 +543,7 @@ const qstMixed5Es = [
       },
     ],
     correctAnswerIndex: 2,
+    phoneHelp: "",
   },
   {
     id: "10a",
@@ -536,26 +553,27 @@ const qstMixed5Es = [
     options: [
       {
         id: "0",
-        capital: 'Nicaragua',
-        country: 'Managua'
+        capital: "Nicaragua",
+        country: "Managua",
       },
       {
         id: "1",
-        capital: 'Guatemala',
-        country: 'Ciudad de Guatamala'
+        capital: "Guatemala",
+        country: "Ciudad de Guatamala",
       },
       {
         id: "2",
-        capital: 'Honduras',
-        country: 'Tegucigalpa'
+        capital: "Honduras",
+        country: "Tegucigalpa",
       },
       {
         id: "3",
-        capital: 'El Salvador',
-        country: 'San Salvador'
+        capital: "El Salvador",
+        country: "San Salvador",
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "10b",
@@ -585,6 +603,7 @@ const qstMixed5Es = [
       },
     ],
     correctAnswerIndex: 3,
+    phoneHelp: "",
   },
   {
     id: "11",
