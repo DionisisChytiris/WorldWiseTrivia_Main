@@ -17,6 +17,11 @@ const EuropeCapital = () => {
   const { t } = useTranslation();
   const flagListRef = useRef();
 
+  // const test1Flags = flagItemsEu.filter((_,index)=>index < flagItemsEu.length/2)
+  // const test2Flags = flagItemsEu.filter((_,index)=>index > flagItemsEu.length/2)
+//   The condition index < flagItemsEu.length / 2 separates the first half of the array, while index >= flagItemsEu.length / 2 separates the second half.
+// This way, the original array is divided into test1Flags and test2Flags without modifying the original.
+
   const renderItem = useCallback(({ item }) => {
     return (
       <View style={{ paddingHorizontal: 5 }}>
@@ -37,11 +42,13 @@ const EuropeCapital = () => {
             <FlashList
               ref={flagListRef}
               data={flagItemsEu}
+              // data={test1Flags}
               renderItem={renderItem}
               keyExtractor={(item) => item.id}
               showsVerticalScrollIndicator={true}
               horizontal={false}
-              numColumns={height>900? 3:2}
+              // numColumns={height>900? 3:2}
+              numColumns={2}
               estimatedItemSize={200}
             />
           </View>

@@ -27,21 +27,21 @@ const height = Dimensions.get("window").height;
 
 // Category Template
 const CategoryItem = ({ page, img, text, scores }) => {
-  const navigation = useNavigation<any>();
+  const navigation = useNavigation();
   const { colors } = useTheme();
   const [scale, setScale] = useState(1);
 
   return (
     <Pressable
-      onPressIn={() => (setScale(1.08))}
-      onPressOut={() => (navigation.navigate(page),setScale(1))}
+      onPressIn={() => setScale(1.08)}
+      onPressOut={() => (navigation.navigate(page), setScale(1))}
       style={[
         styles.button,
         {
           backgroundColor: colors.buttonContextQuiz,
           borderColor: colors.borderColor,
           borderWidth: 2,
-          transform: [{scale: scale}]
+          transform: [{ scale: scale }],
         },
       ]}
     >
@@ -158,28 +158,31 @@ export default QuizScreen;
 
 const styles = StyleSheet.create({
   container: {
-    position: 'relative',
+    position: "relative",
     flex: 1,
     backgroundColor: "grey",
     alignItems: "center",
   },
   title: { marginTop: 25 },
   content: {
-    marginTop: height>1000? 34 : 0,
-    justifyContent: height> 1000? "flex-start":"center",
-    gap: height>1000 ? 10 : 0,
+    marginTop: height > 1000 ? 34 : 0,
+    justifyContent: height > 1000 ? "flex-start" : "center",
+    gap: height > 1000 ? 10 : 0,
     // alignItems: 'center',
     // justifyContent: 'flex-start',
     // width:  "100%",
-    height: height>1000? 1000: "100%",
-    flexWrap: 'wrap',
+    height: height > 1000 ? 1000 : "100%",
+    flexWrap: "wrap",
     // backgroundColor: 'grey',
   },
   image: {
-    width: height > 860 ? width * 0.26  : width * 0.28,
-    height: height> 900? (height > 1000? height*0.15 : height * 0.10): height * 0.11,
-    // width: width * 0.38,
-    // height: height * 0.14,
+    width: height > 860 ? width * 0.26 : width * 0.28,
+    height:
+      height > 900
+        ? height > 1000
+          ? height * 0.15
+          : height * 0.1
+        : height * 0.11,
     borderRadius: 20,
   },
   textTitle: {
@@ -187,11 +190,10 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   text: {
-    // fontSize: RFValue(10, 450),
-    fontSize: height > 900 ? (height> 1000? 24 : 19 ): 18,
+    fontSize: height > 900 ? (height > 1000 ? 20 : 19) : 18,
     fontWeight: "bold",
     width: width * 0.34,
-    textAlign: height> 1000? 'center' : null
+    textAlign: height > 1000 ? "center" : null,
   },
   progressBar: {
     backgroundColor: "#f5f5f5",
@@ -215,7 +217,12 @@ const styles = StyleSheet.create({
     right: 0,
   },
   button: {
-    width: height> 900 ?( height>1000? width*0.328: width* 0.70) : width * 0.80,
+    width:
+      height > 900
+        ? height > 1000
+          ? width * 0.328
+          : width * 0.7
+        : width * 0.8,
     marginVertical: 10,
     paddingVertical: 10,
     paddingHorizontal: 10,
@@ -233,10 +240,10 @@ const styles = StyleSheet.create({
     opacity: 0.5,
   },
   buttonContext: {
-    flexDirection:  height>1000 ? "column":"row",
+    flexDirection: height > 1000 ? "column" : "row",
     alignItems: "center",
-    gap: height>1000 ? width * 0.02 : width * 0.05,
-    paddingVertical:  5,
-    paddingHorizontal:  15,
+    gap: height > 1000 ? width * 0.02 : width * 0.05,
+    paddingVertical: 5,
+    paddingHorizontal: 15,
   },
 });
