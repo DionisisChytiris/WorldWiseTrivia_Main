@@ -134,7 +134,7 @@ const Map = () => {
     <View style={styles.container}>
       <MapView
         ref={mapRef}
-        provider={PROVIDER_GOOGLE}
+        // provider={PROVIDER_GOOGLE}
         mapType={MAP_TYPES.TERRAIN}
         style={styles.map}
         initialRegion={region}
