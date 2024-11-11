@@ -33,7 +33,7 @@ const Europe = () => {
       <View
         style={{
           width: width / 1.1,
-          height: height/1.5,
+          height: height/1.35,
           paddingBottom: 10,
         }}
       >

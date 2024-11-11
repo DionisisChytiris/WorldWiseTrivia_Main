@@ -6,7 +6,7 @@ const height = Dimensions.get("window").height;
 
 export const styles = StyleSheet.create({
   container: {
-    paddingHorizontal: "5%"
+    paddingHorizontal: "5%",
   },
   continentTitle: {
     fontSize: 24,
@@ -16,7 +16,8 @@ export const styles = StyleSheet.create({
     paddingBottom: 30,
   },
   flashListContainer: {
-    width: width / 1.07,
+    width:  width / 1.07,
     height: height> 900? height/1.3: height / 1.6,
+    paddingBottom: 40
   }
 });

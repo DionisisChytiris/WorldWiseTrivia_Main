@@ -32,7 +32,7 @@ const Africa = () => {
       <View
         style={{
           width: width / 1.1,
-          height: 500,
+          height: height/1.4,
           // backgroundColor: "gray",
           paddingBottom: 10,
         }}

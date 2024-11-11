@@ -43,17 +43,17 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: "column",
     width: '100%',
-    height: height < 880 ? height/2.7: height/2,
+    height: height < 880 ?  height/2.7: height>1100? height/2.35: height/2,
     // backgroundColor: "blue",
     borderRadius: 14,
-    marginBottom: 40,
+    marginBottom: height> 900? 30:15,
     paddingTop: 20,
     justifyContent: "center",
     alignItems: "center",
   },
   img: {
     width: width/1.25,
-    height: height > 880 ? height/2.5 : height/3.8,
+    height: height > 880 ? height>1100? height/2.9: height/2.5 : height/3.8,
     borderRadius: 10,
   },
 });

@@ -29,7 +29,7 @@ const MainChooseQuizTypeTemplate = (props) => {
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
       <View style={{ padding: 20 }}>
-        <Text style={{ fontSize: 20, fontWeight: "bold", color: colors.textDrawer }}>
+        <Text style={{ fontSize: 20, fontWeight: "bold", color: colors.textDrawer, fontSize: windowHeight> 900 ? 28: 18  }}>
           {t("type")}
         </Text>
       </View>
@@ -66,8 +66,8 @@ const MainChooseQuizTypeTemplate = (props) => {
           />
         </View>
         <View style={{ flexDirection: "column", marginLeft: 20 }}>
-          <Text style={{ color: colors.text }}>{t("1 WORD")}</Text>
-          <Text style={{ color: colors.text }}>{t("4 IMAGES")}</Text>
+          <Text style={{ color: colors.text, fontSize: windowHeight> 900 ? 16: 12  }}>{t("1 WORD")}</Text>
+          <Text style={{ color: colors.text, fontSize: windowHeight> 900 ? 16: 12  }}>{t("4 IMAGES")}</Text>
         </View>
       </Pressable>
       <Pressable
@@ -93,8 +93,8 @@ const MainChooseQuizTypeTemplate = (props) => {
           />
         </View>
         <View style={{ flexDirection: "column", marginLeft: 20 }}>
-          <Text style={{ color: colors.text }}>{t("1 IMAGE")}</Text>
-          <Text style={{ color: colors.text }}>{t("4 WORDS")}</Text>
+          <Text style={{ color: colors.text, fontSize: windowHeight> 900 ? 16: 12  }}>{t("1 IMAGE")}</Text>
+          <Text style={{ color: colors.text, fontSize: windowHeight> 900 ? 16: 12  }}>{t("4 WORDS")}</Text>
         </View>
       </Pressable>
       {show ? (
@@ -121,8 +121,8 @@ const MainChooseQuizTypeTemplate = (props) => {
             />
           </View>
           <View style={{ flexDirection: "column", marginLeft: 20 }}>
-            <Text style={{ color: colors.text }}>{t("GUESS")}</Text>
-            <Text style={{ color: colors.text }}>{t("THE WORD")}</Text>
+            <Text style={{ color: colors.text, fontSize: windowHeight> 900 ? 16: 12 }}>{t("GUESS")}</Text>
+            <Text style={{ color: colors.text, fontSize: windowHeight> 900 ? 16: 12  }}>{t("THE WORD")}</Text>
           </View>
         </Pressable>
       ) : null}
@@ -137,11 +137,12 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
+    marginTop: -40
   },
   button: {
     marginTop: 20,
-    width: windowHeight> 900 ? "60%":"80%",
-    height: 130,
+    width: windowHeight> 900 ? "60%":"65%",
+    height: windowHeight> 900 ? 130: 110,
     backgroundColor: "grey",
     flexDirection: "row",
     justifyContent: "center",
@@ -149,14 +150,14 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   imgView: {
-    width: 110,
+    width: windowHeight> 900 ? 130: 90,
     backgroundColor: "#e8e8e8",
     alignItems: "center",
     borderRadius: 20,
   },
   img: {
-    width: 70,
-    height: 100,
+    width: windowHeight> 900 ? 80: 50,
+    height: windowHeight> 900 ?110: 80,
     borderRadius: 10,
   },
 });

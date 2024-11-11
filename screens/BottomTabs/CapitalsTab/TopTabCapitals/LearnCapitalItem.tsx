@@ -165,7 +165,7 @@ export default LearnCapitalItem;
 const styles = StyleSheet.create({
   flagBox: {
     flexDirection: "column",
-    width: height > 900 ? height>1000? 220:180 : 165,
+    width: height > 900 ? 340 : 165,
     height: height > 900 ? 150 : 150,
     backgroundColor: "#F5FAFA",
     borderRadius: 14,
@@ -180,7 +180,7 @@ const styles = StyleSheet.create({
   },
   flagBoxBack: {
     flexDirection: "column",
-    width: height > 900 ? height>1000? 220:180 : 165,
+    width: height > 900 ? 340 : 165,
     height: height > 900 ? 150 : 150,
     backgroundColor: "#F5FAFA",
     borderRadius: 14,

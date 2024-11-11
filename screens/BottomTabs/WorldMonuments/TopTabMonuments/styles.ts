@@ -7,7 +7,7 @@ const height = Dimensions.get("window").height;
 export const styles = StyleSheet.create({
   container: {
     flex:1,
-    paddingHorizontal: "5%",
+    paddingHorizontal: "5%"
   },
   continentTitle: {
     fontSize: 24,
