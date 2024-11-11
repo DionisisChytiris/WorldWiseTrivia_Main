@@ -214,7 +214,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     width: 50,
     height: 50,
-    borderRadius: "50%",
+    borderRadius: 25,
   },
   button1: {
     display: "none",
