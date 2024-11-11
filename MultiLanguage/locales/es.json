@@ -17,6 +17,13 @@
   "score": "resultado",
   "repeat": "Repetir",
 
+  "EXPO UPDATES":"---------------------------------------------",
+  "update":"Actualización disponible",
+  "message1":"Una nueva versión de la aplicación está disponible. Por favor, reinicie la aplicación para actualizar.",
+  "message2":"Por favor, actualice la aplicación a la última versión.",
+  "cancel":"Cancelar",
+  "restart":"Reiniciar",
+
   "_CATEGORIES": "----------CATEGORIES---------------",
   "categories": "Categorías",
   "capitals": "Capitales",

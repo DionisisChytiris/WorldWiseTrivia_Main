@@ -6,9 +6,11 @@ import { Provider } from "react-redux";
 import Splash from "./Splash";
 import * as Updates from "expo-updates";
 import { Linking, Alert, Platform } from "react-native";
+import { useTranslation } from "react-i18next";
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
+  const { t } = useTranslation();
 
   const checkForUpdates = async () => {
     try {
@@ -16,12 +18,12 @@ export default function App() {
       if (update.isAvailable) {
         await Updates.fetchUpdateAsync();
         Alert.alert(
-          "Διαθέσιμη Ενημέρωση",
-          "Μια νέα έκδοση της εφαρμογής είναι διαθέσιμη. Παρακαλούμε επανεκκινήστε την εφαρμογή για να ενημερωθεί.",
+          t("update"),
+          t("message1"),
           [
-            { text: "Ακύρωση", style: "cancel" },
+            { text: t("cancel"), style: "cancel" },
             {
-              text: "Επανεκκίνηση",
+              text: t("restart"),
               onPress: () => Updates.reloadAsync(),
             },
           ]
@@ -37,11 +39,6 @@ export default function App() {
   }, []);
 
   const checkVersion = async () => {
-    // const appStoreLink = "market://details?id=com.greekgeographyquizapp.dion";
-
-    // const appStoreLink = Platform.OS === 'ios'
-    //   ? 'itms-apps://itunes.apple.com/us/app/apple-store-id'   replace with your app's ID
-    //   : 'market://details?id=com.greekgeographyquizapp.dion';  replace with your package name
 
     const appStoreLink =
       Platform.OS === "ios"
@@ -49,12 +46,12 @@ export default function App() {
         : "market://details?id=com.worldwisetrivia.app";
 
     Alert.alert(
-      "Διαθέσιμη Ενημέρωση",
-      "Παρακαλούμε ενημερώστε την εφαρμογή στην τελευταία έκδοση.",
+      t("update"),
+      t("message2"),
       [
-        { text: "Ακύρωση", style: "cancel" },
+        { text: t("cancel"), style: "cancel" },
         {
-          text: "Ενημέρωση",
+          text: t("restart"),
           onPress: () => Linking.openURL(appStoreLink),
         },
       ]

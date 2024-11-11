@@ -5,3 +5,45 @@ touch 'filename{1..10}' ->multiple files at once
 
 change a word globally
 ctr + shift + H
+
+=====================================================
+
+
+
+npm install -g eas-cli
+
+eas login
+eas whoami
+
+*************
+ATTENTION
+---------------------------------------------
+NEED TO UPDATE VERSION CODE ON app.json
+NEED TO UPDATE VERSION CODE ON app.json
+NEED TO UPDATE VERSION CODE ON app.json
+NEED TO UPDATE VERSION CODE ON app.json
+NEED TO UPDATE VERSION CODE ON app.json
+---------------------------------------------
+
+eas build
+(eas build --platform android)
+
+eas submit -p android --latest 
+
+Before command 'eas build' , need to update version code on app.json
+
+CHECK peer dependencies
+npx check-peer-dependencies
+
+Advice: Use 'npx expo install --check' to review and upgrade your dependencies.
+
+---------------------------------------------------------
+git add .
+git commit -am "my changes" 
+git push 
+
+
+--------------------
+
+
+eas update --channel development --message "Test update"    // development, production, staging

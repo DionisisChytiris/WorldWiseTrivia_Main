@@ -17,6 +17,13 @@
   "score": "score",
   "repeat": "Repeat",
 
+  "EXPO UPDATES":"---------------------------------------------",
+  "update": "Available Update",
+  "message1":"A new version of the app is available. Please restart the app to update.",
+  "message2":"Please update the app to the latest version.",
+  "cancel":"Cancel",
+  "restart":"Restart",
+
   "_CATEGORIES": "----------CATEGORIES---------------",
   "categories": "Categories",
   "capitals": "Capitals",
