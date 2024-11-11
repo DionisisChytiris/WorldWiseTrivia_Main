@@ -46,4 +46,4 @@ git push
 --------------------
 
 
-eas update --channel development --message "Test update"    // development, production, staging
+eas update --channel production --message "Test update"    // development, production, staging

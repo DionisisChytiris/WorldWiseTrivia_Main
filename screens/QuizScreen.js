@@ -176,7 +176,7 @@ const styles = StyleSheet.create({
     // backgroundColor: 'grey',
   },
   image: {
-    width: height > 860 ? width * 0.26 : width * 0.28,
+    width: height > 860 ?  width * 0.26 : height <800? width* 0.24: width * 0.28,
     height:
       height > 900
         ? height > 1000

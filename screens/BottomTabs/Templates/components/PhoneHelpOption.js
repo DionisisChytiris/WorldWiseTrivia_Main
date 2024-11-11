@@ -13,6 +13,10 @@ import Modal from "react-native-modal";
 import { Audio } from "expo-av";
 import { useAppSelector } from "../../../../ReduxSetUp/store.tsx";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import { Dimensions } from "react-native";
+
+const width = Dimensions.get("window").width;
+const height = Dimensions.get("window").height;
 
 const PhoneHelpOption = ({ helpText }) => {
   const [showPhone, setShowPhone] = useState(false);
@@ -212,8 +216,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "lightgrey",
     justifyContent: "center",
-    width: 50,
-    height: 50,
+    width: height>1000? 60:40,
+    height: height>1000? 60:40,
     borderRadius: 25,
   },
   button1: {

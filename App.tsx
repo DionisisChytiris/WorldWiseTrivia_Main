@@ -12,6 +12,7 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(true);
   const { t } = useTranslation();
 
+  // used for minus changes
   const checkForUpdates = async () => {
     try {
       const update = await Updates.checkForUpdateAsync();
@@ -38,28 +39,28 @@ export default function App() {
     checkForUpdates();
   }, []);
 
-  const checkVersion = async () => {
+  // used only when create a new build
+  // const checkVersion = async () => {
+  //   const appStoreLink =
+  //     Platform.OS === "ios"
+  //       ? "itms-apps://itunes.apple.com/us/app/6670754535"
+  //       : "market://details?id=com.worldwisetrivia.app";
 
-    const appStoreLink =
-      Platform.OS === "ios"
-        ? "itms-apps://itunes.apple.com/us/app/6670754535"
-        : "market://details?id=com.worldwisetrivia.app";
-
-    Alert.alert(
-      t("update"),
-      t("message2"),
-      [
-        { text: t("cancel"), style: "cancel" },
-        {
-          text: t("restart"),
-          onPress: () => Linking.openURL(appStoreLink),
-        },
-      ]
-    );
-  };
-  useEffect(() => {
-    checkVersion();
-  }, []);
+  //   Alert.alert(
+  //     t("update"),
+  //     t("message2"),
+  //     [
+  //       { text: t("cancel"), style: "cancel" },
+  //       {
+  //         text: t("restart"),
+  //         onPress: () => Linking.openURL(appStoreLink),
+  //       },
+  //     ]
+  //   );
+  // };
+  // useEffect(() => {
+  //   checkVersion();
+  // }, []);
 
   return (
     <Provider store={store}>

@@ -89,7 +89,7 @@ const Map = () => {
         mapType={MAP_TYPES.TERRAIN}
         style={styles.map}
         initialRegion={region}
-        // provider={PROVIDER_GOOGLE}
+        provider={PROVIDER_GOOGLE}
         onRegionChange={onRegionChange}
       >
         <Marker

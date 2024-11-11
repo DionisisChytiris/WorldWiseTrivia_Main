@@ -67,7 +67,7 @@ const Home = () => {
     <View style={[styles.container, { backgroundColor: color }]}>
       {name ? (
         <View style={{ marginBottom: 0 }}>
-          <Text style={{ color: text1, marginTop: -120 }}>{t("welcome")}{name}</Text>
+          <Text style={{ color: text1, marginTop: -120 }}>{t("welcome")}{name}!</Text>
         </View>
       ):null }
       <Pressable

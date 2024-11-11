@@ -220,18 +220,18 @@ const QuizMainTemplate = (props) => {
   const [displayNone2, setDisplayNone2] = useState(stylesMain.fiftyfiftybutton);
 
   const soundFiles = [
-    require('../../../assets/fiftyfifty.mp3'),
-    require('../../../assets/timpani1.mp3'),
-    require('../../../assets/cymbal.mp3'), // Add more sounds as needed
+    require("../../../assets/fiftyfifty.mp3"),
+    require("../../../assets/timpani1.mp3"),
+    require("../../../assets/cymbal.mp3"), // Add more sounds as needed
   ];
 
   async function playSoundRoll1() {
     const randomIndex = Math.floor(Math.random() * soundFiles.length);
     const selectedSound = soundFiles[randomIndex];
 
-    const { sound} = await Audio.Sound.createAsync(
+    const { sound } = await Audio.Sound.createAsync(
       selectedSound
-      // require("../../../assets/fiftyfifty.mp3") 
+      // require("../../../assets/fiftyfifty.mp3")
     );
     // setSoundRoll1(soundRoll1);
     await sound.setVolumeAsync(0.3);
@@ -242,7 +242,7 @@ const QuizMainTemplate = (props) => {
     const selectedSound = soundFiles[randomIndex];
     const { sound } = await Audio.Sound.createAsync(
       selectedSound
-      // require("../../../assets/fiftyfifty.mp3") 
+      // require("../../../assets/fiftyfifty.mp3")
     );
     // setSoundRoll2(soundRoll2);
     await sound.setVolumeAsync(0.3);
@@ -252,7 +252,7 @@ const QuizMainTemplate = (props) => {
   // useEffect(() => {
   //   return soundRoll1
   //     ? () => {
-  //         sound.unloadAsync(); 
+  //         sound.unloadAsync();
   //       }
   //     : undefined;
   // }, [soundRoll1]);
@@ -429,11 +429,19 @@ const QuizMainTemplate = (props) => {
         {currentQuestion.status === status && status === "Flags" && (
           <>
             {/* Testing Material to help user to find correct answer */}
-            {currentQuestion.phoneHelp === '' ? null : <PhoneHelpOption helpText={currentQuestion.phoneHelp} />}
-            
+            {currentQuestion.phoneHelp === "" ? null : (
+              <PhoneHelpOption helpText={currentQuestion.phoneHelp} />
+            )}
+
             <Pressable onPress={handleFiftyFifty} style={displayNone1}>
               <View>
-                <Text style={{ fontSize: 16 }}>50%</Text>
+                <Text
+                  style={{
+                    fontSize: height>1000? 18:13,
+                  }}
+                >
+                  50%
+                </Text>
               </View>
             </Pressable>
 
@@ -640,54 +648,53 @@ const QuizMainTemplate = (props) => {
       {/* Arrow Right*/}
       {/* {index + 1 > data.length - 2 ? ( */}
       <>
-      {index + 1 > filteredLength - 1 ? (
-        <Pressable
-          style={{ position: "absolute", bottom: "55%", right: 10 }}
-          onPress={() => {
-            navigation.navigate(props.results, { score: score });
-          }}
-        >
-          {answerStatus === null ? null : (
-            <MaterialIcons
-              name="keyboard-arrow-right"
-              size={40}
-              color={colors.text}
-            />
-          )}
-        </Pressable>
-      ) : (
-        <Pressable
-          style={{ position: "absolute", bottom: "55%", right: 10 }}
-          onPress={() => {
-            {
-              selectedAnswer == null
-                ? null
-                : (setIndex(index + 1), restartApple(), setDisabled(false)),
-                setShowHeart(false),
-                setFiftyFifty([]);
-              setFiftyFifty2([]);
-              setDisplayNone1(stylesMain.fiftyfiftybutton);
-              setDisplayNone2(stylesMain.fiftyfiftybutton);
-              // console.log(fiftyFifty);
-            }
-            if (guesses == currentQuestion.num) {
-              setIndex(index + 1);
-              restartGuess();
-              restartApple();
-            }
-          }}
-        >
-          {answerStatus === null ? null : (
-            <MaterialIcons
-              name="keyboard-arrow-right"
-              size={40}
-              color={colors.text}
-            />
-          )}
-        </Pressable>
-      )}
-</>
-
+        {index + 1 > filteredLength - 1 ? (
+          <Pressable
+            style={{ position: "absolute", bottom: "55%", right: 10 }}
+            onPress={() => {
+              navigation.navigate(props.results, { score: score });
+            }}
+          >
+            {answerStatus === null ? null : (
+              <MaterialIcons
+                name="keyboard-arrow-right"
+                size={40}
+                color={colors.text}
+              />
+            )}
+          </Pressable>
+        ) : (
+          <Pressable
+            style={{ position: "absolute", bottom: "55%", right: 10 }}
+            onPress={() => {
+              {
+                selectedAnswer == null
+                  ? null
+                  : (setIndex(index + 1), restartApple(), setDisabled(false)),
+                  setShowHeart(false),
+                  setFiftyFifty([]);
+                setFiftyFifty2([]);
+                setDisplayNone1(stylesMain.fiftyfiftybutton);
+                setDisplayNone2(stylesMain.fiftyfiftybutton);
+                // console.log(fiftyFifty);
+              }
+              if (guesses == currentQuestion.num) {
+                setIndex(index + 1);
+                restartGuess();
+                restartApple();
+              }
+            }}
+          >
+            {answerStatus === null ? null : (
+              <MaterialIcons
+                name="keyboard-arrow-right"
+                size={40}
+                color={colors.text}
+              />
+            )}
+          </Pressable>
+        )}
+      </>
 
       {/* Arrow Left*/}
       {/* {index == 0 ? null : (
@@ -721,14 +728,14 @@ const stylesMain = StyleSheet.create({
   },
   fiftyfiftybutton: {
     position: "absolute",
-    left: 75,
+    left: height > 1000 ? 85: 65,
     top: 10,
     display: "flex",
     alignItems: "center",
     backgroundColor: "lightgrey",
     justifyContent: "center",
-    width: 50,
-    height: 50,
+    width: height > 1000 ? 60 : 40,
+    height: height > 1000 ? 60 : 40,
     borderRadius: 25,
     zIndex: 999,
   },
@@ -764,16 +771,16 @@ const stylesMain = StyleSheet.create({
     left: 10,
   },
   imageQuiz1: {
-    width: height > 880 ? height>1100? 440 :400 : 280,
-    height: height > 880 ? height>1100? 310: 260 : 190,
+    width: height > 880 ? (height > 1100 ? 440 : 400) : 280,
+    height: height > 880 ? (height > 1100 ? 310 : 260) : 190,
     borderRadius: 20,
-    marginTop: height> 880? height>1100? 120: 90: 80,
+    marginTop: height > 880 ? (height > 1100 ? 120 : 90) : 80,
   },
   imageQuiz: {
     width: height > 880 ? 280 : 200,
     height: height > 880 ? 180 : 140,
     borderRadius: 20,
-    marginTop: height> 880? height>1100? 170: 110: 100,
+    marginTop: height > 880 ? (height > 1100 ? 170 : 110) : 100,
   },
   lottiestyle: {
     position: "absolute",
