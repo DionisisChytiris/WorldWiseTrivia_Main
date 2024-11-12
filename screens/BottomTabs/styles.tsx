@@ -148,9 +148,10 @@ export const styles = StyleSheet.create({
     alignItems: "center",
   },
   guessImg: {
-    width: 230,
-    height: 150,
+    width: height<780?160:230,
+    height: height<780?110:150,
     borderRadius: 20,
+    marginTop: height<780?20: 0
   },
   guessWordBox: {
     flexDirection: "row",
@@ -161,7 +162,7 @@ export const styles = StyleSheet.create({
   },
   guessWordBox1: {
     flexDirection: "row",
-    marginTop: 60,
+    marginTop: height<780?30:60,
     backgroundColor: "white",
     borderRadius: 20,
     paddingHorizontal: 15,
@@ -177,6 +178,6 @@ export const styles = StyleSheet.create({
     flexWrap: "wrap",
     justifyContent: "center",
     alignItems: "center",
-    gap: 15,
+    gap: height<780?10:15,
   },
 });
