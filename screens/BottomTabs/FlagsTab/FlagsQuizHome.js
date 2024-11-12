@@ -33,6 +33,7 @@ const QuizTemplate = (props) => {
       style={[
         test,
         {
+          marginLeft: windowHeight>1100? 50: 0,
           backgroundColor: colors.text1,
           height: windowHeight > 900 ? (windowHeight > 1000 ? 120 : 100) : 80,
           width: windowHeight > 900 ? (windowHeight > 1000 ? 170 : 125) : 120,
@@ -42,9 +43,8 @@ const QuizTemplate = (props) => {
       <Image
         source={props.image}
         style={{
-          width: windowHeight > 900 ? (windowHeight > 1000 ? 170 : 125) : 120,
-          height:
-            windowHeight > 900 ? (windowHeight > 1000 ? 110 : 85) : "100%",
+          width: windowHeight> 900 ?  (windowHeight>1100?  250 : (windowHeight>1000? 180:130)): 120,
+          height: windowHeight> 900 ? (windowHeight> 1100? 150: (windowHeight>1000? 120: 85)) : "100%",
           borderRadius: 10,
           opacity: 0.9,
         }}
@@ -58,7 +58,7 @@ const QuizTemplate = (props) => {
             color: "white",
             fontWeight: "900",
             opacity: 1,
-            fontSize: 22,
+            fontSize: windowHeight>1000? (windowHeight>1100? 26:18): 14
           }}
         >
           {t("quiz")} {props.title}
@@ -123,7 +123,7 @@ const FlagsQuizHome = () => {
         <View
           style={{
             width: "50%",
-            gap: windowHeight > 900 ? (windowHeight > 1000 ? 20 : 20) : 20,
+            gap: windowHeight> 900 ? (windowHeight>1000? (windowHeight>1100? 100:20):10): 20
           }}
         >
           <QuizTemplate
@@ -157,7 +157,7 @@ const FlagsQuizHome = () => {
             width: "50%",
             marginTop: 70,
             marginLeft: 20,
-            gap: windowHeight > 900 ? (windowHeight > 1000 ? 20 : 20) : 20,
+            gap: windowHeight> 900 ? (windowHeight>1000? (windowHeight>1100? 100:20):10): 20
           }}
         >
           <QuizTemplate
@@ -205,7 +205,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   quizBtnBox: {
-    width: windowHeight> 900 ? windowHeight> 1000 ? "50%":"65%":"70%",
+    width: windowHeight> 900 ? (windowHeight> 1000 ? (windowHeight>1100? "55%":"50%"):"60%"):"65%",
     height: windowHeight / 1.4,
     flexDirection: "row",
     alignItems: "center",

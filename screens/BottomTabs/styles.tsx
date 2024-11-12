@@ -48,9 +48,9 @@ export const styles = StyleSheet.create({
     right: 30,
   },
   LgTitle: {
-    fontSize: height > 880 ? height> 1000? 45: 35 : 30,
+    fontSize: height > 880 ? height> 1100? 45: 35 : 26,
     fontWeight: "500",
-    marginTop: height > 880 ? height> 1000? 180: 150 : 130,
+    marginTop: height > 880 ? height> 1100? 220: 150 : 130,
     textAlign: "center",
     marginHorizontal: "9%",
   },
