@@ -162,6 +162,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "grey",
     alignItems: "center",
+    height: height>960? 1300: "100%"
   },
   title: { marginTop: 25 },
   content: {
@@ -186,11 +187,11 @@ const styles = StyleSheet.create({
     borderRadius: 20,
   },
   textTitle: {
-    fontSize: RFValue(16, 580),
+    fontSize: height > 900 ? (height > 1000 ? height>1100? 32 :28 : 20) : 22,
     fontWeight: "bold",
   },
   text: {
-    fontSize: height > 900 ? (height > 1000 ? 20 : 19) : 18,
+    fontSize: height > 900 ? (height > 1000 ? height>1100? 20 :18 : 16) : 18,
     fontWeight: "bold",
     width: width * 0.34,
     textAlign: height > 1000 ? "center" : null,

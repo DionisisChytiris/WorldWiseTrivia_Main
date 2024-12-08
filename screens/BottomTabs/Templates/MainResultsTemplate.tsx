@@ -39,7 +39,7 @@ const MainResultsTemplate = (props: any) => {
   useEffect(()=>{
     const timeout1 = setTimeout(() => {
       setShow(false)
-    }, 7000);
+    }, 5000);
 
     return () => clearTimeout(timeout1);
   },[])

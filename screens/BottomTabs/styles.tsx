@@ -42,15 +42,15 @@ export const styles = StyleSheet.create({
     alignItems: "center",
   },
   smTitle: {
-    fontSize: height > 880 ? 18 : 12,
+    fontSize: height > 880 ? height> 1100? 18 : 13: 12,
     position: "absolute",
     top: 20,
     right: 30,
   },
   LgTitle: {
-    fontSize: height > 880 ? height> 1000? 45: 35 : 30,
+    fontSize: height > 880 ? height> 1100? 45: 30 : 26,
     fontWeight: "500",
-    marginTop: height > 880 ? height> 1000? 180: 150 : 130,
+    marginTop: height > 880 ? height> 1100? 220: 150 : 130,
     textAlign: "center",
     marginHorizontal: "9%",
   },
@@ -68,7 +68,7 @@ export const styles = StyleSheet.create({
     position: "absolute",
     bottom: 10,
     width: height > 900 ? (height> 1100? "60%": "70%") : "100%",
-    height: height < 900 ? "48%" : "54%",
+    height: height < 900 ? "48%" : height>1000? "54%":"46%",
     flexWrap: "wrap",
     alignContent: "center",
     gap: 10,
@@ -148,9 +148,10 @@ export const styles = StyleSheet.create({
     alignItems: "center",
   },
   guessImg: {
-    width: 230,
-    height: 150,
+    width: height<780?160:230,
+    height: height<780?110:150,
     borderRadius: 20,
+    marginTop: height<780?20: 0
   },
   guessWordBox: {
     flexDirection: "row",
@@ -161,7 +162,7 @@ export const styles = StyleSheet.create({
   },
   guessWordBox1: {
     flexDirection: "row",
-    marginTop: 60,
+    marginTop: height<780?30:60,
     backgroundColor: "white",
     borderRadius: 20,
     paddingHorizontal: 15,
@@ -177,6 +178,6 @@ export const styles = StyleSheet.create({
     flexWrap: "wrap",
     justifyContent: "center",
     alignItems: "center",
-    gap: 15,
+    gap: height<780?10:15,
   },
 });

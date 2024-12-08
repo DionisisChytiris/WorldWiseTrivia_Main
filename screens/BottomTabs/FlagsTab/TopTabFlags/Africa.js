@@ -43,7 +43,7 @@ const Africa = () => {
             keyExtractor={(item) => item.id}
             showsVerticalScrollIndicator={false}
             horizontal={false}
-            numColumns={height>900 ?2 : 1}
+            numColumns={height>1000 ?2 : 1}
             estimatedItemSize={200}
           />
         </View>

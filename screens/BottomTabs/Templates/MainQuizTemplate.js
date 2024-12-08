@@ -592,11 +592,11 @@ const QuizMainTemplate = (props) => {
                       <Text
                         style={{
                           fontSize:
-                            item.capital.length > 22
-                              ? 16
-                              : height > 880
-                              ? 22
-                              : 18,
+                            item.capital.length > 19
+                              ? 14
+                              : height > 980
+                              ? 19
+                              : 15,
                           fontWeight: "500",
                           color: colors.text,
                           textAlign: "center",
@@ -773,16 +773,16 @@ const stylesMain = StyleSheet.create({
     left: 10,
   },
   imageQuiz1: {
-    width: height > 880 ? (height > 1100 ? 440 : 400) : 280,
-    height: height > 880 ? (height > 1100 ? 310 : 260) : 190,
+    width: height > 980 ? (height > 1100 ? 440 : 400) : 280,
+    height: height > 980 ? (height > 1100 ? 310 : 260) : 190,
     borderRadius: 20,
-    marginTop: height > 880 ? (height > 1100 ? 120 : 90) : 80,
+    marginTop: height > 880 ? (height > 1100 ? 120 : 110) : 80,
   },
   imageQuiz: {
-    width: height > 880 ? 280 : 200,
-    height: height > 880 ? 180 : 140,
+    width: height > 980 ? 280 : 200,
+    height: height > 980 ? 180 : 140,
     borderRadius: 20,
-    marginTop: height > 880 ? (height > 1100 ? 170 : 110) : 100,
+    marginTop: height > 880 ? (height > 1100 ? 170 : 130) : 100,
   },
   lottiestyle: {
     position: "absolute",

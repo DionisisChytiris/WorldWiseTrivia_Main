@@ -53,17 +53,17 @@ const LearnCapitalItem = ({
           >
             <Image style={styles.img} resizeMode="cover" source={img} />
           </View>
-          <View style={{ paddingTop: 2, flexDirection: "column" }}>
+          <View style={{ paddingTop: 2, flexDirection: height>1100? "row":"column" , gap: height>1100? 130: 0}}>
             <View style={styles.textBox}>
               <Text
-                style={{ fontSize: 12, fontWeight: "bold", color: colors.text }}
+                style={{ fontSize: height>1100? 20: 12, fontWeight: "bold", color: colors.text }}
               >
                 {country}
               </Text>
             </View>
             <View style={styles.textBox}>
               <Text
-                style={{ fontSize: 10, fontWeight: "bold", color: colors.text }}
+                style={{ fontSize: height>1100? 16:10, fontWeight: "bold", color: colors.text }}
               >
                 {capital}
               </Text>
@@ -165,8 +165,8 @@ export default LearnCapitalItem;
 const styles = StyleSheet.create({
   flagBox: {
     flexDirection: "column",
-    width: height > 900 ? 340 : 165,
-    height: height > 900 ? 150 : 150,
+    width: height > 900 ? (height>1100?440: (height>960? 340:190) ): 165,
+    height: height > 900 ? (height>1100?220: (height>960? 160:150) ) : 150,
     backgroundColor: "#F5FAFA",
     borderRadius: 14,
     marginBottom: 30,
@@ -199,8 +199,8 @@ const styles = StyleSheet.create({
     gap: 5,
   },
   img: {
-    width: height < 900 ? 105 : 120,
-    height: height < 900 ? 75 : 80,
+    width: height < 900 ? 105 : height>1100? 180:120,
+    height: height < 900 ? 75 : height>1100? 120: 80,
     borderRadius: 10,
   },
   title: {

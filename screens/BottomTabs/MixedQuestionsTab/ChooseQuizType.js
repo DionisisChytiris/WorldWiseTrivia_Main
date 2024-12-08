@@ -66,7 +66,7 @@ const ChooseQuizType = () => {
       {/* <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}> */}
         <View style={{ padding: 20 }}>
           <Text
-            style={{ fontSize: 24, paddingBottom: 30,marginTop: -40, fontWeight: "500", color: '#ccc' }}
+            style={{ fontSize: windowHeight> 900 ? (windowHeight>1000? (windowHeight>1100? 30: 28): 20): 18  , paddingBottom: 30,marginTop: -40, fontWeight: "500", color: '#ccc' }}
           >
             {t("type")}
           </Text>
@@ -147,8 +147,8 @@ const styles = StyleSheet.create({
   },
   button: {
     marginTop: 20,
-    width:windowHeight> 900 ? "60%": "80%",
-    height: 140,
+    width: windowHeight> 900 ? windowHeight>1000?"60%":"70%":"65%",
+    height:  windowHeight>1000? 130: 110,
     backgroundColor: "grey",
     flexDirection: "row",
     justifyContent: "center",
@@ -156,14 +156,14 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   imgView: {
-    width: 130,
+    width: windowHeight> 900 ? windowHeight>1000?130: 100: 90,
     backgroundColor: "#e8e8e8",
     alignItems: "center",
     borderRadius: 20,
   },
   img: {
-    width: 90,
-    height: 120,
+    width: windowHeight> 900 ? (windowHeight>1000?80: 70): 50,
+    height: windowHeight> 900 ? (windowHeight>1000?110: 90 ): 80,
     borderRadius: 10,
   },
 });
