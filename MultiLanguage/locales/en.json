@@ -16,6 +16,8 @@
   "quiz": "Quiz",
   "score": "score",
   "repeat": "Repeat",
+  "AlertMessage1": "Great job! You scored above 90%!",
+  "AlertMessage2": "Well done ",
 
   "EXPO UPDATES":"---------------------------------------------",
   "update": "Available Update",

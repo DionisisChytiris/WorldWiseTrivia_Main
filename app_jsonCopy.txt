@@ -1,0 +1,37 @@
+import dotenv from "dotenv";
+dotenv.config(); // Load environment variables from .env file
+
+export default {
+  expo: {
+    ios: {
+      supportsTablet: true,
+      bundleIdentifier: "com.worldwisetrivia.app",
+    },
+    android: {
+      package: "com.worldwisetrivia.app",
+      adaptiveIcon: {
+        foregroundImage: "./assets/logo1.png",
+        backgroundColor: "#ffffff",
+      },
+      config: {
+        googleMaps: {
+          apiKey: process.env.EXPO_PUBLIC_GOOGLE_MAPS_KEY,
+        },
+      },
+    },
+    web: {
+      favicon: "./assets/favicon.png",
+    },
+    extra: {
+      eas: {
+        projectId: "34547de2-ef97-4b54-9135-27df45137c16",
+      },
+    },
+    runtimeVersion: {
+      policy: "appVersion",
+    },
+    updates: {
+      url: "https://u.expo.dev/34547de2-ef97-4b54-9135-27df45137c16",
+    },
+  },
+};

@@ -431,7 +431,7 @@ const questions7Es = [
     status: "Capitals",
     img: "L",
     country: "Italia",
-    image: require(".../../../assets/WorldMonuments/Europe/Rialto-bridge.webp"),
+    image: require("../../../assets/WorldMonuments/Europe/Rialto-bridge.webp"),
     options: [
       {
         id: "0",

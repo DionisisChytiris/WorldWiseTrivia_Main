@@ -47,3 +47,7 @@ git push
 
 
 eas update --channel production --message "Test update"    // development, production, staging
+
+
+
+npx expo-doctor   //to check if there is any issue with packages etc on your project

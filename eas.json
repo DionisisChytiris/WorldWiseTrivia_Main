@@ -20,8 +20,8 @@
       "autoIncrement": true,
       "channel": "production",
       "env": {
-        "EXPO_PUBLIC_API_KEY": "public",
-        "EXPO_PUBLIC_GOOGLE_MAPS_KEY": "public"
+        "EXPO_PUBLIC_API_KEY": "@EXPO_PUBLIC_API_KEY",
+        "EXPO_PUBLIC_GOOGLE_MAPS_KEY": "@EXPO_PUBLIC_GOOGLE_MAPS_KEY"
       },
       "android": {
         "buildType": "app-bundle"

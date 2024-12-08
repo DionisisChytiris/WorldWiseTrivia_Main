@@ -16,6 +16,8 @@
   "quiz": "Prueba",
   "score": "resultado",
   "repeat": "Repetir",
+  "AlertMessage1": "¡Gran trabajo! Obtuviste más de 90%.",
+  "AlertMessage2": "¡Bien hecho ",
 
   "EXPO UPDATES":"---------------------------------------------",
   "update":"Actualización disponible",

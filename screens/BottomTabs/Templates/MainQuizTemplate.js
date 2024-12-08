@@ -516,7 +516,9 @@ const QuizMainTemplate = (props) => {
         {currentQuestion.status === status && status === "Capitals" && (
           <>
             {/* Testing Material to help user to find correct answer */}
-            <PhoneHelpOption helpText={currentQuestion.phoneHelp} />
+            {currentQuestion.phoneHelp === "" ? null : (
+              <PhoneHelpOption helpText={currentQuestion.phoneHelp} />
+            )}
             <Pressable
               onPress={handleFiftyFifty2}
               // onPress={()=>alert('hey')}

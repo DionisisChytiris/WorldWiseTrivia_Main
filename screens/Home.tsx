@@ -8,6 +8,7 @@ import { useTheme } from "../utils/ThemeMode/ThemeProvider";
 import { Audio } from "expo-av";
 import { toggleBoolean } from "../ReduxSetUp/SoundVibration/VibrationSlice";
 import { useAppSelector } from "../ReduxSetUp/store";
+import RateModal from "./BottomTabs/Templates/components/ReviewModal";
 import { useTranslation } from "react-i18next";
 
 type HomeProp = StackNavigationProp<AppNavigatorTypeList, "Home">;
@@ -22,6 +23,7 @@ const Home = () => {
   const [circle, setCircle] = useState("#ccc");
   const [text, setText] = useState("#002c54");
   const [text1, setText1] = useState("#9aa3a8");
+  // const [show, setShow] = useState(false);
 
   useEffect(() => {
     getData();
@@ -65,22 +67,32 @@ const Home = () => {
 
   return (
     <View style={[styles.container, { backgroundColor: color }]}>
+      {/* <Pressable onPress={() => setShow(true)}>
+        <Text>Button</Text>
+      </Pressable>
+      <RateModal visible={show} onClose={() => setShow(false)} /> */}
       {name ? (
         <View style={{ marginBottom: 0 }}>
-          <Text style={{ color: text1, marginTop: -120 }}>{t("welcome")}{name}!</Text>
+          <Text style={{ color: text1, marginTop: -120 }}>
+            {t("welcome")}
+            {name}!
+          </Text>
         </View>
-      ):null }
+      ) : null}
       <Pressable
         onPressIn={() => (
-          setColor("#ccc"), setCircle("#002c54"), setText("#ccc"),setText1("#002c54")
+          setColor("#ccc"),
+          setCircle("#002c54"),
+          setText("#ccc"),
+          setText1("#002c54")
         )}
         onPressOut={() => {
           setColor("#002c54");
           setCircle("#ccc");
           setText("#002c54");
-          setText1("#9aa3a8")
+          setText1("#9aa3a8");
           name
-            ? navigation.navigate("Draw", {name: name})
+            ? navigation.navigate("Draw", { name: name })
             : navigation.navigate("MultiLanguage");
         }}
         style={[styles.circle, { backgroundColor: circle }]}
@@ -98,7 +110,7 @@ const Home = () => {
           </View>
         )} */}
       </Pressable>
-      <View style={{position: 'absolute', bottom: 40}}>
+      <View style={{ position: "absolute", bottom: 40 }}>
         <Text style={{ color: text1, fontSize: 12 }}> 2024</Text>
       </View>
       {/* <View style={{ position: "absolute", bottom: 80 }}>
