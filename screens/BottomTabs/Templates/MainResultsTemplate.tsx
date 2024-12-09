@@ -17,8 +17,8 @@ const MainResultsTemplate = (props: any) => {
   const handleQuizCompletion = async() => {
     if (props.percentage >= 90) {
       setShow(true)
-     
-     if (await StoreReview.hasAction()) {
+      
+      if (await StoreReview.hasAction()) {
         StoreReview.requestReview();
       } else {
         console.log('In-app review is not supported on this device.');
