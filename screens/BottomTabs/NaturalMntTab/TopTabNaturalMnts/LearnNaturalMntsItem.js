@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet, Image, ActivityIndicator } from "react-native";
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import { useTheme } from "../../../../utils/ThemeMode/ThemeProvider";
 import { Dimensions } from "react-native";
 
@@ -9,6 +9,11 @@ const height = Dimensions.get("window").height;
 const LearnNaturalMntsItem = ({ img, name, country, city, date }) => {
   const { colors } = useTheme();
   const [loaded, setLoaded] = useState(true);
+
+  const debouncedSetLoaded = useCallback(() => {
+    const timeout = setTimeout(() => setLoaded(false), 100); // Debounce by 100ms
+    return () => clearTimeout(timeout); // Cleanup timeout on unmount
+  }, []);
 
   return (
     <View style={{ alignItems: "center", paddingBottom: 10 }}>
@@ -28,15 +33,16 @@ const LearnNaturalMntsItem = ({ img, name, country, city, date }) => {
             style={styles.img}
             resizeMode="cover"
             source={img}
-            onLoadEnd={() => setLoaded(false)}
+            onLoadEnd={debouncedSetLoaded}
           />
         </View>
         <View
           style={{
-            flexDirection: height > 960 ? "row" : "column",
+            flexDirection: height > 1100 ? "row" : "column",
             justifyContent: "space-between",
             alignItems: "center",
-            gap: height > 960 ? 150 : 0,
+            gap: height > 1100 ? 150 : 0,
+            paddingTop: height > 1100 ? 10 : 0,
           }}
         >
           <Text
@@ -60,13 +66,13 @@ const LearnNaturalMntsItem = ({ img, name, country, city, date }) => {
           <View
             style={{
               flexDirection: height > 1000 ? "column" : "row",
-              gap: height > 1000 ? 10 : 50,
+              gap: height > 1000 ? 25 : 50,
               paddingBottom: height > 1000 ? 0 : 20,
             }}
           >
             <Text
               style={{
-                fontSize: height < 880 ? 12 : height > 1000 ? 16 : 13,
+                fontSize: height < 880 ? 12 : height > 1000 ? 26 : 13,
                 fontWeight: "400",
                 color: colors.text,
               }}

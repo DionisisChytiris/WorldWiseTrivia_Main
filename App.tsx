@@ -65,7 +65,8 @@ export default function App() {
   return (
     <Provider store={store}>
       <ThemeProvider>
-        {isLoading ? <Splash setIsLoading={setIsLoading} /> : <AppNavigator />}
+        {/* {isLoading ? <Splash setIsLoading={setIsLoading} /> : <AppNavigator />} */}
+         <AppNavigator />
       </ThemeProvider>
     </Provider>
   );

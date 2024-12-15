@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "jsx": "react"
-},
+  },
   "extends": [
     "expo/tsconfig.base"
-  ]
+  ],
+  "exclude": ["node_modules", "build", "dist", "out", ".vscode"]
 }

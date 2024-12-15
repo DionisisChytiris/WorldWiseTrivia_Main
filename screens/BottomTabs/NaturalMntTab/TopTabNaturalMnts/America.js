@@ -1,5 +1,5 @@
 import { View, Text } from "react-native";
-import React, {useCallback} from "react";
+import React, {useCallback, useMemo} from "react";
 import { useTheme } from "../../../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
 import { Dimensions } from "react-native";
@@ -16,6 +16,7 @@ const America = () => {
   const { NtrAmerItems } = useSelector((state) => state.NaturalAmer);
   const { colors } = useTheme();
   const { t } = useTranslation();
+  const memoizedData = useMemo(() => NtrAmerItems, [NtrAmerItems]);
 
   
   const renderItem = useCallback(({ item }) => {
@@ -40,7 +41,7 @@ const America = () => {
         }}
       >
         <FlashList
-          data={NtrAmerItems}
+          data={memoizedData}
           renderItem={renderItem}
           keyExtractor={(item) => item.id}
           showsVerticalScrollIndicator={false}

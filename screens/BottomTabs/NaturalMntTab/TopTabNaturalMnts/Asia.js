@@ -1,5 +1,5 @@
 import { View, Text } from "react-native";
-import React, { useCallback } from "react";
+import React, { useCallback, useMemo } from "react";
 import { useTheme } from "../../../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
 import { FlashList } from "@shopify/flash-list";
@@ -16,6 +16,7 @@ const Asia = () => {
   const { NtrAsiaItems } = useSelector((state) => state.NaturalAsia);
   const { colors } = useTheme();
   const { t } = useTranslation();
+  const memoizedData = useMemo(() => NtrAsiaItems, [NtrAsiaItems]);
 
   const renderItem = useCallback(({ item }) => {
     return (
@@ -39,7 +40,7 @@ const Asia = () => {
         }}
       >
         <FlashList
-          data={NtrAsiaItems}
+          data={memoizedData}
           renderItem={renderItem}
           keyExtractor={(item) => item.id}
           showsVerticalScrollIndicator={false}
