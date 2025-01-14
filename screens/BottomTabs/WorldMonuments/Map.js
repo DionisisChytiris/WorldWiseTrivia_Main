@@ -83,7 +83,7 @@ const Map = () => {
 
   return (
     <View style={styles.container}>
-      {/* <MapView
+      <MapView
         ref={mapRef}
         mapType={MAP_TYPES.TERRAIN}
         style={styles.map}
@@ -97,7 +97,7 @@ const Map = () => {
             longitude: lng,
           }}
         />
-      </MapView> */}
+      </MapView>
 
       <View style={styles.letterButton}>
         <View style={{ alignItems: "center", justifyContent: "center" }}>
@@ -139,12 +139,12 @@ const Map = () => {
                     style={[styles.button,{opacity: 1}]}
                     // onPressIn={()=>setTest(0.5)}
                     onPress={() => {
-                      // animateRegion(
-                      //   setLtd(item.latitude),
-                      //   setLng(item.longitude, setZoom(item.zoomLocation))
-                      // );
-                      // setLtd(item.latitude);
-                      // setLng(item.longitude);
+                      animateRegion(
+                        setLtd(item.latitude),
+                        setLng(item.longitude, setZoom(item.zoomLocation))
+                      );
+                      setLtd(item.latitude);
+                      setLng(item.longitude);
                       // setTest(1)
                       Alert.alert(item.title,item.description)
                     }}

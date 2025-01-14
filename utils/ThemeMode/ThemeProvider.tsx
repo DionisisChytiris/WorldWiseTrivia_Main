@@ -5,13 +5,14 @@ import React, {createContext, useContext, useEffect, useState} from 'react'
 export const ThemeContext = createContext({
     dark: false,
     colors: lightColors,
-    setScheme: (p0?: string)=>{}
+    setScheme: (scheme?: string)=>{}
 })
 
 export const ThemeProvider= (props:any)=>{
     // const colorScheme = useColorScheme(colorScheme == 'dark')
-    const colorScheme: ColorSchemeName = useColorScheme()
-    const [isDark, setIsDark] = useState(colorScheme =='dark')
+    // const colorScheme: ColorSchemeName = useColorScheme()
+    // const [isDark, setIsDark] = useState(colorScheme =='dark')
+    const [isDark, setIsDark] = useState(false);
 
     const defaultTheme:any = {
         dark: isDark,
@@ -19,9 +20,9 @@ export const ThemeProvider= (props:any)=>{
         setScheme: (scheme:any)=> setIsDark(scheme == 'dark')
     }
 
-    useEffect(()=>{
-        setIsDark(colorScheme=='dark')
-    }, [colorScheme])
+    // useEffect(()=>{
+    //     setIsDark(colorScheme=='dark')
+    // }, [colorScheme])
 
     return (
         <ThemeContext.Provider value={defaultTheme}>

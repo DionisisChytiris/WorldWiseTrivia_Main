@@ -132,9 +132,10 @@ const Map = () => {
 
   return (
     <View style={styles.container}>
-      {/* <MapView
+      <MapView
         ref={mapRef}
-        provider={PROVIDER_GOOGLE}
+        // provider={PROVIDER_GOOGLE}
+        provider="google"
         mapType={MAP_TYPES.TERRAIN}
         style={styles.map}
         initialRegion={region}
@@ -146,7 +147,7 @@ const Map = () => {
             longitude: lng,
           }}
         />
-      </MapView> */}
+      </MapView> 
 
       <View style={styles.letterButton}>
         <View style={{ alignItems: "center", justifyContent: "center" }}>
@@ -204,12 +205,12 @@ const Map = () => {
                     key={index}
                     style={styles.button}
                     onPress={() => {
-                      // animateRegion(
-                      //   setLtd(item.latitude),
-                      //   setLng(item.longitude, setZoom(item.zoomLocation))
-                      // );
-                      // setLtd(item.latitude);
-                      // setLng(item.longitude);
+                      animateRegion(
+                        setLtd(item.latitude),
+                        setLng(item.longitude, setZoom(item.zoomLocation))
+                      );
+                      setLtd(item.latitude);
+                      setLng(item.longitude);
                       setCapital(item.capital);
                       Alert.alert(item.capital, item.description);
                     }}

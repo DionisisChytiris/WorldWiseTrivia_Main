@@ -5,9 +5,10 @@ import {
   Image,
   StyleSheet,
   Vibration,
+  Animated,
 } from "react-native";
 import PhoneHelpOption from "../Templates/components/PhoneHelpOption";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useNavigation } from "@react-navigation/native";
 import LottieView from "lottie-react-native";
 import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
@@ -340,6 +341,29 @@ const QuizMainTemplate = (props) => {
     }
   };
 
+  const answerAnims = useRef([
+    new Animated.Value(0), // Box 0
+    new Animated.Value(0), // Box 1
+    new Animated.Value(0), // Box 2
+    new Animated.Value(0), // Box 3
+  ]).current;
+
+  useEffect(() => {
+    answerAnims.forEach((anim) => anim.setValue(0));
+    setTimeout(() => {
+      Animated.stagger(
+        150, // Delay between each animation
+        answerAnims.map((anim) =>
+          Animated.timing(anim, {
+            toValue: 1,
+            duration: 500,
+            useNativeDriver: true,
+          })
+        )
+      ).start();
+    }, 100);
+  }, [index, answerAnims]);
+
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
       {/* Header */}
@@ -437,7 +461,7 @@ const QuizMainTemplate = (props) => {
               <View>
                 <Text
                   style={{
-                    fontSize: height>1000? 18:13,
+                    fontSize: height > 1000 ? 18 : 13,
                   }}
                 >
                   50%
@@ -475,14 +499,25 @@ const QuizMainTemplate = (props) => {
                         : styles.box2,
                     ]}
                   >
-                    <View>
+                    <Animated.View
+                      style={{
+                        transform: [
+                          {
+                            scale: answerAnims[index].interpolate({
+                              inputRange: [0, 1],
+                              outputRange: [0.5, 1],
+                            }),
+                          },
+                        ],
+                      }}
+                    >
                       <Image source={item.img} style={img} />
                       {show ? (
                         <Text style={stylesMain.showCountry1}>
                           {item.country}
                         </Text>
                       ) : null}
-                    </View>
+                    </Animated.View>
                     {/* Correct (Tick) Symbol */}
                     {selectedAnswer === index &&
                     index === currentQuestion.correctAnswerIndex ? (
@@ -730,7 +765,7 @@ const stylesMain = StyleSheet.create({
   },
   fiftyfiftybutton: {
     position: "absolute",
-    left: height > 1000 ? 85: 65,
+    left: height > 1000 ? 85 : 65,
     top: 10,
     display: "flex",
     alignItems: "center",

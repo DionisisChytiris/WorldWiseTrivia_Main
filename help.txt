@@ -51,3 +51,4 @@ eas update --channel production --message "Test update"    // development, produ
 
 
 npx expo-doctor   //to check if there is any issue with packages etc on your project
+
