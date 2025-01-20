@@ -75,7 +75,7 @@ const Home = () => {
         <View style={{ marginBottom: 0 }}>
           <Text style={{ color: text1, marginTop: -120 }}>
             {t("welcome")}
-            {name}!
+             {name}!
           </Text>
         </View>
       ) : null}
