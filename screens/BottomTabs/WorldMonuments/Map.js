@@ -7,6 +7,7 @@ import {
   Pressable,
   ScrollView,
   Image,
+  Platform,
   Alert,
   ActivityIndicator,
 } from "react-native";
@@ -88,7 +89,7 @@ const Map = () => {
         mapType={MAP_TYPES.TERRAIN}
         style={styles.map}
         initialRegion={region}
-        provider={PROVIDER_GOOGLE}
+        provider={Platform.OS === "android" ? PROVIDER_GOOGLE : undefined}
         onRegionChange={onRegionChange}
       >
         <Marker

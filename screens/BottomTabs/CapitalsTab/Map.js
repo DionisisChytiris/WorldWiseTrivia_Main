@@ -8,6 +8,7 @@ import {
   ScrollView,
   Alert,
   Image,
+  Platform,
   ActivityIndicator,
 } from "react-native";
 import { AntDesign } from "@expo/vector-icons";
@@ -134,8 +135,8 @@ const Map = () => {
     <View style={styles.container}>
       <MapView
         ref={mapRef}
-        // provider={PROVIDER_GOOGLE}
-        provider="google"
+        provider={Platform.OS === "android" ? PROVIDER_GOOGLE : undefined}
+        // provider="google"
         mapType={MAP_TYPES.TERRAIN}
         style={styles.map}
         initialRegion={region}

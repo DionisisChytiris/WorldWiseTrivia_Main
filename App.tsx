@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import React, { useState, useEffect } from "react";
 import AppNavigator from "./AppNavigator";
 import { ThemeProvider } from "./utils/ThemeMode/ThemeProvider";
@@ -7,6 +8,7 @@ import Splash from "./Splash";
 import * as Updates from "expo-updates";
 import { Linking, Alert, Platform } from "react-native";
 import { useTranslation } from "react-i18next";
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -63,11 +65,13 @@ export default function App() {
   // }, []);
 
   return (
+    <GestureHandlerRootView style={{ flex: 1 }}>
     <Provider store={store}>
       <ThemeProvider>
         {/* {isLoading ? <Splash setIsLoading={setIsLoading} /> : <AppNavigator />} */}
          <AppNavigator />
       </ThemeProvider>
     </Provider>
+  </GestureHandlerRootView>
   );
 }

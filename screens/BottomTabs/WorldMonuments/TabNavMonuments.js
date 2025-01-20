@@ -140,7 +140,8 @@ const TabNavMonuments = () => {
         }}
       >
         {() => (
-          <Stack.Navigator initialRouteName="WorldMonumentsHome">
+          <Stack.Navigator>
+          {/* <Stack.Navigator initialRouteName="WorldMonumentsHome"> */}
             <Stack.Group screenOptions={{headerShown: false}}>
               <Stack.Screen
                 name="ReturnMonument"
