@@ -13,6 +13,7 @@ import { useDispatch } from "react-redux";
 import actions from "./utils/DispatchData";
 import { useAppSelector } from "./ReduxSetUp/store";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import Contact from "./screens/BottomTabs/Templates/components/Contact";
 
 const Stack = createNativeStackNavigator<AppNavigatorTypeList>();
 
@@ -58,8 +59,7 @@ const AppNavigator = () => {
 
   return (
     <NavigationContainer>
-      <Stack.Navigator
-      >
+      <Stack.Navigator id={undefined}>
         <Stack.Screen
           name="Home"
           component={Home}
@@ -109,6 +109,15 @@ const AppNavigator = () => {
             gestureEnabled: false,
             orientation: "portrait",
             // contentStyle: {backgroundColor: 'green'}
+          }}
+        />
+        <Stack.Screen
+          name="Contact"
+          component={Contact}
+          options={{
+            headerShown: false,
+            gestureEnabled: false,
+            orientation: "portrait"
           }}
         />
       </Stack.Navigator>

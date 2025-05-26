@@ -48,6 +48,9 @@ const TabNavMixedQsts= ({ navigation }) => {
               source={require("../../../assets/settings/apps.png")}
             />
           ),
+          tabBarLabelStyle: {
+            marginTop: 10, // Apply marginTop here
+          },
         }}
       >
         {() => (
@@ -104,14 +107,15 @@ const TabNavMixedQsts= ({ navigation }) => {
                 justifyContent: "center",
                 backgroundColor: "transparent",
                 width: "25%",
-                marginTop: 12,
+                marginLeft: 60,
+                marginTop: 8,
               }}
             >
               <Image
-                style={{ width: 35, height: 35, marginBottom: -2 }}
+                style={{ width: 35, height: 35, marginBottom: 0 }}
                 source={require("../../../assets/settings/settings.png")}
               />
-              <Text style={{ fontSize: 10, color: "gray" }}>
+              <Text style={{ fontSize: 10, color: "gray", width: 55 }}>
                 {t("settings")}
               </Text>
             </Pressable>

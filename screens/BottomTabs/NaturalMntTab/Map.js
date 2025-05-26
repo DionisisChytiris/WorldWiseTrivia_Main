@@ -1,4 +1,5 @@
-import {  StyleSheet,
+import {
+  StyleSheet,
   View,
   Text,
   Dimensions,
@@ -7,22 +8,25 @@ import {  StyleSheet,
   Image,
   Platform,
   Alert,
-  ActivityIndicator,} from 'react-native'
-import React, { useState, useRef,useCallback }  from 'react'
+  ActivityIndicator,
+} from "react-native";
+import React, { useState, useRef, useCallback } from "react";
 import { AntDesign } from "@expo/vector-icons";
 import MapView, { MAP_TYPES, Marker, PROVIDER_GOOGLE } from "react-native-maps";
 import { useSelector } from "react-redux";
 import { useTranslation } from "react-i18next";
-import MapDataEn from '../../../data/naturalMnts/Map/MapEn';
-import MapDataEl from '../../../data/naturalMnts/Map/MapEl';
-import MapDataEs from '../../../data/naturalMnts/Map/MapEs';
+import MapDataEn from "../../../data/naturalMnts/Map/MapEn";
+import MapDataEl from "../../../data/naturalMnts/Map/MapEl";
+import MapDataEs from "../../../data/naturalMnts/Map/MapEs";
 
 const { width, height } = Dimensions.get("window");
 const ASPECT_RATIO = (width * 100) / height;
 
 const Map = () => {
   // const dataMap = MapDataEs
-  const {mapNaturalMntItem} =useSelector((state) => state.NaturalMntMapNames)
+  const { mapNaturalMntItem } = useSelector(
+    (state) => state.NaturalMntMapNames
+  );
   const { t } = useTranslation();
   const [region, setRegion] = useState({
     latitude: 37.78825,
@@ -60,37 +64,43 @@ const Map = () => {
     ...LocationCoordinate(),
   });
 
-  
   const LetterButton = (props) => {
-    const [scale, setScale]=useState(5)
-    const [left, setLeft]=useState(0)
-    const [color, setColor]=useState('transparent')
-    return(
+    const [scale, setScale] = useState(5);
+    const [left, setLeft] = useState(0);
+    const [color, setColor] = useState("transparent");
+    return (
       <Pressable
-        onPressIn={()=>(setScale(20),setLeft(70), setColor('lightgray'))}
+        onPressIn={() => (setScale(20), setLeft(70), setColor("lightgray"))}
         onPressOut={() => {
           setLetter(props.ltr);
           setLoading(true);
-          setScale(5)
-          setColor('transparent')
+          setScale(5);
+          setColor("transparent");
           // console.log("response");
         }}
       >
-        <View style={{backgroundColor: color, paddingHorizontal: 20, paddingVertical: scale, marginLeft: left}}>
-          <Text >{props.ltr}</Text>
+        <View
+          style={{
+            backgroundColor: color,
+            paddingHorizontal: 20,
+            paddingVertical: scale,
+            marginLeft: left,
+          }}
+        >
+          <Text>{props.ltr}</Text>
         </View>
       </Pressable>
     );
-  }
+  };
 
   return (
     <View style={styles.container}>
-     <MapView
+      <MapView
         ref={mapRef}
+        provider={Platform.OS === "android" ? PROVIDER_GOOGLE : undefined}
         mapType={MAP_TYPES.TERRAIN}
         style={styles.map}
         initialRegion={region}
-        provider={Platform.OS === "android" ? PROVIDER_GOOGLE : undefined}
         onRegionChange={onRegionChange}
       >
         <Marker
@@ -98,29 +108,29 @@ const Map = () => {
             latitude: ltd,
             longitude: lng,
           }}
+          tracksViewChanges={true}
         />
       </MapView>
 
-      
       <View style={styles.letterButton}>
         <View style={{ alignItems: "center", justifyContent: "center" }}>
           <AntDesign name="arrowleft" size={12} color="black" />
         </View>
         <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
           <View style={{ gap: 0, flexDirection: "row" }}>
-            <LetterButton ltr={t("Ntrltr1")}/>
-            <LetterButton ltr={t("Ntrltr2")}/>
+            <LetterButton ltr={t("Ntrltr1")} />
+            <LetterButton ltr={t("Ntrltr2")} />
             <LetterButton ltr={t("Ntrltr3")} />
             <LetterButton ltr={t("Ntrltr4")} />
-            <LetterButton ltr={t("Ntrltr5")}/>
+            <LetterButton ltr={t("Ntrltr5")} />
             <LetterButton ltr={t("Ntrltr6")} />
             <LetterButton ltr={t("Ntrltr7")} />
             <LetterButton ltr={t("Ntrltr8")} />
-            <LetterButton ltr={t("Ntrltr9")}/>
-            <LetterButton ltr={t("Ntrltr10")}/>
+            <LetterButton ltr={t("Ntrltr9")} />
+            <LetterButton ltr={t("Ntrltr10")} />
             <LetterButton ltr={t("Ntrltr11")} />
-            <LetterButton ltr={t("Ntrltr12")}/>
-            <LetterButton ltr={t("Ntrltr13")}/>
+            <LetterButton ltr={t("Ntrltr12")} />
+            <LetterButton ltr={t("Ntrltr13")} />
           </View>
         </ScrollView>
         <View style={{ alignItems: "center", justifyContent: "center" }}>
@@ -131,7 +141,7 @@ const Map = () => {
       <View style={styles.buttonContainer}>
         <ScrollView horizontal={true}>
           {mapNaturalMntItem.map((item, index) => {
-          // {mapMonumentsItem.map((item, index) => {
+            // {mapMonumentsItem.map((item, index) => {
             // const [test, setTest] =React.useState(1)
             return (
               <View
@@ -141,7 +151,7 @@ const Map = () => {
                 {item.ltr === letter && (
                   <Pressable
                     key={index}
-                    style={[styles.button,{opacity: 1}]}
+                    style={[styles.button, { opacity: 1 }]}
                     // onPressIn={()=>{}}
                     onPress={() => {
                       animateRegion(
@@ -151,7 +161,7 @@ const Map = () => {
                       setLtd(item.latitude);
                       setLng(item.longitude);
                       // setTest(1)
-                      Alert.alert(item.title,item.description)
+                      Alert.alert(item.title, item.description);
                     }}
                     // onPressOut={()=>Alert.alert(item.title,item.description)}
                   >
@@ -180,11 +190,10 @@ const Map = () => {
         </ScrollView>
       </View>
     </View>
-  )
-}
+  );
+};
 
-export default Map
-
+export default Map;
 
 const styles = StyleSheet.create({
   container: {

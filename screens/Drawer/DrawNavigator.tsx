@@ -27,10 +27,11 @@ const DrawNavigator = () => {
   // }, []);
 
   return (
-    <Drawer.Navigator drawerContent={(props) => <DrawerContent {...props} />}>
+    <Drawer.Navigator id={undefined} drawerContent={(props) => <DrawerContent {...props} />}>
       <Drawer.Screen name="Drawer" options={{ headerShown: false }}>
         {() => (
           <Stack.Navigator
+            id={undefined}
             screenOptions={{
               headerStyle: {
                 backgroundColor: colors.backgroundBottomTab,

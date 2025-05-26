@@ -71,14 +71,10 @@ const Home = () => {
         <Text>Button</Text>
       </Pressable>
       <RateModal visible={show} onClose={() => setShow(false)} /> */}
-      {name ? (
-        <View style={{ marginBottom: 0 }}>
-          <Text style={{ color: text1, marginTop: -120 }}>
-            {t("welcome")}
-             {name}!
-          </Text>
-        </View>
-      ) : null}
+      <View style={{ position: "absolute", top: 150, alignItems: "center" }}>
+        <Text style={[styles.title, { color: text1 }]}>World Geography</Text>
+        <Text style={[styles.title, { color: text1 }]}>Quiz</Text>
+      </View>
       <Pressable
         onPressIn={() => (
           setColor("#ccc"),
@@ -98,20 +94,23 @@ const Home = () => {
         style={[styles.circle, { backgroundColor: circle }]}
       >
         <View style={{ justifyContent: "center", alignItems: "center" }}>
-          <Text style={[styles.title, { color: text }]}>World Wise</Text>
-          <Text style={[styles.title, { color: text }]}>Trivia</Text>
+          <Text style={[styles.title, { color: text, marginLeft: 5 }]}>
+            Press
+          </Text>
+          <Text style={[styles.title, { color: text, fontSize: 16 }]}>
+            To Enter
+          </Text>
         </View>
-        {/* {name ? (
-          <Text>Enter</Text>
-        ) : (
-          <View style={{ justifyContent: "center", alignItems: "center" }}>
-            <Text style={[styles.title, { color: text }]}>World Wise</Text>
-            <Text style={[styles.title, { color: text }]}>Trivia</Text>
-          </View>
-        )} */}
       </Pressable>
+      {name ? (
+        <View style={{ position: "absolute", bottom: 150 }}>
+          <Text style={{ color: text1, marginBottom: 0 }}>
+            {(t("welcome") ?? "") + (name ?? "")}!
+          </Text>
+        </View>
+      ) : null}
       <View style={{ position: "absolute", bottom: 40 }}>
-        <Text style={{ color: text1, fontSize: 12 }}> 2024</Text>
+        <Text style={{ color: text1, fontSize: 12 }}>2025</Text>
       </View>
       {/* <View style={{ position: "absolute", bottom: 80 }}>
         <Pressable onPress={playSound}>

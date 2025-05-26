@@ -97,6 +97,7 @@ const Map = () => {
             latitude: ltd,
             longitude: lng,
           }}
+          tracksViewChanges={true}
         />
       </MapView>
 

@@ -1,59 +1,55 @@
 import { View, Text, Pressable, StyleSheet } from "react-native";
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import { PieChart } from "react-native-gifted-charts";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
 import LottieView from "lottie-react-native";
-import * as StoreReview from 'expo-store-review';
-import CustomeAlert from '../Templates/components/CustomAlert'
+import * as StoreReview from "expo-store-review";
+import CustomeAlert from "../Templates/components/CustomAlert";
 
 const MainResultsTemplate = (props: any) => {
   const navigation = useNavigation<any>();
   const { colors } = useTheme();
   const { t } = useTranslation();
-  const [show, setShow] = useState(false)
+  const [show, setShow] = useState(false);
 
-  const handleQuizCompletion = async() => {
+  const handleQuizCompletion = async () => {
     if (props.percentage >= 90) {
-      setShow(true)
-      
+      setShow(true);
+
       if (await StoreReview.hasAction()) {
         StoreReview.requestReview();
       } else {
-        console.log('In-app review is not supported on this device.');
+        console.log("In-app review is not supported on this device.");
       }
-      
     }
   };
 
   useEffect(() => {
     const timeout = setTimeout(() => {
-      handleQuizCompletion() 
+      handleQuizCompletion();
     }, 2000);
 
     // Clean up the timeout
     return () => clearTimeout(timeout);
-  }, []); 
+  }, []);
 
-  useEffect(()=>{
+  useEffect(() => {
     const timeout1 = setTimeout(() => {
-      setShow(false)
+      setShow(false);
     }, 5000);
 
     return () => clearTimeout(timeout1);
-  },[])
-  
-  
+  }, []);
 
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
-      {show? 
-      <View style={{position: 'absolute', top: 0, left: 0}}>
-        <CustomeAlert/>
-      </View>
-      :null
-    }
+      {show ? (
+        <View style={{ position: "absolute", top: 0, left: 0 }}>
+          <CustomeAlert />
+        </View>
+      ) : null}
       <View style={{ flexDirection: "row", gap: 10, marginBottom: 20 }}>
         <Text style={{ color: colors.text, fontWeight: "bold" }}>
           {t("quiz")}

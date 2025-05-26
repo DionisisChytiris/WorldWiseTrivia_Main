@@ -52,6 +52,9 @@ const TabNavNaturalMnts = ({ navigation }) => {
               source={require("../../../assets/settings/apps.png")}
             />
           ),
+          tabBarLabelStyle: {
+            marginTop: 10, // Apply marginTop here
+          },
         }}
       >
          {() => (
@@ -106,6 +109,9 @@ const TabNavNaturalMnts = ({ navigation }) => {
               source={require("../../../assets/NaturalMnt/ntrmnt.webp")}
             />
           ),
+          tabBarLabelStyle: {
+            marginTop: 10, // Apply marginTop here
+          },
         }}
       >
         {() => (
@@ -134,6 +140,9 @@ const TabNavNaturalMnts = ({ navigation }) => {
             //   source={require("../../../assets/settings/undo.png")}
             // />
           ),
+          tabBarLabelStyle: {
+            marginTop: 10, // Apply marginTop here
+          },
         }}
       >
         {() => (
@@ -154,14 +163,15 @@ const TabNavNaturalMnts = ({ navigation }) => {
                 justifyContent: "center",
                 backgroundColor: "transparent",
                 width: "25%",
-                marginTop: 12
+                marginTop: 12,
+                marginLeft: 30,
               }}
             >
               <Image
                 style={{ width: 35, height: 35, marginBottom: -2 }}
                 source={require("../../../assets/settings/settings.png")}
               />
-              <Text style={{ fontSize: 10, color: "grey" }}>{t("settings")}</Text>
+              <Text style={{ fontSize: 10, color: "grey" , width: 55, marginLeft: 5}}>{t("settings")}</Text>
             </Pressable>
           ),
         }}

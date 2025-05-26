@@ -76,6 +76,9 @@ const TabNavFlags = ({ navigation }) => {
               source={require("../../../assets/settings/apps.png")}
             />
           ),
+          tabBarLabelStyle: {
+            marginTop: 10, // Apply marginTop here
+          },
         }}
       >
         {() => (
@@ -131,6 +134,9 @@ const TabNavFlags = ({ navigation }) => {
               source={require("../../../assets/more/flags.webp")}
             />
           ),
+          tabBarLabelStyle: {
+            marginTop: 10, // Apply marginTop here
+          },
         }}
       >
         {() => (
@@ -183,14 +189,15 @@ const TabNavFlags = ({ navigation }) => {
                 justifyContent: "center",
                 backgroundColor: "transparent",
                 width: "25%",
-                marginTop: 12,
+                marginTop: 10,
+                marginLeft: 40,
               }}
             >
               <Image
                 style={{ width: 35, height: 35, marginBottom: -2 }}
                 source={require("../../../assets/settings/settings.png")}
               />
-              <Text style={{ fontSize: 10, color: "gray" }}>
+              <Text style={{ fontSize: 10, color: "gray", width: 55 , marginLeft: 5 }}>
                 {t("settings")}
               </Text>
             </Pressable>

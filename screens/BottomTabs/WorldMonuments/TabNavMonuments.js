@@ -50,7 +50,10 @@ const TabNavMonuments = () => {
                     style={{width: 30, height: 30, marginTop: 12}}
                     source={require('../../../assets/settings/apps.png')}
                 />
-            )
+            ),
+            tabBarLabelStyle: {
+              marginTop: 10, // Apply marginTop here
+            },
         }}
       >
         {() => (
@@ -109,7 +112,10 @@ const TabNavMonuments = () => {
                     // source={require('../../../assets/QuizScreen/monument.jpg')}
                     source={require('../../../assets/WorldMonuments/worldmnt.webp')}
                 />
-            )
+            ),
+            tabBarLabelStyle: {
+              marginTop: 10, // Apply marginTop here
+            },
         }}
       >
         {() => (
@@ -136,7 +142,10 @@ const TabNavMonuments = () => {
                 //     style={{width: 30, height: 30, marginTop: 12}}
                 //     source={require('../../../assets/settings/undo.png')}
                 // />
-            )
+            ),
+            tabBarLabelStyle: {
+              marginTop: 10, // Apply marginTop here
+            },
         }}
       >
         {() => (
@@ -166,13 +175,14 @@ const TabNavMonuments = () => {
                 backgroundColor: "transparent",
                 width: "25%",
                 marginTop: 12,
+                marginLeft: 30
               }}
             >
               <Image
                 style={{ width: 35, height: 35, marginBottom: -2 }}
                 source={require("../../../assets/settings/settings.png")}
               />
-              <Text style={{ fontSize: 10, color: "gray" }}>
+              <Text style={{ fontSize: 10, color: "gray", width: 55, marginLeft: 5}}>
                 {t("settings")}
               </Text>
             </Pressable>

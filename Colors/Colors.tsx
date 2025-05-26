@@ -1,8 +1,4 @@
-// import { StyleSheet } from "react-native";
-
 const colors = {
-    // primary: "#10A37F",
-    // yellow: "yellow",
     white: "#FFFFFF",
     white2:"#e8e8e8",
     black: "#0B0B0B",
@@ -42,6 +38,7 @@ const colors = {
     backgroundMaterialTopTab: colors.white,
     backgroundDrawer: colors.primaryLightGray,
     backgroundBottomTab: colors.lightGray,
+    backgroundPageButton: colors.white2,
     bgFlagsCnt: colors.white2,
     bgFlagsCnt1: colors.white,
     bgCapitalsCnt: colors.primaryLightGray
@@ -63,6 +60,7 @@ const colors = {
     backgroundMaterialTopTab: colors.lightGray1,
     backgroundDrawer: colors.darkBlue1,
     backgroundBottomTab: colors.darkBlue2,
+    backgroundPageButton: colors.darkBlue2,
     bgFlagsCnt: colors.darkBlue2,
     bgFlagsCnt1: colors.darkBlue2,
     bgCapitalsCnt: colors.lightBlue1

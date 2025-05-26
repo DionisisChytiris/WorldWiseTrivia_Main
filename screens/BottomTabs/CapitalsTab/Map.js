@@ -147,7 +147,10 @@ const Map = () => {
             latitude: ltd,
             longitude: lng,
           }}
+          pinColor="red"
+          tracksViewChanges={true}
         />
+      
       </MapView> 
 
       <View style={styles.letterButton}>

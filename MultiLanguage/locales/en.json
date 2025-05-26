@@ -18,6 +18,12 @@
   "repeat": "Repeat",
   "AlertMessage1": "Great job! You scored above 90%!",
   "AlertMessage2": "Well done ",
+  "ShareButton": "Share this app",
+  "more": "More",
+  "sound": "Sound",
+  "vibration": "Vibration",
+  "contact": "Contact",
+  "sendMessage": "Send your message",
 
   "EXPO UPDATES":"---------------------------------------------",
   "update": "Available Update",

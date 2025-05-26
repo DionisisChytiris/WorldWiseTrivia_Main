@@ -5,7 +5,7 @@ type BooleanState = {
 };
 
 const initialState: BooleanState = {
-  value: false,
+  value: true,
 };
 
 const VibrationSlice = createSlice({

@@ -83,6 +83,9 @@ const TabNavCapitals = ({ navigation }) => {
               source={require("../../../assets/settings/apps.png")}
             />
           ),
+          tabBarLabelStyle: {
+            marginTop: 10, // Apply marginTop here
+          },
         }}
         // options={{
         //   tabBarButton: (props) => (
@@ -157,11 +160,14 @@ const TabNavCapitals = ({ navigation }) => {
           tabBarLabel: t("Learn"),
           tabBarIcon: () => (
             <Image
-              style={{ width: 30, height: 30, marginTop: 12, borderRadius: 16 }}
+              style={{ width: 30, height: 30, marginTop: 14, borderRadius: 16 }}
               // source={require("../../../assets/QuizScreen/lon.png")}
               source={require("../../../assets/more/capitals.webp")}
             />
           ),
+          tabBarLabelStyle: {
+            marginTop: 10, // Apply marginTop here
+          },
         }}
       >
         {() => (
@@ -189,6 +195,9 @@ const TabNavCapitals = ({ navigation }) => {
               />
             </View>
           ),
+          tabBarLabelStyle: {
+            marginTop: 10, // Apply marginTop here
+          },
         }}
       >
         {() => (
@@ -214,14 +223,15 @@ const TabNavCapitals = ({ navigation }) => {
                 justifyContent: "center",
                 backgroundColor: "transparent",
                 width: "25%",
-                marginTop: 12,
+                marginLeft: 30,
+                marginTop: 8,
               }}
             >
               <Image
-                style={{ width: 35, height: 35, marginBottom: -2 }}
+                style={{ width: 35, height: 35, marginBottom: 0}}
                 source={require("../../../assets/settings/settings.png")}
               />
-              <Text style={{ fontSize: 10, color: "grey" }}>
+              <Text style={{ fontSize: 10, color: "grey", textAlign: 'center', width: 55 }}>
                 {t("settings")}
               </Text>
             </Pressable>

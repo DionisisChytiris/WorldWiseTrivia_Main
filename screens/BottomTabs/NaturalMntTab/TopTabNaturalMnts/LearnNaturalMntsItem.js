@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
     height:
       height > 880
         ? height > 1100
-          ? height / 2.7
+          ? height / 3.1
           : height > 1000
           ? height / 2.5
           : height / 4
