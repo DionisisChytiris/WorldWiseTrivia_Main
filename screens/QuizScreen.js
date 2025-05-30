@@ -46,7 +46,7 @@ const CategoryItem = ({ page, img, text }) => {
     >
       <View style={styles.buttonContext}>
         <Image style={styles.image} source={img} />
-        <Text style={[styles.text, { color: colors.textDrawer }]}>{text}</Text>
+        <Text style={[styles.text, { color: colors.textDrawer }]}>{String(text ?? "")}</Text>
       </View>
       {/* <View style={styles.progressBar}>
         <View
@@ -104,7 +104,6 @@ const QuizScreen = () => {
             {/* Capitals */}
             <CategoryItem
               page="Capitals"
-              // img={require("../assets/QuizScreen/lon.png")}
               img={require("../assets/more/capitals.webp")}
               text={t("capitals")}
               scores={score}
@@ -114,7 +113,6 @@ const QuizScreen = () => {
             <CategoryItem
               page="Flags"
               img={require("../assets/Flags/flags.png")}
-              // img={require("../assets/QuizScreen/flag.png")}
               text={t("flags")}
               scores={score1}
             />
@@ -122,9 +120,7 @@ const QuizScreen = () => {
             {/* World Monuments */}
             <CategoryItem
               page="WorldMonuments"
-              // img={require("../assets/QuizScreen/monument.jpg")}
               img={require("../assets/WorldMonuments/worldmnt.webp")}
-              // text={t("flags")}
               text={t("worldMonuments2")}
               scores={score1}
             />
@@ -133,7 +129,6 @@ const QuizScreen = () => {
             <CategoryItem
               page="NaturalMonument"
               img={require("../assets/NaturalMnt/ntrmnt.webp")}
-              // img={require("../assets/QuizScreen/naturalmnt.jpg")}
               text={t("naturalMonuments")}
               scores={score1}
             />
@@ -142,7 +137,6 @@ const QuizScreen = () => {
             <CategoryItem
               page="MixedQuestions"
               img={require("../assets/more/mixed.webp")}
-              // img={require("../assets/QuizScreen/science.jpg")}
               text={t("mixedQuestions")}
               scores={score1}
             />
@@ -202,27 +196,7 @@ const styles = StyleSheet.create({
     // textAlign: height > 1000 ? "center" : null,
     textAlign: "center",
   },
-  // progressBar: {
-  //   backgroundColor: "#f5f5f5",
-  //   width: "90%",
-  //   flexDirection: "row",
-  //   alignItems: "center",
-  //   height: 5,
-  //   borderRadius: 20,
-  //   justifyContent: "center",
-  //   marginTop: "3%",
-  //   marginBottom: 5,
-  //   marginLeft: "auto",
-  //   marginRight: "auto",
-  // },
-  // progressBarColor: {
-  //   backgroundColor: "lightblue",
-  //   borderRadius: 12,
-  //   position: "absolute",
-  //   left: 0,
-  //   height: 5,
-  //   right: 0,
-  // },
+
   button: {
     width:
       height > 900
@@ -256,216 +230,3 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
   },
 });
-
-// import {
-//   View,
-//   Text,
-//   StyleSheet,
-//   Pressable,
-//   Image,
-//   ScrollView,
-//   SafeAreaView,
-// } from "react-native";
-// import React from "react";
-// import { useTranslation } from "react-i18next";
-// import { useTheme } from "../utils/ThemeMode/ThemeProvider";
-// import { useNavigation } from "@react-navigation/native";
-// import AsyncStorage from "@react-native-async-storage/async-storage";
-// import { Dimensions } from "react-native";
-
-// const width = Dimensions.get("window").width;
-// const height = Dimensions.get("window").height;
-
-// const CategoryItem = ({ page, img, text }) => {
-//   const navigation = useNavigation();
-//   const { colors } = useTheme();
-
-//   return (
-//     <Pressable
-//       style={({ pressed }) => [
-//         styles.cardButton,
-//         { backgroundColor: colors.backgroundPageButton, marginBottom: 20 },
-//         pressed && styles.cardPressed,
-//       ]}
-//       onPress={() => navigation.navigate(page)}
-//     >
-//       <Image source={img} style={{ width: 100, height: 80, opacity: 1 }} />
-//       <View style={{ width: "60%" }}>
-//         <Text
-//           style={{
-//             paddingRight: 20,
-//             fontSize: 16,
-//             fontWeight: "bold",
-//             color: colors.textDrawer,
-//           }}
-//         >
-//           {String(text ?? "")}
-//         </Text>
-//       </View>
-//     </Pressable>
-//   );
-// };
-
-// // MAIN FUNCTION
-// const QuizScreen = () => {
-//   const { colors } = useTheme();
-//   const { t } = useTranslation();
-//   // const [score, setScore] = React.useState(0);
-//   // const score1 = 90;
-
-//   // React.useEffect(() => {
-//   //   getData();
-//   // }, []);
-
-//   // const getData = () => {
-//   //   try {
-//   //     AsyncStorage.getItem("score").then((value) => {
-//   //       if (value != null) {
-//   //         let score = JSON.parse(value);
-//   //         setScore(score);
-//   //         console.log(score);
-//   //       }
-//   //     });
-//   //   } catch (e) {
-//   //     console.log(e);
-//   //   }
-//   // };
-
-//   return (
-//     <SafeAreaView
-//       style={[styles.container, { backgroundColor: colors.backgroundDrawer }]}
-//     >
-//       <Text style={[styles.header, { color: colors.textDrawer, height: 100 }]}>
-//         {String(t("categories") ?? "")}
-//       </Text>
-//       <ScrollView
-//         contentContainerStyle={styles.scrollContent}
-//         showsVerticalScrollIndicator={false}
-//       >
-//         <View
-//           style={[
-//             styles.container,
-//             { backgroundColor: colors.backgroundDrawer },
-//           ]}
-//         >
-//           <View style={styles.content}>
-//             <CategoryItem
-//               page="Capitals"
-//               img={require("../assets/more/capitals.webp")}
-//               text={String(t("capitals") ?? "")}
-//             />
-
-//             <CategoryItem
-//               page="Flags"
-//               img={require("../assets/Flags/flags.png")}
-//               text={String(t("flags") ?? "")}
-//             />
-
-//             <CategoryItem
-//               page="WorldMonuments"
-//               img={require("../assets/WorldMonuments/worldmnt.webp")}
-//               text={String(t("worldMonuments2") ?? "")}
-//             />
-
-//             <CategoryItem
-//               page="NaturalMonument"
-//               img={require("../assets/NaturalMnt/ntrmnt.webp")}
-//               text={String(t("naturalMonuments") ?? "")}
-//             />
-
-//             <CategoryItem
-//               page="MixedQuestions"
-//               img={require("../assets/more/mixed.webp")}
-//               text={String(t("mixedQuestions") ?? "")}
-//             />
-//           </View>
-//         </View>
-//       </ScrollView>
-//       <View
-//         style={{ position: "absolute", bottom: 30, right: 0, left: 0,alignItems: 'center', width: "100%" }}
-//       >
-//         {/* <ShareButton /> */}
-//         <Text>World Wise Trivia</Text>
-//       </View>
-//     </SafeAreaView>
-//   );
-// };
-
-// export default QuizScreen;
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: "#f5f5f5",
-//   },
-//   header: {
-//     fontSize: height > 1000 ? 32 : 26,
-//     fontWeight: "bold",
-//     textAlign: "center",
-//     marginTop: 60,
-//     marginBottom: 0,
-//     color: "#000",
-//   },
-//   scrollContent: {
-//     paddingHorizontal: 16,
-//     paddingBottom: 100,
-//   },
-//   grid: {
-//     flexDirection: "row",
-//     flexWrap: "wrap",
-//     justifyContent: "space-between",
-//     gap: 20,
-//   },
-//   cardWrapper: {
-//     width: "48%",
-//     marginBottom: 16,
-//   },
-//   card: {
-//     backgroundColor: "#f5f5f5",
-//     borderRadius: 16,
-//     overflow: "hidden",
-//     shadowColor: "#000",
-//     shadowOffset: { width: 0, height: 2 },
-//     shadowOpacity: 0.1,
-//     shadowRadius: 8,
-//     elevation: 4,
-//     height: height * 0.27,
-//   },
-//   cardPressed: {
-//     transform: [{ scale: 0.98 }],
-//     opacity: 0.9,
-//   },
-//   cardImage: {
-//     width: "100%",
-//     height: height * 0.2,
-//     aspectRatio: 1.2,
-//   },
-//   cardTitle: {
-//     position: "absolute",
-//     bottom: 0,
-//     backgroundColor: "#f5f5f5",
-//     width: "100%",
-//     fontSize: height > 900 ? (height > 1000 ? 18 : 16) : 15,
-//     fontWeight: "700",
-//     textAlign: "center",
-//     paddingVertical: 12,
-//     color: "#000",
-//   },
-//   cardButton: {
-//     width: "100%",
-//     height: 80,
-//     // height: height > 900 ? 80: 55,
-//     backgroundColor: "lightgrey",
-//     flexDirection: "row",
-//     justifyContent: "space-between",
-//     alignItems: "center",
-//     gap: 20,
-//     borderRadius: 20,
-//     overflow: "hidden",
-//     shadowColor: "#000",
-//     shadowOffset: { width: 0, height: 2 },
-//     shadowOpacity: 0.1,
-//     shadowRadius: 8,
-//     elevation: 4,
-//   },
-// });

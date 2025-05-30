@@ -72,8 +72,8 @@ const Home = () => {
       </Pressable>
       <RateModal visible={show} onClose={() => setShow(false)} /> */}
       <View style={{ position: "absolute", top: 150, alignItems: "center" }}>
-        <Text style={[styles.title, { color: text1 }]}>World Geography</Text>
-        <Text style={[styles.title, { color: text1 }]}>Quiz</Text>
+        <Text style={[styles.title, { color: text1 }]}>World Wise Trivia</Text>
+        {/* <Text style={[styles.title, { color: text1 }]}>Trivia</Text> */}
       </View>
       <Pressable
         onPressIn={() => (
@@ -105,7 +105,7 @@ const Home = () => {
       {name ? (
         <View style={{ position: "absolute", bottom: 150 }}>
           <Text style={{ color: text1, marginBottom: 0 }}>
-            {(t("welcome") ?? "") + (name ?? "")}!
+            {String(t("welcome") ?? "") + String(name ?? "")}!
           </Text>
         </View>
       ) : null}

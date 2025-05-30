@@ -348,7 +348,7 @@ const DrawerContent = (props) => {
               </View>
             </View>
           </TouchableRipple>
-          <TouchableRipple>
+          {/* <TouchableRipple>
             <View>
               <View style={[styles.flowDirectionRow, { marginTop: 50 }]}>
                 <MaterialIcons
@@ -383,7 +383,7 @@ const DrawerContent = (props) => {
                 <ArrowRight size={20} color={colors.textDrawer} />
               </Pressable>
             </View>
-          </TouchableRipple>
+          </TouchableRipple> */}
         </Drawer.Section>
       </DrawerContentScrollView>
     </View>
