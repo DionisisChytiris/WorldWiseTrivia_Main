@@ -4,7 +4,7 @@ export default {
   expo: {
     name: "WorldWise Trivia App",
     slug: "WorldWiseTriviaApp",
-    version: "1.0.5",
+    version: "1.0.8",
     newArchEnabled: true,
     orientation: "portrait",
     icon: "./assets/logo2.png",
@@ -16,8 +16,11 @@ export default {
     },
     assetBundlePatterns: ["**/*"],
     ios: {
+      infoPlist: {
+        ITSAppUsesNonExemptEncryption: false,
+      },
       config: {
-        googleMapsApiKey:  process.env.EXPO_PUBLIC_GOOGLE_MAPS_KEY,
+        googleMapsApiKey: process.env.EXPO_PUBLIC_GOOGLE_MAPS_KEY_IOS,
       },
       supportsTablet: true,
       bundleIdentifier: "com.worldwisetrivia.app",

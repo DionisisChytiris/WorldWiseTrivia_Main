@@ -60,34 +60,11 @@ export default function App() {
     checkForUpdates();
   }, []);
 
-  // used only when create a new build
-  // const checkVersion = async () => {
-  //   const appStoreLink =
-  //     Platform.OS === "ios"
-  //       ? "itms-apps://itunes.apple.com/us/app/6670754535"
-  //       : "market://details?id=com.worldwisetrivia.app";
-
-  //   Alert.alert(
-  //     t("update"),
-  //     t("message2"),
-  //     [
-  //       { text: t("cancel"), style: "cancel" },
-  //       {
-  //         text: t("restart"),
-  //         onPress: () => Linking.openURL(appStoreLink),
-  //       },
-  //     ]
-  //   );
-  // };
-  // useEffect(() => {
-  //   checkVersion();
-  // }, []);
-
+ 
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <Provider store={store}>
         <ThemeProvider>
-          {/* {isLoading ? <Splash setIsLoading={setIsLoading} /> : <AppNavigator />} */}
           <AppNavigator />
         </ThemeProvider>
       </Provider>

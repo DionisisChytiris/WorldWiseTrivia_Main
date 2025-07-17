@@ -1,6 +1,5 @@
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import { View, Pressable, Image, Text } from "react-native";
-import FastImage from "react-native-fast-image";
 import { useTheme } from "../../../../utils/ThemeMode/ThemeProvider";
 import Europe from './Europe'
 import America from "./America";

@@ -16,10 +16,9 @@ import {
   Pressable,
 } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
-import { AntDesign, FontAwesome5, MaterialIcons } from "@expo/vector-icons";
+import { Ionicons, MaterialIcons, Feather } from "@expo/vector-icons";
 import { SafeAreaView } from "react-native-safe-area-context";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { ChevronLeft, Delete, Home, Trash2 } from "lucide-react-native";
 import { useNavigation } from "@react-navigation/native";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { AppNavigatorTypeList } from "../../../../Types/AppNavigatorTypeList";
@@ -36,7 +35,7 @@ const Contact = () => {
   const navigation = useNavigation<ContactProp>();
   const { colors } = useTheme();
   const [content, setContent] = useState("");
-  const [messages, setMessages] = useState([]);
+  const [messages, setMessages] = useState<any>([]);
 
   useEffect(() => {
     const fetchUserMessages = async () => {
@@ -44,9 +43,11 @@ const Contact = () => {
       if (!userId) return;
 
       try {
-        const res = await fetch(`http://192.168.1.234:3000/messages/${userId}`);
+        const res = await fetch(`https://worldwisetriviaquizbackend.onrender.com/messages/${userId}`);
+        // const res = await fetch(`http://192.168.1.234:3000/messages/${userId}`);
         const data = await res.json();
-        setMessages(data);
+        // setMessages(data);
+        setMessages(Array.isArray(data) ? data : []);
       } catch (err) {
         console.error(err);
       }
@@ -71,7 +72,7 @@ const Contact = () => {
     try {
       const userId = await AsyncStorage.getItem("user_id");
       console.log("Sending message from user:", userId);
-      const response = await fetch("http://192.168.1.234:3000/messages", {
+      const response = await fetch("https://worldwisetriviaquizbackend.onrender.com/messages", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -96,7 +97,7 @@ const Contact = () => {
   const deleteMessage = async (message) => {
     const id = message.id;
     try {
-      const response = await fetch(`http://192.168.1.234:3000/messages/${id}`, {
+      const response = await fetch(`https://worldwisetriviaquizbackend.onrender.com/messages/${id}`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
@@ -150,7 +151,8 @@ const Contact = () => {
               }}
               style={styles.homeButton}
             >
-              <Home size={24} color="#dddbdb" />
+              <Ionicons name="home" size={24} color="#dddbdb" />
+              {/* <Home size={24} color="#dddbdb" /> */}
             </TouchableOpacity>
             {/* <View style={styles.heroContent}>
               <Text style={styles.heroTitle}>Γεωγραφία της Ελλάδας</Text>
@@ -228,7 +230,8 @@ const Contact = () => {
                       onPress={() => deleteMessage(msg)}
                       style={{ padding: 20 }}
                     >
-                      <Trash2 color="red" size={24} />
+                      <Feather name="trash-2" size={24} color="red" />
+                      {/* <Trash2 color="red" size={24} /> */}
                     </Pressable>
                   </View>
 

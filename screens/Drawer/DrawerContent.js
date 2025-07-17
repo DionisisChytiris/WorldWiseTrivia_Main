@@ -4,18 +4,22 @@ import { DrawerContentScrollView } from "@react-navigation/drawer";
 import { Drawer, TouchableRipple } from "react-native-paper";
 import { useTheme } from "../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
-import { MaterialIcons, MaterialCommunityIcons } from "@expo/vector-icons";
+import {
+  MaterialIcons,
+  MaterialCommunityIcons,
+  Ionicons,
+  Feather,
+} from "@expo/vector-icons";
 import { useDispatch } from "react-redux";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useNavigation } from "@react-navigation/native";
-import { Feather } from "@expo/vector-icons";
 import { toggleBoolean } from "../../ReduxSetUp/SoundVibration/VibrationSlice.tsx";
 import { useAppSelector } from "../../ReduxSetUp/store";
 import { toggleSound } from "../../ReduxSetUp/SoundVibration/SoundSlice";
 import { useRoute } from "@react-navigation/native";
 import actions from "../../utils/DispatchData";
 import { styles } from "./DrawerContentStyle.tsx";
-import { ArrowRight, Pencil, PencilLine, Edit } from "lucide-react-native";
+// import { ArrowRight, Edit } from "lucide-react-native";
 // import { statusActive, statusCancel, toggleValue } from "../../ReduxSetUp/SoundVibration/VibrationSlice.tsx";
 
 const DrawerContent = (props) => {
@@ -94,7 +98,9 @@ const DrawerContent = (props) => {
               onPress={removeData}
             >
               {/* <Pencil size={24} color="black" /> */}
-              <Edit size={16} color="green" />
+
+              <Feather name="edit" size={16} color="green" />
+              {/* <Edit size={16} color="green" /> */}
               {/* <PencilLine size={24} color="blue" /> */}
               {/* <Text style={{ fontSize: 12, color: colors.textDrawer }}>
                 {t("edit")}
@@ -139,7 +145,6 @@ const DrawerContent = (props) => {
               >
                 {dark ? (
                   <View style={{ flexDirection: "row", gap: 10 }}>
-                    {" "}
                     <Image
                       style={{ width: 20, height: 20 }}
                       source={dark ? lightMode : darkMode}
@@ -150,7 +155,6 @@ const DrawerContent = (props) => {
                   </View>
                 ) : (
                   <View style={{ flexDirection: "row", gap: 10 }}>
-                    {" "}
                     <Image
                       style={{ width: 20, height: 20 }}
                       source={dark ? lightMode : darkMode}
@@ -348,7 +352,7 @@ const DrawerContent = (props) => {
               </View>
             </View>
           </TouchableRipple>
-          {/* <TouchableRipple>
+          <TouchableRipple>
             <View>
               <View style={[styles.flowDirectionRow, { marginTop: 50 }]}>
                 <MaterialIcons
@@ -380,10 +384,11 @@ const DrawerContent = (props) => {
                 <Text style={{ color: colors.textDrawer }}>
                   {t("sendMessage")}
                 </Text>
-                <ArrowRight size={20} color={colors.textDrawer} />
+                <Feather name="arrow-right" size={20} color={colors.textDrawer} />
+                {/* <ArrowRight size={20} color={colors.textDrawer} /> */}
               </Pressable>
             </View>
-          </TouchableRipple> */}
+          </TouchableRipple>
         </Drawer.Section>
       </DrawerContentScrollView>
     </View>

@@ -1,0 +1,45 @@
+# macOS / system
+.DS_Store
+
+# Node modules (EAS handles this)
+node_modules/
+
+# Git
+.git/
+.gitignore
+
+# Build outputs
+*.apk
+*.aab
+*.ipa
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Env files (use EAS secrets instead)
+.env
+.env.*
+
+# Assets (if not used in app)
+assets/large-unneeded-folder/
+*.psd
+*.zip
+*.mp4
+*.mov
+
+# Test files
+__tests__/
+tests/
+coverage/
+
+# Expo web build outputs
+web-build/
+
+# Custom junk
+*.bak
+tmp/
+temp/

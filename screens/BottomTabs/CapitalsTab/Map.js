@@ -39,7 +39,8 @@ const Map = () => {
   const [capital, setCapital] = useState("San Francisco");
   const [weather, setWeather] = useState("");
   const BASE_URL = `https://api.openweathermap.org/data/2.5/weather`;
-  const API_KEY = process.env.EXPO_PUBLIC_API_KEY;
+  // const API_KEY =   Platform.OS === 'ios' ? process.env.EXPO_PUBLIC_GOOGLE_MAPS_KEY_IOS : process.env.EXPO_PUBLIC_API_KEY;
+  const API_KEY =  process.env.EXPO_PUBLIC_API_KEY;
 
   const mapRef = useRef(null);
 
