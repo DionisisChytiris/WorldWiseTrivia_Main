@@ -24,6 +24,7 @@ import { StackNavigationProp } from "@react-navigation/stack";
 import { AppNavigatorTypeList } from "../../../../Types/AppNavigatorTypeList";
 import { Colors } from "react-native-paper";
 import { useTheme } from "../../../../utils/ThemeMode/ThemeProvider";
+import { ActivityIndicator } from "react-native";
 // import { RootStackParamList } from "../../Types/RootStackParamList"; // Adjust the path as needed
 // import { RootStackParamList } from "../../Types/RootStackParamList";
 // import MessagesScreen from "./MessagesScreen";
@@ -36,20 +37,46 @@ const Contact = () => {
   const { colors } = useTheme();
   const [content, setContent] = useState("");
   const [messages, setMessages] = useState<any>([]);
+  const [loadingMessages, setLoadingMessages] = useState(true);
+  const [sendingMessage, setSendingMessage] = useState(false);
+
+  // useEffect(() => {
+  //   const fetchUserMessages = async () => {
+  //     const userId = await AsyncStorage.getItem("user_id");
+  //     if (!userId) return;
+
+  //     try {
+  //       const res = await fetch(`https://worldwisetriviaquizbackend.onrender.com/messages/${userId}`);
+  //       // const res = await fetch(`http://192.168.1.234:3000/messages/${userId}`);
+  //       const data = await res.json();
+  //       // setMessages(data);
+  //       setMessages(Array.isArray(data) ? data : []);
+  //     } catch (err) {
+  //       console.error(err);
+  //     }
+  //   };
+
+  //   fetchUserMessages();
+  // }, []);
 
   useEffect(() => {
     const fetchUserMessages = async () => {
       const userId = await AsyncStorage.getItem("user_id");
-      if (!userId) return;
-
+      if (!userId) {
+        setLoadingMessages(false);
+        return;
+      }
       try {
-        const res = await fetch(`https://worldwisetriviaquizbackend.onrender.com/messages/${userId}`);
-        // const res = await fetch(`http://192.168.1.234:3000/messages/${userId}`);
+        setLoadingMessages(true);
+        const res = await fetch(
+          `https://worldwisetriviaquizbackend.onrender.com/messages/${userId}`
+        );
         const data = await res.json();
-        // setMessages(data);
         setMessages(Array.isArray(data) ? data : []);
       } catch (err) {
         console.error(err);
+      } finally {
+        setLoadingMessages(false);
       }
     };
 
@@ -70,15 +97,19 @@ const Contact = () => {
     }
 
     try {
+      setSendingMessage(true);
       const userId = await AsyncStorage.getItem("user_id");
       console.log("Sending message from user:", userId);
-      const response = await fetch("https://worldwisetriviaquizbackend.onrender.com/messages", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ content, userId }),
-      });
+      const response = await fetch(
+        "https://worldwisetriviaquizbackend.onrender.com/messages",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ content, userId }),
+        }
+      );
 
       if (response.ok) {
         const newMessage = await response.json(); // get the created message from backend
@@ -91,18 +122,23 @@ const Contact = () => {
       }
     } catch (error) {
       Alert.alert("Error:", error.message);
+    } finally {
+      setSendingMessage(false);
     }
   };
 
   const deleteMessage = async (message) => {
     const id = message.id;
     try {
-      const response = await fetch(`https://worldwisetriviaquizbackend.onrender.com/messages/${id}`, {
-        method: "DELETE",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+      const response = await fetch(
+        `https://worldwisetriviaquizbackend.onrender.com/messages/${id}`,
+        {
+          method: "DELETE",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
       // Update state immediately to remove the deleted message
       setMessages((prevMessages) =>
         prevMessages.filter((msg) => msg.id !== id)
@@ -182,7 +218,11 @@ const Contact = () => {
               placeholder="Type your message"
               style={[styles.input, { backgroundColor: colors.borderColor }]}
             />
-            <Button title="Send" onPress={sendMessage} />
+            <Button
+              title={sendingMessage ? "Sending..." : "Send"}
+              onPress={sendMessage}
+              disabled={sendingMessage}
+            />
           </View>
           <View
             style={[
@@ -198,60 +238,61 @@ const Contact = () => {
             >
               Ιστορικό Μηνυμάτων
             </Text>
-            {messages.map((msg) => {
-              return (
-                <View
-                  key={msg.id}
-                  style={{
-                    marginBottom: 20,
-                  }}
-                >
-                  {/* USER MESSAGE */}
+            {loadingMessages ? (
+              <ActivityIndicator size="large" color={colors.textDrawer} />
+            ) : (
+              messages.map((msg) => {
+                return (
                   <View
+                    key={msg.id}
                     style={{
-                      flexDirection: "row",
-                      gap: 12,
-                      alignItems: "center",
+                      marginBottom: 20,
                     }}
                   >
-                    <View style={styles.bubbleUser}>
-                      <Text style={{ color: "#f5f5f5" }}>{msg.content}</Text>
-                      <Text
-                        style={{
-                          color: "#dbd9d9",
-                          fontSize: 10,
-                          paddingTop: 5,
-                        }}
-                      >
-                        {new Date(msg.sentAt).toLocaleString()}
-                      </Text>
-                    </View>
-                    <Pressable
-                      onPress={() => deleteMessage(msg)}
-                      style={{ padding: 20 }}
-                    >
-                      <Feather name="trash-2" size={24} color="red" />
-                      {/* <Trash2 color="red" size={24} /> */}
-                    </Pressable>
-                  </View>
-
-                  {/* ADMIN REPLIES */}
-                  {msg.replies?.map((reply, idx) => (
+                    {/* USER MESSAGE */}
                     <View
-                      key={idx}
-                      style={styles.bubbleAdmin}
+                      style={{
+                        flexDirection: "row",
+                        gap: 12,
+                        alignItems: "center",
+                      }}
                     >
-                      <Text style={{ color: "#222" }}>{reply.reply}</Text>
-                      <Text
-                        style={{ color: "#555", fontSize: 10, marginTop: 5 }}
+                      <View style={styles.bubbleUser}>
+                        <Text style={{ color: "#f5f5f5" }}>{msg.content}</Text>
+                        <Text
+                          style={{
+                            color: "#dbd9d9",
+                            fontSize: 10,
+                            paddingTop: 5,
+                          }}
+                        >
+                          {new Date(msg.sentAt).toLocaleString()}
+                        </Text>
+                      </View>
+                      <Pressable
+                        onPress={() => deleteMessage(msg)}
+                        style={{ padding: 20 }}
                       >
-                        {new Date(reply.createdAt).toLocaleString()}
-                      </Text>
+                        <Feather name="trash-2" size={24} color="red" />
+                        {/* <Trash2 color="red" size={24} /> */}
+                      </Pressable>
                     </View>
-                  ))}
-                </View>
-              );
-            })}
+
+                    {/* ADMIN REPLIES */}
+                    {msg.replies?.map((reply, idx) => (
+                      <View key={idx} style={styles.bubbleAdmin}>
+                        <Text style={{ color: "#222" }}>{reply.reply}</Text>
+                        <Text
+                          style={{ color: "#555", fontSize: 10, marginTop: 5 }}
+                        >
+                          {new Date(reply.createdAt).toLocaleString()}
+                        </Text>
+                      </View>
+                    ))}
+                  </View>
+                );
+              })
+            )}
 
             {/* {messages.map((msg) => {
               // console.log("sentAt:", msg.sentAt); // 👈 Check format
@@ -534,7 +575,7 @@ const styles = StyleSheet.create({
   bubbleAdmin: {
     backgroundColor: "#f0f0f0",
     width: "80%",
-    marginLeft: '20%',
+    marginLeft: "20%",
     padding: 10,
     paddingBottom: 15,
     borderTopLeftRadius: 30,

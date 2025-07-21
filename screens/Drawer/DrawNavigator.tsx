@@ -1,3 +1,4 @@
+import { Platform} from "react-native";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import QuizScreen from "../QuizScreen";
@@ -27,7 +28,10 @@ const DrawNavigator = () => {
   // }, []);
 
   return (
-    <Drawer.Navigator id={undefined} drawerContent={(props) => <DrawerContent {...props} />}>
+    <Drawer.Navigator
+      id={undefined}
+      drawerContent={(props) => <DrawerContent {...props} />}
+    >
       <Drawer.Screen name="Drawer" options={{ headerShown: false }}>
         {() => (
           <Stack.Navigator
@@ -42,7 +46,7 @@ const DrawNavigator = () => {
                 fontWeight: "bold",
                 color: colors.textDrawer,
               },
-              orientation: "portrait"
+              orientation: "portrait",
             }}
           >
             {/* <Stack.Screen name="Hello" component={Hello} /> */}
@@ -82,6 +86,9 @@ const DrawNavigator = () => {
                 gestureEnabled: false,
                 headerTitleStyle: { fontSize: 16, fontWeight: "bold" },
                 headerTintColor: colors.textDrawer,
+                // headerStyle: {
+                //   height: Platform.OS === "android" ? 80 : 0,
+                // },
               }}
             />
             <Stack.Screen
