@@ -112,5 +112,14 @@
   "results": "Resultados",
   "correct": "Correcto",
   "wrong": "Incorrecto",
-  "unanswered": "Sin respuesta"
+  "unanswered": "Sin respuesta",
+  "Contact Form": "----------------------------------",
+  "contactTitle":"Contáctanos",
+  "contactMsg":"Mensaje",
+  "contactPlaceholder":"Escribe tu mensaje...",
+  "contactSend":"Enviar",
+  "contactSending":"Enviando...",
+  "contactMsgHis":"Historial de Mensajes",
+  "contactSug":"¿Tienes alguna sugerencia o has encontrado un error?",
+  "contactText":"No dudes en contactarnos para sugerir mejoras o informar sobre cualquier problema con la aplicación."
 }

@@ -112,5 +112,14 @@
   "results": "Results", 
   "correct": "Correct", 
   "wrong": "Wrong", 
-  "unanswered": "Unanswered"
+  "unanswered": "Unanswered",
+  "Contact Form": "----------------------------------",
+  "contactTitle":"Contact us",
+  "contactMsg":"Message",
+  "contactPlaceholder":"Enter your message...",
+  "contactSend":"Send",
+  "contactSending":"Sending...",
+  "contactMsgHis":"Message History",
+  "contactSug":"Do you have a suggestion or found an error?",
+  "contactText":"Don’t hesitate to contact us to suggest improvements or report any issues with the app."
 }

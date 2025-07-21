@@ -25,6 +25,7 @@ import { AppNavigatorTypeList } from "../../../../Types/AppNavigatorTypeList";
 import { Colors } from "react-native-paper";
 import { useTheme } from "../../../../utils/ThemeMode/ThemeProvider";
 import { ActivityIndicator } from "react-native";
+import { useTranslation } from "react-i18next";
 // import { RootStackParamList } from "../../Types/RootStackParamList"; // Adjust the path as needed
 // import { RootStackParamList } from "../../Types/RootStackParamList";
 // import MessagesScreen from "./MessagesScreen";
@@ -35,6 +36,7 @@ type ContactProp = StackNavigationProp<AppNavigatorTypeList, "Contact">;
 const Contact = () => {
   const navigation = useNavigation<ContactProp>();
   const { colors } = useTheme();
+  const { t } = useTranslation();
   const [content, setContent] = useState("");
   const [messages, setMessages] = useState<any>([]);
   const [loadingMessages, setLoadingMessages] = useState(true);
@@ -200,7 +202,7 @@ const Contact = () => {
           <View style={styles.header}>
             <MaterialIcons name="feedback" size={32} color="#007AFF" />
             <Text style={[styles.title, { color: colors.textDrawer }]}>
-              Επικοινωνίστε μαζί μας
+               {t("contactTitle")}
             </Text>
           </View>
 
@@ -209,17 +211,17 @@ const Contact = () => {
               style={{ flexDirection: "row", gap: 12, alignItems: "center" }}
             >
               <Text style={[styles.label, { color: colors.textDrawer }]}>
-                Μήνυμα
+                {t("contactMsg")}
               </Text>
             </View>
             <TextInput
               value={content}
               onChangeText={setContent}
-              placeholder="Type your message"
+              placeholder={t("contactPlaceholder")}
               style={[styles.input, { backgroundColor: colors.borderColor }]}
             />
             <Button
-              title={sendingMessage ? "Sending..." : "Send"}
+              title={sendingMessage ? t("contactSending") : t("contactSend")}
               onPress={sendMessage}
               disabled={sendingMessage}
             />
@@ -236,7 +238,7 @@ const Contact = () => {
                 { color: colors.textDrawer, marginBottom: 20 },
               ]}
             >
-              Ιστορικό Μηνυμάτων
+              {t("contactMsgHis")}
             </Text>
             {loadingMessages ? (
               <ActivityIndicator size="large" color={colors.textDrawer} />
@@ -333,7 +335,7 @@ const Contact = () => {
             ]}
           >
             <Text style={[styles.label, { color: colors.textDrawer }]}>
-              Έχεις κάποια πρόταση ή εντόπισες κάποιο λάθος;
+              {t("contactSug")}
             </Text>
             <Text
               style={[
@@ -341,9 +343,7 @@ const Contact = () => {
                 { marginTop: 10, fontWeight: "300", color: colors.textDrawer },
               ]}
             >
-              Μη διστάσεις να επικοινωνήσεις μαζί μας για να προτείνεις
-              βελτιώσεις ή να αναφέρεις τυχόν προβλήματα στη λειτουργία της
-              εφαρμογής.
+               {t("contactText")}
             </Text>
           </View>
         </ScrollView>
