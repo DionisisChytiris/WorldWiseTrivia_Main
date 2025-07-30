@@ -1,4 +1,4 @@
-import { Platform} from "react-native";
+import { Platform } from "react-native";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import QuizScreen from "../QuizScreen";
@@ -39,7 +39,6 @@ const DrawNavigator = () => {
             screenOptions={{
               headerStyle: {
                 backgroundColor: colors.backgroundBottomTab,
-                // height: 100
               },
               headerTintColor: "#fff",
               headerTitleStyle: {
@@ -51,7 +50,7 @@ const DrawNavigator = () => {
           >
             {/* <Stack.Screen name="Hello" component={Hello} /> */}
             <Stack.Screen
-              name=" "
+              name="Home"
               component={QuizScreen}
               options={{
                 title: "",
@@ -72,6 +71,8 @@ const DrawNavigator = () => {
               options={{
                 title: t("capitals"),
                 headerShown: true,
+                // gestureEnabled: true,
+          // headerBackVisible: true,
                 gestureEnabled: false,
                 headerTitleStyle: { fontSize: 16, fontWeight: "bold" },
                 headerTintColor: colors.textDrawer,
@@ -124,6 +125,7 @@ const DrawNavigator = () => {
                 headerTintColor: colors.textDrawer,
               }}
             />
+           
           </Stack.Navigator>
         )}
       </Drawer.Screen>

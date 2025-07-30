@@ -29,11 +29,32 @@ const MainChooseQuizTypeTemplate = (props) => {
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
       <View style={{ padding: 20 }}>
-        <Text style={{ fontSize: 20, fontWeight: "bold", color: colors.textDrawer, fontSize: windowHeight> 900 ? (windowHeight>1000? (windowHeight>1100? 30: 28): 20): 18  }}>
+        <Text
+          style={{
+            fontSize: 20,
+            fontWeight: "bold",
+            color: colors.textDrawer,
+            fontSize:
+              windowHeight > 900
+                ? windowHeight > 1000
+                  ? windowHeight > 1100
+                    ? 30
+                    : 28
+                  : 20
+                : 18,
+          }}
+        >
           {t("type")}
         </Text>
       </View>
-      <View style={{width: '100%',height: props.lottieHeight,marginTop: 0, marginBottom: 0}}>
+      <View
+        style={{
+          width: "100%",
+          height: props.lottieHeight,
+          marginTop: 0,
+          marginBottom: 0,
+        }}
+      >
         <LottieView
           style={{ width: "100%", height: "100%" }}
           source={props.lottieAnm}
@@ -59,15 +80,27 @@ const MainChooseQuizTypeTemplate = (props) => {
         ]}
       >
         <View style={styles.imgView}>
-          <Image
-            source={props.image1}
-            style={styles.img}
-            cover="contain"
-          />
+          <Image source={props.image1} style={styles.img} cover="contain" />
         </View>
         <View style={{ flexDirection: "column", marginLeft: 20 }}>
-          <Text style={{ color: colors.text, fontSize: windowHeight> 900 ? (windowHeight>1000?16: 13): 12  }}>{t("1 WORD")}</Text>
-          <Text style={{ color: colors.text, fontSize: windowHeight> 900 ? (windowHeight>1000?16: 13): 12  }}>{t("4 IMAGES")}</Text>
+          <Text
+            style={{
+              color: colors.text,
+              fontSize:
+                windowHeight > 900 ? (windowHeight > 1000 ? 16 : 13) : 12,
+            }}
+          >
+            {t("1 WORD")}
+          </Text>
+          <Text
+            style={{
+              color: colors.text,
+              fontSize:
+                windowHeight > 900 ? (windowHeight > 1000 ? 16 : 13) : 12,
+            }}
+          >
+            {t("4 IMAGES")}
+          </Text>
         </View>
       </Pressable>
       <Pressable
@@ -86,15 +119,27 @@ const MainChooseQuizTypeTemplate = (props) => {
         ]}
       >
         <View style={styles.imgView}>
-          <Image
-            source={props.image2}
-            style={styles.img}
-            cover="contain"
-          />
+          <Image source={props.image2} style={styles.img} cover="contain" />
         </View>
         <View style={{ flexDirection: "column", marginLeft: 20 }}>
-          <Text style={{ color: colors.text, fontSize: windowHeight> 900 ? (windowHeight>1000?16: 13): 12  }}>{t("1 IMAGE")}</Text>
-          <Text style={{ color: colors.text, fontSize: windowHeight> 900 ? (windowHeight>1000?16: 13): 12  }}>{t("4 WORDS")}</Text>
+          <Text
+            style={{
+              color: colors.text,
+              fontSize:
+                windowHeight > 900 ? (windowHeight > 1000 ? 16 : 13) : 12,
+            }}
+          >
+            {t("1 IMAGE")}
+          </Text>
+          <Text
+            style={{
+              color: colors.text,
+              fontSize:
+                windowHeight > 900 ? (windowHeight > 1000 ? 16 : 13) : 12,
+            }}
+          >
+            {t("4 WORDS")}
+          </Text>
         </View>
       </Pressable>
       {show ? (
@@ -121,8 +166,24 @@ const MainChooseQuizTypeTemplate = (props) => {
             />
           </View>
           <View style={{ flexDirection: "column", marginLeft: 20 }}>
-            <Text style={{ color: colors.text, fontSize: windowHeight> 900 ? (windowHeight>1000?16: 13): 12 }}>{t("GUESS")}</Text>
-            <Text style={{ color: colors.text, fontSize: windowHeight> 900 ? (windowHeight>1000?16: 13): 12  }}>{t("THE WORD")}</Text>
+            <Text
+              style={{
+                color: colors.text,
+                fontSize:
+                  windowHeight > 900 ? (windowHeight > 1000 ? 16 : 13) : 12,
+              }}
+            >
+              {t("GUESS")}
+            </Text>
+            <Text
+              style={{
+                color: colors.text,
+                fontSize:
+                  windowHeight > 900 ? (windowHeight > 1000 ? 16 : 13) : 12,
+              }}
+            >
+              {t("THE WORD")}
+            </Text>
           </View>
         </Pressable>
       ) : null}
@@ -137,12 +198,12 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    marginTop: -40
+    marginTop: -40,
   },
   button: {
     marginTop: 20,
-    width: windowHeight> 900 ? windowHeight>1000?"60%":"70%":"65%",
-    height:  windowHeight>1000? 130: 110,
+    width: windowHeight > 900 ? (windowHeight > 1000 ? "60%" : "70%") : "65%",
+    height: windowHeight > 1000 ? 130 : 110,
     backgroundColor: "grey",
     flexDirection: "row",
     justifyContent: "center",
@@ -150,14 +211,14 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   imgView: {
-    width: windowHeight> 900 ? windowHeight>1000?130: 100: 90,
+    width: windowHeight > 900 ? (windowHeight > 1000 ? 130 : 100) : 90,
     backgroundColor: "#e8e8e8",
     alignItems: "center",
     borderRadius: 20,
   },
   img: {
-    width: windowHeight> 900 ? (windowHeight>1000?80: 70): 50,
-    height: windowHeight> 900 ? (windowHeight>1000?110: 90 ): 80,
+    width: windowHeight > 900 ? (windowHeight > 1000 ? 80 : 70) : 50,
+    height: windowHeight > 900 ? (windowHeight > 1000 ? 110 : 90) : 80,
     borderRadius: 10,
   },
 });

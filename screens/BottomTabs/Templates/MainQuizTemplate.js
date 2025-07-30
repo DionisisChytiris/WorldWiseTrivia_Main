@@ -364,6 +364,9 @@ const QuizMainTemplate = (props) => {
     }, 100);
   }, [index, answerAnims]);
 
+
+
+
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
       {/* Header */}

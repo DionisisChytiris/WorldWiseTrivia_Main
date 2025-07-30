@@ -19,6 +19,7 @@ import { toggleSound } from "../../ReduxSetUp/SoundVibration/SoundSlice";
 import { useRoute } from "@react-navigation/native";
 import actions from "../../utils/DispatchData";
 import { styles } from "./DrawerContentStyle.tsx";
+import { ColorSpace } from "react-native-reanimated";
 // import { ArrowRight, Edit } from "lucide-react-native";
 // import { statusActive, statusCancel, toggleValue } from "../../ReduxSetUp/SoundVibration/VibrationSlice.tsx";
 
@@ -384,10 +385,34 @@ const DrawerContent = (props) => {
                 <Text style={{ color: colors.textDrawer }}>
                   {t("sendMessage")}
                 </Text>
-                <Feather name="arrow-right" size={20} color={colors.textDrawer} />
+                <Feather
+                  name="arrow-right"
+                  size={20}
+                  color={colors.textDrawer}
+                />
                 {/* <ArrowRight size={20} color={colors.textDrawer} /> */}
               </Pressable>
             </View>
+          </TouchableRipple>
+          <TouchableRipple>
+            <Pressable
+              onPress={() => navigation.navigate("AiAgent")}
+              style={{
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "space-between",
+                paddingRight: 10,
+                paddingVertical: 20,
+                marginTop: 0,
+                // backgroundColor: 'yellow'
+              }}
+            >
+              <View style={{flex:1, flexDirection: 'row', gap: 10, alignItems: 'center'}}>
+                <MaterialCommunityIcons name="robot" size={26} color="purple" />
+                <Text style={{ color: colors.textDrawer }}>Ai Agent</Text>
+              </View>
+              <Feather name="arrow-right" size={20} color={colors.textDrawer} />
+            </Pressable>
           </TouchableRipple>
         </Drawer.Section>
       </DrawerContentScrollView>

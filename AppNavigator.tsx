@@ -14,6 +14,7 @@ import actions from "./utils/DispatchData";
 import { useAppSelector } from "./ReduxSetUp/store";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import Contact from "./screens/BottomTabs/Templates/components/Contact";
+import AiAgent from "./screens/AiGeographyAgent/AiAgent";
 
 const Stack = createNativeStackNavigator<AppNavigatorTypeList>();
 
@@ -117,7 +118,16 @@ const AppNavigator = () => {
           options={{
             headerShown: false,
             gestureEnabled: false,
-            orientation: "portrait"
+            orientation: "portrait",
+          }}
+        />
+        <Stack.Screen
+          name="AiAgent"
+          component={AiAgent}
+          options={{
+            headerShown: false,
+            gestureEnabled: false,
+            orientation: "portrait",
           }}
         />
       </Stack.Navigator>

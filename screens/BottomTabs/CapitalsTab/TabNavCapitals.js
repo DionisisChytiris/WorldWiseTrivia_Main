@@ -67,8 +67,8 @@ const TabNavCapitals = ({ navigation }) => {
         tabBarStyle: {
           backgroundColor: colors.backgroundBottomTab,
           height: Platform.OS == "ios" ? 90 : 70,
-          paddingBottom: Platform.OS == "ios" ? 30 : 10
-        }
+          paddingBottom: Platform.OS == "ios" ? 30 : 10,
+        },
       }}
     >
       <Tab.Screen
@@ -76,6 +76,7 @@ const TabNavCapitals = ({ navigation }) => {
         options={{
           headerShown: false,
           tabBarLabel: t("Quizzes"),
+          // tabBarLabel: 'hely',
           // tabBarIcon: () => <AntDesign name="home" size={24} color="blue" />,
           tabBarIcon: () => (
             <Image
@@ -112,7 +113,7 @@ const TabNavCapitals = ({ navigation }) => {
       >
         {() => (
           <Stack.Navigator>
-            <Stack.Group screenOptions={{ headerShown: false }}>
+            <Stack.Group screenOptions={{ headerShown: false}}>
               {/* <Stack.Screen name="ResultsCpt1" component={ResultsCpt1} />  */}
               {/* <Stack.Screen name="LoseScreen" component={LoseScreen} />  */}
               <Stack.Screen name="ChooseQuizType" component={ChooseQuizType} />
@@ -228,10 +229,17 @@ const TabNavCapitals = ({ navigation }) => {
               }}
             >
               <Image
-                style={{ width: 35, height: 35, marginBottom: 0}}
+                style={{ width: 35, height: 35, marginBottom: 0 }}
                 source={require("../../../assets/settings/settings.png")}
               />
-              <Text style={{ fontSize: 10, color: "grey", textAlign: 'center', width: 55 }}>
+              <Text
+                style={{
+                  fontSize: 10,
+                  color: "grey",
+                  textAlign: "center",
+                  width: 55,
+                }}
+              >
                 {t("settings")}
               </Text>
             </Pressable>
