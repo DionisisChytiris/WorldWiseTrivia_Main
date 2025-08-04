@@ -10,11 +10,11 @@ import {
 import axios from "axios";
 import { Keyboard } from "react-native";
 import { ScrollView } from "react-native-gesture-handler";
-import { countWords, isValidQuestion } from "./components/TextValidation";
+import { countWords, isValidQuestion, hasLongWords, MAX_WORD_LENGTH } from "./components/TextValidation";
 import { styles } from "./AiAgentStyles";
 import { useTranslation } from "react-i18next";
 import AiIntroMessage from "./components/AiIntroMessage";
-import ModalAiAgentMsg from './ModalAiAgentMsg'
+import ModalAiAgentMsg from "./ModalAiAgentMsg";
 import HomeLogo from "./components/HomeLogo";
 import AppLogo from "./components/AppLogo";
 import AsyncStorage from "@react-native-async-storage/async-storage";
@@ -25,7 +25,7 @@ const AiAgent = () => {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState<string>("");
   const [loading, setLoading] = useState(false);
-  const [showModal, setShowModal] = useState(true)
+  const [showModal, setShowModal] = useState(true);
   const WORD_LIMIT = 10;
   const DAILY_LIMIT = 10;
   const [remaining, setRemaining] = useState<number | null>(DAILY_LIMIT);
@@ -54,10 +54,15 @@ const AiAgent = () => {
 
   const handleQuestionChange = (text: string) => {
     // Reject invalid chars
-    if (!isValidQuestion(text)) return;
+    if (!isValidQuestion(text) ) return (
+      Alert.alert('Invalid Input', 'Only letters and . , ? : are allowed.')
+    );
 
     // Reject if over word limit
-    if (countWords(text) > WORD_LIMIT) return;
+    if (countWords(text) > WORD_LIMIT + 1) return;
+    if (hasLongWords(text)) return (
+      Alert.alert('Invalid Input', "Each word must be max 15 characters.")
+    );
 
     setQuestion(text); // Only reaches here when text is valid
   };
@@ -104,7 +109,7 @@ const AiAgent = () => {
         }
       );
 
-      console.log(response.data.answer);
+      // console.log(response.data.answer);
       setAnswer(response.data.answer);
       setRemaining(response.data.remaining);
     } catch (error) {
@@ -134,8 +139,19 @@ const AiAgent = () => {
         editable={!isLimitReached && !loading} // disable input when limit reached or loading
       /> */}
 
-      <View style={{position: 'absolute', top: 0,flex:1, justifyContent: 'center', alignItems: 'center'}}>
-        <ModalAiAgentMsg visible={showModal} onClose={()=>setShowModal(false)}/>
+      <View
+        style={{
+          position: "absolute",
+          top: 0,
+          flex: 1,
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <ModalAiAgentMsg
+          visible={showModal}
+          onClose={() => setShowModal(false)}
+        />
       </View>
 
       <View
@@ -147,34 +163,38 @@ const AiAgent = () => {
       >
         <View>
           <Text style={{ color: "#0e6d2e", paddingVertical: 10 }}>
-             {t("aiAgent2")}
+            {t("aiAgent2")}
           </Text>
         </View>
         <View>
           <Text style={{ textAlign: "center", fontSize: 12 }}>
-             {t("aiAgent3")}
+            {t("aiAgent3")}
           </Text>
         </View>
       </View>
       <TextInput
         style={styles.input}
-        placeholder={t('aiAgent8')}
+        placeholder={t("aiAgent8")}
         value={question}
         onChangeText={handleQuestionChange}
         multiline
         editable={!isLimitReached && !loading} // disable input when limit reached or loading
       />
-      {question.length > 0 && !isValidQuestion(question) && (
-        <Text style={{ color: "red", marginBottom: 8 }}>
-          {t("aiAgent4")}
+      {/* {question.length > 0 && !isValidQuestion(question) && (
+        <Text style={{ color: "red" }}>Only letters and . , ? ; allowed.</Text>
+      )} */}
+
+      {countWords(question) > WORD_LIMIT && (
+        <Text style={{ color: "red" }}>
+          Max {WORD_LIMIT} words allowed. You wrote {countWords(question)}.
         </Text>
       )}
 
-      {countWords(question) > WORD_LIMIT && (
-        <Text style={{ color: "red", marginBottom: 8 }}>
-          Max {WORD_LIMIT} words allowed (you used {countWords(question)})
+      {/* {hasLongWords(question) && (
+        <Text style={{ color: "red" }}>
+          Each word must be max {MAX_WORD_LENGTH} characters.
         </Text>
-      )}
+      )} */}
 
       <Button
         title="Ask"
@@ -203,13 +223,24 @@ const AiAgent = () => {
 
         {answer ? (
           <View style={styles.response}>
-            <Text style={styles.answerLabel}>AI {t('aiAgent5')}:</Text>
+            <Text style={styles.answerLabel}>AI {t("aiAgent5")}:</Text>
             <Text style={styles.answer}>{answer}</Text>
-            <Text style={styles.remaining}>{t('aiAgent6')}: {remaining}</Text>
+            <Text style={styles.remaining}>
+              {t("aiAgent6")}: {remaining}
+            </Text>
           </View>
         ) : (
-          <View style={{flex:1, justifyContent: 'center', alignItems: 'center', paddingTop: 150}}>
-            <Text style={{color: '#a82487', fontSize: 20}}>{t('aiAgent7')}</Text>
+          <View
+            style={{
+              flex: 1,
+              justifyContent: "center",
+              alignItems: "center",
+              paddingTop: 150,
+            }}
+          >
+            <Text style={{ color: "#a82487", fontSize: 20 }}>
+              {t("aiAgent7")}
+            </Text>
           </View>
           // <AiIntroMessage />
         )}

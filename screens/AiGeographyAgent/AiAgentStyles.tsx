@@ -58,30 +58,36 @@ export const styles = StyleSheet.create({
     fontStyle: "italic",
     color: "#333",
   },
-  introMsg:{
-    flex:1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    paddingTop: 50,
+  introMsg: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    paddingTop: 20,
     paddingHorizontal: 5,
     borderRadius: 8,
+    // backgroundColor: 'yellow'
   },
   introText1: {
     fontSize: 16,
-    color: 'white',
-    textAlign: 'center',
-    marginBottom: 20
+    color: "white",
+    textAlign: "center",
+    marginBottom: 20,
   },
   introText2: {
     fontSize: 15,
-    color: 'lightgray',
-    textAlign: 'center',
-    marginBottom: 40
+    color: "lightgray",
+    textAlign: "center",
+    marginBottom: 40,
   },
   introText3: {
     fontSize: 15,
-    color: 'magenta',
-    textAlign: 'center',
-    marginBottom: 20
-  }
+    color: "magenta",
+    textAlign: "center",
+    marginBottom: 20,
+  },
+  introDotTxt: {
+    color: "lightgrey",
+    textAlign: "center",
+    marginBottom: 10,
+  },
 });

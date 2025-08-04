@@ -1,4 +1,4 @@
-import { View, Text, Pressable } from "react-native";
+import { View, Text, Pressable, ScrollView } from "react-native";
 import { styles } from "../AiAgentStyles";
 import React from "react";
 import { Feather } from "@expo/vector-icons";
@@ -25,12 +25,15 @@ const AiIntroMessage = ({ onClose1 }) => {
       <View
         style={{ padding: 30, justifyContent: "center", alignItems: "center" }}
       >
-        <Text style={{ color: "white", fontSize: 20, marginBottom: 30 }}>
+        <Text style={{ color: "white", fontSize: 20, marginBottom: 0 }}>
           Geography Ai
         </Text>
 
         
       </View>
+      <ScrollView>
+
+     
       <View style={styles.introMsg}>
         <Text style={styles.introText1}>
           {t("ai1")}
@@ -42,13 +45,13 @@ const AiIntroMessage = ({ onClose1 }) => {
           {t("ai3")}
         </Text>
         <Text style={styles.introText3}>🧠 {t("ai4")}:</Text>
-        <Text style={{ color: "lightgrey" }}>
+        <Text style={styles.introDotTxt}>
           • {t("ai5")}
         </Text>
-        <Text style={{ color: "lightgrey" }}>
+        <Text style={styles.introDotTxt}>
           • {t("ai6")}
         </Text>
-        <Text style={{ color: "lightgrey" }}>
+        <Text style={styles.introDotTxt}>
           • {t("ai7")}
         </Text>
         <Text style={[styles.introText3, { marginTop: 20 }]}>⏳ {t("ai8")}:</Text>
@@ -62,6 +65,7 @@ const AiIntroMessage = ({ onClose1 }) => {
           {t("ai9")}
         </Text>
       </View>
+       </ScrollView>
     </View>
   );
 };
