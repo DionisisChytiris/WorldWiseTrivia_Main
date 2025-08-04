@@ -409,7 +409,7 @@ const DrawerContent = (props) => {
             >
               <View style={{flex:1, flexDirection: 'row', gap: 10, alignItems: 'center'}}>
                 <MaterialCommunityIcons name="robot" size={26} color="purple" />
-                <Text style={{ color: colors.textDrawer }}>Ai Agent</Text>
+                <Text style={{ color: colors.textDrawer }}>Geography Ai</Text>
               </View>
               <Feather name="arrow-right" size={20} color={colors.textDrawer} />
             </Pressable>
