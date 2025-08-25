@@ -4,7 +4,7 @@ export default {
   expo: {
     name: "WorldWise Trivia App",
     slug: "WorldWiseTriviaApp",
-    version: "1.0.8",
+    version: "1.0.9",
     newArchEnabled: true,
     orientation: "portrait",
     icon: "./assets/logo2.png",
