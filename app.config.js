@@ -27,6 +27,8 @@ export default {
     },
     android: {
       package: "com.worldwisetrivia.app",
+      compileSdkVersion: 35, 
+      targetSdkVersion: 35,  
       config: {
         googleMaps: {
           apiKey: process.env.EXPO_PUBLIC_GOOGLE_MAPS_KEY,
