@@ -29,6 +29,7 @@ eas build
 (eas build --platform android)
 
 eas submit -p android --latest 
+eas submit -p ios --latest 
 
 Before command 'eas build' , need to update version code on app.json
 

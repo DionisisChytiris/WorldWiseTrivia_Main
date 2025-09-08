@@ -278,7 +278,7 @@ const question1En = [
     {
       id: "5a",
       status: "Capitals",
-      country: "Japon",
+      country: "Japan",
       image: require("../../../assets/Flags/japan.png"),
       options: [
         {
@@ -308,7 +308,7 @@ const question1En = [
     {
       id: "5b",
       status: "Flags" ,
-      capital: "Japon",
+      capital: "Japan",
       country: "Tokyo",
       options: [
         {
@@ -339,7 +339,7 @@ const question1En = [
       id: "5c",
       status: "Guess",
       word: "TOKYO",
-      country: "Japon",
+      country: "Japan",
       num: 4,
       letters: "YLREAPOSJTKC",
       img: require("../../../assets/Flags/japan.png"),
