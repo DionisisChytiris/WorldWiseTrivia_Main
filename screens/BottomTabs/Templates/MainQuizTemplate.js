@@ -15,17 +15,21 @@ import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
 import { MaterialIcons, Zocial } from "@expo/vector-icons";
 import { styles } from "../styles";
-import { useAppSelector } from "../../../ReduxSetUp/store";
+import { incrementCoins, saveCoins } from "../../../ReduxSetUp/CoinsSlice/coinsSlice";
+import { useAppSelector, useAppDispatch } from "../../../ReduxSetUp/store";
 import { Audio } from "expo-av";
 import BrokenHeart from "./components/BrokenHeart";
 import SuccessAnimation from "./components/SuccessAnimation";
 import FailAnimation from "./components/FailAnimation";
 import { Dimensions } from "react-native";
+import { FontAwesome5 } from '@expo/vector-icons';
 
 const width = Dimensions.get("window").width;
 const height = Dimensions.get("window").height;
 
 const QuizMainTemplate = (props) => {
+  const dispatch = useAppDispatch()
+  const coins = useAppSelector((state)=>state.coins.coins)
   const boolean = useAppSelector((state) => state.boolean.value);
   const soundActive = useAppSelector((state) => state.soundActive.value);
   const isBoolean = boolean.toString();
@@ -86,6 +90,8 @@ const QuizMainTemplate = (props) => {
     if (selectedAnswer !== null) {
       if (selectedAnswer === currentQuestion?.correctAnswerIndex) {
         setScore((score) => score + 10);
+        dispatch(incrementCoins());
+         dispatch(saveCoins(coins))
         setAnswerStatus(true);
         setDisabled(true);
         {
@@ -378,8 +384,11 @@ const QuizMainTemplate = (props) => {
           {t("quiz")} {props.quizName}
         </Text>
         <Text style={{ color: colors.text }}>
-          {t("score")} {score}
+          <FontAwesome5 name="coins" size={12} color="gold" /> {coins}
         </Text>
+        {/* <Text style={{ color: colors.text }}>
+          {t("score")} {score}
+        </Text> */}
         <Text style={{}}>{heart}</Text>
       </View>
 

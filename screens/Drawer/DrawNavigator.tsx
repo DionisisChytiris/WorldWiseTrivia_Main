@@ -1,4 +1,4 @@
-import { Platform } from "react-native";
+import { Platform, StatusBar } from "react-native";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import QuizScreen from "../QuizScreen";
@@ -12,6 +12,7 @@ import React from "react";
 import TabNavMixedQsts from "../BottomTabs/MixedQuestionsTab/TabNavMixedQsts";
 import TabNavMonuments from "../BottomTabs/WorldMonuments/TabNavMonuments";
 import TabNavNaturalMnts from "../BottomTabs/NaturalMntTab/TabNavNaturalMnts";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const Drawer = createDrawerNavigator();
 const Stack = createNativeStackNavigator();
@@ -55,8 +56,11 @@ const DrawNavigator = () => {
               options={{
                 title: "",
                 // title: t("welcome"),
+               
                 headerShown: true,
-                headerStyle: { backgroundColor: colors.backgroundBottomTab },
+                headerStyle: {
+                  backgroundColor: colors.backgroundBottomTab,
+                },
                 headerTintColor: colors.textDrawer,
                 headerTitleStyle: {
                   fontWeight: "bold",
@@ -70,9 +74,10 @@ const DrawNavigator = () => {
               component={TabNavCapitals}
               options={{
                 title: t("capitals"),
+                
                 headerShown: true,
                 // gestureEnabled: true,
-          // headerBackVisible: true,
+                // headerBackVisible: true,
                 gestureEnabled: false,
                 headerTitleStyle: { fontSize: 16, fontWeight: "bold" },
                 headerTintColor: colors.textDrawer,
@@ -87,9 +92,6 @@ const DrawNavigator = () => {
                 gestureEnabled: false,
                 headerTitleStyle: { fontSize: 16, fontWeight: "bold" },
                 headerTintColor: colors.textDrawer,
-                // headerStyle: {
-                //   height: Platform.OS === "android" ? 80 : 0,
-                // },
               }}
             />
             <Stack.Screen
@@ -125,7 +127,6 @@ const DrawNavigator = () => {
                 headerTintColor: colors.textDrawer,
               }}
             />
-           
           </Stack.Navigator>
         )}
       </Drawer.Screen>

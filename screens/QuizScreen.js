@@ -13,6 +13,7 @@ import { useTheme } from "../utils/ThemeMode/ThemeProvider";
 import { useNavigation } from "@react-navigation/native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { Dimensions } from "react-native";
+import EarthRotate from "../utils/EarthRotate.tsx";
 
 const width = Dimensions.get("window").width;
 const height = Dimensions.get("window").height;
@@ -46,7 +47,9 @@ const CategoryItem = ({ page, img, text }) => {
     >
       <View style={styles.buttonContext}>
         <Image style={styles.image} source={img} />
-        <Text style={[styles.text, { color: colors.textDrawer }]}>{String(text ?? "")}</Text>
+        <Text style={[styles.text, { color: colors.textDrawer }]}>
+          {String(text ?? "")}
+        </Text>
       </View>
       {/* <View style={styles.progressBar}>
         <View
@@ -140,6 +143,10 @@ const QuizScreen = () => {
               text={t("mixedQuestions")}
               scores={score1}
             />
+
+            <View style={{ position: "absolute", bottom: 0 , right: -100}}>
+              <EarthRotate />
+            </View>
           </View>
         </View>
       </ScrollView>

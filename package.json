@@ -6,11 +6,12 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "prebuild": "expo prebuild"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
-    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-native-async-storage/async-storage": "^2.1.2",
     "@react-navigation/bottom-tabs": "^7.2.0",
     "@react-navigation/drawer": "^7.1.1",
     "@react-navigation/material-top-tabs": "^7.1.0",
@@ -23,9 +24,12 @@
     "dotenv": "^16.4.7",
     "expo": "53.0.22",
     "expo-av": "~15.1.7",
+    "expo-font": "~13.3.2",
+    "expo-gl": "^15.1.7",
     "expo-linear-gradient": "~14.1.5",
     "expo-status-bar": "~2.2.3",
     "expo-store-review": "~8.1.5",
+    "expo-three": "^8.0.0",
     "expo-updates": "~0.28.17",
     "i18next": "^23.7.13",
     "lottie-react-native": "7.2.2",
@@ -52,8 +56,8 @@
     "react-native-vector-icons": "^10.2.0",
     "react-navigation": "^5.0.0",
     "react-redux": "^9.0.4",
-    "yargs": "^18.0.0",
-    "expo-font": "~13.3.2"
+    "three": "^0.180.0",
+    "yargs": "^18.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
@@ -62,6 +66,7 @@
     "@types/react": "~19.0.10",
     "@types/react-native-material-dropdown": "^0.11.10",
     "@types/react-test-renderer": "^18.0.7",
+    "@types/three": "^0.180.0",
     "@types/uuid": "^10.0.0",
     "size-limit": "^11.1.5",
     "typescript": "~5.8.3"

@@ -18,9 +18,12 @@ import {NaturalMnt1Slice, NaturalMnt2Slice, NaturalMnt3Slice, NaturalMnt4Slice, 
 import { MixedQuiz1Slice, MixedQuiz2Slice, MixedQuiz3Slice, MixedQuiz4Slice, MixedQuiz5Slice, MixedQuiz6Slice, MixedQuiz7Slice, MixedQuiz8Slice, MixedQuiz9Slice, MixedQuiz10Slice } from './MixedQuizSlices'
 import LanguageSlice from './LanguageSlice/LanguageSlice'
 import LngStatusSlice from './QuizLngStatus/LngStatus'
+import {coinsReducer} from './CoinsSlice/coinsSlice'
+import setUserNameSlice from './SetUserName/setUserNameSlice'
 
 export const store = configureStore({
     reducer: {
+        user: setUserNameSlice,
         flags: flagSlice,
         flagsEu: flagsEuSlice,
         flagsAmerica: flagsAmericaSlice,
@@ -94,7 +97,8 @@ export const store = configureStore({
         quiz9MixedQst: MixedQuiz9Slice,
         quiz10MixedQst: MixedQuiz10Slice,
         lngTri18NextNames: LanguageSlice,
-        lngStatus: LngStatusSlice
+        lngStatus: LngStatusSlice,
+        coins: coinsReducer
     },
     middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({

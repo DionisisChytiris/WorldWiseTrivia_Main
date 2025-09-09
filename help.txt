@@ -53,3 +53,16 @@ eas update --channel production --message "Test update"    // development, produ
 
 npx expo-doctor   //to check if there is any issue with packages etc on your project
 
+
+
+
+--------------------
+
+Run multiple simulators on android studio 
+
+Manually install expo go to the extra simulator. The system open just the first simulator by pressing a.
+
+run this : 
+
+adb devices
+adb -s emulator-5556 install "C:\Users\dhiti\OneDrive\Desktop\EXPO_APK.apk"

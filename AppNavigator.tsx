@@ -9,17 +9,17 @@ import ToggleBtn from "./utils/ThemeMode/ToggleBtn";
 import NameInput from "./screens/IntroScreens/NameInput";
 import ChangeTheme from "./screens/IntroScreens/ChangeTheme";
 import { AppNavigatorTypeList } from "./Types/AppNavigatorTypeList";
-import { useDispatch } from "react-redux";
 import actions from "./utils/DispatchData";
-import { useAppSelector } from "./ReduxSetUp/store";
+import { useAppSelector, useAppDispatch} from "./ReduxSetUp/store";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import Contact from "./screens/BottomTabs/Templates/components/Contact";
 import AiAgent from "./screens/AiGeographyAgent/AiAgent";
+import { loadCoins } from "./ReduxSetUp/CoinsSlice/coinsSlice";
 
 const Stack = createNativeStackNavigator<AppNavigatorTypeList>();
 
 const AppNavigator = () => {
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
   const { initLng } = useAppSelector((state) => state.lngStatus);
   const [storedString, setStoredString] = React.useState(""); // Initial state
   const STRING_KEY = "myStoredString";
@@ -57,6 +57,11 @@ const AppNavigator = () => {
     }
     console.log(storedString);
   }, [storedString]);
+
+  useEffect(() => {
+    // dispatch(loadName());
+    dispatch(loadCoins());
+  }, [dispatch]);
 
   return (
     <NavigationContainer>

@@ -13,10 +13,9 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import uuid from "react-native-uuid";
 
 // ✅ HOTFIX: Prevent crashes caused by outdated BackHandler usage in dependencies
-if (!BackHandler.removeEventListener) {
-  BackHandler.removeEventListener = () => {}; // no-op fallback
-}
-
+// if (!BackHandler.removeEventListener) {
+//   BackHandler.removeEventListener = () => {}; // no-op fallback
+// }
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -61,10 +60,15 @@ export default function App() {
     }
   };
 
+   if (!BackHandler.removeEventListener) {
+  BackHandler.removeEventListener = () => {}; // no-op fallback
+}
+  
   useEffect(() => {
     setupUserId();
     checkForUpdates();
   }, []);
+
 
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
