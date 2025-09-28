@@ -8,7 +8,7 @@ import { useAppDispatch } from "../../ReduxSetUp/store";
 import { setNameInput } from "../../ReduxSetUp/SetUserName/setUserNameSlice";
 
 const formatName = (input: string) => {
-  if (!input) return "User";
+  if (!input) return null;
   let clean = input.trim();
   if (clean.slice(-1) === "ς" || clean.slice(-1) === "Σ") {
     clean = clean.slice(0, -1);
@@ -58,9 +58,9 @@ const NameInput = ({ navigation }) => {
     <View style={[styles.container, { backgroundColor: colors.backgroundDrawer }]}>
       {/* Progress bar */}
       <View style={{ width: "50%", flexDirection: "row", gap: 5, marginBottom: 70 }}>
-        <View style={{ flex: 1, height: 3, backgroundColor: "#046e64" }} />
-        <View style={{ flex: 1, height: 3, backgroundColor: "#046e64" }} />
-        <View style={{ flex: 1, height: 3, backgroundColor: "#3ff769" }} />
+        <View style={{ flex: 1, height: 3, backgroundColor: "#144999" }} />
+        <View style={{ flex: 1, height: 3, backgroundColor: "#144999" }} />
+        <View style={{ flex: 1, height: 3, backgroundColor: "#0099ffff" }} />
       </View>
 
       {/* Title + Input */}
@@ -141,6 +141,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: RFValue(9, 450),
     fontWeight: "bold",
-    color: "#0cb41f",
+    color: "#144999",
   },
 });

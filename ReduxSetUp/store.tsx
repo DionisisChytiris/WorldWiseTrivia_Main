@@ -20,6 +20,11 @@ import LanguageSlice from './LanguageSlice/LanguageSlice'
 import LngStatusSlice from './QuizLngStatus/LngStatus'
 import {coinsReducer} from './CoinsSlice/coinsSlice'
 import setUserNameSlice from './SetUserName/setUserNameSlice'
+import quizLockSlice from './QuizLockState/CapitalsQuizLockSlice'
+import quizLockFlagsSlice from './QuizLockState/FlagsQuizLockSlice'
+import quizLockWorldMntSlice from './QuizLockState/WorldMntQuizLockSlice'
+import quizLockNaturalMntSlice from './QuizLockState/NaturalMntQuizLockSlice'
+import quizLockMixedSlice from './QuizLockState/MixedQuizLockSlice'
 
 export const store = configureStore({
     reducer: {
@@ -98,7 +103,12 @@ export const store = configureStore({
         quiz10MixedQst: MixedQuiz10Slice,
         lngTri18NextNames: LanguageSlice,
         lngStatus: LngStatusSlice,
-        coins: coinsReducer
+        coins: coinsReducer,
+        quizLockCapitals: quizLockSlice,
+        quizLockFlags: quizLockFlagsSlice,
+        quizLockWorldMnt: quizLockWorldMntSlice,
+        quizLockNaturalMnt: quizLockNaturalMntSlice,
+        quizLockMixed: quizLockMixedSlice,
     },
     middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({

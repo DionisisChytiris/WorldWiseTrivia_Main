@@ -27,8 +27,8 @@ export default {
     },
     android: {
       package: "com.worldwisetrivia.app",
-      compileSdkVersion: 35, 
-      targetSdkVersion: 35,  
+      compileSdkVersion: 35,
+      targetSdkVersion: 35,
       config: {
         googleMaps: {
           apiKey: process.env.EXPO_PUBLIC_GOOGLE_MAPS_KEY,
@@ -55,7 +55,7 @@ export default {
       url: "https://u.expo.dev/34547de2-ef97-4b54-9135-27df45137c16",
       fallbackToCacheTimeout: 0,
     },
-     plugins: [
+    plugins: [
       "expo-font"
     ],
   },

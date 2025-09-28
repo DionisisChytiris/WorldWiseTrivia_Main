@@ -8,43 +8,45 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { AppNavigatorTypeList } from "../../Types/AppNavigatorTypeList";
 
+type ChangeThemeProp = StackNavigationProp<AppNavigatorTypeList, "Draw">;
 
-type ChangeThemeProp = StackNavigationProp<AppNavigatorTypeList, 'Draw'>
-
-const ChangeTheme= () => {
+const ChangeTheme = () => {
   const navigation = useNavigation<ChangeThemeProp>();
-  const {dark, colors, setScheme}= useTheme();
+  const { dark, colors, setScheme } = useTheme();
   const { t } = useTranslation();
-  const [bgColor1, setBgColor1] = useState('white')
-  const [bgColor2, setBgColor2] = useState('lightgreen')
+  const [bgColor1, setBgColor1] = useState("white");
+  const [bgColor2, setBgColor2] = useState("#59aef8ff");
   const [name, setName] = useState("");
 
   useEffect(() => {
     getData();
   }, []);
 
-  const getData= ()=>{
-    try{
-      AsyncStorage.getItem('UserName')
-      .then((value)=>{
-        if(value !=null){
-          let user = JSON.parse(value)
-          setName(user.Name)
+  const getData = () => {
+    try {
+      AsyncStorage.getItem("UserName").then((value) => {
+        if (value != null) {
+          let user = JSON.parse(value);
+          setName(user.Name);
         }
-      })
-    }catch(e){
-      console.log(e)
+      });
+    } catch (e) {
+      console.log(e);
     }
-  }
+  };
 
   return (
-    <View style={[styles.container, {backgroundColor: colors.backgroundDrawer}]}>
+    <View
+      style={[styles.container, { backgroundColor: colors.backgroundDrawer }]}
+    >
       <View
         style={{ width: "50%", flexDirection: "row", gap: 5, marginBottom: 70 }}
       >
-        <View style={{ width: "33%", height: 3, backgroundColor: "#046e64" }} />
-        <View style={{ width: "33%", height: 3, backgroundColor: "#3ff769" }} />
-        <View style={{ width: "33%", height: 3, backgroundColor: "#046e64" }} />
+        <View style={{ width: "33%", height: 3, backgroundColor: "#144999" }} />
+        <View
+          style={{ width: "33%", height: 3, backgroundColor: "#0099ffff" }}
+        />
+        <View style={{ width: "33%", height: 3, backgroundColor: "#144999" }} />
       </View>
 
       {/* <Pressable
@@ -55,29 +57,32 @@ const ChangeTheme= () => {
       </Pressable> */}
 
       <Pressable
-        onPress={() =>{ 
-          (!dark ? setScheme("dark") : null)
+        onPress={() => {
+          !dark ? setScheme("dark") : null;
           // alert('hey')
-          setBgColor1('lightgreen')
-          setBgColor2('white')
+          setBgColor1("#59aef8ff");
+          setBgColor2("white");
         }}
-        style={[styles.pressableStyle, {backgroundColor: bgColor1}]}
+        style={[styles.pressableStyle, { backgroundColor: bgColor1 }]}
       >
-        <Text style={{ fontSize: 16, fontWeight: "bold" }}>{t("darkMode")}</Text>
+        <Text style={{ fontSize: 16, fontWeight: "bold" }}>
+          {t("darkMode")}
+        </Text>
       </Pressable>
 
       <Pressable
         onPress={() => {
-          (dark ? setScheme("light") : setScheme("dark"))
+          dark ? setScheme("light") : setScheme("dark");
           // alert('hey')
-          setBgColor2('lightgreen')
-          setBgColor1('white')
-      }}
-        style={[styles.pressableStyle, {backgroundColor: bgColor2}]}
+          setBgColor2("#59aef8ff");
+          setBgColor1("white");
+        }}
+        style={[styles.pressableStyle, { backgroundColor: bgColor2 }]}
       >
-        <Text style={{ fontSize: 16, fontWeight: "bold" }}>{t("lightMode")}</Text>
+        <Text style={{ fontSize: 16, fontWeight: "bold" }}>
+          {t("lightMode")}
+        </Text>
       </Pressable>
-     
 
       <View
         style={{
@@ -87,14 +92,14 @@ const ChangeTheme= () => {
         }}
       >
         <Pressable
-          onPress={() => navigation.navigate("Draw", {name: name})}
+          onPress={() => navigation.navigate("Draw", { name: name })}
           style={styles.button1}
         >
           <Text style={styles.title}>{t("skip")}</Text>
         </Pressable>
         <Pressable
           onPress={() => {
-            navigation.navigate("NameInput")
+            navigation.navigate("NameInput");
           }}
           style={styles.button2}
         >
@@ -145,6 +150,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: RFValue(9, 450),
     fontWeight: "bold",
-    color: "#0cb41f",
+    color: "#144999",
   },
 });

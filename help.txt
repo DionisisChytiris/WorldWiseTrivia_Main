@@ -65,4 +65,7 @@ Manually install expo go to the extra simulator. The system open just the first 
 run this : 
 
 adb devices
-adb -s emulator-5556 install "C:\Users\dhiti\OneDrive\Desktop\EXPO_APK.apk"
+adb -s emulator-5558 install "D:\Coding\EXPO_APK\EXPO_APK.apk"
+
+
+Run the script: ./open-expo-on-all-emulators.sh

@@ -1,4 +1,4 @@
-import { View, Text, Pressable, StyleSheet } from "react-native";
+import { View, Text, Pressable, StyleSheet, Alert } from "react-native";
 import React, { useEffect, useState } from "react";
 import { PieChart } from "react-native-gifted-charts";
 import { useNavigation, useRoute } from "@react-navigation/native";
@@ -7,12 +7,26 @@ import { useTranslation } from "react-i18next";
 import LottieView from "lottie-react-native";
 import * as StoreReview from "expo-store-review";
 import CustomeAlert from "../Templates/components/CustomAlert";
+import { useAppSelector, useAppDispatch } from "../../../ReduxSetUp/store";
+import {
+  decrementCoins,
+  saveCoins,
+} from "../../../ReduxSetUp/CoinsSlice/coinsSlice";
+// import { setQuizLock } from "../../../ReduxSetUp/QuizLockState/CapitalsQuizLockSlice";
 
 const MainResultsTemplate = (props: any) => {
   const navigation = useNavigation<any>();
   const { colors } = useTheme();
   const { t } = useTranslation();
   const [show, setShow] = useState(false);
+  // const quizLocks = useAppSelector((state) => state.quizLockCapitals);
+  const dispatch = useAppDispatch();
+  const quizLocks = props.quizLocks || {};
+  const setQuizLock = props.setQuizLock;
+
+  const QUIZ_PRICE = props.quizPrice; // cost to unlock
+
+  const coins = useAppSelector((state) => state.coins.coins);
 
   const handleQuizCompletion = async () => {
     if (props.percentage >= 90) {
@@ -22,6 +36,54 @@ const MainResultsTemplate = (props: any) => {
         StoreReview.requestReview();
       } else {
         console.log("In-app review is not supported on this device.");
+      }
+    }
+  };
+
+  const unlockQuiz = () => {
+    if (props.quizNum) {
+      const nextQuizNum = parseInt(props.quizNum.replace("Quiz", ""), 10);
+      const nextQuizKey = `quiz${nextQuizNum}`;
+
+      if (quizLocks[nextQuizKey]) {
+        // quiz is locked
+        if (coins >= QUIZ_PRICE) {
+          Alert.alert(
+            "Unlock Quiz",
+            `Unlock quiz ${nextQuizNum} for ${QUIZ_PRICE} coins?`,
+            [
+              { text: "Cancel", style: "cancel" },
+              {
+                text: "Unlock",
+                onPress: () => {
+                  // Deduct coins
+                  dispatch(decrementCoins(QUIZ_PRICE));
+                  dispatch(saveCoins(coins - QUIZ_PRICE));
+                  setQuizLock &&
+                    // Unlock quiz
+                    dispatch(
+                      setQuizLock({
+                        id: String(nextQuizNum),
+                        locked: false,
+                      })
+                      // setQuizLock({ id: String(nextQuizNum), locked: false })
+                    );
+
+                  // Navigate
+                  navigation.navigate(props.quizNum);
+                },
+              },
+            ]
+          );
+        } else {
+          Alert.alert(
+            "Not enough coins",
+            "You need more coins to unlock this quiz."
+          );
+        }
+      } else {
+        // already unlocked
+        navigation.navigate(props.quizNum);
       }
     }
   };
@@ -45,11 +107,11 @@ const MainResultsTemplate = (props: any) => {
 
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
-      {show ? (
+      {/* {show ? (
         <View style={{ position: "absolute", top: 0, left: 0 }}>
           <CustomeAlert />
         </View>
-      ) : null}
+      ) : null} */}
       <View style={{ flexDirection: "row", gap: 10, marginBottom: 20 }}>
         <Text style={{ color: colors.text, fontWeight: "bold" }}>
           {t("quiz")}
@@ -132,7 +194,75 @@ const MainResultsTemplate = (props: any) => {
         </View>
       </View>
 
-      {props.quizNum === "" ? null : (
+      <View style={{ position: "absolute", bottom: 30, left: 30 }}>
+        <Text style={{ color: colors.text, marginTop: 40, backgroundColor: 'lightgrey', paddingHorizontal: 10, paddingVertical: 5, borderRadius: 20 }}>
+          💰 {coins} coins
+        </Text>
+      </View>
+
+      {props.quizNum === "" ? null : quizLocks[
+          `quiz${props.quizNum.toString().toLowerCase().replace("quiz", "")}`
+        ] ? (
+        // true means locked
+        <View
+          style={{
+            position: "absolute",
+            bottom: 30,
+            right: 30,
+            borderWidth: 0.5,
+            borderRadius: 10,
+            paddingHorizontal: 10,
+            paddingVertical: 5,
+          }}
+        >
+          <View
+            style={{
+              position: "absolute",
+              top: -30,
+              right: 5,
+              flexDirection: "row",
+              alignItems: "center",
+            }}
+          >
+            <Text style={{ fontSize: 28 }}>🔒</Text>
+            <Text
+              style={{
+                color: "gold",
+                backgroundColor: "gray",
+                padding: 4,
+                borderRadius: 10,
+              }}
+            >
+              {props.coinsTest} coins
+            </Text>
+          </View>
+          <Pressable
+            onPress={unlockQuiz}
+            style={{ borderColor: "gray", opacity: 0.8, zIndex: 999999 }}
+          >
+            <Text style={{ color: "gray" }}>Next Quiz-Locked</Text>
+          </Pressable>
+        </View>
+      ) : (
+        <Pressable
+          onPress={() => navigation.navigate(props.quizNum)}
+          style={{
+            borderColor: colors.textDrawer,
+            position: "absolute",
+            bottom: 30,
+            right: 30,
+            borderWidth: 0.5,
+            borderRadius: 10,
+            paddingHorizontal: 10,
+            paddingVertical: 5,
+            zIndex: 99999,
+          }}
+        >
+          <Text style={{ color: colors.textDrawer }}>Next Quiz</Text>
+        </Pressable>
+      )}
+
+      {/* {props.quizNum === "" ? null : (
         <Pressable
           onPress={() => navigation.navigate(props.quizNum)}
           style={{
@@ -149,7 +279,7 @@ const MainResultsTemplate = (props: any) => {
         >
           <Text style={{ color: colors.textDrawer }}>Next Quiz</Text>
         </Pressable>
-      )}
+      )} */}
 
       {props.percentage > 60 ? (
         <View

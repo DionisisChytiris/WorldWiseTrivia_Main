@@ -4,14 +4,13 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "prebuild": "expo prebuild"
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
-    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-native-async-storage/async-storage": "2.1.2",
     "@react-navigation/bottom-tabs": "^7.2.0",
     "@react-navigation/drawer": "^7.1.1",
     "@react-navigation/material-top-tabs": "^7.1.0",
@@ -22,8 +21,10 @@
     "@shopify/flash-list": "1.7.6",
     "axios": "^1.10.0",
     "dotenv": "^16.4.7",
-    "expo": "53.0.22",
+    "expo": "^53.0.22",
+    "expo-asset": "~11.1.7",
     "expo-av": "~15.1.7",
+    "expo-file-system": "~18.1.11",
     "expo-font": "~13.3.2",
     "expo-gl": "^15.1.7",
     "expo-linear-gradient": "~14.1.5",
@@ -41,6 +42,7 @@
     "react-native-flip-card": "^3.5.7",
     "react-native-gesture-handler": "~2.24.0",
     "react-native-gifted-charts": "^1.4.10",
+    "react-native-google-mobile-ads": "^15.7.0",
     "react-native-maps": "1.20.1",
     "react-native-modal": "^13.0.1",
     "react-native-pager-view": "6.7.1",
@@ -68,6 +70,7 @@
     "@types/react-test-renderer": "^18.0.7",
     "@types/three": "^0.180.0",
     "@types/uuid": "^10.0.0",
+    "metro-resolver": "^0.82.5",
     "size-limit": "^11.1.5",
     "typescript": "~5.8.3"
   },

@@ -1,6 +1,9 @@
 import { useRoute } from "@react-navigation/native";
 import React from "react";
 import MainResultsTemplate from "../../../Templates/MainResultsTemplate";
+import {setQuizLockFlags} from '../../../../../ReduxSetUp/QuizLockState/FlagsQuizLockSlice'
+import { useAppSelector } from "../../../../../ReduxSetUp/store";
+import Quizzes from "../../../../../data/flags/FlagsQuizHome";
 // import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const Results1 = () => {
@@ -13,6 +16,8 @@ const Results1 = () => {
     { value: wrong, color: "magenta" },
     { value: correct, color: "lightgreen" },
   ];
+  const quizLocks = useAppSelector((state) => state.quizLockFlags);
+  const price = Quizzes.find((q) => q.id === "2")?.price ?? 0;
 
   return (
     <MainResultsTemplate
@@ -22,6 +27,10 @@ const Results1 = () => {
       numCorAns={crAns}
       numWrnAns={wrnAns}
       quizNum='Quiz2'
+      setQuizLock={setQuizLockFlags}
+      quizLocks={quizLocks}
+      coinsTest={price}
+      quizPrice={price}
     />
   );
 };

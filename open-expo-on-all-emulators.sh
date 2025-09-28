@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Path to Expo Go APK (only needed if not installed yet)
-EXPO_APK="$HOME/Downloads/ExpoGo.apk"
+# EXPO_APK="$HOME/Downloads/ExpoGo.apk"
+EXPO_APK="D:\Coding\EXPO_APK\EXPO_APK.apk"
 
 # List all running Android emulators
 EMULATORS=$(adb devices | grep emulator | awk '{print $1}')

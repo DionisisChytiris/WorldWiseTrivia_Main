@@ -5,6 +5,7 @@ import { RFValue } from "react-native-responsive-fontsize";
 import { useTranslation } from "react-i18next";
 import { useDispatch } from "react-redux";
 import { statusEn, statusEs, statusEl } from "../../ReduxSetUp/QuizLngStatus/LngStatus";
+import { useTheme } from "../../utils/ThemeMode/ThemeProvider";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 // import { AppNavigatorTypeList } from "../../Types/AppNavigatorTypeList";
@@ -16,7 +17,8 @@ import actions from '../../utils/DispatchData'
 const MultiLanguage = () => {
   // const navigation = useNavigation<ChangeThemeProp>();
   const navigation = useNavigation();
-  const [color1, setColor1] = useState("#4ddbdf");
+  const { colors } = useTheme();
+  const [color1, setColor1] = useState("#59aef8ff");
   const [color2, setColor2] = useState("#dbdddd");
   const [color3, setColor3] = useState("#dbdddd");
   const { t } = useTranslation();
@@ -57,9 +59,9 @@ const MultiLanguage = () => {
 
   const setLanguage = (language) => {
     const colors = {
-      en: ["#4ddbdf", "#dbdddd", "#dbdddd"],
-      es: ["#dbdddd", "#4ddbdf", "#dbdddd"],
-      el: ["#dbdddd", "#dbdddd", "#4ddbdf"]
+      en: ["#59aef8ff", "#dbdddd", "#dbdddd"],
+      es: ["#dbdddd", "#59aef8ff", "#dbdddd"],
+      el: ["#dbdddd", "#dbdddd", "#59aef8ff"]
     };
 
     const [newColor1, newColor2, newColor3] = colors[language];
@@ -75,9 +77,9 @@ const MultiLanguage = () => {
       <View
         style={{ width: "50%", flexDirection: "row", gap: 5, marginBottom: 70 }}
       >
-        <View style={{ width: "33%", height: 3, backgroundColor: "#3ff769" }} />
-        <View style={{ width: "33%", height: 3, backgroundColor: "#046e64" }} />
-        <View style={{ width: "33%", height: 3, backgroundColor: "#046e64" }} />
+        <View style={{ width: "33%", height: 3, backgroundColor: "#0099ffff" }} />
+        <View style={{ width: "33%", height: 3, backgroundColor: "#144999" }} />
+        <View style={{ width: "33%", height: 3, backgroundColor: "#144999" }} />
       </View>
       <View style={{ alignItems: "center" }}>
         <Text style={styles.welcomeTxt}>
@@ -104,7 +106,7 @@ const MultiLanguage = () => {
             source={require("../../assets/Flags/uk.png")}
             style={{ width: 26, height: 17 }}
           />
-          <Text>English</Text>
+          <Text style={{}}>English</Text>
         </Pressable>
         <Pressable
           style={[styles.chngLgBtn, { backgroundColor: color2 }]}
@@ -199,7 +201,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: RFValue(9, 450),
     fontWeight: "bold",
-    color: "#0cb41f",
+    color: "#3b82f6",
   },
   skipNextBtn: {
     marginTop: 40,
