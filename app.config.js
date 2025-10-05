@@ -56,7 +56,8 @@ export default {
       fallbackToCacheTimeout: 0,
     },
     plugins: [
-      "expo-font"
+      "expo-font",
+      "expo-asset"
     ],
   },
 };
