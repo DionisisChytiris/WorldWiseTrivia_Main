@@ -195,7 +195,16 @@ const MainResultsTemplate = (props: any) => {
       </View>
 
       <View style={{ position: "absolute", bottom: 30, left: 30 }}>
-        <Text style={{ color: colors.text, marginTop: 40, backgroundColor: 'lightgrey', paddingHorizontal: 10, paddingVertical: 5, borderRadius: 20 }}>
+        <Text
+          style={{
+            color: colors.text,
+            marginTop: 40,
+            backgroundColor: "lightgrey",
+            paddingHorizontal: 10,
+            paddingVertical: 5,
+            borderRadius: 20,
+          }}
+        >
           💰 {coins} coins
         </Text>
       </View>
@@ -204,7 +213,7 @@ const MainResultsTemplate = (props: any) => {
           `quiz${props.quizNum.toString().toLowerCase().replace("quiz", "")}`
         ] ? (
         // true means locked
-        <View
+        <Pressable
           style={{
             position: "absolute",
             bottom: 30,
@@ -213,7 +222,9 @@ const MainResultsTemplate = (props: any) => {
             borderRadius: 10,
             paddingHorizontal: 10,
             paddingVertical: 5,
+            zIndex:9999
           }}
+          onPress={unlockQuiz}
         >
           <View
             style={{
@@ -231,18 +242,16 @@ const MainResultsTemplate = (props: any) => {
                 backgroundColor: "gray",
                 padding: 4,
                 borderRadius: 10,
+                zIndex: 1,
               }}
             >
               {props.coinsTest} coins
             </Text>
           </View>
-          <Pressable
-            onPress={unlockQuiz}
-            style={{ borderColor: "gray", opacity: 0.8, zIndex: 999999 }}
-          >
+          <View style={{ borderColor: "gray", opacity: 0.8 }}>
             <Text style={{ color: "gray" }}>Next Quiz-Locked</Text>
-          </Pressable>
-        </View>
+          </View>
+        </Pressable>
       ) : (
         <Pressable
           onPress={() => navigation.navigate(props.quizNum)}

@@ -12,7 +12,6 @@ import React from "react";
 import TabNavMixedQsts from "../BottomTabs/MixedQuestionsTab/TabNavMixedQsts";
 import TabNavMonuments from "../BottomTabs/WorldMonuments/TabNavMonuments";
 import TabNavNaturalMnts from "../BottomTabs/NaturalMntTab/TabNavNaturalMnts";
-import { SafeAreaView } from "react-native-safe-area-context";
 
 const Drawer = createDrawerNavigator();
 const Stack = createNativeStackNavigator();

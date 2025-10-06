@@ -156,7 +156,7 @@ const Map = () => {
 
       <View style={styles.letterButton}>
         <View style={{ alignItems: "center", justifyContent: "center" }}>
-          <AntDesign name="arrowleft" size={12} color="black" />
+          <AntDesign name="left" size={12} color="black" />
         </View>
         <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
           <View style={{ gap: 40, flexDirection: "row" }}>
@@ -177,7 +177,7 @@ const Map = () => {
           </View>
         </ScrollView>
         <View style={{ alignItems: "center", justifyContent: "center" }}>
-          <AntDesign name="arrowright" size={12} color="black" />
+          <AntDesign name="right" size={12} color="black" />
         </View>
       </View>
 

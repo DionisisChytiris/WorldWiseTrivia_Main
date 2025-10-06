@@ -45,7 +45,7 @@ const QuizTemplate: React.FC<QuizTemplateProps> = ({
       // Case 2: Locked, but enough coins
       Alert.alert("Unlock Quiz", `Unlock quiz ${title} for ${price} coins?`, [
         { text: "Cancel", style: "cancel" },
-        { text: "Unlock", onPress: () => unlockQuiz?.(id) },
+        { text: "Unlock", onPress: () => unlockQuiz?.(id)},
       ]);
     } else {
       // Case 3b: Not enough coins, no ads configured
@@ -154,6 +154,6 @@ const styles = StyleSheet.create({
     marginTop: 5,
     color: "gold",
     fontWeight: "bold",
-    fontSize: 12
+    fontSize: 12,
   },
 });

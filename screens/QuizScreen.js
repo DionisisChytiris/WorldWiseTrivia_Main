@@ -4,8 +4,7 @@ import {
   StyleSheet,
   Pressable,
   Image,
-  ScrollView,
-  SafeAreaView,
+  ScrollView
 } from "react-native";
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -14,6 +13,7 @@ import { useNavigation } from "@react-navigation/native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { Dimensions } from "react-native";
 import EarthRotate from "../utils/EarthRotate.tsx";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const width = Dimensions.get("window").width;
 const height = Dimensions.get("window").height;

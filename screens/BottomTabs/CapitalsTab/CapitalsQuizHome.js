@@ -6,6 +6,7 @@ import { useAppSelector, useAppDispatch } from "../../../ReduxSetUp/store";
 import { decrementCoins, saveCoins } from "../../../ReduxSetUp/CoinsSlice/coinsSlice";
 import { loadQuizLockState, setQuizLock } from "../../../ReduxSetUp/QuizLockState/CapitalsQuizLockSlice";
 import Quizzes from '../../../data/capitals/CapitalsQuizHome'
+import { useSoundEffect } from "../../../Hooks/useSoundEffect";
 
 const { height: windowHeight, width: windowWidth } = Dimensions.get("window");
 
@@ -71,7 +72,9 @@ const CapitalsQuizHome = () => {
     const AnimatedImage = Animated.createAnimatedComponent(ImageBackground);
   
     
-  
+   const GetCoinsSound = useSoundEffect(
+      require("../../../assets/Sounds/coinsDrop.wav")
+    );
 
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
@@ -107,7 +110,7 @@ const CapitalsQuizHome = () => {
               locked={item.locked}
               price={item.price}
               coins={coins}
-              unlockQuiz={() => unlockQuiz(item.id, item.price)}
+              unlockQuiz={() => {unlockQuiz(item.id, item.price), GetCoinsSound()}}
              
             />
           ))}
@@ -124,7 +127,7 @@ const CapitalsQuizHome = () => {
               locked={item.locked}
               price={item.price}
               coins={coins}
-              unlockQuiz={() => unlockQuiz(item.id, item.price)}
+              unlockQuiz={() => {unlockQuiz(item.id, item.price), GetCoinsSound()}}
              
             />
           ))}

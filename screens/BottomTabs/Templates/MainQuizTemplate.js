@@ -26,6 +26,8 @@ import SuccessAnimation from "./components/SuccessAnimation";
 import FailAnimation from "./components/FailAnimation";
 import { Dimensions } from "react-native";
 import { FontAwesome5 } from "@expo/vector-icons";
+import { useSoundEffect } from "../../../Hooks/useSoundEffect";
+import { useRandomSoundEffect } from "../../../Hooks/useRandomSoundEffect";
 
 const width = Dimensions.get("window").width;
 const height = Dimensions.get("window").height;
@@ -60,73 +62,108 @@ const QuizMainTemplate = (props) => {
   const [apple, setApple] = useState(["🍎", "🍎", "🍎"]);
   const [hint, setHint] = useState(3);
   const status = props.status;
-  // const [isVib, setIsVib] = useState(true)
 
-  // const [correctSound, setCorrectSound] = useState();
-  async function CorrectPlaySound() {
-    const { sound } = await Audio.Sound.createAsync(
-      require("../../../assets/correct1.wav")
-      // require("../../../assets/drumroll.mp3")
-    );
-    // setCorrectSound(correctSound);
-    await sound.setVolumeAsync(0.3);
-    await sound.playAsync();
-  }
-  // useEffect(() => {
-  //   return correctSound ? () => correctSound.uploadAsync() : undefined;
-  // }, [correctSound]);
+  const CorrectPlaySound = useSoundEffect(
+    require("../../../assets/Sounds/correct1.wav")
+  );
 
-  // const [wrongSound, setWrongSound] = useState();
-  async function WrongPlaySound() {
-    const { sound } = await Audio.Sound.createAsync(
-      require("../../../assets/error.mp3")
-    );
-    // setWrongSound(wrongSound);
-    await sound.setVolumeAsync(0.3);
-    await sound.playAsync();
-  }
-  // useEffect(() => {
-  //   return wrongSound ? () => wrongSound.uploadAsync() : undefined;
-  // }, [wrongSound]);
+  const WrongPlaySound = useSoundEffect(
+    require("../../../assets/Sounds/error.mp3")
+  );
+
+  const GetCoinsSound = useSoundEffect(
+    require("../../../assets/Sounds/getCoin.wav")
+  );
 
   useEffect(() => {
-    if (selectedAnswer !== null) {
-      if (selectedAnswer === currentQuestion?.correctAnswerIndex) {
-        setScore((score) => score + 10);
-        dispatch(incrementCoins());
-        dispatch(saveCoins(coins));
-        setAnswerStatus(true);
-        setDisabled(true);
-        {
-          boolean
-            ? Vibration.vibrate([100, 50, 200, 100, 200, 100, 300])
-            : null;
-        }
-        {
-          soundActive ? null : CorrectPlaySound();
-        }
-        // CorrectPlaySound()
-      } else {
-        setDisabled(true);
-        setAnswerStatus(true);
-        setShow(true);
-        setImg(styles.img1);
-        setShowHeart(true);
-        removeHeart();
-        {
-          boolean ? Vibration.vibrate() : null;
-        }
-        {
-          soundActive ? null : WrongPlaySound();
-        }
-      }
-    } else {
+    if (selectedAnswer === null) {
+      // Reset state if no answer is selected
       setDisabled(false);
       setAnswerStatus(null);
       setShow(null);
       setImg(styles.img);
+      return;
+    }
+
+    const isCorrect = selectedAnswer === currentQuestion?.correctAnswerIndex;
+    setDisabled(true);
+    setAnswerStatus(true);
+
+    const vibrate = (pattern) => {
+      if (boolean) Vibration.vibrate(pattern || undefined);
+    };
+
+    const playSound = (soundFn, delay = 0) => {
+      if (!soundActive) {
+        if (delay > 0) {
+          const timeoutId = setTimeout(soundFn, delay);
+          return () => clearTimeout(timeoutId); // cleanup
+        } else {
+          soundFn();
+        }
+      }
+    };
+
+    if (isCorrect) {
+      // setScore((score) => score + 10);
+      setTimeout(() => dispatch(incrementCoins()), 800);
+      dispatch(saveCoins(coins));
+
+      vibrate([100, 50, 200, 100, 200, 100, 300]);
+      playSound(CorrectPlaySound);
+      playSound(GetCoinsSound, 500);
+    } else {
+      setShow(true);
+      setImg(styles.img1);
+      setShowHeart(true);
+      removeHeart();
+
+      vibrate();
+      playSound(WrongPlaySound);
     }
   }, [selectedAnswer]);
+
+  // useEffect(() => {
+  //   if (selectedAnswer !== null) {
+  //     if (selectedAnswer === currentQuestion?.correctAnswerIndex) {
+  //       setScore((score) => score + 10);
+  //       setTimeout(()=>{dispatch(incrementCoins())},800);
+  //       dispatch(saveCoins(coins));
+  //       setAnswerStatus(true);
+  //       setDisabled(true);
+  //       {
+  //         boolean
+  //           ? Vibration.vibrate([100, 50, 200, 100, 200, 100, 300])
+  //           : null;
+  //       }
+  //       {
+  //         soundActive ? null : CorrectPlaySound(),
+  //           setTimeout(() => {
+  //             GetCoinsSound(); // play after 1 second
+  //           }, 500);
+  //       }
+  //       // CorrectPlaySound()
+  //     } else {
+  //       setDisabled(true);
+  //       setAnswerStatus(true);
+  //       setShow(true);
+  //       setImg(styles.img1);
+  //       setShowHeart(true);
+  //       removeHeart();
+  //       {
+  //         boolean ? Vibration.vibrate() : null;
+  //       }
+  //       {
+  //         soundActive ? null : WrongPlaySound();
+  //       }
+  //     }
+  //   } else {
+  //     setDisabled(false);
+  //     setAnswerStatus(null);
+  //     setShow(null);
+  //     setImg(styles.img);
+  //   }
+  // }, [selectedAnswer]);
 
   useEffect(() => {
     setSelectedAnswer(null);
@@ -224,131 +261,108 @@ const QuizMainTemplate = (props) => {
   // 50/50 logic
   const [fiftyFifty, setFiftyFifty] = useState([]);
   const [fiftyFifty2, setFiftyFifty2] = useState([]);
-  // const [soundRoll1, setSoundRoll1] = useState();
-  // const [soundRoll2, setSoundRoll2] = useState();
   const [displayNone1, setDisplayNone1] = useState(stylesMain.fiftyfiftybutton);
   const [displayNone2, setDisplayNone2] = useState(stylesMain.fiftyfiftybutton);
 
   const soundFiles = [
-    require("../../../assets/fiftyfifty.mp3"),
-    require("../../../assets/timpani1.mp3"),
-    require("../../../assets/cymbal.mp3"), // Add more sounds as needed
+    require("../../../assets/Sounds/fiftyfifty.mp3"),
+    require("../../../assets/Sounds/timpani1.mp3"),
+    require("../../../assets/Sounds/cymbal.mp3"), // Add more sounds as needed
   ];
 
-  async function playSoundRoll1() {
-    const randomIndex = Math.floor(Math.random() * soundFiles.length);
-    const selectedSound = soundFiles[randomIndex];
+  const playSoundRoll1 = useRandomSoundEffect(soundFiles, 0.2);
+  const playSoundRoll2 = useRandomSoundEffect(soundFiles, 0.2);
 
-    const { sound } = await Audio.Sound.createAsync(
-      selectedSound
-      // require("../../../assets/fiftyfifty.mp3")
-    );
-    // setSoundRoll1(soundRoll1);
-    await sound.setVolumeAsync(0.3);
-    await sound.playAsync(); // Play the sound
-  }
-  async function playSoundRoll2() {
-    const randomIndex = Math.floor(Math.random() * soundFiles.length);
-    const selectedSound = soundFiles[randomIndex];
-    const { sound } = await Audio.Sound.createAsync(
-      selectedSound
-      // require("../../../assets/fiftyfifty.mp3")
-    );
-    // setSoundRoll2(soundRoll2);
-    await sound.setVolumeAsync(0.3);
-    await sound.playAsync(); // Play the sound
-  }
+  const runFiftyFifty = async (setFn, soundFn) => {
+    if (!soundActive) await soundFn();
+    const delay = soundActive ? 200 : 1400;
+    setTimeout(() => {
+      const wrong = currentQuestion.options
+        .map((_, i) => i)
+        .filter((i) => i !== currentQuestion.correctAnswerIndex)
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 2);
+      setFn(wrong);
+    }, delay);
+  };
 
-  // useEffect(() => {
-  //   return soundRoll1
-  //     ? () => {
-  //         sound.unloadAsync();
-  //       }
-  //     : undefined;
-  // }, [soundRoll1]);
-
-  // useEffect(() => {
-  //   return soundRoll2
-  //     ? () => {
-  //         sound.unloadAsync();
-  //       }
-  //     : undefined;
-  // }, [soundRoll2]);
+  const handleFiftyFifty = () => runFiftyFifty(setFiftyFifty, playSoundRoll1);
+  const handleFiftyFifty2 = () => runFiftyFifty(setFiftyFifty2, playSoundRoll2);
 
   //1 word-4 images
-  const handleFiftyFifty = async () => {
-    {
-      soundActive ? null : await playSoundRoll1();
-    }
+  // const handleFiftyFifty = async () => {
+  //   {
+  //     soundActive ? null : await playSoundRoll1();
+  //   }
 
-    {
-      soundActive
-        ? setTimeout(() => {
-            const wrongAnswers = currentQuestion.options
-              .map((option, index) => index)
-              .filter((index) => index !== currentQuestion.correctAnswerIndex);
+  //   {
+  //     soundActive
+  //       ? setTimeout(() => {
+  //           const wrongAnswers = currentQuestion.options
+  //             .map((option, index) => index)
+  //             .filter((index) => index !== currentQuestion.correctAnswerIndex);
 
-            const randomWrongAnswers = wrongAnswers
-              .sort(() => 0.5 - Math.random())
-              .slice(0, 2);
+  //           const randomWrongAnswers = wrongAnswers
+  //             .sort(() => 0.5 - Math.random())
+  //             .slice(0, 2);
 
-            setFiftyFifty(randomWrongAnswers);
-          }, 200)
-        : setTimeout(() => {
-            const wrongAnswers = currentQuestion.options
-              .map((option, index) => index)
-              .filter((index) => index !== currentQuestion.correctAnswerIndex);
+  //           setFiftyFifty(randomWrongAnswers);
+  //         }, 200)
+  //       : setTimeout(() => {
+  //           const wrongAnswers = currentQuestion.options
+  //             .map((option, index) => index)
+  //             .filter((index) => index !== currentQuestion.correctAnswerIndex);
 
-            const randomWrongAnswers = wrongAnswers
-              .sort(() => 0.5 - Math.random())
-              .slice(0, 2);
+  //           const randomWrongAnswers = wrongAnswers
+  //             .sort(() => 0.5 - Math.random())
+  //             .slice(0, 2);
 
-            setFiftyFifty(randomWrongAnswers);
-          }, 1400);
-    }
-    {
-      setTimeout(() => {
-        setDisplayNone1(stylesMain.testFifty);
-      }, 100);
-    }
-  };
+  //           setFiftyFifty(randomWrongAnswers);
+  //         }, 1400);
+  //   }
+  //   {
+  //     setTimeout(() => {
+  //       setDisplayNone1(stylesMain.testFifty);
+  //     }, 100);
+  //   }
+  // };
 
   // 1 image- 4 words
-  const handleFiftyFifty2 = async () => {
-    {
-      soundActive ? null : await playSoundRoll2();
-    }
-    {
-      soundActive
-        ? setTimeout(() => {
-            const wrongAnswers = currentQuestion.options
-              .map((option, index) => index)
-              .filter((index) => index !== currentQuestion.correctAnswerIndex);
+  // const handleFiftyFifty2 = async () => {
+  //   {
+  //     soundActive ? null : await playSoundRoll2();
+  //   }
+  //   {
+  //     soundActive
+  //       ? setTimeout(() => {
+  //           const wrongAnswers = currentQuestion.options
+  //             .map((option, index) => index)
+  //             .filter((index) => index !== currentQuestion.correctAnswerIndex);
 
-            const randomWrongAnswers = wrongAnswers
-              .sort(() => 0.5 - Math.random())
-              .slice(0, 2);
+  //           const randomWrongAnswers = wrongAnswers
+  //             .sort(() => 0.5 - Math.random())
+  //             .slice(0, 2);
 
-            setFiftyFifty2(randomWrongAnswers);
-          }, 200)
-        : setTimeout(() => {
-            const wrongAnswers = currentQuestion.options
-              .map((option, index) => index)
-              .filter((index) => index !== currentQuestion.correctAnswerIndex);
+  //           setFiftyFifty2(randomWrongAnswers);
+  //         }, 200)
+  //       : setTimeout(() => {
+  //           const wrongAnswers = currentQuestion.options
+  //             .map((option, index) => index)
+  //             .filter((index) => index !== currentQuestion.correctAnswerIndex);
 
-            const randomWrongAnswers = wrongAnswers
-              .sort(() => 0.5 - Math.random())
-              .slice(0, 2);
+  //           const randomWrongAnswers = wrongAnswers
+  //             .sort(() => 0.5 - Math.random())
+  //             .slice(0, 2);
 
-            setFiftyFifty2(randomWrongAnswers);
-          }, 1400);
-    }
-    {
-      setTimeout(() => {
-        setDisplayNone2(stylesMain.testFifty);
-      }, 100);
-    }
-  };
+  //           setFiftyFifty2(randomWrongAnswers);
+  //         }, 1400);
+  //   }
+  //   {
+  //     setTimeout(() => {
+  //       setDisplayNone2(stylesMain.testFifty);
+  //     }, 100);
+  //   }
+  // };
 
   const answerAnims = useRef([
     new Animated.Value(0), // Box 0

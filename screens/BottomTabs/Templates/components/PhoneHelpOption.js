@@ -29,7 +29,7 @@ const PhoneHelpOption = ({ helpText }) => {
 
   async function popUpPlaySound() {
     const { sound } = await Audio.Sound.createAsync(
-      require("../../../../assets/popup.mp3")
+      require("../../../../assets/Sounds/popup.mp3")
       // require("../../../assets/drumroll.mp3")
     );
     setPopUpSound(popUpSound);
@@ -39,7 +39,7 @@ const PhoneHelpOption = ({ helpText }) => {
 
   async function DialNumberPlaySound() {
     const { sound } = await Audio.Sound.createAsync(
-      require("../../../../assets/dianNumber.mp3")
+      require("../../../../assets/Sounds/dianNumber.mp3")
     );
     setDial(dial);
     await sound.setVolumeAsync(0.1);
@@ -48,7 +48,7 @@ const PhoneHelpOption = ({ helpText }) => {
 
   async function MessageSound() {
     const { sound } = await Audio.Sound.createAsync(
-      require("../../../../assets/message.mp3")
+      require("../../../../assets/Sounds/message.mp3")
     );
     // setDial(dial);
     await sound.setVolumeAsync(0.1);

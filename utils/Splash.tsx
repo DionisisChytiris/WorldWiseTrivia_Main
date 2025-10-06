@@ -1,7 +1,6 @@
 import { View, Text } from "react-native";
 import React, { Dispatch, SetStateAction } from "react";
 import LottieView from "lottie-react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
 
 interface SplashProps {
   setIsLoading: Dispatch<SetStateAction<boolean>>;
