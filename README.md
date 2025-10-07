@@ -4,7 +4,7 @@ Lightweight React Native trivia app focused on geography — categories, quizzes
 
 ## Features
 - Category-based quizzes (Capitals, Flags, Monuments, Natural, Mixed)
-- Theme (dark/light) and language (i18n) support
+- Theme (dark/light) and language (i18n) support (English, Spanish, Greek)
 - Persistent user data with AsyncStorage
 - Contact form with message history and admin replies
 - Map view for world monuments
@@ -41,3 +41,10 @@ Lightweight React Native trivia app focused on geography — categories, quizzes
 3. Start Metro / Expo
    - Expo managed:
      npx expo start -c
+
+## Download
+
+Get the app on:
+
+- Google Play: [WorldWiseTrivia on Google Play](https://play.google.com/store/apps/details?id=com.worldwisetrivia.app)
+- App Store: [WorldWiseTrivia on the App Store](https://apps.apple.com/us/app/world-wise-trivia/id6670754535)
