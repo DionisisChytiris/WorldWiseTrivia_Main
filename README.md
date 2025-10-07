@@ -41,7 +41,3 @@ Lightweight React Native trivia app focused on geography — categories, quizzes
 3. Start Metro / Expo
    - Expo managed:
      npx expo start -c
-   - Bare React Native:
-     npx react-native start --reset-cache
-     npx react-native run-android
-     npx react-native run-ios
