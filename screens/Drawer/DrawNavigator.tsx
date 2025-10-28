@@ -1,4 +1,4 @@
-import { Platform, StatusBar } from "react-native";
+import { Platform, StatusBar, Text } from "react-native";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import QuizScreen from "../QuizScreen";
@@ -27,6 +27,42 @@ const DrawNavigator = () => {
   //   }, 3000);
   // }, []);
 
+  const ANDROID_STATUS_BAR =
+    Platform.OS === "android" ? StatusBar.currentHeight ?? 90 : 0;
+  const BASE_HEADER_HEIGHT = 60;
+
+  const headerOptions = (title: string) => ({
+    // hide default title string so we can render our own Text component
+    title: undefined,
+    headerTitle: () => (
+      <Text
+        numberOfLines={2}
+        ellipsizeMode="tail"
+        style={{
+          fontSize: 16,
+          fontWeight: "bold",
+          color: colors.textDrawer,
+          textAlign: "center",
+          marginTop: Platform.OS === "android" ? ANDROID_STATUS_BAR / 0 : 0,
+        }}
+      >
+        {title}
+      </Text>
+    ),
+    headerTitleAlign: "center" as const,
+    headerStyle: {
+      backgroundColor: colors.backgroundBottomTab,
+      // backgroundColor: 'transparent',
+      paddingTop: ANDROID_STATUS_BAR,
+      height: BASE_HEADER_HEIGHT + ANDROID_STATUS_BAR,
+    },
+    headerTintColor: colors.textDrawer,
+    gestureEnabled: false,
+    headerTitleContainerStyle: {
+      paddingTop: Platform.OS === "android" ? 20 : 0,
+    },
+  });
+
   return (
     <Drawer.Navigator
       id={undefined}
@@ -39,6 +75,7 @@ const DrawNavigator = () => {
             screenOptions={{
               headerStyle: {
                 backgroundColor: colors.backgroundBottomTab,
+                // backgroundColor: 'transparent',
               },
               headerTintColor: "#fff",
               headerTitleStyle: {
@@ -55,7 +92,6 @@ const DrawNavigator = () => {
               options={{
                 title: "",
                 // title: t("welcome"),
-               
                 headerShown: true,
                 headerStyle: {
                   backgroundColor: colors.backgroundBottomTab,
@@ -71,60 +107,65 @@ const DrawNavigator = () => {
             <Stack.Screen
               name="Capitals"
               component={TabNavCapitals}
-              options={{
-                title: t("capitals"),
-                
-                headerShown: true,
-                // gestureEnabled: true,
-                // headerBackVisible: true,
-                gestureEnabled: false,
-                headerTitleStyle: { fontSize: 16, fontWeight: "bold" },
-                headerTintColor: colors.textDrawer,
-              }}
+              options={headerOptions(t("capitals"))}
+              // options={{
+              //   title: t("capitals"),
+
+              //   headerShown: true,
+              //   // gestureEnabled: true,
+              //   // headerBackVisible: true,
+              //   gestureEnabled: false,
+              //   headerTitleStyle: { fontSize: 16, fontWeight: "bold" },
+              //   headerTintColor: colors.textDrawer,
+              // }}
             />
             <Stack.Screen
               name="Flags"
               component={TabNavFlags}
-              options={{
-                title: t("flags"),
-                headerShown: true,
-                gestureEnabled: false,
-                headerTitleStyle: { fontSize: 16, fontWeight: "bold" },
-                headerTintColor: colors.textDrawer,
-              }}
+              options={headerOptions(t("flags"))}
+              // options={{
+              //   title: t("flags"),
+              //   headerShown: true,
+              //   gestureEnabled: false,
+              //   headerTitleStyle: { fontSize: 16, fontWeight: "bold" },
+              //   headerTintColor: colors.textDrawer,
+              // }}
             />
             <Stack.Screen
               name="WorldMonuments"
               component={TabNavMonuments}
-              options={{
-                title: t("worldMonuments1"),
-                headerShown: true,
-                gestureEnabled: false,
-                headerTitleStyle: { fontSize: 16, fontWeight: "bold" },
-                headerTintColor: colors.textDrawer,
-              }}
+              options={headerOptions(t("worldMonuments1"))}
+              // options={{
+              //   title: t("worldMonuments1"),
+              //   headerShown: true,
+              //   gestureEnabled: false,
+              //   headerTitleStyle: { fontSize: 16, fontWeight: "bold" },
+              //   headerTintColor: colors.textDrawer,
+              // }}
             />
             <Stack.Screen
               name="NaturalMonument"
               component={TabNavNaturalMnts}
-              options={{
-                title: t("naturalMonuments"),
-                headerShown: true,
-                gestureEnabled: false,
-                headerTitleStyle: { fontSize: 16, fontWeight: "bold" },
-                headerTintColor: colors.textDrawer,
-              }}
+              options={headerOptions(t("naturalMonuments"))}
+              // options={{
+              //   title: t("naturalMonuments"),
+              //   headerShown: true,
+              //   gestureEnabled: false,
+              //   headerTitleStyle: { fontSize: 16, fontWeight: "bold" },
+              //   headerTintColor: colors.textDrawer,
+              // }}
             />
             <Stack.Screen
               name="MixedQuestions"
               component={TabNavMixedQsts}
-              options={{
-                title: t("mixedQuestions"),
-                headerShown: true,
-                gestureEnabled: false,
-                headerTitleStyle: { fontSize: 18, fontWeight: "bold" },
-                headerTintColor: colors.textDrawer,
-              }}
+              options={headerOptions(t("mixedQuestions"))}
+              // options={{
+              //   title: t("mixedQuestions"),
+              //   headerShown: true,
+              //   gestureEnabled: false,
+              //   headerTitleStyle: { fontSize: 18, fontWeight: "bold" },
+              //   headerTintColor: colors.textDrawer,
+              // }}
             />
           </Stack.Navigator>
         )}

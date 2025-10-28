@@ -90,7 +90,7 @@ const QuizScreen = () => {
   };
 
   return (
-    <SafeAreaView>
+    <View>
       <ScrollView>
         <View
           style={[
@@ -150,7 +150,7 @@ const QuizScreen = () => {
           </View>
         </View>
       </ScrollView>
-    </SafeAreaView>
+    </View>
   );
 };
 
@@ -165,7 +165,7 @@ const styles = StyleSheet.create({
     height: height > 1000 ? 1200 : 1000,
     // height: "100%"
   },
-  title: { marginTop: 25 },
+  title: { marginTop: 20 },
   content: {
     marginTop: height > 960 ? 34 : height > 900 ? 50 : 20,
     // justifyContent: height > 960 ? "flex-start" : "center",
