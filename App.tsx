@@ -5,12 +5,24 @@ import { ThemeProvider } from "./utils/ThemeMode/ThemeProvider";
 import { store } from "./ReduxSetUp/store";
 import { Provider } from "react-redux";
 import * as Updates from "expo-updates";
-import { Alert, BackHandler,Platform, StatusBar } from "react-native";
+import { Alert, BackHandler, Platform, StatusBar } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import uuid from "react-native-uuid";
 import { useTranslation } from "react-i18next";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { Audio } from "expo-av";
+
+export async function setupAudio() {
+  await Audio.setAudioModeAsync({
+    allowsRecordingIOS: false,
+    staysActiveInBackground: false, // ✅ prevents foreground service
+    playsInSilentModeIOS: true,
+    shouldDuckAndroid: true,
+    interruptionModeIOS: Audio.INTERRUPTION_MODE_IOS_DO_NOT_MIX,
+    interruptionModeAndroid: Audio.INTERRUPTION_MODE_ANDROID_DO_NOT_MIX,
+  });
+}
 
 if (!BackHandler.removeEventListener) {
   BackHandler.removeEventListener = () => {};
@@ -18,6 +30,10 @@ if (!BackHandler.removeEventListener) {
 
 export default function App() {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    setupAudio();
+  }, []);
 
   const setupUserId = async () => {
     try {
@@ -74,7 +90,6 @@ export default function App() {
       <Provider store={store}>
         <ThemeProvider>
           <AppNavigator />
-          
         </ThemeProvider>
       </Provider>
     </GestureHandlerRootView>

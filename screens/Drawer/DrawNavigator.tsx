@@ -108,64 +108,26 @@ const DrawNavigator = () => {
               name="Capitals"
               component={TabNavCapitals}
               options={headerOptions(t("capitals"))}
-              // options={{
-              //   title: t("capitals"),
-
-              //   headerShown: true,
-              //   // gestureEnabled: true,
-              //   // headerBackVisible: true,
-              //   gestureEnabled: false,
-              //   headerTitleStyle: { fontSize: 16, fontWeight: "bold" },
-              //   headerTintColor: colors.textDrawer,
-              // }}
             />
             <Stack.Screen
               name="Flags"
               component={TabNavFlags}
               options={headerOptions(t("flags"))}
-              // options={{
-              //   title: t("flags"),
-              //   headerShown: true,
-              //   gestureEnabled: false,
-              //   headerTitleStyle: { fontSize: 16, fontWeight: "bold" },
-              //   headerTintColor: colors.textDrawer,
-              // }}
             />
             <Stack.Screen
               name="WorldMonuments"
               component={TabNavMonuments}
               options={headerOptions(t("worldMonuments1"))}
-              // options={{
-              //   title: t("worldMonuments1"),
-              //   headerShown: true,
-              //   gestureEnabled: false,
-              //   headerTitleStyle: { fontSize: 16, fontWeight: "bold" },
-              //   headerTintColor: colors.textDrawer,
-              // }}
             />
             <Stack.Screen
               name="NaturalMonument"
               component={TabNavNaturalMnts}
               options={headerOptions(t("naturalMonuments"))}
-              // options={{
-              //   title: t("naturalMonuments"),
-              //   headerShown: true,
-              //   gestureEnabled: false,
-              //   headerTitleStyle: { fontSize: 16, fontWeight: "bold" },
-              //   headerTintColor: colors.textDrawer,
-              // }}
             />
             <Stack.Screen
               name="MixedQuestions"
               component={TabNavMixedQsts}
               options={headerOptions(t("mixedQuestions"))}
-              // options={{
-              //   title: t("mixedQuestions"),
-              //   headerShown: true,
-              //   gestureEnabled: false,
-              //   headerTitleStyle: { fontSize: 18, fontWeight: "bold" },
-              //   headerTintColor: colors.textDrawer,
-              // }}
             />
           </Stack.Navigator>
         )}
