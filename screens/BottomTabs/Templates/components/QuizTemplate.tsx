@@ -45,7 +45,7 @@ const QuizTemplate: React.FC<QuizTemplateProps> = ({
       // Case 2: Locked, but enough coins
       Alert.alert("Unlock Quiz", `Unlock quiz ${title} for ${price} coins?`, [
         { text: "Cancel", style: "cancel" },
-        { text: "Unlock", onPress: () => unlockQuiz?.(id)},
+        { text: "Unlock", onPress: () => unlockQuiz?.(id) },
       ]);
     } else {
       // Case 3b: Not enough coins, no ads configured
@@ -56,76 +56,59 @@ const QuizTemplate: React.FC<QuizTemplateProps> = ({
     }
   };
 
+  const imageSize =
+    windowHeight > 1100
+      ? 200
+      : windowHeight > 1000
+      ? 180
+      : windowHeight > 900
+      ? 130
+      : 120;
+
   return (
     <Pressable
-      key={id}
       onPress={handlePress}
       style={({ pressed }) => [styles.button, pressed && styles.buttonPressed]}
     >
       <Image
         source={image}
         style={{
-          width:
-            windowHeight > 900
-              ? windowHeight > 1100
-                ? 250
-                : windowHeight > 1000
-                ? 180
-                : 130
-              : 120,
-          height:
-            windowHeight > 900
-              ? windowHeight > 1100
-                ? 150
-                : windowHeight > 1000
-                ? 120
-                : 85
-              : "100%",
+          width: imageSize,
+          height: imageSize * 0.6,
           borderRadius: 10,
           opacity: locked ? 0.3 : 0.7,
         }}
         resizeMode="cover"
       />
+      
       <View style={{ position: "absolute", bottom: 10 }}>
         <Text
-          style={{
-            backgroundColor: "#fdfcfcd3",
-            borderRadius: 10,
-            paddingHorizontal: 8,
-            paddingVertical: 3,
-            color: !locked ? "black" : "black",
-            fontWeight: "bold",
-            opacity: 1,
-            fontSize:
-              windowHeight > 1000 ? (windowHeight > 1100 ? 26 : 18) : 14,
-          }}
+          style={[
+            styles.titleText,
+            {
+              fontSize:
+                windowHeight > 1100 ? 26 : windowHeight > 1000 ? 18 : 14,
+            },
+          ]}
         >
           {t("quiz")} {title}
         </Text>
 
         {/* Only show ad/coins row if quiz is locked */}
         {locked && (
-          <View
-            style={{
-              flexDirection: "row",
-              alignItems: "center",
-              justifyContent: "center",
-              marginTop: 5,
-            }}
-          >
-            <View style={{ position: "absolute", top: -40, right: -5 }}>
-              <Text style={{ fontSize: 18 }}>🔒</Text>
-            </View>
+          <View style={styles.lockContainer}>
             <View
               style={{
-                backgroundColor: "rgba(136, 134, 114, 0.8)",
-                paddingTop: 2,
-                paddingBottom: 6,
-                borderRadius: 5,
-                alignItems: "center",
-                width: "100%",
+                position: "absolute",
+                top: windowHeight > 1000 ? -60 : -40,
+                right: -5,
               }}
             >
+              <Text style={{ fontSize: windowHeight > 1000 ? 34 : 18 }}>
+                🔒
+              </Text>
+            </View>
+            <View style={styles.coinBox}>
               <Text style={styles.lockText}> 💰 {price} coins</Text>
             </View>
           </View>
@@ -150,10 +133,31 @@ const styles = StyleSheet.create({
   buttonPressed: {
     opacity: 0.4,
   },
+  titleText: {
+    backgroundColor: "#fdfcfcd3",
+    borderRadius: 10,
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    color: "black",
+    fontWeight: "bold",
+  },
+  lockContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 5,
+  },
+  coinBox: {
+    backgroundColor: "rgba(136, 134, 114, 0.8)",
+    paddingVertical: 4,
+    borderRadius: 5,
+    alignItems: "center",
+    width: "100%",
+  },
   lockText: {
     marginTop: 5,
     color: "gold",
     fontWeight: "bold",
-    fontSize: 12,
+    fontSize: windowHeight > 1000 ? 16 : 12,
   },
 });

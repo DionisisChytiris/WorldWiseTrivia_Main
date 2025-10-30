@@ -182,8 +182,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     gap: 20,
   },
-  quizBtnBoxLeft: { width: "50%", gap: 20 },
-  quizBtnBoxRight: { width: "50%", marginTop: 70, marginLeft: 20, gap: 20 },
+  quizBtnBoxLeft: { width: "50%", gap: windowHeight > 1000 ? 60 :20 },
+  quizBtnBoxRight: { width: "50%", marginTop: 70, marginLeft: 20, gap:windowHeight > 1000 ? 60 : 20 },
   background: {
     position: "absolute",
     width: windowHeight > 900 ? windowWidth * 2 : windowWidth * 1,

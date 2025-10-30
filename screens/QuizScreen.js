@@ -181,11 +181,11 @@ const styles = StyleSheet.create({
   },
   image: {
     width:
-      height > 860 ? width * 0.26 : height < 800 ? width * 0.24 : width * 0.28,
+      height > 900 ? width * 0.24 : height < 800 ? width * 0.24 : width * 0.28,
     height:
       height > 900
         ? height > 1000
-          ? height * 0.15
+          ? height * 0.13
           : height * 0.1
         : height * 0.11,
     borderRadius: 20,
