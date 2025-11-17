@@ -57,7 +57,9 @@ export default {
     },
     plugins: [
       "expo-font",
-      "expo-asset"
+      "expo-asset",
+       "expo-audio",
+    "expo-video"
     ],
   },
 };
