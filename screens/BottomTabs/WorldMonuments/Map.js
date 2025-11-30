@@ -129,7 +129,6 @@ const Map = () => {
       <View style={styles.buttonContainer}>
         <ScrollView horizontal={true}>
           {mapMonumentsItem.map((item, index) => {
-            // const [test, setTest] =React.useState(1)
             return (
               <View
                 key={index}
@@ -237,24 +236,16 @@ const styles = StyleSheet.create({
 
 export default Map;
 
-// import { View, Text, Button } from "react-native";
-// import React, { useState } from "react";
-// import MapView from "react-native-maps";
-// import { Marker, MAP_TYPES } from "react-native-maps";
 
-// const Return = () => {
-//   const [region, setRegion] = useState({
 //     latitude: 37.78825,
 //     longitude: -122.4324,
 //     latitudeDelta: 0.0922,
 //     longitudeDelta: 0.0421,
 //   });
 
-//   const onRegionChange = (newRegion) => {
 //     setRegion(newRegion);
 
 //   };
-//   const changeLocation = () => {
 //     setRegion({
 //       latitude: 40.7128,
 //       longitude: -74.006,
@@ -262,12 +253,7 @@ export default Map;
 //       longitudeDelta: 0.0421,
 //     });
 //   };
-//   const [ltd, setLtd] = React.useState(37.78825);
-//   const [lngt, setLngt] = React.useState(-122.4324);
 
-//   return (
-//     <View style={{ flex: 1 }}>
-//       <MapView
 //        ref={(ref) => {
 //         map = ref;
 //       }}
@@ -276,15 +262,12 @@ export default Map;
 //         initialRegion={region}
 //         onRegionChange={onRegionChange}
 //       >
-//         <Marker
 //           coordinate={{
 //             latitude: ltd,
 //             longitude: lngt,
 //           }}
 //           />
 //       </MapView>
-//       <View style={{ position: "absolute", bottom: 20, alignSelf: "center" }}>
-//         <Button
 //           title="Change Location"
 //           onPress={() => {
 //             setRegion({
@@ -300,4 +283,3 @@ export default Map;
 //   );
 // };
 
-// export default Return;

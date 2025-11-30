@@ -6,6 +6,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useTheme } from "../../utils/ThemeMode/ThemeProvider";
 import { useAppDispatch } from "../../ReduxSetUp/store";
 import { setNameInput } from "../../ReduxSetUp/SetUserName/setUserNameSlice";
+import logger from "../../utils/logger";
 
 const formatName = (input: string) => {
   if (!input) return null;
@@ -33,7 +34,7 @@ const NameInput = ({ navigation }) => {
       navigation.navigate("Draw", { name: userName });
       setName(""); // clear input for next time
     } catch (e) {
-      console.error("Error saving name:", e);
+      logger.error("Error saving name:", e);
     }
   };
 
@@ -46,7 +47,7 @@ const NameInput = ({ navigation }) => {
         dispatch(setNameInput(user.Name)); // keep Redux in sync
       }
     } catch (e) {
-      console.error("Error reading name:", e);
+      logger.error("Error reading name:", e);
     }
   };
 
@@ -56,14 +57,14 @@ const NameInput = ({ navigation }) => {
 
   return (
     <View style={[styles.container, { backgroundColor: colors.backgroundDrawer }]}>
-      {/* Progress bar */}
+      {}
       <View style={{ width: "50%", flexDirection: "row", gap: 5, marginBottom: 70 }}>
         <View style={{ flex: 1, height: 3, backgroundColor: "#144999" }} />
         <View style={{ flex: 1, height: 3, backgroundColor: "#144999" }} />
         <View style={{ flex: 1, height: 3, backgroundColor: "#0099ffff" }} />
       </View>
 
-      {/* Title + Input */}
+      {}
       <View style={{ alignItems: "center" }}>
         <Text style={styles.label}>{t("Enter your Name")}</Text>
         <TextInput
@@ -74,7 +75,7 @@ const NameInput = ({ navigation }) => {
         />
       </View>
 
-      {/* Buttons */}
+      {}
       <View style={styles.buttonsRow}>
         <Pressable
           onPress={() => {

@@ -1,4 +1,3 @@
-// import images from "../../../assets/worldMonuments";
 
 const mapDataEn = [
   {

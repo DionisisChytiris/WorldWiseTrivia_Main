@@ -1,6 +1,7 @@
 // scoreSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import logger from '../../utils/logger';
 
 const initialState = {
   coins: 0,
@@ -33,7 +34,7 @@ export const loadCoins = () => async (dispatch) => {
       dispatch(setCoins(Number(storedCoins)));
     }
   } catch (error) {
-    console.error("Error loading coins from AsyncStorage", error);
+    logger.error("Error loading coins from AsyncStorage", error);
   }
 };
 
@@ -41,7 +42,7 @@ export const saveCoins = (coins) => async (dispatch) => {
   try {
     await AsyncStorage.setItem('coins', coins.toString());
   } catch (error) {
-    console.error("Error saving coins to AsyncStorage", error);
+    logger.error("Error saving coins to AsyncStorage", error);
   }
 };
 

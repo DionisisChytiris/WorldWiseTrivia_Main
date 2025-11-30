@@ -25,10 +25,7 @@ import { Colors } from "react-native-paper";
 import { useTheme } from "../../../../utils/ThemeMode/ThemeProvider";
 import { ActivityIndicator } from "react-native";
 import { useTranslation } from "react-i18next";
-// import { RootStackParamList } from "../../Types/RootStackParamList"; // Adjust the path as needed
-// import { RootStackParamList } from "../../Types/RootStackParamList";
-// import MessagesScreen from "./MessagesScreen";
-// import MessagesWrapper from "./MessagesWrapper";
+import logger from "../../../../utils/logger";
 
 type ContactProp = StackNavigationProp<AppNavigatorTypeList, "Contact">;
 
@@ -42,14 +39,7 @@ const Contact = () => {
   const [sendingMessage, setSendingMessage] = useState(false);
 
   // useEffect(() => {
-  //   const fetchUserMessages = async () => {
-  //     const userId = await AsyncStorage.getItem("user_id");
-  //     if (!userId) return;
 
-  //     try {
-  //       const res = await fetch(`https://worldwisetriviaquizbackend.onrender.com/messages/${userId}`);
-  //       // const res = await fetch(`http://192.168.1.234:3000/messages/${userId}`);
-  //       const data = await res.json();
   //       // setMessages(data);
   //       setMessages(Array.isArray(data) ? data : []);
   //     } catch (err) {
@@ -75,7 +65,7 @@ const Contact = () => {
         const data = await res.json();
         setMessages(Array.isArray(data) ? data : []);
       } catch (err) {
-        console.error(err);
+        logger.error("Error fetching user messages:", err);
       } finally {
         setLoadingMessages(false);
       }
@@ -100,7 +90,7 @@ const Contact = () => {
     try {
       setSendingMessage(true);
       const userId = await AsyncStorage.getItem("user_id");
-      console.log("Sending message from user:", userId);
+      logger.info("Sending message from user:", userId);
       const response = await fetch(
         "https://worldwisetriviaquizbackend.onrender.com/messages",
         {
@@ -163,8 +153,8 @@ const Contact = () => {
     <View
       style={[styles.container, { backgroundColor: colors.backgroundDrawer }]}
     >
-      {/* <ScrollView style={styles.scrollView}> */}
-      {/* Hero Section */}
+      {}
+      {}
 
       <KeyboardAvoidingView
         behavior={Platform.OS === "ios" ? "padding" : "height"}
@@ -178,7 +168,6 @@ const Contact = () => {
             <Image
               source={
                 require("../../../../assets/NaturalMnt/Africa/CapeofGoodHope.webp")
-                // uri: "https://api.a0.dev/assets/image?text=ancient%20greek%20parthenon%20temple%20at%20sunset%20minimalist%20illustration&aspect=16:9",
               }
               style={styles.heroImage}
             />
@@ -189,14 +178,9 @@ const Contact = () => {
               style={styles.homeButton}
             >
               <Ionicons name="home" size={24} color="#dddbdb" />
-              {/* <Home size={24} color="#dddbdb" /> */}
+              {}
             </TouchableOpacity>
-            {/* <View style={styles.heroContent}>
-              <Text style={styles.heroTitle}>Γεωγραφία της Ελλάδας</Text>
-              <Text style={styles.heroSubtitle}>
-                Εξερευνήστε την ομορφιά της Ελλάδας
-              </Text>
-            </View> */}
+            {}
           </LinearGradient>
           <View style={styles.header}>
             <MaterialIcons name="feedback" size={32} color="#007AFF" />
@@ -250,7 +234,7 @@ const Contact = () => {
                       marginBottom: 20,
                     }}
                   >
-                    {/* USER MESSAGE */}
+                    {}
                     <View
                       style={{
                         flexDirection: "row",
@@ -275,11 +259,11 @@ const Contact = () => {
                         style={{ padding: 20 }}
                       >
                         <Feather name="trash-2" size={24} color="red" />
-                        {/* <Trash2 color="red" size={24} /> */}
+                        {}
                       </Pressable>
                     </View>
 
-                    {/* ADMIN REPLIES */}
+                    {}
                     {msg.replies?.map((reply, idx) => (
                       <View key={idx} style={styles.bubbleAdmin}>
                         <Text style={{ color: "#222" }}>{reply.reply}</Text>
@@ -295,36 +279,7 @@ const Contact = () => {
               })
             )}
 
-            {/* {messages.map((msg) => {
-              // console.log("sentAt:", msg.sentAt); // 👈 Check format
-              return (
-                <View
-                  key={msg.id}
-                  style={{
-                    marginBottom: 20,
-                    flexDirection: "row",
-                    gap: 12,
-                    alignItems: "center",
-                  }}
-                >
-                  <View style={styles.bubbleUser}>
-                    <Text style={{ color: "#f5f5f5" }}>{msg.content}</Text>
-                    <Text
-                      style={{ color: "#dbd9d9", fontSize: 10, paddingTop: 5 }}
-                    >
-                      {" "}
-                      {new Date(msg.sentAt).toLocaleString()}
-                    </Text>
-                  </View>
-                  <Pressable
-                    onPress={() => deleteMessage(msg)}
-                    style={{ padding: 20 }}
-                  >
-                    <Trash2 color="red" size={24} />
-                  </Pressable>
-                </View>
-              );
-            })} */}
+            {}
           </View>
 
           <View
@@ -348,7 +303,7 @@ const Contact = () => {
         </ScrollView>
       </KeyboardAvoidingView>
 
-      {/* </ScrollView> */}
+      {}
     </View>
   );
 };

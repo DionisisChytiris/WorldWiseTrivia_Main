@@ -15,6 +15,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import Contact from "./screens/BottomTabs/Templates/components/Contact";
 import AiAgent from "./screens/AiGeographyAgent/AiAgent";
 import { loadCoins } from "./ReduxSetUp/CoinsSlice/coinsSlice";
+import logger from "./utils/logger";
 
 const Stack = createNativeStackNavigator<AppNavigatorTypeList>();
 
@@ -32,14 +33,13 @@ const AppNavigator = () => {
           setStoredString(value); // Set state if a value exists in AsyncStorage
         }
       } catch (error) {
-        console.error("Failed to load string from AsyncStorage:", error);
+        logger.error("Failed to load string from AsyncStorage:", error);
       }
     };
 
     loadStoredString();
   }, []);
 
-  // type Language = 'en' | 'es' | 'el'
 
   const setLanguage = (language) => {
     actions[language].forEach((action) => dispatch(action()));
@@ -55,7 +55,7 @@ const AppNavigator = () => {
     if (storedString === "El") {
       setLanguage("el");
     }
-    console.log(storedString);
+    logger.debug("Language stored string:", storedString);
   }, [storedString]);
 
   useEffect(() => {

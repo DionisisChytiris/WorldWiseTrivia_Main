@@ -39,16 +39,13 @@ const QuizTemplate: React.FC<QuizTemplateProps> = ({
 
   const handlePress = () => {
     if (!locked) {
-      // Case 1: Already unlocked
       navigation.navigate(quiz as never);
     } else if (coins >= price) {
-      // Case 2: Locked, but enough coins
       Alert.alert("Unlock Quiz", `Unlock quiz ${title} for ${price} coins?`, [
         { text: "Cancel", style: "cancel" },
         { text: "Unlock", onPress: () => unlockQuiz?.(id) },
       ]);
     } else {
-      // Case 3b: Not enough coins, no ads configured
       Alert.alert(
         "Not enough coins",
         "You need more coins to unlock this quiz."
@@ -94,7 +91,7 @@ const QuizTemplate: React.FC<QuizTemplateProps> = ({
           {t("quiz")} {title}
         </Text>
 
-        {/* Only show ad/coins row if quiz is locked */}
+        {}
         {locked && (
           <View style={styles.lockContainer}>
             <View

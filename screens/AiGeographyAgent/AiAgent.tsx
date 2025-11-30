@@ -18,9 +18,9 @@ import ModalAiAgentMsg from "./ModalAiAgentMsg";
 import HomeLogo from "./components/HomeLogo";
 import AppLogo from "./components/AppLogo";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import logger from "../../utils/logger";
 
 const AiAgent = () => {
-  // const [username, setUsername] = useState("");
   const { t } = useTranslation();
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState<string>("");
@@ -42,12 +42,9 @@ const AiAgent = () => {
   }, []);
 
   // 2. Handle typing *safely*
-  // const handleUserNameChange = (text: string) => {
   //   // Reject invalid chars
-  //   if (!isValidQuestion(text)) return;
 
   //   // Reject if over word limit
-  //   if (countWords(text) > 2) return;
 
   //   setUsername(text);
   // };
@@ -69,7 +66,6 @@ const AiAgent = () => {
 
   const validateInputs = () => {
     const hasRequiredFields = question.trim() !== "";
-    // const hasRequiredFields = username.trim() !== "" && question.trim() !== "";
     const isValidFormat = isValidQuestion(question);
     const wordCount = countWords(question);
     const isWithinLimit = wordCount <= WORD_LIMIT;
@@ -81,7 +77,6 @@ const AiAgent = () => {
 
   useEffect(() => {
     setIsFormValid(validateInputs());
-    handleQuestionChange;
   }, [question]);
 
   const askQuestion = async () => {
@@ -93,8 +88,6 @@ const AiAgent = () => {
 
     setLoading(true);
     try {
-      // const response = await axios.post("http://192.168.1.234:8000/ask", {
-      // const response = await axios.post(
       //   "https://geography-ai-agent.vercel.app/api/main",
       //   {
       //     userId,
@@ -117,7 +110,7 @@ const AiAgent = () => {
         Alert.alert("Limit reached", error.response.data.detail);
       } else {
         Alert.alert("Error", "Something went wrong. Is the backend running?");
-        console.error(error);
+        logger.error("Error asking question to AI agent:", error);
       }
     } finally {
       setLoading(false);
@@ -131,13 +124,7 @@ const AiAgent = () => {
       <AppLogo />
 
       <Text style={styles.header}>🌍 {t("aiAgent1")}</Text>
-      {/* <TextInput
-        style={styles.input}
-        placeholder="Enter your username"
-        value={username}
-        onChangeText={handleUserNameChange}
-        editable={!isLimitReached && !loading} // disable input when limit reached or loading
-      /> */}
+      {}
 
       <View
         style={{
@@ -180,9 +167,7 @@ const AiAgent = () => {
         multiline
         editable={!isLimitReached && !loading} // disable input when limit reached or loading
       />
-      {/* {question.length > 0 && !isValidQuestion(question) && (
-        <Text style={{ color: "red" }}>Only letters and . , ? ; allowed.</Text>
-      )} */}
+      {}
 
       {countWords(question) > WORD_LIMIT && (
         <Text style={{ color: "red" }}>
@@ -190,11 +175,7 @@ const AiAgent = () => {
         </Text>
       )}
 
-      {/* {hasLongWords(question) && (
-        <Text style={{ color: "red" }}>
-          Each word must be max {MAX_WORD_LENGTH} characters.
-        </Text>
-      )} */}
+      {}
 
       <Button
         title="Ask"
@@ -207,11 +188,7 @@ const AiAgent = () => {
         disabled={isLimitReached || loading}
       />
 
-      {/* {isLimitReached && (
-        <Text style={{ color: "red", textAlign: "center", marginVertical: 10 }}>
-          You’ve reached your daily request limit. Come back tomorrow!
-        </Text>
-      )} */}
+      {}
 
       <ScrollView
         showsVerticalScrollIndicator={false}
@@ -242,7 +219,6 @@ const AiAgent = () => {
               {t("aiAgent7")}
             </Text>
           </View>
-          // <AiIntroMessage />
         )}
       </ScrollView>
     </View>

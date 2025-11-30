@@ -1046,7 +1046,6 @@ const MapDataEs = [
   //     ltr: 'N',
   //     title: 'Northern Lights (Aurora)',
   //     description: '',
-  //     img: require('../../../assets/NaturalMnt/Europe/Northern-Lights-Desktop-Wallpaper.jpg'),
   //     latitude: 22.339813935826047,
   //     longitude: 31.62559883879468,
   //     zoomLocation: 5.3,

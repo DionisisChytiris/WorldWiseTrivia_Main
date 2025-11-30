@@ -58,12 +58,8 @@ const ChooseQuizType = () => {
   return (
     <View style={styles.container}>
       <Animated.View style={[styles.background, { backgroundColor }]} />
-      {/* <View>
-          <Text style={{color: 'white', fontSize: 26}}>Hello world</Text>
-          <Text style={{color: 'white', fontSize: 26}}>Hello world</Text>
-          <Text style={{color: 'white', fontSize: 26}}>Hello world</Text>
-        </View> */}
-      {/* <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}> */}
+      {}
+      {}
         <View style={{ padding: 20 }}>
           <Text
             style={{ fontSize: windowHeight> 900 ? (windowHeight>1000? (windowHeight>1100? 30: 28): 20): 18  , paddingBottom: 30,marginTop: -40, fontWeight: "500", color: '#ccc' }}
@@ -127,7 +123,7 @@ const ChooseQuizType = () => {
             <Text style={{ color: colors.text }}>{t("4 WORDS")}</Text>
           </View>
         </Pressable>
-      {/* </View> */}
+      {}
     </View>
   );
 };

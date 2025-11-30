@@ -71,7 +71,7 @@ const LearnCapitalItem = ({
           </View>
         </View>
 
-        {/* Back Side */}
+        {}
         <View
           style={[
             styles.flagBoxBack,

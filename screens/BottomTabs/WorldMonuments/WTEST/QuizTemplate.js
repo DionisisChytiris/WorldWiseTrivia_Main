@@ -2,7 +2,6 @@ import { View, Text, Pressable, Image, ActivityIndicator } from "react-native";
 import React, { useState, useEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
 import { useTheme } from "../../../../utils/ThemeMode/ThemeProvider";
-// import { styles } from "./styles";
 import {styles} from '../../styles'
 import { MaterialIcons } from "@expo/vector-icons";
 
@@ -49,7 +48,7 @@ const QuizTemplate = (props) => {
 
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
-      {/* Header */}
+      {}
       <View style={{ flexDirection: "row", gap: 30 }}>
         <Text style={{ color: colors.text }}>
           {index + 1} / {data.length - 1}
@@ -61,7 +60,7 @@ const QuizTemplate = (props) => {
         <Text style={{ color: colors.text }}>Length ___{data.length}</Text>
       </View>
 
-      {/* Quiz */}
+      {}
       <View style={styles.quizContainer}>
         <Text style={[styles.smTitle, { color: colors.text }]}>
           {currentQuestion.country}
@@ -111,14 +110,14 @@ const QuizTemplate = (props) => {
                     </Text>
                   ) : null}
                 </View>
-                {/* Correct (Tick) Symbol */}
+                {}
                 {selectedAnswer === index &&
                 index === currentQuestion.correctAnswerIndex ? (
                   <View style={styles.tick}>
                     <MaterialIcons name="done" size={30} color="white" />
                   </View>
                 ) : null}
-                {/* Wrong (clear) Symbol */}
+                {}
                 {selectedAnswer === index &&
                 index !== currentQuestion.correctAnswerIndex ? (
                   <View style={styles.clear}>
@@ -154,7 +153,6 @@ const QuizTemplate = (props) => {
                 ? null
                 : (setIndex(index + 1), setDisabled(false));
             }
-            // if (guesses == currentQuestion.num) {
             //   setIndex(index + 1);
             //   restartGuess();
             // }

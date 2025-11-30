@@ -3,10 +3,9 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { View, Pressable, Image, Platform, Text } from "react-native";
 import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import CapitalsQuizHome from "./CapitalsQuizHome";
-// import LearnCapitals from "./LearnCapitals";
 import Map from "./Map";
 import Settings from "../Settings";
-import { TopTabCapitalNavigator } from "./TopTabCapitals/topTabCapitalNavigator.js";
+import { TopTabCapitalNavigator } from "./TopTabCapitals/topTabCapitalNavigator";
 import {
   Quiz1,
   Quiz2,
@@ -76,8 +75,6 @@ const TabNavCapitals = ({ navigation }) => {
         options={{
           headerShown: false,
           tabBarLabel: t("Quizzes"),
-          // tabBarLabel: 'hely',
-          // tabBarIcon: () => <AntDesign name="home" size={24} color="blue" />,
           tabBarIcon: () => (
             <Image
               style={{ width: 30, height: 30, marginTop: 12 }}
@@ -85,37 +82,13 @@ const TabNavCapitals = ({ navigation }) => {
             />
           ),
           tabBarLabelStyle: {
-            marginTop: 10, // Apply marginTop here
+            marginTop: 10,
           },
         }}
-        // options={{
-        //   tabBarButton: (props) => (
-        //     <Pressable
-        //       onPress={() => navigation.navigate("ChooseQuizType")}
-        //       style={{
-        //         alignItems: "center",
-        //         justifyContent: "center",
-        //         backgroundColor: "transparent",
-        //         width: "25%",
-        //         marginTop: 12,
-        //       }}
-        //     >
-        //       <Image
-        //         style={{ width: 30, height: 30, marginTop: 5 }}
-        //         source={require("../../../assets/settings/apps.png")}
-        //       />
-        //       <Text style={{ fontSize: 10, color: "grey", paddingTop: 4 }}>
-        //         {t("Quizzes")}
-        //       </Text>
-        //     </Pressable>
-        //   ),
-        // }}
       >
         {() => (
           <Stack.Navigator>
             <Stack.Group screenOptions={{ headerShown: false}}>
-              {/* <Stack.Screen name="ResultsCpt1" component={ResultsCpt1} />  */}
-              {/* <Stack.Screen name="LoseScreen" component={LoseScreen} />  */}
               <Stack.Screen name="ChooseQuizType" component={ChooseQuizType} />
               <Stack.Screen name="CapitalsHome" component={CapitalsQuizHome} />
               <Stack.Screen name="Quiz1" component={Quiz1} />
@@ -148,7 +121,6 @@ const TabNavCapitals = ({ navigation }) => {
               <Stack.Screen name="LoseScreen8" component={LoseScreen8} />
               <Stack.Screen name="LoseScreen9" component={LoseScreen9} />
               <Stack.Screen name="LoseScreen10" component={LoseScreen10} />
-              {/* <Stack.Screen name="LoseScreen" component={LoseScreen} />  */}
             </Stack.Group>
           </Stack.Navigator>
         )}
@@ -162,12 +134,11 @@ const TabNavCapitals = ({ navigation }) => {
           tabBarIcon: () => (
             <Image
               style={{ width: 30, height: 30, marginTop: 14, borderRadius: 16 }}
-              // source={require("../../../assets/QuizScreen/lon.png")}
               source={require("../../../assets/more/capitals.webp")}
             />
           ),
           tabBarLabelStyle: {
-            marginTop: 10, // Apply marginTop here
+            marginTop: 10,
           },
         }}
       >
@@ -217,7 +188,6 @@ const TabNavCapitals = ({ navigation }) => {
         options={{
           tabBarButton: (props) => (
             <Pressable
-              //   title=""
               onPress={() => navigation.openDrawer()}
               style={{
                 alignItems: "center",

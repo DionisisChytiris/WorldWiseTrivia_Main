@@ -6,7 +6,6 @@ import { styles } from "./styles";
 import { useSelector } from "react-redux";
 import LearnFlagItem from "./LearnFlagItem";
 import { FlashList } from "@shopify/flash-list";
-// import FlagsEuropeEl from "../../../../data/flags/Europe/FlagsEuropeEl";
 import { Dimensions } from "react-native";
 
 const width = Dimensions.get("window").width;
@@ -27,7 +26,6 @@ const Europe = () => {
   });
 
   return (
-    // <ScrollView >
     <View>
       <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
         <Text style={[styles.continentTitle, { color: colors.text }]}>
@@ -55,20 +53,6 @@ const Europe = () => {
 
 export default Europe;
 
-/* {flagItems.map((item, index) => {
-        return (
-          <View key={index}>
-            {item.continent === "Europe" && (
-              <LearnFlagItem  {...item} />
-              )}
-          </View>
-        );
-      })} */
 
-/* {flagItems.map((item, index) => {
-        return (
-          <View key={index}>
-            {item.continent === "Europe" && <LearnFlagItem {...item} />}
-          </View>
-        );
-      })} */
+
+

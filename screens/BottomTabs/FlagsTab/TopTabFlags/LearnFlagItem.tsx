@@ -7,9 +7,9 @@ const LearnFlagItem = ({ img, country, capital }) => {
 
   return (
     <>
-      {/* <View style={[styles.flagBox, { backgroundColor: colors.bgLngFlgs }]}> */}
+      {}
       <View style={styles.flagBox}>
-        {/* <View style={{flexDirection: 'row'}}> */}
+        {}
           <View style={{ flexDirection: "row", marginTop: 0, alignItems: 'center' }}>
             <Text
               style={{ width: '38%',fontSize: 15, fontWeight: "bold", paddingLeft: 5, color: colors.text }}
@@ -25,7 +25,7 @@ const LearnFlagItem = ({ img, country, capital }) => {
             <Image style={styles.img} resizeMode="cover" source={img} />
           </View>
           </View>
-        {/* </View> */}
+        {}
       </View>
     </>
   );

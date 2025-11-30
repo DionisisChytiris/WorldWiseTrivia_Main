@@ -3,7 +3,6 @@ import MainChooseQuizTypeTemplate from "../Templates/MainChooseQTypeTemplate";
 
 const ChooseQuizType = () => {
   return (
-    // <MainChooseQuizTypeTemplate screen='CapitalsHome'/>
     <MainChooseQuizTypeTemplate
       screen="CapitalsHome"
       image1={require("../../../assets/more/images.jpg")}

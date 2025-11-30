@@ -73,7 +73,7 @@ const GuessTemplate = (props) => {
             // padding: 20,
           }}
         >
-          {/* <Text>{currentQuestion.letters}</Text> */}
+          {}
           <DisplayLettersFunction />
         </View>
       </View>

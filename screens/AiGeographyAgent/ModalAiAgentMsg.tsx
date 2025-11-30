@@ -7,11 +7,7 @@ const ModalAiAgentMsg = ({ visible, onClose }) => {
   return (
     <Modal visible={visible} transparent={true}>
       <View style={styles.centeredView}>
-        {/* <Pressable onPress={onClose}>
-          <View style={{position: 'absolute', top: -50, right: 30, zIndex: 99, backgroundColor: 'grey', padding: 20}}>
-            <Feather name="x" size={24} color="white" />
-          </View>
-        </Pressable> */}
+        {}
         <View style={styles.modalView}>
           <AiIntroMessage onClose1={onClose}/>
         </View>

@@ -17,7 +17,7 @@ const ToggleBtn = ({navigation}) => {
       }}
     >
          <View style={{ marginTop: 150 }}>
-        {/* <Text style={{ color: "red" }}>{t("welcome")}</Text> */}
+        {}
         <Text style={{ color: "yellow", fontSize: 20}}>{t("welcome")}</Text>
       </View>
       <Pressable

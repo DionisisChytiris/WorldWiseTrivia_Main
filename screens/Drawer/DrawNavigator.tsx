@@ -8,7 +8,6 @@ import { useTranslation } from "react-i18next";
 import { useTheme } from "../../utils/ThemeMode/ThemeProvider";
 import TabNavFlags from "../BottomTabs/FlagsTab/TabNavFlags";
 import React from "react";
-// import TabNavAnimals from "../BottomTabs/AnimalsTab/TabNavAnimals";
 import TabNavMixedQsts from "../BottomTabs/MixedQuestionsTab/TabNavMixedQsts";
 import TabNavMonuments from "../BottomTabs/WorldMonuments/TabNavMonuments";
 import TabNavNaturalMnts from "../BottomTabs/NaturalMntTab/TabNavNaturalMnts";
@@ -19,7 +18,6 @@ const Stack = createNativeStackNavigator();
 const DrawNavigator = () => {
   const { colors } = useTheme();
   const { t } = useTranslation();
-  // const [show, setShow] = React.useState(true);
 
   // React.useEffect(() => {
   //   setTimeout(() => {
@@ -85,7 +83,7 @@ const DrawNavigator = () => {
               orientation: "portrait",
             }}
           >
-            {/* <Stack.Screen name="Hello" component={Hello} /> */}
+            {}
             <Stack.Screen
               name="Home"
               component={QuizScreen}

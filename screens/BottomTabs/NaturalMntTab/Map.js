@@ -23,7 +23,6 @@ const { width, height } = Dimensions.get("window");
 const ASPECT_RATIO = (width * 100) / height;
 
 const Map = () => {
-  // const dataMap = MapDataEs
   const { mapNaturalMntItem } = useSelector(
     (state) => state.NaturalMntMapNames
   );
@@ -142,7 +141,6 @@ const Map = () => {
         <ScrollView horizontal={true}>
           {mapNaturalMntItem.map((item, index) => {
             // {mapMonumentsItem.map((item, index) => {
-            // const [test, setTest] =React.useState(1)
             return (
               <View
                 key={index}

@@ -11,21 +11,22 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import uuid from "react-native-uuid";
 import { useTranslation } from "react-i18next";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Audio } from "expo-av";
+import { Audio, InterruptionModeIOS, InterruptionModeAndroid } from "expo-av";
+import logger from "./utils/logger";
 
 export async function setupAudio() {
   await Audio.setAudioModeAsync({
     allowsRecordingIOS: false,
-    staysActiveInBackground: false, // ✅ prevents foreground service
+    staysActiveInBackground: false,
     playsInSilentModeIOS: true,
     shouldDuckAndroid: true,
-    interruptionModeIOS: Audio.INTERRUPTION_MODE_IOS_DO_NOT_MIX,
-    interruptionModeAndroid: Audio.INTERRUPTION_MODE_ANDROID_DO_NOT_MIX,
+    interruptionModeIOS: InterruptionModeIOS.DoNotMix,
+    interruptionModeAndroid: InterruptionModeAndroid.DoNotMix,
   });
 }
 
-if (!BackHandler.removeEventListener) {
-  BackHandler.removeEventListener = () => {};
+if (!(BackHandler as any).removeEventListener) {
+  (BackHandler as any).removeEventListener = () => {};
 }
 
 export default function App() {
@@ -41,10 +42,10 @@ export default function App() {
       if (!existingUserId) {
         const newUserId = uuid.v4();
         await AsyncStorage.setItem("user_id", newUserId);
-        console.log("New user_id created:", newUserId);
+        logger.info("New user_id created:", newUserId);
       }
     } catch (error) {
-      console.error("Error accessing AsyncStorage:", error);
+      logger.error("Error accessing AsyncStorage:", error);
     }
   };
 
@@ -59,7 +60,7 @@ export default function App() {
         ]);
       }
     } catch (e) {
-      console.log("Error checking for updates:", e);
+      logger.error("Error checking for updates:", e);
     }
   };
 

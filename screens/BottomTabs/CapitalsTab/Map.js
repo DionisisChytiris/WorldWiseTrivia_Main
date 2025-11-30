@@ -39,7 +39,6 @@ const Map = () => {
   const [capital, setCapital] = useState("San Francisco");
   const [weather, setWeather] = useState("");
   const BASE_URL = `https://api.openweathermap.org/data/2.5/weather`;
-  // const API_KEY =   Platform.OS === 'ios' ? process.env.EXPO_PUBLIC_GOOGLE_MAPS_KEY_IOS : process.env.EXPO_PUBLIC_API_KEY;
   const API_KEY =  process.env.EXPO_PUBLIC_API_KEY;
 
   const mapRef = useRef(null);
@@ -115,21 +114,10 @@ const Map = () => {
     return <ActivityIndicator />;
   }
 
-  // const localTime = () => {
-  //   let dateTime = new Date(weather.dt * 1000 + weather.timezone * 1000);
 
   
-  //   let hour = (dateTime.getHours() % 24) - 1;
-  //   let ampm = hour >= 12 ? "pm" : "am";
 
-  //   let minutes = dateTime.getMinutes();
-  //   let weekday = dateTime.toLocaleString('default', { weekday: 'long' });
-  //   let month = dateTime.toLocaleString('default', { month: 'short' });
-  //   let date = dateTime.getDate();
 
-  //   return `${hour} : ${minutes<10 ? 0: ''}${minutes} `;
-  //   return `${hour} : ${minutes} `;
-  //   return `${hour} : ${minutes} ${ampm} - ${weekday} , ${month} ${date}`;
   // };
 
   return (
@@ -182,23 +170,18 @@ const Map = () => {
       </View>
 
       <View style={styles.weatherContainer}>
-        {/* <Text>{weather.name}</Text> */}
+        {}
         <Text>{capital}</Text>
         <Text style={[styles.weatherText, {fontSize: 30}]}>
           {Math.round(weather.main.temp)}°C
         </Text>
-        {/* <Text style={[styles.weatherText, {fontSize: 14}]}>
-          {t("localtime")}
-        </Text>
-        <Text style={[styles.weatherText, {fontSize: 20}]}>
-          {localTime()}
-        </Text> */}
-          {/* {weather.dt*1000-(weather.timezone*1000)} */}
+        {}
+          {}
       </View>
 
       <View style={styles.buttonContainer}>
         <ScrollView horizontal={true}>
-          {/* {mapDataEn.map((item, index) => { */}
+          {}
           {mapCapitalsItem.map((item, index) => {
             return (
               <View
@@ -220,15 +203,7 @@ const Map = () => {
                       Alert.alert(item.capital, item.description);
                     }}
                   >
-                    {/* {loading && (
-                      <ActivityIndicator size="large" color="#0000ff" />
-                    )}
-                    <Image
-                      style={styles.img}
-                      source={item.img}
-                      resizeMode="contain"
-                      onLoadEnd={() => setLoading(false)}
-                    /> */}
+                    {}
                     <View style={styles.buttonText}>
                       <Text style={{ fontWeight: "500" }}>{item.capital}</Text>
                       <Text style={{ fontSize: 12 }}>{item.country}</Text>
@@ -317,24 +292,16 @@ const styles = StyleSheet.create({
 
 export default Map;
 
-// import { View, Text, Button } from "react-native";
-// import React, { useState } from "react";
-// import MapView from "react-native-maps";
-// import { Marker, MAP_TYPES } from "react-native-maps";
 
-// const Return = () => {
-//   const [region, setRegion] = useState({
 //     latitude: 37.78825,
 //     longitude: -122.4324,
 //     latitudeDelta: 0.0922,
 //     longitudeDelta: 0.0421,
 //   });
 
-//   const onRegionChange = (newRegion) => {
 //     setRegion(newRegion);
 
 //   };
-//   const changeLocation = () => {
 //     setRegion({
 //       latitude: 40.7128,
 //       longitude: -74.006,
@@ -342,12 +309,7 @@ export default Map;
 //       longitudeDelta: 0.0421,
 //     });
 //   };
-//   const [ltd, setLtd] = React.useState(37.78825);
-//   const [lngt, setLngt] = React.useState(-122.4324);
 
-//   return (
-//     <View style={{ flex: 1 }}>
-//       <MapView
 //        ref={(ref) => {
 //         map = ref;
 //       }}
@@ -356,15 +318,12 @@ export default Map;
 //         initialRegion={region}
 //         onRegionChange={onRegionChange}
 //       >
-//         <Marker
 //           coordinate={{
 //             latitude: ltd,
 //             longitude: lngt,
 //           }}
 //           />
 //       </MapView>
-//       <View style={{ position: "absolute", bottom: 20, alignSelf: "center" }}>
-//         <Button
 //           title="Change Location"
 //           onPress={() => {
 //             setRegion({
@@ -380,4 +339,3 @@ export default Map;
 //   );
 // };
 
-// export default Return;

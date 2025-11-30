@@ -7,6 +7,7 @@ import { useTheme } from "../../utils/ThemeMode/ThemeProvider";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { AppNavigatorTypeList } from "../../Types/AppNavigatorTypeList";
+import logger from "../../utils/logger";
 
 type ChangeThemeProp = StackNavigationProp<AppNavigatorTypeList, "Draw">;
 
@@ -31,7 +32,7 @@ const ChangeTheme = () => {
         }
       });
     } catch (e) {
-      console.log(e);
+      logger.error("Error loading user name from AsyncStorage:", e);
     }
   };
 
@@ -49,12 +50,7 @@ const ChangeTheme = () => {
         <View style={{ width: "33%", height: 3, backgroundColor: "#144999" }} />
       </View>
 
-      {/* <Pressable
-        onPress={() => (dark ? setScheme("light") : setScheme("dark"))}
-        style={styles.pressableStyle}
-      >
-        <Text style={{ fontSize: 18, fontWeight: "bold" }}>{dark? t("darkMode"): t("lightMode")}</Text>
-      </Pressable> */}
+      {}
 
       <Pressable
         onPress={() => {
@@ -106,9 +102,7 @@ const ChangeTheme = () => {
           <Text style={styles.title}>{t("next-step")}</Text>
         </Pressable>
       </View>
-      {/* <View style={{marginTop: 20}}>
-        <Text>Hello {name}</Text>
-      </View> */}
+      {}
     </View>
   );
 };

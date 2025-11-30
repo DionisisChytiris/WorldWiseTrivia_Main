@@ -7,7 +7,6 @@ import { Dimensions } from "react-native";
 import { styles } from "./styles";
 import { useSelector } from "react-redux";
 import LearnNaturalMntsItem from "./LearnNaturalMntsItem";
-// import AsiaMntEn from "../../../../data/naturalMnts/TopTabMnts/AsiaMntEn";
 
 const width = Dimensions.get("window").width;
 const height = Dimensions.get("window").height;

@@ -1,0 +1,190 @@
+import React from "react";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { Pressable, Image, Text, Platform } from "react-native";
+import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
+import { useTranslation } from "react-i18next";
+import { TopTabFlagNavigator } from "./TopTabFlags/topTabFlagNavigator";
+import FlagsQuizHome from "./FlagsQuizHome";
+import Settings from "../Settings";
+import {
+  Quiz1,
+  Quiz2,
+  Quiz3,
+  Quiz4,
+  Quiz5,
+  Quiz6,
+  Quiz7,
+  Quiz8,
+  Quiz9,
+  Quiz10,
+  Results1,
+  Results2,
+  Results3,
+  Results4,
+  Results5,
+  Results6,
+  Results7,
+  Results8,
+  Results9,
+  Results10,
+  LoseScreen1,
+  LoseScreen10,
+  LoseScreen2,
+  LoseScreen3,
+  LoseScreen4,
+  LoseScreen5,
+  LoseScreen6,
+  LoseScreen7,
+  LoseScreen8,
+  LoseScreen9,
+} from "./Quizzes";
+import Return from "./WTEST/Return";
+import ChooseQuizType from "./ChooseQuizType";
+import { DrawerNavigationProp } from "@react-navigation/drawer";
+
+const Tab = createBottomTabNavigator();
+const Stack = createNativeStackNavigator();
+
+interface TabNavFlagsProps {
+  navigation: DrawerNavigationProp<any>;
+}
+
+const TabNavFlags: React.FC<TabNavFlagsProps> = ({ navigation }) => {
+  const { colors } = useTheme();
+  const { t } = useTranslation();
+  return (
+    <Tab.Navigator
+      screenOptions={{
+        headerStyle: {
+          backgroundColor: colors.backgroundBottomTab,
+        },
+        headerTintColor: "#fff",
+        headerTitleStyle: {
+          fontWeight: "bold",
+        },
+        tabBarActiveTintColor: "white",
+        tabBarStyle: {
+          backgroundColor: colors.backgroundBottomTab,
+          height: Platform.OS == "ios" ? 90 : 70,
+          paddingBottom: Platform.OS == "ios" ? 30 : 10,
+        },
+      }}
+    >
+      <Tab.Screen
+        name="FlagQuizHome"
+        options={{
+          headerShown: false,
+          tabBarLabel: t("Quizzes"),
+          tabBarIcon: () => (
+            <Image
+              style={{ width: 30, height: 30, marginTop: 12 }}
+              source={require("../../../assets/settings/apps.png")}
+            />
+          ),
+          tabBarLabelStyle: {
+            marginTop: 10,
+          },
+        }}
+      >
+        {() => (
+          <Stack.Navigator>
+            <Stack.Group screenOptions={{ headerShown: false }}>
+              <Stack.Screen name="ChooseQuizType" component={ChooseQuizType} />
+              <Stack.Screen name="FlagsHome" component={FlagsQuizHome} />
+              <Stack.Screen name="Quiz1" component={Quiz1} />
+              <Stack.Screen name="Quiz2" component={Quiz2} />
+              <Stack.Screen name="Quiz3" component={Quiz3} />
+              <Stack.Screen name="Quiz4" component={Quiz4} />
+              <Stack.Screen name="Quiz5" component={Quiz5} />
+              <Stack.Screen name="Quiz6" component={Quiz6} />
+              <Stack.Screen name="Quiz7" component={Quiz7} />
+              <Stack.Screen name="Quiz8" component={Quiz8} />
+              <Stack.Screen name="Quiz9" component={Quiz9} />
+              <Stack.Screen name="Quiz10" component={Quiz10} />
+              <Stack.Screen name="Results1" component={Results1} />
+              <Stack.Screen name="Results2" component={Results2} />
+              <Stack.Screen name="Results3" component={Results3} />
+              <Stack.Screen name="Results4" component={Results4} />
+              <Stack.Screen name="Results5" component={Results5} />
+              <Stack.Screen name="Results6" component={Results6} />
+              <Stack.Screen name="Results7" component={Results7} />
+              <Stack.Screen name="Results8" component={Results8} />
+              <Stack.Screen name="Results9" component={Results9} />
+              <Stack.Screen name="Results10" component={Results10} />
+              <Stack.Screen name="LoseScreen1" component={LoseScreen1} />
+              <Stack.Screen name="LoseScreen2" component={LoseScreen2} />
+              <Stack.Screen name="LoseScreen3" component={LoseScreen3} />
+              <Stack.Screen name="LoseScreen4" component={LoseScreen4} />
+              <Stack.Screen name="LoseScreen5" component={LoseScreen5} />
+              <Stack.Screen name="LoseScreen6" component={LoseScreen6} />
+              <Stack.Screen name="LoseScreen7" component={LoseScreen7} />
+              <Stack.Screen name="LoseScreen8" component={LoseScreen8} />
+              <Stack.Screen name="LoseScreen9" component={LoseScreen9} />
+              <Stack.Screen name="LoseScreen10" component={LoseScreen10} />
+            </Stack.Group>
+          </Stack.Navigator>
+        )}
+      </Tab.Screen>
+
+      <Tab.Screen
+        name="FlagsScreen"
+        options={{
+          headerShown: false,
+          tabBarLabel: t("Learn"),
+          tabBarIcon: () => (
+            <Image
+              style={{ width: 30, height: 30, marginTop: 12, borderRadius: 16 }}
+              source={require("../../../assets/more/flags.webp")}
+            />
+          ),
+          tabBarLabelStyle: {
+            marginTop: 10,
+          },
+        }}
+      >
+        {() => (
+          <Stack.Navigator>
+            <Stack.Screen
+              name="TopTabFlagNavigator"
+              component={TopTabFlagNavigator}
+              options={{ headerShown: false }}
+            />
+          </Stack.Navigator>
+        )}
+      </Tab.Screen>
+
+      <Tab.Screen
+        name="Open"
+        options={{
+          headerShown: false,
+          tabBarButton: () => (
+            <Pressable
+              onPress={() => navigation.openDrawer()}
+              style={{
+                alignItems: "center",
+                justifyContent: "center",
+                backgroundColor: "transparent",
+                width: "25%",
+                marginTop: 10,
+                marginLeft: 40,
+              }}
+            >
+              <Image
+                style={{ width: 35, height: 35, marginBottom: -2 }}
+                source={require("../../../assets/settings/settings.png")}
+              />
+              <Text style={{ fontSize: 10, color: "gray", width: 55, marginLeft: 5 }}>
+                {t("settings")}
+              </Text>
+            </Pressable>
+          ),
+        }}
+        component={Settings}
+      />
+    </Tab.Navigator>
+  );
+};
+
+export default TabNavFlags;
+

@@ -9,9 +9,6 @@ export const ThemeContext = createContext({
 })
 
 export const ThemeProvider= (props:any)=>{
-    // const colorScheme = useColorScheme(colorScheme == 'dark')
-    // const colorScheme: ColorSchemeName = useColorScheme()
-    // const [isDark, setIsDark] = useState(colorScheme =='dark')
     const [isDark, setIsDark] = useState(false);
 
     const defaultTheme:any = {

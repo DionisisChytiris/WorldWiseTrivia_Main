@@ -10,17 +10,14 @@ import {
   import React from "react";
   import AsyncStorage from "@react-native-async-storage/async-storage";
   import { useRoute } from "@react-navigation/native";
-  // import LevelImage from "../LevelImage";
   import { useNavigation } from "@react-navigation/native";
   import { QuizBtnItem1, QuizBtnItem2 } from "./FlagsQuizHomeItem";
+  import logger from "../../../../../utils/logger";
   
   const FlagsQuizHome = () => {
     const navigation = useNavigation<any>();
     const route = useRoute<any>();
-    // const score1Test = route.params?.score1;
     const score1Test = 20;
-    // const score2 = route.params?.score2;
-    // const score3 = route.params?.score3;
     const score4 = route.params?.score4;
     const score5 = route.params?.score5;
     const score6 = route.params?.score6;
@@ -53,15 +50,7 @@ import {
       // getAllKeys();
     }, []);
   
-    // const getAllKeys = () => {
-    //   try {
     //      AsyncStorage.getAllKeys().then((value) => {
-    //       if (value != null) {
-    //         let score1 = JSON.parse(value);
-    //         let score2 = JSON.parse(value);
-    //         let score3 = JSON.parse(value);
-    //         let score4 = JSON.parse(value);
-    //         let score5 = JSON.parse(value);
     //         setStoreScore1(score1);
     //         setStoreScore2(score2);
     //         setStoreScore3(score3);
@@ -81,7 +70,7 @@ import {
         navigation.navigate("Quiz2");
         // console.log(score1Test);
       } catch (e) {
-        console.log(e);
+        logger.error("Error accessing AsyncStorage:", e);
       }
     };
     const getItem1 = () => {
@@ -93,7 +82,7 @@ import {
           }
         });
       } catch (e) {
-        console.log(e);
+        logger.error("Error accessing AsyncStorage:", e);
       }
     };
     const getItem2 = () => {
@@ -105,7 +94,7 @@ import {
           }
         });
       } catch (e) {
-        console.log(e);
+        logger.error("Error accessing AsyncStorage:", e);
       }
     };
     const getItem3 = () => {
@@ -117,7 +106,7 @@ import {
           }
         });
       } catch (e) {
-        console.log(e);
+        logger.error("Error accessing AsyncStorage:", e);
       }
     };
   
@@ -130,7 +119,7 @@ import {
           }
         });
       } catch (e) {
-        console.log(e);
+        logger.error("Error accessing AsyncStorage:", e);
       }
     };
     const getItem5 = () => {
@@ -142,7 +131,7 @@ import {
           }
         });
       } catch (e) {
-        console.log(e);
+        logger.error("Error accessing AsyncStorage:", e);
       }
     };
     const getItem6 = () => {
@@ -154,7 +143,7 @@ import {
           }
         });
       } catch (e) {
-        console.log(e);
+        logger.error("Error accessing AsyncStorage:", e);
       }
     };
     const getItem7 = () => {
@@ -166,7 +155,7 @@ import {
           }
         });
       } catch (e) {
-        console.log(e);
+        logger.error("Error accessing AsyncStorage:", e);
       }
     };
     const getItem8 = () => {
@@ -178,7 +167,7 @@ import {
           }
         });
       } catch (e) {
-        console.log(e);
+        logger.error("Error accessing AsyncStorage:", e);
       }
     };
     const getItem9 = () => {
@@ -190,7 +179,7 @@ import {
           }
         });
       } catch (e) {
-        console.log(e);
+        logger.error("Error accessing AsyncStorage:", e);
       }
     };
     const getItem10 = () => {
@@ -202,7 +191,7 @@ import {
           }
         });
       } catch (e) {
-        console.log(e);
+        logger.error("Error accessing AsyncStorage:", e);
       }
     };
   
@@ -220,21 +209,13 @@ import {
             </Text>
             <Text style={{ marginLeft: 40, color: "green" }}>{score1Test}</Text>
   
-            {/* Photo Level */}
+            {}
             <View style={{ position: "absolute", bottom: 30, left: 30 }}>
-              {/* <LevelImage /> */}
+              {}
             </View>
-            {/* <View style={{ position: "absolute", bottom: 30, left: 30 }}>
-            <Image
-              source={require("../../../assets/more/university.png")}
-              style={{ width: 100, height: 180 }}
-            />
-            <Text style={{ marginLeft: 10, marginTop: 10, fontSize: 18 }}>
-              Ambassador
-            </Text>
-          </View> */}
+            {}
   
-            {/* Quiz 1 */}
+            {}
             <View
               style={{
                 position: "absolute",
@@ -251,12 +232,12 @@ import {
               </Pressable>
               <Text style={{ fontSize: 10 }}>
                 {" "}
-                {/* {storeScore1 ? storeScore1 : 0}% */}
+                {}
                 {score1Test ? score1Test : 0}%
               </Text>
             </View>
   
-            {/* Quiz  2 */}
+            {}
             {storeScore1 > 60 ? (
               <QuizBtnItem1
                 screen={setItem1}
@@ -280,7 +261,7 @@ import {
               />
             )}
   
-            {/* Quiz  3 */}
+            {}
             {score1Test > 20 ? (
               <QuizBtnItem1
                 screen={setItem1}
@@ -304,7 +285,7 @@ import {
               />
             )}
   
-            {/* Quiz  4*/}
+            {}
             {score1Test > 50 ? (
               <QuizBtnItem1
                 screen={setItem1}
@@ -328,7 +309,7 @@ import {
               />
             )}
   
-            {/*  Quiz  5 */}
+            {}
             {storeScore4 > 50 ? (
               <QuizBtnItem1
                 screen={setItem1}
@@ -352,7 +333,7 @@ import {
               />
             )}
   
-            {/* Quiz  6 */}
+            {}
             {storeScore5 > 50 ? (
               <QuizBtnItem1
                 screen={setItem1}
@@ -376,7 +357,7 @@ import {
               />
             )}
   
-            {/* Quiz  7 */}
+            {}
             {storeScore6 > 50 ? (
               <QuizBtnItem1
                 screen={setItem1}
@@ -400,7 +381,7 @@ import {
               />
             )}
   
-            {/* Quiz  8 */}
+            {}
             {storeScore7 > 50 ? (
               <QuizBtnItem1
                 screen={setItem1}
@@ -424,7 +405,7 @@ import {
               />
             )}
   
-            {/* Quiz  9 */}
+            {}
             {storeScore8 > 50 ? (
               <QuizBtnItem1
                 screen={setItem1}
@@ -448,7 +429,7 @@ import {
               />
             )}
   
-            {/* Quiz  10 */}
+            {}
             {storeScore9 > 50 ? (
               <QuizBtnItem1
                 screen={setItem1}

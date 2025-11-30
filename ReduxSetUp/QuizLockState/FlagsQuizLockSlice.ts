@@ -1,5 +1,6 @@
 import { createSlice, createAsyncThunk, PayloadAction } from "@reduxjs/toolkit";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import logger from "../../utils/logger";
 
 // AsyncStorage Key
 const STORAGE_KEY = "quizLockStateFlags";
@@ -31,7 +32,7 @@ const saveQuizLockState = async (state: any) => {
   const stateToSave = { ...state };
   delete stateToSave.isLoaded; // don’t save meta field
   await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(stateToSave));
-  console.log("Saved QuizLock to AsyncStorage:", stateToSave);
+  logger.debug("Saved QuizLock to AsyncStorage:", stateToSave);
 };
 
 // Initial State
@@ -68,7 +69,7 @@ const quizLockFlagsSlice = createSlice({
       });
       state.quiz1 = false; // keep quiz1 unlocked
       saveQuizLockState(state);
-      console.log("Quiz lock state reset");
+      logger.info("Quiz lock state reset");
     },
   },
   extraReducers: (builder) => {

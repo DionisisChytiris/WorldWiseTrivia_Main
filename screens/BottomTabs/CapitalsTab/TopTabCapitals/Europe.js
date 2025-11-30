@@ -17,10 +17,6 @@ const EuropeCapital = () => {
   const { t } = useTranslation();
   const flagListRef = useRef();
 
-  // const test1Flags = flagItemsEu.filter((_,index)=>index < flagItemsEu.length/2)
-  // const test2Flags = flagItemsEu.filter((_,index)=>index > flagItemsEu.length/2)
-//   The condition index < flagItemsEu.length / 2 separates the first half of the array, while index >= flagItemsEu.length / 2 separates the second half.
-// This way, the original array is divided into test1Flags and test2Flags without modifying the original.
 
   const renderItem = useCallback(({ item }) => {
     return (
@@ -31,7 +27,6 @@ const EuropeCapital = () => {
   });
 
   return (
-    // <ScrollView >
     <View>
       <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
         <Text style={[styles.continentTitle, { color: colors.text }]}>

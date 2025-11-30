@@ -2,7 +2,6 @@ export const countWords = (text: string) =>
   text.trim() === "" ? 0 : text.trim().split(/\s+/).length;
 
 // Allow only English
-//  export const isValidQuestion = (text: string) =>
 //     /^[a-zA-Z .,?;]+$/.test(text.trim());
 
 // Allow any unicode letters (Greek, Spanish, etc)

@@ -54,11 +54,7 @@ const Africa = () => {
 
 export default Africa;
 
-// const renderItem = useCallback(({ item }) => {
-//   return (
-//     <View>
 //       {item.continent === "Africa" && (
-//         <LearnFlagItem {...item} />
 //       )}
 //     </View>
 //   );

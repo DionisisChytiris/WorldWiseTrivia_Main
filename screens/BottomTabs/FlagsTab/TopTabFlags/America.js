@@ -49,11 +49,8 @@ const America = () => {
 
 export default America;
 
-// <FlatList
 // data={flagItems}
 // renderItem={({ item }) => {
-//   return (
-//     <View>
 //       {item.continent === "America" && <LearnFlagItem {...item} />}
 //     </View>
 //   );

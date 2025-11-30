@@ -4,8 +4,6 @@ import { useNavigation } from "@react-navigation/native";
 import { useTheme } from "../../../../utils/ThemeMode/ThemeProvider";
 import { MaterialIcons } from "@expo/vector-icons";
 import { styles } from "../../styles";
-// import GuessTemplate from "./GuessTemplate";
-// import FlagTemplate from "./FlagTemplate";
 
 const QuizTemplate = (props) => {
   const navigation = useNavigation();
@@ -145,7 +143,7 @@ const QuizTemplate = (props) => {
 
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
-      {/* Header */}
+      {}
       <View style={{ flexDirection: "row", gap: 40 }}>
         <Text style={{ color: colors.text }}>
           {index + 1} / {data.length - 1}
@@ -154,17 +152,13 @@ const QuizTemplate = (props) => {
           {props.quizName}
         </Text>
         <Text style={{ color: colors.text }}>score: {score}</Text>
-        {/* {currentQuestion.status === "Guess" ? (
-          <Text style={{}}>{apple}</Text>
-        ) : (
-          <Text style={{}}>{heart}</Text>
-          )} */}
+        {}
         <Text style={{}}>{heart}</Text>
       </View>
 
-      {/* Quiz Template */}
+      {}
       <View style={styles.quizContainer}>
-        {/* Guess Quiz */}
+        {}
         {currentQuestion.status === "Guess" && (
           <View>
             <View style={styles.guessContainer}>
@@ -235,9 +229,9 @@ const QuizTemplate = (props) => {
           </View>
         )}
 
-        {/* <GuessTemplate guessData={data} index={index}  /> */}
+        {}
 
-        {/* Flags Quiz */}
+        {}
         {currentQuestion.status === "Flags" && (
           <>
             <Text style={[styles.smTitle, { color: colors.text }]}>
@@ -283,14 +277,14 @@ const QuizTemplate = (props) => {
                         </Text>
                       ) : null}
                     </View>
-                    {/* Correct (Tick) Symbol */}
+                    {}
                     {selectedAnswer === index &&
                     index === currentQuestion.correctAnswerIndex ? (
                       <View style={styles.tick}>
                         <MaterialIcons name="done" size={30} color="white" />
                       </View>
                     ) : null}
-                    {/* Wrong (clear) Symbol */}
+                    {}
                     {selectedAnswer === index &&
                     index !== currentQuestion.correctAnswerIndex ? (
                       <View style={styles.clear}>
@@ -316,7 +310,7 @@ const QuizTemplate = (props) => {
         )}
       </View>
 
-      {/* Arrow Right*/}
+      {}
       {index + 1 > data.length - 2 ? (
         <Pressable
           style={{ position: "absolute", bottom: "55%", right: 10 }}
@@ -357,26 +351,8 @@ const QuizTemplate = (props) => {
         </Pressable>
       )}
 
-      {/* Arrow Left*/}
-      {/* {index == 0 ? null : (
-        <Pressable
-          style={{ position: "absolute", bottom: "55%", left: 10 }}
-          onPress={() => {
-            {
-              score === 0 ? null : setScore(score - 10);
-            }
-            setIndex(index - 1);
-            restartGuess();
-            restartApple();
-          }}
-        >
-          <MaterialIcons
-            name="keyboard-arrow-left"
-            size={40}
-            color={colors.text}
-          />
-        </Pressable>
-      )} */}
+      {}
+      {}
     </View>
   );
 };

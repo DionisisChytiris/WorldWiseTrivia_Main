@@ -160,7 +160,6 @@ const AsiaMntEs = [
   },
   // {
   //     id: '17',
-  //     img: require('../../../assets/NaturalMnt/Asia/ZhangjiajieNationalForestPark.webp'),
   //     name: '',
   //     country: '',
   //     city: ''

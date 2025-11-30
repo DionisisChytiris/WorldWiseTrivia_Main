@@ -1,0 +1,9 @@
+node_modules
+.expo
+dist
+build
+*.log
+package-lock.json
+yarn.lock
+coverage
+.nyc_output

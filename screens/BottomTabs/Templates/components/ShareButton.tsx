@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { View, Text, Share, Alert, Pressable, StyleSheet } from "react-native";
 import Entypo from '@expo/vector-icons/Entypo';
+import logger from "../../../../utils/logger";
 
 const ShareButton = () => {
   const { t } = useTranslation();
@@ -13,16 +14,16 @@ const ShareButton = () => {
 
       if (result.action === Share.sharedAction) {
         if (result.activityType) {
-          console.log("Shared via", result.activityType);
+          logger.info("Shared via", result.activityType);
         } else {
-          console.log("Shared successfully");
+          logger.info("Shared successfully");
         }
       } else if (result.action === Share.dismissedAction) {
-        console.log("Share dismissed");
+        logger.debug("Share dismissed");
       }
     } catch (error) {
       Alert.alert("Error", "Something went wrong while sharing.");
-      console.error(error);
+      logger.error("Error sharing:", error);
     }
   };
 
@@ -39,7 +40,7 @@ const ShareButton = () => {
         <Entypo name="share" size={20} color="white" />
         <Text style={styles.shareButtonText}>{t("ShareButton")}</Text>
       </Pressable>
-      {/* <Button title="Share this app" onPress={onShare} /> */}
+      {}
     </View>
   );
 };

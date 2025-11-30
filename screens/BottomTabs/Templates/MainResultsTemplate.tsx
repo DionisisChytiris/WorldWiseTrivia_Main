@@ -6,20 +6,19 @@ import { useTheme } from "../../../utils/ThemeMode/ThemeProvider";
 import { useTranslation } from "react-i18next";
 import LottieView from "lottie-react-native";
 import * as StoreReview from "expo-store-review";
+import logger from "../../../utils/logger";
 import CustomeAlert from "../Templates/components/CustomAlert";
 import { useAppSelector, useAppDispatch } from "../../../ReduxSetUp/store";
 import {
   decrementCoins,
   saveCoins,
 } from "../../../ReduxSetUp/CoinsSlice/coinsSlice";
-// import { setQuizLock } from "../../../ReduxSetUp/QuizLockState/CapitalsQuizLockSlice";
 
 const MainResultsTemplate = (props: any) => {
   const navigation = useNavigation<any>();
   const { colors } = useTheme();
   const { t } = useTranslation();
   const [show, setShow] = useState(false);
-  // const quizLocks = useAppSelector((state) => state.quizLockCapitals);
   const dispatch = useAppDispatch();
   const quizLocks = props.quizLocks || {};
   const setQuizLock = props.setQuizLock;
@@ -35,7 +34,7 @@ const MainResultsTemplate = (props: any) => {
       if (await StoreReview.hasAction()) {
         StoreReview.requestReview();
       } else {
-        console.log("In-app review is not supported on this device.");
+        logger.warn("In-app review is not supported on this device.");
       }
     }
   };
@@ -107,11 +106,7 @@ const MainResultsTemplate = (props: any) => {
 
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
-      {/* {show ? (
-        <View style={{ position: "absolute", top: 0, left: 0 }}>
-          <CustomeAlert />
-        </View>
-      ) : null} */}
+      {}
       <View style={{ flexDirection: "row", gap: 10, marginBottom: 20 }}>
         <Text style={{ color: colors.text, fontWeight: "bold" }}>
           {t("quiz")}
@@ -271,24 +266,7 @@ const MainResultsTemplate = (props: any) => {
         </Pressable>
       )}
 
-      {/* {props.quizNum === "" ? null : (
-        <Pressable
-          onPress={() => navigation.navigate(props.quizNum)}
-          style={{
-            position: "absolute",
-            bottom: 30,
-            right: 30,
-            borderColor: colors.textDrawer,
-            borderWidth: 0.5,
-            borderRadius: 10,
-            paddingHorizontal: 10,
-            paddingVertical: 5,
-            zIndex: 99999,
-          }}
-        >
-          <Text style={{ color: colors.textDrawer }}>Next Quiz</Text>
-        </Pressable>
-      )} */}
+      {}
 
       {props.percentage > 60 ? (
         <View
@@ -312,13 +290,7 @@ const MainResultsTemplate = (props: any) => {
 };
 
 {
-  /* <Pressable
-  onPress={() => navigation.navigate(props.scrn)}
-  onPress={()=>navigation.navigate('CapitalsHome', {score1: score1Test, status: route.params.status})}
-  onPress={setItem}
->
-  <Text>Home</Text>
-</Pressable> */
+  
 }
 export default MainResultsTemplate;
 

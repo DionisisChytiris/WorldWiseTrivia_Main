@@ -2,6 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import { View, StyleSheet, Dimensions, Text } from "react-native";
 import { GLView } from "expo-gl";
 import { Renderer, TextureLoader } from "expo-three";
+import logger from "./logger";
 import {
   Scene,
   PerspectiveCamera,
@@ -19,31 +20,20 @@ import {
 
 const { width, height } = Dimensions.get("window");
 
-// export default function EarthScreen() {
 export default function EarthRotate() {
   const [isLoading, setIsLoading] = useState(true);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
-//   const createStarField = () => {
-//     const geometry = new BufferGeometry();
-//     const vertices = [];
 
-//     for (let i = 0; i < 1000; i++) {
-//       const x = (Math.random() - 0.5) * 2000;
-//       const y = (Math.random() - 0.5) * 2000;
-//       const z = (Math.random() - 0.5) * 2000;
 //       vertices.push(x, y, z);
 //     }
 
-//     geometry.setAttribute("position", new Float32BufferAttribute(vertices, 3));
 
-//     const material = new PointsMaterial({
 //       color: 0xffffff,
 //       size: 2,
 //       sizeAttenuation: false,
 //     });
 
-//     return new Points(geometry, material);
 //   };
 
   const onContextCreate = async (gl: any) => {
@@ -70,7 +60,6 @@ export default function EarthRotate() {
     camera.position.z = 5;
 
     // Add starfield
-    // const stars = createStarField();
     // scene.add(stars);
 
     // Create Earth geometry
@@ -94,7 +83,7 @@ export default function EarthRotate() {
       earthTexture.offset.set(0, 0);
       earthTexture.repeat.set(1, 1);
     } catch (error) {
-      console.warn("Failed to load Earth texture, using default material");
+      logger.warn("Failed to load Earth texture, using default material");
     }
 
     // Create Earth material

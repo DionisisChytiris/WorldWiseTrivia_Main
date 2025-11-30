@@ -98,14 +98,11 @@ const PhoneHelpOption = ({ helpText }) => {
   };
 
   // useEffect(() => {
-  //   const timeoutFc1 = setTimeout(() => {
   //     setTest(true);
   //   }, 4000);
-  //   const timeoutFc2 = setTimeout(() => {
   //     setTest1(true);
   //   }, 3000);
 
-  //   return () => {
   //     clearTimeout(timeoutFc1);
   //     clearTimeout(timeoutFc2);
   //   };
@@ -134,7 +131,7 @@ const PhoneHelpOption = ({ helpText }) => {
           </Pressable>
         </View>
       </View>
-      {/* {showPhone ? <PhoneHelp helpText1={helpText} /> : null} */}
+      {}
       <Modal
         isVisible={showPhone}
         onBackdropPress={() => {

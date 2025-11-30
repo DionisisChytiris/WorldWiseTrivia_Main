@@ -47,7 +47,6 @@ const QuizMainTemplate = (props) => {
   const condition = (item) => item.status == props.status;
   const filterdData = data.filter(condition);
   const [index, setIndex] = useState(0);
-  // const currentQuestion = data[index];
   const currentQuestion = filterdData[index];
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [answerStatus, setAnswerStatus] = useState(null);
@@ -124,8 +123,6 @@ const QuizMainTemplate = (props) => {
   }, [selectedAnswer]);
 
   // useEffect(() => {
-  //   if (selectedAnswer !== null) {
-  //     if (selectedAnswer === currentQuestion?.correctAnswerIndex) {
   //       setScore((score) => score + 10);
   //       setTimeout(()=>{dispatch(incrementCoins())},800);
   //       dispatch(saveCoins(coins));
@@ -247,7 +244,6 @@ const QuizMainTemplate = (props) => {
       setGuesses(guesses + 1);
     }
   };
-  // const appleRestart = ["🍎", "🍎", "🍎"];
 
   const restartApple = () => {
     const appleRestart = ["🍎", "🍎", "🍎"];
@@ -290,7 +286,6 @@ const QuizMainTemplate = (props) => {
   const handleFiftyFifty2 = () => runFiftyFifty(setFiftyFifty2, playSoundRoll2);
 
   //1 word-4 images
-  // const handleFiftyFifty = async () => {
   //   {
   //     soundActive ? null : await playSoundRoll1();
   //   }
@@ -298,22 +293,16 @@ const QuizMainTemplate = (props) => {
   //   {
   //     soundActive
   //       ? setTimeout(() => {
-  //           const wrongAnswers = currentQuestion.options
   //             .map((option, index) => index)
-  //             .filter((index) => index !== currentQuestion.correctAnswerIndex);
 
-  //           const randomWrongAnswers = wrongAnswers
   //             .sort(() => 0.5 - Math.random())
   //             .slice(0, 2);
 
   //           setFiftyFifty(randomWrongAnswers);
   //         }, 200)
   //       : setTimeout(() => {
-  //           const wrongAnswers = currentQuestion.options
   //             .map((option, index) => index)
-  //             .filter((index) => index !== currentQuestion.correctAnswerIndex);
 
-  //           const randomWrongAnswers = wrongAnswers
   //             .sort(() => 0.5 - Math.random())
   //             .slice(0, 2);
 
@@ -328,29 +317,22 @@ const QuizMainTemplate = (props) => {
   // };
 
   // 1 image- 4 words
-  // const handleFiftyFifty2 = async () => {
   //   {
   //     soundActive ? null : await playSoundRoll2();
   //   }
   //   {
   //     soundActive
   //       ? setTimeout(() => {
-  //           const wrongAnswers = currentQuestion.options
   //             .map((option, index) => index)
-  //             .filter((index) => index !== currentQuestion.correctAnswerIndex);
 
-  //           const randomWrongAnswers = wrongAnswers
   //             .sort(() => 0.5 - Math.random())
   //             .slice(0, 2);
 
   //           setFiftyFifty2(randomWrongAnswers);
   //         }, 200)
   //       : setTimeout(() => {
-  //           const wrongAnswers = currentQuestion.options
   //             .map((option, index) => index)
-  //             .filter((index) => index !== currentQuestion.correctAnswerIndex);
 
-  //           const randomWrongAnswers = wrongAnswers
   //             .sort(() => 0.5 - Math.random())
   //             .slice(0, 2);
 
@@ -389,7 +371,7 @@ const QuizMainTemplate = (props) => {
 
   return (
     <View style={[styles.container, { backgroundColor: colors.bgFlagsCnt }]}>
-      {/* Header */}
+      {}
       <View style={{ flexDirection: "row", gap: 30 }}>
         <Text style={{ color: colors.text }}>
           {index + 1} / {filteredLength}
@@ -400,20 +382,18 @@ const QuizMainTemplate = (props) => {
         <Text style={{ color: colors.text }}>
           <FontAwesome5 name="coins" size={12} color="gold" /> {coins}
         </Text>
-        {/* <Text style={{ color: colors.text }}>
-          {t("score")} {score}
-        </Text> */}
+        {}
         <Text style={{}}>{heart}</Text>
       </View>
 
-      {/* Show broken heart when you lose a life */}
+      {}
       {showHeart ? <BrokenHeart /> : null}
 
-      {/* Quiz Template */}
+      {}
       <View style={styles.quizContainer}>
-        {/* Guess Quiz */}
+        {}
         {currentQuestion.status === status && status === "Guess" && (
-          /* {currentQuestion.status  ==="Guess" ? ( */
+          
           <View>
             <View style={styles.guessContainer}>
               <View style={{ position: "absolute", top: 5, left: 15 }}>
@@ -424,7 +404,7 @@ const QuizMainTemplate = (props) => {
               <View style={{ position: "absolute", top: 5, right: 15 }}>
                 <Text style={{ color: colors.textDrawer }}>Hints: {hint}</Text>
               </View>
-              {/* <Text>{guesses}</Text> */}
+              {}
               <View style={{ position: "absolute", top: 25 }}>
                 <Text style={{ color: colors.text }}>
                   {currentQuestion.country}
@@ -472,13 +452,13 @@ const QuizMainTemplate = (props) => {
           </View>
         )}
 
-        {/* <GuessTemplate guessData={data} index={index}  /> */}
+        {}
 
-        {/* Flags Quiz (1WORD 4IMAGES)*/}
-        {/* {currentQuestion.status === "Flags"  && (  */}
+        {}
+        {}
         {currentQuestion.status === status && status === "Flags" && (
           <>
-            {/* Testing Material to help user to find correct answer */}
+            {}
             {currentQuestion.phoneHelp === "" ? null : (
               <PhoneHelpOption helpText={currentQuestion.phoneHelp} />
             )}
@@ -544,12 +524,12 @@ const QuizMainTemplate = (props) => {
                         </Text>
                       ) : null}
                     </Animated.View>
-                    {/* Correct (Tick) Symbol */}
+                    {}
                     {selectedAnswer === index &&
                     index === currentQuestion.correctAnswerIndex ? (
                       <SuccessAnimation />
                     ) : null}
-                    {/* Wrong (clear) Symbol */}
+                    {}
                     {selectedAnswer === index &&
                     index !== currentQuestion.correctAnswerIndex ? (
                       <FailAnimation />
@@ -572,11 +552,11 @@ const QuizMainTemplate = (props) => {
           </>
         )}
 
-        {/* Capital Quiz (1IMAGE 4WORDS)*/}
-        {/* {currentQuestion.status === "Capitals" && ( */}
+        {}
+        {}
         {currentQuestion.status === status && status === "Capitals" && (
           <>
-            {/* Testing Material to help user to find correct answer */}
+            {}
             {currentQuestion.phoneHelp === "" ? null : (
               <PhoneHelpOption helpText={currentQuestion.phoneHelp} />
             )}
@@ -634,9 +614,7 @@ const QuizMainTemplate = (props) => {
                         : styles.box2,
                     ]}
                   >
-                    {/* <View>
-                      <Image source={item.img} style={img} />
-                    </View> */}
+                    {}
                     <View
                       style={[
                         img,
@@ -679,12 +657,12 @@ const QuizMainTemplate = (props) => {
                         </Text>
                       ) : null}
                     </View>
-                    {/* Correct (Tick) Symbol */}
+                    {}
                     {selectedAnswer === index &&
                     index === currentQuestion.correctAnswerIndex ? (
                       <SuccessAnimation />
                     ) : null}
-                    {/* Wrong (clear) Symbol */}
+                    {}
                     {selectedAnswer === index &&
                     index !== currentQuestion.correctAnswerIndex ? (
                       <FailAnimation />
@@ -708,8 +686,8 @@ const QuizMainTemplate = (props) => {
         )}
       </View>
 
-      {/* Arrow Right*/}
-      {/* {index + 1 > data.length - 2 ? ( */}
+      {}
+      {}
       <>
         {index + 1 > filteredLength - 1 ? (
           <Pressable
@@ -759,26 +737,8 @@ const QuizMainTemplate = (props) => {
         )}
       </>
 
-      {/* Arrow Left*/}
-      {/* {index == 0 ? null : (
-        <Pressable
-          style={{ position: "absolute", bottom: "55%", left: 10 }}
-          onPress={() => {
-            {
-              score === 0 ? null : setScore(score - 10);
-            }
-            setIndex(index - 1);
-            restartGuess();
-            restartApple();
-          }}
-        >
-          <MaterialIcons
-            name="keyboard-arrow-left"
-            size={40}
-            color={colors.text}
-          />
-        </Pressable>
-      )} */}
+      {}
+      {}
     </View>
   );
 };
