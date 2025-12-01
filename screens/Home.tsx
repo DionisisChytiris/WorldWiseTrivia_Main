@@ -1,41 +1,40 @@
-import React, { useEffect, useRef, useState } from "react";
-import { useNavigation } from "@react-navigation/native";
-import { StackNavigationProp } from "@react-navigation/stack";
-import { AppNavigatorTypeList } from "../Types/AppNavigatorTypeList";
-import AsyncStorage from "@react-native-async-storage/async-storage";
-import { toggleBoolean } from "../ReduxSetUp/SoundVibration/VibrationSlice";
-import { useAppSelector, useAppDispatch } from "../ReduxSetUp/store";
-import { useTranslation } from "react-i18next";
-import logger from "../utils/logger";
+import React, { useEffect, useRef, useState } from 'react';
+import { useNavigation } from '@react-navigation/native';
+import { StackNavigationProp } from '@react-navigation/stack';
+import { AppNavigatorTypeList } from '../Types/AppNavigatorTypeList';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+// import { toggleBoolean } from "../ReduxSetUp/SoundVibration/VibrationSlice";
+import { useAppSelector } from '../ReduxSetUp/store';
+// import { useTranslation } from "react-i18next";
+import logger from '../utils/logger';
 import {
   View,
   Text,
   StyleSheet,
   TouchableOpacity,
-  Dimensions,
   StatusBar,
   Animated,
   Easing,
   Platform,
-} from "react-native";
-import { LinearGradient } from "expo-linear-gradient";
-import { Ionicons } from "@expo/vector-icons";
-import { RFValue } from "react-native-responsive-fontsize";
-import EarthRotate from '../utils/EarthRotate'
+} from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
+import { Ionicons } from '@expo/vector-icons';
+import { RFValue } from 'react-native-responsive-fontsize';
+import EarthRotate from '../utils/EarthRotate';
 
-const { width, height } = Dimensions.get("window");
+// const { width, height } = Dimensions.get("window");
 
-type HomeProp = StackNavigationProp<AppNavigatorTypeList, "Home">;
+type HomeProp = StackNavigationProp<AppNavigatorTypeList, 'Home'>;
 
 export default function Home() {
-  const coins = useAppSelector((state)=>state.coins.coins)
+  const coins = useAppSelector(state => state.coins.coins);
   const fadeAnim = useRef(new Animated.Value(0)).current;
   const slideAnim = useRef(new Animated.Value(50)).current;
   const scaleAnim = useRef(new Animated.Value(0.8)).current;
   const rotateAnim = useRef(new Animated.Value(0)).current;
   const navigation = useNavigation<HomeProp>();
-  const { t } = useTranslation();
-  const [name, setName] = useState("");
+  // const { t } = useTranslation();
+  const [name, setName] = useState('');
 
   useEffect(() => {
     // Start entrance animations
@@ -66,6 +65,7 @@ export default function Home() {
         useNativeDriver: true,
       })
     ).start();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleStartQuiz = () => {
@@ -83,14 +83,16 @@ export default function Home() {
       }),
     ]).start();
 
-    name
-      ? navigation.navigate("Draw", { name: name })
-      : navigation.navigate("MultiLanguage");
+    if (name) {
+      navigation.navigate('Draw', { name: name });
+    } else {
+      navigation.navigate('MultiLanguage');
+    }
   };
 
   const rotation = rotateAnim.interpolate({
     inputRange: [0, 1],
-    outputRange: ["0deg", "360deg"],
+    outputRange: ['0deg', '360deg'],
   });
 
   useEffect(() => {
@@ -99,14 +101,14 @@ export default function Home() {
 
   const getData = () => {
     try {
-      AsyncStorage.getItem("UserName").then((value) => {
+      AsyncStorage.getItem('UserName').then(value => {
         if (value != null) {
-          let user = JSON.parse(value);
+          const user = JSON.parse(value);
           setName(user.Name);
         }
       });
     } catch (e) {
-      logger.error("Error loading user name from AsyncStorage:", e);
+      logger.error('Error loading user name from AsyncStorage:', e);
     }
   };
 
@@ -114,7 +116,7 @@ export default function Home() {
     <View style={styles.container}>
       <StatusBar translucent backgroundColor="transparent" />
       <LinearGradient
-        colors={["#122646", "#144999", "#3b82f6"]}
+        colors={['#122646', '#144999', '#3b82f6']}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 1 }}
         style={styles.gradient}
@@ -129,8 +131,8 @@ export default function Home() {
           ]}
         >
           <View style={styles.header}>
-            <View style={{width: 300, height : 200, marginTop: -100, marginBottom: 20}}>
-              <EarthRotate/>
+            <View style={styles.earthContainer}>
+              <EarthRotate />
             </View>
 
             <Text style={styles.title}>World Wise</Text>
@@ -150,7 +152,7 @@ export default function Home() {
               <Text style={styles.statLabel}>Countries</Text>
             </View>
             <View style={styles.statCard}>
-              <Text style={[styles.statNumber,{color: 'gold'}]}>{coins}</Text>
+              <Text style={[styles.statNumber, styles.goldText]}>{coins}</Text>
               <Text style={styles.statLabel}>Coins</Text>
             </View>
           </View>
@@ -160,16 +162,9 @@ export default function Home() {
             onPress={handleStartQuiz}
             activeOpacity={0.8}
           >
-            <LinearGradient
-              colors={["#1037b9", "#050796"]}
-              style={styles.buttonGradient}
-            >
+            <LinearGradient colors={['#1037b9', '#050796']} style={styles.buttonGradient}>
               <Text style={styles.buttonText}>Start Quiz Adventure</Text>
-              <Animated.View
-                style={[
-                  { transform: [{ rotate: rotation }] },
-                ]}
-              >
+              <Animated.View style={{ transform: [{ rotate: rotation }] }}>
                 <Ionicons name="earth" size={35} color="#c5d8ec" />
               </Animated.View>
             </LinearGradient>
@@ -178,9 +173,7 @@ export default function Home() {
           {name && (
             <View style={styles.welcomeSection}>
               <Text style={styles.welcomeText}>Welcome back, {name}!</Text>
-              <Text style={styles.readyText}>
-                Ready to explore the world? 🌍
-              </Text>
+              <Text style={styles.readyText}>Ready to explore the world? 🌍</Text>
             </View>
           )}
         </Animated.View>
@@ -194,155 +187,143 @@ export default function Home() {
 }
 
 const styles = StyleSheet.create({
+  buttonGradient: {
+    alignItems: 'center',
+    borderRadius: 30,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    minWidth: 280,
+    paddingHorizontal: 40,
+    paddingVertical: RFValue(12),
+  },
+  buttonText: {
+    color: 'white',
+    fontSize: RFValue(14),
+    fontWeight: 'bold',
+    marginRight: 12,
+  },
+
+  // buttonIcon: {
+  //   marginLeft: 8,
+  // },
   container: {
     flex: 1,
   },
+  content: {
+    alignItems: 'center',
+    flex: 1,
+    justifyContent: 'center',
+    marginTop: Platform.OS === 'android' ? 0 : -80,
+  },
+  earthContainer: {
+    height: 200,
+    marginBottom: 20,
+    marginTop: -100,
+    width: 300,
+  },
+  footer: {
+    alignItems: 'center',
+  },
+  goldText: {
+    color: 'gold',
+  },
   gradient: {
     flex: 1,
-    justifyContent: "space-between",
-    paddingHorizontal: 20,
-    paddingTop: 60,
-    paddingBottom: 40,
-  },
-  decorativeElements: {
-    position: "absolute",
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
-  },
-  floatingIcon: {
-    position: "absolute",
-  },
-  topLeft: {
-    top: 120,
-    left: 30,
-  },
-  topRight: {
-    top: 180,
-    right: 40,
-  },
-  bottomLeft: {
-    bottom: 200,
-    left: 50,
-  },
-  content: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    marginTop: Platform.OS === "android" ? 0 : -80,
   },
   header: {
-    alignItems: "center",
+    alignItems: 'center',
     marginBottom: 40,
   },
-  logoContainer: {
-    marginBottom: 20,
-    padding: 20,
-    backgroundColor: "rgba(255, 255, 255, 0.1)",
-    borderRadius: 50,
-    borderWidth: 2,
-    borderColor: "rgba(193, 194, 196, 0.3)",
-  },
-  title: {
-    fontSize: RFValue(34),
-    fontWeight: "bold",
-    color: "white",
-    marginBottom: 8,
-    textAlign: "center",
-    textShadowColor: "rgba(0, 0, 0, 0.3)",
-    textShadowOffset: { width: 2, height: 2 },
-    textShadowRadius: 4,
-  },
-  subtitle: {
-    fontSize: RFValue(21),
-    fontWeight: "600",
-    color: "#6fbeff",
-    marginBottom: 16,
-    textAlign: "center",
-  },
-  tagline: {
-    fontSize: RFValue(14),
-    color: "rgba(255, 255, 255, 0.8)",
-    textAlign: "center",
-    paddingHorizontal: 20,
-    lineHeight: 22,
-  },
-  statsContainer: {
-    flexDirection: "row",
-    justifyContent: "space-around",
-    width: "100%",
-    marginBottom: 40,
-    gap: "3%",
-  },
-  statCard: {
-    alignItems: "center",
-    backgroundColor: "rgba(255, 255, 255, 0.1)",
-    padding: 16,
-    borderRadius: 16,
-    borderWidth: 1,
-    borderColor: "rgba(255, 255, 255, 0.2)",
-    minWidth: "32%",
-  },
-  statNumber: {
-    fontSize: RFValue(18),
-    fontWeight: "bold",
-    color: "#ffffff",
-    marginBottom: 4,
-  },
-  statLabel: {
-    fontSize: RFValue(10),
-    color: "rgba(255, 255, 255, 0.8)",
-    fontWeight: "500",
+  // logoContainer: {
+  //   backgroundColor: "rgba(255, 255, 255, 0.1)",
+  //   borderColor: "rgba(193, 194, 196, 0.3)",
+  //   borderRadius: 50,
+  //   borderWidth: 2,
+  //   marginBottom: 20,
+  //   padding: 20,
+  // },
+  readyText: {
+    color: 'rgba(255, 255, 255, 0.8)',
+    fontSize: RFValue(12),
+    textAlign: 'center',
   },
   startButton: {
-    marginBottom: 30,
     borderRadius: 30,
     elevation: 8,
-    shadowColor: "#10b981",
+    marginBottom: 30,
+    shadowColor: '#10b981',
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.3,
     shadowRadius: 8,
   },
-  buttonGradient: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "center",
-    paddingVertical: RFValue(12),
-    paddingHorizontal: 40,
-    borderRadius: 30,
-    minWidth: 280,
+  statCard: {
+    alignItems: 'center',
+    backgroundColor: 'rgba(255, 255, 255, 0.1)',
+    borderColor: 'rgba(255, 255, 255, 0.2)',
+    borderRadius: 16,
+    borderWidth: 1,
+    minWidth: '32%',
+    padding: 16,
   },
-  buttonText: {
+  statLabel: {
+    color: 'rgba(255, 255, 255, 0.8)',
+    fontSize: RFValue(10),
+    fontWeight: '500',
+  },
+  statNumber: {
+    color: '#ffffff',
+    fontSize: RFValue(18),
+    fontWeight: 'bold',
+    marginBottom: 4,
+  },
+  statsContainer: {
+    flexDirection: 'row',
+    gap: '3%',
+    justifyContent: 'space-around',
+    marginBottom: 40,
+    width: '100%',
+  },
+  subtitle: {
+    color: '#6fbeff',
+    fontSize: RFValue(21),
+    fontWeight: '600',
+    marginBottom: 16,
+    textAlign: 'center',
+  },
+  tagline: {
+    color: 'rgba(255, 255, 255, 0.8)',
     fontSize: RFValue(14),
-    fontWeight: "bold",
-    color: "white",
-    marginRight: 12,
+    lineHeight: 22,
+    paddingHorizontal: 20,
+    textAlign: 'center',
   },
-  buttonIcon: {
-    marginLeft: 8,
+  title: {
+    color: 'white',
+    fontSize: RFValue(34),
+    fontWeight: 'bold',
+    marginBottom: 8,
+    textAlign: 'center',
+    textShadowColor: 'rgba(0, 0, 0, 0.3)',
+    textShadowOffset: { width: 2, height: 2 },
+    textShadowRadius: 4,
   },
+
+  // buttonIcon: {
+  //   marginLeft: 8,
+  // },
   welcomeSection: {
-    alignItems: "center",
+    alignItems: 'center',
   },
   welcomeText: {
+    color: 'white',
     fontSize: RFValue(18),
-    fontWeight: "600",
-    color: "white",
+    fontWeight: '600',
     marginBottom: RFValue(10),
-    textAlign: "center",
-  },
-  readyText: {
-    fontSize: RFValue(12),
-    color: "rgba(255, 255, 255, 0.8)",
-    textAlign: "center",
-  },
-  footer: {
-    alignItems: "center",
+    textAlign: 'center',
   },
   yearText: {
+    color: 'rgba(255, 255, 255, 0.6)',
     fontSize: RFValue(10),
-    color: "rgba(255, 255, 255, 0.6)",
-    fontWeight: "500",
+    fontWeight: '500',
   },
 });
